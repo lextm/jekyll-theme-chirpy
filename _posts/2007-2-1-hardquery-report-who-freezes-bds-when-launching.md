@@ -43,7 +43,7 @@ Thanks again for your report.
 
 Best regards
 
-Lex Mark
+Lex Li
 
 2007.01.31
 

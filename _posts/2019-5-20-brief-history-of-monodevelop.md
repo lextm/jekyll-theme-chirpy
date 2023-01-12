@@ -4,9 +4,10 @@ title: Brief History of MonoDevelop
 tags: Linux Mono
 permalink: /brief-history-of-monodevelop-93b1d4011978
 excerpt_separator: <!--more-->
+image:
+  path: /images/construction-site.jpg
+  alt: Copyright © Lex Li. Construction site, Montreal.
 ---
-![img-description](/images/construction-site.jpg){: width="512" }
-_Copyright © Lex Li. Construction site, Montreal._
 
 There is [a Wikipedia article about MonoDevelop](https://en.wikipedia.org/wiki/MonoDevelop). However, I don't think it contains the necessary history events on this product, so here I provide an alternative version.
 <!--more-->

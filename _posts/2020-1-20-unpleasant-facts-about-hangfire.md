@@ -4,9 +4,10 @@ title: Unpleasant Facts about Hangfire
 tags: IIS ASP.NET
 permalink: /unpleasant-facts-about-hangfire-632a3228ff8a
 excerpt_separator: <!--more-->
+image:
+  path: /images/py1-pyramid.jpg
+  alt: Copyright © Lex Li. PY1 Pyramid show at Montreal.
 ---
-![img-description](/images/py1-pyramid.jpg){: width="512" }
-_Copyright © Lex Li. PY1 Pyramid show at Montreal._
 
 When people choose to use a framework, they are not only enjoying the benefits it brings, but also take ownership of the evil associated. Hangfire is one of such frameworks, so be caution.
 <!--more-->

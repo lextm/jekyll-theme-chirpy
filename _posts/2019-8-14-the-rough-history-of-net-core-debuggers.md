@@ -4,9 +4,10 @@ title: The Rough History of .NET Core Debuggers
 tags: Microsoft Visual-Studio .NET
 permalink: /the-rough-history-of-net-core-debuggers-b9fb206dc4aa
 excerpt_separator: <!--more-->
+image:
+  path: /images/pavillion-e-ets.jpg
+  alt: Copyright © Lex Li. Maison des étudiants - Pavillion E , ETS.
 ---
-![img-description](/images/pavillion-e-ets.jpg){: width="512" }
-_Copyright © Lex Li. Maison des étudiants - Pavillion E , ETS._
 
 There are several .NET Core debuggers out there from different vendors, and this post covers the major ones and their stories.
 <!--more-->

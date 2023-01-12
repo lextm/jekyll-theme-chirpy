@@ -4,9 +4,10 @@ title: The Horrible Facts on Visual Studio Setup Projects
 tags: Microsoft Visual-Studio Windows-Installer
 permalink: /the-horrible-facts-on-visual-studio-setup-projects-45e66fe86d8d
 excerpt_separator: <!--more-->
+image:
+  path: /images/seattle-public-library.jpg
+  alt: Copyright © Lex Li. Seattle Public Library.
 ---
-![img-description](/images/seattle-public-library.jpg){: width="512" }
-_Copyright © Lex Li. Seattle Public Library._
 
 Microsoft Windows requires software to be packed as installers so as to install easily for end users. The evolution of Windows leads to various installer technologies to be invented along the way, and around year 2000 [MSI](https://en.wikipedia.org/wiki/Windows_Installer) became the standard approach.
 <!--more-->

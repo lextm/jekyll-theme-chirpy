@@ -4,9 +4,10 @@ title: Behind The Scene of .NET Core Global Tools
 tags: .NET
 permalink: /behind-the-scene-of-net-core-global-tools-c098814c87b1
 excerpt_separator: <!--more-->
+image:
+  path: /images/winter-trees-3.jpg
+  alt: Copyright © Lex Li. Winter trees, Montreal.
 ---
-![img-description](/images/winter-trees-3.jpg){: width="512" }
-_Copyright © Lex Li. Winter trees, Montreal._
 
 I just [blogged about how I made Obfuscar a Global Tool](https://halfblood.pro/make-obfuscar-a-global-tool-in-net-core-1cc3ee2cfe30), and in this post I tried to reveal the technical details behind the scene.
 <!--more-->

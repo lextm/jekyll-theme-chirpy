@@ -4,9 +4,10 @@ title: Replacing Zapier With Azure Function
 tags: .NET Azure Visual-Studio
 permalink: /replacing-zapier-with-azure-function-23e8c66bd8bc
 excerpt_separator: <!--more-->
+image:
+  path: /images/canal-bridge.jpg
+  alt: Copyright © Lex Li. A bridge over the canal, Montreal.
 ---
-![img-description](/images/canal-bridge.jpg){: width="512" }
-_Copyright © Lex Li. A bridge over the canal, Montreal._
 
 I just blogged about that I used [Zapier to trigger VSTS build](https://halfblood.pro/ci-cd-pipeline-with-vsts-and-zapier-b81d341088dd), which works well. And I love it, except
 

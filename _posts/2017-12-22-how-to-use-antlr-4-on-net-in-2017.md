@@ -4,9 +4,10 @@ title: How to Use ANTLR 4 on .NET in 2017
 tags: Visual-Studio .NET
 permalink: /how-to-use-antlr-4-on-net-in-2017-d8bfe7efa74c
 excerpt_separator: <!--more-->
+image:
+  path: /images/oct-pujiang.jpg
+  alt: Copyright © Lex Li. OCT, Pujiang Town, Shanghai.
 ---
-![img-description](/images/oct-pujiang.jpg){: width="512" }
-_Copyright © Lex Li. OCT, Pujiang Town, Shanghai._
 
 I once blogged heavily about how to use ANTLR on .NET, and you can find [all links here](https://halfblood.pro/antlr-article-series-6f0f38a0a6da).
 

@@ -4,9 +4,10 @@ title: VSCode reStructuredText Extension, Synchronized Preview Support
 tags: Visual-Studio-Code reStructuredText
 permalink: /vscode-restructuredtext-extension-synchronized-preview-support-3f54ebdd3416
 excerpt_separator: <!--more-->
+image:
+  path: /images/doves-sunset.jpg
+  alt: Copyright © Lex Li. Doves in the sunset, Montreal.
 ---
-![img-description](/images/doves-sunset.jpg){: width="512" }
-_Copyright © Lex Li. Doves in the sunset, Montreal._
 
 I just shipped the 81.0.0 release of this extension. As it is worth a blog post, you can see how big the changes are there.
 <!--more-->

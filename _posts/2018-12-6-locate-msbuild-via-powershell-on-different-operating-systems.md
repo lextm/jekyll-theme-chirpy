@@ -4,9 +4,10 @@ title: Locate MSBuild via PowerShell on Different Operating Systems
 tags: Visual-Studio MSBuild PowerShell Windows Linux macOS Mono
 permalink: /locate-msbuild-via-powershell-on-different-operating-systems-140757bb8e18
 excerpt_separator: <!--more-->
+image:
+  path: /images/crossroad-wellington.jpg
+  alt: Copyright © Lex Li. Crossroad on rue Wellington, Montreal.
 ---
-![img-description](/images/crossroad-wellington.jpg){: width="512" }
-_Copyright © Lex Li. Crossroad on rue Wellington, Montreal._
 
 Today, PowerShell is a cross platform scripting engine, while MSBuild is also a cross platform build engine. Then how can we use PowerShell to locate MSBuild and compile the source code? You might think it is easy, but it turns out to be bit of difficult.
 <!--more-->

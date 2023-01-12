@@ -4,9 +4,10 @@ title: Everything You Might Need About IIS Server Header
 tags: Windows IIS nginx Microsoft
 permalink: /everything-you-might-need-about-iis-server-header-58ca268547be
 excerpt_separator: <!--more-->
+image:
+  path: /images/vancouver-convention-center.jpg
+  alt: Copyright © Lex Li. Vancouver Convention Center.
 ---
-![img-description](/images/vancouver-convention-center.jpg){: width="512" }
-_Copyright © Lex Li. Vancouver Convention Center._
 
 When testing some requests/responses on IIS with a good utility such as Telerik Fiddler, you might discover much more information than using a browser.
 <!--more-->

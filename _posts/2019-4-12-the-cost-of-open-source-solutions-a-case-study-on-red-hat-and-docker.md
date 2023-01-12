@@ -4,9 +4,10 @@ title: The Cost of Open Source Solutions, A Case Study on Red Hat and Docker
 tags: Linux Docker Red-Hat
 permalink: /the-cost-of-open-source-solutions-a-case-study-on-red-hat-and-docker-27f8cdad5969
 excerpt_separator: <!--more-->
+image:
+  path: /images/winter-trees-2.jpg
+  alt: Copyright © Lex Li. Winter trees, Montreal.
 ---
-![img-description](/images/winter-trees-2.jpg){: width="512" }
-_Copyright © Lex Li. Winter trees, Montreal._
 
 Open source movement changes how we produce software. Companies like Red Hat and Docker do make their source code publicly available, but using products from them is not free, and not even cheap. So if you do want to host an application on their platforms, learn how to calculate the cost is very important.
 <!--more-->

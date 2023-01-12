@@ -4,9 +4,10 @@ title: Wildcard Host Name Support in Old IIS Releases
 tags: Visual-Studio .NET IIS
 permalink: /wildcard-host-name-support-in-old-iis-releases-8e4448040b5a
 excerpt_separator: <!--more-->
+image:
+  path: /images/city-hall-toronto.jpg
+  alt: Copyright © Lex Li. City hall, Toronto.
 ---
-![img-description](/images/city-hall-toronto.jpg){: width="512" }
-_Copyright © Lex Li. City hall, Toronto._
 
 IIS 10 allows users to easily use [wildcard host names](https://docs.microsoft.com/iis/get-started/whats-new-in-iis-10/wildcard-host-header-support). Well, "why is it so late"? You might ask. I did not work on IIS, so I can only guess that the developers believe you can already support such on previous IIS releases. But how? Recently I have been using ARR a lot, so below I provide an approach to support wildcard host names via ARR.
 <!--more-->

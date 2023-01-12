@@ -4,9 +4,10 @@ title: Please Forget PHP Manager 1.x for IIS And Welcome PHP Manager 2.0 for IIS
 tags: PHP IIS
 permalink: /why-you-should-forget-php-manager-for-iis-953fae81b05b
 excerpt_separator: <!--more-->
+image:
+  path: /images/s-3rd-st.jpg
+  alt: Copyright © Lex Li. S 3rd St in Philadelphia
 ---
-![img-description](/images/s-3rd-st.jpg){: width="512" }
-_Copyright © Lex Li. S 3rd St in Philadelphia_
 
 PHP on IIS was something Microsoft promoted with lots of efforts. Tools like PHP Manager for IIS do help attract users. Even I [wrote about it](https://halfblood.pro/product-review-php-manager-for-iis-e17105c8f751) in 2011. However, time flies, and it is now time to say goodbye to it and let it die peacefully. Why?
 

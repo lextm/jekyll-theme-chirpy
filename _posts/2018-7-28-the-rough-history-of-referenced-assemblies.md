@@ -4,9 +4,10 @@ title: The Rough History of Referenced Assemblies
 tags: Visual-Studio MSBuild .NET Mono
 permalink: /the-rough-history-of-referenced-assemblies-7d752d92c18c
 excerpt_separator: <!--more-->
+image:
+  path: /images/clouds-canal.jpg
+  alt: Copyright © Lex Li. Clouds reflected in the canal, Montreal.
 ---
-![img-description](/images/clouds-canal.jpg){: width="512" }
-_Copyright © Lex Li. Clouds reflected in the canal, Montreal._
 
 This post tries to fill the gaps left in the compiler history post. You can find all other posts I wrote in [the index page](https://halfblood.pro/all-in-one-for-the-legends-of-net-materials-43c374a01433).
 <!--more-->

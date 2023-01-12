@@ -4,9 +4,10 @@ title: CI/CD Pipeline with VSTS and Zapier
 tags: Visual-Studio
 permalink: /ci-cd-pipeline-with-vsts-and-zapier-b81d341088dd
 excerpt_separator: <!--more-->
+image:
+  path: /images/summer-canal.jpg
+  alt: Copyright © Lex Li. The canal in the summer, Montreal.
 ---
-![img-description](/images/summer-canal.jpg){: width="512" }
-_Copyright © Lex Li. The canal in the summer, Montreal._
 
 I just [wrote about how I started to self host Sphinx sites on Azure App Service](https://halfblood.pro/self-hosting-sphinx-sites-on-azure-app-service-a05b9db25e9a). Here I am writing about how to set up CI/CD pipeline to make it perfect.
 <!--more-->

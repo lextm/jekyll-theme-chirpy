@@ -4,9 +4,10 @@ title: How to Use Private Repos as Submodules in VSTS
 tags: Visual-Studio
 permalink: /how-to-use-private-repos-as-submodules-in-vsts-fd69801e233f
 excerpt_separator: <!--more-->
+image:
+  path: /images/buddhist-statue.jpg
+  alt: Copyright © Lex Li. A smiling Buddhist statue.
 ---
-![img-description](/images/buddhist-statue.jpg){: width="512" }
-_Copyright © Lex Li. A smiling Buddhist statue._
 
 Well, while public repos work perfectly on VSTS, you will find trouble when adding private repos as submodules in your master repo, because passing user credentials in your build pipeline would kill you if you don't pay enough attention. Hope this post helps you out.
 <!--more-->

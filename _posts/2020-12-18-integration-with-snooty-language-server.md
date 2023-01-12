@@ -3,9 +3,10 @@ layout: post
 title: Integration with Snooty Language Server
 tags: Visual-Studio-Code
 excerpt_separator: <!--more-->
+image:
+  path: /images/marriage-place.jpg
+  alt: Copyright © Lex Li. A famous place to host marriage ceremonies, Montreal.
 ---
-![img-description](/images/marriage-place.jpg){: width="512" }
-_Copyright © Lex Li. A famous place to host marriage ceremonies, Montreal._
 
 [I wrote a language server prototype](https://halfblood.pro/a-new-restructuredtext-project-112e9ae52acb) for reStructuredText in 2017 (let's call it rst-antlr), which helped create some basic functionality in the reStructuredText VSCode extension. But in the next few years I didn't have too much time to extend it further.
 

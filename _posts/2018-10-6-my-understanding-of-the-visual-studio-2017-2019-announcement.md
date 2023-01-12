@@ -4,9 +4,10 @@ title: My Understanding of The Visual Studio 2017/2019 Announcements
 tags: Visual-Studio Microsoft
 permalink: /my-understanding-of-the-visual-studio-2017-2019-announcements-53846c20453c
 excerpt_separator: <!--more-->
+image:
+  path: /images/railway-bridge.jpg
+  alt: Copyright © Lex Li. Railway bridge and new moon, Montreal.
 ---
-![img-description](/images/railway-bridge.jpg){: width="512" }
-_Copyright © Lex Li. Railway bridge and new moon, Montreal._
 
 Visual Studio 2017 is a very important Visual Studio release, not only because that it delivers many unique features, but also [the way it is delivered](https://docs.microsoft.com/visualstudio/productinfo/vs2017-release-rhythm).
 <!--more-->

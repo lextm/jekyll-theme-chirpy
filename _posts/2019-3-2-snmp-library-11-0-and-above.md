@@ -4,9 +4,10 @@ title: "#SNMP Library, 11.0 and Above"
 tags: Visual-Studio .NET SNMP
 permalink: /snmp-library-11-0-and-above-96c31e9d11b8
 excerpt_separator: <!--more-->
+image:
+  path: /images/winter-branches.jpg
+  alt: Copyright © Lex Li. Tree branches in a winter night, Montreal.
 ---
-![img-description](/images/winter-branches.jpg){: width="512" }
-_Copyright © Lex Li. Tree branches in a winter night, Montreal._
 
 I just revised and published [release notes](https://github.com/lextudio/sharpsnmplib/releases) for #SNMP Library 11.0 and 11.1.
 <!--more-->

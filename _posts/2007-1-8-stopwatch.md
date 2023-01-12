@@ -14,7 +14,7 @@ excerpt_separator: <!--more-->
 ```csharp
 // lextm: this is stopwatch class.
 
-// Copyright © 2006–2007 Lex Mark
+// Copyright © 2006–2007 Lex Li
 
 //
 
@@ -233,7 +233,7 @@ Stopwatch.cs
 ```csharp
 // lextm: this is stopwatch class.
 
-// Copyright © 2006–2007 Lex Mark
+// Copyright © 2006–2007 Lex Li
 
 //
 
@@ -409,7 +409,7 @@ CustomState.cs
 ```csharp
 // lextm: this is custom state class.
 
-// Copyright © 2007 Lex Mark
+// Copyright © 2007 Lex Li
 
 //
 
@@ -475,7 +475,7 @@ Dead.cs
 ```csharp
 // lextm: this is dead state class.
 
-// Copyright © 2007 Lex Mark
+// Copyright © 2007 Lex Li
 
 //
 
@@ -559,7 +559,7 @@ Working.cs
 ```csharp
 // lextm: this is working state class.
 
-// Copyright © 2007 Lex Mark
+// Copyright © 2007 Lex Li
 
 //
 
@@ -669,7 +669,7 @@ Idle.cs
 ```csharp
 // lextm: this is idle state class.
 
-// Copyright © 2007 Lex Mark
+// Copyright © 2007 Lex Li
 
 //
 

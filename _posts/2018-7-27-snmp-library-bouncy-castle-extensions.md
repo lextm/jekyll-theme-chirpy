@@ -4,9 +4,10 @@ title: "#SNMP Library, Bouncy Castle Extensions"
 tags: Visual-Studio .NET SNMP
 permalink: /snmp-library-bouncy-castle-extensions-e85333583bb4
 excerpt_separator: <!--more-->
+image:
+  path: /images/washington-monument.jpg
+  alt: Copyright © Lex Li. Washington Monument.
 ---
-![img-description](/images/washington-monument.jpg){: width="512" }
-_Copyright © Lex Li. Washington Monument._
 
 Microsoft decided to make a few encryption algorithms obsolete in .NET Core. Everyone knows they did this for good. But the crude fact is that many existing things unfortunately depend on such algorithms, whether you like it or not.
 <!--more-->

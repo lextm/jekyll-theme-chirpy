@@ -4,9 +4,10 @@ title: Jexus Manager Update July 2018
 tags: Visual-Studio .NET IIS
 permalink: /jexus-manager-update-july-2018-597ff6bc1483
 excerpt_separator: <!--more-->
+image:
+  path: /images/st-john.jpg
+  alt: Copyright © Lex Li. The Cathedral Church of St. John the Divine, New York City
 ---
-![img-description](/images/st-john.jpg){: width="512" }
-_Copyright © Lex Li. The Cathedral Church of St. John the Divine, New York City_
 
 I know Jexus Manager hasn't been updated for a while. There are many reasons, and the biggest one of them is that I was working on some huge changes but I didn't know how easy/difficult it was.
 <!--more-->

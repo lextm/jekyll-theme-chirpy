@@ -4,9 +4,10 @@ title: Second Update on Offline Publishing ASP.NET Core Apps
 tags: Visual-Studio .NET
 permalink: /second-update-on-offline-publishing-asp-net-core-apps-e79c682fd287
 excerpt_separator: <!--more-->
+image:
+  path: /images/place-des-canotiers.jpg
+  alt: Copyright © Lex Li. Place des Canotiers, Quebec City
 ---
-![img-description](/images/place-des-canotiers.jpg){: width="512" }
-_Copyright © Lex Li. Place des Canotiers, Quebec City_
 
 I [posted about offline publishing ASP.NET Core web apps](https://halfblood.pro/update-on-offline-publishing-asp-net-core-apps-e7894a84bd46) earlier. It was a migration from 2.0.5 to 2.0.6. And now we need a new post, to upgrade from 2.0.6 to 2.1.0.
 <!--more-->

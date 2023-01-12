@@ -4,9 +4,10 @@ title: Signing Your Code For The Good, And The Bad
 tags: Visual-Studio .NET
 permalink: /signing-your-code-for-the-good-and-the-bad-350b25d2b38d
 excerpt_separator: <!--more-->
+image:
+  path: /images/trees-moon.jpg
+  alt: Copyright © Lex Li. Winter-trees and the moon, Montreal.
 ---
-![img-description](/images/trees-moon.jpg){: width="512" }
-_Copyright © Lex Li. Winter-trees and the moon, Montreal._
 
 Signing your code is a very important step to confirm that you ship something that can be trusted by others. However, it comes at a price, because you need to pay a certificate authority for a valid certificate.
 

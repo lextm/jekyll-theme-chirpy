@@ -4,9 +4,10 @@ title: How to Abort/Cancel A Build In VSTS
 tags: Visual-Studio
 permalink: /how-to-abort-cancel-a-build-in-vsts-7a41fce5a42c
 excerpt_separator: <!--more-->
+image:
+  path: /images/grass-sun.jpg
+  alt: Copyright © Lex Li. A sunny day, Montreal.
 ---
-![img-description](/images/grass-sun.jpg){: width="512" }
-_Copyright © Lex Li. A sunny day, Montreal._
 
 I wrote about [how to build a pipeline to host multiple Sphinx sites on Azure App Service](https://halfblood.pro/ci-cd-pipeline-with-vsts-and-zapier-b81d341088dd). But a remaining item is that how to abort a build when nothing (in submodules) is changed.
 <!--more-->

@@ -4,9 +4,10 @@ title: Migrating Jexus Manager to .NET Core 3.0
 tags: Visual-Studio .NET IIS
 permalink: /migrating-jexus-manager-to-net-core-3-0-f1c41ae50572
 excerpt_separator: <!--more-->
+image:
+  path: /images/mont-royal.jpg
+  alt: Copyright © Lex Li. Mont Royal, Montreal.
 ---
-![img-description](/images/mont-royal.jpg){: width="512" }
-_Copyright © Lex Li. Mont Royal, Montreal._
 
 Microsoft shipped .NET Core 3.0 Preview 1 with Windows Forms and WPF support. So immediately I started to migrate Jexus Manager to this new platform. A few hours ago [Jexus Manager 13.0.0 Preview 1](https://github.com/jexuswebserver/JexusManager/issues/104) was released, which runs fine on .NET Core 3.0 Preview 1.
 <!--more-->

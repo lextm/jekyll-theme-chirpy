@@ -4,9 +4,10 @@ title: New Screenshot of Jexus Manager
 tags: Visual-Studio .NET IIS
 permalink: /new-screenshot-of-jexus-manager-b23da44dee1f
 excerpt_separator: <!--more-->
+image:
+  path: /images/jexus-manager.jpg
+  alt: Copyright © Lex Li. Jexus Manager.
 ---
-![img-description](/images/jexus-manager.jpg){: width="512" }
-_Copyright © Lex Li. Jexus Manager._
 
 The screenshot used in Jexus Manager homepage and documentation has just been replaced by the one above. It is time to use this new version, as many important changes are reflected.
 <!--more-->

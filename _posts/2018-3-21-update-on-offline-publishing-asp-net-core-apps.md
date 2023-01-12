@@ -4,9 +4,10 @@ title: Update on Offline Publishing ASP.NET Core Apps
 tags: .NET
 permalink: /update-on-offline-publishing-asp-net-core-apps-e7894a84bd46
 excerpt_separator: <!--more-->
+image:
+  path: /images/linus-bikes.jpg
+  alt: Copyright © Lex Li. Linus bikes in Boston.
 ---
-![img-description](/images/linus-bikes.jpg){: width="512" }
-_Copyright © Lex Li. Linus bikes in Boston._
 
 I [blogged about how to publish an ASP.NET Core app against an internal NuGet server](https://halfblood.pro/offline-publishing-asp-net-core-apps-cf22f45158af).
 

@@ -4,9 +4,10 @@ title: The Horrible Story of Publishing .NET Core Web Apps For Beginners
 tags: Visual-Studio .NET IIS
 permalink: /the-horrible-story-of-publishing-net-core-web-apps-for-beginners-6121662dd8c4
 excerpt_separator: <!--more-->
+image:
+  path: /images/snow-ladder.jpg
+  alt: Copyright © Lex Li. Snow covered ladder in Quebec City.
 ---
-![img-description](/images/snow-ladder.jpg){: width="512" }
-_Copyright © Lex Li. Snow covered ladder in Quebec City._
 
 Generally speaking, ASP.NET Core is cool, and the recent 2.1 release is even cooler with all kinds of new goodies. However, this post is not aiming to praise Microsoft on what they do the best, but the worst currently for ASP.NET Core/IIS beginners.
 <!--more-->

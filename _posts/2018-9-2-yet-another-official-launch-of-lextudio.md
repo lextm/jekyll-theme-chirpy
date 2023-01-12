@@ -4,9 +4,10 @@ title: Yet Another Official Launch of LeXtudio
 tags: Others
 permalink: /yet-another-official-launch-of-lextudio-77ca144b7f51
 excerpt_separator: <!--more-->
+image:
+  path: /images/goose-canal.jpg
+  alt: Copyright © Lex Li. Iced canal, Montreal.
 ---
-![img-description](/images/goose-canal.jpg){: width="512" }
-_Copyright © Lex Li. Iced canal, Montreal._
 
 I started to use the brand LeXtudio more than a decade ago, when I worked on Code Beautifier Collection, which was a popular Delphi extension in 2005.
 <!--more-->

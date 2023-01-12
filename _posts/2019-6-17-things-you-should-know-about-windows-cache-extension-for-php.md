@@ -4,9 +4,10 @@ title: Things You Should Know About Windows Cache Extension for PHP
 tags: IIS .NET ASP.NET
 permalink: /things-you-should-know-about-windows-cache-extension-for-php-93b7e013ea4c
 excerpt_separator: <!--more-->
+image:
+  path: /images/le-village-olympique.jpg
+  alt: Copyright © Lex Li. Le Village Olympique, Montreal.
 ---
-![img-description](/images/le-village-olympique.jpg){: width="512" }
-_Copyright © Lex Li. Le Village Olympique, Montreal._
 
 When Microsoft decided to bring PHP to Windows/IIS, they also created a key component called WinCache, which is a separate open source project. Though its development hasn't been quite active, it is still used by a lot of users.
 <!--more-->

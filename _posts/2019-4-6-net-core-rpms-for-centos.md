@@ -4,9 +4,10 @@ title: .NET Core RPMs for CentOS
 tags: Linux Red-Hat .NET
 permalink: /net-core-rpms-for-centos-1c40862e8166
 excerpt_separator: <!--more-->
+image:
+  path: /images/canada-flag.jpg
+  alt: Copyright © Lex Li. Canada flag in a snowy day, Montreal.
 ---
-![img-description](/images/canada-flag.jpg){: width="512" }
-_Copyright © Lex Li. Canada flag in a snowy day, Montreal._
 
 It is very important to learn what to install on a CentOS if you want to deploy a .NET Core application or set up a development environment there. So here we quickly go over the necessary details.
 <!--more-->

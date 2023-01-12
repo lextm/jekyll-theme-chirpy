@@ -4,9 +4,10 @@ title: Make Obfuscar A Global Tool in.NET Core
 tags: .NET
 permalink: /make-obfuscar-a-global-tool-in-net-core-1cc3ee2cfe30
 excerpt_separator: <!--more-->
+image:
+  path: /images/night-montreal.jpg
+  alt: Copyright © Lex Li. One night, Montreal.
 ---
-![img-description](/images/night-montreal.jpg){: width="512"}
-_Copyright © Lex Li. One night, Montreal._
 
 In the past it is hard to distribute command line utilities for developers. For example, when I started to work on Obfuscar, there was hardly a way to release the tool to end users and provide a simple update mechanism.
 

@@ -4,9 +4,10 @@ title: What Does .NET 5 Mean to You
 tags: Linux Mono .NET ASP.NET
 permalink: /what-does-net-5-mean-to-you-c63d06b63285
 excerpt_separator: <!--more-->
+image:
+  path: /images/tree-reflection.jpg
+  alt: Copyright © Lex Li. Tree reflection, Montreal.
 ---
-![img-description](/images/tree-reflection.jpg){: width="512" }
-_Copyright © Lex Li. Tree reflection, Montreal._
 
 On Monday, [Microsoft announced .NET 5](https://devblogs.microsoft.com/dotnet/introducing-net-5/), the next major release of its popular .NET Core platform.
 

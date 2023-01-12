@@ -4,9 +4,10 @@ title: The Challenges to Enable 'Open With Windows Terminal'"
 tags: Windows PowerShell
 permalink: /the-challenges-to-enable-open-with-windows-terminal-8090b2d92d5a
 excerpt_separator: <!--more-->
+image:
+  path: /images/canadiens-montreal.jpg
+  alt: Copyright © Lex Li. Tour des Canadiens Condos in Montreal.
 ---
-![img-description](/images/canadiens-montreal.jpg){: width="512" }
-_Copyright © Lex Li. Tour des Canadiens Condos in Montreal._
 
 Microsoft have created several interesting open source projects in the past few years, and [Windows Terminal](https://github.com/microsoft/terminal) is surely one of the most wanted.
 

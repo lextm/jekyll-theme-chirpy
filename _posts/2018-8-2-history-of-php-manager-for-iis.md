@@ -4,9 +4,10 @@ title: History of PHP Manager for IIS
 tags: PHP IIS
 permalink: /history-of-php-manager-for-iis-7e29bd9828f0
 excerpt_separator: <!--more-->
+image:
+  path: /images/wellington-ann.jpg
+  alt: Copyright © Lex Li. Crossroad on rue Wellington, Montreal.
 ---
-![img-description](/images/wellington-ann.jpg){: width="512" }
-_Copyright © Lex Li. Crossroad on rue Wellington, Montreal._
 
 > Ironically [I suggested people to avoid PHP Manager](https://halfblood.pro/why-you-should-forget-php-manager-for-iis-953fae81b05b), but later took over the project.
 <!--more-->

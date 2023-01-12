@@ -4,10 +4,10 @@ title: The End of MonoDevelop
 tags: Mono Microsoft Linux Xamarin
 permalink: /the-end-of-monodevelop-80b383dab34b
 excerpt_separator: <!--more-->
+image: 
+  path: /images/riverside.jpg
+  alt: Copyright © Lex Li. River side, Montreal.
 ---
-
-![img-description](/images/riverside.jpg){: width="512" }
-_Copyright © Lex Li. River side, Montreal._
 
 Microsoft abandoned [MonoDevelop GitHub repository](https://github.com/mono/monodevelop/graphs/contributors) earlier this year, and we can see no commit was pushed since February. However, there is no official announcement from any Microsoft channel on why that happened.
 <!--more-->

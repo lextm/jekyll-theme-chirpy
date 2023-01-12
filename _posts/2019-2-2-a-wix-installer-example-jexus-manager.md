@@ -4,9 +4,10 @@ title: A WiX Installer Example, Jexus Manager
 tags: Visual-Studio Windows-Installer
 permalink: /a-wix-installer-example-jexus-manager-640b6586c27c
 excerpt_separator: <!--more-->
+image:
+  path: /images/ikea-montreal.jpg
+  alt: Copyright © Lex Li. IKEA store, Montreal.
 ---
-![img-description](/images/ikea-montreal.jpg){: width="512" }
-_Copyright © Lex Li. IKEA store, Montreal._
 
 Jexus Manager has been shipped as a ZIP package for long. Such a shipping method is very popular, as users can unzip the contents and run from a suitable location immediately. Tools like ILSpy also ship their binaries in this way.
 
