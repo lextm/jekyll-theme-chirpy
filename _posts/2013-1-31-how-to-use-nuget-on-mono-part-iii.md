@@ -1,0 +1,25 @@
+---
+layout: post
+title: "How to Use NuGet on Mono, Part III"
+tags: Mono .NET
+permalink: /how-to-use-nuget-on-mono-part-iii-bc1d14e79db4
+excerpt_separator: <!--more-->
+---
+[Update: Microsoft starts to officially support Mono, so please simply use latest NuGet executable such as 3.5]
+
+> In [part I](/how-to-use-nuget-on-mono-part-i-8d2cd63bd1e0) and [part II](/how-to-use-nuget-on-mono-part-ii-1e71e55757bd) I have already mentioned the steps you need to follow. This post only described how to find out that Microsoft.Build.dll is missing.
+
+On openSUSE (12.2) it is easy to find that xbuild and Microsoft.Build.Framework.dll is available under mono-devel package,
+
+```
+lextm@linux-gtil:~> rpm -ql mono-devel | grep xbuild
+```
+
+Then it is obvious that Microsoft.Build.dll is not within this package,
+
+```
+lextm@linux-gtil:~> rpm -ql mono-devel | grep Microsoft.Build*
+```
+
+For Ubuntu, the package structure is different. xbuild is in mono-xbuild, while Microsoft.Build.* are split into several packages such as mono-xbuild, lib-mono-microsoft-build-framework4.0-cil, and so on. I have to use which xbuild and dpkg -S /usr/bin/xbuild to locate the package name, which is not intuitive.
+<!--more-->
