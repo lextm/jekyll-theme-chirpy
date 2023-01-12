@@ -11,197 +11,112 @@ excerpt_separator: <!--more-->
 <!--more-->
 
 从感觉来看，向着State模式前进总是可以的。所以开始的时候加入了一些状态的东西，不过仔细看起来还是问题不少。
+
 ```csharp
 // lextm: this is stopwatch class.
-
 // Copyright © 2006–2007 Lex Li
-
 //
-
 // This library is free software; you can redistribute it and/or
-
 // modify it under the terms of the GNU Lesser General Public
-
 // License as published by the Free Software Foundation; either
-
 // version 2.1 of the License, or (at your option) any later version.
-
 //
-
 // This library is distributed in the hope that it will be useful,
-
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
-
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
-
 // Lesser General Public License for more details.
-
 //
-
 // You should have received a copy of the GNU Lesser General Public
-
 // License along with this library; if not, write to the Free Software
-
 // Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111–1307
 
 using System;
 
 namespace Lextm.Diagnostics {
 
-///
-
-/// Stopwatch class.
-
-///
-
-public class Stopwatch {
-
-///
-
-/// Constructor.
-
-///
-
-public Stopwatch( ) {}
-
-///
-
-/// Starts the timing.
-
-///
-
-///
-
-///
-
-///
-
-///
-
-public void Restart( ) {
-
-internalState = new State();
-
-internalState.Start();
-
-}
-
-///
-
-/// Stops the timing.
-
-///
-
-/// Once stopped, you have to it.
-
-///
-
-public void Stop( ) {
-
-internalState.Stop();
-
-internalState = null;
-
-}
-
-///
-
-/// Resumes a timing.
-
-///
-
-///
-
-public void Resume( ) {
-
-if (internalState != null) {
-
-internalState.Wake();
-
-}
-
-}
-
-///
-
-/// Suspends timing.
-
-///
-
-///
-
-public void Suspend( ) {
-
-if (internalState != null) {
-
-internalState.Sleep(null);
-
-}
-
-}
-
-///
-
-/// Count in milliseconds.
-
-///
-
-/// This counts from the beginning of timing.
-
-///
-
-public int Value {
-
-get {
-
-if (internalState == null) {
-
-return 0;
-
-} else {
-
-return internalState.GetValue();
-
-}
-
-}
-
-}
-
-///
-
-/// Interval in milliseconds.
-
-///
-
-///
-
-/// This returns a count of interval since last call of this function.
-
-public int Interval {
-
-get {
-
-if (internalState == null) {
-
-return 0;
-
-} else {
-
-return internalState.GetInterval();
-
-}
-
-}
-
-}
-
-private State1 internalState;
-
-}
-
+    ///
+    /// Stopwatch class.
+    ///
+    public class Stopwatch {
+
+        ///
+        /// Constructor.
+        ///
+        public Stopwatch( ) {}
+
+        ///
+        /// Starts the timing.
+        ///
+        public void Restart( ) {
+            internalState = new State();
+            internalState.Start();
+        }
+
+        ///
+        /// Stops the timing.
+        ///
+        /// Once stopped, you have to it.
+        ///
+        public void Stop( ) {
+            internalState.Stop();
+            internalState = null;
+        }
+
+        ///
+        /// Resumes a timing.
+        ///
+        ///
+        public void Resume( ) {
+            if (internalState != null) {
+                internalState.Wake();
+            }
+        }
+
+        ///
+        /// Suspends timing.
+        ///
+        ///
+        public void Suspend( ) {
+            if (internalState != null) {
+                internalState.Sleep(null);
+            }
+        }
+
+        ///
+        /// Count in milliseconds.
+        ///
+        /// This counts from the beginning of timing.
+        ///
+        public int Value {
+            get {
+                if (internalState == null) {
+                    return 0;
+                } else {
+                    return internalState.GetValue();
+                }
+            }
+        }
+
+        ///
+        /// Interval in milliseconds.
+        ///
+        ///
+        /// This returns a count of interval since last call of this function.
+        public int Interval {
+            get {
+                if (internalState == null) {
+                    return 0;
+                } else {
+                    return internalState.GetInterval();
+                }
+            }
+        }
+
+        private State1 internalState;
+    }
 }
 ```
+
 看看上面的代码你可以感觉到两种明显的Bad Smell。
 
 首先，太多的if == null判断。熟悉模式的同志自然看出可以使用Null Object――不过还是按照Martin Fowler的习惯叫作Special Cases更好。
@@ -232,552 +147,341 @@ _Figure 2: Stopwatch classes._
 Stopwatch.cs
 ```csharp
 // lextm: this is stopwatch class.
-
 // Copyright © 2006–2007 Lex Li
-
 //
-
 // This library is free software; you can redistribute it and/or
-
 // modify it under the terms of the GNU Lesser General Public
-
 // License as published by the Free Software Foundation; either
-
 // version 2.1 of the License, or (at your option) any later version.
-
 //
-
 // This library is distributed in the hope that it will be useful,
-
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
-
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
-
 // Lesser General Public License for more details.
-
 //
-
 // You should have received a copy of the GNU Lesser General Public
-
 // License along with this library; if not, write to the Free Software
-
 // Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111–1307
 
 using System;
 
 namespace Lextm.Diagnostics {
 
-///
-
-/// Stopwatch class.
-
-///
-
-public class Stopwatch {
-
-///
-
-/// Constructor.
-
-///
-
-public Stopwatch( ) {
-
-internalState = new Dead();
-
-}
-
-///
-
-/// Starts the timing.
-
-///
-
-///
-
-///
-
-///
-
-///
-
-/// If it is working, it will ignore other calls.
-
-public void Start( ) {
-
-internalState.Start(this);
-
-}
-
-///
-
-/// Stops the timing.
-
-///
-
-/// Once stopped, you have to it.
-
-///
-
-public void Stop( ) {
-
-internalState.Stop(this);
-
-}
-
-///
-
-/// Resumes a timing.
-
-///
-
-///
-
-public void Resume( ) {
-
-internalState.Resume(this);
-
-}
-
-///
-
-/// Suspends timing.
-
-///
-
-///
-
-public void Suspend( ) {
-
-internalState.Suspend(this);
-
-}
-
-///
-
-/// Count in milliseconds.
-
-///
-
-/// This counts from the beginning of timing.
-
-///
-
-public int Value {
-
-get {
-
-return internalState.GetValue();
-
-}
-
-}
-
-///
-
-/// Interval in milliseconds.
-
-///
-
-///
-
-/// This returns a count of interval since last call of this function.
-
-public int Interval {
-
-get {
-
-return internalState.GetInterval();
-
-}
-
-}
-
-private Lextm.Diagnostics.CustomState internalState;
-
-internal void SetState( CustomState state ) {
-
-this.internalState = state;
-
-}
-
-}
-
+    ///
+    /// Stopwatch class.
+    ///
+    public class Stopwatch {
+
+        ///
+        /// Constructor.
+        ///
+        public Stopwatch( ) {
+            internalState = new Dead();
+        }
+
+        ///
+        /// Starts the timing.
+        ///
+        /// If it is working, it will ignore other calls.
+        public void Start( ) {
+            internalState.Start(this);
+        }
+
+        ///
+        /// Stops the timing.
+        ///
+        /// Once stopped, you have to it.
+        ///
+        public void Stop( ) {
+            internalState.Stop(this);
+        }
+
+        ///
+        /// Resumes a timing.
+        ///
+        ///
+        public void Resume( ) {
+            internalState.Resume(this);
+        }
+
+        ///
+        /// Suspends timing.
+        ///
+        ///
+        public void Suspend( ) {
+            internalState.Suspend(this);
+        }
+
+        ///
+        /// Count in milliseconds.
+        ///
+        /// This counts from the beginning of timing.
+        ///
+        public int Value {
+            get {
+                return internalState.GetValue();
+            }
+        }
+
+        ///
+        /// Interval in milliseconds.
+        ///
+        ///
+        /// This returns a count of interval since last call of this function.
+        public int Interval {
+            get {
+                return internalState.GetInterval();
+            }
+        }
+
+        private Lextm.Diagnostics.CustomState internalState;
+
+        internal void SetState( CustomState state ) {
+            this.internalState = state;
+        }
+    }
 }
 ```
 CustomState.cs
+
 ```csharp
 // lextm: this is custom state class.
-
 // Copyright © 2007 Lex Li
-
 //
-
 // This library is free software; you can redistribute it and/or
-
 // modify it under the terms of the GNU Lesser General Public
-
 // License as published by the Free Software Foundation; either
-
 // version 2.1 of the License, or (at your option) any later version.
-
 //
-
 // This library is distributed in the hope that it will be useful,
-
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
-
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
-
 // Lesser General Public License for more details.
-
 //
-
 // You should have received a copy of the GNU Lesser General Public
-
 // License along with this library; if not, write to the Free Software
-
 // Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111–1307
 
 namespace Lextm.Diagnostics {
 
-///
+    ///
+    /// Base class for stopwatch states.
+    ///
+    internal abstract class CustomState {
 
-/// Base class for stopwatch states.
+        public abstract int GetInterval( );
 
-///
+        public abstract void Suspend( Lextm.Diagnostics.Stopwatch context );
 
-internal abstract class CustomState {
+        public abstract void Resume( Lextm.Diagnostics.Stopwatch context );
 
-public abstract int GetInterval( );
+        public abstract void Stop( Lextm.Diagnostics.Stopwatch context );
 
-public abstract void Suspend( Lextm.Diagnostics.Stopwatch context );
+        public abstract void Start( Lextm.Diagnostics.Stopwatch context );
 
-public abstract void Resume( Lextm.Diagnostics.Stopwatch context );
+        public abstract int GetValue( );
 
-public abstract void Stop( Lextm.Diagnostics.Stopwatch context );
-
-public abstract void Start( Lextm.Diagnostics.Stopwatch context );
-
-public abstract int GetValue( );
-
-public static void SetState( Stopwatch context, CustomState state ) {
-
-context.SetState(state);
-
-}
-
-}
-
+        public static void SetState( Stopwatch context, CustomState state ) {
+            context.SetState(state);
+        }
+    }
 }
 ```
+
 Dead.cs
+
 ```csharp
 // lextm: this is dead state class.
-
 // Copyright © 2007 Lex Li
-
 //
-
 // This library is free software; you can redistribute it and/or
-
 // modify it under the terms of the GNU Lesser General Public
-
 // License as published by the Free Software Foundation; either
-
 // version 2.1 of the License, or (at your option) any later version.
-
 //
-
 // This library is distributed in the hope that it will be useful,
-
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
-
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
-
 // Lesser General Public License for more details.
-
 //
-
 // You should have received a copy of the GNU Lesser General Public
-
 // License along with this library; if not, write to the Free Software
-
 // Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111–1307
 
 namespace Lextm.Diagnostics {
 
-///
+    ///
+    /// The dead state.
+    ///
+    /// A stopwatch is in this state before and after
+    /// . As a result , ,
+    /// calls will be ignored.
+    internal class Dead : CustomState {
 
-/// The dead state.
+        public override void Suspend( Lextm.Diagnostics.Stopwatch context ) {
+        }
 
-///
+        public override void Resume( Lextm.Diagnostics.Stopwatch context ) {
+        }
 
-/// A stopwatch is in this state before and after
+        public override void Stop( Lextm.Diagnostics.Stopwatch context ) {
+        }
 
-/// . As a result , ,
+        public override int GetInterval( ) {
+            return 0;
+        }
 
-/// calls will be ignored.
+        public override void Start( Lextm.Diagnostics.Stopwatch context ) {
+            etState(context, new Working());
+        }
 
-internal class Dead : CustomState {
-
-public override void Suspend( Lextm.Diagnostics.Stopwatch context ) {
-
-}
-
-public override void Resume( Lextm.Diagnostics.Stopwatch context ) {
-
-}
-
-public override void Stop( Lextm.Diagnostics.Stopwatch context ) {
-
-}
-
-public override int GetInterval( ) {
-
-return 0;
-
-}
-
-public override void Start( Lextm.Diagnostics.Stopwatch context ) {
-
-SetState(context, new Working());
-
-}
-
-public override int GetValue( ) {
-
-return 0;
-
-}
-
-}
-
+        public override int GetValue( ) {
+            return 0;
+        }
+    }
 }
 ```
+
 Working.cs
+
 ```csharp
 // lextm: this is working state class.
-
 // Copyright © 2007 Lex Li
-
 //
-
 // This library is free software; you can redistribute it and/or
-
 // modify it under the terms of the GNU Lesser General Public
-
 // License as published by the Free Software Foundation; either
-
 // version 2.1 of the License, or (at your option) any later version.
-
 //
-
 // This library is distributed in the hope that it will be useful,
-
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
-
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
-
 // Lesser General Public License for more details.
-
 //
-
 // You should have received a copy of the GNU Lesser General Public
-
 // License along with this library; if not, write to the Free Software
-
 // Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111–1307
 
 using System;
 
 namespace Lextm.Diagnostics {
 
-///
+    ///
+    /// The working state.
+    ///
+    /// and calls are ignored.
+    internal class Working : CustomState {
 
-/// The working state.
+        private readonly int lastTick;
+        private int lastValueBeforeInterval;
 
-///
+        public override void Suspend( Lextm.Diagnostics.Stopwatch context ) {
+            int valueBeforeSleep = Environment.TickCount — lastTick;
+            int lastInterval = GetInterval();
+            SetState(context, new Idle(valueBeforeSleep, lastInterval));
+        }
 
-/// and calls are ignored.
+        public override void Resume( Lextm.Diagnostics.Stopwatch context ) {
+        }
 
-internal class Working : CustomState {
+        public override void Stop( Lextm.Diagnostics.Stopwatch context ) {
+            SetState(context, new Dead());
+        }
 
-private readonly int lastTick;
+        public override int GetInterval( ) {
+            int result = (Environment.TickCount — lastTick) — lastValueBeforeInterval;
+            lastValueBeforeInterval = (Environment.TickCount — lastTick);
+            return result;
+        }
 
-private int lastValueBeforeInterval;
+        public override void Start( Lextm.Diagnostics.Stopwatch context ) {}
 
-public override void Suspend( Lextm.Diagnostics.Stopwatch context ) {
+        public override int GetValue( ) {
+            return Environment.TickCount — lastTick;
+        }
 
-int valueBeforeSleep = Environment.TickCount — lastTick;
+        public Working( ) :
+            this(0, 0) {}
 
-int lastInterval = GetInterval();
+        public Working( int value ) :
+            this(value, 0) {}
 
-SetState(context, new Idle(valueBeforeSleep, lastInterval));
-
-}
-
-public override void Resume( Lextm.Diagnostics.Stopwatch context ) {
-
-}
-
-public override void Stop( Lextm.Diagnostics.Stopwatch context ) {
-
-SetState(context, new Dead());
-
-}
-
-public override int GetInterval( ) {
-
-int result = (Environment.TickCount — lastTick) — lastValueBeforeInterval;
-
-lastValueBeforeInterval = (Environment.TickCount — lastTick);
-
-return result;
-
-}
-
-public override void Start( Lextm.Diagnostics.Stopwatch context ) {}
-
-public override int GetValue( ) {
-
-return Environment.TickCount — lastTick;
-
-}
-
-public Working( ) :
-
-this(0, 0) {}
-
-public Working( int value ) :
-
-this(value, 0) {}
-
-public Working( int value, int interval ) {
-
-lastTick = Environment.TickCount — value;
-
-lastValueBeforeInterval = value — interval;
-
-}
-
-}
-
+        public Working( int value, int interval ) {
+            lastTick = Environment.TickCount — value;
+            lastValueBeforeInterval = value — interval;
+        }
+    }
 }
 ```
+
 Idle.cs
+
 ```csharp
 // lextm: this is idle state class.
-
 // Copyright © 2007 Lex Li
-
 //
-
 // This library is free software; you can redistribute it and/or
-
 // modify it under the terms of the GNU Lesser General Public
-
 // License as published by the Free Software Foundation; either
-
 // version 2.1 of the License, or (at your option) any later version.
-
 //
-
 // This library is distributed in the hope that it will be useful,
-
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
-
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
-
 // Lesser General Public License for more details.
-
 //
-
 // You should have received a copy of the GNU Lesser General Public
-
 // License along with this library; if not, write to the Free Software
-
 // Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111–1307
 
 using System;
 
 namespace Lextm.Diagnostics {
 
-///
+    ///
+    /// The idle state.
+    ///
+    /// The stopwatch is in this state between and
+    /// . So and calls
+    /// are ignored.
+    internal class Idle : CustomState {
+        public override void Start( Stopwatch context ) {
+        }
 
-/// The idle state.
+        public override void Stop( Stopwatch context ) {
+            SetState(context, new Dead());
+        }
 
-///
+        public override void Suspend( Stopwatch context ) {
+        }
 
-/// The stopwatch is in this state between and
+        public override void Resume( Stopwatch context ) {
+            if (thisInterval == 0) {
+                SetState(context, new Working(valueBeforeIdle));
+            } else {
+                SetState(context, new Working(valueBeforeIdle, intervalBeforeIdle));
+            }
+        }
 
-/// . So and calls
+        public override int GetValue( ) {
+            return valueBeforeIdle;
+        }
 
-/// are ignored.
+        public override int GetInterval( ) {
+            int result = thisInterval;
+            thisInterval -= thisInterval;
+            return result;
+        }
 
-internal class Idle : CustomState {
+        private readonly int valueBeforeIdle;
+        private readonly int intervalBeforeIdle;
+        private int thisInterval;
 
-public override void Start( Stopwatch context ) {
-
-}
-
-public override void Stop( Stopwatch context ) {
-
-SetState(context, new Dead());
-
-}
-
-public override void Suspend( Stopwatch context ) {
-
-}
-
-public override void Resume( Stopwatch context ) {
-
-if (thisInterval == 0) {
-
-SetState(context, new Working(valueBeforeIdle));
-
-} else {
-
-SetState(context, new Working(valueBeforeIdle, intervalBeforeIdle));
-
-}
-
-}
-
-public override int GetValue( ) {
-
-return valueBeforeIdle;
-
-}
-
-public override int GetInterval( ) {
-
-int result = thisInterval;
-
-thisInterval -= thisInterval;
-
-return result;
-
-}
-
-private readonly int valueBeforeIdle;
-
-private readonly int intervalBeforeIdle;
-
-private int thisInterval;
-
-public Idle( int value, int interval ) {
-
-valueBeforeIdle = value;
-
-intervalBeforeIdle = interval;
-
-thisInterval = interval;
-
-}
-
-}
-
+        public Idle( int value, int interval ) {
+            valueBeforeIdle = value;
+            intervalBeforeIdle = interval;
+            thisInterval = interval;
+        }
+    }
 }
 ```
