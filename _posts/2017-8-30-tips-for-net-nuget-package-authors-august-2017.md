@@ -35,7 +35,7 @@ For #SNMP Library 10.0.1 release, I choose
 
 You can obviously choose your own based on the actual code base. Some libraries can successfully choose .NET Standard 1.0, while some might have to choose .NET Standard 2.0 (or a future version) if it needs too many APIs.
 
-Make sure you go through [this excellent video](https://channel9.msdn.com/Events/dotnetConf/2017/T112) to learn more about .NET Standard.
+Make sure you go through [this excellent video](https://learn.microsoft.com/en-us/events/dotnetconf-2017/t112) to learn more about .NET Standard.
 
 # Tips on Source Code Preparation
 

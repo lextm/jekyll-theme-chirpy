@@ -45,4 +45,4 @@ Mono built everything from scratch, so compatibility with .NET Core and .NET Fra
 
 Therefore, both Mono and .NET Framework Reference Source are no longer that important in the ecosystem as they accomplished the core missions assigned. Of course they might stay for a little longer to serve the migration to .NET 6, but you should know where your precious time should be spent.
 
-> Look for other interesting posts like this one? You can visit [the index page](https://halfblood.pro/all-in-one-for-the-legends-of-net-materials-43c374a01433).
+> Look for other interesting posts like this one? You can visit [the index page](/all-in-one-for-the-legends-of-net-materials-43c374a01433).

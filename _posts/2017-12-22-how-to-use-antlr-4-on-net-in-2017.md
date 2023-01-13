@@ -9,9 +9,9 @@ image:
   alt: Copyright © Lex Li. OCT, Pujiang Town, Shanghai.
 ---
 
-I once blogged heavily about how to use ANTLR on .NET, and you can find [all links here](https://halfblood.pro/antlr-article-series-6f0f38a0a6da).
+I once blogged heavily about how to use ANTLR on .NET, and you can find all related posts in [the archive](/archives).
 
-And [my last blog post on ANTLR](https://halfblood.pro/how-to-use-antlr-4-on-net-4361915b670f) was in 2014. You can still learn something useful from the old post.
+And [my last blog post on ANTLR](/how-to-use-antlr-4-on-net-4361915b670f) was in 2014. You can still learn something useful from the old post.
 
 But today it is time to provide some more information after three years.
 <!--more-->
@@ -32,7 +32,7 @@ You can see that by adapting to the new mechanism, the grammar file indeed has n
 
 Now I prefer to develop the grammar in Rider, which has great ANTLR support.
 
-![img-description](/images/antlr-rider.png)
+![img-description](/images/antlr-rider.jpg)
 _Figure 1: ANTLR support in Rider._
 
 First, when you try to edit .g4 file, Rider prompts you to install the extension. Once installed, you get the ANTLR Preview and Tool Output panels.

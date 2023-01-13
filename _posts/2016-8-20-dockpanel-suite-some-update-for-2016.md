@@ -26,7 +26,7 @@ Starting from July, two Alpha builds of 2.11 release have been published. They f
 
 # Documentation
 
-[One new article](http://docs.dockpanelsuite.com/en/latest/themes/basics.html) has been added recently to reveal the basic building blocks of themes.
+[One new article](http://docs.dockpanelsuite.com/themes/basics.html) has been added recently to reveal the basic building blocks of themes.
 
 I also tried to write more XML comments occasionally.
 

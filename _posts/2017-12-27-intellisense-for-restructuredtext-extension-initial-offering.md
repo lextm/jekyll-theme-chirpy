@@ -31,7 +31,7 @@ It was painful to fill in the file path manually, as
 
 Starting from release 47.0.0, you can receive some assistance from this extension.
 
-First, enable IntelliSense following [the steps](https://github.com/vscode-restructuredtext/vscode-restructuredtext/blob/master/docs/sphinx.md#intellisense-settings).
+First, enable IntelliSense following [the steps](https://github.com/vscode-restructuredtext/vscode-restructuredtext/blob/4ac375e846a62192265906eb4883c54c22af898f/docs/sphinx.md#intellisense-settings).
 
 Second, restart Visual Studio Code.
 

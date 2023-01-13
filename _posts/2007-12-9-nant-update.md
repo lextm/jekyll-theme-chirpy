@@ -12,6 +12,6 @@ But today, I saw [a post on Monologue](http://www.mono-project.com/news/archive/
 
 I tried xbuild which is part of Mono and clone of MSBuild targeting non-Windows platforms and the latest implementation was not ready for my usage.
 
-So NAnt is still the best choice on non-Windows platform before xbuild goes older. According to [the release notes](http://nant.sourceforge.net/release/0.86-beta1/releasenotes.html), this new version is very promising.
+So NAnt is still the best choice on non-Windows platform before xbuild goes older. According to [the release notes](https://nant.sourceforge.net/release/0.86-beta1/releasenotes.html), this new version is very promising.
 
 BTW, I always think the guys should create an icon for NAnt!

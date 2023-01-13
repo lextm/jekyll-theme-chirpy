@@ -9,7 +9,7 @@ image:
   alt: Copyright © Lex Li. A sunny day, Montreal.
 ---
 
-I wrote about [how to build a pipeline to host multiple Sphinx sites on Azure App Service](https://halfblood.pro/ci-cd-pipeline-with-vsts-and-zapier-b81d341088dd). But a remaining item is that how to abort a build when nothing (in submodules) is changed.
+I wrote about [how to build a pipeline to host multiple Sphinx sites on Azure App Service](/ci-cd-pipeline-with-vsts-and-zapier-b81d341088dd). But a remaining item is that how to abort a build when nothing (in submodules) is changed.
 <!--more-->
 
 # Changes Detection
@@ -89,6 +89,6 @@ Generally speaking, you need to create a special personal access token, add it t
 
 Once aborted, the build is showed as cancelled in VSTS dashboard, just like other builds you cancelled manually.
 
-Another remaining challenge is how to properly handle private repo in pipeline, for which I wrote [another post](https://halfblood.pro/how-to-use-private-repos-as-submodules-in-vsts-fd69801e233f).
+Another remaining challenge is how to properly handle private repo in pipeline, for which I wrote [another post](/how-to-use-private-repos-as-submodules-in-vsts-fd69801e233f).
 
 Stay tuned.

@@ -28,7 +28,7 @@ To keep things simple, I will use a single authentication type for all private r
 By default, the agent uses an OAuth token to check out the master repo if it is private (in my case). Then same token can be reused to check out other private repos when they are submodules, if you
 
 * Use HTTPS links for all such submodules.
-* Use [the built-in check out submodule](https://docs.microsoft.com/vsts/pipelines/build/repository?view=vsts#authenticated-submodules) option.
+* Use [the built-in check out submodule](https://learn.microsoft.com/en-us/azure/devops/pipelines/repos/?view=azure-devops#authenticated-submodules) option.
 
 This is probably the simplest way, but with limitations that master and submodules belong to VSTS. If the submodules come from different service providers, then this approach won't work.
 

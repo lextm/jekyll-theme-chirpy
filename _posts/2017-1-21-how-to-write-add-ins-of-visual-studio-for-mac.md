@@ -22,7 +22,10 @@ Previously to develop extensions for MonoDevelop/Xamarin Studio, we need to targ
 The core assemblies have significant differences in editor related APIs, due to the big upgrade in Xamarin Studio 6.x. And now again, Visual Studio for Mac (based on MonoDevelop 7.x) requires a new branch.
 
 So to create a new add-in, you can always get start from [the official guide for Xamarin Studio](https://developer.xamarin.com/guides/cross-platform/xamarin-studio/customizing-ide/extending_xamarin_studio_with_addins/),
-Extending Xamarin Studio with Add-Ins
+
+> Updated (Jan 12, 2023): This guide is no longer valid.
+
+# Extending Xamarin Studio with Add-Ins
 
 Replace all texts of "Xamarin Studio" with "Visual Studio for Mac", and you should be able to get Addin Maker (>=1.3.4) installed and a sample add-in created.
 
@@ -38,4 +41,6 @@ Then a `.mpack` file would be generated and everyone can manually add it to Visu
 
 > Note that once the add-in repository for Visual Studio for Mac is alive, you don't need to share `.mpack` file in this way.
 
-Now Microsoft/Xamarin has opened up the addin feed for Visual Studio for Mac, so as publisher you should use http://addins.monodevelop.com to publish your addin. Users then use the integrated Extension Manager to search and install.
+Now Microsoft/Xamarin has opened up the addin feed for Visual Studio for Mac, so as publisher you should use https://addins.monodevelop.com to publish your addin. Users then use the integrated Extension Manager to search and install.
+
+> Updated (Jan 12, 2023): The latest news can be found in [this post](https://learn.microsoft.com/en-us/visualstudio/mac/migrate-extensions?view=vsmac-2022)

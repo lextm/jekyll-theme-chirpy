@@ -19,5 +19,3 @@ Note that this change of license only covers our latest release. I am tired of t
 http://sharpsnmplib.codeplex.com/releases/view/79079
 
 Later I am going to publish the emails among the other contributors and me about the license change on my DropBox public folder for your reference. Let’s thank them for their great efforts on making this project so successful today.
-
-Update: the emails are [archived here](https://dl.dropbox.com/u/103746479/letters/letters.zip).

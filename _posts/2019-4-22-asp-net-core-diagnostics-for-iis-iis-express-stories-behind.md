@@ -9,7 +9,7 @@ image:
   alt: Copyright © Lex Li. A flight to New York City.
 ---
 
-ASP.NET Core on IIS/IIS Express shouldn't be hard, as they all come from Microsoft. However, we all know it has been a mess since the beginning, as I blogged multiple times from different angles, in the following posts like [this](https://halfblood.pro/what-should-you-check-when-visual-studio-cannot-debug-asp-net-core-projects-4b5db8c5e129), [this](https://halfblood.pro/the-horrible-story-of-publishing-net-core-web-apps-for-beginners-6121662dd8c4), and [this](https://halfblood.pro/how-visual-studio-launches-iis-express-to-debug-asp-net-core-apps-d7fd3677e3c3).
+ASP.NET Core on IIS/IIS Express shouldn't be hard, as they all come from Microsoft. However, we all know it has been a mess since the beginning, as I blogged multiple times from different angles, in the following posts like [this](/what-should-you-check-when-visual-studio-cannot-debug-asp-net-core-projects-4b5db8c5e129), [this](/the-horrible-story-of-publishing-net-core-web-apps-for-beginners-6121662dd8c4), and [this](/how-visual-studio-launches-iis-express-to-debug-asp-net-core-apps-d7fd3677e3c3).
 <!--more-->
 
 So what should a developer do when a related error happens? Going through all the materials and tons of posts on Stack Overflow? That's both a waste of time and also a painful process, because even for a single error code (like 502.5) there are at least four possible causes (while Microsoft documentation only covers one).

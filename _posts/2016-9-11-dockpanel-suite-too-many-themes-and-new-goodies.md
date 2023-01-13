@@ -18,7 +18,7 @@ Remember that I mentioned the “new theme design”? It has been greatly upgrad
 Pressed images are now supported (only normal and hovered were supported).
 * Color palettes now can come from .vstheme files exported by Visual Studio Color Theme Manager.
 
-What do they mean? They mean that in just a few minutes you should be able now to create a new theme by using the greatest visual tool developed by Microsoft for Visual Studio, and then enable it in DockPanel Suite. I have updated [the new theme creation guide](http://docs.dockpanelsuite.com/en/latest/themes/creating-new-theme.html) to reflect the changes and hope you like them immediately,
+What do they mean? They mean that in just a few minutes you should be able now to create a new theme by using the greatest visual tool developed by Microsoft for Visual Studio, and then enable it in DockPanel Suite. I have updated [the new theme creation guide](http://docs.dockpanelsuite.com/themes/creating-new-theme.html) to reflect the changes and hope you like them immediately,
 
 # New Themes and 2.11 Beta 1
 
@@ -46,7 +46,7 @@ You might think that well we shipped VS2012 Light and VS2013 Blue themes already
 1. VS2012 themes and their corresponding VS2013 themes might use a few different colors (for instance, VS2012 Blue theme uses a yellow color, which is no longer used in VS2013 Blue).
 1. VS2012 Blue theme’s active document tab’s blue color is different from the one specified in Color Theme Manager.
 
-[A review on the facts](http://docs.dockpanelsuite.com/en/latest/themes/review.html) can be found at the doc site.
+[A review on the facts](http://docs.dockpanelsuite.com/themes/review.html) can be found at the doc site.
 
 You are welcome to create new themes and send us PR via GitHub. Happy theming!
 

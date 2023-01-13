@@ -5,7 +5,7 @@ tags: Visual-Studio-Code
 excerpt_separator: <!--more-->
 ---
 
-It was around the year end of 2020 that I noticed the existence of the Snooty language server from MongoDB and [integrated it with the reStructuredText extension for VSCode](https://halfblood.pro/integration-with-snooty-language-server/). After about a year, it's time to move to another language server in this field.
+It was around the year end of 2020 that I noticed the existence of the Snooty language server from MongoDB and [integrated it with the reStructuredText extension for VSCode](/posts/integration-with-snooty-language-server/). After about a year, it's time to move to another language server in this field.
 <!--more-->
 
 # Limitation of Snooty

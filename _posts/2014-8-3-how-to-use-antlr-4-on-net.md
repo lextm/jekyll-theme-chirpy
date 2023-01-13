@@ -5,9 +5,9 @@ tags: .NET
 permalink: /how-to-use-antlr-4-on-net-4361915b670f
 excerpt_separator: <!--more-->
 ---
-> Update: [A new article](https://blog.lextudio.com/how-to-use-antlr-4-on-net-in-2017-d8bfe7efa74c) is now alive.
+> Update: [A new article](/how-to-use-antlr-4-on-net-in-2017-d8bfe7efa74c) is now alive.
 
-I once blogged heavily about how to use ANTLR 3 on .NET, and you can find all links from [the archive](https://halfblood.pro/archive/)
+I once blogged heavily about how to use ANTLR 3 on .NET, and you can find all links from [the archive](/archives/)
 
 Interesting that when I prepared those materials I was fully aware of the upcoming ANTLR 4, and kept an eye on it until right now. In the past two weeks I converted a very large grammar file from ANTLR 3 to ANTLR 4, and this post aims to show some of the hints and tips.
 <!--more-->

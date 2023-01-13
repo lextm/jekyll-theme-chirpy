@@ -9,14 +9,14 @@ image:
   alt: Copyright © Lex Li. A bridge over the canal, Montreal.
 ---
 
-I just blogged about that I used [Zapier to trigger VSTS build](https://halfblood.pro/ci-cd-pipeline-with-vsts-and-zapier-b81d341088dd), which works well. And I love it, except
+I just blogged about that I used [Zapier to trigger VSTS build](/ci-cd-pipeline-with-vsts-and-zapier-b81d341088dd), which works well. And I love it, except
 
 * It seems to ask for too many permissions (both on VSTS/GitHub sides).
 * Such permissions are granted for a very long time (not a one time setup).
 * Its free plan of course has limitation.
 <!--more-->
 
-I still remembered that [when I attempted to abort VSTS build](https://halfblood.pro/how-to-abort-cancel-a-build-in-vsts-7a41fce5a42c), I read about how to call VSTS REST API in C#.
+I still remembered that [when I attempted to abort VSTS build](/how-to-abort-cancel-a-build-in-vsts-7a41fce5a42c), I read about how to call VSTS REST API in C#.
 
 > In fact, the first revision of that abort tool was in C#.
 

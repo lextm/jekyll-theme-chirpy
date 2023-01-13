@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 
 The open source community is so large today, that you don't need to create all the wheels once again, unless really necessary.
 
-So in my case, I had to write a reStructuredText parser on my own (as I met difficulty using existing ones), but [when I tried to build a Language Server](https://halfblood.pro/how-to-write-your-language-server-in-c-d9302a44f694), there are already frameworks for me to choose from.
+So in my case, I had to write a reStructuredText parser on my own (as I met difficulty using existing ones), but [when I tried to build a Language Server](/how-to-write-your-language-server-in-c-d9302a44f694), there are already frameworks for me to choose from.
 
 Aha, the next step clearly is to ship the LSP component, but I hit a challenge.
 <!--more-->

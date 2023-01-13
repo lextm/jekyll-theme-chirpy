@@ -8,23 +8,23 @@ excerpt_separator: <!--more-->
 
 I am going to give [a talk on The Legends of .NET](https://mvpdaysv-conference2017-1.busyconf.com/activities/59ebb3464ee06baeb80001c9) on Jan 17, 2018.
 
-Not quite sure if I can finish translating [my Chinese book .NET Legend](http://dotnet.sxl.cn/) to English by then, but I would try to finish a few more stories in English.
+Not quite sure if I can finish translating [my Chinese book .NET Legend](https://nianbiao.lextudio.com/) to English by then, but I would try to finish a few more stories in English.
 
-You can find the [.NET Ecosystem timeline](http://corefx.strikingly.com/), which can help you understand the events, products, and people.
+You can find the [.NET Ecosystem timeline](https://corefx.lextudio.com/), which can help you understand the events, products, and people.
 
 The current "Rough History" posts should be seen as drafts for the upcoming English book, as the complimentary materials. They are,
 
-* [The Rough History of MSBuild](https://halfblood.pro/the-rough-history-of-msbuild-cc72a217fa98)
-* [The Rough History of The So Many C# Compilers](https://halfblood.pro/the-rough-history-of-the-so-many-c-compilers-f3a85500707c)
-* [The Rough History of ASP.NET on IIS](https://halfblood.pro/the-rough-history-of-asp-net-on-iis-8f49e2bcefcd)
-* [The Rough History of Referenced Assemblies](https://halfblood.pro/the-rough-history-of-referenced-assemblies-7d752d92c18c)
-* [The Rough History of .NET Core Debuggers](https://halfblood.pro/the-rough-history-of-net-core-debuggers-b9fb206dc4aa)
-* [The Rough History of .NET Framework Reference Source](https://halfblood.pro/2020-12-13-the-rough-history-of-microsoft-reference-source)
+* [The Rough History of MSBuild](/the-rough-history-of-msbuild-cc72a217fa98)
+* [The Rough History of The So Many C# Compilers](/the-rough-history-of-the-so-many-c-compilers-f3a85500707c)
+* [The Rough History of ASP.NET on IIS](/the-rough-history-of-asp-net-on-iis-8f49e2bcefcd)
+* [The Rough History of Referenced Assemblies](/the-rough-history-of-referenced-assemblies-7d752d92c18c)
+* [The Rough History of .NET Core Debuggers](/the-rough-history-of-net-core-debuggers-b9fb206dc4aa)
+* [The Rough History of .NET Framework Reference Source](/posts/the-rough-history-of-microsoft-reference-source/)
 
 There are also some related posts I did in the past,
 
-* [The Story About .NET Cross Platform UI Frameworks](https://halfblood.pro/the-story-about-net-cross-platform-ui-frameworks-dd4a9433d0ea)
-* [Status of MonoDevelop/Xamarin Studio](https://halfblood.pro/status-of-monodevelop-xamarin-studio-253da80d022c)
+* [The Story About .NET Cross Platform UI Frameworks](/the-story-about-net-cross-platform-ui-frameworks-dd4a9433d0ea)
+* [Status of MonoDevelop/Xamarin Studio](/status-of-monodevelop-xamarin-studio-253da80d022c)
 
 This post would be updated frequently to reflect future posts and the news about that English book.
 

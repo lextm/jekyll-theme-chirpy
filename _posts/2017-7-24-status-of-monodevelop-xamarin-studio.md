@@ -50,4 +50,4 @@ In all cases, you should use the latest tools,
 
 > If you do need MonoDevelop for Windows to finish something Visual Studio does not support, I created [a CI job on AppVeyor](https://github.com/lextm/monodevelop-windows). You can download the artifacts (like an MSI installer) from there (currently matching MonoDevelop 7.8).
 
-> MonoDevelop 8.x is a tough topic, so I gave [a new post](https://halfblood.pro/brief-history-of-monodevelop-93b1d4011978) with more information.
+> MonoDevelop 8.x is a tough topic, so I gave [a new post](/brief-history-of-monodevelop-93b1d4011978) with more information.

@@ -72,7 +72,7 @@ Because Jexus Manager is pretty simple a tool, it uses the core structure like t
 * Multiple `<Condition>` tags are used to check Windows version and .NET Framework version.
 * Other tags like `<Package>` and `<Upgrade>` are used to define metadata and handle install/upgrade scenarios.
 
-The knowledge behind each tags can be further studied if you check out [WiX documentation](http://wixtoolset.org/documentation/).
+The knowledge behind each tags can be further studied if you check out [WiX documentation](https://wixtoolset.org/docs/intro/).
 
 The value of such an example is that you can always copy and paste to get started.
 

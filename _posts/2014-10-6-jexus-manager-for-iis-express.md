@@ -32,7 +32,7 @@ Beta 2 is available at the same location. Many core classes are rewritten to ach
 Beta 3 is available at the same location, with IIS Express support enhanced, full IIS read-only mode previewed, and Jexus support added back.
 
 [Update on Feb 10, 2016]
-The documentation site http://jexusmanager.com is now online.
+The documentation site https://jexusmanager.com is now online.
 
 [Update on June 26, 2016]
-Jexus Manager is open source, https://halfblood.pro/2016/06/jexus-manager-is-now-open-source/
+[Jexus Manager is open source](/2016/06/jexus-manager-is-now-open-source/)

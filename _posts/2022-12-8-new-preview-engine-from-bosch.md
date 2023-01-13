@@ -36,7 +36,7 @@ However, this engine itself lacks of a good way to generate accurate line number
 The initial C# based language server or snooty server didn't help much on previewing pages.
 
 # The Introduction of Esbonio
-I [wrote about this language server project](2022-2-27-new-language-server-and-case-study.md) created by Alex Carney this February, and since then it has been used as the default for this extension. Esbonio is actually more than just a language server, as Alex tried to also tune the generated pages for previewing.
+I [wrote about this language server project](/posts/new-language-server-and-case-study/) created by Alex Carney this February, and since then it has been used as the default for this extension. Esbonio is actually more than just a language server, as Alex tried to also tune the generated pages for previewing.
 
 There were several rounds of conversation between Alex and me, so that we can sync up on his innovation. In order to avoid any breaking changes to users of this extension, we decided to keep the Esbonio VS Code extension alive,
 

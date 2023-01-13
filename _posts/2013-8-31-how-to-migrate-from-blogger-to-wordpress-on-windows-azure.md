@@ -12,7 +12,7 @@ Recently I finally get tired of Blogger too, due to its service unavailable in C
 
 # MySQL Hosting on Windows Azure Virtual Machine
 
-As my MSDN subscription only provides me credits in Windows Azure, I choose to [build a virtual machine and host MySQL on my own](http://www.windowsazure.com/en-us/manage/linux/common-tasks/mysql-on-a-linux-vm/).
+As my MSDN subscription only provides me credits in Windows Azure, I choose to [build a virtual machine and host MySQL on my own](https://learn.microsoft.com/en-us/samples/azure/azure-quickstart-templates/mysql-standalone-server-ubuntu/).
 
 Well for WordPress alone, you might execute a few extra steps when following the above article,
 
@@ -73,13 +73,11 @@ Now check in all changes you make locally in Git and get ready to publish.
 
 To go BitBucket.org and create [a private repository](https://confluence.atlassian.com/display/BITBUCKET/Bitbucket+101). Then you can push your local copy of WordPress to it.
 
-Switch to Windows Azure and now create a new Web Site with BitBucket back end. Once finished, Windows Azure will clone the repository and always take care of your new change sets.
-
-http://www.windowsazure.com/en-us/documentation/articles/web-sites-publish-source-control/
+Switch to Windows Azure and now create [a new Web Site with BitBucket back end](https://learn.microsoft.com/en-us/azure/app-service/quickstart-php?tabs=cli&pivots=platform-windows#push-to-azure-from-git). Once finished, Windows Azure will clone the repository and always take care of your new change sets.
 
 # Setup Custom Domain
 
-To set up custom domain, please follow [this guide](http://www.windowsazure.com/en-us/develop/net/common-tasks/custom-dns-web-site/).
+To set up custom domain, please follow [this guide](https://learn.microsoft.com/en-us/azure/app-service/manage-custom-dns-migrate-domain).
 
 You also need to go to General Settings of WordPress site to set WordPress Address (URL) and Site Address (URL) to the custom domain URL.
 

@@ -11,9 +11,9 @@ image:
 
 Debugging is very important a process for developers to learn more about the development environment and the code base. So frustration can be a lot if suddenly your development tool fails to debug.
 
-I [documented a few typical Visual Studio and IIS Express related issues](https://halfblood.pro/jexus-manager-secrets-behind-visual-studio-iis-express-integration-834f88c8e8b) that can prevent debugging from working. But you already noticed that they were about ASP.NET 4.x projects, and do not apply to ASP.NET Core projects.
+I [documented a few typical Visual Studio and IIS Express related issues](/jexus-manager-secrets-behind-visual-studio-iis-express-integration-834f88c8e8b) that can prevent debugging from working. But you already noticed that they were about ASP.NET 4.x projects, and do not apply to ASP.NET Core projects.
 
-I [wrote about ASP.NET Core and Visual Studio once](https://halfblood.pro/how-visual-studio-launches-iis-express-to-debug-asp-net-core-apps-d7fd3677e3c3). However, I didn't reveal enough on all the issues you might hit. So this post would serve the missing pieces.
+I [wrote about ASP.NET Core and Visual Studio once](/how-visual-studio-launches-iis-express-to-debug-asp-net-core-apps-d7fd3677e3c3). However, I didn't reveal enough on all the issues you might hit. So this post would serve the missing pieces.
 <!--more-->
 
 # Unable to connect to web server IIS Express
@@ -173,6 +173,6 @@ Note that how horrible is the error message itself, with typo and not enough inf
 
 # Side Notes
 
-I might add more contents in the future, as now I am enhancing Jexus Manager Visual Studio Project Diagnostics tool to [support ASP.NET Core projects](https://www.jexusmanager.com/en/latest/tutorials/vs-diagnostics.html).
+I might add more contents in the future, as now I am enhancing Jexus Manager Visual Studio Project Diagnostics tool to [support ASP.NET Core projects](https://docs.jexusmanager.com/tutorials/vs-diagnostics.html).
 
 Stay tuned.

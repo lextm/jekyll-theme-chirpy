@@ -13,8 +13,8 @@ Microsoft abandoned [MonoDevelop GitHub repository](https://github.com/mono/mono
 <!--more-->
 As a long time Mono observer, I wrote two blog posts in the past regarding MonoDevelop's status,
 
-* [Brief History of MonoDevelop](https://halfblood.pro/brief-history-of-monodevelop-93b1d4011978)
-* [Status of MonoDevelop/Xamarin Studio](https://halfblood.pro/status-of-monodevelop-xamarin-studio-253da80d022c)
+* [Brief History of MonoDevelop](/brief-history-of-monodevelop-93b1d4011978)
+* [Status of MonoDevelop/Xamarin Studio](/status-of-monodevelop-xamarin-studio-253da80d022c)
 
 I will explain below why I don't think the sudden change is sudden, and provide my personal opinions.
 

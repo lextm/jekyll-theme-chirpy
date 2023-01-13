@@ -2,6 +2,7 @@
 layout: post
 title: "#SNMP Design: Breaking Changes Coming, Part III"
 tags: SNMP
+permalink: /snmp-design-breaking-changes-coming-part-iii
 excerpt_separator: <!--more-->
 ---
 > (This post is updated on September 27th heavily.)

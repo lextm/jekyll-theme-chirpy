@@ -76,4 +76,4 @@ So what happens if we disable all IIS authentication methods and enable digest a
 
 # Site Notes
 
-You might also revisit what is impersonation from [my old post](https://halfblood.pro/the-basic-facts-about-iis-asp-net-process-thread-identities-835eaac876a0).
+You might also revisit what is impersonation from [my old post](/the-basic-facts-about-iis-asp-net-process-thread-identities-835eaac876a0).

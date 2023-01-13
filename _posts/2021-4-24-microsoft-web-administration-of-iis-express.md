@@ -5,7 +5,7 @@ tags: IIS .NET
 excerpt_separator: <!--more-->
 ---
 
-[I blogged](https://halfblood.pro/whats-microsoft-web-administration-and-the-horrible-facts-you-should-know-b82f2c974da6) about `Microsoft.Web.Administration` a long while ago, but intentionally I left a small topic aside. However, it remains a misery sometimes painful to developers, so here comes a dedicated post.
+[I blogged](/whats-microsoft-web-administration-and-the-horrible-facts-you-should-know-b82f2c974da6) about `Microsoft.Web.Administration` a long while ago, but intentionally I left a small topic aside. However, it remains a misery sometimes painful to developers, so here comes a dedicated post.
 <!--more-->
 
 # Version 7.0.0.0 in Global Assembly Cache

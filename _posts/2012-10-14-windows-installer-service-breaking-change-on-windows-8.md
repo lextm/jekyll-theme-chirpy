@@ -5,7 +5,7 @@ tags: Windows
 permalink: /windows-installer-service-breaking-change-on-windows-8-93547462fa3a
 excerpt_separator: <!--more-->
 ---
-Windows Installer team published [a nice blog post](http://blogs.msdn.com/b/windows_installer_team/archive/2005/11/09/487559.aspx) about how to detect whether Windows Installer is busy with an MSI package.
+Windows Installer team published [a nice blog post](https://learn.microsoft.com/en-us/archive/blogs/windows_installer_team/windows-installer-troubleshooting-tips-from-halloween) about how to detect whether Windows Installer is busy with an MSI package.
 
 And the recommendation was
 

@@ -14,4 +14,4 @@ After receiving my comments, Robin adds an installer on his blog. And after a fe
 
 Stay tuned. I will release M8 this weekend.
 
-BTW, CodeGear keeps hiring new guys now. Yes, [this opening](http://blogs.codegear.com/michaeldevery/2007/10/19/33778/) is suitable for .NET developers who is able to work in beautiful Scott Valley.
+BTW, CodeGear keeps hiring new guys now. Yes, [this opening](https://community.embarcadero.com/blogs/entry/join-the-codegear-rad-studio-randampd-team-33778) is suitable for .NET developers who is able to work in beautiful Scott Valley.

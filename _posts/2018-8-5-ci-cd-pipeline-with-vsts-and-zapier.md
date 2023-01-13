@@ -9,7 +9,7 @@ image:
   alt: Copyright © Lex Li. The canal in the summer, Montreal.
 ---
 
-I just [wrote about how I started to self host Sphinx sites on Azure App Service](https://halfblood.pro/self-hosting-sphinx-sites-on-azure-app-service-a05b9db25e9a). Here I am writing about how to set up CI/CD pipeline to make it perfect.
+I just [wrote about how I started to self host Sphinx sites on Azure App Service](/self-hosting-sphinx-sites-on-azure-app-service-a05b9db25e9a). Here I am writing about how to set up CI/CD pipeline to make it perfect.
 <!--more-->
 
 # Preparation 1: VSTS Repo for App Service
@@ -18,7 +18,7 @@ It is very important to learn Azure App Service, so as to know what built-in fea
 
 Clearly here I need to set its deployment method to a custom repo on VSTS (I cannot use GitHub or others because I need to handle private repos).
 
-So I create a new project on Azure called AzureSites, a new repo under it called production, and hook my App Service to it by following [this article](https://docs.microsoft.com/azure/app-service/app-service-continuous-deployment#deploy-continuously-from-vsts).
+So I create a new project on Azure called AzureSites, a new repo under it called production, and hook my App Service to it by following [this article](https://learn.microsoft.com/en-us/azure/app-service/deploy-continuous-deployment?tabs=github#deploy-continuously-from-vsts).
 
 > Note that I did not use VSTS pipeline here, because I need to handle it later.
 
@@ -61,6 +61,6 @@ What if now I modified one of the Sphinx sites? How can this pipeline pick up th
 
 You might find it a waste of resources to always run the tasks in pipeline, if no submodule changes.
 
-I showed you a way to abort the execution early in [a separate post](https://halfblood.pro/how-to-abort-cancel-a-build-in-vsts-7a41fce5a42c).
+I showed you a way to abort the execution early in [a separate post](/how-to-abort-cancel-a-build-in-vsts-7a41fce5a42c).
 
 Stay tuned.

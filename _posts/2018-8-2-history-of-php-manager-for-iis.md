@@ -9,7 +9,7 @@ image:
   alt: Copyright © Lex Li. Crossroad on rue Wellington, Montreal.
 ---
 
-> Ironically [I suggested people to avoid PHP Manager](https://halfblood.pro/why-you-should-forget-php-manager-for-iis-953fae81b05b), but later took over the project.
+> Ironically [I suggested people to avoid PHP Manager](/why-you-should-forget-php-manager-for-iis-953fae81b05b), but later took over the project.
 <!--more-->
 
 # Overview of PHP on IIS
@@ -26,11 +26,11 @@ The same technology was later used in Windows Azure (renamed to Microsoft Azure 
 
 # Initial Releases from Ruslan Yakushev
 
-From the [code commit history](http://ruslany.net/tag/php-manager/) we can see that Ruslan made the first commit on August 9, 2010. However, the initial code seems to be a little bit older than that.
+From the [code commit history](http://ruslany.net/tag/php/) we can see that Ruslan made the first commit on August 9, 2010. However, the initial code seems to be a little bit older than that.
 
 This project is an IIS Manager extension (plus PowerShell snapin) to better support PHP configuration system via IIS Manager experience. So it was quite popular.
 
-Ruslan worked for Microsoft, and was in IIS team (product manager) before he later moved to other positions.
+Ruslan worked for Microsoft, and was in IIS team (Product Manager) before he later moved to other positions.
 
 The last commit he made was on December 13, 2013.
 

@@ -12,7 +12,7 @@ I blogged about DPS theming a few times, aiming to demonstrate how we ported VS2
 
 Interestingly that Microsoft gave up Windows Forms and built Visual Studio 2010 on WPF. That instantly led to a brand new theme being shipped,
 
-![img-description](/images/v2010-blue.png)
+![img-description](/images/vs2010-blue.png)
 _Figure 1: Visual Studio 2010 Blue Theme._
 
 This is a blue theme, which many people easily got bored with.
@@ -26,10 +26,10 @@ _Figure 2: Visual Studio Color Theme Manager._
 # Visual Studio 2012 Themes
 When Microsoft initially designed Visual Studio 2012, they came across the idea to ship by default, a light theme and a dark theme.
 
-![img-description](/images/v2012-light.png)
+![img-description](/images/vs2012-light.png)
 _Figure 3: Visual Studio 2012 Light Theme._
 
-![img-description](/images/v2012-dark.png)
+![img-description](/images/vs2012-dark.png)
 _Figure 4: Visual Studio 2012 Dark Theme._
 
 Surprisingly, the blue theme was added back in a later update, due to community feedback. Color Theme Manager is also updated for VS2012.

@@ -9,7 +9,7 @@ image:
   alt: Copyright © Lex Li. Linus bikes in Boston.
 ---
 
-I [blogged about how to publish an ASP.NET Core app against an internal NuGet server](https://halfblood.pro/offline-publishing-asp-net-core-apps-cf22f45158af).
+I [blogged about how to publish an ASP.NET Core app against an internal NuGet server](/offline-publishing-asp-net-core-apps-cf22f45158af).
 
 A few days ago, Microsoft happened to ship a new release of 2.0.6. Then what kind of things are needed to upgrade your internal infrastructure to support this new release?
 <!--more-->

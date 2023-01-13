@@ -20,7 +20,7 @@ Thus, it is time to get rid of the IIS Express limitation, and embrace all the b
 
 # Local IIS Express Custom Configuration
 
-If you happen to use Visual Studio 2015 (I hope you did), you will find [the latest build](http://blogs.msdn.com/b/webdev/archive/2015/04/29/new-asp-net-features-and-fixes-in-visual-studio-2015-rc.aspx) quite useful.
+If you happen to use Visual Studio 2015 (I hope you did), you will find [the latest build](https://devblogs.microsoft.com/dotnet/new-asp-net-features-and-fixes-in-visual-studio-2015-rc/) quite useful.
 
 Microsoft finally finds it too complex to put all web projects with IIS Express enabled in the global configuration, and decides that each solution should have its own config file living in the .vs folder (of course you can switch back to global by project settings).
 

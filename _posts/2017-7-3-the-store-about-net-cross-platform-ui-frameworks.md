@@ -213,7 +213,7 @@ Whether the two frameworks can grow as mature as Xamarin.Forms is uncertain. The
 > * Interestingly that Qt guys do develop their own markup language called QML.
 > * You might use QtSharp to develop a Qt app, and a new project called [Qml.Net](https://github.com/pauldotknopf/Qml.Net) is another option.
 
-> Look for other interesting posts like this one? You can visit [the index page](https://halfblood.pro/all-in-one-for-the-legends-of-net-materials-43c374a01433).
+> Look for other interesting posts like this one? You can visit [the index page](/all-in-one-for-the-legends-of-net-materials-43c374a01433).
 
 > **Some Incomplete Information on Blazor/Electron**
 >

@@ -49,4 +49,4 @@ Microsoft developed HttpPlatformHandler initially to make IIS a good enough reve
 
 Well, quite lengthy, but I hope I put all necessary pieces together and you enjoy reading it.
 
-> Look for other interesting posts like this one? You can visit [the index page](https://halfblood.pro/all-in-one-for-the-legends-of-net-materials-43c374a01433).
+> Look for other interesting posts like this one? You can visit [the index page](/all-in-one-for-the-legends-of-net-materials-43c374a01433).

@@ -132,17 +132,13 @@ We will keep working hard on this new theme to make it even better. There are on
 
 Note that if you use a custom tool strip renderer the final look can be even closer to Visual Studio 2012,
 
-I have added such a renderer to DPS sample project, which is based on the pre-defined color scheme included in ToolStrip Customizer,
-
-https://toolstripcustomizer.codeplex.com/
+I have added such a renderer to DPS sample project, which is based on the pre-defined color scheme included in [ToolStrip Customizer](https://toolstripcustomizer.codeplex.com/)
 
 Stay tuned.
 
 # Updated on Oct 22, 2015
 
-There is a new post covering VS 2013 Blue theme and separation of core and themes,
-
-https://blog.lextudio.com/2015/10/dockpanel-suite-more-about-theming/
+There is [a new post](/dockpanel-suite-more-about-theming-48864f47892c) covering VS 2013 Blue theme and separation of core and themes,
 
 # Updated on Sept 5, 2016
 

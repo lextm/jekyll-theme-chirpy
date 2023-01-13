@@ -2,6 +2,7 @@
 layout: post
 title: "DockPanel Suite: Docs Site, reStructuredText, and Visual Studio Code"
 tags: reStructuredText DockPanel-Suite Visual-Studio-Code
+permalink: /dockpanel-suite-docs-site-restructuredtext-and-visual-studio-code-d9d5a6b37a0d
 excerpt_separator: <!--more-->
 ---
 > Well, such a long title should match a long post. You’ve been warned!

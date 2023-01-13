@@ -12,7 +12,7 @@ image:
 There is [a Wikipedia article about MonoDevelop](https://en.wikipedia.org/wiki/MonoDevelop). However, I don't think it contains the necessary history events on this product, so here I provide an alternative version.
 <!--more-->
 
-> Note that I also [blogged about MonoDevelop status](https://halfblood.pro/status-of-monodevelop-xamarin-studio-253da80d022c) in the past.
+> Note that I also [blogged about MonoDevelop status](/status-of-monodevelop-xamarin-studio-253da80d022c) in the past.
 
 When Miguel de Icaza announced the Mono project at OSCON on June 30, 2001, clearly a free and open source IDE was part of the plan (to replace Visual Studio, as on Linux there was no other option). The early work on Mono CLR, C# compiler, and GTK# binding made it possible to write such an IDE based on GTK#.
 

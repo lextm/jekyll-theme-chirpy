@@ -14,7 +14,7 @@ image:
 
 # The Tough Road of Platform Upgrades
 
-We [talked about .NET Standard/.NET Core support](https://halfblood.pro/snmp-pro-goes-to-net-core-d3b3ebdc2750) a while ago, and after that we keep silent for a long while. The reason behind was the .NET Core tooling was not as mature as it should be in the first half of 2017. In the meantime, some dependencies we need were not yet upgraded to .NET Standard.
+We [talked about .NET Standard/.NET Core support](/snmp-pro-goes-to-net-core-d3b3ebdc2750) a while ago, and after that we keep silent for a long while. The reason behind was the .NET Core tooling was not as mature as it should be in the first half of 2017. In the meantime, some dependencies we need were not yet upgraded to .NET Standard.
 
 It was some time in September that we were finally ready to carry out all the migration, and in early December we could build and test everything without a problem.
 

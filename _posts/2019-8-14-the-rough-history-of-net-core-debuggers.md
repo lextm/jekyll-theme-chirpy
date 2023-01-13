@@ -35,18 +35,18 @@ However, JetBrains .NET Core debugger is also proprietary, so only ships as part
 
 # Samsung .NET Core Debugger, aka netcoredbg
 
-[Samsung joined .NET Foundation Technical Steering Group](https://dotnetfoundation.org/blog/2016/06/27/samsung-join-tsg) back in June 27, 2016.
+[Samsung joined .NET Foundation Technical Steering Group](https://old.dotnetfoundation.org/blog/2016/06/27/samsung-join-tsg) back in June 27, 2016.
 
 That's an important move for this hardware centric company where it embraces Microsoft .NET Core technologies to help boost its Tizen operating system.
 
-On November 16, 2016, [Visual Studio Tools for Tizen](https://dotnetfoundation.org/blog/2016/11/16/google-join-tsg) was released, and Samsung open sourced its [.NET Core debugger](https://github.com/Samsung/netcoredbg) (not only for Tizen, but also for other operating systems like Windows/Mac/Linux) on GitHub.
+On November 16, 2016, [Visual Studio Tools for Tizen](https://old.dotnetfoundation.org/blog/2016/11/16/google-join-tsg) was released, and Samsung open sourced its [.NET Core debugger](https://github.com/Samsung/netcoredbg) (not only for Tizen, but also for other operating systems like Windows/Mac/Linux) on GitHub.
 
 Compared to the debuggers from Microsoft/JetBrains, this open source debugger lacks of many important features, but as the solely free tool without licensing problems it enables all kind of possibilities.
 
 # Side Notes on MonoDevelop
 
-Visual Studio for Mac is built upon MonoDevelop. However, Microsoft does not license vsdbg to be used in MonoDevelop. That's why earlier this year I finished [the extension to enable .NET Core debugging in MonoDevelop with the Samsung debugger](https://halfblood.pro/samsung-net-core-debugger-and-monodevelop-80a6ea4bcab3).
+Visual Studio for Mac is built upon MonoDevelop. However, Microsoft does not license vsdbg to be used in MonoDevelop. That's why earlier this year I finished [the extension to enable .NET Core debugging in MonoDevelop with the Samsung debugger](/samsung-net-core-debugger-and-monodevelop-80a6ea4bcab3).
 
 There was a long inactive period on Samsung .NET Core debugger repo since April 2019 but later the project started to be active again.
 
-> Look for other interesting posts like this one? You can visit [the index page](https://halfblood.pro/all-in-one-for-the-legends-of-net-materials-43c374a01433).
+> Look for other interesting posts like this one? You can visit [the index page](/all-in-one-for-the-legends-of-net-materials-43c374a01433).
