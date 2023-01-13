@@ -10,11 +10,11 @@ You may notice that I have just released a new BETA version of Code Beautifier C
 From now on, I change the naming policy to this style in order to match the current release cycle. Now the cycle is much longer (4–6 weeks), compared to the old days (one week, when I was at college).
 <!--more-->
 
-C’est la vie!
+C'est la vie!
 
 I plan to release a stable version in May. So stay tuned on the May 08 Release, my friends.
 
-Oh, almost forget to tell you what’s new in the April version,
+Oh, almost forget to tell you what's new in the April version,
 
 1. Office 2007 style UI for PlusManager, ExpertManager and InDate.
 1. New InDate implementation on State Pattern.

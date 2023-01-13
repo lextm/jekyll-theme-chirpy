@@ -11,7 +11,7 @@ You can not see this helper until you are working on a large project group. Yes,
 
 How to ease your experience? SBT adds a menu to activate the project for you. But you still need to click a menu item or use a shortcut. I make things easier. When you switch among the files inside Editor, corresponding projects are activated for you automatically.
 
-Isn’t it useful? Hey hey, I like it this way.
+Isn't it useful? Hey hey, I like it this way.
 
 This feature was first introduced in latest R2M5. Try it.
 <!--more-->

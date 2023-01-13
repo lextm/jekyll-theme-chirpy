@@ -18,44 +18,44 @@ Anyway, I then downloaded the source code (NuGet 2.2 release, not master) to Win
 
 ```
 Mono: gc took 15 usecs
-Mono: Assembly Loader probing location: ‘/usr/lib/mono/4.0/mscorlib.dll’.
+Mono: Assembly Loader probing location: '/usr/lib/mono/4.0/mscorlib.dll'.
 Mono: Image addref mscorlib[0x9960ab0] -> /usr/lib/mono/4.0/mscorlib.dll[0x99601b8]: 2
 Mono: AOT failed to load AOT module /usr/lib/mono/4.0/mscorlib.dll.so: /usr/lib/mono/4.0/mscorlib.dll.so: cannot open shared object file: No such file or directory
 
-Mono: Assembly Loader loaded assembly from location: ‘/usr/lib/mono/4.0/mscorlib.dll’.
-Mono: Config attempting to parse: ‘/usr/lib/mono/4.0/mscorlib.dll.config’.
-Mono: Config attempting to parse: ‘/etc/mono/assemblies/mscorlib/mscorlib.config’.
+Mono: Assembly Loader loaded assembly from location: '/usr/lib/mono/4.0/mscorlib.dll'.
+Mono: Config attempting to parse: '/usr/lib/mono/4.0/mscorlib.dll.config'.
+Mono: Config attempting to parse: '/etc/mono/assemblies/mscorlib/mscorlib.config'.
 Mono: Assembly mscorlib[0x9960ab0] added to domain NuGet.exe, ref_count=1
-Mono: Config attempting to parse: ‘/etc/mono/config’.
-Mono: Config attempting to parse: ‘/home/lextm/.mono/config’.
-Mono: Assembly Loader probing location: ‘NuGet.exe’.
+Mono: Config attempting to parse: '/etc/mono/config'.
+Mono: Config attempting to parse: '/home/lextm/.mono/config'.
+Mono: Assembly Loader probing location: 'NuGet.exe'.
 Mono: Image addref NuGet[0x99adcf8] -> /home/lextm/Downloads/ConsoleApplication3/.nuget/NuGet.exe[0x99ad030]: 2
 Mono: Assembly NuGet[0x99adcf8] added to domain NuGet.exe, ref_count=1
 Mono: AOT failed to load AOT module /home/lextm/Downloads/ConsoleApplication3/.nuget/NuGet.exe.so: /home/lextm/Downloads/ConsoleApplication3/.nuget/NuGet.exe.so: cannot open shared object file: No such file or directory
 
-Mono: Assembly Loader loaded assembly from location: ‘NuGet.exe’.
-Mono: Config attempting to parse: ‘/home/lextm/Downloads/ConsoleApplication3/.nuget/NuGet.exe.config’.
-Mono: Config attempting to parse: ‘/etc/mono/assemblies/NuGet/NuGet.config’.
-Mono: Assembly Loader probing location: ‘NuGet.exe’.
+Mono: Assembly Loader loaded assembly from location: 'NuGet.exe'.
+Mono: Config attempting to parse: '/home/lextm/Downloads/ConsoleApplication3/.nuget/NuGet.exe.config'.
+Mono: Config attempting to parse: '/etc/mono/assemblies/NuGet/NuGet.config'.
+Mono: Assembly Loader probing location: 'NuGet.exe'.
 Mono: AOT failed to load AOT module /home/lextm/Downloads/ConsoleApplication3/.nuget/NuGet.exe.so: /home/lextm/Downloads/ConsoleApplication3/.nuget/NuGet.exe.so: cannot open shared object file: No such file or directory
 
 Mono: Assembly Ref addref NuGet[0x99adcf8] -> mscorlib[0x9960ab0]: 2
-Mono: Assembly Loader probing location: ‘/home/lextm/Downloads/ConsoleApplication3/.nuget/NuGet.Core.dll’.
+Mono: Assembly Loader probing location: '/home/lextm/Downloads/ConsoleApplication3/.nuget/NuGet.Core.dll'.
 Mono: Image addref NuGet.Core[0x99b5038] -> /home/lextm/Downloads/ConsoleApplication3/.nuget/NuGet.Core.dll[0x99b4708]: 2
 Mono: Assembly NuGet.Core[0x99b5038] added to domain NuGet.exe, ref_count=1
 Mono: AOT failed to load AOT module /home/lextm/Downloads/ConsoleApplication3/.nuget/NuGet.Core.dll.so: /home/lextm/Downloads/ConsoleApplication3/.nuget/NuGet.Core.dll.so: cannot open shared object file: No such file or directory
 
-Mono: Assembly Loader loaded assembly from location: ‘/home/lextm/Downloads/ConsoleApplication3/.nuget/NuGet.Core.dll’.
-Mono: Config attempting to parse: ‘/home/lextm/Downloads/ConsoleApplication3/.nuget/NuGet.Core.dll.config’.
-Mono: Config attempting to parse: ‘/etc/mono/assemblies/NuGet.Core/NuGet.Core.config’.
+Mono: Assembly Loader loaded assembly from location: '/home/lextm/Downloads/ConsoleApplication3/.nuget/NuGet.Core.dll'.
+Mono: Config attempting to parse: '/home/lextm/Downloads/ConsoleApplication3/.nuget/NuGet.Core.dll.config'.
+Mono: Config attempting to parse: '/etc/mono/assemblies/NuGet.Core/NuGet.Core.config'.
 Mono: Assembly Ref addref NuGet[0x99adcf8] -> NuGet.Core[0x99b5038]: 2
 Mono: Assembly Ref addref NuGet.Core[0x99b5038] -> mscorlib[0x9960ab0]: 3
 Missing method .ctor in assembly /home/lextm/Downloads/ConsoleApplication3/.nuget/NuGet.exe, type System.Runtime.CompilerServices.ExtensionAttribute
 Mono: The class System.Runtime.CompilerServices.ExtensionAttribute could not be loaded, used in NuGet
-Can’t find custom attr constructor image: /home/lextm/Downloads/ConsoleApplication3/.nuget/NuGet.exe mtoken: 0x0a000018
+Can't find custom attr constructor image: /home/lextm/Downloads/ConsoleApplication3/.nuget/NuGet.exe mtoken: 0x0a000018
 ```
 
-If you happen to meet the same exception message after following http://docs.nuget.org/docs/contribute/setting-up-the-nuget-development-environment, please don’t panic as this is by design. The NuGet site steps will generate binaries compiled against .NET 4.5 profile, which is not yet available in Mono stable releases (2.10.*). You have to use Visual Studio 2010 to build the binaries (Core and CommandLine projects).
+If you happen to meet the same exception message after following http://docs.nuget.org/docs/contribute/setting-up-the-nuget-development-environment, please don't panic as this is by design. The NuGet site steps will generate binaries compiled against .NET 4.5 profile, which is not yet available in Mono stable releases (2.10.*). You have to use Visual Studio 2010 to build the binaries (Core and CommandLine projects).
 [Update: the exception is not Mono alone. If you run a .NET 4.5 program on .NET 4 you might hit the same, http://www.mattwrock.com/post/2012/02/29/What-you-should-know-about-running-ILMerge-on-Net-45-Beta-assemblies-targeting-Net-40.aspx]
 
 Well, if you find that you cannot open the two projects correctly in VS2010, please go to Build\NuGet.Settings.targets file, and change
@@ -77,15 +77,15 @@ Finally the instrumented binary told me that `PhysicalFileSystem.GetDirectory` a
 ``` csharp
 private static string EnsureTrailingSlash(string path)
 {
-    if (!path.EndsWith(“\\”, StringComparison.Ordinal))
+    if (!path.EndsWith("\\", StringComparison.Ordinal))
     {
-        path += “\\”;
+        path += "\\";
     }
     return path;
 }
 ```
 
-OK. If you are familiar with http://www.mono-project.com/Guidelines:Application_Portability, it is obvious that “\\” is the culprit. You should use Path.DirectorySeparatorChar to replace it.
+OK. If you are familiar with [this guide](http://www.mono-project.com/Guidelines:Application_Portability), it is obvious that `\\` is the culprit. You should use Path.DirectorySeparatorChar to replace it.
 
 Right now I am ready to fork NuGet, fix this issue, and send back a pull request.
 

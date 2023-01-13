@@ -9,5 +9,5 @@ The first poll about #SNMP future was closed a few days earlier. The result show
 
 So I will put this requirement on the list but with a low priority (but higher than SNMP v3 at this moment). It is really challenging as this may require a powerful MIB compiler implementation ahead.
 
-OK. That’s all for this time. Stay tuned.
+OK. That's all for this time. Stay tuned.
 <!--more-->

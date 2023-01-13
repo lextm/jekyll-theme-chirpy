@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 ---
 Last time when I updated the user interface of InDate, Plus Manager and Expert Manager, I did a lot of refactorings to improve Plus Manager. However, I did nothing in Expert Manager.
 
-This time after logging a new issue here, I think it’s time to work on Expert Manager again to simplify the source code there.
+This time after logging a new issue here, I think it's time to work on Expert Manager again to simplify the source code there.
 
 http://code.google.com/p/lextudio/issues/detail?id=9
 

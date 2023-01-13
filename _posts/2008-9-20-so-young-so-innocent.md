@@ -9,7 +9,7 @@ I thought I had grown up to an adult, but my mom denied it. She insisted that I 
 
 I am so young, young enough to make mistakes, deliberately or indeliberately, and gain experience from them. But am I always innocent? Am I always free of responsibility?
 
-What happens this weekend makes me suffer a lot today, and I am not sure if the last thing I expected would come true next week. It is really tough for me to carry on so much burden, but only this time I know my responsibilities more clearly. I’ll do whatever it takes to fulfill my destiny.
+What happens this weekend makes me suffer a lot today, and I am not sure if the last thing I expected would come true next week. It is really tough for me to carry on so much burden, but only this time I know my responsibilities more clearly. I'll do whatever it takes to fulfill my destiny.
 
 I have faith in me that finally a win-win will come if I try my best.
 

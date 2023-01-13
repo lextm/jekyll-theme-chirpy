@@ -12,7 +12,7 @@ A few performance testing scenarios have been executed recently and the results 
 
 ``` csharp
 [Test]
-[Category(“Default”)]
+[Category("Default")]
 public void TestResponses()
 {
     var start = 16102;
@@ -32,14 +32,14 @@ public void TestResponses()
     for (int index = start; index < end; index++) // in sync
     //Parallel.For(start, end, index => // async
     {
-        GetRequestMessage message = new GetRequestMessage(index, VersionCode.V2, new OctetString(“public”), new List<Variable> { new Variable(new ObjectIdentifier(“1.3.6.1.2.1.1.1.0”)) });
+        GetRequestMessage message = new GetRequestMessage(index, VersionCode.V2, new OctetString("public"), new List<Variable> { new Variable(new ObjectIdentifier("1.3.6.1.2.1.1.1.0")) });
         Socket socket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
 
         Stopwatch watch = new Stopwatch();
         watch.Start();
         var response = message.GetResponse(timeout, new IPEndPoint(IPAddress.Loopback, index), socket);
         watch.Stop();
-        Console.WriteLine(“manager {0}: {1}”, index, watch.Elapsed);
+        Console.WriteLine("manager {0}: {1}", index, watch.Elapsed);
         Assert.AreEqual(index, response.RequestId());
     }
     // );

@@ -12,4 +12,4 @@ When you try to translate the WinFormStrings.resx, you will find .NET Language L
 
 I have to confess it is still hard to localize a project even with the help of Visual Studio and .NET Language Localizator 2 for .NET 2. So, before any exercise, think twice.
 
-And you see, that is why I hadn’t localize CBC even though so many Chinese users asked me to.
+And you see, that is why I hadn't localize CBC even though so many Chinese users asked me to.

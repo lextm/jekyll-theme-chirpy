@@ -5,7 +5,7 @@ tags: macOS
 permalink: /switching-to-os-x-initial-days-54cad828abac
 excerpt_separator: <!--more-->
 ---
-It was last week that I finally decided to buy a Macbook Pro as my new laptop. So it worked fine then when I was away from home at Hong Kong, before today I had some time to hook my previous PC extras to it. OK, getting started can always be painful, but if you do have the necessary searching skills, you won’t be disappointed after a while.
+It was last week that I finally decided to buy a Macbook Pro as my new laptop. So it worked fine then when I was away from home at Hong Kong, before today I had some time to hook my previous PC extras to it. OK, getting started can always be painful, but if you do have the necessary searching skills, you won't be disappointed after a while.
 <!--more-->
 
 # Logitech Mouse and Keyboard
@@ -23,7 +23,7 @@ Then you should observe some unexpected mouse lag, as described in this forum po
 
 http://smoothmouse.com/forum/topic/34-pointer-lag/
 
-I wasted lots of time to investigate Logitech Control Center, but remind you that it was a dead end. Logitech does not yet upgrade it to support Yosemite and it won’t function to remedy all the issues here,
+I wasted lots of time to investigate Logitech Control Center, but remind you that it was a dead end. Logitech does not yet upgrade it to support Yosemite and it won't function to remedy all the issues here,
 
 https://forums.logitech.com/t5/Mice-and-Pointing-Devices/Where-is-Logitech-Control-Center-for-OS-X-10-10-Yosemite/td-p/1327549
 

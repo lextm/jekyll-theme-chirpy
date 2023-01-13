@@ -9,5 +9,5 @@ I used to love the Firefox wallpapers. As a result, now I use this wallpaper.
 
 http://developer.mozilla.org/en/docs/Promote_MDC
 
-Yes, it is very nice. ‘’Please Don’t Hurt The Web’’.
+Yes, it is very nice. "Please Don't Hurt The Web."
 <!--more-->

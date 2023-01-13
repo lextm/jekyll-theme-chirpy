@@ -14,4 +14,4 @@ So this time when I ordered a pair of headphones the day before yesterday, I ask
 
 I used to love China-Pub.com, but since it failed to send me a book this September I stopped to try something new.
 
-BTW, Taobao.com is nice if you want to buy something unavailable on Amazon.CN. Because on Taobao you can always receive the goods first and pay later, you can pay without any fear. I bought an out-of-print “Refactoring” copy there. However, the book was sent to me by the seller directly without some official supervision, so I was not that confident until the book arrived.
+BTW, Taobao.com is nice if you want to buy something unavailable on Amazon.CN. Because on Taobao you can always receive the goods first and pay later, you can pay without any fear. I bought an out-of-print "Refactoring" copy there. However, the book was sent to me by the seller directly without some official supervision, so I was not that confident until the book arrived.

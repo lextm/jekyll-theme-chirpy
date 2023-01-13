@@ -36,4 +36,4 @@ http://www.mpgamestudio.com/en/
 
 And AdventurerLand is still a Borland/CodeGear Technology Partner. I guess it forgets to add a BTP banner on its homepage.
 
-When I browse for AdventurerLand here, I find its registered product is Lab Technology.NET. You can see the description is valid for Karvonite. So I believe Karvonite is the “Lab Technology.NET”. BTW, I think Karvonite is a better name.)
+When I browse for AdventurerLand here, I find its registered product is Lab Technology.NET. You can see the description is valid for Karvonite. So I believe Karvonite is the "Lab Technology.NET". BTW, I think Karvonite is a better name.)

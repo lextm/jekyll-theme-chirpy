@@ -9,7 +9,7 @@ I was thinking that a minor upgrade to 6.1 can make Delphi 2009 support complete
 
 1. Compiled for Delphi 2009 Tools API assembly. (done)
 1. Updated installer script. (done)
-1. Changed version number to 7.0 and pick up a new code to replace “gv” for InDate.
+1. Changed version number to 7.0 and pick up a new code to replace `gv` for InDate.
 1. Updated JCF and JCFStyle.
 1. Updated documents.
 

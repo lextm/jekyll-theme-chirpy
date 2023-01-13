@@ -13,12 +13,12 @@ You should notice that #SNMP Library is now releasing more frequent with minor r
 
 First, we chose to utilize assistant OID names during OID extraction process, as the previous extraction code was not smart enough to handle out of order OID definitions.
 
-Assume that the child definition “ieee8021TcMib” occurs firstly, and the parent definition “ieee802dot1mibs” comes secondly, the extraction code would create an assistant item “ieee802dot1_1” which works as a temporary parent for “ieee8021TcMib”.
+Assume that the child definition `ieee8021TcMib` occurs firstly, and the parent definition `ieee802dot1mibs` comes secondly, the extraction code would create an assistant item `ieee802dot1_1` which works as a temporary parent for `ieee8021TcMib`.
 
 ``` asn
 ieee8021TcMib MODULE-IDENTITY
 DESCRIPTION
-“Initial version.”
+"Initial version."
 ::= { org ieee(111) standards-association-numbers-series-standards(2)
 lan-man-stds(802) ieee802dot1(1) 1 1 }
 ieee802dot1mibs OBJECT IDENTIFIER
@@ -26,7 +26,7 @@ ieee802dot1mibs OBJECT IDENTIFIER
 lan-man-stds(802) ieee802dot1(1) 1 }
 ```
 
-Such an approach works, but with a price that this OID would have two names “ieee8021TcMib” and “ieee802dot1_1”, while the latter does not come from the documents.
+Such an approach works, but with a price that this OID would have two names `ieee8021TcMib` and `ieee802dot1_1`, while the latter does not come from the documents.
 
 In 1.1.2 release, a new approach is used, so such assistant items have gone forever.
 

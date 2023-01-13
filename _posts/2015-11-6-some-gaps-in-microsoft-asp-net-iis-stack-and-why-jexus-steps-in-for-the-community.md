@@ -16,12 +16,12 @@ IIS Express is introduced to replace Cassini, and it shares a large amount of co
 
 Microsoft attempts to solve this by
 
-1. Allowing some important settings to be configured in VS. That’s quite a limited set of settings.
-1. Providing command line tools (appcmd and so on). That’s still not easy to use, as not everyone knows the command line tools.
+1. Allowing some important settings to be configured in VS. That's quite a limited set of settings.
+1. Providing command line tools (appcmd and so on). That's still not easy to use, as not everyone knows the command line tools.
 
 IIS Manager could not be easily changed to support IIS Express because it has a tight dependency on IIS itself in every design (module organization, MWA dependency, permission control).
 
-IIS Express has its own Microsoft.Web.Administration.dll (version 7.9, installed in GAC), which sometimes introduces even a bigger problem (affecting apps who want to use full IIS’s MWA).
+IIS Express has its own Microsoft.Web.Administration.dll (version 7.9, installed in GAC), which sometimes introduces even a bigger problem (affecting apps who want to use full IIS's MWA).
 
 Thus, Jexus Manager was created to fill this gap, providing both a fully managed MWA clone which works without native dependencies, and GUI that emulating IIS Manager.
 
@@ -29,9 +29,9 @@ Thus, Jexus Manager was created to fill this gap, providing both a fully managed
 
 Microsoft focuses on ASP.NET 5 and .NET Core 5, while we do see many existing projects remain on ASP.NET 4.*. Before there is a better way to convert ASP.NET 4.* apps to 5, it would be beneficial if we could run ASP.NET 4.* apps directly on Linux.
 
-Luckily Jexus web server has been there for years. By using Mono’s ASP.NET 4.* stack, many ASP.NET 4.* apps can run on Linux/Jexus with moderate modification (to adapt to Linux file system and so on mainly).
+Luckily Jexus web server has been there for years. By using Mono's ASP.NET 4.* stack, many ASP.NET 4.* apps can run on Linux/Jexus with moderate modification (to adapt to Linux file system and so on mainly).
 
-We are working on MWA support in Jexus, so that in future releases you might even use your Windows’s copy of web.config with IIS configuration on Linux/Jexus. That should save you lots of efforts converting settings from IIS to another web server.
+We are working on MWA support in Jexus, so that in future releases you might even use your Windows's copy of web.config with IIS configuration on Linux/Jexus. That should save you lots of efforts converting settings from IIS to another web server.
 
 # Kestrel Limitation
 

@@ -10,11 +10,11 @@ excerpt_separator: <!--more-->
 It was last week that I decided to slow down my development a little bit in order to keep pace with my study. However, good ideas kept on coming. So, I have to say that WalkPace stage has come.
 <!--more-->
 
-Remember that I disabled “shortcut settings” in BigFace. Now it is coming back.
+Remember that I disabled "shortcut settings" in BigFace. Now it is coming back.
 
-Also, I will start to port in more SBT functions. But this time, I have ported in C#Goodies’ function Doc Preview. I uses SharpDevelop a lot now, so I found this feature very urgent for BDS. It is not very hard to do this porting, because in BigFace I set up a better architecture. Later when you can see the code, you will find it easy to port in a feature.
+Also, I will start to port in more SBT functions. But this time, I have ported in C#Goodies' function Doc Preview. I uses SharpDevelop a lot now, so I found this feature very urgent for BDS. It is not very hard to do this porting, because in BigFace I set up a better architecture. Later when you can see the code, you will find it easy to port in a feature.
 
-However, I do not think CBC’s refactorings has stopped, so I bat more things are required.
+However, I do not think CBC's refactoring has stopped, so I bat more things are required.
 
 I will carry on.
 

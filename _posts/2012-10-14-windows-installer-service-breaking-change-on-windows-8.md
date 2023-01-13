@@ -28,4 +28,4 @@ Press any key to continue . . .
 
 So, now only the mutex check is reliable, while the service check completely fails.
 
-If you happen to meet the same problem, please execute the MSI packages directly to install the product. That’s a workaround I found to install Expression Studio and Windows Phone SDK.
+If you happen to meet the same problem, please execute the MSI packages directly to install the product. That's a workaround I found to install Expression Studio and Windows Phone SDK.

@@ -5,7 +5,7 @@ tags: SNMP .NET
 permalink: /how-to-port-snmp-library-to-net-core-878d29074f9c
 excerpt_separator: <!--more-->
 ---
-.NET Core is still a moving target, so don’t jump on it unless you are kind of crazy at this stage…
+.NET Core is still a moving target, so don't jump on it unless you are kind of crazy at this stage…
 Preparation
 Visual Studio 2015 already contains .NET Core Beta 8 bits, but you will have to install the official RC1 bits over it from [Microsoft](https://get.asp.net/).
 <!--more-->
@@ -14,7 +14,7 @@ Make sure you download the ASP.NET 5 RC one for your platform (assuming you choo
 
 Run the installer and it should download some more bits. When all is done, you will have .NET Core RC1 ready.
 
-Now let’s update it to RC1 Update 1,
+Now let's update it to RC1 Update 1,
 
 1. Open Visual Studio Command Prompt.
 1. Run dnvm upgrade
@@ -35,13 +35,13 @@ Active Version Runtime Architecture Location Alias
 
 # Hacking Starts
 
-Now it is time to go to Visual Studio 2015, and create a new project using the new “Class Library (Package)”.
+Now it is time to go to Visual Studio 2015, and create a new project using the new "Class Library (Package)".
 
 Before adding anything, open project.json. As this project type is .xproj and project.json is the new way to manage references, make sure you forget about our previous experience on .NET (.csproj).
 
 I have [a sample file here](https://github.com/lextudio/sharpsnmplib/blob/netcore5/SharpSnmpLib/project.json)
 
-You can see that it is more like a mixture of NuGet’s nuspec (package definition) and .csproj (project references), though in JSON format.
+You can see that it is more like a mixture of NuGet's nuspec (package definition) and .csproj (project references), though in JSON format.
 
 This sample file indicates a NuGet package for #SNMP Library, and targets both .NET Framework 4.5.1 (net451) and .NET Platform Standard 5.4 (dotnet5.4). So once compiled, a NuGet package will be generated, and it will support the two frameworks.
 

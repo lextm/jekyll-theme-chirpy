@@ -15,7 +15,7 @@ However, in Delphi for .NET, all you get is this.
 
 So how to generate a key file yourself? When I was a newbie I did not know until I read the readme file of .NET SDK 2.0. Using sn.exe is not hard but is it intuitive?
 
-That’s why now I add an item in Project Aid of CBC.
+That's why now I add an item in Project Aid of CBC.
 
 Click this item and CBC will generate a key file for you and add it to your project. The result is like this,
 

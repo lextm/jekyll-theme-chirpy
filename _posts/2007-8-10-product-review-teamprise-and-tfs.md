@@ -20,10 +20,10 @@ If you use TE already, you know it cannot be used outside Visual Studio. Yes, ge
 
 Teamprise, who provides standalone Java client for TFS built on Eclipse RCP, becomes an important player here.
 
-Yes, I am using Visual Studio Express, SharpDevelop, and CodeGear Delphi, but I can now use Teamprise Explorer to access CodePlex.com server easily. And after trying it for a few minutes I start to love it, which reminds of Borland’s (original Starbase’s) StarTeam, another great SCM product.
+Yes, I am using Visual Studio Express, SharpDevelop, and CodeGear Delphi, but I can now use Teamprise Explorer to access CodePlex.com server easily. And after trying it for a few minutes I start to love it, which reminds of Borland's (original Starbase's) StarTeam, another great SCM product.
 
 # Conclusion
 
-Why Microsoft does not provide a standalone client such as Teamprise Explorer? You know why, don’t you?
+Why Microsoft does not provide a standalone client such as Teamprise Explorer? You know why, don't you?
 
 By the way, you have to pay for Teamprise TFS clients, except that you use it to access CodePlex.com as I do. CodePlex authors can request a complimentary license code from Teamprise. You can find more information on CodePlex.com and Teamprise.com.

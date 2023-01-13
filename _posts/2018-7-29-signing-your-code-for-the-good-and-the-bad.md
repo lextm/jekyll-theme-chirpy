@@ -11,7 +11,7 @@ image:
 
 Signing your code is a very important step to confirm that you ship something that can be trusted by others. However, it comes at a price, because you need to pay a certificate authority for a valid certificate.
 
-> I did hesitate on buying such a certificate, as it is not cheap (consider the fact that SSL certificates for web sites are now almost free (like Let’s Encrypt). But suddenly I noticed that Microsoft MVPs are entitled free certificates from DigiCert. So I used the service to get mine.
+> I did hesitate on buying such a certificate, as it is not cheap (consider the fact that SSL certificates for web sites are now almost free (like Let's Encrypt). But suddenly I noticed that Microsoft MVPs are entitled free certificates from DigiCert. So I used the service to get mine.
 
 OK. Assume somehow you get a certificate (that can sign code), then how can you use it? I believe all certificate authorities have their documentation, but always they cannot cover all the details (otherwise, I won't bother writing this post). So let the story start.
 <!--more-->

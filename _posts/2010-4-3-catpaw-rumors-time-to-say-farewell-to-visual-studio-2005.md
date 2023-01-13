@@ -10,7 +10,7 @@ This weekend, I started to use Visual Studio 2010 as primary IDE instead of Visu
 
 This change leads to the following changes,
 
-1. I decided to drop Visual Studio 2005 solution support. This means that I don’t expect you to build from source code from within Visual Studio 2005 or with .NET 2.0 MSBuild. Visual C# 2008 Express or .NET 3.5 MSBuild is now the minimal requirement.
+1. I decided to drop Visual Studio 2005 solution support. This means that I don't expect you to build from source code from within Visual Studio 2005 or with .NET 2.0 MSBuild. Visual C# 2008 Express or .NET 3.5 MSBuild is now the minimal requirement.
 
    *The library assemblies, (SharpSnmpLib*.dll) are still compiled against .NET 2.0, so you can continue using them if you cannot afford .NET 3.5 or .NET 4.0.
 

@@ -22,7 +22,7 @@ Back in 2006, when I saw this CodeProject article, I decided to play with it. Ho
 
 Now, when GrapeVine goes .NET 2.0, a lot of changes have been introduced. And the most important one that prevents FastInvoke is a change in feature instance loading process.
 
-The PropertyRegistry introduced in “2006–10–17 HardQuery Release 2 Milestone 5” did not only bring me a lot of fun, but also removed the restriction that every feature instance must be Singleton. This simplified that loading process, but from then on, features have been loaded with reflection by calling the constructors directly.
+The PropertyRegistry introduced in "2006–10–17 HardQuery Release 2 Milestone 5" did not only bring me a lot of fun, but also removed the restriction that every feature instance must be Singleton. This simplified that loading process, but from then on, features have been loaded with reflection by calling the constructors directly.
 
 If you read the FastInvoke article carefully, you will notice this optimisation is for MethodInfo instances only. However, ConstructorInfo is not MethodInfo.
 

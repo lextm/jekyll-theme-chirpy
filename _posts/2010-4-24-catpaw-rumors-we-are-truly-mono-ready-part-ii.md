@@ -57,7 +57,7 @@ P5
 openSUSE 11.2
 mono-bugs@lists.ximian.com
 NEW
-“cannot be inferred from the usage” when compiling #SNMP
+"cannot be inferred from the usage" when compiling #SNMP
 The workaround is to convert LINQ expression back to normal lines.
 
 599486

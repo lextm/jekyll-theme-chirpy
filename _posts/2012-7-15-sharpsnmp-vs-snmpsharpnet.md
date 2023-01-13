@@ -24,17 +24,17 @@ SNMP#NET was also started in 2008, as its very first release [on SF.net](http://
 
 milans and I decided to write the libraries in the same year, under the same LGPL license terms, which can be an interesting coincidence. Neither of us knew each other at that time, until [I found out his project in May 2009](/trident-sign-another-open-source-snmp-library-via-c-4f2b904252). After that I wrote to Milan and learnt [how to use snmp4j agent](/trident-sign-how-to-set-up-snmp4j-agent-part-1-9354ddb8868a).
 
-Besides, #SNMP’s SNMP v3 support was ported from SNMP#NET, where I avoided reinventing the wheels.
+Besides, #SNMP's SNMP v3 support was ported from SNMP#NET, where I avoided reinventing the wheels.
 
 At that point I already noticed the huge differences between the two projects, so I did not expect any further integration and continued my efforts on #SNMP.
 
 # The Differences on Design Principles
 
-#SNMP was derived from Malcolm Crowe’s research project, and I did some refactoring and enhancements so as to provide an easy-to-use API.
+#SNMP was derived from Malcolm Crowe's research project, and I did some refactoring and enhancements so as to provide an easy-to-use API.
 
-Since [I conducted a review](/product-review-snmp-libraries-for-net-evaluation-report-e13f25991cad) on existing SNMP libraries a few months ago before my work on #SNMP, I already had a few ideas on what kind of API is “easy to use”.
+Since [I conducted a review](/product-review-snmp-libraries-for-net-evaluation-report-e13f25991cad) on existing SNMP libraries a few months ago before my work on #SNMP, I already had a few ideas on what kind of API is "easy to use".
 
-The final API design was inspired by Dart’s PowerSNMP for .NET, but of course I used whatever I found convenient and did not plan to clone Dart’s.
+The final API design was inspired by Dart's PowerSNMP for .NET, but of course I used whatever I found convenient and did not plan to clone Dart's.
 
 Therefore, if you have a chance to review all releases of #SNMP, you will see that it always tries to maintain simplicity on API side. Even if you plan to perform SNMP v3 operations or write an SNMP agent, you can just use a few lines of code once you understand how #SNMP works.
 
@@ -42,7 +42,7 @@ SNMP#NET seems to be heavily influenced by snmp4j,
 
 http://snmpsharpnet.com/node/1
 
-Personally I dislike that, though it may help a few Java developers to migrate their projects to C#/.NET, it does not make very good use of C# language and .NET platform. As I am kind of familiar with SNMP#NET’s weakness, [I wrote some tip](/a-tip-for-snmpsharpnet-snmp-net-users-6a23a02b71e) about how to properly use it.
+Personally I dislike that, though it may help a few Java developers to migrate their projects to C#/.NET, it does not make very good use of C# language and .NET platform. As I am kind of familiar with SNMP#NET's weakness, [I wrote some tip](/a-tip-for-snmpsharpnet-snmp-net-users-6a23a02b71e) about how to properly use it.
 
 # The Differences on Project Management
 
@@ -52,11 +52,11 @@ milans and I have different backgrounds, so we chose different approaches to man
 
 I also tried to put down my ideas on the development on my blog. The long term benefits I get from that is joyful. Every now and then I find it fun to refactor the code, to add new features, and perform reviews on the change sets, because of the good records I have kept. If you can track the evolution of your project, you will find the same.
 
-However, SNMP#NET is on another extreme. From SNMP#NET I could not see any unit test suite. I don’t know how it was tested. It just magically works, and is stable. And this project only releases source code snapshots with binaries. There is no public repository for it. Milan used to blog here,
+However, SNMP#NET is on another extreme. From SNMP#NET I could not see any unit test suite. I don't know how it was tested. It just magically works, and is stable. And this project only releases source code snapshots with binaries. There is no public repository for it. Milan used to blog here,
 
 http://www.snmpsharpnet.com/blog/3
 
-But he haven’t written a new post in the past two years.
+But he haven't written a new post in the past two years.
 
 # The Differences on API Richness
 
@@ -72,7 +72,7 @@ SNMP#NET, though it has good small samples (http://snmpsharpnet.com/node/6), doe
 
 #SNMP has been [tested on Mono and Linux](/dockpanel-suite-tip-5-we-could-go-mono-63ee484f77a0) for a few years now,
 
-During these two years, many Mono bugs have been identified, reported, and resolved. I even resolved bugs in some of the dependencies (Crad’s ActionList, and DockPanel Suite). My attempt of porting DPS to Mono finally inspires me to be a maintainer of it this year. The experience is fantastic, as I never imagined I could go this far.
+During these two years, many Mono bugs have been identified, reported, and resolved. I even resolved bugs in some of the dependencies (Crad's ActionList, and DockPanel Suite). My attempt of porting DPS to Mono finally inspires me to be a maintainer of it this year. The experience is fantastic, as I never imagined I could go this far.
 
 There is no report on whether SNMP#NET can work on Mono. Personally I think it should work, as it is relatively simple, and fully managed.
 

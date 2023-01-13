@@ -5,12 +5,12 @@ tags: Windows
 permalink: /touch-mouse-mate-fatter-installers-but-smoother-experience-62030cdf0c90
 excerpt_separator: <!--more-->
 ---
-If you subscribed to Touch Mouse Mate CodePlex homepage for every changes, you will notice that recently though the binary version number remains, the installers have been updated several times. That’s because I was tuning the installation experience step by step.
+If you subscribed to Touch Mouse Mate CodePlex homepage for every changes, you will notice that recently though the binary version number remains, the installers have been updated several times. That's because I was tuning the installation experience step by step.
 <!--more-->
 
 The following changes have been made,
 
-* .NET Framework 4.0 and Visual C++ 2010 runtime have been bundled in TMM installers. This increases the size of both installers significantly, but end users needn’t to find such dependencies themselves (especially when they are not IT experts).
+* .NET Framework 4.0 and Visual C++ 2010 runtime have been bundled in TMM installers. This increases the size of both installers significantly, but end users needn't to find such dependencies themselves (especially when they are not IT experts).
 * If TMM is still running, the installers provide an option to help kill it before installing/uninstalling.
 * The 64 bit installer will refuse to run on 32 bit Windows.
 * Windows XP SP3 is now the oldest Windows version supported.

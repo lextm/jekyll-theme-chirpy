@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 ---
 I do not like to do this kind of comparison because IMHO a commercial software should be better than the open source one or it is going to die. But [this post](http://www.hadihariri.com/Blogs/Atozed/20071218A.aspx) makes me speechless so I guess I can at least put down my opinions here.
 
-We all know that CodeGear’s partnership with InstallAware does not come easily but in all the decision should be rational. What is unexpected is that part of the current result is happiness while the other part is pain.
+We all know that CodeGear's partnership with InstallAware does not come easily but in all the decision should be rational. What is unexpected is that part of the current result is happiness while the other part is pain.
 <!--more-->
 
 Pros,
@@ -21,7 +21,7 @@ Cons,
 
 * MSI based installation is slow. Even though Microsoft holds the key, its Visual Studio and Vista SP1 installation is rather slow too.
 * Downloading such a large project from Internet kills people who used to fast pace. For me, it is still tolerable.
-* MSI installer can kill the author sometimes. There has been a lot of complaints over CodeGear’s installer especially for the December Update (and I just cannot install Microsoft SQL Server 2005 Express on my computer).
+* MSI installer can kill the author sometimes. There has been a lot of complaints over CodeGear's installer especially for the December Update (and I just cannot install Microsoft SQL Server 2005 Express on my computer).
 
 Can Inno Setup save CodeGear or Delphi users at last? I do not know. What I know is that,
 
@@ -35,4 +35,4 @@ Do not know what CodeGear will do in the near future but wish those guys can mak
 
 Long live Delphi
 
-(Update: I do not mean to look down upon Inno Setup, who serves Code Beautifier Collection well for so long. But more evidence is needed to prove it is perfect for CodeGear RAD Studio, isn’t it? CodeGear is building something critical for other developers’ success, so every step it takes should be careful.)
+(Update: I do not mean to look down upon Inno Setup, who serves Code Beautifier Collection well for so long. But more evidence is needed to prove it is perfect for CodeGear RAD Studio, isn't it? CodeGear is building something critical for other developers' success, so every step it takes should be careful.)

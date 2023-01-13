@@ -7,12 +7,12 @@ excerpt_separator: <!--more-->
 ---
 I bought an HTC Sensation XE phone last year. Generally speaking it was a nice model. However, like any old enough model it started to suffer performance issues only after a few months of using. Luckily HTC shipped an upgrade to Android 4.0 (ICS) some time in May and after the upgrade the performance got better.
 
-Time flied and this year the phone finally aged and experienced a second wave of slowness which I could not get rid of. Because the warranty wore off, I attempted to flash in CyanogenMod ROM to it. The wonderful thing is that I have been enjoying super fast performance ever since, and never want to go back to HTC’s one. I should have blogged about my attempt a long time ago, but I hope now is not too late.
+Time flied and this year the phone finally aged and experienced a second wave of slowness which I could not get rid of. Because the warranty wore off, I attempted to flash in CyanogenMod ROM to it. The wonderful thing is that I have been enjoying super fast performance ever since, and never want to go back to HTC's one. I should have blogged about my attempt a long time ago, but I hope now is not too late.
 <!--more-->
 
 # General Info on Android
 
-So before we begin, let’s visit some general information on how Android is flashed into a phone, as that will give you some ideas on why the following steps are important.
+So before we begin, let's visit some general information on how Android is flashed into a phone, as that will give you some ideas on why the following steps are important.
 
 You might not know that on a typical HTC Android phone, there are three ROMs shipped,
 
@@ -52,13 +52,13 @@ HTC locks the phones by default. This gives the vendor a chance to ensure that d
 
 But HTC is kind enough to provide end users [a chance to unlock the Bootloader](http://htcdev.com/bootloader).
 
-Please follow the steps to unlock your phone, as that’s the first milestone you need to hit.
+Please follow the steps to unlock your phone, as that's the first milestone you need to hit.
 
 After unlocking, you will have to re-enable USB debugging and disable fast boot again.
 
 # Recovery Image Hack
 
-HTC’s default recovery ROM does not have any significantly useful feature. So once you unlock your phone, you should flash a custom recovery ROM.
+HTC's default recovery ROM does not have any significantly useful feature. So once you unlock your phone, you should flash a custom recovery ROM.
 
 For me, I choose CWM (aka ClockworkMod), a quite famous option,
 
@@ -70,7 +70,7 @@ Then you need to download Android SDK toolkit, and extract it to a path such as 
 
 Copy the above .img file we downloaded to the SDK folder, and rename it to recovery.img.
 
-Now let’s go to the phone. Boot the phone to Bootloader by holding the volume down button and pressing the power button. After a few seconds your phone will boot into a screen that gives you several options, including fastboot and recovery. Choose fastboot.
+Now let's go to the phone. Boot the phone to Bootloader by holding the volume down button and pressing the power button. After a few seconds your phone will boot into a screen that gives you several options, including fastboot and recovery. Choose fastboot.
 
 Connect the phone to your PC via USB cable.
 
@@ -108,18 +108,18 @@ My suggestion is that you prepare the wire as indicated, and learn the wire tric
 
 # CyanogenMod Install
 
-CM is probably the cleanest custom ROM for phones, as it is almost the same as Google’s open source code base. For HTC Sensation XE, you can now use CM 10,
+CM is probably the cleanest custom ROM for phones, as it is almost the same as Google's open source code base. For HTC Sensation XE, you can now use CM 10,
 
 http://wiki.cyanogenmod.org/w/Pyramid_Info
 
 I am now using the nightly, http://download.cyanogenmod.org/?type=nightly&device=pyramid. You go straightly downloading the .zip package. You also need to download Google Apps from http://wiki.cyanogenmod.org/w/Gapps (note that we need to download the one for CM 10, not else).
 
-To install CM 10, you need to also boot into CWM, choose “wipe data” and “wipe cache”. Then use “install from zip” twice (first for CM 10, and then for Google Apps).
+To install CM 10, you need to also boot into CWM, choose "wipe data" and "wipe cache". Then use "install from zip" twice (first for CM 10, and then for Google Apps).
 
 Aha, the last step is to reboot from CWM, and wait till CM welcomes you.
 
 # Warnings
 
-* Don’t be afraid of the steps, man!
+* Don't be afraid of the steps, man!
 * Make sure you read from the beginning to the end and get prepared of what you are supposed to prepare.
 * The steps above work for my phone. Whether it applies to your phone perfectly is unknown as HTC does not reveal anything about the slight differences in its models.

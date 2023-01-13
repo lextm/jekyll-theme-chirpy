@@ -13,8 +13,8 @@ Below is a summary of my steps,
 1. Download and install Java runtime from http://java.com. I install it to C:\Program Files (x86)\Java\jre6.
 1. Configure JAVA_HOME like this (http://wso2.org/project/wsas/java/1.1/docs/setting-java-home.html) and add C:\Program Files (x86)\Java\jre6\bin to PATH.
 1. Download snmp4j agent ZIP package from here (http://snmp4j.org/html/download.html). I use 1.3.1 version.
-1. Unzip this package and copy all JARs from “lib” to “dist\lib”.
-1. Create a launch.bat in “dist\lib” and use the following content.
+1. Unzip this package and copy all JARs from `lib` to `dist\lib`.
+1. Create a launch.bat in `dist\lib` and use the following content.
 1. Execute this batch file to launch the agent. To stop it, simply close the console window.
 
 Batch file content is,

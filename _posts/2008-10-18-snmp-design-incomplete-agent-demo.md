@@ -32,7 +32,7 @@ So the simplest UI is done.
 
 # Simplest Code
 
-So now let’s see how to bind event handlers. The Start button must do this,
+So now let's see how to bind event handlers. The Start button must do this,
 
 ``` csharp
 private void btnStart_Click(object sender, EventArgs e)
@@ -50,7 +50,7 @@ private void btnStop_Click(object sender, EventArgs e)
 }
 ```
 
-Note: If you don’t explicitly specify the port number in Agent.Start, 161 will be used by default.
+Note: If you don't explicitly specify the port number in Agent.Start, 161 will be used by default.
 
 And the hardest part is the agent related. Thus, I handle the GET requests here for demo.
 
@@ -60,7 +60,7 @@ This is the simplest GET request handler I can think of,
 private void agent1_GetRequestReceived(object sender, Lextm.SharpSnmpLib.GetRequestReceivedEventArgs e)
 {
     GetRequestMessage message = e.Request;
-    MessageBox.Show(“A request is received from “ + e.Sender.Address);
+    MessageBox.Show("A request is received from " + e.Sender.Address);
 }
 ```
 
@@ -83,11 +83,11 @@ private void agent1_GetRequestReceived(object sender, Lextm.SharpSnmpLib.GetRequ
         return;
     }
 
-    GetResponseMessage response = new GetResponseMessage(message.SequenceNumber, message.Version, e.Sender.Address, message.Community, new List() { new Variable(sysDescr, new OctetString(“Test Description”)) });
+    GetResponseMessage response = new GetResponseMessage(message.SequenceNumber, message.Version, e.Sender.Address, message.Community, new List() { new Variable(sysDescr, new OctetString("Test Description")) });
     response.Send(e.Sender.Port);
 }
 
-private static ObjectIdentifier sysDescr = new ObjectIdentifier(“1.3.6.1.2.1.1.1.0”);
+private static ObjectIdentifier sysDescr = new ObjectIdentifier("1.3.6.1.2.1.1.1.0");
 ```
 
 In this way, AgentDemo.exe should be able to reply simple requests about its system description.

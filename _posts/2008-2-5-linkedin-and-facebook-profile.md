@@ -5,7 +5,7 @@ tags: Others
 permalink: /linkedin-and-facebook-profile-dd22ad4236f6
 excerpt_separator: <!--more-->
 ---
-Marco Cantu’ has done an interesting post about online communities. It seems that as a C# developer I should join some professional network like LinkedIn. So now I add a button on this blog which links to my LinkedIn profile.
+Marco Cantu' has done an interesting post about online communities. It seems that as a C# developer I should join some professional network like LinkedIn. So now I add a button on this blog which links to my LinkedIn profile.
 
 http://blog.marcocantu.com/blog/researching_online_communities.html
 

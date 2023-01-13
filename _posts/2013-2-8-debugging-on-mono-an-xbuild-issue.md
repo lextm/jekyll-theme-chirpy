@@ -5,7 +5,7 @@ tags: Mono
 permalink: /debugging-on-mono-an-xbuild-issue-44cda356cfa1
 excerpt_separator: <!--more-->
 ---
-I just attempted to answer [one StackOverflow question](http://stackoverflow.com/questions/14678414/installing-f-3-windows-xp-using-mono/14679719#14679719) about how to compile F# on Windows with Mono, but failed as there is something I don’t know why. However, by using Mono 3.0.3 xbuild I noticed that it seems to support many MSBuild 3.5 goodies. So I decided to test it out to execute ANTLR targets.
+I just attempted to answer [one StackOverflow question](http://stackoverflow.com/questions/14678414/installing-f-3-windows-xp-using-mono/14679719#14679719) about how to compile F# on Windows with Mono, but failed as there is something I don't know why. However, by using Mono 3.0.3 xbuild I noticed that it seems to support many MSBuild 3.5 goodies. So I decided to test it out to execute ANTLR targets.
 <!--more-->
 
 Well, in fact it stopped miserably
@@ -20,30 +20,30 @@ __________________________________________________
 E:\Projects\sharpsnmplib\SharpSnmpLib.md.sln: warning : Project file E:\Project
 s\sharpsnmplib\WinFormsUI\WinFormsUI.csproj referenced in the solution file, not
 found. Ignoring.
-E:\Projects\sharpsnmplib\SharpSnmpLib.md.sln: warning : Don’t know how to handl
+E:\Projects\sharpsnmplib\SharpSnmpLib.md.sln: warning : Don't know how to handl
 e GlobalSection TeamFoundationVersionControl, Ignoring.
-E:\Projects\sharpsnmplib\SharpSnmpLib.md.sln: warning : Don’t know how to handl
+E:\Projects\sharpsnmplib\SharpSnmpLib.md.sln: warning : Don't know how to handl
 e GlobalSection SubversionScc, Ignoring.
-Project “E:\Projects\sharpsnmplib\SharpSnmpLib.md.sln” (default target(s)):
+Project "E:\Projects\sharpsnmplib\SharpSnmpLib.md.sln" (default target(s)):
 Target ValidateSolutionConfiguration:
-Building solution configuration “Debug|Mixed Platforms”.
+Building solution configuration "Debug|Mixed Platforms".
 Target Build:
-Project “E:\Projects\sharpsnmplib\SharpSnmpLib\SharpSnmpLib.cspr
-oj” (default target(s)):
+Project "E:\Projects\sharpsnmplib\SharpSnmpLib\SharpSnmpLib.cspr
+oj" (default target(s)):
 Target PrepareForBuild:
 Configuration: Debug Platform: AnyCPU
 : error : Error building target CheckPrerequisites: Exception has been thrown by
 the target of an invocation.
-Done building project “E:\Projects\sharpsnmplib\SharpSnmpLib\Sha
-rpSnmpLib.csproj”. — FAILED
-Project “E:\Projects\sharpsnmplib\Mono.Options\Mono.Options.cspr
-oj” (default target(s)):
+Done building project "E:\Projects\sharpsnmplib\SharpSnmpLib\Sha
+rpSnmpLib.csproj". — FAILED
+Project "E:\Projects\sharpsnmplib\Mono.Options\Mono.Options.cspr
+oj" (default target(s)):
 ```
 
 Therefore, I need to resolve this problem first.
 
 # MonoDevelop Debugging — Failed
-To begin with, I tried to use MonoDevelop to debug xbuild. Miguel did post about the details a long time ago. However, even if I got the steps right for MonoDevelop 3.0.6, I found that Mono’s attaching method is no longer supported by Microsoft on Windows 8 (I did not test on other Windows versions yet),
+To begin with, I tried to use MonoDevelop to debug xbuild. Miguel did post about the details a long time ago. However, even if I got the steps right for MonoDevelop 3.0.6, I found that Mono's attaching method is no longer supported by Microsoft on Windows 8 (I did not test on other Windows versions yet),
 
 ```
 System.Runtime.InteropServices.COMException (0x80070032): The request is not supported. (Exception from HRESULT: 0x80070032)
@@ -60,7 +60,7 @@ I dumped the xbuild error details to a log file with the following command so th
 
 ```
 xbuild sharpsnmplib.md.sln /v:diag > error.log
-Target PreBuildEvent skipped due to false condition: ‘$(PreBuildEvent)’ != ‘’
+Target PreBuildEvent skipped due to false condition: '$(PreBuildEvent)' != ''
 : error : Error building target CheckPrerequisites: Exception has been thrown by the target of an invocation.
 Error building target CheckPrerequisites: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. — -> System.ArgumentException: Illegal characters in path.
 at System.IO.Path.IsPathRooted (System.String path) [0x00000] in :0
@@ -79,19 +79,19 @@ at Microsoft.Build.BuildEngine.TargetBatchingImpl.RunTargetWithBucket (System.Co
 at Microsoft.Build.BuildEngine.TargetBatchingImpl.Run (Microsoft.Build.BuildEngine.Target target, System.Boolean& executeOnErrors) [0x00000] in :0
 at Microsoft.Build.BuildEngine.TargetBatchingImpl.Build (Microsoft.Build.BuildEngine.Target target, System.Boolean& executeOnErrors) [0x00000] in :0
 at Microsoft.Build.BuildEngine.Target.DoBuild (System.Boolean& executeOnErrors) [0x00000] in :0
-Done building project “E:\Projects\sharpsnmplib\SharpSnmpLib\SharpSnmpLib.csproj”. — FAILED
+Done building project "E:\Projects\sharpsnmplib\SharpSnmpLib\SharpSnmpLib.csproj". — FAILED
 ```
 
 And since I could not debug Mono program I tried to use Mono tracing,
 
 ``` bash
-mono --trace=M:System.IO.Path:IsPathRooted “C:\Program Files (x86)\Mono-3.0.3\lib\mono\4.5\xbuild.exe” SharpSnmpLib.md.sln /v:diag > details.log
+mono --trace=M:System.IO.Path:IsPathRooted "C:\Program Files (x86)\Mono-3.0.3\lib\mono\4.5\xbuild.exe" SharpSnmpLib.md.sln /v:diag > details.log
 ```
 
 It is unbelievably easy that now I can tell what happened,
 
 ```
-[00001830: 1.88729 0] ENTER: System.IO.Path:IsPathRooted (string)([STRING:040CA330:$([System.IO.Path]::Combine(E:\Projects\sharpsnmplib\, “.nuget”))\nuget.exe], )
+[00001830: 1.88729 0] ENTER: System.IO.Path:IsPathRooted (string)([STRING:040CA330:$([System.IO.Path]::Combine(E:\Projects\sharpsnmplib\, ".nuget"))\nuget.exe], )
 : error : Error building target CheckPrerequisites: Exception has been thrown by the target of an invocation.
 Error building target CheckPrerequisites: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. — -> System.ArgumentException: Illegal characters in path.
 at System.IO.Path.IsPathRooted (System.String path) [0x00000] in :0
@@ -117,7 +117,7 @@ at Microsoft.Build.BuildEngine.Target.DoBuild (System.Boolean& executeOnErrors) 
 At this moment we know that NuGet.targets uses an inline defined variable xbuild does not support yet,
 
 ```
-$([System.IO.Path]::Combine($(SolutionDir), “.nuget”))
-$([System.IO.Path]::Combine($(ProjectDir), “packages.config”))
+$([System.IO.Path]::Combine($(SolutionDir), ".nuget"))
+$([System.IO.Path]::Combine($(ProjectDir), "packages.config"))
 ```
 It seems that I should now switch to Mono on Linux :)

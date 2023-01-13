@@ -14,7 +14,7 @@ However, some changes are made in WalkPace.
 
 Now the version number is 5.0.1.1018.
 
-See the manual History section for what’s new.
+See the manual History section for what's new.
 
 Download:
 

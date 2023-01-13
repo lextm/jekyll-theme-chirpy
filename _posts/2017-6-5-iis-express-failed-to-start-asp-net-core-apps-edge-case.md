@@ -31,16 +31,16 @@ Keywords: Classic
 User: N/A
 Computer: lextmserver
 Description:
-The worker process for app pool ‘Clr4IntegratedAppPool’, PID=’10400', failed to initialize the http.sys communication when asked to start processing http requests and therefore will be considered ill by W3SVC and terminated. The data field contains the error number.
+The worker process for app pool 'Clr4IntegratedAppPool', PID='10400', failed to initialize the http.sys communication when asked to start processing http requests and therefore will be considered ill by W3SVC and terminated. The data field contains the error number.
 Event Xml:
-<Event xmlns=”http://schemas.microsoft.com/win/2004/08/events/event">
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
 <System>
-<Provider Name=”IIS Express” />
-<EventID Qualifiers=”49152">2269</EventID>
+<Provider Name="IIS Express" />
+<EventID Qualifiers="49152">2269</EventID>
 <Level>2</Level>
 <Task>0</Task>
 <Keywords>0x80000000000000</Keywords>
-<TimeCreated SystemTime=”2017–06–06T00:09:05.569686000Z” />
+<TimeCreated SystemTime="2017–06–06T00:09:05.569686000Z" />
 <EventRecordID>14090</EventRecordID>
 <Channel>Application</Channel>
 <Computer>lextmserver</Computer>
@@ -67,14 +67,14 @@ Computer: lextmserver
 Description:
 The worker process failed to initialize correctly and therefore could not be started. The data is the error.
 Event Xml:
-<Event xmlns=”http://schemas.microsoft.com/win/2004/08/events/event">
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
 <System>
-<Provider Name=”IIS Express” />
-<EventID Qualifiers=”49152">2276</EventID>
+<Provider Name="IIS Express" />
+<EventID Qualifiers="49152">2276</EventID>
 <Level>2</Level>
 <Task>0</Task>
 <Keywords>0x80000000000000</Keywords>
-<TimeCreated SystemTime=”2017–06–06T00:09:06.675647300Z” />
+<TimeCreated SystemTime="2017–06–06T00:09:06.675647300Z" />
 <EventRecordID>14091</EventRecordID>
 <Channel>Application</Channel>
 <Computer>lextmserver</Computer>

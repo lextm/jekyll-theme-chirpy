@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 ---
 (CSDN Oct 16, 2006)
 
-Since no serious bugs are found lately, it will be wield to release an update version when there is nothing to update. In fact, recently I’ve added a lot of new features and made important changes in LeXDK. A Release 2 version of HardQuery may sound better.
+Since no serious bugs are found lately, it will be wield to release an update version when there is nothing to update. In fact, recently I've added a lot of new features and made important changes in LeXDK. A Release 2 version of HardQuery may sound better.
 <!--more-->
 
 New features are listed in previous threads, so now, I am focusing on PropertyService unit, a Registry pattern implementation.

@@ -12,7 +12,7 @@ I did not want to give up easily, so I downloaded the .tar.gz package and attemp
 
 I was so used to WOW64 on Windows, and I ignored the fact that now Linux also supports something similar till today I launched the 32 bit Terminal for the first time.
 
-Well, that’s it. the .tar.gz installer worked fine in 32 bit Terminal (with sudo of course). Then I could see Citrix Receiver icon in Gnome 3.
+Well, that's it. the .tar.gz installer worked fine in 32 bit Terminal (with sudo of course). Then I could see Citrix Receiver icon in Gnome 3.
 
 ``` bash
 sudo ./setupwfc

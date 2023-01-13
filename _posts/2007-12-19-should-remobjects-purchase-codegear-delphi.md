@@ -18,9 +18,9 @@ We cannot easily draw a conclusion that Visual Studio contains more interesting 
 # How To Release the Product?
 RemObjects adopts to a subscription based model much earlier than Borland/CodeGear who is still fighting to get there. Who buys Chrome today can receive later update easily, even bundled Visual Studio update is available. This kind of offer can strongly inspire the users and increase loyalty.
 
-Borland used an out-of-date model for so long and failed to deliver extra values to its loyal users, so when new technology was coming, its user base crushed. Even now, CodeGear cannot easily get rid of the clouds and mists. People who fear of “I will fix this in the new version” cannot trust CodeGear naturally.
+Borland used an out-of-date model for so long and failed to deliver extra values to its loyal users, so when new technology was coming, its user base crushed. Even now, CodeGear cannot easily get rid of the clouds and mists. People who fear of "I will fix this in the new version" cannot trust CodeGear naturally.
 
-I’d like to say in fact CodeGear tries its best to improve the experience now. Delphi 2007 is a good example. Even though the installation experience is still far from optimal, we get update all over the year which not only fix bugs but also deliver new features (like Blackfish SQL). A funny thing is that there are so many updates so it is hard to name them in numbers (numbers mess things up this time like Delphi 2007 Update 3 and Release 2), so for the first time we get something called December Update.
+I'd like to say in fact CodeGear tries its best to improve the experience now. Delphi 2007 is a good example. Even though the installation experience is still far from optimal, we get update all over the year which not only fix bugs but also deliver new features (like Blackfish SQL). A funny thing is that there are so many updates so it is hard to name them in numbers (numbers mess things up this time like Delphi 2007 Update 3 and Release 2), so for the first time we get something called December Update.
 
 # How to Improve the Language?
 Old languages like Pascal need new features just like new languages like Java and C#. But Borland/CodeGear lost so many gurus along the path (Andres, Chuck, and Danny), so it is really hard to bring something new and useful in every release (generics is the best feature in Delphi 2007 for .NET). Also maintaining two compilers is not easy.
@@ -33,6 +33,6 @@ Chrome always releases something free so you can touch (free compiler and runtim
 But Borland kept losing users by messing up with its roadmap. Sometimes the trial edition is not up-to-date (Delphi 2005 and 2006) which may lead users to the wrong conclusion. Wish CodeGear can focus on the current roadmap which is still promising and meets major voice and deliver something as perfect as possible in 2008.
 
 # Conclusion
-Yesterday I joined a fierce discussion on CodeGear newsgroup about whether RemObjects should acquire CodeGear Delphi. The idea was so original but reflected the truth that some users were still doubting CodeGear’s future.
+Yesterday I joined a fierce discussion on CodeGear newsgroup about whether RemObjects should acquire CodeGear Delphi. The idea was so original but reflected the truth that some users were still doubting CodeGear's future.
 
-RemObjects’ way may not be clonable because time goes by. However, because so many people still care about CodeGear, Delphi still has some hope.
+RemObjects' way may not be clonable because time goes by. However, because so many people still care about CodeGear, Delphi still has some hope.

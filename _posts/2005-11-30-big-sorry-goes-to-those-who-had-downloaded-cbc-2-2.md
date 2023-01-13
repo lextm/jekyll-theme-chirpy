@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 ---
 (Originally posted to CSDN on Nov 30, 2005)
 
-I am quite sorry that when I uploaded CBC 2.2 to BDN, I had not tested it completely as usual. However, since I’ve done a lot of refactoring, so some changes lead to bugs.
+I am quite sorry that when I uploaded CBC 2.2 to BDN, I had not tested it completely as usual. However, since I've done a lot of refactoring, so some changes lead to bugs.
 <!--more-->
 
 When you install CBC 2.2 as usual, the functions I describe in the manuals cannot be fired. A error dialog will complaint that the file you open is not a valid C/Delphi/XML file. It is my mistake.

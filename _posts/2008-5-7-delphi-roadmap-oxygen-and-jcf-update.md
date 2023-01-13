@@ -10,7 +10,7 @@ It is wonder to see that Delphi IDE is going to have a code formatter bundled. H
 http://dn.codegear.com/article/36620
 <!--more-->
 
-From now on, there is no more Chrome and RemObjects uses Oxygen for this kind of Object Pascal for .NET and Mono instead. Have to say that Delphi guys will envy Oxygen guys somehow because Oxygen has a nice parallel library. But do you remember Allen Bauers’s thread on parallel programming? Seems that something wonderful would come to Delphi, too.
+From now on, there is no more Chrome and RemObjects uses Oxygen for this kind of Object Pascal for .NET and Mono instead. Have to say that Delphi guys will envy Oxygen guys somehow because Oxygen has a nice parallel library. But do you remember Allen Bauers's thread on parallel programming? Seems that something wonderful would come to Delphi, too.
 
 http://blogs.codegear.com/abauer/category/parallel-programming
 

@@ -14,14 +14,14 @@ You probably know that I have ported this library to .NET Core a few months ago,
 
 Overall things work as Microsoft promised, but the process was rather painful. So instead of quickly moving everything to .NET Core, I decided to stay on .NET Framework and move a few goodies from the .NET Core migration attempt back to 9.0.x series.
 
-It turns out to be a smart choice as Microsoft later shipped Visual Studio 2017 RC (refreshed a few days ago), and today I can use an IDE to migrate once again. But I do hit a few different issues, so I’d like to list below.
+It turns out to be a smart choice as Microsoft later shipped Visual Studio 2017 RC (refreshed a few days ago), and today I can use an IDE to migrate once again. But I do hit a few different issues, so I'd like to list below.
 <!--more-->
 
 # MSBuild Project
 
 First I created an empty .NET standard 1.3 class library project, and then put it into SharpSnmpLib folder. The new format of MSBuild scripts allow the project to automatically include all C# source files without my manually adding them all. But immediately I hit an error that many existing attributes are duplicate such as,
 
-> error CS0579: Duplicate ‘System.Reflection.AssemblyCompanyAttribute’ attribute.
+> error CS0579: Duplicate 'System.Reflection.AssemblyCompanyAttribute' attribute.
 
 I was able to find similar posts on Stack Overflow and GitHub, but my solution is to add conditionals in AssemblyInfo.cs to exclude certain attributes from .NET Core compilation.
 
@@ -31,17 +31,17 @@ The remaining errors are so common that still classes or methods are missing. An
 
 ``` xml
 <ItemGroup>
-<PackageReference Include=”NETStandard.Library” Version=”1.6" />
-<PackageReference Include=”System.AppDomain” Version=”2.0.11" />
-<PackageReference Include=”System.ComponentModel.TypeConverter” Version=”4.1.0" />
-<PackageReference Include=”System.Net.NetworkInformation” Version=”4.1" />
-<PackageReference Include=”System.Runtime” Version=”4.1" />
-<PackageReference Include=”System.Runtime.Serialization.Primitives” Version=”4.1.1" />
-<PackageReference Include=”System.Threading.Thread” Version=”4.0.0" />
+<PackageReference Include="NETStandard.Library" Version="1.6" />
+<PackageReference Include="System.AppDomain" Version="2.0.11" />
+<PackageReference Include="System.ComponentModel.TypeConverter" Version="4.1.0" />
+<PackageReference Include="System.Net.NetworkInformation" Version="4.1" />
+<PackageReference Include="System.Runtime" Version="4.1" />
+<PackageReference Include="System.Runtime.Serialization.Primitives" Version="4.1.1" />
+<PackageReference Include="System.Threading.Thread" Version="4.0.0" />
 </ItemGroup>
 ```
 
-You might notice [a quite strange package](https://www.nuget.org/packages/System.AppDomain/) “System.AppDomain”, which comes from a third party, . So Microsoft does have AppDomain support in CoreCLR but intentionally hides that in CoreFX. This package exposes some important API, but not all.
+You might notice [a quite strange package](https://www.nuget.org/packages/System.AppDomain/) `System.AppDomain`, which comes from a third party, . So Microsoft does have AppDomain support in CoreCLR but intentionally hides that in CoreFX. This package exposes some important API, but not all.
 
 # Conditionals
 

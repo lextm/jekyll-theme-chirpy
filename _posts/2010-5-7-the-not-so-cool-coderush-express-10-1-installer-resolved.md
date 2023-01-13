@@ -10,7 +10,7 @@ I have been expecting CodeRush Express 10.1 for a few weeks, but when I touched 
 
 Yes, everything is ready but I cannot click the Install button. Why? No hint from the installer, or its installation log.
 
-I have fired a bug report, and let’s see what the guys will say, http://www.devexpress.com/Support/Center/p/B147309.aspx
+I have fired a bug report, and let's see what the guys will say, http://www.devexpress.com/Support/Center/p/B147309.aspx
 
 Updated: DevExpress team has resolved this issue.
 

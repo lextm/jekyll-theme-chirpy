@@ -25,7 +25,7 @@ excerpt_separator: <!--more-->
 
 Delphi 8在2003年底终于做出来了，Danny所写的Delphi for .NET编译器品质也很不错，可是，我还是跌破了眼镜。那个BDS 2.0 IDE几乎让人相信它不是Borland自己的产品，除了名字。启动速度奇慢就不说了，还经常跳出异常要我重启IDE。这样我就不得不放弃了本来的计划。用它学VCL for .NET，可是噩梦。不过用Delphi 8改学WinForms和WebForms就好多了了（ECO是个好东西，MS几年内恐怕都搞不出来，另外还有一点点Together绘制UML图的实用功能）。这个代号Octane的东西确实让我在火上煎熬了好长一阵子。
 
-那个时候我就在想，如果Borland把Delphi for .NET编译器以及ECO这样的新技术嫁接到VS上面就好了。可是我告诉自己不可能，Borland还算是一间很大的公司呢，怎么可以做MS的寄生虫？因此，除了等待D8下一个补丁，我还在热切的期待Delphi 2005。我一度误解了它的代号DiamondBack的意思。我的理解是”钻石回来了”，就是说这个产品会让人想起Borland从前那些优秀的IDE来。虽然它实际上是指一种蛇的名字，但是Delphi 2005确实是我想象中的那块钻石。你可以照着Delphi 2005 Reviewer’s Guide的指引去使用Delphi 2005的新功能，很贴心很好用的（除了loading还是很慢，而且需要你打很多补丁）。
+那个时候我就在想，如果Borland把Delphi for .NET编译器以及ECO这样的新技术嫁接到VS上面就好了。可是我告诉自己不可能，Borland还算是一间很大的公司呢，怎么可以做MS的寄生虫？因此，除了等待D8下一个补丁，我还在热切的期待Delphi 2005。我一度误解了它的代号DiamondBack的意思。我的理解是”钻石回来了”，就是说这个产品会让人想起Borland从前那些优秀的IDE来。虽然它实际上是指一种蛇的名字，但是Delphi 2005确实是我想象中的那块钻石。你可以照着Delphi 2005 Reviewer's Guide的指引去使用Delphi 2005的新功能，很贴心很好用的（除了loading还是很慢，而且需要你打很多补丁）。
 
 马上发布的Delphi 2006又会是怎样的好东西呢，拭目以待。
 
@@ -43,7 +43,7 @@ marc成功了，因为他现在正在进行Chrome 1.5版本的发布准备了，
 
 1. RemObjects提供免费的Chrome命令行编译器和SDK。如果你把这个和MS免费提供的.NET SDK一起用，你会发现没有VS .NET这样的IDE自己居然也可以干出很多大事情呢。最起码，这可以让你学习用Pascal来开发.NET项目。Delphi社区很早就有了这样的呼声――大概是Java出来的时候，可是Borland没有在意。
 1. Borland没有及时的跟进新技术，去支持.NET 2.0 Beta。其实Delphi 2005发布的时候，.NET 2.0 Beta 1就已经出来了，但是，Delphi 2005还是只支持1.1。这使得Delphi用户还不能像Visual Studio用户一样及时了解.NET 2.0的新特性，像泛型，像ASP .NET 2.0，像Avalon。但是，如果你选择Chrome，你会发现现在它就是.NET 2.0上面除了C#、VB.NET等等MS语言之外最好的First Class语言了，对泛型等新特型的支持已经很不错（我个人以为Borland R&D肯定已经有了类似的东西，但是Borland没有发布出来罢了，连个Preview也没有――保守作风呀）。当然，RemObjects的灵活性，还在于它突破了MS的限制，将眼光放得更远。它官方宣称正式的支持Mono，让Linux下面开发.NET项目的用户也多了一个新的语言选择。Borland的路线图里面还没有看到Mono的影子呢，不过，单用Borland的Kylix就十分方便了。
-1. “好风凭借力，送我上青天”。RemObjects的Chrome插件紧紧地把Chrome编译器绑到了VS .NET上面，使用户可以轻松获得MS苦心打造的IDE的良好服务。这个显然比Borland选择的自主开发IDE方案更快捷，也更省钱。但是用户除了Chrome插件之外还必须购买MS那昂贵的VS .NET。所以RemObjects自己并不能给Chrome定价很高，以赚取很多钱，否则谁会选择她。幸好她是一间足够小的公司，一点点市场就可以让她活得很好。
+1. "好风凭借力，送我上青天"。RemObjects的Chrome插件紧紧地把Chrome编译器绑到了VS .NET上面，使用户可以轻松获得MS苦心打造的IDE的良好服务。这个显然比Borland选择的自主开发IDE方案更快捷，也更省钱。但是用户除了Chrome插件之外还必须购买MS那昂贵的VS .NET。所以RemObjects自己并不能给Chrome定价很高，以赚取很多钱，否则谁会选择她。幸好她是一间足够小的公司，一点点市场就可以让她活得很好。
 
 Chrome 1.5的发布肯定会引入许多更好的特性。可以期待。
 

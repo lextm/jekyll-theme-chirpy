@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 The following changes in VS 2015 will affect your development if you upgrade from VS 2012/2013,
 
 IIS 7/8 Express is uninstalled, and IIS 10 Express is installed.
-VS2015 uses “solution folder”\.vs\config\applicationHost.config as IIS Express configuration file. This new configuration is based on IIS 10 Express, so not fully compatible with previous IIS Express releases.
+VS2015 uses `<solution folder>\.vs\config\applicationHost.config` as IIS Express configuration file. This new configuration is based on IIS 10 Express, so not fully compatible with previous IIS Express releases.
 The changes break the following scenarios.
 <!--more-->
 

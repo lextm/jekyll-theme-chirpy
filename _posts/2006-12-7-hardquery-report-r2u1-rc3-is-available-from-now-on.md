@@ -14,7 +14,7 @@ I am still hunting for a job now, but during the tiny little breaks I add more s
 
 The InDate UI is very compact this time, so by default, InDate starts with BDS to ensure your CBC is up-to-date.
 
-Also, log4net is taking the place of Marc Clifton’s Debug unit. I add a new unit LoggingService in the Lextm.Common assembly.
+Also, log4net is taking the place of Marc Clifton's Debug unit. I add a new unit LoggingService in the Lextm.Common assembly.
 
 I should have spent more time on my career but I think I cannot drop CBC. The new year is coming and I wish to send all my dear friends a present. And you know and I know a new, stable, and feature-rich CBC version 5.3.1 will be it.
 

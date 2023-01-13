@@ -5,7 +5,7 @@ tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-possible-json-e2370c321dea
 excerpt_separator: <!--more-->
 ---
-.NET 3.5 introduces a JSON formatter. So I am considering giving up Yaowi’s XmlSerializer and XmlDeserializer some time later.
+.NET 3.5 introduces a JSON formatter. So I am considering giving up Yaowi's XmlSerializer and XmlDeserializer some time later.
 
 I know this may break compatibility. So I will do that only if .NET 3.5 becomes really popular. This depends on CodeGear RAD Studio.
 

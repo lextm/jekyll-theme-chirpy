@@ -22,12 +22,12 @@ This exception is thrown by #SNMP functions if a wrong argument is found. For ex
 
 The experimental parser throws exceptions of this kind whenever it cannot parse a symbol in the MIB document. This exception can tell you which symbol is wrong. File name, line number, and column number can help you find the issue.
 
-However, because this parser is only tested again Net-SNMP bundled 70 MIB documents, so I know it may fail on other standard MIB documents. Please provide me reports once you meet this exception type on a standard MIB document. I’d like to analyse that document and improve the parser.
+However, because this parser is only tested again Net-SNMP bundled 70 MIB documents, so I know it may fail on other standard MIB documents. Please provide me reports once you meet this exception type on a standard MIB document. I'd like to analyse that document and improve the parser.
 
 # OutOfMemoryException
 
 Once you meet this exception, I am sure that it is caused by the parser. Please fire me reports like the above item so I can fix the bugs.
 
-You may wonder why this kind of exception may be raised by a managed library. The reason is quite simple, sometimes the code enters a loop and cannot get out, so all resources are consumed by this loop and never get a chance to be released. I have been trying to fix such loops as many as possible but I am afraid that I haven’t fixed them all.
+You may wonder why this kind of exception may be raised by a managed library. The reason is quite simple, sometimes the code enters a loop and cannot get out, so all resources are consumed by this loop and never get a chance to be released. I have been trying to fix such loops as many as possible but I am afraid that I haven't fixed them all.
 
 Other #SNMP exceptions will be talked about in another post. Stay tuned.

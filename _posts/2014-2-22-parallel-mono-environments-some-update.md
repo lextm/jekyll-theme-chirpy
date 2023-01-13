@@ -10,15 +10,15 @@ The Mono guys have [a good guide](http://www.mono-project.com/Parallel_Mono_Envi
 
 # Migrating to Git
 
-Mono source code is now fully hosted on GitHub, so you don’t need source tarballs any more, and can directly go to https://github.com/mono to grab the Git clones.
+Mono source code is now fully hosted on GitHub, so you don't need source tarballs any more, and can directly go to https://github.com/mono to grab the Git clones.
 
-Autogen.sh and bootstrap-*
+# Autogen.sh and bootstrap-*
 
-Make sure you execute “./autogen.sh — prefix=/opt/mono” if you cannot see configure. For gtk-sharp, you need to run “./bootstrap-* — prefix=/opt/mono”.
+Make sure you execute `./autogen.sh — prefix=/opt/mono` if you cannot see `configure`. For gtk-sharp, you need to run `./bootstrap-* — prefix=/opt/mono`.
 
 # Choose the Correct Branch
 
-Don’t build everything from master branch, as sometimes you cannot get it compiled.
+Don't build everything from master branch, as sometimes you cannot get it compiled.
 
 For mono, you should use mono-3.2.8-branch to get 3.2.8. Mono master is currently broken.
 
@@ -40,4 +40,4 @@ sudo apt-get install git mono-complete monodevelop autoconf libtool automake lib
 
 # MonoDevelop
 
-If you plan to run previous MonoDevelop binaries (not compile it from the code) on the newly built mono, don’t forget to clone gnome-sharp and get it installed. Otherwise, you lose Gnome integration.
+If you plan to run previous MonoDevelop binaries (not compile it from the code) on the newly built mono, don't forget to clone gnome-sharp and get it installed. Otherwise, you lose Gnome integration.

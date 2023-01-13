@@ -16,7 +16,7 @@ We have reviewed SF.net forum threads, existing patches, remaining issues and de
 
 * Fix Bug [1849882]: When click Autohide, form should slide away.
 * Patch 3118287: Fix for unable to move splitter after hide.
-* GitHub work item #1: ActiveContentChanged Doesn’t Fire When Many DockPanels Exist in Application.
+* GitHub work item #1: ActiveContentChanged Doesn't Fire When Many DockPanels Exist in Application.
 * GitHub work item #2: Heavily Nested Controls Do Not Resize With DockContent.
 * GitHub work item #7: Should Work on Mono/Linux/Mac with Minimal Feature Set.
 * First signed release with NuGet package deployment.

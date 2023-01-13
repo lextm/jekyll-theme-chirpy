@@ -12,13 +12,13 @@ You probably noticed that I have been back to work on Jexus Manager due to the a
 
 Well, I covered this in [a earlier post](/why-chrome-says-iis-express-https-is-not-secure-and-how-to-resolve-that-d906a183f0), so in short Jexus Manager is now capable of generating certificates with proper SAN extensions. And as always, it is never easier to configure HTTPS sites in this tool visually. Every detail is at your fingers.
 
-# Goodbye to “Unable to launch the IIS Express Web server”
+# Goodbye to "Unable to launch the IIS Express Web server"
 
 [I blogged about](/jexus-manager-secrets-behind-visual-studio-iis-express-integration-834f88c8e8b) how horrible things can happen if your IIS Express configuration is out of sync with the web project file.
 
 At that time sorry that you still have to manually open those files in a text editor and struggle to find a fix.
 
-Though still a work in progress, now I am offering a better approach, aka “Project Diagnostics”.
+Though still a work in progress, now I am offering a better approach, aka "Project Diagnostics".
 
 So if you meet the classic error of a site, you can
 
@@ -26,7 +26,7 @@ So if you meet the classic error of a site, you can
 1. Open Jexus Manager
 1. Add the solution file as a new IIS Express server. (in VS2015 and above), or work on the default IIS Express server node.
 1. Navigate to the site under this server.
-1. Locate “Visual Studio Project Diagnostics” under Actions panel.
+1. Locate "Visual Studio Project Diagnostics" under Actions panel.
 
 This simple menu item would trigger the diagnostics helper, who uses the site bindings to update your VS web project file, and make it working again.
 

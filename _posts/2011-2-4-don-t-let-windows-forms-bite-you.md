@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Don’t Let Windows Forms Bite You"
+title: "Don't Let Windows Forms Bite You"
 tags: .NET
 permalink: /dont-let-windows-forms-bite-you-3561762b22b7
 excerpt_separator: <!--more-->

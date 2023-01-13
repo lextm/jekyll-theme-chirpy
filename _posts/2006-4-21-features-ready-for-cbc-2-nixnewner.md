@@ -15,10 +15,10 @@ Here I update the information.
 Finished:
 
 1. a Plus Manager to manage Plus and Features.
-1. an Expert Manager to manage both .NET and Win32 BDS plug-ins. It is an updated version of SBT’s Expert Manager. (partial done)
-   > The above file “lextm.utilities.plus.exe” can also execute as a stand alone executable. By default, it is the Expert Manager. If -p parameter is used, it will be the Plus Manager. Isn’t it wonder?
+1. an Expert Manager to manage both .NET and Win32 BDS plug-ins. It is an updated version of SBT's Expert Manager. (partial done)
+   > The above file `lextm.utilities.plus.exe` can also execute as a stand alone executable. By default, it is the Expert Manager. If -p parameter is used, it will be the Plus Manager. Isn't it wonder?
 
-1. New Help menus added to BDS’s Help menu.
+1. New Help menus added to BDS's Help menu.
 1. Updated manuals
 1. New Code Beautifiers Plus codenamed Long Jeans.
 1. New installer.

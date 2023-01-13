@@ -22,9 +22,9 @@ OK, this time you should see a MonoDevelop Stable launcher in GNOME to launch th
 
 # Fighting The First Issue
 
-You probably would like to run a hello world project to test it out like I did. Then you probably would hit this famous error (“Could not connect to the debugger”. Well, guess what, it is quite simple to fix it.
+You probably would like to run a hello world project to test it out like I did. Then you probably would hit this famous error ("Could not connect to the debugger". Well, guess what, it is quite simple to fix it.
 
-Open the project options (you should know how to do so). It is very likely that “Run on external console” is checked (as it is the default setting), under Run -> Configurations -> Default.
+Open the project options (you should know how to do so). It is very likely that "Run on external console" is checked (as it is the default setting), under Run -> Configurations -> Default.
 
 You have to uncheck this option. Then MonoDevelop would use its integrated terminal to run the console project.
 

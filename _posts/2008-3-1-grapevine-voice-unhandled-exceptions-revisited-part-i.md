@@ -4,11 +4,11 @@ title: "GrapeVine Voice: Unhandled Exceptions Revisited, Part I"
 tags: Code-Beautifier-Collection Delphi
 excerpt_separator: <!--more-->
 ---
-I have used Mauro’s library to handle unhandled exceptions for years. However, lately I decided to improve my usage and added some advanced features such as sending exception logs to my mail box so that I can collect and analyse them.
+I have used Mauro's library to handle unhandled exceptions for years. However, lately I decided to improve my usage and added some advanced features such as sending exception logs to my mail box so that I can collect and analyse them.
 
 http://cc.codegear.com/Item/24014
 
-According to Mauro’s source code, this should be done by using TExceptionManager.AddInfoManagerType. However, I find a bug there in version 2.3, so I have to modify the source code myself and create a customized 2.3.1 version.
+According to Mauro's source code, this should be done by using TExceptionManager.AddInfoManagerType. However, I find a bug there in version 2.3, so I have to modify the source code myself and create a customized 2.3.1 version.
 
 http://gforge.oss.org.cn/frs/download.php/200/24014_unhandledexceptionmanager_for_.net.zip
 

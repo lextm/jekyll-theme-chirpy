@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 ---
 > Updated: [The EAP has already ended](/snmp-pro-early-access-program-ends-92f9fb358fc3).
 
-After the original announcement on April 6th, I have been working hard on finishing the 1.0 feature set of #SNMP MIB Compiler Pro. Now I believe the time is right and let’s kick off the Early Access Program (EAP).
+After the original announcement on April 6th, I have been working hard on finishing the 1.0 feature set of #SNMP MIB Compiler Pro. Now I believe the time is right and let's kick off the Early Access Program (EAP).
 <!--more-->
 
 You are welcome to write to support@lextudio.com using the following email template,
@@ -48,4 +48,4 @@ I will send the license key back via email. Then you just need to perform the fo
 
 The goal of this EAP is to test out the licensing system, and also show you what has been implemented so far in the Pro edition.
 
-A reviewer’s guide (user manual) is in progress (will be ready in the coming weeks) which summarizes details on some of the important features.
+A reviewer's guide (user manual) is in progress (will be ready in the coming weeks) which summarizes details on some of the important features.

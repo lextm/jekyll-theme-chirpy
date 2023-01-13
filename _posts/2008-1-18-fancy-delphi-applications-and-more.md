@@ -5,7 +5,7 @@ tags: Delphi
 permalink: /fancy-delphi-applications-and-more-815e84f6c9a
 excerpt_separator: <!--more-->
 ---
-I love Marco Cantu’s Fun Side of Delphi and C++Builder series during several Borland Conferences and CodeRage conferences. And now About.com launches a new contest on fancy Delphi applications.
+I love Marco Cantu's Fun Side of Delphi and C++Builder series during several Borland Conferences and CodeRage conferences. And now About.com launches a new contest on fancy Delphi applications.
 
 http://delphi.about.com/od/humorandfun/a/fany_contest.htm
 

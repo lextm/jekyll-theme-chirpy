@@ -38,7 +38,7 @@ In default installation, /usr/jexus/siteconf is used as configuration directory,
 
 Jexus supports multiple web sites running on the same server. The web sites use individual bindings to distinguish from each other.
 
-The web site configuration files must be saved in the configuration directory set in jws.conf (aka SiteConfigDir). The configuration file name is used as site name (site name is only used in Jexus commands), which should not contain spaces. Note that all files in configuration directory are treated as web site configuration files. Thus, don’t leave anything else there.
+The web site configuration files must be saved in the configuration directory set in jws.conf (aka SiteConfigDir). The configuration file name is used as site name (site name is only used in Jexus commands), which should not contain spaces. Note that all files in configuration directory are treated as web site configuration files. Thus, don't leave anything else there.
 
 In default installation, a default web site is created. Its configuration file is /usr/jexus/siteconf/default. Just like jws.conf, the web site configuration is also stored in key value pair, and the description of each settings is as below,
 

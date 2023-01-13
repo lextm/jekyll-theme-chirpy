@@ -42,11 +42,11 @@ The new factories added in gh59 branch are required by Visual Studio 2012 Light 
 # 3. Other Properties
 I had to expose Measures.SplitterSize as Visual Studio 2012 Light theme requires a change from 4 to 6. I think in the future we might make it configurable via DockPanelSkin, instead of the current hack. I am not sure if there is any other similar edge cases in the code base.
 
-At this moment, you might have a better understanding of DockPanel Suite customization. Before the end of this article, I’d like to also introduce the latest changes I made — the ITheme interface.
+At this moment, you might have a better understanding of DockPanel Suite customization. Before the end of this article, I'd like to also introduce the latest changes I made — the ITheme interface.
 
 # ITheme Interface
 You can see from above that to implement a new theme and apply it, there are many things you need to prepare. But if you are not a developer of new themes, and you simply want to make use of an existing theme, it might be painful to understand the above extension points and configure them one by one. [The new interface](https://github.com/dockpanelsuite/dockpanelsuite/commit/58f55b9dfc7fc9870427e4175dbd4eca3a828981) is introduced to encapsulate the pieces.
 
-Now you just need to know what are the themes available (VS2003Theme, VS2005Theme, and VS2012LightTheme), create an instance of one theme, and call Apply method with your DPS object. Isn’t that simpler?
+Now you just need to know what are the themes available (VS2003Theme, VS2005Theme, and VS2012LightTheme), create an instance of one theme, and call Apply method with your DPS object. Isn't that simpler?
 
 Any feedback is welcome.

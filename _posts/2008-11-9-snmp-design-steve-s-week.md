@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#SNMP Design: Steve’s Week"
+title: "#SNMP Design: Steve's Week"
 tags: SNMP
 permalink: /snmp-design-steves-week-f052a50ac4f
 excerpt_separator: <!--more-->
@@ -12,6 +12,6 @@ I hope soon the development can be sped up but now I really have no news to upda
 
 When you navigate to Manager.cs, probably you find it confused to see two Walk methods there, the classic one and a new SteveWalk. It is amusing that Steve tried to enhance it but rather create a new method instead of deleting mine. I guess it is because he did not find a unit test case there to guarantee his should not break anything existing. Therefore, a new Work Item is added so a new case may be added to test about Walk. Oh if I had applied TDD everywhere, it would be this confusing today. So sorry, guys. I can confirm here that Steve is going to delete the classic one soon and then the confusion will go away.
 
-I really start to think about things beyond TwinTower lately because there are still so many pieces ahead. For example, the Compiler and Browser “separation and integration”, SNMP v3 packets, agent side, and so on. I think it is even possible to build the Compiler and Browser based on Visual Studio Shell or SharpDevelop in order to provide a modern MIB editor to attract users. But that will take a longer time to achieve certainly.
+I really start to think about things beyond TwinTower lately because there are still so many pieces ahead. For example, the Compiler and Browser "separation and integration", SNMP v3 packets, agent side, and so on. I think it is even possible to build the Compiler and Browser based on Visual Studio Shell or SharpDevelop in order to provide a modern MIB editor to attract users. But that will take a longer time to achieve certainly.
 
 Stay tuned and see you next weekend.

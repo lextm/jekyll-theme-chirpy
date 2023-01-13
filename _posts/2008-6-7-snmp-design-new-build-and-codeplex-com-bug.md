@@ -9,7 +9,7 @@ I am quite happy that CodePlex creates a snapshot of my every check in. This is 
 
 And a critical issue I met tonight is that the snapshot was broken while my repository was correct. So how can I fix it?Crazy bug!!!
 
-So my dear friends, let’s forget about those snapshots listed here. You can always use a client to download all source code easily.
+So my dear friends, let's forget about those snapshots listed here. You can always use a client to download all source code easily.
 
 BTW, I am giving up Teamprise Explorer from now on. Though it has better integration with TFS, I prefer an SVN style environment.
 <!--more-->

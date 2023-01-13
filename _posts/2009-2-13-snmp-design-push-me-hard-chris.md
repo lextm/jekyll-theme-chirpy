@@ -49,6 +49,6 @@ Well, we need to add a lot of helpers for this class.
 * A new Listener implementation.
 * Regionerate.http://www.rauchy.net/regionerate/
 
-I tried my best to answer Chris’ questions, but I believe our discussion scheduled today should be very interesting. Looking forward to that.
+I tried my best to answer Chris' questions, but I believe our discussion scheduled today should be very interesting. Looking forward to that.
 
 After writing the first few paragraphs, I had a chance to chat with Patrick, another new team mate, for a few minutes. The next post will provide you more information. Stay tuned.

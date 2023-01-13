@@ -9,7 +9,7 @@ If you are now reading this post like me, scroll to the third paragraph, and you
 
 Yes, it is wonderful that a Java to C# translator does exist and produce this wonderful product on both platforms. (If you move on you can see Java can be translated to Object Pascal too.)
 
-It is easy to understand why CodeGear drops the NDataStore name and also renames JDataStore to Blackfish SQL for Java. When you have a product on both sides, neither “J” nor “N” is necessary.
+It is easy to understand why CodeGear drops the NDataStore name and also renames JDataStore to Blackfish SQL for Java. When you have a product on both sides, neither "J" nor "N" is necessary.
 
 If you are looking for tiny database, Blackfish SQL is a choice (1.2M engine).
 

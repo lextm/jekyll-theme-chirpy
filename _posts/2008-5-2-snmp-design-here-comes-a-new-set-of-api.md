@@ -12,8 +12,8 @@ Strong typed classes can make the users easier to see what properties and method
 
 I am working on other operations like table manipulation and MIB parsing. Once they are added to Manager, I believe it is time to release a 0.9 release of #SNMP.
 
-You may notice that nearly all Malcolm’s code has gone. No. The code is extracted and moved into smaller classes by heavy refactoring.
+You may notice that nearly all Malcolm's code has gone. No. The code is extracted and moved into smaller classes by heavy refactoring.
 
-By the way, I don’t have enough time to write a few demos or documents in order to show how to make use of every bit, but there are lots of unit test cases embedded, so you can understand how to use the API from them. I plan to write a few posts in May to illustrate #SNMP’s power.
+By the way, I don't have enough time to write a few demos or documents in order to show how to make use of every bit, but there are lots of unit test cases embedded, so you can understand how to use the API from them. I plan to write a few posts in May to illustrate #SNMP's power.
 
 Stay tuned.

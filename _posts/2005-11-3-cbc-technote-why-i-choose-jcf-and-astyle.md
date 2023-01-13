@@ -12,11 +12,11 @@ First thing I want to commit is that I knew little about source file parsing, so
 There are a lot beautifiers all over the world if you use a search engine to search, both open-source/freeware or commercial products.
 <!--more-->
 
-For Delphi source files, an IDE plug-in named Delphi Formatter Expert is quite famous in “Chinese Delphi Community”. However, it is free but no source available. Since Delphi 8 for .NET was released, this expert have been out-of-date. But in China, a lot guys are still on Delphi 5/6/7, so they don’t bother.
+For Delphi source files, an IDE plug-in named Delphi Formatter Expert is quite famous in "Chinese Delphi Community". However, it is free but no source available. Since Delphi 8 for .NET was released, this expert have been out-of-date. But in China, a lot guys are still on Delphi 5/6/7, so they don't bother.
 
 For me, a guy full of adventurous ideas, Delphi 7 was too old. So, I tried my best to modify DelForExp but failed. Then I found JEDI Code Format hosted by Anthony.
 
-Luckily, JCF provides me a command line tool named “jcf.exe” which run very similarly to AStyle. JCF is under Mozilla license, while AStyle is under GPL, so both are free and open-source.
+Luckily, JCF provides me a command line tool named `jcf.exe` which run very similarly to AStyle. JCF is under Mozilla license, while AStyle is under GPL, so both are free and open-source.
 
 AStyle is so powerful that it formats Java/C/C++/C# files. Also, it implements useful build-in styles. So I make no second choice (a BCB plug-in — SourceFormat — utilizes another C++ beautifier, but I never try it).
 

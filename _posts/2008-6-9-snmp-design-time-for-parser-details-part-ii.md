@@ -13,7 +13,7 @@ Do you know how this estimate keeps me on always? Whenever one more red node tur
 
 In #SNMP MIB case, TDD works perfect. The first few MIB documents take me about ten days, while the rest only take one.
 
-SharpDevelop’s wonderful integration with NUnit makes it possible to debug into test cases. And this feature significantly saves my time on debugging. Even though SharpDevelop’s debugger is not as powerful as Visual Studio and NUnit for #D is not as beautiful as ReSharper’s NUnit session panel, this free C# IDE does provide what a C# developer requires. Thank you, #D guys. Thank you all for this TDD IDE.
+SharpDevelop's wonderful integration with NUnit makes it possible to debug into test cases. And this feature significantly saves my time on debugging. Even though SharpDevelop's debugger is not as powerful as Visual Studio and NUnit for #D is not as beautiful as ReSharper's NUnit session panel, this free C# IDE does provide what a C# developer requires. Thank you, #D guys. Thank you all for this TDD IDE.
 
-BTW, since I started to use TortoiseSVN to access CodePlex.com, I found that SharpDevelop’s SVN support really neat and useful.
+BTW, since I started to use TortoiseSVN to access CodePlex.com, I found that SharpDevelop's SVN support really neat and useful.
 <!--more-->

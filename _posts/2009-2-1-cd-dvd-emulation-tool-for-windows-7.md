@@ -9,5 +9,5 @@ I have been testing Windows 7 Public Beta for about a week. It runs really smoot
 
 However, I am in bad need of a tool like Daemon Tools to install some products from CD/DVD image files. Then I turn to Virtual CloneDrive. You may wonder if this tool works fine. Yup, it works perfectly, but only one problem may stop you. What is that? Its installer will tell you Windows 7 is not supported, so it refuses to start installation.
 
-Then how did I install that? You have to cheat the installer by opening its properties dialog from Windows Explorer. Then in Compatibility tab tell it to run in Vista mode (or XP mode). Now let’s run it again. OK, I hope you find this tip useful.
+Then how did I install that? You have to cheat the installer by opening its properties dialog from Windows Explorer. Then in Compatibility tab tell it to run in Vista mode (or XP mode). Now let's run it again. OK, I hope you find this tip useful.
 <!--more-->

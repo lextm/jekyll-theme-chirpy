@@ -26,4 +26,4 @@ From now on, Find is obsolete, and we should move to Search. Below is a summary,
 * Find is obsolete and will be marked as internal in our next release.
 * To get textual forms, we need to utilize SearchResult class.
 
-Note that IDefinition.TextualForm is also obsolete. To get the same output, first construct a SearchResult using this IDefinition instance (second parameter should be “new uint[0]”). Then, SearchResult.Text is what you need, while you can also check out SearchResult.AlternativeText.
+Note that IDefinition.TextualForm is also obsolete. To get the same output, first construct a SearchResult using this IDefinition instance (second parameter should be `new uint[0]`). Then, `SearchResult.Text` is what you need, while you can also check out `SearchResult.AlternativeText`.

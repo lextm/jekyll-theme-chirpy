@@ -18,7 +18,7 @@ There are a lot of things I did not do this time to make a complete AD,
 
 Forgive me if I messed up this time. Next time I will be more careful.
 
-> \* Forget to mention that ArtCSB author, Artyom Fedyuk, comes from Ukraine. And now ArtCSB has been a Plus of CBC with some out-of-date features removed. Artyom, I owe you so much. Because I cannot contact you by the mail address you left in ArtCSB readme file, I’d like to say thank you so much here.
+> \* Forget to mention that ArtCSB author, Artyom Fedyuk, comes from Ukraine. And now ArtCSB has been a Plus of CBC with some out-of-date features removed. Artyom, I owe you so much. Because I cannot contact you by the mail address you left in ArtCSB readme file, I'd like to say thank you so much here.
 
 http://cc.borland.com/Item.aspx?id=21908
 

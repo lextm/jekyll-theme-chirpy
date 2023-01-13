@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 C# Project Settings for ANTLR 3
 <!--more-->
 
-Now let’s see how to use ANTLR 3 in a C# project by analyzing SharpSnmpLib.AST.csproj in #SNMP,
+Now let's see how to use ANTLR 3 in a C# project by analyzing SharpSnmpLib.AST.csproj in #SNMP,
 
 https://github.com/lextudio/sharpsnmplib/blob/de58f7c050a0976654e7ee4b90a9217e99af6ae3/SharpSnmpLib/SharpSnmpLib.AST.csproj
 
@@ -34,7 +34,7 @@ You might notice that this project does add Antlr3 C# runtime as a reference,
 </Reference>
 ```
 
-In this project I use the ANTLR 3 NuGet package. If you don’t want to use NuGet, you can simply add lib\ANTLR\Antlr3.Runtime.dll instead.
+In this project I use the ANTLR 3 NuGet package. If you don't want to use NuGet, you can simply add lib\ANTLR\Antlr3.Runtime.dll instead.
 
 OK. After analyzing this project I think you know how to add a grammar file to your C# project, and then configure related project level settings properly. In next post I am going to document what you need to pay attention to at code level. #SNMP will still be our example.
 

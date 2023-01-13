@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "遭遇“盗版”的感觉"
+title: "遭遇'盗版'的感觉"
 tags: Code-Beautifier-Collection Delphi
 permalink: /遭遇-盗版-的感觉-e447b73576ee
 excerpt_separator: <!--more-->

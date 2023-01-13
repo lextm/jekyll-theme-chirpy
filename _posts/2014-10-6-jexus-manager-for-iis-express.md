@@ -17,7 +17,7 @@ More information is going to be published in the next few weeks. I plan to do a 
 
 [Update on Nov 16]
 Alpha 1 is now available.
-It is very buggy, so don’t use it too seriously yet.
+It is very buggy, so don't use it too seriously yet.
 
 [Update on June 7, 2015]
 Alpha 6 is available at the same location. Much more stable.
@@ -26,7 +26,7 @@ Alpha 6 is available at the same location. Much more stable.
 Beta 1 is available at the same location. Major features completed.
 
 [Update on Oct 3, 2015]
-Beta 2 is available at the same location. Many core classes are rewritten to achieve better compatibility with Microsoft’s MWA. Extend support for IIS 7/8/10 Express.
+Beta 2 is available at the same location. Many core classes are rewritten to achieve better compatibility with Microsoft's MWA. Extend support for IIS 7/8/10 Express.
 
 [Update on Oct 14, 2015]
 Beta 3 is available at the same location, with IIS Express support enhanced, full IIS read-only mode previewed, and Jexus support added back.
@@ -35,4 +35,4 @@ Beta 3 is available at the same location, with IIS Express support enhanced, ful
 The documentation site https://jexusmanager.com is now online.
 
 [Update on June 26, 2016]
-[Jexus Manager is open source](/2016/06/jexus-manager-is-now-open-source/)
+[Jexus Manager is open source](/jexus-manager-is-now-open-source-a48fef80a6e7)

@@ -33,7 +33,7 @@ http://www.unix.org/what_is_unix.html
 
 所以Linux是不能叫做UNIX的，只能算作UNIX like。
 
-曾经的Mac OS是一个古老而怪异的操作系统，大家记住它恐怕是因为‘\r’这个古怪的换行符选择。但是今天普及的OS X已经基本不是那个Mac OS的遗存，而是源自乔布斯一手打造的NeXTSTEP，一个真正的UNIX系统
+曾经的Mac OS是一个古老而怪异的操作系统，大家记住它恐怕是因为`\r`这个古怪的换行符选择。但是今天普及的OS X已经基本不是那个Mac OS的遗存，而是源自乔布斯一手打造的NeXTSTEP，一个真正的UNIX系统
 
 http://en.wikipedia.org/wiki/Mac_OS_X
 

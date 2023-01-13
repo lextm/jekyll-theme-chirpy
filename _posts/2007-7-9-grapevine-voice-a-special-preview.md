@@ -13,7 +13,7 @@ I am planning to release a special GrapeVine Preview. Why? There are several rea
 1. Delphi 2007 IDE is much stronger than Delphi 2006, which means some features in CBC must be turned off. So, some features are missing.
 1. I am planning to change the package naming schema to distinguish GrapeVine builds from older builds in order to prevents older versions from updating to GrapeVine. However, the InDate update would be provided after publishing the Preview. So, the Preview build cannot update to later Milestone builds automatically.
 
-Don’t get me wrong. As a matter of facts, the Preview can do a lot of work for you except for the missing parts.
+Don't get me wrong. As a matter of facts, the Preview can do a lot of work for you except for the missing parts.
 
 I will publish it soon (Maybe tonight). Stay tuned.
 

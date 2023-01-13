@@ -12,19 +12,19 @@ DockPanel Suite homepage is now at http://dockpanelsuite.com.
 
 Microsoft first introduced the docking panel layout in Visual Studio .NET (2002), and soon it became popular in application design. Many commercial .NET component vendors started to provide docking libraries initially, but there was no good free and open source alternative, until WeiFen Luo released DockPanel Suite (DPS for short) on SourceForge.net in 2006.
 
-# WeiFen Luo’s Efforts and Early Years
+# WeiFen Luo's Efforts and Early Years
 
-Its 1.0 release was available on Feb 13, 2006, one day before the Valentine’s day [1]. From the SVN repository we could no longer find the commits earlier than Mar 2, 2007. Therefore, we don’t know exactly when WeiFen decided to implement this docking library and the day he started.
+Its 1.0 release was available on Feb 13, 2006, one day before the Valentine's day [1]. From the SVN repository we could no longer find the commits earlier than Mar 2, 2007. Therefore, we don't know exactly when WeiFen decided to implement this docking library and the day he started.
 
 This release has been downloaded more than 57,000 times on SF.net alone (binaries + source package), which is a huge success.
 
 After that, WeiFen published several new releases. Release 2.2 was available on Nov 04, 2007 (more than 68,000 downloads)[2], and release 2.3 was available on May 08, 2009 (more than 68,000 downloads)[3].
 
-Danilo Corallo wrote an article titled “A Visual Studio 2005-like Interface”[4] on CodeProject.com initially on Jun 06, 2006 to introduce this library for broader audience. The article has been reviewed for more than 586,000 times with an average rate of 4.89. This article was last updated on 22 Jan, 2007, so it only targets DPS 1.0. However, DPS 2.0 and above do contains breaking changes, so the sample of this article does not work with newer DPS releases.
+Danilo Corallo wrote an article titled "A Visual Studio 2005-like Interface"[4] on CodeProject.com initially on Jun 06, 2006 to introduce this library for broader audience. The article has been reviewed for more than 586,000 times with an average rate of 4.89. This article was last updated on 22 Jan, 2007, so it only targets DPS 1.0. However, DPS 2.0 and above do contains breaking changes, so the sample of this article does not work with newer DPS releases.
 
 SharpDevelop [5], the open source C#/VB.NET IDE, has chosen DPS as its docking library for years (till SD 4.0 migrates to WPF and uses AvalonDock [6] instead of DPS). It is interesting that from SD code base, DPS source files appeared as early as Jan 04, 2005 [7].
 
-On Aug 16, 2009, WeiFen wrote in a discussion thread, that he would like to move this project to CodePlex.com [8]. However, this move was never carried out. But in this thread WeiFen linked one of his important blog posts on DPS [9], which documented his ideas on why WPF based docking library is better. WeiFen’s interest has been moved to WPF side product called WPF Docking [10].
+On Aug 16, 2009, WeiFen wrote in a discussion thread, that he would like to move this project to CodePlex.com [8]. However, this move was never carried out. But in this thread WeiFen linked one of his important blog posts on DPS [9], which documented his ideas on why WPF based docking library is better. WeiFen's interest has been moved to WPF side product called WPF Docking [10].
 
 # Extended Maintenance by Steve Overton
 
@@ -54,7 +54,7 @@ If you have any patch to share, or you would like to help contribute to this new
 
 ## Guide on Submitting Patches
 
-Note that you don’t need to create any issue, as a new issue will be automatically created when you finish step 4.
+Note that you don't need to create any issue, as a new issue will be automatically created when you finish step 4.
 
 1. Learn about GitHub via http://help.github.com/.
 1. Create your own fork from https://github.com/dockpanelsuite/dockpanelsuite.
@@ -65,7 +65,7 @@ Patches will be reviewed and merged as early as possible.
 
 ## Guide on Reporting Bugs/Starting Discussions
 
-Note that if you already have a patch for the issue you meet, please follow “Guide on Submitting Patches”.
+Note that if you already have a patch for the issue you meet, please follow "Guide on Submitting Patches".
 
 1. Learn about GitHub via http://help.github.com/.
 1. Create a new issue on https://github.com/dockpanelsuite/dockpanelsuite/issues.

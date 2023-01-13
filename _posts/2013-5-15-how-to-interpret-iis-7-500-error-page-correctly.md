@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 ---
 > Well, this blog post is a summary of [my IIS.net discussion with a user](http://forums.iis.net/t/1198073.aspx/1?Orginal+Url+are+written+instead+of+User+Friendly+Url+in+log+on+IIS+7+5+when+using+Current+RewritePath+).
 
-So what should we do when IIS reports 500 error? You first idea might be posting “I meet an IIS 500 error” somewhere on IIS.net or StackOverflow.com. But is that enough to get the answer and help you want? Of course not. Of all IIS status codes, 500 is probably a category of its own, which can be caused by tons of root causes,
+So what should we do when IIS reports 500 error? You first idea might be posting "I meet an IIS 500 error" somewhere on IIS.net or StackOverflow.com. But is that enough to get the answer and help you want? Of course not. Of all IIS status codes, 500 is probably a category of its own, which can be caused by tons of root causes,
 
 http://support.microsoft.com/kb/943891
 
@@ -31,7 +31,7 @@ OK, below is an example,
 > IIS was not able to process configuration for the Web site or application.
 > The authenticated user does not have permission to use this DLL.
 > The request is mapped to a managed handler but the .NET Extensibility Feature is not installed.
-> Ensure that the NTFS permissions for the web.config file are correct and allow access to the Web server’s machine account.
+> Ensure that the NTFS permissions for the web.config file are correct and allow access to the Web server's machine account.
 > Check the event logs to see if any additional information was logged.
 > Verify the permissions for the DLL.
 > Install the .NET Extensibility feature if the request is mapped to a managed handler.
@@ -54,7 +54,7 @@ COR_E_STACKOVERFLOW corerror.h
 # MessageText:
 # Is raised by the EE when the execution stack overflows as
 # it is attempting to ex
-# 1 matches found for “800703e9”
+# 1 matches found for "800703e9"
 ```
 
 Do you know what is stack overflow? Wikipedia shows it clearly. Do you also know what is URL Rewrite? Microsoft makes it clear here. So if you are familiar with both like me, the root cause is almost clear. Right! If the rewrite rules lead to infinite redirection then the stack overflow is expected.

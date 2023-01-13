@@ -24,7 +24,7 @@ So to sum up,
 
 Several scenarios were analyzed in order to see why Obfuscar 2.0.1 could not obfuscate the code properly. And the reason was quite simple that when a method overrides a method with generic parameters (several variations though), the InheritMap class could hardly find all method groups, which led to the crash as some overriding methods were mistakenly renamed.
 
-Mono.Cecil does not provide built-in support to find all such method groups. That’s why Obfuscar uses InheritMap to do the tasks. But when InheritMap tries to compare two methods, it was too careless to only compare parameter types by converting types to strings. If such comparison is used, those generic parameters can never match anything else. Therefore, to resolve the issue completely, one solution is to find a better way to compare two methods.
+Mono.Cecil does not provide built-in support to find all such method groups. That's why Obfuscar uses InheritMap to do the tasks. But when InheritMap tries to compare two methods, it was too careless to only compare parameter types by converting types to strings. If such comparison is used, those generic parameters can never match anything else. Therefore, to resolve the issue completely, one solution is to find a better way to compare two methods.
 
 I wrote one yesterday which was hacky and had to improve it a little this morning. Am I the only one who needs to perform such tasks? Luckily after reading a few Mono.Cecil threads I came across the Mono Linker code,
 

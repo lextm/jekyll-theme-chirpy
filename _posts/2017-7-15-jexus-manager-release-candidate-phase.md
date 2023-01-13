@@ -23,7 +23,7 @@ Anyway, once you fight the fight to put the client in place, it would be rather 
 
 So the story goes, and soon I woke up in the morning and saw these many of reports.
 
-Got it? There are far too many unhandled exceptions occurred on different users’ machines, due to different environments, different IIS configuration, different sites, and of course some of my mistakes. I suddenly realized that most users were “silent”, and they simply tried the tool and dropped it when it did not work out.
+Got it? There are far too many unhandled exceptions occurred on different users' machines, due to different environments, different IIS configuration, different sites, and of course some of my mistakes. I suddenly realized that most users were "silent", and they simply tried the tool and dropped it when it did not work out.
 
 # Auto Update
 

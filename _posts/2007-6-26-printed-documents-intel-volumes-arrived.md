@@ -10,5 +10,5 @@ I ordered a few volumes of Intel manuals and they arrived today by FedEx. Yes, t
 
 Although Microsoft provides a lot of PDF documents now, such as Office 2007 UI Design Guidelines and Windows Vista User Experience Guidelines, no printed version is available.
 
-What about CBC’s manuals? I could publish the PDF to Lulu.com some day. Then users can order printed versions from lulu instead.
+What about CBC's manuals? I could publish the PDF to Lulu.com some day. Then users can order printed versions from lulu instead.
 <!--more-->

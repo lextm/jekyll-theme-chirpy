@@ -5,8 +5,8 @@ tags: SNMP
 permalink: /snmp-design-time-for-parser-details-part-four-f856d990342a
 excerpt_separator: <!--more-->
 ---
-# What’s the numerical and textual form of OID and IID?
-Let’s start with an example. When you try to know name of an SNMP enabled device, which of three references you think you prefer to use?
+# What's the numerical and textual form of OID and IID?
+Let's start with an example. When you try to know name of an SNMP enabled device, which of three references you think you prefer to use?
 <!--more-->
 
 * A: 1.3.6.1.2.1.1.1.0

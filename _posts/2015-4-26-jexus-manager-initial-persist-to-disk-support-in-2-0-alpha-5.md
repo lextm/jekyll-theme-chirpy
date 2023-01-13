@@ -13,7 +13,7 @@ Visual Studio does provide some basic IIS Express integration, such as opening s
 * URL (not modifiable)
 * Windows Authentication
 
-That’s never enough if we are used to full IIS, and IIS Manager.
+That's never enough if we are used to full IIS, and IIS Manager.
 <!--more-->
 
 Does Jexus Manager for IIS Express offer something better? Yes, the following are coming in 2.0 Alpha 5,

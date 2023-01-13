@@ -42,7 +42,7 @@ In 2016, this utility will become fully open source, and we will see how people 
 
 Except all those projects I worked on, in 2015 I had learned too much from others.
 
-In the first few months I was reading about rock climbing and finally started to play it with my colleagues in the summer. It was tough for a guy like me who fears the height, but I tried to use what I learned from ‘You Are Your Own Gym’ to make myself stronger, and it turned out to be helpful to keep me on the walls longer and longer.
+In the first few months I was reading about rock climbing and finally started to play it with my colleagues in the summer. It was tough for a guy like me who fears the height, but I tried to use what I learned from "You Are Your Own Gym" to make myself stronger, and it turned out to be helpful to keep me on the walls longer and longer.
 
 I also started to run a little bit, so as to improve my breath, legs, and feet. It did help me out and my pull-ups become way far easier. However, due to the deathly air pollution in the autumn and winter, I could not run outdoor any more. Look forward to the summer time.
 

@@ -5,7 +5,7 @@ tags: SNMP
 permalink: /snmp-design-new-constructors-in-snmp-data-855781525f07
 excerpt_separator: <!--more-->
 ---
-Dramatic changes happened today in the repository, but you may not notice. Ha, it is normal because I only touched API you won’t use, generally speaking.
+Dramatic changes happened today in the repository, but you may not notice. Ha, it is normal because I only touched API you won't use, generally speaking.
 <!--more-->
 
 This time I started to hide constructors such as public Counter32(byte[]) and expose public Counter32(int, Stream) instead. Why? After a review, I found that all the times, I created new MemoryStream objects from bytes who indirectly come from MemoryStream. So I believe passing MemoryStream directly is better.

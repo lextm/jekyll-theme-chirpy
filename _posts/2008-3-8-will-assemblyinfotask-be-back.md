@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 ---
 GotDotNet is down finally. Even though Microsoft promotes CodePlex harder and harder these days, there are a lot of projects drowning with GotDotNet.
 
-I don’t know much about other projects, but [AssemblyInfoTask](/assemblyinfotask-tips-5db57caa1c66) is a must if you want to control your projects version number in a convenient way.
+I don't know much about other projects, but [AssemblyInfoTask](/assemblyinfotask-tips-5db57caa1c66) is a must if you want to control your projects version number in a convenient way.
 
 But will it be back? Who knows? It is quite sad to see such a useful project gone.
 

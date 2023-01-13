@@ -11,11 +11,11 @@ Finally Parallels decided to make its Mac product a Lite edition and freely avai
 
 Thus, after so many days of ignorance, I decided earlier today to try again, by installing a Fedora box. Well, then you will find that how ugly [the existing documentation](https://fedoraproject.org/wiki/MonoDevelop) is.
 
-Yes, isn’t it well written? Nope, till you try the steps you immediately hit lots of issues.
+Yes, isn't it well written? Nope, till you try the steps you immediately hit lots of issues.
 
-My machine runs FlatPak 0.6.12, and it does not like the “--from” syntax at all and keep saying
+My machine runs FlatPak 0.6.12, and it does not like the `--from` syntax at all and keep saying
 
-> "error: Operation not supported”
+> "error: Operation not supported"
 
 And it was only via Google I learned that maybe I should first use wget to download the links to text files and then feed them to the naughty flatpak command. It really sucks if its developers never realize such issues.
 
@@ -36,4 +36,4 @@ I gave up at this stage.
 
 Hope it helps you out when you attempt the same.
 
-BTW, I went and voted on “Visual Studio for Linux” feature [here](https://visualstudio.uservoice.com/forums/121579-visual-studio-ide/suggestions/18433768-visual-studio-for-linux-os). If that’s Microsoft’s solution to the MonoDevelop 7 mess, I wish it can be there ASAP.
+BTW, I went and voted on "Visual Studio for Linux" feature [here](https://visualstudio.uservoice.com/forums/121579-visual-studio-ide/suggestions/18433768-visual-studio-for-linux-os). If that's Microsoft's solution to the MonoDevelop 7 mess, I wish it can be there ASAP.

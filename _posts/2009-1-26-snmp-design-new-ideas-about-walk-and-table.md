@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 I discussed with Steve several times before we shipped TwinTower. We agreed that it is a big task to finish through multiple releases, so TwinTower only contains a new implementation of Walk from Steve.
 <!--more-->
 
-We are going to investigate more in this field, but at first I would like to ask a simple question, “why Net-SNMP does not get a table unless it has the MIB?”
+We are going to investigate more in this field, but at first I would like to ask a simple question, "why Net-SNMP does not get a table unless it has the MIB?"
 
 You may wonder why I asked this question, as #SNMP can get such a table even if the MIB is not loaded. I have to confess I underestimate the role of MIB in the past. :(
 

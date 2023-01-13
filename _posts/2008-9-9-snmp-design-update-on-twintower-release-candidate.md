@@ -5,7 +5,7 @@ tags: SNMP
 permalink: /snmp-design-update-on-twintower-release-candidate-f2f4a2b53714
 excerpt_separator: <!--more-->
 ---
-Steve and I have worked hard to prepare a TwinTower Release Candidate lately (and that’s why Steve came across [the Zero Puzzle](/snmp-design-the-puzzle-of-zero-d26d9979f6) and [I fixed it completely](/snmp-design-solving-the-zero-puzzle-ad094d078cfd) yesterday). However, there is more to do on the browser side than on the library side, so I am now considering such a plan to release two candidates before the final release,
+Steve and I have worked hard to prepare a TwinTower Release Candidate lately (and that's why Steve came across [the Zero Puzzle](/snmp-design-the-puzzle-of-zero-d26d9979f6) and [I fixed it completely](/snmp-design-solving-the-zero-puzzle-ad094d078cfd) yesterday). However, there is more to do on the browser side than on the library side, so I am now considering such a plan to release two candidates before the final release,
 <!--more-->
 
 # Candidate One

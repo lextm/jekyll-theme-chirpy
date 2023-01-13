@@ -5,7 +5,7 @@ tags: SNMP
 permalink: /snmp-design-crossroad-beta-3-ce39689c01f9
 excerpt_separator: <!--more-->
 ---
-I started to publish beta packages for 2.0 a few weeks ago and today Beta 3 is available. What’s the drive of this new package? Well, I will share with you my story.
+I started to publish beta packages for 2.0 a few weeks ago and today Beta 3 is available. What's the drive of this new package? Well, I will share with you my story.
 <!--more-->
 
 This week I got a task to check if Windows x64 SNMP agent delivers 64-bit specific objects. So I moved on and compared MIB documents from both x86 and x64 boxes. No doubt that they are exactly the same. But how to tell if this is a x64 box? I guess 1.3.6.1.2.1.1.1.0 can tell so I should have a check.

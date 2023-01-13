@@ -9,7 +9,7 @@ For a very long time, no new samples have been added to #SNMP code base, because
 <!--more-->
 
 # The Problem
-In Wireshark we can easily analyze SNMP packets. But what if at hand we don’t have a full capture file? When all we have is “30 42 02 01 01 04 06 70 75 62 6C 69 63 A4 35 06 08 2B 06 01 04 01 80 … …”, it is no longer easy to utilize Wireshark.
+In Wireshark we can easily analyze SNMP packets. But what if at hand we don't have a full capture file? When all we have is `30 42 02 01 01 04 06 70 75 62 6C 69 63 A4 35 06 08 2B 06 01 04 01 80 … …`, it is no longer easy to utilize Wireshark.
 
 I often met such problems when handling issue reports from users, and the best approach I found in the past was to write a corresponding test case in MessageFactoryTestFixture.cs and debug the test case. That was convenient enough to locate the root cause, but no user would like to do the same.
 

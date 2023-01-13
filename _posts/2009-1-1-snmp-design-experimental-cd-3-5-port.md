@@ -5,7 +5,7 @@ tags: SNMP
 permalink: /snmp-design-experimental-cf-3-5-port-69bd866592b2
 excerpt_separator: <!--more-->
 ---
-Because of this discussion thread, I think it is time to try .NET CF 3.5 a little bit. Luckily SharpDevelop 3 makes things easier when I don’t have Visual Studio non-Express editions at hand. So let’s see what I have done.
+Because of this discussion thread, I think it is time to try .NET CF 3.5 a little bit. Luckily SharpDevelop 3 makes things easier when I don't have Visual Studio non-Express editions at hand. So let's see what I have done.
 <!--more-->
 
 First, it was easy to create an empty CF 3.5 project in SD3. Then I added all #SNMP Library source files into it. Well, compiling that project provides me a lot of errors and I have tried everything I can imagine to fix,

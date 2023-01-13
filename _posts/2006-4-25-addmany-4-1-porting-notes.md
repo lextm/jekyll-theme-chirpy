@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 
 1. Can only be built with AddMany copy local true. Cannot Link Units.
 
-2. Purified Pascal implementation of OtaAddMany is “abstract”. So can not be used by CBC.
+2. Purified Pascal implementation of OtaAddMany is "abstract". So can not be used by CBC.
 
 3. When distributing, AddMany.dll (merged version) and Lextm.AddMany.dll (wrapper) should be put in the same folder of Lextm.CodeBeautifierCollection.AddMany.dll.
 

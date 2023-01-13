@@ -23,7 +23,7 @@ Is it possible to reuse some of the code in Obfuscar? I just finished a few expe
 * Basic tamper proofing seems to be experimental, so I did not touch it.
 * Anti-ildasm is almost useless.
 
-Thus, the last useful bit is code optimization. As a result, a new option is now added, named “OptimizeMethods”.
+Thus, the last useful bit is code optimization. As a result, a new option is now added, named `OptimizeMethods`.
 
 There are other open source obfuscators, but their licenses are too restrictive, and I could not reuse their code at this moment.
 

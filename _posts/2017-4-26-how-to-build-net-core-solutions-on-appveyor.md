@@ -27,10 +27,11 @@ dotnet build somesolution.sln
 ```
 
 But due to some unknown reason (I think it is a bug), currently you cannot do so if the solution contains Xamarin projects. You might hit error messages similar to this,
+
 ``` bash
 dotnet restore SharpSnmpLib.NetStandard.sln
-C:\Users\lextm\Downloads\sharpsnmplib\SharpSnmpLib\SharpSnmpLib.iOS.csproj(55,3): error MSB4019: The imported project “C:\Program Files\dotnet\sdk\1.0.3\Xamarin\iOS\Xamarin.iOS.CSharp.targets” was not found. Confirm that the path in the <Import> declaration is correct, and that the file exists on disk.
-C:\Users\lextm\Downloads\sharpsnmplib\SharpSnmpLib\SharpSnmpLib.Android.csproj(61,3): error MSB4019: The imported project “C:\Program Files\dotnet\sdk\1.0.3\Xamarin\Android\Xamarin.Android.CSharp.targets” was not found. Confirm that the path in the <Import> declaration is correct, and that the file exists on disk.
+C:\Users\lextm\Downloads\sharpsnmplib\SharpSnmpLib\SharpSnmpLib.iOS.csproj(55,3): error MSB4019: The imported project "C:\Program Files\dotnet\sdk\1.0.3\Xamarin\iOS\Xamarin.iOS.CSharp.targets" was not found. Confirm that the path in the <Import> declaration is correct, and that the file exists on disk.
+C:\Users\lextm\Downloads\sharpsnmplib\SharpSnmpLib\SharpSnmpLib.Android.csproj(61,3): error MSB4019: The imported project "C:\Program Files\dotnet\sdk\1.0.3\Xamarin\Android\Xamarin.Android.CSharp.targets" was not found. Confirm that the path in the <Import> declaration is correct, and that the file exists on disk.
 ```
 
 An easy workaround is available, which I use here,

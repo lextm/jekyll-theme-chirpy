@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 #SNMP Agent starts to look good after I decide to follow IIS and ASP.NET patterns. Yes, the pipeline pattern makes it so easy to do authentication, handler mappings, and so on. Our release 4.0 is a nice indication that we are on the right track, and the upcoming release 5.0 is evolving fast. A few days ago, I announce that we implemented most SNMP v3 support in snmpd. Today, we go ahead and borrow one more idea from IIS. That is, the bindings.
 <!--more-->
 
-For IIS HTTP web sites, we can configure bindings easily. So a site can monitor both (http) `127.0.0.1:80`, (http) `[::1]:80`, and (https) `*:443`. That’s a very convenient way to say how many incoming requests I care of. But what about our current SnmpDemon in release 4.0? Well, it must be terrible. Even in our Browser, we had to use two Listener instances to monitor incoming requests in all unassigned scenario.
+For IIS HTTP web sites, we can configure bindings easily. So a site can monitor both (http) `127.0.0.1:80`, (http) `[::1]:80`, and (https) `*:443`. That's a very convenient way to say how many incoming requests I care of. But what about our current SnmpDemon in release 4.0? Well, it must be terrible. Even in our Browser, we had to use two Listener instances to monitor incoming requests in all unassigned scenario.
 
 Like I explained before, this is sort of a System.Net limitation. So now, how to make life easier? We can hide all details by encapsulating multiple Listener objects in a single class,
 

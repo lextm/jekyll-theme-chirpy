@@ -18,6 +18,6 @@ In this case, I cannot publish posts in WLW at home. However, I keep using WLW a
 
 Because I cannot publish pictures to Blogger, I find this boring workaround sometimes useful.
 
-Unless there is another great post writer program for me to review, I’ll bind to WLW for a while.
+Unless there is another great post writer program for me to review, I'll bind to WLW for a while.
 
 What is your favourite post writer?

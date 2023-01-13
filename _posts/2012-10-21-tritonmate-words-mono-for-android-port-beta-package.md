@@ -19,6 +19,6 @@ http://sharpsnmplib.codeplex.com/releases/view/78947
 
 Although it is listed under a stable release page, please understand that this package alone is still a Beta quality piece.
 
-Next I am going to see how to run all unit test cases on the simulator so as to gain more insights about Mono for Android. Hope we won’t find many issues later.
+Next I am going to see how to run all unit test cases on the simulator so as to gain more insights about Mono for Android. Hope we won't find many issues later.
 
 Stay tuned.

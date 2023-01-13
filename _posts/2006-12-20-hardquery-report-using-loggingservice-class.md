@@ -9,7 +9,7 @@ CSDN Dec 20, 2006)
 
 # What is LoggingService
 
-LoggingService is a new unit I create lately to replace Marc Clifton’s wonderful Debug/Dbg unit used in early versions of CBC. This new unit is a wrapper on log4net, an amazing logging library. But it is more than a wrapper, and makes thing even easier in certain aspects. As a result, I use it across CBC now. You can find it in the source package under src/lextm/diagnostics/loggingservice.cs. It is covered by LGPL.
+LoggingService is a new unit I create lately to replace Marc Clifton's wonderful Debug/Dbg unit used in early versions of CBC. This new unit is a wrapper on log4net, an amazing logging library. But it is more than a wrapper, and makes thing even easier in certain aspects. As a result, I use it across CBC now. You can find it in the source package under src/lextm/diagnostics/loggingservice.cs. It is covered by LGPL.
 <!--more-->
 
 # Configuration
@@ -19,16 +19,16 @@ When using log4net, you have to do something configuration ahead. You can place 
 When you start to use LoggingService, write you settings file and send the path to Start function as the only parameter. For example,
 
 ```csharp
-LoggingService.Start(“C:/cbc.exe.config”);
+LoggingService.Start("C:\cbc.exe.config");
 ```
 
 # Leaving messages in the log
 
-Then you can use LoggingService’s Debug, Info, Error, Fatal, and Warn functions to log any important steps inside your code. Because they are just wrappers of ILog’s Debug, Info, Error, Fatal, and Warn functions.
+Then you can use LoggingService's Debug, Info, Error, Fatal, and Warn functions to log any important steps inside your code. Because they are just wrappers of ILog's Debug, Info, Error, Fatal, and Warn functions.
 
 # Key improvements
 
-What makes LoggingService easier to use is that you don’t need to define a logger per unit using
+What makes LoggingService easier to use is that you don't need to define a logger per unit using
 
 ILog log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
 

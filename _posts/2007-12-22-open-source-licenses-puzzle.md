@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 I am not a law school student, so I cannot understand those words. So today when I suddenly came across this link, I found that Code Beautifier Collection may break some rules somewhere.
 <!--more-->
 
-> “That is, a module covered by the GPL and a module covered by the MPL cannot legally be linked together.”
+> "That is, a module covered by the GPL and a module covered by the MPL cannot legally be linked together."
 
 This line may indicate that CBC cannot make use of jcf.exe and jcfstyle.exe which are MPL covered. However, if we consider that CBC in fact is shell executing them and does not link to them, this may not be an issue.
 

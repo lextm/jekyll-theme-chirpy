@@ -22,6 +22,6 @@ Code Folding is my favourite feature. And the real time error displaying.
 
 Wonderful.
 
-If you are new to Eclipse, you’d better use EasyEclipse packages to install both Eclipse and TeXlipse.
+If you are new to Eclipse, you'd better use EasyEclipse packages to install both Eclipse and TeXlipse.
 
 The packages I choose are EasyEclipse for Python and TeXlipse.

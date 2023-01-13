@@ -14,6 +14,6 @@ Install it to where you installed CBC 2 before. (You must have CBC stable versio
 
 Main features:
 
-1. C#Builder Goodies’ Doc Preview function ported. (Default shortcut is Alt+Q.)
+1. C#Builder Goodies' Doc Preview function ported. (Default shortcut is Alt+Q.)
 1. Easy to configure shortcuts now with an added menu item.
 1. Bundled JCF version is now 2.21.

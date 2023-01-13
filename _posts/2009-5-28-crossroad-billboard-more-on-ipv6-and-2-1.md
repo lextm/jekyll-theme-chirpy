@@ -12,7 +12,7 @@ Here is the technical details about work item 4016 and release 2.1.
 
 I bought my laptop in 2007, which ships with Windows Vista Home Basic, so from then on I have worked on IP v6 enabled platforms (Windows Vista and Windows 7).
 
-Before the release of 2.0 final, when I tried to make the library IP v6 compatible, I had a lot of tests executed on Windows 7. So I didn’t realize that such tests are not enough.
+Before the release of 2.0 final, when I tried to make the library IP v6 compatible, I had a lot of tests executed on Windows 7. So I didn't realize that such tests are not enough.
 
 Yes, I did learn a few key points about Windows XP and Windows Server 2003 in March. But I simply neglected them that day and left the bug there. (Next time surely I will do some tests on Windows XP.
 

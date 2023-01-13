@@ -17,9 +17,9 @@ Assume that we have the following rule defined on IIS,
 ``` xml
 <rewrite>
     <rules>
-        <rule name=”Rewrite to article.aspx”>
-            <match url=”^article/([0–9]+)/([_0–9a-z-]+)” />
-            <action type=”Rewrite” url=”article.aspx?id={R:1}&amp;title={R:2}” />
+        <rule name="Rewrite to article.aspx">
+            <match url="^article/([0–9]+)/([_0–9a-z-]+)" />
+            <action type="Rewrite" url="article.aspx?id={R:1}&amp;title={R:2}" />
         </rule>
     </rules>
 </rewrite>

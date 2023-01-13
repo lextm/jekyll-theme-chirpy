@@ -12,7 +12,7 @@ Updater is ready so I ship it now. InDate is the final name for this feature and
 
 There are some tiny problems.
 
-1. Since I don’t want most users to test RC versions, so on the blog entry page, version number is set to 5.1.0.1117, the same as NixNewNer Final. As a result, when you update, you will get “no update is available” tip. When Update 1 is shipped, this number will be changed to 5.1.1.1117, then you can use the updater to download the update.
+1. Since I don't want most users to test RC versions, so on the blog entry page, version number is set to 5.1.0.1117, the same as NixNewNer Final. As a result, when you update, you will get "no update is available" tip. When Update 1 is shipped, this number will be changed to 5.1.1.1117, then you can use the updater to download the update.
 
    If you want to test RC, later version of InDate will add some options.
 

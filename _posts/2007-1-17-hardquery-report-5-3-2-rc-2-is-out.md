@@ -11,7 +11,7 @@ Today I received a letter from Pierre-Jean.Robin. In fact, it is a bug report.
 
 Hello,
 
-I have just installed Code Beautifier V5.3.1.1123 and have a problem with beautifying a document (i run Delphi 2006): the source code is a Delphi unit with 2500 lines. Pressing ctrl+W starts de beautifier but it deletes the end of the source code ! It deletes approximately the last 200 lines of the unit… I have problems with smaller source code. What’s wrong ??
+I have just installed Code Beautifier V5.3.1.1123 and have a problem with beautifying a document (i run Delphi 2006): the source code is a Delphi unit with 2500 lines. Pressing ctrl+W starts de beautifier but it deletes the end of the source code ! It deletes approximately the last 200 lines of the unit… I have problems with smaller source code. What's wrong ??
 
 Pierre-Jean
 <!--more-->
@@ -22,7 +22,7 @@ After debugging for a while, I found that jcf.exe worked fine, so I knew it was 
 
 Now the bug is fixed and I am releasing a new build.
 
-I’d like to say thank you again for all my dear friends for your support. And what I can do to pay back is working hard on this project in the future.
+I'd like to say thank you again for all my dear friends for your support. And what I can do to pay back is working hard on this project in the future.
 
 Stay tuned.
 

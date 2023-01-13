@@ -62,7 +62,7 @@ It would be necessary to display icons for profiles, but the flexibility of Wind
 * There are special URLs for files, such as `ms-appdata:///` and `ms-appdata:///`, so they must be resolved to actual files on disk.
 * There are profile icons stored in a special Windows Terminal folder, so `install.ps1` should use the profile GUID to locate its icon.
 
-When everything fails, of course the script falls back to Windows Terminal’s icon instead.
+When everything fails, of course the script falls back to Windows Terminal's icon instead.
 
 ## 5: Icon Format Conversion
 

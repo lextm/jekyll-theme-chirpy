@@ -14,6 +14,6 @@ It is not an installer because only Utilities Plus should be updated.
 
 The hotfix is for N3 Update 1 RC 5 users, but older versions of N3 Update 1 RCs can use it, too.
 
-Unzip the file and replace the exe file on your PC with the extracted file. You’d better keep a backup of the old file.
+Unzip the file and replace the exe file on your PC with the extracted file. You'd better keep a backup of the old file.
 
 This hotfix will be included in RC 6.

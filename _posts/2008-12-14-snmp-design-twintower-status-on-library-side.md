@@ -9,5 +9,5 @@ Well, I can only say something about the Library. Steve will decide if there is 
 
 After marking up all the Obsolete methods, I am going to focus on the last piece, Manager.GetTable. So 1.5 is 99% ready on my side. If I cannot improve GetTable, any modification will be deferred to CrossRoad, too.
 
-As far as I know, I own two Issues on the Browser numbered 3365 and 3403 (3408 is “won’t fix”). I will stat to work on them lately. Stay tuned.
+As far as I know, I own two Issues on the Browser numbered 3365 and 3403 (3408 is "won't fix"). I will stat to work on them lately. Stay tuned.
 <!--more-->

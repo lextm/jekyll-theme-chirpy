@@ -10,7 +10,7 @@ Have to say [PicLens](http://www.piclens.com/) is cool!
 It is especially great helper when you do images search of Google. I can navigate along the pictures like they are in an album. No need to click Next button because PicLens already do it for me.
 <!--more-->
 
-Yes, although PicLens announces that Yahoo! supports it, I find that Yahoo! Image Search does not do things well. To be more specific, it seems that Yahoo!’s Media RSS source does not have the automatic-go-to-next-page feature like Google’s. So you can only view pictures in the current page. Very very inconvenient!
+Yes, although PicLens announces that Yahoo! supports it, I find that Yahoo! Image Search does not do things well. To be more specific, it seems that Yahoo!'s Media RSS source does not have the automatic-go-to-next-page feature like Google's. So you can only view pictures in the current page. Very very inconvenient!
 
 BTW, once I have reported to PicLens that I cannot view one of my Picasa album in it. Then I suddenly realize the cause is that I navigate to a UK version of Picasa where Media RSS is not correctly implemented. I do not know whether now the issue has been fixed.
 

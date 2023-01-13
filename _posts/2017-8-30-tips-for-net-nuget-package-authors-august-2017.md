@@ -5,7 +5,7 @@ tags: .NET Visual-Studio
 permalink: /tips-for-net-nuget-package-authors-august-2017-48f07604e4a0
 excerpt_separator: <!--more-->
 ---
-> I have to add “August 2017”, as time proves that the tips can go easily out-of-date.
+> I have to add "August 2017", as time proves that the tips can go easily out-of-date.
 
 The responsibilities of a NuGet package author are,
 
@@ -72,9 +72,9 @@ However, do remember that `net*` target frameworks can only be built on Windows 
 <TargetFrameworks Condition=" '$(OS)' == 'Windows_NT' ">netstandard1.3;net452;xamarinios10;monoandroid44</TargetFrameworks>
 <TargetFrameworks Condition=" '$(OS)' != 'Windows_NT' ">netstandard1.3</TargetFrameworks>
 ```
-> It does work at command line, but after modification Visual Studio 2017 15.3 won’t be able to open the project file correctly.
+> It does work at command line, but after modification Visual Studio 2017 15.3 won't be able to open the project file correctly.
 > 
-> Therefore, I don’t use conditions in my projects, but instead using “sed” command on macOS/Linux to remove those platforms manually before compilation.
+> Therefore, I don't use conditions in my projects, but instead using `sed` command on macOS/Linux to remove those platforms manually before compilation.
 
 If you need to sign the assemblies, a disappointing fact is that Roslyn cannot fully sign assemblies on non-Windows platforms yet. Thus, Microsoft temporarily introduces a concept called [public signing](https://github.com/dotnet/corefx/blob/master/Documentation/project-docs/public-signing.md).
 
@@ -90,7 +90,7 @@ What might happen if you forget this? Public signing is just similar to delay si
 <PublicSign>True</PublicSign>
 ```
 
-Then the compiled assembly might trigger runtime exception for .NET Framework projects that consume it, as “strong name validation failed” will be triggered.
+Then the compiled assembly might trigger runtime exception for .NET Framework projects that consume it, as "strong name validation failed" will be triggered.
 
 Again, your NuGet package in this case must be generated on Windows before uploading to NuGet.org.
 

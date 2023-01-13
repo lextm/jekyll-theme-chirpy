@@ -11,7 +11,7 @@ http://blogs.cisco.com/news/2008/03/cisco_join_eclipse_foundation.html
 
 As a Software Developer working in a Cisco company, I just saw an internal tool built with Eclipse RCP last month. And have to say it is wonderful.
 
-So, let us keep an eye on the Tigerstrip sub project to see what’s going on there in April.
+So, let us keep an eye on the Tigerstrip sub project to see what's going on there in April.
 
 http://www.eclipse.org/tigerstripe/
 <!--more-->

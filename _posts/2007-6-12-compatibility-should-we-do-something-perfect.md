@@ -14,5 +14,5 @@ However, for software interface such as OTA, or protocol such as TCP, any change
 
 We should keep the compatibility in our mind whenever a new version of protocol, file format, or interface is maintained or created. If it is impossible, at least a migration path should be provided. For example, I wrote a plus2plus2 utility to convert .plus file format to .plus2 when I dropped .plus format and turned to .plus2 format(If you are interested, it can be found in the source code package).
 
-My project at work consumes a file format from a third party provider. However, the provider’s latest changes bring up incompatibility issues that we have to adapt to. The changes are unreasonable in certain aspects. I believe a discussion will be set soon. Wish the provider changes its mind at last. If it does not surrender, I would have a lot of work to do.
+My project at work consumes a file format from a third party provider. However, the provider's latest changes bring up incompatibility issues that we have to adapt to. The changes are unreasonable in certain aspects. I believe a discussion will be set soon. Wish the provider changes its mind at last. If it does not surrender, I would have a lot of work to do.
 <!--more-->

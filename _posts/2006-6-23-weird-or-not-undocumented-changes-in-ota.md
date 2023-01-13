@@ -10,7 +10,7 @@ excerpt_separator: <!--more-->
 Lately a bug in older N3 versions is reported and fixed.
 <!--more-->
 
-When you launch delphi personality, and create a new project, some null reference exceptions show. It is not hard to find the origin of the bug. In WiseEditor Plus AutoCompletion, a trigger is added to IOTAEditor’s Modified event. However, when a project file .bdsproj or a Together model file is opened, this trigger should not be added and the trigger event should never be fired.
+When you launch delphi personality, and create a new project, some null reference exceptions show. It is not hard to find the origin of the bug. In WiseEditor Plus AutoCompletion, a trigger is added to IOTAEditor's Modified event. However, when a project file .bdsproj or a Together model file is opened, this trigger should not be added and the trigger event should never be fired.
 
 After fixing this, I turn to test on delphi 2006, and found the bug is gone. This fix is included in N3 Update 1 RC 5.
 

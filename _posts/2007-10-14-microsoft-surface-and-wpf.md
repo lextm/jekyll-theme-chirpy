@@ -12,7 +12,7 @@ The most important thing you should pay attention to is that,
 
 > All Surface applications are written in managed code and most use WPF or XMA; Flash was used in early development, but was replaced before launch.
 
-This is really funny. Yes, it reflects why Microsoft spent that much efforts on Silverlight and WPF. Can you imagine that Microsoft released Surface that contains Flash and a written permission from Adobe? That would be much more funny. Once Microsoft got such a permission from SUN about Java, and we all clearly remember what happened later, don’t you?
+This is really funny. Yes, it reflects why Microsoft spent that much efforts on Silverlight and WPF. Can you imagine that Microsoft released Surface that contains Flash and a written permission from Adobe? That would be much more funny. Once Microsoft got such a permission from SUN about Java, and we all clearly remember what happened later, don't you?
 
 There is another interesting point you should not miss,
 

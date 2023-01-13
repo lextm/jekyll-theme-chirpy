@@ -36,7 +36,7 @@ return z.Square().Equals((object)this) ? z : null;
 
 After all these steps, you should have crypto project compiled without any problem.
 
-There can still be some issues compiling crypto-test project, but that’s a unit test project which does not matter much, so you can safely ignore it.
+There can still be some issues compiling crypto-test project, but that's a unit test project which does not matter much, so you can safely ignore it.
 
 Linux
 Mono

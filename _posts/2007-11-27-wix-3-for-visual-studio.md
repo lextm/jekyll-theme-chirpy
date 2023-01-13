@@ -14,4 +14,4 @@ And if WiX is integrated, what would happen? I guess I will evaluate it as fast 
 
 However, according to WiX blog, the first release of WiX 3 for Visual Studio will not contain visual dialogue designer which means it is a bit tough. I will check if it is feasible then.
 
-An important thing is that after releasing WiX 3 for Visual Studio, its support will be provided by Microsoft! Also, now several Microsoft employees are already on this open source project. Let’s wait and see how Microsoft incorporates this nice open source project into its Team System tool chain.
+An important thing is that after releasing WiX 3 for Visual Studio, its support will be provided by Microsoft! Also, now several Microsoft employees are already on this open source project. Let's wait and see how Microsoft incorporates this nice open source project into its Team System tool chain.

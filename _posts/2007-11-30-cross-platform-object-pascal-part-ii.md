@@ -30,7 +30,7 @@ Borland used its own IDE because,
 
 After about 3 years, everything changes. Now, Eclipse based IDE is so popular (CodeGear uses it for JBuilder and 3rdRails) and Microsoft releases Visual Studio Shell. Look like that RO made a better choice.
 
-RO announces that it will add support to MonoDevelop. Let’s wait and see what will happen.
+RO announces that it will add support to MonoDevelop. Let's wait and see what will happen.
 
 # The Language
 

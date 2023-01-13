@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 ---
 (Originally posted to CSDN on March 14, 2006)
 
-When I finished writing an SDK for BDS OTA for .NET based on SBT’s code, I found that I could bring Sharp Builder Tools and C#Builder Goodies to any BDS version using my SDK.
+When I finished writing an SDK for BDS OTA for .NET based on SBT's code, I found that I could bring Sharp Builder Tools and C#Builder Goodies to any BDS version using my SDK.
 
 The first milestone you saw is the BF Update 1 or WalkPace Beta I. It contained a version of modified C#Builder Goodies.
 

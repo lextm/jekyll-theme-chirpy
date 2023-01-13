@@ -5,7 +5,7 @@ tags: .NET
 permalink: /product-review-silverlight-lights-up-what-1fb2af15444d
 excerpt_separator: <!--more-->
 ---
-Silverlight 1.0 is out. I haven’t heard something on CSDN. Why? In China, new techniques need a long time to adapt because programmers are working hard on their projects. And I am one of them after April.
+Silverlight 1.0 is out. I haven't heard something on CSDN. Why? In China, new techniques need a long time to adapt because programmers are working hard on their projects. And I am one of them after April.
 <!--more-->
 
 My best excuse is WAIT until the second version is out. This is correct because Silverlight 1.0 lacks of .NET support which will be added in 1.1.

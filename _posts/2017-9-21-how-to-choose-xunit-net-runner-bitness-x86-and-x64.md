@@ -21,7 +21,7 @@ Here I show how I use them in [Obfuscar CI script](https://github.com/obfuscar/o
 If you are using .NET Core, then you probably know the command `dotnet test` you should use `-a x64` or `-a x86`.
 
 # Visual Studio Runner
-You would be surprised to notice that xUnit.net configuration does not cover bitness at all from its documentation. But that’s perfectly normal as Visual Studio has its builtin support, [as documented in this article](https://docs.microsoft.com/en-us/visualstudio/test/configure-unit-tests-by-using-a-dot-runsettings-file).
+You would be surprised to notice that xUnit.net configuration does not cover bitness at all from its documentation. But that's perfectly normal as Visual Studio has its builtin support, [as documented in this article](https://docs.microsoft.com/en-us/visualstudio/test/configure-unit-tests-by-using-a-dot-runsettings-file).
 
 So by serving a `.runsettings` file, you can easily switch between x86 and x64,
 

@@ -24,4 +24,4 @@ The latest and promising solution is provided by RemObjects. Yes, it is Chrome f
 
 # My Choice
 
-So what is the best solution? I believe if CodeGear can revive Kylix or take over FPC, Delphi is still the best. Win32\64 + .NET/Mono + native cross platform is most complete solution that meets everyone’s requirements. Chrome is the second because cross platform .NET/Mono can handle most problems. You can try FPC if either Delphi or Chrome fails you.
+So what is the best solution? I believe if CodeGear can revive Kylix or take over FPC, Delphi is still the best. Win32\64 + .NET/Mono + native cross platform is most complete solution that meets everyone's requirements. Chrome is the second because cross platform .NET/Mono can handle most problems. You can try FPC if either Delphi or Chrome fails you.

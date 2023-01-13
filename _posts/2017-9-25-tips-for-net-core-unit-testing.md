@@ -19,14 +19,14 @@ Like I did in #SNMP Library to use multiple target frameworks (`netstandard1.3` 
 ```
 You must make sure to use the extra `Condition` to avoid a compilation error,
 ```text
-CSC : error CS5001: Program does not contain a static ‘Main’ method suitable for an entry point
+CSC : error CS5001: Program does not contain a static 'Main' method suitable for an entry point
 ```
 
 # xUnit.net Versions
 
 If you are an xUnit.net user like I am, you probably should notice the differences of 2.2.0 and 2.3.0 (in beta, 2.3.0-beta5-build3769) right now and be confused.
 
-So its 2.2.0 is the very first major release with full .NET Core tooling integration, so that you can use `dotnet test` command to run xUnit.net based test projects. **Please verify that you are using all related NuGet packages with version number “2.2.0”**.
+So its 2.2.0 is the very first major release with full .NET Core tooling integration, so that you can use `dotnet test` command to run xUnit.net based test projects. **Please verify that you are using all related NuGet packages with version number "2.2.0"**.
 
 Its 2.3.0 is currently in beta, which introduces the new `dotnet xunit` command, which provides much more features than `dotnet test`. However, as it is still under development, **avoid using it for your projects if you can**. I personally experienced various issues when testing out this release with #SNMP Library, where it significantly increases the probability of testing failures (many test cases are socket based).
 

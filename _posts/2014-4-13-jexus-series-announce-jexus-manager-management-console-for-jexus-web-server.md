@@ -10,8 +10,8 @@ As illustrated in early posts, Jexus web server is more similar to IIS, if we co
 Well, kind of familiar, right? Yes, Jexus Manager (JxMgr for short) client is a Windows Forms based application that looks almost the same as Microsoft IIS Manager. This design features the following advantages,
 
 1. If you already know how to use IIS Manager, you know how to use Jexus Manager.
-1. If you don’t know IIS Manager, you can still find the UI easy to learn, as IIS help links are embedded to lead you to the tons of articles Microsoft published.
-1. Even if you are a beginner of Jexus, you don’t need to spend tons of time learning how to write configuration files in INI format or remember which options to use. In the UI, the same settings can be easily learned and configured.
+1. If you don't know IIS Manager, you can still find the UI easy to learn, as IIS help links are embedded to lead you to the tons of articles Microsoft published.
+1. Even if you are a beginner of Jexus, you don't need to spend tons of time learning how to write configuration files in INI format or remember which options to use. In the UI, the same settings can be easily learned and configured.
 Jexus Manager Homepage is at https://jexus.codeplex.com. (Update: 1.0 RC1 has retired. RC2 will be available on April 26.)
 
 # Components

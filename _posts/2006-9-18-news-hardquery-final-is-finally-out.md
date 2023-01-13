@@ -13,7 +13,7 @@ After two months of developing and testing, this version has more than 10 melior
 
 Beautify the code, delight the work.
 
-Like in the old tale, just Ctrl + W, and a difference is there. What’s new now is another Ctrl + Z, then the old content is back. Is it what you want?
+Like in the old tale, just Ctrl + W, and a difference is there. What's new now is another Ctrl + Z, then the old content is back. Is it what you want?
 
 Wish you enjoy this version.
 

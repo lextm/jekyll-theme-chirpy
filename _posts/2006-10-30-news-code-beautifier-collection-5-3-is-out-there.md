@@ -7,14 +7,14 @@ excerpt_separator: <!--more-->
 ---
 (CSDN Oct 30, 2006)
 
-I have been busy these days hunting for a job. I am not lucky enough because I did not get any valuable certifications, such SCJD or MCSE. I should have spent time on them but I’ve devoted so much to Code Beautifier Collection. No regret yet, but I am sad still.
+I have been busy these days hunting for a job. I am not lucky enough because I did not get any valuable certifications, such SCJD or MCSE. I should have spent time on them but I've devoted so much to Code Beautifier Collection. No regret yet, but I am sad still.
 
 I will go on developing this tool until the day all users disappear. I will find a job soon, although it may not be what I want the most. I have to keep myself alive.
 
 BTW, I have published this brand new version on BDN already, and it is also available here.
 <!--more-->
 
-# What’s new?
+# What's new?
 
 Since version 5.2, more features from classic helpers, such as ArtCSB, Sharp Builder Tools, have been ported into this collection along with those in AddMany, DILMerge, C#Builder Goodies.
 

@@ -5,7 +5,7 @@ tags: SNMP
 permalink: /snmp-library-encryption-and-encryption-registration-2d68d88841bc
 excerpt_separator: <!--more-->
 ---
-One user wrote to me recently to ask if I can provide ECCN number of #SNMP Library. I was surprised initially, but later discovered that as a project hosted on both CodePlex and GitHub (US based), and a project with some encryption related code (SNMP v3 privacy support), #SNMP Library does fall into the category and some actions need to be taken. The question is how to get compliance without a lawyer. OK. Let’s see whether US government makes it simple enough for an open source project coordinator to dig it out.
+One user wrote to me recently to ask if I can provide ECCN number of #SNMP Library. I was surprised initially, but later discovered that as a project hosted on both CodePlex and GitHub (US based), and a project with some encryption related code (SNMP v3 privacy support), #SNMP Library does fall into the category and some actions need to be taken. The question is how to get compliance without a lawyer. OK. Let's see whether US government makes it simple enough for an open source project coordinator to dig it out.
 <!--more-->
 
 # The Examples

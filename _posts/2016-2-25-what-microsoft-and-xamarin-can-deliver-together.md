@@ -22,11 +22,11 @@ Of course, if Xamarin.Forms can be extended to support OS X, Linux, and Windows 
 
 # .NET Native + Mono AOT
 
-So far Mono and Xamarin platforms still use Mono AOT tool chain. It works, but does not deliver the best performance compared to .NET Native powered by Microsoft’s years of experience on application performance tuning. If .NET Native can penetrate into those platforms, then apps built on Xamarin platforms should see a significant boost.
+So far Mono and Xamarin platforms still use Mono AOT tool chain. It works, but does not deliver the best performance compared to .NET Native powered by Microsoft's years of experience on application performance tuning. If .NET Native can penetrate into those platforms, then apps built on Xamarin platforms should see a significant boost.
 
 # Visual Studio for OS X/Linux
 
-JetBrains revealed its cross platform IntelliJ IDEA based C# IDE “Project Rider” a few weeks ago. If Microsoft wants to compete, its current option should only be Visual Studio Code, a promising platform, but young and simple.
+JetBrains revealed its cross platform IntelliJ IDEA based C# IDE "Project Rider" a few weeks ago. If Microsoft wants to compete, its current option should only be Visual Studio Code, a promising platform, but young and simple.
 
 Though MonoDevelop/Xamarin Studio is not as powerful and feature rich as Visual Studio on Windows, it already provides core feature set with an extension framework that works good. Many VS functionalities should be able to arrive on Xamarin Studio to support daily tasks that majority of developers need.
 

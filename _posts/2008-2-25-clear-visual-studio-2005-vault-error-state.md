@@ -12,4 +12,4 @@ I believe it is a Vault bug but because I am still using the 3.5 old version, so
 
 In fact, today is my lucky day that when I launch the Vault Client, a workaround is so obvious. I UNDO all checkouts but LEAVE my working files there. Then I launch Visual Studio 2005 again, and suddenly see everything is fine. Why not buy some lottery tickets tonight?
 
-I have to confess that I never knew checking in hundreds of files would take such a long time. But I am sure next time I won’t kill Visual Studio.
+I have to confess that I never knew checking in hundreds of files would take such a long time. But I am sure next time I won't kill Visual Studio.

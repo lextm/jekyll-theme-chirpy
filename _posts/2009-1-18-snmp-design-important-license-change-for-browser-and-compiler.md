@@ -5,7 +5,7 @@ tags: SNMP
 permalink: /snmp-design-important-license-change-for-browser-and-compiler-c2c3562565f9
 excerpt_separator: <!--more-->
 ---
-I think MIT is a better choice so let’s stop using BSD.
+I think MIT is a better choice so let's stop using BSD.
 
 Please notice this change affects our latest source code in the repository. It is a little bit late for TwinTower.
 

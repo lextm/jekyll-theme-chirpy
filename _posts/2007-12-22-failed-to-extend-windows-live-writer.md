@@ -20,4 +20,4 @@ And I am not going to write one of Content Source Plugins which are common.
 
 BTW, It is sad to see that a plugin installer should be MSI based. That prevents me from creating an installer with Inno Setup.
 
-Why not release this project as an open source project so everyone can play with the code in order to meet all requirements out there? Should I wait until certain APIs are posed in later WLW? Sorry I won’t wait. I would try other ways.
+Why not release this project as an open source project so everyone can play with the code in order to meet all requirements out there? Should I wait until certain APIs are posed in later WLW? Sorry I won't wait. I would try other ways.

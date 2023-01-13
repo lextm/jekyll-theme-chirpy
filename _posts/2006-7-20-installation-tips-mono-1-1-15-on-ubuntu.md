@@ -16,7 +16,7 @@ For Ubuntu users like me, it is not hard to use this installer of 1.1.15, too.
 
 First, install mozilla-browser. You can use apt-get for this.
 
-Second, make the .bin file runnable. It is not hard, isn’t it?
+Second, make the .bin file runnable. It is not hard, isn't it?
 
 Third, sudo ./**.bin.
 

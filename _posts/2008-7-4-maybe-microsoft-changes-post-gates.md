@@ -5,7 +5,7 @@ tags: Microsoft
 permalink: /maybe-microsoft-changes-post-gates-12cad5afbe3a
 excerpt_separator: <!--more-->
 ---
-When I wrote [this post](/sandcastle-puzzle-source-code-closed-cc9c793e35c1), I was upset. And I never knew that Microsoft would change, after Bill Gates’ retirement.
+When I wrote [this post](/sandcastle-puzzle-source-code-closed-cc9c793e35c1), I was upset. And I never knew that Microsoft would change, after Bill Gates' retirement.
 
 Now, Sandcastle is back to CodePlex, WITH SOURCE CODE.
 

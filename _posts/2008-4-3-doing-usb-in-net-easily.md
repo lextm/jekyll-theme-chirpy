@@ -5,7 +5,7 @@ tags: .NET
 permalink: /doing-usb-in-net-easily-93c79c888f01
 excerpt_separator: <!--more-->
 ---
-It is quite funny that even though Microsoft wants Visual C++ and Visual Basic developers to move to C#, it does not provide certain classes in .NET that college students need. For example, when I was at college, I found that no serial port related classes were there in .NET 1.x (they are added until 2.0 such as SerialPort). Up to now, we don’t see USB related classes yet in 3.5. Therefore, how can we do USB development easily?
+It is quite funny that even though Microsoft wants Visual C++ and Visual Basic developers to move to C#, it does not provide certain classes in .NET that college students need. For example, when I was at college, I found that no serial port related classes were there in .NET 1.x (they are added until 2.0 such as SerialPort). Up to now, we don't see USB related classes yet in 3.5. Therefore, how can we do USB development easily?
 <!--more-->
 
 Thus, how to manipulate USB easily? I recommend SharpUsbLib, a wrapper over libusb.

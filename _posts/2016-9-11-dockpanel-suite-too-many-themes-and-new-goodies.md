@@ -10,7 +10,7 @@ I blogged a few days ago on DockPanel Suite recent changes, but well excitingly 
 
 # New Features
 
-Remember that I mentioned the “new theme design”? It has been greatly upgraded in the past few days, with the following features I personally never thought I could have achieved,
+Remember that I mentioned the "new theme design"? It has been greatly upgraded in the past few days, with the following features I personally never thought I could have achieved,
 
 * All button images are generated on-the-fly based on the color palette.
 * All dock indicator images are generated on-the-fly based on the color palette.
@@ -32,7 +32,7 @@ The result of all such efforts is that now the following themes are shipped,
 Totally you get 8 themes for the first time. You can now grab them [via NuGet](https://www.nuget.org/packages/DockPanelSuite/2.11.0-beta1). The upcoming Beta 2 will add VS2015 Blue/Dark/Light to the list.
 
 # Interesting Facts
-You might think that well we shipped VS2012 Light and VS2013 Blue themes already, so what’s the big deal. Well, even they receive significant updates in many aspects,
+You might think that well we shipped VS2012 Light and VS2013 Blue themes already, so what's the big deal. Well, even they receive significant updates in many aspects,
 
 1. By using the .vstheme files from Microsoft, a few incorrect colors are now fixed.
 1. By using the image generation algorithms based on mask images, the final assembly size is smaller.
@@ -44,7 +44,7 @@ You might think that well we shipped VS2012 Light and VS2013 Blue themes already
 1. Pens and brushes are cached to minimize memory footprint.
 1. VS2012 Blue theme uses many VS2013 theme elements (such as splitters).
 1. VS2012 themes and their corresponding VS2013 themes might use a few different colors (for instance, VS2012 Blue theme uses a yellow color, which is no longer used in VS2013 Blue).
-1. VS2012 Blue theme’s active document tab’s blue color is different from the one specified in Color Theme Manager.
+1. VS2012 Blue theme's active document tab's blue color is different from the one specified in Color Theme Manager.
 
 [A review on the facts](http://docs.dockpanelsuite.com/themes/review.html) can be found at the doc site.
 

@@ -16,4 +16,4 @@ Why?
 
 Even though it supports limited format (PNG and SWF only), it is still really a nice and handy tool.
 
-I cannot understand why TechSmith releases this free tool while it sells Camtasia. I think for most people Jing’s functions are enough. This may affect Camtasia sales (not every one expects rich format support).
+I cannot understand why TechSmith releases this free tool while it sells Camtasia. I think for most people Jing's functions are enough. This may affect Camtasia sales (not every one expects rich format support).

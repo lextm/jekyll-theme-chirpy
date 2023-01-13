@@ -5,7 +5,7 @@ tags: .NET Visual-Studio
 permalink: /how-to-install-custom-controls-to-visual-studio-part-i-39fa7733bb3
 excerpt_separator: <!--more-->
 ---
-I thought this is an easy task as so many components vendors have their fancy installers doing this, but only when I attempted to create one for Crad’s ActionList (http://github.com/lextm/actionlistwinforms) I found out how difficult it is to locate all information you need. Therefore, this will be a long post with all information you might need.
+I thought this is an easy task as so many components vendors have their fancy installers doing this, but only when I attempted to create one for Crad's ActionList (http://github.com/lextm/actionlistwinforms) I found out how difficult it is to locate all information you need. Therefore, this will be a long post with all information you might need.
 <!--more-->
 
 Note that I just finish Visual Studio 2008 support, which will be covered in part I. Visual Studio 2005 is tool old to attract me, and Visual Studio 2010 and 2012 poses new challenges of supporting both .NET 2 and .NET 4.
@@ -24,7 +24,7 @@ I set (Default) value to C:\Program Files\ActionList for Windows Forms\net20\ so
 
 > The same should be done for .NET 4 I guess, but I do not yet test it.
 
-After doing this and restart VS, I can now create a new tab named “ActionList for WinForms” in Toolbox panel, right click and activate “Choose Item…” menu item.
+After doing this and restart VS, I can now create a new tab named "ActionList for WinForms" in Toolbox panel, right click and activate "Choose Item…" menu item.
 
 You can see that magically Crad.Windows.Forms.Actions.dll is listed there just like any other registered .NET assemblies. That is what AssemblyFoldersEx registry keys brings.
 

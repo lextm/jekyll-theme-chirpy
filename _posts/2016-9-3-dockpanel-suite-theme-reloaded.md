@@ -5,7 +5,7 @@ tags: DockPanel-Suite
 permalink: /dockpanel-suite-theme-reloaded-3bb41273d127
 excerpt_separator: <!--more-->
 ---
-I blogged about DPS theming a few times, aiming to demonstrate how we ported VS2012 Light theme in, how the related API was refactored, and how themes became separate NuGet packages. But I never expected that today I can blog about two new themes and potentially more from you. So let’s get started.
+I blogged about DPS theming a few times, aiming to demonstrate how we ported VS2012 Light theme in, how the related API was refactored, and how themes became separate NuGet packages. But I never expected that today I can blog about two new themes and potentially more from you. So let's get started.
 <!--more-->
 
 # Visual Studio 2010
@@ -29,7 +29,7 @@ When Microsoft initially designed Visual Studio 2012, they came across the idea 
 ![img-description](/images/vs2012-light.png)
 _Figure 3: Visual Studio 2012 Light Theme._
 
-![img-description](/images/vs2012-dark.png)
+![img-description](/images/vs2012-dark.jpg)
 _Figure 4: Visual Studio 2012 Dark Theme._
 
 Surprisingly, the blue theme was added back in a later update, due to community feedback. Color Theme Manager is also updated for VS2012.
@@ -37,7 +37,7 @@ Surprisingly, the blue theme was added back in a later update, due to community 
 # Later Visual Studio Releases
 Visual Studio 2013 and 2015 do ship all three themes by default (Light, Dark, and Blue), and they also have Color Theme Manager extensions.
 
-# DockPanel Suite’s Old Themes
+# DockPanel Suite's Old Themes
 If you are familiar with our previous code base (2.10 for example), you know that we use `DockPanelSkin` to store the colors used in each themes. It was an old design mainly for Visual Studio 2003/2005 themes. So using it to help render Visual Studio 2012 Light and 2013 Blue themes is painful.
 
 # New Theme Design

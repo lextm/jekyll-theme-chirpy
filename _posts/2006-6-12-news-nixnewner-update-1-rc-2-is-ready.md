@@ -14,7 +14,7 @@ Some useful features added.
 
 Some useful features added.
 
-1. Multi-level tree node support is added in Preferences Dialog. However, it is not complete now, so details are not listed in LeXDK Developer’s Guide.
+1. Multi-level tree node support is added in Preferences Dialog. However, it is not complete now, so details are not listed in LeXDK Developer's Guide.
 1. CodeBeautifiers Plus uses this feature first to deliver more options in CB General Page. Currently only SaveBeforeFormat option is available but it is disabled by default. You can turn it on if you are tired of MessageBoxes that warn you to save your file before formatting.
 
    You may notice the codename is changed to JackLife and version number is 5.2 now. More options are coming in this plus.

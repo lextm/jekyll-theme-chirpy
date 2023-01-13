@@ -23,13 +23,13 @@ As a reference at first, there are new methods and properties in OctetString cla
 1. public OctetString(string str). OctetString.DefaultEncoding is used to generate internal bytes from str.
 1. public string ToString(). OctetString.Encoding is used to generate a string from internal bytes.
 
-Now let’s review a few common scenarios and discuss what you may do to customize OctetString’s behaviors.
+Now let's review a few common scenarios and discuss what you may do to customize OctetString's behaviors.
 
 # Default ASCII Way
-If you don’t touch the properties and methods related to Encoding, then you are in a pure ASCII way. It should behaviour the same as old releases of #SNMP (0.5, 1.0 and 1.1).
+If you don't touch the properties and methods related to Encoding, then you are in a pure ASCII way. It should behaviour the same as old releases of #SNMP (0.5, 1.0 and 1.1).
 
 # Default Encoding.* Way
-If you change DefaultEncoding to any other Encoding types, and don’t touch the properties and methods related to Encoding later, you are in a pure Encoding.* way.
+If you change DefaultEncoding to any other Encoding types, and don't touch the properties and methods related to Encoding later, you are in a pure Encoding.* way.
 
 # Basic Hybrid Way
 If some of your devices require ASCII while others require Unicode (aka UTF-16), then you may find it a little bit difficult. My suggestions are,

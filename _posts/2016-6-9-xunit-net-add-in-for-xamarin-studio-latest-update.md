@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 In last post I talked about how I made a fork to support Xamarin Studio 5.x series (as well as MonoDevelop 5.x). It was clearly a milestone, but not good enough as Xamarin Studio 6.x was at the door.
 <!--more-->
 
-So why couldn’t I bring Xamarin Studio 6.x support at that time? The answer is that Xamarin has done too much to make it the best Xamarin Studio release ever, and the heavy refactoring changes how a unit testing add-in like xUnit.NET should connect. I was only able to borrow the NUnit add-in source code once again, but someone else was needed to really make xUnit.NET work.
+So why couldn't I bring Xamarin Studio 6.x support at that time? The answer is that Xamarin has done too much to make it the best Xamarin Studio release ever, and the heavy refactoring changes how a unit testing add-in like xUnit.NET should connect. I was only able to borrow the NUnit add-in source code once again, but someone else was needed to really make xUnit.NET work.
 
 Luckily, it is an open source project, and soon we get the new star to shed some light, and [his GitHub ID is z28wang](https://github.com/z28wang).
 

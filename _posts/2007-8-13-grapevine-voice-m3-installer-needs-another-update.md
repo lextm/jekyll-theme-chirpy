@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 ---
 According to bug report I received today from Dear Tom, I have updated M3 installer on Google Code.
 
-Please first uninstall the ‘old M3’ and install this ‘new M3’ instead.
+Please first uninstall the "old M3" and install this "new M3" instead.
 
 Sorry for the inconvenience.
 

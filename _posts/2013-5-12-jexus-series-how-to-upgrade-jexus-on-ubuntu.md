@@ -22,7 +22,7 @@ Its homepage is at http://www.linuxdot.net/ (in Simplified Chinese).
    tar -zxvf jexus-5.3.1.tar.gz
    ```
 
-   Jexus binary package is downloaded from its official site, and extracted to a folder named “jexus-5.3.1” after this step.
+   Jexus binary package is downloaded from its official site, and extracted to a folder named `jexus-5.3.1` after this step.
 
 1. Stop current Jexus 5.2 server,
 
@@ -40,7 +40,7 @@ Its homepage is at http://www.linuxdot.net/ (in Simplified Chinese).
    sudo ./upgrade
    ```
 
-   Now let’s go back to the extracted folder and upgrade necessary files to /usr/jexus.
+   Now let's go back to the extracted folder and upgrade necessary files to /usr/jexus.
 
 1. Fix startup commands
 
@@ -50,9 +50,9 @@ Its homepage is at http://www.linuxdot.net/ (in Simplified Chinese).
 
    Press i on keyboard to enter edit mode.
 
-   Replace previous start command “/usr/jexus/jws.start” with “/usr/jexus/jws start”.
+   Replace previous start command `/usr/jexus/jws.start` with `/usr/jexus/jws start`.
 
-   Remove “/usr/jexus/state.start” if it presents.
+   Remove `/usr/jexus/state.start` if it presents.
 
    Press Esc on keyboard to exit edit mode.
 

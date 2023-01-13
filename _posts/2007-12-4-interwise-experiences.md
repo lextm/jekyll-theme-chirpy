@@ -5,7 +5,7 @@ tags: Delphi
 permalink: //interwise-experiences-e3a86afe1a25
 excerpt_separator: <!--more-->
 ---
-CodeGear uses Interwise technology to host online live training sessions. I joined one session in September about Delphi for .NET Generics. And just right now I joined Luke Fan’s session on Blackfish.
+CodeGear uses Interwise technology to host online live training sessions. I joined one session in September about Delphi for .NET Generics. And just right now I joined Luke Fan's session on Blackfish.
 
 Have to say the first experience is fine because so many people joined and the topic is hot. However, the second one is not pleasant. Both of Luke and I are in China. Therefore using a North America centric hosting system made the connection so fragile that it broke several times.
 

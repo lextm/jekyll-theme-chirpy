@@ -44,7 +44,7 @@ To upgrade Jexus Manager, the first task is to determine which project files nee
 
 > There is not yet official documentation on how class libraries with WinForms bits should look, so I used the .NET Standard class library template and added the necessary reference,
 > ``` xml
->    <PackageReference Include=”Microsoft.WindowsDesktop.App” Version=”3.0.0-alpha-27128–4" />
+>    <PackageReference Include="Microsoft.WindowsDesktop.App" Version="3.0.0-alpha-27128–4" />
 > ```
 >
 > This brings in all the Windows Forms assemblies.

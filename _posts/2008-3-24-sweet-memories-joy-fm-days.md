@@ -13,11 +13,9 @@ However, the happiness did not last too long. Wuhan Chutian Radio station stoppe
 
 Sometimes I wonder if I never listened to this program, would I fall in love with western pop music? Would I enjoy English learning that much? Would my English be a little bit better than guys around me?
 
-I never wrote a letter to Rick or Jade, because I was always a shy boy. So right now, let me say “THANK YOU” to my dear hosts, who have unexpectedly changed a boy’s life.
+I never wrote a letter to Rick or Jade, because I was always a shy boy. So right now, let me say "THANK YOU" to my dear hosts, who have unexpectedly changed a boy's life.
 
 It is this morning that I suddenly found that this program was cancelled in February 2007. Even though there are archived records of the program, I feel a bit of sad.
 
-According to the old news, Rick joined 21st Century. Is he still there? And where is Jade? Miss the voices already.
-
-http://www.chinamedianews.net/2007/07/evening-radio-host-joins-print.htm
+According to [the old news](http://www.chinamedianews.net/2007/07/evening-radio-host-joins-print.htm), Rick joined 21st Century. Is he still there? And where is Jade? Miss the voices already.
 <!--more-->

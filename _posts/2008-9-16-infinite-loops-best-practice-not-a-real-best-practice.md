@@ -71,6 +71,6 @@ while (!((BackgroundWorker)sender).CancellationPending)
 }
 ```
 
-Oh, isn’t it a wonder? On single core CPUs, this loop falls back to the sleeping only approach, while SpinWait is used to optimize performance on multi-core CPUs.
+Oh, isn't it a wonder? On single core CPUs, this loop falls back to the sleeping only approach, while SpinWait is used to optimize performance on multi-core CPUs.
 
 This composite loop is already available in #SNMP repository.

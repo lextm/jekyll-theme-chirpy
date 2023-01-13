@@ -14,7 +14,7 @@ I chose the easy way to sacrifice certain features. For example, if we disable e
 
 I now happily see the applications run fine on Mono (well, one infinite loop issue needs to be worked around though). So do you plan to use such a lite version?
 
-The lite version of source code is available here, http://code.google.com/p/sharpsnmplib/source/browse/#hg%2FWinFormsUI. You can check out the entire WinFormsUI folder and analyze it to see what changes I’ve made.
+The lite version of source code is available here, http://code.google.com/p/sharpsnmplib/source/browse/#hg%2FWinFormsUI. You can check out the entire WinFormsUI folder and analyze it to see what changes I've made.
 
 ![img-description](/images/dps-mono.png)
 _Figure 1: DockPanel Suite on Mono._

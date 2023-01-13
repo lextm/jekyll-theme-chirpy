@@ -8,8 +8,8 @@ excerpt_separator: <!--more-->
 One reseller of InstallShield strongly recommend me about InstallShield 2008. So why not take a look at it?
 Nice features of InstallShield are,
 
-1. Dialog Preview. When I work in IA, I need to open a dialog to see what it looks like but that’s not yet straight forward. IS generates previews for dialogs so it takes me no time.
-1. ISICE & ISBP. They are additional installer validation rule sets added by InstallShield. I am not sure whether IA contains additional rules except Microsoft’s standard ICE.
+1. Dialog Preview. When I work in IA, I need to open a dialog to see what it looks like but that's not yet straight forward. IS generates previews for dialogs so it takes me no time.
+1. ISICE & ISBP. They are additional installer validation rule sets added by InstallShield. I am not sure whether IA contains additional rules except Microsoft's standard ICE.
 1. RSS feed. Yes, I really want to know why IA does not provide a friendly RSS feed so I can get latest information through Google Reader.
 
 However, after all I prefer InstallAware, because some great features I cannot live without,
@@ -28,7 +28,7 @@ If you want open source alternatives, I strongly recommend you consider WiX or I
 BTW, IMHO there are some not-so-useful features in InstallShield too,
 
 1. Require EULA Reading. I believe most users like me hate this feature so why IS adds this feature to the installers. I can see no value it adds to my installers. But I know somebody likes that.
-1. Visual Studio integration. I’d like to integrate installer creation into continuous integration process but that only requires a command line install script builder. So I really do not think Visual Studio integration is necessary. I enjoy working in InstallAware Studio outside VS because the Ribbon UI is much easier to access than menu and tool bars.
+1. Visual Studio integration. I'd like to integrate installer creation into continuous integration process but that only requires a command line install script builder. So I really do not think Visual Studio integration is necessary. I enjoy working in InstallAware Studio outside VS because the Ribbon UI is much easier to access than menu and tool bars.
 
 (Updated: Christopher Painter dropped a comment here earlier today. He let me know some important logic behind the scene.
 

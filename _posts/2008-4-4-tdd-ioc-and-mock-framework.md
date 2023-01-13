@@ -22,7 +22,7 @@ http://martinfowler.com/articles/injection.html
 
 Now came the Mock Framework. Although there is a lot of mock framework available for NUnit, I just simply picked up NMock (because I admire the ThoughtWorkers). I removed all fake classes I created and initialised a few mock objects instead.
 
-What’s the improvement? Even though a IOTAProject instance is mocked, I used only a few lines,
+What's the improvement? Even though a IOTAProject instance is mocked, I used only a few lines,
 
 ``` csharp
 IOTAProject mockProject = mocks.NewMock();

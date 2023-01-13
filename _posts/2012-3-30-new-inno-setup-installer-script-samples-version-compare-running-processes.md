@@ -21,7 +21,7 @@ https://github.com/lextm/touchmousemate/blob/master/setup/x86/setup.iss
 
 There are two approaches if your product is going to be installed on both 32 bit and 64 bit Windows. You can write a single installer to support both, or write two installers (one for 32 bit and the other for 64 bit).
 
-I don’t like to put all stuffs in one installer as that can make the installer too big (for example, you need to pack both Visual C++ runtime x86 and x64). Therefore, I choose the two installers approach for Touch Mouse Mate.
+I don't like to put all stuffs in one installer as that can make the installer too big (for example, you need to pack both Visual C++ runtime x86 and x64). Therefore, I choose the two installers approach for Touch Mouse Mate.
 
 The following rules are set (avoid possible confusion),
 
@@ -35,7 +35,7 @@ The version comparison code has been updated slightly in the two installer scrip
 
 # psvince.dll 64 Bit
 
-I am not a Visual C++ expert, and I don’t want to waste my time compiling 64 bit psvince.dll from source code. Therefore, I wrote a processviewer.exe command line utility in Delphi (Turbo Delphi 2006) to provide the same functionality.
+I am not a Visual C++ expert, and I don't want to waste my time compiling 64 bit psvince.dll from source code. Therefore, I wrote a processviewer.exe command line utility in Delphi (Turbo Delphi 2006) to provide the same functionality.
 
 However, as this becomes an executable, we have to pack the command line utility and release it to temp folder on demand, which has been demonstrated too in both installer scripts.
 

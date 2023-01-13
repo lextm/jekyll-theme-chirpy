@@ -10,7 +10,7 @@ excerpt_separator: <!--more-->
 I think I have written a few documents and shipped them with CBC 2. However, it should not be enough.
 <!--more-->
 
-What’s the matter? CBC 2 now is a much bigger project than I thought of in the beginning. After BigFace version, it is more than an add in of BDS. I will show you it is also a good base to develop your BDS add in.
+What's the matter? CBC 2 now is a much bigger project than I thought of in the beginning. After BigFace version, it is more than an add in of BDS. I will show you it is also a good base to develop your BDS add in.
 
 In this week I will finish porting C#Builder Goodies to CBC. It is rather easy this time.
 

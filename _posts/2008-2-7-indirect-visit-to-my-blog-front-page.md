@@ -13,6 +13,6 @@ Today luckily I reproduced the page, and here is the tip.
 1. Click the Layout link on Blogger Dashboard.
 1. Click the Preview button.
 
-Then your web browser will lead you to a place whose URL starts with http://www.blogger.com. But it is still your blog front page, isn’t it?
+Then your web browser will lead you to a place whose URL starts with http://www.blogger.com. But it is still your blog front page, isn't it?
 
 In this way I finally can take a look at it at home to see if my customizations lately look fine.

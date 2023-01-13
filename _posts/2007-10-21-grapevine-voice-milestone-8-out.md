@@ -13,7 +13,7 @@ The changes are,
 1. Issue 4 is resolved.
 1. An uninstallation issue is fixed.
 1. InDate count down time is reduced to 3 seconds.
-1. [NDpend’s FileDirectoryPath](http://www.codeplex.com/FileDirectoryPath) library is used to simplify path manipulation.
+1. [NDpend's FileDirectoryPath](http://www.codeplex.com/FileDirectoryPath) library is used to simplify path manipulation.
 
 You can download it from here.
 <!--more-->

@@ -5,7 +5,7 @@ tags: SNMP
 permalink: /a-tip-for-snmpsharpnet-snmp-net-users-6a23a02b71e
 excerpt_separator: <!--more-->
 ---
-Well, I believe you have the habit of reading release notes and pay attention to what was written in SnmpSharpNet’s one.
+Well, I believe you have the habit of reading release notes and pay attention to what was written in SnmpSharpNet's one.
 
 http://www.snmpsharpnet.com/node/57
 

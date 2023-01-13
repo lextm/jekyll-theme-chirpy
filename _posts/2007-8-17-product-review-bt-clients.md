@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 ---
 I used BitComet for years. It runs well on Windows XP. Because it is written in C++ efficiency should be its advantage. However, it fails to run properly on Windows Vista. After so many hangs I gave it up.
 
-Yes, FlashGet may be a new choice but I have experienced some hangs too. As a result, I’d like to try some Java product. Azureus is what I am using now.
+Yes, FlashGet may be a new choice but I have experienced some hangs too. As a result, I'd like to try some Java product. Azureus is what I am using now.
 
 The first look at Azureus is amazing. The UI is much more beautiful than BitComet. The performance is also great. No hangs occur any more.
 

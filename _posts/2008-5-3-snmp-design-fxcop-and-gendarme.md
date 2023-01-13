@@ -14,6 +14,6 @@ Then when I ran through Mono, I met Gendarme. I thought it was not that useful u
 
 The only issue is that Gendarme does not officially support Windows. The snapshot installer here has a small bug so you can not run the executables on Windows. I have just created a patch for the console application here.
 
-I think Mono is a nice project. If Microsoft don’t like to open source FxCop in the future, I believe I will use Gendarme more often.
+I think Mono is a nice project. If Microsoft don't like to open source FxCop in the future, I believe I will use Gendarme more often.
 
 So why I write so much about these two? Today, I finally have time to clean up #SNMP 0.5 code base and the result is all critical issues reported by FxCop and Gendarme are fixed well.

@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 This is an urgent notice to my dear users of Code Beautifier Collection 6.0 M5. It seems that there is something changed in ToolsAPI so a new bug is found in M5. The details are described in this report.
 <!--more-->
 
-I have already reproduced this bug and started to see what’s wrong inside. I am not sure whether it can be solved in a week, so please follow the workaround I provided in the reply to that report and turn off TypingSpeeder feature.
+I have already reproduced this bug and started to see what's wrong inside. I am not sure whether it can be solved in a week, so please follow the workaround I provided in the reply to that report and turn off TypingSpeeder feature.
 
 Sorry for the inconvenience. Stay tuned.
 

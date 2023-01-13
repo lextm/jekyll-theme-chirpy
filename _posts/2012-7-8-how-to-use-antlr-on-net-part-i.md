@@ -14,7 +14,7 @@ Start from ANTLR on Java
 
 ANTLR is an open source parser/compiler generator. By providing grammar files (.g) to it as input, it can output compiler source code in your preference (Java, C#, and so on). Its homepage is at http://www.antlr.org/.
 
-You might take a look at the sample grammar files here, http://www.antlr.org/grammar/list. Don’t panic if you find the syntax hard to learn, as bit by bit you will get familiar with it.
+You might take a look at the sample grammar files here, http://www.antlr.org/grammar/list. Don't panic if you find the syntax hard to learn, as bit by bit you will get familiar with it.
 
 OK. Though this series focus on how to use ANTLR 3 on .NET, please make sure you get familiar with how to use it on Java first (ANTLR is built on Java primarily). The best guide I found is the video clips here, http://javadude.com/articles/antlr3xtut/. The clips are hosted on Vimeo.
 

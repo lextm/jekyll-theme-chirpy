@@ -20,7 +20,7 @@ In this part, I am going to tell how to do it at home with the following compone
 
 # VM Setup
 
-Modify Ubuntu VM network adapter settings. Change the adapter from NAT to Host Interface. Please notice that “VirtualBox Host Interface 1” should be used.
+Modify Ubuntu VM network adapter settings. Change the adapter from NAT to Host Interface. Please notice that "VirtualBox Host Interface 1" should be used.
 
 If there is no name listed under Interface Name, please create a new interface in Host Interface group.
 
@@ -40,13 +40,13 @@ http://forums.virtualbox.org/viewtopic.php?t=4580&highlight=samba+ubuntu
 
 # Guest Setup
 
-Now let’s move to Ubuntu. Open Administration | Network and there should be one Wired connection there.
+Now let's move to Ubuntu. Open Administration | Network and there should be one Wired connection there.
 
 Change the settings like this,
 
 Please restart Ubuntu in order to activate the settings.
 
-Then, open Administration | Shared to configure Samba. It is weird that Ubuntu guys use the title “Shared Folders” here, while Fedora guys directly use Samba title.
+Then, open Administration | Shared to configure Samba. It is weird that Ubuntu guys use the title "Shared Folders" here, while Fedora guys directly use Samba title.
 
 In Fedora it is quite easy to configure one more setting, the users. However, Ubuntu does not provide a dialogue. Thus, according to this help, command line is unavoidable,
 
@@ -60,18 +60,18 @@ Retype new SMB password:
 Added user username.
 ```
 
-I use user name “lextm” and “123456”.
+I use user name `lextm` and `123456`.
 
 # Test
 
-Now let’s launch a command prompt on host and type in,
+Now let's launch a command prompt on host and type in,
 
 ``` bash
 ping 192.168.1.31
 ```
 
-Then you can map a network drive “\\192.168.1.31\lextm”.
+Then you can map a network drive `\\192.168.1.31\lextm`.
 
-When Windows asks for user name and password, use “MSHOME\lextm” and “123456”.
+When Windows asks for user name and password, use `MSHOME\lextm` and `123456`.
 
 OK. Wish you could configure everything right now. If you meet any issue, please leave a comment.

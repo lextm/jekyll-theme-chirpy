@@ -9,7 +9,7 @@ Recently I decided to hack on xbuild. But soon I found it was not easy to set up
 <!--more-->
 
 # Windows box with Mono
-It is possible to build a Windows box and then install Mono on it. But Mono’s Windows installer already contains a build of xbuild. Besides, the most difficult part is that under that scenario, there is not feasible IDE to speed up hacking.
+It is possible to build a Windows box and then install Mono on it. But Mono's Windows installer already contains a build of xbuild. Besides, the most difficult part is that under that scenario, there is not feasible IDE to speed up hacking.
 
 I did find a way to compile MonoDevelop source code on a Windows with .NET 4 (please avoid .NET 4.5 on the build machine), and then copy the binaries to the Windows with Mono box. However, there are various issues arising when MonoDevelop is hosted by Mono on Windows (miserable hang and crash). I guess nobody ever tries this combination seriously, so those issues are never reported or fixed.
 
@@ -30,7 +30,7 @@ and then I remove xbuild and its components by executing
 sudo rpm -e — nodeps mono-devel
 ```
 
-This is why I love openSUSE’s Mono packages, as mono-devel contains all xbuild related bits. However, even after removing it, MonoDevelop works fine (well, I could not enable xbuild integration inside MD then).
+This is why I love openSUSE's Mono packages, as mono-devel contains all xbuild related bits. However, even after removing it, MonoDevelop works fine (well, I could not enable xbuild integration inside MD then).
 
 (Updated: it is unnecessary to remove mono-devel, so the above step is deleted.)
 

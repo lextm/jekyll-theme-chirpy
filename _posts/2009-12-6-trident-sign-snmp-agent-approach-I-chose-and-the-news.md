@@ -16,6 +16,6 @@ If you take a look at SnmpApplication, SnmpContext, IMembershipProvider, IMessag
 
 Then how to shape this TestAgent (snmpd) to suit your need? You can write your own membership provider to authenticate requests, and write your own message handlers to handle SNMP messages. Also you can implement more objects and store them in the object store. The store is really rough at this moment, but we can make it better in the future.
 
-That’s all I can write up-to-now, because after the Oct 1st release of #SNMP Suite 3.1, we really come across a lot of new things. I did not yet have anything important to write about the compiler yet, and hope this agent project can attract your attention.
+That's all I can write up-to-now, because after the Oct 1st release of #SNMP Suite 3.1, we really come across a lot of new things. I did not yet have anything important to write about the compiler yet, and hope this agent project can attract your attention.
 
 Please feel free to let me know how you think about the future of #SNMP, I did not yet have a detailed plan for 4.0 release finalized. We still have time to investigate in this field, so stay tuned.

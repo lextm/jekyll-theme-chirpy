@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Visual Studio Team Explorer: Don’t Make The Mistake Again"
+title: "Visual Studio Team Explorer: Don't Make The Mistake Again"
 tags: Visual-Studio
 permalink: /visual-studio-team-explorer-dont-make-the-mistake-again-3273c5621b82
 excerpt_separator: <!--more-->

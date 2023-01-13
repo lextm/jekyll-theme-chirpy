@@ -5,7 +5,7 @@ tags: SNMP
 permalink: /snmp-design-must-be-tdd-8223de32099f
 excerpt_separator: <!--more-->
 ---
-I never knew I could deliver a TDD project before I finished reading Kent Beck’s book. However, I was wrong.
+I never knew I could deliver a TDD project before I finished reading Kent Beck's book. However, I was wrong.
 
 In fact, TDD is easy.
 <!--more-->
@@ -14,7 +14,7 @@ In the past few months, with the help of ReSharper and NUnit, I had successfully
 
 Now from #SNMP on, I think I have a good reason to start any projects with TDD in mind. Why? With my code tested, I have more confident than ever.
 
-I wish I could finish reading Kent’s book soon, because I am still not sure how to improve my TDD knowledge. I believe there are still things I miss.
+I wish I could finish reading Kent's book soon, because I am still not sure how to improve my TDD knowledge. I believe there are still things I miss.
 
 And surely I keep hard working on #SNMP, as it is a nice place to practice the knowledge.
 

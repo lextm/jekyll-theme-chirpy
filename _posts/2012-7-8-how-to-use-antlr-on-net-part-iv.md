@@ -53,7 +53,7 @@ Finally SmiParser class can be used in other projects to parse SMI/MIB files.
 
 # (Updated) Tip 4: Exception Handling Extra
 
-ANTLR 3 has built-in support for token recovery which might generate error node and attach them to the final AST. Such recovered errors won’t be caught even if we apply Tip 2.
+ANTLR 3 has built-in support for token recovery which might generate error node and attach them to the final AST. Such recovered errors won't be caught even if we apply Tip 2.
 
 The proper way to turn off error node construction is mentioned in this article,
 
@@ -63,6 +63,6 @@ https://theantlrguy.atlassian.net/wiki/display/ANTLR3/Tree+construction
 * Override ErrorNode method and return null.
 * Set TreeAdaptor property of your generated parser class to a new instance of the derived class.
 
-Sadly I don’t have any sample code for this newly added tip.
+Sadly I don't have any sample code for this newly added tip.
 
 In next post, I am going to discuss the tips on debugging. Stay tuned.

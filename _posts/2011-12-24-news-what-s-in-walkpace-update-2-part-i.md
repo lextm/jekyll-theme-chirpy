@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "News! What’s in WalkPace Update 2 (Part I)"
+title: "News! What's in WalkPace Update 2 (Part I)"
 tags: Code-Beautifier-Collection Delphi
 permalink: /news-whats-in-walkpace-update-2-part-i-e1958b8a824e
 excerpt_separator: <!--more-->

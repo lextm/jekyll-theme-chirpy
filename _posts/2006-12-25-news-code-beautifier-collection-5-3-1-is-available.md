@@ -9,19 +9,19 @@ excerpt_separator: <!--more-->
 
 Hi, friends. I am glad to announce the availability of Code Beautifier Collection 5.3.1.
 
-Merry X’mas and happy new year.
+Merry X'mas and happy new year.
 <!--more-->
 
-# What’s the new version?
+# What's the new version?
 
 This version is titled HardQuery R2 Update 1. The version number is 5.3.1.1124.
 
-# What’s new in this version?
+# What's new in this version?
 
 There are about ten main changes:
 
 1. \+ Add Lextm Logging Service based on log4net.
-1. - MarcClifton’s Debug unit is removed.
+1. - MarcClifton's Debug unit is removed.
 1. \* NDoc project is replaced by a Sandcastle project.
 1. \* JCF 2.25 is used.
 1. \+ An easter egg is added.

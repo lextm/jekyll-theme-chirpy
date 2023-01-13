@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Update on Crad’s ActionList 1.2"
+title: "Update on Crad's ActionList 1.2"
 tags: .NET
 permalink: /update-on-crads-actionlist-1-2-1300b9afbd18
 excerpt_separator: <!--more-->
 ---
-You probably know that except working on #SNMP and DockPanel Suite, I am also [maintaining Crad’s ActionList](/packaging-crads-actionlist-for-net-via-nuget-5c72e77ece94).
+You probably know that except working on #SNMP and DockPanel Suite, I am also [maintaining Crad's ActionList](/packaging-crads-actionlist-for-net-via-nuget-5c72e77ece94).
 
 Today, I am happy to announce the availability of its 1.2 release. [The NuGet package](https://nuget.org/packages/ActionListWinForms/1.2.0.0) can be found here along with its release notes.
 <!--more-->

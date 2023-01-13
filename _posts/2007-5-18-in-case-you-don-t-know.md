@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "In Case You Don’t Know"
+title: "In Case You Don't Know"
 tags: .NET Visual-Studio
 permalink: /in-case-you-dont-know-b5b8846541df
 excerpt_separator: <!--more-->

@@ -18,7 +18,7 @@ Visual Studio 2012 Light theme can be seen as one of the biggest features we wil
 # Initial Patches Received at GitHub
 8 months ago @wvdvegt posted an issue on GitHub asking whether anyone has a new skin for DPS. At that time, both Ryan and I were busy working on other tasks, so we could not spare time on this specific one.
 
-3 months ago, we suddenly received a lot of patches from another guy (I don’t want to name him/her and you will see why). I was really interested in the patches, as they look fantastic and we could finally turn DPS to look modern and awesome.
+3 months ago, we suddenly received a lot of patches from another guy (I don't want to name him/her and you will see why). I was really interested in the patches, as they look fantastic and we could finally turn DPS to look modern and awesome.
 
 Well, it is strange that when we tried to discuss with the submitter so as to better understand the patches, he/she no longer replied. We were able to work with other contributors in the past and we appreciated those valuable conversations, but this time was really unexpected.
 
@@ -50,9 +50,9 @@ and got a reply as below,
 
 > Hi Lex,
 >
-> I’m not the owner of `https://github.com/******`?
+> I'm not the owner of `https://github.com/******`?
 >
-> My project at Codeplex is thought to implement only VS2012 visual style for DockPanel. However it doesn’t incorporate the latest changes form https://github.com/dockpanelsuite/dockpanelsuite.
+> My project at Codeplex is thought to implement only VS2012 visual style for DockPanel. However it doesn't incorporate the latest changes form https://github.com/dockpanelsuite/dockpanelsuite.
 >
 > Greetings,\
 > Kamen
@@ -79,9 +79,9 @@ Of course, Kamen kindly replied again,
 
 > Hi Lex,
 >
-> I’ve looked at the code of development_3.0 branch. It is definitely my code. You have done a good job integrating it, and creating a new theme files. I have noticed that you have not ported the colors of the theme as they were, may be to prevent from hardcoding them. The whole theme now looks “lightgrey” without the typical blue for VS2012. If that was your intention, it is fine for me.
+> I've looked at the code of development_3.0 branch. It is definitely my code. You have done a good job integrating it, and creating a new theme files. I have noticed that you have not ported the colors of the theme as they were, may be to prevent from hardcoding them. The whole theme now looks "lightgrey" without the typical blue for VS2012. If that was your intention, it is fine for me.
 >
-> Another issue is inherited from my code, and i could not fix it till now, so I’ve filed an issue report at the GIT hub (https://github.com/dockpanelsuite/dockpanelsuite/issues/124).
+> Another issue is inherited from my code, and i could not fix it till now, so I've filed an issue report at the GIT hub (https://github.com/dockpanelsuite/dockpanelsuite/issues/124).
 >
 > Greetings,\
 > Kamen
@@ -98,7 +98,7 @@ Well, I did not expect that in such a short period of time I finished the last i
 
 It was more than 2 years ago that a guy (paralleloeter) [posted on SF.net his patches](http://sourceforge.net/p/dockpanelsuite/discussion/402316/thread/c45070d3) for DPS to add close button on tabs.
 
-Well, that patch was not accepted by the coordinator Steve Overton, because DPS only had VS 2003/2005 themes then. I support Steve’s decision, as it really looks weird to have close button on tabs.
+Well, that patch was not accepted by the coordinator Steve Overton, because DPS only had VS 2003/2005 themes then. I support Steve's decision, as it really looks weird to have close button on tabs.
 
 However, Microsoft seems to choose such a design in Visual Studio 2010/2012, so to finish a complete VS 2012 theme, we will have to revisit this patch.
 

@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "What You Should Say About Performance Issues Instead of “I Feel It Slow”"
+title: "What You Should Say About Performance Issues Instead of 'I Feel It Slow'"
 tags: IIS
 permalink: /what-you-should-say-about-performance-issues-instead-of-i-feel-it-slow-313b0e871aad
 excerpt_separator: <!--more-->
 ---
-It is very often that we see people describe performance issues they meet with similar phrases such as “I feel it slow”. Well, this is rather a bad way to discuss with others about web site performance. Then what should we do when a performance issue occurs? At least you should do the following.
+It is very often that we see people describe performance issues they meet with similar phrases such as "I feel it slow". Well, this is rather a bad way to discuss with others about web site performance. Then what should we do when a performance issue occurs? At least you should do the following.
 <!--more-->
 
 # The Measurement
@@ -32,4 +32,4 @@ The most difficult case is that when you find the time spent on the wire is sign
 
 # Conclusion
 
-Let it be short so that next time you won’t depend on your feeling. To begin discussion on a performance issue, please collect proper data first. Thanks.
+Let it be short so that next time you won't depend on your feeling. To begin discussion on a performance issue, please collect proper data first. Thanks.

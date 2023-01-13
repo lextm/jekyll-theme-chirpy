@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 ---
 Code Central is where most Delphi and C++Builder guys publish their creations. You can also find my items there.
 
-I have to mention that if you do not update your item frequently, it will disappear soon from Recent Uploads list. That’s why I keep updating CBC new versions there.
+I have to mention that if you do not update your item frequently, it will disappear soon from Recent Uploads list. That's why I keep updating CBC new versions there.
 
 And what is interesting is that CodeGear starts to publish its old products and documents there in the latest months. As a result, I have to fight with CodeGear items for the first time. (Yes, it is fun.)
 

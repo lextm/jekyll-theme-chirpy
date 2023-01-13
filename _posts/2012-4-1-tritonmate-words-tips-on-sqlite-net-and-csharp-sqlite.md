@@ -16,7 +16,7 @@ I have evaluated several open source databases, and it seems that SQLite is the 
 
 have too many features (which may not be useful for #SNMP)
 have dependency on the native SQLite driver (sqlite3.dll), which I hate a lot.
-#SNMP MIB Compiler is good at portable deployment. Currently, this compiler application can be zipped up and deployed because it is purely .NET. I don’t want to lose this nice feature due to migration to SQLite.
+#SNMP MIB Compiler is good at portable deployment. Currently, this compiler application can be zipped up and deployed because it is purely .NET. I don't want to lose this nice feature due to migration to SQLite.
 
 # New Hope
 
@@ -24,9 +24,7 @@ Because of Xamarin, I started to pay more attention to all information demonstra
 
 http://xamarin.com/seminars
 
-And I just watched this one called “Third Party Libraries with MonoTouch and Mono for Android”, and came across sqlite-net for the first time.
-
-http://code.google.com/p/sqlite-net/
+And I just watched this one called "Third Party Libraries with MonoTouch and Mono for Android", and came across [sqlite-net](http://code.google.com/p/sqlite-net/) for the first time.
 
 I was happy that sqlite-net is one step closer to my goal, as it is a simple wrapper over sqlite3.dll, which provides very easy to learn ORM API.
 
@@ -40,6 +38,6 @@ https://github.com/praeclarum/sqlite-net/pull/29
 
 Now the deployment problem is resolved :), since csharp-sqlite is a C# port of SQLite (rewritten from native to C#).
 
-Though I have been busy with Touch Mouse Mate in the past few weeks, mates, please don’t worry. I was still watching out for #SNMP, and will focus on it more in the coming weeks.
+Though I have been busy with Touch Mouse Mate in the past few weeks, mates, please don't worry. I was still watching out for #SNMP, and will focus on it more in the coming weeks.
 
 Stay tuned.

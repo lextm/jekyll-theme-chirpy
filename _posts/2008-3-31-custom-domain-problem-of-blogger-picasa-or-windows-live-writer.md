@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 ---
 I have been using Windows Live Writer with Blogger. Therefore, all images are uploaded to my Picasa Web Albums.
 
-Then comes this problem. When I configure my blog to use my custom domain, all images are lost. OMG, that’s terrible.
+Then comes this problem. When I configure my blog to use my custom domain, all images are lost. OMG, that's terrible.
 
 OK. I give it up. Now when you navigate to http://lextm.cn or http://www.lextm.cn you will be redirected to http://lextm.blogspot.com so as to see all images I posted.
 

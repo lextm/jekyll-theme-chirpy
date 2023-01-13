@@ -17,7 +17,7 @@ I have been using Inno Setup for a long time. Generally speaking, with help of P
 However, it is not yet a perfect solution too. Its main disadvantages are,
 
 1. Inno Setup installers are Microsoft standard compliant. You should create MSI installers in order to pass the certifications.
-1. Inno Setup does not provide a powerful wizard to guide newbies. The learning curve is tough. That’s why I spent so much time learning it.
+1. Inno Setup does not provide a powerful wizard to guide newbies. The learning curve is tough. That's why I spent so much time learning it.
 1. Pascal Script authoring is really hard and sometimes error prone. Usually I wrote the script in Delphi, test it and then copy back to Inno script file.
 
 # InstallAware Studio

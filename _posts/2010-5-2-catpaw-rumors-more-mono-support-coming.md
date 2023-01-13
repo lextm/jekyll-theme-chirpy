@@ -14,8 +14,8 @@ That was what I achieved last night. I removed nearly all Win32 PInvoke from DPS
 
 This can be an interesting way to go Mono. But more Mono issues/bugs arise and I fought hard to find workarounds. Well, I must say the final result is promising that we bring as many features to Mono as possible now, but both the tools look poor.
 
-More bug reports are now fired to Mono team, and hope they can provide fixes soon (before we ship 5.0 final is preferred, but I know that’s hard).
+More bug reports are now fired to Mono team, and hope they can provide fixes soon (before we ship 5.0 final is preferred, but I know that's hard).
 
-Why complaining that Mono is not mature enough as a deployment platform? If you don’t report issues, how can Mono guys fix them? Go! Mono.
+Why complaining that Mono is not mature enough as a deployment platform? If you don't report issues, how can Mono guys fix them? Go! Mono.
 
 Stay tuned.

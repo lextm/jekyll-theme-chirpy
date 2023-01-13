@@ -6,7 +6,7 @@ permalink: /safari-on-windows-free-and-easy-1f36a1b58e08
 excerpt_separator: <!--more-->
 ---
 
-Do you know Safari? Apple’s web browser for Mac OS. And now, it can be installed on Windows.
+Do you know Safari? Apple's web browser for Mac OS. And now, it can be installed on Windows.
 
 http://www.apple.com/safari/download/
 

@@ -26,7 +26,7 @@ You can see a lot of highlighted areas, because
 # New Core Public Types
 
 ``` sql
-SELECT TYPES FROM ASSEMBLIES “SharpSnmpLib”,”SharpSnmpLib.Controls”, “SharpSnmpLib.Mib”
+SELECT TYPES FROM ASSEMBLIES "SharpSnmpLib","SharpSnmpLib.Controls", "SharpSnmpLib.Mib"
 WHERE IsPublic AND WasAdded
 ```
 

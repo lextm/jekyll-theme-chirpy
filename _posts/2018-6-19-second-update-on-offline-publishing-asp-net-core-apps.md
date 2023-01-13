@@ -54,6 +54,6 @@ You should notice that even if the ASP.NET Core MVC sample was created in 2.0 ti
 > — — — — — —
 > Successfully installed the ASP.NET Core HTTPS Development Certificate.
 >
-> To trust the certificate run ‘dotnet dev-certs https — trust’ (Windows and macOS only). For establishing trust on other platforms refer to the platform specific documentation.
+> To trust the certificate run `dotnet dev-certs https — trust` (Windows and macOS only). For establishing trust on other platforms refer to the platform specific documentation.
 >
 > For more information on configuring HTTPS see https://go.microsoft.com/fwlink/?linkid=848054.

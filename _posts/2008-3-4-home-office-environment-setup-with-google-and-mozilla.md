@@ -10,7 +10,7 @@ I want to enjoy both email and calendar services at home as well as at office. H
 
 # Email Service
 
-Let’s start with Mozilla Thunderbird and Gmail for email service. Gmail is free, so why not sign it up? If you need an invitation, leave a comment and I can invite you. Then please read Gmail help on IMAP settings and follow the measures to set up Thunderbird for your Gmail account.
+Let's start with Mozilla Thunderbird and Gmail for email service. Gmail is free, so why not sign it up? If you need an invitation, leave a comment and I can invite you. Then please read Gmail help on IMAP settings and follow the measures to set up Thunderbird for your Gmail account.
 
 I have been using Thunderbird for years and I love it so much.
 
@@ -20,12 +20,12 @@ Google Calendar is a more open and convenient service compared to Microsoft Exch
 
 Then please download and install both Lightning and Provider for Google Calendar. At last follow the instructions here so as to subscribe to your Google Calendar inside Thunderbird.
 
-# What’s Missing Here
+# What's Missing Here
 
 I am sure that some readers here may never use Thunderbird before. I did omit a few details and if you are familiar with Thunderbird, you know them already. They are,
 
 * How to download and install Thunderbird. The process is quite natural and easy, so please get your hands wet.
-* How to install Thunderbird Addons. The process is not that straight forward but you can ask Google for answers, isn’t it?
+* How to install Thunderbird Addons. The process is not that straight forward but you can ask Google for answers, isn't it?
 
 Finally I have this post completed, and wish you enjoy reading it.
 

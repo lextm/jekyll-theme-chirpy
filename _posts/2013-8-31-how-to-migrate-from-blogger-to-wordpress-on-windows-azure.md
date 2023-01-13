@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 ---
 I used to use a Chinese blogging service called CSDN. As it is a closed system which has no open API I experienced difficulties migrating my posts from it to Blogger.
 
-Recently I finally get tired of Blogger too, due to its service unavailable in China Mainland (not Google’s fault though). So this time I decided to try out Windows Azure and WordPress.
+Recently I finally get tired of Blogger too, due to its service unavailable in China Mainland (not Google's fault though). So this time I decided to try out Windows Azure and WordPress.
 <!--more-->
 
 # MySQL Hosting on Windows Azure Virtual Machine
@@ -47,16 +47,16 @@ What we are going to modify are,
 ``` php
 // ** MySQL settings — You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define(‘DB_NAME’, ‘************’);
+define('DB_NAME', '************');
 
 /** MySQL database username */
-define(‘DB_USER’, ‘**********’);
+define('DB_USER', '**********');
 
 /** MySQL database password */
-define(‘DB_PASSWORD’, ‘*******’);
+define('DB_PASSWORD', '*******');
 
 /** MySQL hostname */
-define(‘DB_HOST’, ‘**************’);
+define('DB_HOST', '**************');
 ```
 
 The information we write down for MySQL hosting should be now filled in to replace the existing values.
@@ -92,28 +92,28 @@ A portion of my file looks like this,
     <system.webServer>
         <rewrite>
             <rewriteMaps>
-                <rewriteMap name=”famous”>
-                    <add key=”/2012/07/if-you-cannot-installuninstall-iis-7.html” value=”/2012/07/if-you-cannot-installuninstall-iis-7-part-ii/” />
-                    <add key=”/2011/02/if-you-cannot-installuninstall-iis-7.html” value=”/2011/02/if-you-cannot-installuninstall-iis-7/” />
-                    <add key=”/2013/03/dockpanel-suite-how-to-write-new-theme.html” value=”/2013/03/dockpanel-suite-how-to-write-a-new-theme/” />
-                    <add key=”/2007/09/inno-setup-script-sample-for-version.html” value=”/2007/09/inno-setup-script-sample-for-version-comparison-advanced-version/” />
-                    <add key=”/2007/09/product-review-installshield-2008.html” value=”/2007/09/product-review-installshield-2008/” />
-                    <add key=”/2009/05/trident-sign-snmp-v3-packet-format.html” value=”/2009/05/trident-sign-snmp-v3-packet-format/” />
+                <rewriteMap name="famous">
+                    <add key="/2012/07/if-you-cannot-installuninstall-iis-7.html" value="/2012/07/if-you-cannot-installuninstall-iis-7-part-ii/" />
+                    <add key="/2011/02/if-you-cannot-installuninstall-iis-7.html" value="/2011/02/if-you-cannot-installuninstall-iis-7/" />
+                    <add key="/2013/03/dockpanel-suite-how-to-write-new-theme.html" value="/2013/03/dockpanel-suite-how-to-write-a-new-theme/" />
+                    <add key="/2007/09/inno-setup-script-sample-for-version.html" value="/2007/09/inno-setup-script-sample-for-version-comparison-advanced-version/" />
+                    <add key="/2007/09/product-review-installshield-2008.html" value="/2007/09/product-review-installshield-2008/" />
+                    <add key="/2009/05/trident-sign-snmp-v3-packet-format.html" value="/2009/05/trident-sign-snmp-v3-packet-format/" />
                 </rewriteMap>
             </rewriteMaps>
             <rules>
-                <rule name=”Rewrite rule1 for famous” stopProcessing=”true”>
-                    <match url=”.*” />
+                <rule name="Rewrite rule1 for famous" stopProcessing="true">
+                    <match url=".*" />
                     <conditions>
-                      <add input=”{famous:{REQUEST_URI}}” pattern=”(.+)” />
+                      <add input="{famous:{REQUEST_URI}}" pattern="(.+)" />
                     </conditions>
-                    <action type=”Redirect” url=”{C:1}” appendQueryString=”false” />
+                    <action type="Redirect" url="{C:1}" appendQueryString="false" />
                 </rule>
             </rules>
         </rewrite>
         <httpErrors>
-            <remove statusCode=”404" subStatusCode=”-1" />
-            <error statusCode=”404" prefixLanguageFilePath=”” path=”/index.php?error=404" responseMode=”ExecuteURL” />
+            <remove statusCode="404" subStatusCode="-1" />
+            <error statusCode="404" prefixLanguageFilePath="" path="/index.php?error=404" responseMode="ExecuteURL" />
         </httpErrors>
     </system.webServer>
 </configuration>
@@ -136,10 +136,10 @@ There is no built-in way to redirect traffic from http://lextm.blogspot.com to h
 1. Paste the below script fragment,
 
 ``` html
-<script type=’text/javascript’>
+<script type='text/javascript'>
 function redirectHttpToHttps()
 {
-    var newUrl = “http://www.lextm.com" + window.location.pathname + window.location.search;
+    var newUrl = "http://www.lextm.com" + window.location.pathname + window.location.search;
     window.location.href = newUrl;
 }
 redirectHttpToHttps();

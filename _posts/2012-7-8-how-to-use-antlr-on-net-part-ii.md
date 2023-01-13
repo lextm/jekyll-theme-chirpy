@@ -37,7 +37,7 @@ Then in my C# project I can add references to the dlls, and consume Antlr3.targe
 
 # JDK and ANTLRWorks (optional but recommended)
 
-If you haven’t watched the video clips I mentioned in part I, please watch them before moving on. If you have watched, I assume you have downloaded and installed JDK from Oracle, and have ANTLRWorks somewhere on your system,
+If you haven't watched the video clips I mentioned in part I, please watch them before moving on. If you have watched, I assume you have downloaded and installed JDK from Oracle, and have ANTLRWorks somewhere on your system,
 
 http://antlr.org/download.html
 

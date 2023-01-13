@@ -32,7 +32,7 @@ However, this means there will be a few more panels and menu items added to the 
 
 I was interested in Plan B at first, and that is why you can add and delete MIB documents from the current MIB browser.
 
-But Plan A sounds better, because Steve is willing to maintain and improve the browser. I don’t want him or myself to waste time on merging changes from both of us simply because of WinForms.
+But Plan A sounds better, because Steve is willing to maintain and improve the browser. I don't want him or myself to waste time on merging changes from both of us simply because of WinForms.
 
 Therefore, now I am going to create a new project file in #SNMP Suite, named #SNMP MIB Compiler following Plan A. This GUI compiler will also use DockPanel Suite to host panels.
 

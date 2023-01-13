@@ -5,7 +5,7 @@ tags: reStructuredText
 permalink: /update-on-restructuredtext-and-visual-studio-code-1b23916c4c0f
 excerpt_separator: <!--more-->
 ---
-When I started the reStructuredText extension for Visual Studio Code in Nov 2015, I wasn’t expect it to be a hot extension in the gallery. But even without an ambition, now it serves >1,700 users, so time to make it better.
+When I started the reStructuredText extension for Visual Studio Code in Nov 2015, I wasn't expect it to be a hot extension in the gallery. But even without an ambition, now it serves >1,700 users, so time to make it better.
 <!--more-->
 
 Interestingly that more people enter the arena with their reStructuredText extension, like [this one](https://github.com/tht13/RST-vscode) starting in Feb 2016, and [this one](https://github.com/searKing/preview-vscode) adding reStructuredText support in Jun 2016.

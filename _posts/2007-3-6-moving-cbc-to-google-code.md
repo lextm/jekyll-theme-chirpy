@@ -14,6 +14,6 @@ Now, it seems that both HTTP and HTTPS links are available on GForge, but I have
 
 I have already moved Alex to CodePlex.com, and see some limitation there. Any downloads from CodePlex.com should be triggered by the browser because you have to accept the license. In this way, InDate cannot be easily programmed.
 
-Two days ago, I saw a project named emacspeak on Google Code. At that moment, I saw Google’s service quite promising. As a result, now I register a project there. When I finish the moving, I will post here again.
+Two days ago, I saw a project named emacspeak on Google Code. At that moment, I saw Google's service quite promising. As a result, now I register a project there. When I finish the moving, I will post here again.
 
 Stay tuned.

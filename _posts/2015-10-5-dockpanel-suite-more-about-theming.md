@@ -18,11 +18,11 @@ The changes are now in a separate branch for incubation. More details can be fou
 
 # VS 2012 Dark Theme from Various Sources
 
-I knew DPS has been forked multiple times already, but never realized so many people are interested in the dark theme. But now we can find three different forks containing dark themes. I didn’t have time to evaluate their completeness, but created an task to track down their progress in the future. More details can be found in [#317](https://github.com/dockpanelsuite/dockpanelsuite/issues/317).
+I knew DPS has been forked multiple times already, but never realized so many people are interested in the dark theme. But now we can find three different forks containing dark themes. I didn't have time to evaluate their completeness, but created an task to track down their progress in the future. More details can be found in [#317](https://github.com/dockpanelsuite/dockpanelsuite/issues/317).
 
 # Themes in Separate Assemblies
 
-Probably this is not about a new theme, but it is about how new themes can be developed and distributed in the future, so let’s see how it works.
+Probably this is not about a new theme, but it is about how new themes can be developed and distributed in the future, so let's see how it works.
 
 In the past, all themes are shipped in the main assembly of DPS. This design has a few limitations,
 

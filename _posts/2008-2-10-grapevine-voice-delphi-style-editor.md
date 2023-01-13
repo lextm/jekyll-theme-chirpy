@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 ---
 > This is a post in the 6.0 New Features series, to promote my open source project.
 
-When I published 6.0 on CodeGear Code Central, I put “Customize Your Unique Style” in the title. That is because from this version on, Delphi developers can customize coding style in CBC.
+When I published 6.0 on CodeGear Code Central, I put "Customize Your Unique Style" in the title. That is because from this version on, Delphi developers can customize coding style in CBC.
 <!--more-->
 
 1. Click LeXtudio | Options | Preferences to launch this dialogue.

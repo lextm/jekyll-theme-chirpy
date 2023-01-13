@@ -5,7 +5,7 @@ tags: Windows
 permalink: /how-i-got-start-menu-back-in-windows-8-with-free-stuffs-b1a6f0d84a53
 excerpt_separator: <!--more-->
 ---
-I played with Stardock’s Start8 since its initial release, but since Stardock would like to make some fortune from this useful tool and I did not plan to pay, I have been searching for a free alternative for a while. Today I think I have found the last piece, so here comes a blog post that covers my findings.
+I played with Stardock's Start8 since its initial release, but since Stardock would like to make some fortune from this useful tool and I did not plan to pay, I have been searching for a free alternative for a while. Today I think I have found the last piece, so here comes a blog post that covers my findings.
 <!--more-->
 
 # Classic Shell
@@ -26,7 +26,7 @@ Now you can click on the start button and check out how the start menu looks lik
 
 # Removing Metro Applications
 
-Right click on the start button and choose Exit menu item. It’s time to go back to Metro and remove applications that might pull you out of the desktop. Below is a list of apps I removed,
+Right click on the start button and choose Exit menu item. It's time to go back to Metro and remove applications that might pull you out of the desktop. Below is a list of apps I removed,
 
 * Picture
 * Messenger
@@ -35,7 +35,7 @@ Right click on the start button and choose Exit menu item. It’s time to go bac
 * Video
 * and many others
 
-Now let’s go back to C:\Program Files\Classic Shell and double click ClassicStartMenu.exe. We are almost done.
+Now let's go back to C:\Program Files\Classic Shell and double click ClassicStartMenu.exe. We are almost done.
 
 # Find a Windows 7 Start Button Icon
 

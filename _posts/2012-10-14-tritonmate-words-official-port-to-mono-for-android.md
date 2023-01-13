@@ -18,7 +18,7 @@ And today I think I have done a lot,
 
 The experience of porting to Mono for Android is happy and painless, compared to the frustrating port to .NET CF 3.5 a few years ago,
 
-* Mono for Android profile is almost identical to the full desktop profile, where I don’t need to grad any Mono source files.
+* Mono for Android profile is almost identical to the full desktop profile, where I don't need to grad any Mono source files.
 * The IDE integration works almost flawless in both Visual Studio 2010 and 2012.
 
 I did find a bug of Mono for Android, that when I tried to change project properties sometimes the changes were lost for no reason. Anyway I can manually edit the project file as a workaround.

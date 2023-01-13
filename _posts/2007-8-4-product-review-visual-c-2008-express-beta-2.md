@@ -16,7 +16,7 @@ I have found some bug in Visual C# 2008 too. When you try to clean a project as 
 
 In all, Visual C# 2008 is better than Visual C# 2005.
 
-(Updated: Yesterday when I powered on my computer, I found that I could use Clean task of *.sln file to remove those .tmp files. So I guess the rule is “you cannot delete them until you wake up tomorrow”.
+(Updated: Yesterday when I powered on my computer, I found that I could use Clean task of *.sln file to remove those .tmp files. So I guess the rule is "you cannot delete them until you wake up tomorrow".
 
 Now I turn off AutoRecover feature completely, and find no .tmp files any more. They are gone! at last!
 

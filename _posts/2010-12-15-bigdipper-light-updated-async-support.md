@@ -28,8 +28,8 @@ namespace TestAsyncGet
         {
             GetRequestMessage message = new GetRequestMessage(0,
                 VersionCode.V1,
-                new OctetString(“public”),
-                new List<Variable> {new Variable(new ObjectIdentifier(“1.3.6.1.1.1.0”))});
+                new OctetString("public"),
+                new List<Variable> {new Variable(new ObjectIdentifier("1.3.6.1.1.1.0"))});
             var endpoint = new IPEndPoint(IPAddress.Loopback, 161);
                 message.BeginGetResponse(endpoint, new UserRegistry(),endpoint.GetSocket(),
                 ar => {

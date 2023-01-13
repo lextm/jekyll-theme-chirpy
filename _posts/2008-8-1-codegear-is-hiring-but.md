@@ -5,7 +5,7 @@ tags: Delphi
 permalink: /codegear-is-hiring-but-8432cc437d1a
 excerpt_separator: <!--more-->
 ---
-For a long time, the Jobs section has been quiet and now you can see something new there. But what’s wrong with it? Is there only one opening?
+For a long time, the Jobs section has been quiet and now you can see something new there. But what's wrong with it? Is there only one opening?
 
 http://www.codegear.com/about/jobs
 

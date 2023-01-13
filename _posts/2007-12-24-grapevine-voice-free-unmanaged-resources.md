@@ -41,7 +41,7 @@ private void GetHicon_Example(PaintEventArgs e)
 
 You can check GrapeVine code to see what I have written and the bug is not hard to find. I destroyed the handle already but continued to return the Icon instance to the caller. Even though the exception is raised later, you cannot locate the bug in a glance.
 
-David’s original code fails to free the unmanaged resource because DestroyIcon is not called. It is a horrible mistake that my modifications mess things up. BTW, the fix is really easy after reading MSDN carefully (“since the form creates its own copy of the icon”).
+David's original code fails to free the unmanaged resource because DestroyIcon is not called. It is a horrible mistake that my modifications mess things up. BTW, the fix is really easy after reading MSDN carefully ("since the form creates its own copy of the icon").
 
 Yes, simply return a clone (created by Icon.Clone) of the Icon instance (created by Icon.FromHandle), and call DestroyIcon on the first Icon instance (created by Icon.FromHandle). And there should be no more baggage.
 

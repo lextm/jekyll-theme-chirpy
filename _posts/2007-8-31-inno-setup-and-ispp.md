@@ -9,7 +9,7 @@ Inno Setup provides 90% features you need to create a standard and powerful inst
 
 And now I find Inno Setup Newsgroup and Inno Setup Extensions Wiki, so most problems can be solved following the tips.
 
-ISPP is mentioned so many times by IS experts which means it is a “must have” tool. Yes, after reading about it I find most missing features of IS in this useful preprocessor.
+ISPP is mentioned so many times by IS experts which means it is a "must have" tool. Yes, after reading about it I find most missing features of IS in this useful preprocessor.
 
-Inno Setup can serve most people while only a few of them learn and use ISPP. For example, I’ve been using IS for a long time and finally decide to learn ISPP today.
+Inno Setup can serve most people while only a few of them learn and use ISPP. For example, I've been using IS for a long time and finally decide to learn ISPP today.
 <!--more-->

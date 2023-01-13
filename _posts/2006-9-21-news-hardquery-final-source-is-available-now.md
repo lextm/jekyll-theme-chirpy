@@ -11,5 +11,5 @@ As an open source project, I should have published the source along with the ins
 
 Because I have to modify NAnt script again to build a source package, this time the source package comes a little bit late. But now it is there.
 
-Some big changes take place in this new version, so after reading some portions of code you will see the differences. I could not make a Developer’s Guide in a few months as there is a lot to say in it, so whenever you want to make a plus of your own, the source code of other pluses surely helps.
+Some big changes take place in this new version, so after reading some portions of code you will see the differences. I could not make a Developer's Guide in a few months as there is a lot to say in it, so whenever you want to make a plus of your own, the source code of other pluses surely helps.
 <!--more-->

@@ -46,7 +46,7 @@ else
 
 Well, it is rather complicated to do the calculation, as we need to first locate the middle point of the button, and then get the working area to render the menu strip. When the menu with margins happens to fall in the working area fully, we can safely render it at default location. But special care needs to be carried out otherwise.
 
-The `else` block considers many possible cases, such as which `x` to use among three options (see Balance function for details), and which `y` to use. More importantly, if the calculated `y` is smaller than button’s bottom Y, we need to show the menu strip above the button.
+The `else` block considers many possible cases, such as which `x` to use among three options (see Balance function for details), and which `y` to use. More importantly, if the calculated `y` is smaller than button's bottom Y, we need to show the menu strip above the button.
 
 Is that the final solution? Unfortunately, it is NOT.
 

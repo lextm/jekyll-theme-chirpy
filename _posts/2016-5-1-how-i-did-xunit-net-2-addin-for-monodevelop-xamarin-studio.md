@@ -14,26 +14,26 @@ However, the process was not smooth. The rule of thumb for open source projects 
 
 If you review the code changes, you can see what I have done,
 
-1. Move completely to MonoDevelop’s new addin project model and based on MonoDevelop.Addins NuGet package.
+1. Move completely to MonoDevelop's new addin project model and based on MonoDevelop.Addins NuGet package.
 1. Fix the code to check both xUnit.net 1.x and 2.x references for unit testing projects.
-1. Provide a developer guide, so that new beginners don’t have to fight hard to learn how to contribute.
+1. Provide a developer guide, so that new beginners don't have to fight hard to learn how to contribute.
 
 The most tricky parts are as below.
 
 # MonoDevelop on Ubuntu
-I might be wrong, but only when I run the project in MonoDevelop on Linux (Ubuntu), I can easily debug the addin by simply starting the debugger. That one click debugging experience does not work on Windows and OS X. I am not sure whether that’s by design, but it really hurts beginners like me, although I do have Windows/OS X/Ubuntu. If a guy only has Windows or OS X and would like to contribute, he/she would be frustrated.
+I might be wrong, but only when I run the project in MonoDevelop on Linux (Ubuntu), I can easily debug the addin by simply starting the debugger. That one click debugging experience does not work on Windows and OS X. I am not sure whether that's by design, but it really hurts beginners like me, although I do have Windows/OS X/Ubuntu. If a guy only has Windows or OS X and would like to contribute, he/she would be frustrated.
 
 (Updated: It is now possible to run Xamarin Studio 6 on Windows to debug the addin, which is cool.)
 
 # MonoDevelop.Addins Incompatibility
 
-I am not sure why, but for this addin I have to stick with MonoDevelop.Addins 0.2.3. Once upgraded to the latest, the code simply won’t compile any more due to .NET compatibility issue (the compiler asks for System.Runtime assembly).
+I am not sure why, but for this addin I have to stick with MonoDevelop.Addins 0.2.3. Once upgraded to the latest, the code simply won't compile any more due to .NET compatibility issue (the compiler asks for System.Runtime assembly).
 
 (Updated: I found a way to hack the csproj file to target .NET 4.5 profile and then this error message is gone and I can use latest MonoDevelop.Addins package.)
 
 # xUnit.net Dll Hell
 
-To support multiple platforms, xUnit.net NuGet package “xunit.runner.utility” has far too many assemblies shipped, and they change in different beta and RC builds. And it is not surprising that when a specific version is used, some code in the addin would break. So I have to revise the integration code multiple times.
+To support multiple platforms, xUnit.net NuGet package "xunit.runner.utility" has far too many assemblies shipped, and they change in different beta and RC builds. And it is not surprising that when a specific version is used, some code in the addin would break. So I have to revise the integration code multiple times.
 
 (Updated: I decided to stick to the net35 version.)
 
@@ -43,11 +43,11 @@ Finally I got the addin working locally, and attempted to publish it to [the Mon
 
 > Updated (Jan 12, 2023): VS for Mac extension gallery [moved](https://learn.microsoft.com/en-us/previous-versions/visualstudio/mac/migrate-extensions?view=vsmac-2019)
 
-Initially I could not easily trigger a build of the addin, as the documentation is sparse. I might be wrong, but later selecting “Publish releases automatically at every change” under Edit Source page seems to solve that.
+Initially I could not easily trigger a build of the addin, as the documentation is sparse. I might be wrong, but later selecting "Publish releases automatically at every change" under Edit Source page seems to solve that.
 
-Then another issue came that the build server told me “xunit.runner.utility” NuGet package requires NuGet 2.8.5 and above, while the build server itself only had NuGet 2.8.3. I used [the Gitter channel](https://gitter.im/mono/monodevelop) to inform the MonoDevelop guys, but again the process is slow. Thus, I simply downgraded that NuGet package to a previous beta build, which only requires NuGet 2.8.3, and after that the build server was happy to serve me.
+Then another issue came that the build server told me "xunit.runner.utility" NuGet package requires NuGet 2.8.5 and above, while the build server itself only had NuGet 2.8.3. I used [the Gitter channel](https://gitter.im/mono/monodevelop) to inform the MonoDevelop guys, but again the process is slow. Thus, I simply downgraded that NuGet package to a previous beta build, which only requires NuGet 2.8.3, and after that the build server was happy to serve me.
 
-Now the addin is there and waiting for approval. Hope that wouldn’t take too long.
+Now the addin is there and waiting for approval. Hope that wouldn't take too long.
 
 # Overall Experience
 

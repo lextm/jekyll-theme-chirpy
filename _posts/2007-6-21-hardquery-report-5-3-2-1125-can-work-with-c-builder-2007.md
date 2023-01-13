@@ -14,5 +14,5 @@ I will soon deliver you 5.3.3 Final. After that, I would spend more time on .NET
 
 Stay tuned.
 
-(Updated: The splash window picture has been updated. Window Clippings’ dialog is removed.)
+(Updated: The splash window picture has been updated. Window Clippings' dialog is removed.)
 <!--more-->

@@ -16,7 +16,7 @@ On Windows Vista, you should notice that if you want to debug an application tha
 
 Debugging CBC is similar to debugging a library. You must set the parameters so bds.exe is launched. Ensure that the debug version of CBC is added to expert list with ExpertManager correctly (you should disable other CBC items).
 
-You may notice log4net is used in CBC. The log file by default is in the same folder of bds.exe and named as cbc2.log. If you are on Windows Vista, you must manually edit cbc.exe.config. “.\cbc2.log” can be changed to, for example, “d:\cbc2.log”.
+You may notice log4net is used in CBC. The log file by default is in the same folder of bds.exe and named as cbc2.log. If you are on Windows Vista, you must manually edit cbc.exe.config. `.\cbc2.log` can be changed to, for example, `d:\cbc2.log`.
 
 I will add other tips here if necessary.
 

@@ -5,7 +5,7 @@ tags: .NET
 permalink: /summary-of-baml-reader-writer-implementations-62950ac47481
 excerpt_separator: <!--more-->
 ---
-Both XAML and BAML play important roles in WPF. As Microsoft and Xamarin decides to extend XAML to Windows Store apps, Windows Phone, Xamarin.Forms, we won’t see such interesting things disappear soon like Silverlight/Moonlight.
+Both XAML and BAML play important roles in WPF. As Microsoft and Xamarin decides to extend XAML to Windows Store apps, Windows Phone, Xamarin.Forms, we won't see such interesting things disappear soon like Silverlight/Moonlight.
 <!--more-->
 
 XAML files can be easily manipulated by using XamlReader and XamlWriter classes (in PresentationFramework.dll) from Microsoft. In System.Xaml.dll there are also other classes (such as XamlReader and XamlWriter).
@@ -16,7 +16,7 @@ However, if you need to manipulate BAML files directly, you will find it bit of 
 
 If Microsoft can open source or at least make the following classes public, we should be able to save a lot of time, System.Windows.Markup.BamlReader and System.Windows.Markup.BamlWriter in PresentationFramework.dll.
 
-> Note that you can see their reference source code, but that’s not the “open source” approach compliant to OSI definition. (The target assemblies must be loaded via reflection.)
+> Note that you can see their reference source code, but that's not the "open source" approach compliant to OSI definition. (The target assemblies must be loaded via reflection.)
 > 
 > Also note that Microsoft is open sourcing WinForms and WPF source code as part of .NET Core 3.0. Then such classes might become available for other open source projects to use.
 

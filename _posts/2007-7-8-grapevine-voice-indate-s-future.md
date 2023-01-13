@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GrapeVine Voice: InDate’s Future"
+title: "GrapeVine Voice: InDate's Future"
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-indates-future-c4f23b2d0f2f
 excerpt_separator: <!--more-->

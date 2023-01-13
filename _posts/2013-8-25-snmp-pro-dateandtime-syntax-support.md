@@ -26,10 +26,10 @@ SYNTAX DateAndTime
 MAX-ACCESS read-only
 STATUS current
 DESCRIPTION
-“A textual description of the entity. This value should
+"A textual description of the entity. This value should
 include the full name and version identification of
-the system’s hardware type, software operating-system,
-and networking software.”
+the system's hardware type, software operating-system,
+and networking software."
 ::= { test 5 }
 ```
 

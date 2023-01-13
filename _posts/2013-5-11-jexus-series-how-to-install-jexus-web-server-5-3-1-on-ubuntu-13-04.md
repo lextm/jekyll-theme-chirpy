@@ -31,7 +31,7 @@ Its homepage is at http://www.linuxdot.net/ (in Simplified Chinese).
    tar -zxvf jexus-5.3.1.tar.gz
    ```
 
-   Jexus binary package is downloaded from its official site, and extracted to a folder named “jexus-5.3.1” after this step.
+   Jexus binary package is downloaded from its official site, and extracted to a folder named "jexus-5.3.1" after this step.
 
 1. Create default web site
 
@@ -39,7 +39,7 @@ Its homepage is at http://www.linuxdot.net/ (in Simplified Chinese).
    sudo gedit /var/www/default/index.html
    ```
 
-   When gedit is opened, type in some text, such as “Hello World from Jexus”. Save and close the file.
+   When gedit is opened, type in some text, such as "Hello World from Jexus". Save and close the file.
 
    /var/www/default is the default web site path for Jexus. In this step we create a test page using gedit. You might use any other Linux text editor to create this test page.
 
@@ -65,5 +65,5 @@ Below is the alternative way in step 3 to create the test page using vi,)
 
 1. `sudo vi /var/www/default/index.html`
 1. Press i on keyboard to enter edit mode.
-1. Type “Hello World from Jexus” and press Esc on keyboard to exit edit mode.
+1. Type "Hello World from Jexus" and press Esc on keyboard to exit edit mode.
 1. Type :wq and press Enter on keyboard to exit vi.

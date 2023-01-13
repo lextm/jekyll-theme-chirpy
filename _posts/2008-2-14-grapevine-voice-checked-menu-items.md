@@ -5,7 +5,7 @@ tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-checked-menu-items-a33bb0aa51c4
 excerpt_separator: <!--more-->
 ---
-In David’s legacy project SharpBuilderTools there is no such kind of checked menu items so I thought it was impossible. Then I started to wonder how the RemObjects guys creates checked menu items in their BDS expert named Everwood.
+In David's legacy project SharpBuilderTools there is no such kind of checked menu items so I thought it was impossible. Then I started to wonder how the RemObjects guys creates checked menu items in their BDS expert named Everwood.
 
 On Tuesday I suddenly found out how so I added a few new functions in LeXDK. You can see I created a new menu item like this,
 

@@ -9,5 +9,5 @@ I have just discovered a new podcast named The Podcast at Delphi.org. It is quit
 
 I take it as a sign there are no more Delphi Hours episodes. Sad. But this time, I am happy that I can subscribe to the podcast easily in iTunes.
 
-How to subscribe? Simply launch your iTunes, open iTunes Store, and search for “Delphi”.
+How to subscribe? Simply launch your iTunes, open iTunes Store, and search for "Delphi".
 <!--more-->

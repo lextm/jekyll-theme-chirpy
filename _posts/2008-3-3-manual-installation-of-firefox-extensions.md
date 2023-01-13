@@ -9,7 +9,7 @@ I tried the NASA Night Launch theme this morning at office and fell in love with
 
 However, at home due to the limited bandwidth I just could not download the theme in the Firefox way tonight. Therefore I saved it as a file and tried to install it manually.
 
-Don’t be fooled by the theme package even though its extension is jar. It is not a Java executable but a zip file. The installation steps are,
+Don't be fooled by the theme package even though its extension is jar. It is not a Java executable but a zip file. The installation steps are,
 
 1. Open install.rdf file in Notepad, and see the value (in this case, nasanightlaunch@example.com).
 1. Create a folder named nasanightlaunch@example.com under C:\Users\lextm\AppData\Roaming\Mozilla\Firefox\Profiles\b9zwtf39.default\extensions (this path may be different on your machine).

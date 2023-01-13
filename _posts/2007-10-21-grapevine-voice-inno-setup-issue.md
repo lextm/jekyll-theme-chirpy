@@ -12,7 +12,7 @@ What is your opinion? Oh, I forget to mention that installforallusers.exe is a C
 
 So I have to say it is Inno Setup implementation caused this issue. I told it to run installforallusers.exe to remove GAC and registry keys, but it never checked if this executable requires other files in the installation folder. Inno Setup removed all files in the folder except this executable so an exception was raised.
 
-I was about to report this issue to Inno Setup author but soon I expected a workaround. It is not Inno Setup’s responsibility to analyze my files, and make everything okay. I rather take that responsibility myself.
+I was about to report this issue to Inno Setup author but soon I expected a workaround. It is not Inno Setup's responsibility to analyze my files, and make everything okay. I rather take that responsibility myself.
 
 In fact, a workaround is easy to find. Implementing an important procedure resolves the issue.
 

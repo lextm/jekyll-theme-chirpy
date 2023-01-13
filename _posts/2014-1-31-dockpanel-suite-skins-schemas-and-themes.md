@@ -18,13 +18,13 @@ Of course there was nothing called skins nor themes.
 
 The term skin was introduced in release 2.3 by Steve Overton. It was not heavily emphasized in 2.3 release, but was made visible in release 2.5 (DockPanelSkin Demo button in the sample).
 
-By setting a new skin, the look and feel changes even if you don’t change the schema. Thus, it becomes easy enough to create sub-schemas and the door of customization is opened.
+By setting a new skin, the look and feel changes even if you don't change the schema. Thus, it becomes easy enough to create sub-schemas and the door of customization is opened.
 
 # The History of Themes
 
 I attempted to refine the customization interface in 3.0 branch so as to resolve two issues,
 
-* Schema is not something easy to drop in. To develop a new schema and apply, you have to touch too many places in the code base and that’s too bad for beginners.
+* Schema is not something easy to drop in. To develop a new schema and apply, you have to touch too many places in the code base and that's too bad for beginners.
 * Skin has been too weak. You cannot create a VS2012 Light theme with a new skin, because the old schemas do not cover the new elements introduced by Microsoft.
 
 So ITheme interface and the three default themes were created, and the following advantages are achieved,

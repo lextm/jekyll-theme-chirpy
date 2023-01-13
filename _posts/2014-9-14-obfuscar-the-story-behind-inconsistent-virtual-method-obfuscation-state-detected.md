@@ -37,11 +37,11 @@ following methods,
 [test]test.MainClass::Test[0]->Skipped:KeepPublicApi option in configuration
 ```
 
-So, how to understand the cause? `MainInterface` is going to be obfuscated, as it is internal. That obfuscation also applies to `MainInterface.Test`. That’s why a “WillRename” action is set for it. However, `MainClass` is a public class, and its public `Test` method should not be obfuscated in this case. A “Skipped” action is marked. Obfuscar decides to break at this stage, because it cannot fulfill the two actions due to the relationship between the functions.
+So, how to understand the cause? `MainInterface` is going to be obfuscated, as it is internal. That obfuscation also applies to `MainInterface.Test`. That's why a `WillRename` action is set for it. However, `MainClass` is a public class, and its public `Test` method should not be obfuscated in this case. A `Skipped` action is marked. Obfuscar decides to break at this stage, because it cannot fulfill the two actions due to the relationship between the functions.
 
 # The Thoughts
 
-Do you know that before that Obfuscar silently changes actions of “Rename” to “Skipped”? Do you want to see the things you want to hide revealed unexpectedly? I personally go against silent operations.
+Do you know that before that Obfuscar silently changes actions of `Rename` to `Skipped`? Do you want to see the things you want to hide revealed unexpectedly? I personally go against silent operations.
 
 Thus, when I determined to change Obfuscar in this way in this February, I was trying to make things simple and fully under control. The fact is that when Obfuscar reports such inconsistency to the developer, the issue can be easily fixed. Possible approaches include but are not limited to,
 

@@ -26,7 +26,7 @@ My solution is as below,
 1. Create a new branch (we use development_3.0, which is for one of our planned releases) from gh59.
 1. Merge the two change sets Ryan made before Mar 10 to 3.0 branch. This is trivial and any Git tool can happily help out.
 1. (Important) Follow the GitHub article to perform the same line ending normalization on 3.0 branch.
-1. Cherry-pick Ryan’s other change sets after Mar 10 to 3.0 branch.
+1. Cherry-pick Ryan's other change sets after Mar 10 to 3.0 branch.
 1. Merge master branch to 3.0 branch. Now the merge becomes very simple, and I only have a few conflicts to resolve.
 
 Without step 2–4, the merge effort will be much more.

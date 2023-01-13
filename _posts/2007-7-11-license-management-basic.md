@@ -19,5 +19,5 @@ Although all kinds of protection can be cracked, you can still gain some money f
 
 For Code Beautifier Collection users, there would never be license management system issues. Why? It is open source.
 
-Isn’t it wonder?
+Isn't it wonder?
 <!--more-->

@@ -12,7 +12,7 @@ I wanted to try some features in RC 1 release, but there were a lot of problem a
 
 Yes, sometimes I use IOTAEditActions to invoke CodeCompletion or CodeTemplate, they fails without ant clue.
 
-So there is no more using or new + Space functions, no `“,’,[,(` matchings.
+So there is no more using or new + Space functions, no `",',[,(` matchings.
 
 Input Helper will be disabled also.
 

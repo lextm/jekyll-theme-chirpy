@@ -28,9 +28,9 @@ The disadvantage of this approach is that the new hash verification code does no
 
 # Permanent Fix
 
-Recently I created a new branch from change set 7843d32bbfd5 (the one just before 8dde882e9c62), where I revised all classes derived from ISnmpData to hold the original length bytes if they are constructed from a byte stream. This makes the reconstruction result exactly the same as the one generated from Tom’s approach.
+Recently I created a new branch from change set 7843d32bbfd5 (the one just before 8dde882e9c62), where I revised all classes derived from ISnmpData to hold the original length bytes if they are constructed from a byte stream. This makes the reconstruction result exactly the same as the one generated from Tom's approach.
 
-Therefore, using this approach, Tom’s patch is no longer necessary, and we fixed the issue in a cleaner way.
+Therefore, using this approach, Tom's patch is no longer necessary, and we fixed the issue in a cleaner way.
 
 I worked hard to back port this new fix to our main branch, and now it is present in the repository for you to play with. It is not yet time to say at what time I will cut a new release (7.5?), but we know now even after 7.0, we still have a lot to do for #SNMP.
 

@@ -16,7 +16,7 @@ This version should be stabler than old versions.
 
 I have to work hard to write an article this week and the next. So I wish the final update 1 would be ready in the end of this month. A lot of time should be spared to do so many tests.
 
-There is a big or slight bug existing. whenever you type a trigger word of AutoCompletion, such as try, else, or others anywhere, and press the SPACE key, AC fires even if you don’t want it to. (Because of the mechanism, even word ended with try or else triggers the bug, for example entry)
+There is a big or slight bug existing. whenever you type a trigger word of AutoCompletion, such as try, else, or others anywhere, and press the SPACE key, AC fires even if you don't want it to. (Because of the mechanism, even word ended with try or else triggers the bug, for example entry)
 
 It is sometimes inconvenient for you but for my personal typing customs this case happens rarely so I keep AC enabled.
 

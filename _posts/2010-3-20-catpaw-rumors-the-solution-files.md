@@ -14,6 +14,6 @@ From now on I make the following rules,
 
 1. The default VS version I use is Visual Studio 2010, so the default solution file is the standard one who contains all projects.
 1. Other solution files contain only the core projects (for #SNMP Library and so on).
-1. The CF solution only contains one project. That’s SharpSnmpLib.dll.
+1. The CF solution only contains one project. That's SharpSnmpLib.dll.
 
 Why? Different Visual Studio versions have incompatibilities, especially in visual designers. That explains why new VS version always asks to upgrade project files created by an older version. To avoid mysterious issues related to such incompatibilities, only core projects (who has no visual parts) are shared among different solution files.

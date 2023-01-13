@@ -10,7 +10,7 @@ excerpt_separator: <!--more-->
 First I wanna say sorry for those who have downloaded the half-cooked RC 2 published some time during the last week. There were something wrong so you might have seen a lot of trouble. And today the real RC 2 is available finally.
 <!--more-->
 
-The main addition is an easter egg. Since I built up CBC using Sharp Builder Tools’ code and this egg was also created with Sharp Dev Tools, I think I owe David Hervieux so much. David The Creator, now I put one of your photo in the About form, and wish you enjoy it somehow.
+The main addition is an easter egg. Since I built up CBC using Sharp Builder Tools' code and this egg was also created with Sharp Dev Tools, I think I owe David Hervieux so much. David The Creator, now I put one of your photo in the About form, and wish you enjoy it somehow.
 
 Also now I have also used MSBuild to build all C# projects, and NAnt to manage anything else, so if you wanna compile CBC from source code you have to install .NET 2.0 along with MSBee targets for .NET 1.1. It is too complicated so I would like to write another article on that.
 

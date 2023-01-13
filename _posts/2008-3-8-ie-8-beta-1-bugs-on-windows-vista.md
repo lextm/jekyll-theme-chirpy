@@ -10,7 +10,7 @@ I have just installed Internet Explorer 8 Beta 1 on my Windows Vista. Notice tha
 
 After installing it, I cannot find any IE 8 shortcut in Start Menu. The only way to launch it is to go to Program Files\Internet Explorer folder and executing iexplore.exe directly.
 
-And I am sure only a few people met the second bug like me. I’ve been using Vista SP1 RC since last December, so this IE 8 Beta denied to install. After uninstalling the SP1 RC (which takes about a hour), I finally got IE 8 installed.
+And I am sure only a few people met the second bug like me. I've been using Vista SP1 RC since last December, so this IE 8 Beta denied to install. After uninstalling the SP1 RC (which takes about a hour), I finally got IE 8 installed.
 
 Compared to Firefox 3, I do not find anything that is that innovative and unique right now. Maybe I need to try it more later.
 

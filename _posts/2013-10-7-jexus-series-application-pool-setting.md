@@ -16,8 +16,8 @@ Microsoft exposes many options for you to configure an application pool, but Jex
 
 | Option | Description |
 | ------ | ----------- |
-| httpd.processes | Equivalent to IIS’s maxProcesses, which enables/disables Web garden.
-| httpd.user | Equivalent to IIS’s userName, which specifies worker process identity. Note that due to Linux mechanism, there is no need to specify password in Jexus.
+| httpd.processes | Equivalent to IIS's maxProcesses, which enables/disables Web garden.
+| httpd.user | Equivalent to IIS's userName, which specifies worker process identity. Note that due to Linux mechanism, there is no need to specify password in Jexus.
 | Runtime | Equivalent to managedRuntimeVersion. Note that Jexus supports the IIS style (major.minor), so it is valid to use Runtime=v4.0. |
 
 Jexus supports application pool recycle in the following manner,

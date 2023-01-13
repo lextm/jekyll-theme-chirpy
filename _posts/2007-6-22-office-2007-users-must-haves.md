@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Office 2007 Users’ Must-Haves"
+title: "Office 2007 Users' Must-Haves"
 tags: Windows
 permalink: /office-2007-users-must-haves-e36b230e1379
 excerpt_separator: <!--more-->

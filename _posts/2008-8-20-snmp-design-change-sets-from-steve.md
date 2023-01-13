@@ -9,7 +9,7 @@ Steve checked in twice this morning. I must confess that he adapts to Team Found
 
 One thing that makes me astonished is that Steve and I have similar coding styles. And it is so hard to tell what changes (or mistakes possibly) are made by me or him. :-)
 
-Another interesting thing is that he uses the SVN way while I am forced to use Teamprise Explorer [once again by my ISP](/well-isp-known-issues-here-ff6b6ec0f2e1). Will there be any conflicts happening in the near future because of these clients? I don’t know. But any way we will settle them down at last.
+Another interesting thing is that he uses the SVN way while I am forced to use Teamprise Explorer [once again by my ISP](/well-isp-known-issues-here-ff6b6ec0f2e1). Will there be any conflicts happening in the near future because of these clients? I don't know. But any way we will settle them down at last.
 
 Stay tuned.
 <!--more-->

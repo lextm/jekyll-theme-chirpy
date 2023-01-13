@@ -27,7 +27,7 @@ Profiling tools (Microsoft.VisualStudio.Component.DiagnosticTools,version=15.0.2
 Visual Studio core editor (Microsoft.VisualStudio.Component.CoreEditor,version=15.0.26004.1)
 You can search for solutions using the information below, modify your selections for the above workloads and components and retry the installation, or remove the product from your machine.
 Following is a collection of individual package failures that led to the incomplete workloads and components above. To search for existing reports of these specific problems, please copy and paste the URL from each package failure into a web browser. If the issue has already been reported, you can find solutions or workarounds there. If the issue has not been reported, you can create a new issue where other people will be able to find solutions or workarounds.
-Package ‘Microsoft.VisualStudio.TeamFoundation.TeamExplorer,version=15.112.26110.0’ failed to install.
+Package 'Microsoft.VisualStudio.TeamFoundation.TeamExplorer,version=15.112.26110.0' failed to install.
 Search URL: https://aka.ms/VSSetupErrorReports?q=PackageId=Microsoft.VisualStudio.TeamFoundation.TeamExplorer;PackageAction=Install;ReturnCode=3001
 Impacted workloads
 .NET desktop development (Microsoft.VisualStudio.Workload.ManagedDesktop,version=15.0.26127.0)
@@ -47,7 +47,7 @@ Visual Studio core editor (Microsoft.VisualStudio.Component.CoreEditor,version=1
 Log
 C:\Users\lextm\AppData\Local\Temp\2\dd_setup_20170128095042_019_Microsoft.VisualStudio.TeamFoundation.TeamExplorer.log
 Details
-Command executed: “C:\Program Files (x86)\Microsoft Visual Studio\Installer\resources\app\ServiceHub\Services\Microsoft.VisualStudio.Setup.Service\vsixinstaller.exe” /q /s /admin /appidinstallpath:”C:\Program Files (x86)\Microsoft Visual Studio\2017\Community” /logFile:”C:\Users\lextm\AppData\Local\Temp\2\dd_setup_20170128095042_019_Microsoft.VisualStudio.TeamFoundation.TeamExplorer.log” /skuName:Enterprise /skuVersion:15.0.26113.0 /appidname:displayName “C:\ProgramData\Microsoft\VisualStudio\Packages\Microsoft.VisualStudio.TeamFoundation.TeamExplorer,version=15.112.26110.0\TeamExplorer.vsix”
+Command executed: "C:\Program Files (x86)\Microsoft Visual Studio\Installer\resources\app\ServiceHub\Services\Microsoft.VisualStudio.Setup.Service\vsixinstaller.exe" /q /s /admin /appidinstallpath:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community" /logFile:"C:\Users\lextm\AppData\Local\Temp\2\dd_setup_20170128095042_019_Microsoft.VisualStudio.TeamFoundation.TeamExplorer.log" /skuName:Enterprise /skuVersion:15.0.26113.0 /appidname:displayName "C:\ProgramData\Microsoft\VisualStudio\Packages\Microsoft.VisualStudio.TeamFoundation.TeamExplorer,version=15.112.26110.0\TeamExplorer.vsix"
 Return code: 3001
 Return code details: This VSIX extension failed.
 ```

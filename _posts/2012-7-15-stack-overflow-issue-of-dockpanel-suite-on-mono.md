@@ -18,7 +18,7 @@ Years later [I came across a patch](/dockpanel-suite-patch-to-support-lite-mode-
 
 I should have found it earlier, right? But anyway this patch is now part of DPS 2.6 release.
 
-About the second, a workaround was found in 2010 that if all known DockContent objects are closed before disposal starts then the crash won’t occur. This workaround has been used in #SNMP, but of course it is very inconvenient.
+About the second, a workaround was found in 2010 that if all known DockContent objects are closed before disposal starts then the crash won't occur. This workaround has been used in #SNMP, but of course it is very inconvenient.
 
 From the bug report on GitHub you might find that how I attempted to locate the culprit.
 <!--more-->
@@ -27,13 +27,13 @@ From the bug report on GitHub you might find that how I attempted to locate the 
 
 I documented the steps on how to reproduce the crash on Mono. I even got the complete call stack, but it was to hard to analyze and not very useful at that time (well, it is in fact useful, but the information is not obvious enough).
 
-# JArchitect’s Patch
+# JArchitect's Patch
 
-Soon I remembered that JArchitect uses DPS on Mono (http://codebetter.com/patricksmacchia/2011/11/07/real-world-feedback-on-a-net-to-mono-migration/), so I wrote to Patrick for help. He kindly introduced JArchitect’s Product Manager Issam Lahlali. The story went on unbelievably, as Issam shared with me their build of DPS, and suddenly I noticed they started from my fork of DPS on #SNMP.
+Soon I remembered that JArchitect uses DPS on Mono (http://codebetter.com/patricksmacchia/2011/11/07/real-world-feedback-on-a-net-to-mono-migration/), so I wrote to Patrick for help. He kindly introduced JArchitect's Product Manager Issam Lahlali. The story went on unbelievably, as Issam shared with me their build of DPS, and suddenly I noticed they started from my fork of DPS on #SNMP.
 
 https://github.com/dockpanelsuite/dockpanelsuite/issues/18
 
-JArchitect’s patch worked as expected, but honestly speaking, they hacked on many Dispose methods and that seems not good to me. Therefore, I decided to pursue my investigation on the root cause.
+JArchitect's patch worked as expected, but honestly speaking, they hacked on many Dispose methods and that seems not good to me. Therefore, I decided to pursue my investigation on the root cause.
 
 # Lighting Hit
 

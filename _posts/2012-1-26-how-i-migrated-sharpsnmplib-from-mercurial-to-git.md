@@ -16,9 +16,9 @@ I am on Windows 7 and using the latest TortoiseHg. In this case I have to roll b
 
 Then I install Hg-Git following http://candidcode.com/2010/01/12/a-guide-to-converting-from-mercurial-hg-to-git-on-a-windows-client/. However,
 
-* TortoiseHg 2.0.5 does have Dulwich, so I don’t need to install it right now.
+* TortoiseHg 2.0.5 does have Dulwich, so I don't need to install it right now.
 * So I can go to step 3 directly, and clone the Mercurial repository of Hg-Git from http://bitbucket.org/durin42/hg-git/ to d:\temp\hg-git
-* Then I modified d:\sharpsnmplib\.hg\hgrc to include the following lines,
+* Then I modified `d:\sharpsnmplib\.hg\hgrc` to include the following lines,
 
   ``` ini
   [extensions]
@@ -26,11 +26,11 @@ Then I install Hg-Git following http://candidcode.com/2010/01/12/a-guide-to-conv
   hggit = d:\temp\hg-git\hggit
   ```
 
-You can now try to push to GitHub in d:\sharpsnmplib by executing “hg push git+ssh://git@github.com/schacon/hg-git.git”.
+You can now try to push to GitHub in `d:\sharpsnmplib` by executing `hg push git+ssh://git@github.com/schacon/hg-git.git`.
 
 # Troubleshooting Issues
 
-This push may fail due to an SSH error. In that case assuming you have set up Git following http://help.github.com/win-set-up-git/ , you may install TortoiseGit, and launch puttygen.exe from its installation folder to load your private key. Then you can save the key in PuTTY format (.ppk) and launch pageant.exe from TortoiseHg installation folder so as to add this new key. After that you can push again to see if everything works fine.
+This push may fail due to an SSH error. In that case assuming you have set up Git following [this guide](http://help.github.com/win-set-up-git/), you may install TortoiseGit, and launch puttygen.exe from its installation folder to load your private key. Then you can save the key in PuTTY format (.ppk) and launch pageant.exe from TortoiseHg installation folder so as to add this new key. After that you can push again to see if everything works fine.
 
 In my case it failed with an invalid parameter error which I cannot address. But the local Git repository is ready in d:\sharpsnmplib\.hg\git
 
@@ -46,7 +46,7 @@ git prune
 git gc --aggressive
 ```
 
-If you don’t know how to find git command, you may read http://help.github.com/win-set-up-git/.
+If you don't know how to find git command, you may read http://help.github.com/win-set-up-git/.
 
 # Upload to GitHub
 

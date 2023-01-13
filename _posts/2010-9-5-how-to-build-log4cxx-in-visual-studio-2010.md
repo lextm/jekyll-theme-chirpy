@@ -16,7 +16,7 @@ We are going to follow the steps here, http://logging.apache.org/log4cxx/buildin
 
 1. Download the log4cxx ZIP package from here, http://logging.apache.org/log4cxx/download.html, and extract its content.
 1. Download apr and apr-util ZIP packages from here, http://apr.apache.org/download.cgi.
-1. Now let’s translate the original commands into manual steps,
+1. Now let's translate the original commands into manual steps,
 
 ``` text
 unzip apr-1.2.11-win32-src.zip      -> manually extract this zip
@@ -29,14 +29,14 @@ configure-aprutil                   -> see below*
 ```
 \* as the sed tool is not available on Windows, you must do the following,
 
-1. Open apr-util\include\apu.hw.
-1. Find the line starting with “#define APU_HAVE_APR_ICONV”.
+1. Open `apr-util\include\apu.hw`.
+1. Find the line starting with `#define APU_HAVE_APR_ICONV`.
 1. Change this constant to 0 and save.
-1. Open apr-util\include\apr_ldap.hw.
-1. Find the line starting with “#define APR_HAS_LDAP”
+1. Open `apr-util\include\apr_ldap.hw`.
+1. Find the line starting with `#define APR_HAS_LDAP`
 1. Change this constant to 0.
 
-The changes mean that we won’t use APR ICONV and LDAP support.
+The changes mean that we won't use APR ICONV and LDAP support.
 
 # Building log4cxx.dll
 
@@ -46,9 +46,9 @@ VS will ask if you like to convert everything. Simply click Yes.
 
 xml, apr, and apr-util projects may build without any problem. If apr fails, and you find out _WIN32_WINNT is less than _WIN32_WINNT_WINXP, you may go to its Properties->Configuration Properties->C/C++->Preprocessor. Then you edit Preprocessor Definitions and add _WIN32_WINNT=_WIN32_WINNT_WINXP.
 
-log4cxx.dll must fail with hundreds of errors. But don’t mind it. The root cause is that VC++ has a bug (http://connect.microsoft.com/VisualStudio/feedback/details/473882/error-message-c-c-optimizing-compiler-stopped-working) and VC++ team decided to generate this error. Well, that forces all of us to take the workaround.
+log4cxx.dll must fail with hundreds of errors. But don't mind it. The root cause is that VC++ has a bug (http://connect.microsoft.com/VisualStudio/feedback/details/473882/error-message-c-c-optimizing-compiler-stopped-working) and VC++ team decided to generate this error. Well, that forces all of us to take the workaround.
 
-LOG4CXX_LIST_DEF macro is used to define classes. As error C2252 is there, we have to move such macro usages out of any classes. That’s what Daniel meant in point 1.
+LOG4CXX_LIST_DEF macro is used to define classes. As error C2252 is there, we have to move such macro usages out of any classes. That's what Daniel meant in point 1.
 
 Point 2 is necessary because we moved the nested classes out of their parent classes. Now we can use KeySet instead of LoggingEvent::KeySet.
 

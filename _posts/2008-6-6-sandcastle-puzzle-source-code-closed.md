@@ -13,5 +13,5 @@ http://blogs.msdn.com/sandcastle/archive/2008/06/06/sandcastle-project-removed-f
 
 So can we draw a conclusion that MSFT is still against open source? Indeed. By releasing .NET BCL source code under a reference license (not open source), and removing Sandcastle from CodePlex.com, this company sticks to one of its basic principles,
 
-> You can open your source, but I won’t not follow. I need more money.
+> You can open your source, but I won't not follow. I need more money.
 <!--more-->

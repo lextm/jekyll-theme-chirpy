@@ -20,7 +20,7 @@ Thanks for dear #SNMP users who reported the issues, and we have such a long lis
 * Improper TRAP v2 messages from some Cisco device
 * Improper integer encoding
 
-Of course it won’t be a complete list as buggy firmware is everywhere. So let’s drill down to see why such issues occurred based on my own assumption.
+Of course it won't be a complete list as buggy firmware is everywhere. So let's drill down to see why such issues occurred based on my own assumption.
 
 # Reason 1: Unsigned32 Type
 
@@ -28,7 +28,7 @@ The UInt32/Unsigned32 case was quite typical. IETF published different revisions
 
 Therefore, if a firmware was written against RFC 1442 and was never updated later to follow RFC 1902, then when it sends data to #SNMP based applications, exceptions will happen, as 0x47 is not handled at all.
 
-We could not blame IETF in general, because any standard is a moving target until everyone is OK with its feature and nothing is going to be added. The RFC 1442 (in 1993) –> 1902 (in 1996) –> 2578 (in 1999) evolution is a good example to show how something cool at that time (SNMP v2) was being designed, proposed, and finalized. The technical difficulty to upgrade firmware in devices at that time also made many devices stuck in a state that’s not standard compliant.
+We could not blame IETF in general, because any standard is a moving target until everyone is OK with its feature and nothing is going to be added. The RFC 1442 (in 1993) –> 1902 (in 1996) –> 2578 (in 1999) evolution is a good example to show how something cool at that time (SNMP v2) was being designed, proposed, and finalized. The technical difficulty to upgrade firmware in devices at that time also made many devices stuck in a state that's not standard compliant.
 
 # Reason 2: Default Value of OBJECT IDENTIFIER
 

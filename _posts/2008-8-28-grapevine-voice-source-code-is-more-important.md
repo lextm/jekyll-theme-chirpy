@@ -9,5 +9,5 @@ I have just checked Code Beautifier Collection homepage on Google Code and found
 
 http://code.google.com/p/lextudio/downloads/list?can=1&q=&colspec=Filename+Summary+Uploaded+Size+DownloadCount
 
-There must be a reason, but I haven’t got it yet.
+There must be a reason, but I haven't got it yet.
 <!--more-->

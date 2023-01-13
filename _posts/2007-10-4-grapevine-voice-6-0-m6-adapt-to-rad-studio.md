@@ -5,7 +5,7 @@ tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-6-0-m6-adapt-to-rad-studio-be694bd1a864
 excerpt_separator: <!--more-->
 ---
-I released M5 as soon as possible to celebrate the availability of CodeGear RAD Studio 2007, so I did not yet finish all tests on RAD Studio. Maybe that’s why M5 has a few annoying bugs including issue 2 on CBC Homepage.
+I released M5 as soon as possible to celebrate the availability of CodeGear RAD Studio 2007, so I did not yet finish all tests on RAD Studio. Maybe that's why M5 has a few annoying bugs including issue 2 on CBC Homepage.
 <!--more-->
 
 Changes,

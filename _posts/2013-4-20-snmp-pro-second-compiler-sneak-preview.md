@@ -9,9 +9,9 @@ In the first preview I demonstrated the basic building blocks of the Compiler Pr
 <!--more-->
 
 # Object Tree Panel
-After having the documents compiled, your first question must be “how can I see the objects?” and here comes the answer, the Object Tree panel is now added also in the compiler.
+After having the documents compiled, your first question must be "how can I see the objects?" and here comes the answer, the Object Tree panel is now added also in the compiler.
 
-To make it even more convenient to use, double-clicking any node on the tree, you will be redirected to the document that defines this node and the exact line and column. I call this function “Jump to Definition”.
+To make it even more convenient to use, double-clicking any node on the tree, you will be redirected to the document that defines this node and the exact line and column. I call this function "Jump to Definition".
 
 The reverse jump needs some time to implement, so it will not ship in the initial release.
 

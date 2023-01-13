@@ -13,7 +13,7 @@ The steps are,
 Launch a cmd.exe console as Administrator,
 cd to the folder containing make.all.bat,
 Run make.all.bat.
-Isn’t it simple? Yep, in this way, you find yourself back to XP days.
+Isn't it simple? Yep, in this way, you find yourself back to XP days.
 
 Why MS provides us such a simple way (although not easy to notice)? I guess for MS guys who develop pieces on Vista, UAC is also something blocks their way. A console walk around may ease their (and my) pains.
 <!--more-->

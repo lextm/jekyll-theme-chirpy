@@ -11,7 +11,7 @@ It is a really interesting question why Gendarme think Listener.HandleMessage is
 # Listener Adapters
 For an SNMP v1 manager, actually only TRAP v1 message is useful. So why it needs to be bothered by other versions of messages? Now you can use a simple listener adapter for v1 manager and hook it to the Listener object.
 
-Yes, it sounds like filters for incoming messages. That’s it.
+Yes, it sounds like filters for incoming messages. That's it.
 
 I have also created a default adapter for backward compatibility, too. You can check how to use it in the samples.
 

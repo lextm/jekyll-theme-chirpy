@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 .NET Compact Framework was a monster released by Microsoft. After so many years, we observed many of its disadvantages,
 
 1. It is a ill-designed subset of full .NET Framework. Even many methods/classes in core class library are not available in CF and developers have to fight hard to fill the gaps.
-1. It is strictly tied to Visual Studio/C#/VB.NET. The first time I heard about CF, I was using Borland’s .NET product (Delphi for .NET), where CF is not supported because Microsoft does not allow/license Borland to do it.
+1. It is strictly tied to Visual Studio/C#/VB.NET. The first time I heard about CF, I was using Borland's .NET product (Delphi for .NET), where CF is not supported because Microsoft does not allow/license Borland to do it.
 1. Windows Compact Edition and Windows Mobile loses its popularity (do they have any?) so quickly when new platforms (iOS and Android) arise.
 <!--more-->
 
@@ -25,6 +25,6 @@ The latest change set is [here](https://github.com/lextudio/sharpsnmplib/commit/
 
 Now it is possible to not only develop an SNMP manager application on CF, but also an SNMP agent.
 
-The still missing piece is the MIB assembly, but since we migrated to ANTLR which is not available on CF natively, porting the MIB assembly means I need to port ANTLR runtime to CF first. That can take lots of efforts and I don’t think I can afford it right now. Luckily, if you know SNMP well, the MIB assembly is optional.
+The still missing piece is the MIB assembly, but since we migrated to ANTLR which is not available on CF natively, porting the MIB assembly means I need to port ANTLR runtime to CF first. That can take lots of efforts and I don't think I can afford it right now. Luckily, if you know SNMP well, the MIB assembly is optional.
 
 In the future, I will focus more on rising platforms such as MonoTouch and Mono for Android. Thus, this post marks an end on #SNMP CF support. Period.

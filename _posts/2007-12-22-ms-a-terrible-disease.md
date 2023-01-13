@@ -5,7 +5,7 @@ tags: Others
 permalink: /ms-a-terrible-disease-f87a4993f8b3
 excerpt_separator: <!--more-->
 ---
-Next time when I type the word “MS”, I should be thinking of this terrible disease at first.
+Next time when I type the word "MS", I should be thinking of this terrible disease at first.
 
-> Multiple sclerosis is the disease that took J.K. Rowling’s mother’s life.
+> Multiple sclerosis is the disease that took J.K. Rowling's mother's life.
 <!--more-->

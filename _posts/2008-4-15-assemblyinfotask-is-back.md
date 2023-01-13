@@ -9,7 +9,7 @@ I was wondering where to find AssemblyInfoTask again after GotDotNet got down. A
 
 http://code.msdn.microsoft.com/AssemblyInfoTaskvers
 
-As a matter of facts, this project has been moved to Code Gallery for almost a year. So what’s wrong with my googling? Suddenly I found that the name of the project was changed to AssemblyInfo Task.
+As a matter of facts, this project has been moved to Code Gallery for almost a year. So what's wrong with my googling? Suddenly I found that the name of the project was changed to AssemblyInfo Task.
 
 This is the problem. Googling AssemblyInfoTask does not provide anything to the new link. And even if you try googling AssemblyInfo Task, the new link is listed as the sixth item at this moment.
 

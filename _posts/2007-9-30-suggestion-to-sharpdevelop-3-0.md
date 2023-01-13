@@ -5,7 +5,7 @@ tags: SharpDevelop .NET
 permalink: /suggestion-to-sharpdevelop-3-0-a4b1ba8b2cc8
 excerpt_separator: <!--more-->
 ---
-It is really fun to read SD blogs as well as its source code. And [the latest post](http://laputa.sharpdevelop.net/ChoosingTheTargetFrameworkInSharpDevelop30.aspx) talks about multi-targeting and asks for users’ opinions. I suggest SD 3 Alpha continues to use option 1 now. And once SD 3 enters its Beta stage, option 2 may be better.
+It is really fun to read SD blogs as well as its source code. And [the latest post](http://laputa.sharpdevelop.net/ChoosingTheTargetFrameworkInSharpDevelop30.aspx) talks about multi-targeting and asks for users' opinions. I suggest SD 3 Alpha continues to use option 1 now. And once SD 3 enters its Beta stage, option 2 may be better.
 <!--more-->
 
 I loved the multi-targeting feature SD 2.* supported long before MS Visual Studio, but I found so many unexpected behaviors at last that I had to give it up at last. Sorry I did not post a bug report then because I really thought the SD guys should focus on other issues not this one. In order to cross compile for .NET 1.1 and .NET 2.0, I wrote my own MSBuild script to work with MSBee instead. You can check Code Beautifier Collection HardQuery source code to see how I made that happen.

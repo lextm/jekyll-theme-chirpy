@@ -41,11 +41,11 @@ Thus, at beginning and the end of a remote connection, Jexus Manager client send
 
 As new releases of Jexus Manager components deliver new features as well as bug fixes, the users should be notified once they are available. Thus, the server component allows the client to query its version.
 
-Now I’d like to introduce a few new protection added in the next release (1.1).
+Now I'd like to introduce a few new protection added in the next release (1.1).
 
 # Parent Path Disabled (1.1)
 
-It is clear that many methods allowing file paths that contain “..” to be passed. Then unauthorized Jexus Manager users might be able to query system information that they don’t usually have access to. Thus, such file paths will be forbidden.
+It is clear that many methods allowing file paths that contain `..` to be passed. Then unauthorized Jexus Manager users might be able to query system information that they don't usually have access to. Thus, such file paths will be forbidden.
 
 # Localhost Test (1.1)
 
@@ -53,7 +53,7 @@ Several methods are only designed for Jexus Manager clients that connect from lo
 
 # Sensitive Information Removed (1.1)
 
-Hello and Goodbye test in fact sends back IP addresses of valid clients that already connect to the server. Such information might be sensitive if clients connect remotely, so unless the client connects from localhost the IP address won’t be revealed.
+Hello and Goodbye test in fact sends back IP addresses of valid clients that already connect to the server. Such information might be sensitive if clients connect remotely, so unless the client connects from localhost the IP address won't be revealed.
 
 # Summary
 

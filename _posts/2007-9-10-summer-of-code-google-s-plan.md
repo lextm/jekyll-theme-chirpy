@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Summer of Code: Google’s Plan"
+title: "Summer of Code: Google's Plan"
 tags: Google
 permalink: /summer-of-code-googles-plan-533c901a066e
 excerpt_separator: <!--more-->
@@ -13,7 +13,7 @@ This summer an experimental WinForms designer for MonoDevelop is done and there 
 
 Why does Google support this kind of activities? Innovation. Yes, it changes the world.
 
-We know Microsoft tries to do something but I never feel any changes its activities bring. Those innovations seem frozen once touched by Microsoft’s hands.
+We know Microsoft tries to do something but I never feel any changes its activities bring. Those innovations seem frozen once touched by Microsoft's hands.
 
 Sometimes I think this is why I prefer Google to Microsoft.
 <!--more-->

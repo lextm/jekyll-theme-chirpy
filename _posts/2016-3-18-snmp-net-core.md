@@ -19,8 +19,8 @@ excerpt_separator: <!--more-->
 下面让我们进一步升级到 RC1 Update 1这个升级版本：
 
 1. 打开 Visual Studio Command Prompt。
-1. 执行”dnvm upgrade”命令。
-1. 再执行”dnvm list”命令。
+1. 执行`dnvm upgrade`命令。
+1. 再执行`dnvm list`命令。
 
 如果一切正常，那么这时候输出应该是这样的，
 ``` cmd

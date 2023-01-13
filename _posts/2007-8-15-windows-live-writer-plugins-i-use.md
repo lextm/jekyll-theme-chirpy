@@ -12,5 +12,5 @@ The following are plugins I use,
 1. Code Snippet — it provides professional formatting of your code. You can see what code I published in posts with Code Snippet.
 1. Insert a Smiley — it allows you add Yahoo! and Windows Live Spaces smiley into your blog. I am not a Smiley addict, so you see I use it sometimes, not always.
 
-Yes, I’d like to try some others some time. What plugins do you use? You may leave a comment.
+Yes, I'd like to try some others some time. What plugins do you use? You may leave a comment.
 <!--more-->

@@ -18,4 +18,4 @@ What about the schedule? Although RC2 is already out, 1.5 release is not yet rea
 
 Stay tuned.
 
-BTW, don’t be panic about the performance issue. Not everyone has 1000+ MIB documents, isn’t it? :) Up-to-now, I am the only one who suffers.
+BTW, don't be panic about the performance issue. Not everyone has 1000+ MIB documents, isn't it? :) Up-to-now, I am the only one who suffers.

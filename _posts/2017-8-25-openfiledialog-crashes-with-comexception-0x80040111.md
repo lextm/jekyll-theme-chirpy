@@ -12,11 +12,12 @@ I have been updating Jexus Manager quite frequently as more and more useful cras
 # Exception Details
 ```
 Traceback (most recent call last):
-at System.Windows.Forms.SaveFileDialog.CreateVistaDialog() in “System.Windows.Forms.SaveFileDialog” line 0
-at System.Windows.Forms.FileDialog.RunDialogVista(System.IntPtr hWndOwner) in “System.Windows.Forms.FileDialog” line 0
-at System.Windows.Forms.CommonDialog.ShowDialog(System.Windows.Forms.IWin32Window owner) in “System.Windows.Forms.CommonDialog” line 204
-at JexusManager.Features.Certificates.ExportCertificateDialog.<.ctor>b__0_2(System.Reactive.EventPattern`1[System.EventArgs] evt) in “E:\JexusManager\JexusManager.Features.Certificates\ExportCertificateDialog.cs” line 51
-at System.Reactive.AnonymousSafeObserver`1.OnNext(T value) in “System.Reactive.AnonymousSafeObserver`1” line 22
+at System.Windows.Forms.SaveFileDialog.CreateVistaDialog() in "System.Windows.Forms.SaveFileDialog" line 0
+at System.Windows.Forms.FileDialog.RunDialogVista(System.IntPtr hWndOwner) in "System.Windows.Forms.FileDialog" line 0
+at System.Windows.Forms.CommonDialog.ShowDialog(System.Windows.Forms.IWin32Window owner) in "System.Windows.Forms.CommonDialog" line 204
+at JexusManager.Features.Certificates.ExportCertificateDialog.<.ctor>b__0_2(System.Reactive.EventPattern`1[System.EventArgs] evt) in "E:\JexusManager\JexusManager.Features.Certificates\ExportCertificateDialog.cs" line 51
+at System.Reactive.AnonymousSafeObserver`1.OnNext(T value) in 
+"System.Reactive.AnonymousSafeObserver`1" line 22
 System.Runtime.InteropServices.COMException: Creating an instance of the COM component with CLSID {C0B4E2F3-BA21–4773–8DBA-335EC946EB8B} from the IClassFactory failed due to the following error: 80040111 ClassFactory cannot supply requested class (Exception from HRESULT: 0x80040111 (CLASS_E_CLASSNOTAVAILABLE)).
 ```
 

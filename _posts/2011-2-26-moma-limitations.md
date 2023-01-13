@@ -16,6 +16,6 @@ http://mono-project.com/Guidelines:Application_Portability
 
 You must pay more attention to the guidelines, as this kind of issues are harder to identify and fix.
 
-So “check out your source code on Linux, build it in MonoDevelop and run your application” can be a good start. A crash can indeed tell you more than all the written words, and reveal how uniqueness your application is.
+So "check out your source code on Linux, build it in MonoDevelop and run your application" can be a good start. A crash can indeed tell you more than all the written words, and reveal how uniqueness your application is.
 
 Good luck.

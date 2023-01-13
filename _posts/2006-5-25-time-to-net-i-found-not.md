@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 ---
 (CSDN May 25, 2006)
 
-When developing the Tip of the Day feature, I decided to make it a separate executable. The advantage is that I can make a complete different version later without the Plus recompiling. However, some disadvantages can not be ignored. For example, there is no chance to add a ‘show tips on start’ checkbox.
+When developing the Tip of the Day feature, I decided to make it a separate executable. The advantage is that I can make a complete different version later without the Plus recompiling. However, some disadvantages can not be ignored. For example, there is no chance to add a "show tips on start" checkbox.
 <!--more-->
 
 I knew this advantage, and I accepted it. But there is another problem I have to see to.

@@ -14,9 +14,9 @@ However, lacking of samples makes me sad. I have been trying my best and wish so
 
 In this afternoon, I found out the following tips for starters,
 
-* Don’t try to load configuration from file at startup. It will make you nervous most of the time.
-* Don’t try to play too many features at first. The sample inside is in fact complicated than I imagine. So try one feature at a time.
-* Don’t try to migrate your project using this suite too fast. I have to split the tasks into pieces and migrate step by step.
+* Don't try to load configuration from file at startup. It will make you nervous most of the time.
+* Don't try to play too many features at first. The sample inside is in fact complicated than I imagine. So try one feature at a time.
+* Don't try to migrate your project using this suite too fast. I have to split the tasks into pieces and migrate step by step.
 
 It is funny to see that tool window classes can be converted to Singletons. That pattern also enables interactions between panels easily. However, I did not try this approach yet so I am not sure if it is a good practice.
 

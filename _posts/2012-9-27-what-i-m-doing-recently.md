@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What I’m Doing Recently"
+title: "What I'm Doing Recently"
 tags: Others
 permalink: /what-im-doing-recently-71cb38b0d35a
 excerpt_separator: <!--more-->
@@ -8,9 +8,9 @@ excerpt_separator: <!--more-->
 This blog has been quiet for a while, as I have been pretty busy on several projects, but trapped on an 2007 laptop.
 <!--more-->
 
-# Book Titled “More on Borland Legend”
+# Book Titled "More on Borland Legend"
 
-This is an old book I authored chapter by chapter between 2007 and 2009, which aimed to fill in the gaps of Gordon Li’s book Borland Legend.
+This is an old book I authored chapter by chapter between 2007 and 2009, which aimed to fill in the gaps of Gordon Li's book Borland Legend.
 
 I was inspired by Nick Hodges who is also writing a book via LeanPub. I found this is a better approach compared to Lulu in some aspects, so I would like to try it out and publish my book via it.
 
@@ -30,7 +30,7 @@ I am not supposed to comment much about the projects I am working on at office, 
 
 In the next few months, I get chances to plan several trips both nationally and internationally,
 
-* In November I will visit Microsoft’s Beijing office for a few days.
+* In November I will visit Microsoft's Beijing office for a few days.
 * In December I will go back to Wuhan for a few days, then Shenzhen for a while, and then Hong Kong for about a week.
 * In February 2013, I plan to visit Microsoft campus at Redmond if I am still MVP then for the MVP Summit. (I might also visit other cities on western coast, such as the bay area, if possible.)
 

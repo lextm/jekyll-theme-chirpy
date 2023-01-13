@@ -10,17 +10,17 @@ Our agent, snmpd.exe, supports all three SNMP versions. Then how to get data fro
 
 # SNMP v1 and v2c
 
-The community strings for both GET and SET operations are the same, “public”.
+The community strings for both GET and SET operations are the same, `public`.
 
 # SNMP v3
 
 Community names are obsolete, so snmpd.exe supports three users (to match three modes).
 
-* “neither” is the user for noAuthNoPriv mode. If you use it, remember to use default authentication provider and default privacy provider.
-* “auth” is the user for authNoPriv mode. It uses MD5 authentication provider whose phrase is “authentication”. Its privacy provider is still the default one.
-* “privacy” is the user for authPriv mode. It uses MD5 authentication provider whose phrase is “authentication”, but its privacy provider is the DES privacy provider whose phrase is “privacyphrase”.
+* `neither` is the user for noAuthNoPriv mode. If you use it, remember to use default authentication provider and default privacy provider.
+* `auth` is the user for authNoPriv mode. It uses MD5 authentication provider whose phrase is `authentication`. Its privacy provider is still the default one.
+* `privacy` is the user for authPriv mode. It uses MD5 authentication provider whose phrase is `authentication`, but its privacy provider is the DES privacy provider whose phrase is `privacyphrase`.
 
-Now let’s see if you are going to test out snmpd.exe using our command line tools what commands should be used.
+Now let's see if you are going to test out snmpd.exe using our command line tools what commands should be used.
 
 # SNMPGET
 

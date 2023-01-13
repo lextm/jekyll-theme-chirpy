@@ -5,7 +5,7 @@ tags: SNMP
 permalink: /snmp-design-another-parser-milestone-1000-ff525619b835
 excerpt_separator: <!--more-->
 ---
-On September 11, I received a mail from Robert Arnold that he can provide a bunch of MIB documents. So I asked him to package them to me. All those documents are taken from this web site. Robert wrote some scripts to grab documents from the pages, so I don’t need to navigate and copy contents.
+On September 11, I received a mail from Robert Arnold that he can provide a bunch of MIB documents. So I asked him to package them to me. All those documents are taken from this web site. Robert wrote some scripts to grab documents from the pages, so I don't need to navigate and copy contents.
 
 http://support.ipmonitor.com/mibs_byname_A.aspx
 <!--more-->

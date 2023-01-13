@@ -18,7 +18,7 @@ You can hardly believe that all dependencies we need are available on all of the
 
 Thus, soon I will publish the next major release of #SNMP, where only the core classes are available in a new assembly named SharpSnmpLib.Portable.dll. To consume all functionality platform specific assemblies are also required,
 
-* SharpSnmpLib.Full.dll (for .NET on Windows and Mono, and that’s why I don’t call it .Windows.dll)
+* SharpSnmpLib.Full.dll (for .NET on Windows and Mono, and that's why I don't call it .Windows.dll)
 * SharpSnmpLib.iOS.dll
 * SharpSnmpLib.Android.dll
 

@@ -28,25 +28,7 @@ Keywords: Classic
 User: N/A
 Computer: lextmserver
 Description:
-Application ‘MACHINE/WEBROOT/APPHOST/WEBAPPLICATION2’ with physical root ‘C:\Users\lextm\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\’ failed to start process with commandline ‘“%LAUNCHER_PATH%” %LAUNCHER_ARGS%’, ErrorCode = ‘0x80070002 : 0.
-Event Xml:
-<Event xmlns=”http://schemas.microsoft.com/win/2004/08/events/event">
-<System>
-<Provider Name=”IIS Express AspNetCore Module” />
-<EventID Qualifiers=”0">1000</EventID>
-<Level>2</Level>
-<Task>0</Task>
-<Keywords>0x80000000000000</Keywords>
-<TimeCreated SystemTime=”2017–06–06T00:11:19.057942800Z” />
-<EventRecordID>14095</EventRecordID>
-<Channel>Application</Channel>
-<Computer>lextmserver</Computer>
-<Security />
-</System>
-<EventData>
-<Data>Application ‘MACHINE/WEBROOT/APPHOST/WEBAPPLICATION2’ with physical root ‘C:\Users\lextm\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\’ failed to start process with commandline ‘“%LAUNCHER_PATH%” %LAUNCHER_ARGS%’, ErrorCode = ‘0x80070002 : 0.</Data>
-</EventData>
-</Event>
+Application 'MACHINE/WEBROOT/APPHOST/WEBAPPLICATION2' with physical root 'C:\Users\lextm\documents\visual studio 2017\Projects\WebApplication2\WebApplication2\' failed to start process with commandline '"%LAUNCHER_PATH%" %LAUNCHER_ARGS%', ErrorCode = '0x80070002 : 0.
 ```
 
 So it seems that there are two environment variables missing. Should you ask Google, you will see tons of posts on them, and people suggest they be set in `web.config` file. OK, can you follow them? Unfortunately, you cannot this time, as this project (from official template) has no `web.config` file at all,

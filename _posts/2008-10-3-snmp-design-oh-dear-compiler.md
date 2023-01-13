@@ -20,4 +20,4 @@ If the compiler works as expected, then these changes can happen immediately,
 * Only *.module files are needed by the library to create a basic tree.
 * The browser can use *.module files by default, and compile MIB documents to *.module files whenever a new document is added.
 
-Isn’t that wonder? I am going to prepare a performance report of this compiler prototype soon. Also, I hope I can create a GUI for this command line compiler, too. Luckily if all these new stuffs do not break the existing interfaces the browser relies on, I can make sure they won’t delay TwinTower.
+Isn't that wonder? I am going to prepare a performance report of this compiler prototype soon. Also, I hope I can create a GUI for this command line compiler, too. Luckily if all these new stuffs do not break the existing interfaces the browser relies on, I can make sure they won't delay TwinTower.

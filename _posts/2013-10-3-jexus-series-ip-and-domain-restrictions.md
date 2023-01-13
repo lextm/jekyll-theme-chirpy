@@ -16,7 +16,7 @@ It is very easy to translate the steps to Jexus.
 
 # Scenario 1
 
-When we specify `<ipSecurity allowUnlisted=”true” />` on IIS and add deny entries
+When we specify `<ipSecurity allowUnlisted="true" />` on IIS and add deny entries
 
 * 192.168.100.1
 * 169.254.0.0 with subnet mask 255.255.0.0
@@ -35,7 +35,7 @@ denyfrom=192.168.100.1,169.254.0.0/16
 
 # Scenario 2
 
-When we specify `<ipSecurity allowUnlisted=”false” />` on IIS and add allow entries
+When we specify `<ipSecurity allowUnlisted="false" />` on IIS and add allow entries
 
 * 192.168.100.1
 * 169.254.0.0 with subnet mask 255.255.0.0

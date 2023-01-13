@@ -24,7 +24,7 @@ Grant Brown
 
 ==========================
 
-This is another email sent from a CBC’s user. Thanks Grant.
+This is another email sent from a CBC's user. Thanks Grant.
 
 And the following is my reply:
 

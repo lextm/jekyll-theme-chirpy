@@ -11,7 +11,7 @@ We shall finally come to work on SNMP v3. But how to go there step by step? I ha
 1. Develop an SNMP v3 compliant manager to talk to that agent.
 1. Design necessary agent parts so that it can perform basic functions like its Net-SNMP counterpart.
 
-Good news is that I just finished the first critical task. Well, that’s a good start. Cooking Trident must be cooler :)
+Good news is that I just finished the first critical task. Well, that's a good start. Cooking Trident must be cooler :)
 
 # Updated:
 

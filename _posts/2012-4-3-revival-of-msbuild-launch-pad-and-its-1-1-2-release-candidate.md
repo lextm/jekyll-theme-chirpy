@@ -5,7 +5,7 @@ tags: .NET
 permalink: /revival-of-msbuild-launch-pad-and-its-1-1-2-release-candidate-d8a915e8366a
 excerpt_separator: <!--more-->
 ---
-I haven’t been updating mPad for a long time (since June 11, 2011). There was no strong drive because all major features have been implemented (though ugly, they work). I kind of forgot about it till this bug report came a few weeks ago,
+I haven't been updating mPad for a long time (since June 11, 2011). There was no strong drive because all major features have been implemented (though ugly, they work). I kind of forgot about it till this bug report came a few weeks ago,
 
 http://msbuildlaunchpad.codeplex.com/workitem/14833
 
@@ -18,7 +18,7 @@ This has been the best way to publish your .NET libraries (I published #SNMP Lib
 
 First, I removed nunit assembly from lib folder and UnitTests project reference list. Then within Visual Studio 11, I chosed Manage NuGet Packages… menu item from the context menu in Solution Explorer. Well, after that it is easy to search online for the latest NUnit package, and add it to UnitTests project. The magic is that NuGet automatically downloads the package to packages folder, extracts contents, and adds the correct reference for me. So of course I added moq in the same way.
 
-To make sure that I don’t need to check in NuGet packages to source control, I followed this article,
+To make sure that I don't need to check in NuGet packages to source control, I followed this article,
 
 http://docs.nuget.org/docs/workflows/using-nuget-without-committing-packages
 
@@ -44,7 +44,7 @@ So in the past few days, I extracted all such information into the app.config fi
 
 You can receive our latest change sets to see how the above changes have been made.
 
-Don’t forget to download the latest 1.1.2 RC,
+Don't forget to download the latest 1.1.2 RC,
 
 http://msbuildlaunchpad.codeplex.com/releases/view/47157
 

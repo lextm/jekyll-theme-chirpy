@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 ---
 (CSDN Sept 05, 2006)
 
-As a C#Builder user, I often find it hard to access the component I want when there are a lot of them inside a form or user control. What’s missing? A component tree. The Structure View is empty when you are editing WinForms or WebForms. This is very bad.
+As a C#Builder user, I often find it hard to access the component I want when there are a lot of them inside a form or user control. What's missing? A component tree. The Structure View is empty when you are editing WinForms or WebForms. This is very bad.
 <!--more-->
 
 # ArtCSB 2.5

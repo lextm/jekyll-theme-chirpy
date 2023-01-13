@@ -22,7 +22,7 @@ Below is a list that highlights the most important ones,
 
 We also resolved a few outstanding issues (memory, flickers for example). As a result, it is highly recommended that all users switch to this stable release.
 
-Starting from July, two Alpha builds of 2.11 release have been published. They feature a new mechanism called “patch controller”. We are now shipping a selection of unstable patches (enabled by default), and also providing users a few switches to disable them if needed. This allows more testing to be performed on those patches for us to collect feedback. If you like to stay on the bleeding edge, try them out and send us issue reports [at GitHub](https://github.com/dockpanelsuite/dockpanelsuite/issues).
+Starting from July, two Alpha builds of 2.11 release have been published. They feature a new mechanism called "patch controller". We are now shipping a selection of unstable patches (enabled by default), and also providing users a few switches to disable them if needed. This allows more testing to be performed on those patches for us to collect feedback. If you like to stay on the bleeding edge, try them out and send us issue reports [at GitHub](https://github.com/dockpanelsuite/dockpanelsuite/issues).
 
 # Documentation
 

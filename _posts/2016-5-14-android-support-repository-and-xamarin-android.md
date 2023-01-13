@@ -10,7 +10,7 @@ I have been playing with Xamarin.Android a little bit recently, and discovered s
 
 # Downloading Android Support Repository
 
-If you haven’t installed Android bits properly, the very first compilation of an Android project (in my case, a Xamarin.Forms project) would take a very long time. This initially seemed to be horrible, and even more for me as I am behind the Great Firewall of China, but I soon found out Xamarin Studio was trying to download one of the Android packages from Google, android_m2repository_r29.zip, aka Android Support Repository. The version number might be different on your machine based on a few factors (Xamarin.Android version I think).
+If you haven't installed Android bits properly, the very first compilation of an Android project (in my case, a Xamarin.Forms project) would take a very long time. This initially seemed to be horrible, and even more for me as I am behind the Great Firewall of China, but I soon found out Xamarin Studio was trying to download one of the Android packages from Google, android_m2repository_r29.zip, aka Android Support Repository. The version number might be different on your machine based on a few factors (Xamarin.Android version I think).
 
 It is rather strange in my case that Xamarin Studio wants to download release 29, while I have already installed release 30 from Android SDK Manager.
 
@@ -24,18 +24,18 @@ It turns out that such folders contain Java source files. Probably Xamarin.Forms
 
 Now comes the interesting part, where several error messages can appear if the above cache folder construction fails. Tons of posts are about them over the Internet, but few or none receives the necessary explanation from experts.
 
-> Typical Error 1: “_Unzipping failed. Please download https://dl-ssl.google.com/android/repository/android_m2repository_r29.zip and extract it to the .local/Xamarin/Xamarin.Android.Support.v4/23.3.0.0/content directory.”
+> Typical Error 1: "_Unzipping failed. Please download https://dl-ssl.google.com/android/repository/android_m2repository_r29.zip and extract it to the .local/Xamarin/Xamarin.Android.Support.v4/23.3.0.0/content directory."
 
 The exact cause of the above error, is that during the download process, something broke the ZIP package. Then Xamarin Studio would not be able to extract the necessary files to construct the folders.
 
 Solutions can be,
 
 * Remove the corrupt ZIP package under ~/.local/share/Xamarin/zips and try to compile again. This will trigger another download and it might work fine.
-* Or you manually download the ZIP package, and use it to replace the corrupt ZIP package under ~/.local/share/Xamarin/zips. Note that the file name must match, or Xamarin Studio will start to download it again. Don’t follow the error message to extract to …/content folder, as that won’t work.
+* Or you manually download the ZIP package, and use it to replace the corrupt ZIP package under ~/.local/share/Xamarin/zips. Note that the file name must match, or Xamarin Studio will start to download it again. Don't follow the error message to extract to …/content folder, as that won't work.
 
 The version number might not be 29 in your case, and then simply use the version required by the error message.
 
-> Typical Error 2: “Android resource directory .local/Xamarin/Xamarin.Android.Support.v4/23.3.0.0/embedded doesn’t exist”
+> Typical Error 2: "Android resource directory .local/Xamarin/Xamarin.Android.Support.v4/23.3.0.0/embedded doesn't exist"
 
 The cause is quite similar to case 1. The solution is to clean the solution and recompile. It should trigger the download automatically. Then if you hit case 1, you can follow the solutions above.
 

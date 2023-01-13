@@ -5,7 +5,7 @@ tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-recommendation-8148575027cf
 excerpt_separator: <!--more-->
 ---
-Dear users, although I am trying to release a new update for HardQuery series (5.3.4.1001 is the first Release Candidate), there is something I won’t fix in this update (or later updates).
+Dear users, although I am trying to release a new update for HardQuery series (5.3.4.1001 is the first Release Candidate), there is something I won't fix in this update (or later updates).
 <!--more-->
 
 # No Vista support in HardQuery
@@ -20,4 +20,4 @@ RAD Studio 2007 is partially built on .NET 2.0 so HardQuery which is compiled ag
 
 # Conclusion
 
-If you want to upgrade your IDE, please take a look at GrapeVine at [CBC Homepage](http://code.google.com/p/lextudio). If you prefer to use Delphi 2006 and lower, don’t install HardQuery on Vista.
+If you want to upgrade your IDE, please take a look at GrapeVine at [CBC Homepage](http://code.google.com/p/lextudio). If you prefer to use Delphi 2006 and lower, don't install HardQuery on Vista.

@@ -18,7 +18,7 @@ Early this month, this discussion thread attracted my attention, which mentioned
 
 If you happen to be interesting in MonoTouch and Mono for Android, now you might try out [the unofficial #SNMP port](https://github.com/moljac/MonoMobile.SharpSNMP) from GitHub.
 
-Miljenko (mel) has started to work on a port of BigDipper (#SNMP 7.5), and let’s see if this latest monster can be turned into something good on mobile platforms.
+Miljenko (mel) has started to work on a port of BigDipper (#SNMP 7.5), and let's see if this latest monster can be turned into something good on mobile platforms.
 
 I will keep an eye on the new attempt and see when and in which way we can accept the changes in official repository.
 

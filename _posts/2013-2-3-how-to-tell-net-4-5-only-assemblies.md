@@ -12,7 +12,7 @@ http://www.hanselman.com/blog/NETVersioningAndMultiTargetingNET45IsAnInplaceUpgr
 
 However, one piece of information is missing from that article. Given a .NET assembly, something.dll, how can I tell it is compiled against .NET 4 or .NET 4.5?
 
-“Why does it matter”? you might ask, but if you happen to run a .NET 4.5 assembly on .NET 4 you will get a miserable exception. This also applies to Mono stable releases (2.10.\*), as .NET 4.5 support comes from 3.0.\*.
+"Why does it matter"? you might ask, but if you happen to run a .NET 4.5 assembly on .NET 4 you will get a miserable exception. This also applies to Mono stable releases (2.10.\*), as .NET 4.5 support comes from 3.0.\*.
 
 If you happen to use a decompiler such as JustDecompile from Telerik, it is easy to open the assembly and see whether it is marked as .NET 4.5.
 

@@ -11,7 +11,7 @@ Steve have just checked in a few changes on the browser side,
 * Save in Output panel. Now you can save logs in this panel to an external file. This is convenient for debugging but also useful if you want to back up the logs.
 <!--more-->
 
-The SET dialogue is the last piece to enhance for TwinTower on Steve’s list, so we can expect RC3 to be released soon.
+The SET dialogue is the last piece to enhance for TwinTower on Steve's list, so we can expect RC3 to be released soon.
 
 If you monitor the Discussion board, you may find out new bug reports like this one. OK, this one really reveals that the old versions must be retired as soon as possible. After checking the Issue Tracker, I suddenly realized that I have done so many during August and September. Therefore, now Unicorn Refresh is no longer the default release.
 

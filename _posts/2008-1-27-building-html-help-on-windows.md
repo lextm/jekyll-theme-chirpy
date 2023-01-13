@@ -16,7 +16,7 @@ For .NET developers, compilers make documenting of assemblies (DLLs and EXEs) mu
 
 Now you have all the toolset ready. Begin to configure your project in Visual Studio.
 
-Open your project’s Properties dialogue and switch to Build tab. Then you must check the XML documentation file box.
+Open your project's Properties dialogue and switch to Build tab. Then you must check the XML documentation file box.
 
 After building the project, you can see in the output folder a new XML file which contains XML comment extracted from your source code.
 

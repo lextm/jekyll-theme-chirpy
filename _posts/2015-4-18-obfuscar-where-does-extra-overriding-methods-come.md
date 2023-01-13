@@ -6,7 +6,7 @@ excerpt_separator: <!--more-->
 ---
 An issue has been reported to me one year ago, but I could not easily fix it as the code base was not quite clear where the bug comes from exactly.
 
-Don’t get me wrong. It is pretty easy to reproduce it, and then analyze the IL instruction with ILSpy. But even if the cause is identified, the difficulty is how to properly fix it. So let’s review the technical details and see why this issue occurs first.
+Don't get me wrong. It is pretty easy to reproduce it, and then analyze the IL instruction with ILSpy. But even if the cause is identified, the difficulty is how to properly fix it. So let's review the technical details and see why this issue occurs first.
 <!--more-->
 
 # The Wrong Obfuscation Process

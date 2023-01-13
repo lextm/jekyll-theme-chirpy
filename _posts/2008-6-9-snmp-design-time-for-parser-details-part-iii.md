@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 ---
 # How to parse so many file in order? And how can I add more files to ObjectRegistry?
 
-Even though right now the parser is still experimental, ObjectRegistry parses over sixty documents at startup. In this way you don’t need to have basic documents at hand before using #SNMP. Hope this helps.
+Even though right now the parser is still experimental, ObjectRegistry parses over sixty documents at startup. In this way you don't need to have basic documents at hand before using #SNMP. Hope this helps.
 <!--more-->
 
 So back to the first question, how to order those files is in fact EASY. If you take a look at the source code, you can see I cache all documents/modules in a list, and parse them until all their dependencies are parsed ahead.

@@ -36,4 +36,4 @@ NDepend provides a powerful query language named Code Query Language for you to 
 
 # Conclusion
 
-You’d better start new projects with these cops so they can help you from day one. And if you use them to analyze a legacy project, there might be thousands of violations.
+You'd better start new projects with these cops so they can help you from day one. And if you use them to analyze a legacy project, there might be thousands of violations.

@@ -12,7 +12,7 @@ Right now after countless rounds of refactorings, I successfully cut off most li
 
 However, this is not what the marketing department wants. One message from our customers is that the user interface is not friendly enough compared to other Windows applications.
 
-In order to avoid unpredictable consequences, I won’t take the risks to publish a photo here to illustrate why that UI is bad. All I could tell is that every operation is done in a modal dialogue. So you always see a dialogue popping up and away.
+In order to avoid unpredictable consequences, I won't take the risks to publish a photo here to illustrate why that UI is bad. All I could tell is that every operation is done in a modal dialogue. So you always see a dialogue popping up and away.
 
 That was the Win 9x way. Now on Windows XP and Windows Vista, Microsoft promotes more natural UI styles hard. Two examples are Visual Studio .NET and Office 2007.
 

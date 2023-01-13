@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 
 This is a latest report on NuGet on Mono (assuming you are using Mono 3.2.7)
 
-NuGet pack still breaks. I am still investigating on what’s wrong.
+NuGet pack still breaks. I am still investigating on what's wrong.
 NuGet package restore still breaks, due to [a Mono xbuild bug](https://bugzilla.xamarin.com/show_bug.cgi?id=17802), which I just reported.
 <!--more-->
 
@@ -21,7 +21,7 @@ Thus, if you meet the following error message during a build, you hit exactly th
 /home/lextudio/sharpsnmplib/SharpSnmpLib/SharpSnmpLib.csproj (default targets) ->
 /home/lextudio/sharpsnmplib/.nuget/NuGet.targets (RestorePackages target) ->
 
-/home/lextudio/sharpsnmplib/.nuget/NuGet.targets: error : Command ‘mono — runtime=v4.0.30319 /home/lextudio/sharpsnmplib/.nuget/NuGet.exe install “” -source “” -RequireConsent -solutionDir “/home/lextudio/sharpsnmplib/”’ exited with code: 1.
+/home/lextudio/sharpsnmplib/.nuget/NuGet.targets: error : Command 'mono — runtime=v4.0.30319 /home/lextudio/sharpsnmplib/.nuget/NuGet.exe install "" -source "" -RequireConsent -solutionDir "/home/lextudio/sharpsnmplib/"' exited with code: 1.
 ```
 
 If Mono guys fix this issue, I will test again to see if everything works as expected.

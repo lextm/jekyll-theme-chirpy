@@ -10,7 +10,7 @@ IIS 7 (7.0 on Windows Vista and Windows Server 2008, or 7.5 on Windows 7 and Win
 
 Then why may CBS ever be corrupt without any hint? Possible causes are listed below,
 
-1. You have run a “so called” registry optimization software. I believe the vendors neither fully test such products nor have a close enough relationship with Microsoft to learn about every registry keys. So stay away from them.
+1. You have run a "so called" registry optimization software. I believe the vendors neither fully test such products nor have a close enough relationship with Microsoft to learn about every registry keys. So stay away from them.
 1. You have hardened the box. In some firms (financial firms especially), such hardening is mandatory for every server boxes. However, if the process is not Microsoft certified and indeed some registry or permission is changed wrongly, you will end up with lots of problems including this IIS one.
 1. Windows Update process ended abnormally and broke CBS (like turning off Windows protection when Windows Update is in progress).
 1. Many others…

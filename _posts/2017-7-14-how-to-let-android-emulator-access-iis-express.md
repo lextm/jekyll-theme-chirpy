@@ -14,7 +14,7 @@ I bet this question has been asked a million of times, but hope not every blog p
 First tip you should understand is that the Android emulator (a virtual device) has its own networking. So Google defines a magic IP address `10.0.2.2`. If you try to browse to this IP address, the requests would be routed to `127.0.0.1` loopback adapter of the host machine. (Later I will give you proof on the magic routing.)
 
 Such a magic can be quite useful if you host your test web site on IIS and that site monitors all network adapters. One such example is the Default Web Site, whose has one important HTTP binding `*:80:*`. So the Default Web Site would be able to serve all incoming HTTP requests at port 80 on all network adapters, including requests to `http://10.0.2.2(:80)` from the Android emulator.
-However, this magic won't work for IIS Express by default, if your site has only an HTTP binding like `*: 61902:localhost`”`, and you might see an error like this, ("Bad Request - Invalid Hostname", "HTTP Error 400. The request hostname is invalid.")
+However, this magic won't work for IIS Express by default, if your site has only an HTTP binding like `*: 61902:localhost`, and you might see an error like this, ("Bad Request - Invalid Hostname", "HTTP Error 400. The request hostname is invalid.")
 
 ![img-description](/images/emulator-400.png)
 _Figure 1: Android emulator 400 error page._

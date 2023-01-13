@@ -5,7 +5,7 @@ tags: Windows
 permalink: /windows-xp-everywhere-eecd7661cc58
 excerpt_separator: <!--more-->
 ---
-We all know that Windows XP is a great product. It is so great that sometimes you don’t know its existence.
+We all know that Windows XP is a great product. It is so great that sometimes you don't know its existence.
 <!--more-->
 
 ![img-description](/images/xp-subway-1.jpg)

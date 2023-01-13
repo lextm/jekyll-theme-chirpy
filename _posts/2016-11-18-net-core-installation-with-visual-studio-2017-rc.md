@@ -12,7 +12,7 @@ Microsoft announced Visual Studio 2017 RC on Microsoft Connect so I guess you al
 ![img-description](/images/net-core-installed.png)
 _Figure 1: .NET Core bits installed along with Visual Studio 2017._
 
-Well, easily you can see a list of installed products on your machine from Control Panel | Programs, whose names are really confusing. Let’s try to understand them in the following way.
+Well, easily you can see a list of installed products on your machine from Control Panel | Programs, whose names are really confusing. Let's try to understand them in the following way.
 
 # .NET Core 1.0.0 Family
 The 1.0.0 release was published in June. So the first three items are related to it.
@@ -29,9 +29,9 @@ T* he Windows Server Hosting should be ASP.NET Core module for IIS.
 * It has VS 2015 Tooling Preview 2.
 
 # My Guess
-* 1.0.1 does not have an individual runtime because it is only a patched release and many bits can reuse 1.0.0’s.
+* 1.0.1 does not have an individual runtime because it is only a patched release and many bits can reuse 1.0.0's.
 * Its Preview 2 SDK is provided to match 1.0.0 release. If any project with global.json mandates this SDK version, then it can still work.
 * Preview 3 is the version that MSBuild support is back.
-* Once the SDK and VS Tooling reaches RTM, we won’t need to be confused by their versions.
+* Once the SDK and VS Tooling reaches RTM, we won't need to be confused by their versions.
 
 I will do more digging to see what else I can find.

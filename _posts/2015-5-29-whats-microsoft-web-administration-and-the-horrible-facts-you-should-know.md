@@ -38,4 +38,4 @@ Comparing to the above, they seem to be so tiny, but still noticeable,
 # Side Notes
 Last but not least, I am working on a fully managed implementation of MWA as part of the Jexus Manager project. More information on that will come unexpectedly on this blog, so stay tuned.
 
-(Updated on Feb 10, 2016: The Jexus Manager version of Microsoft.Web.Administration is now open source, https://halfblood.pro/2015/12/jexus-manager-the-open-source-plan/)
+(Updated on Feb 10, 2016: The Jexus Manager version of Microsoft.Web.Administration [is now open source](/jexus-manager-the-open-source-plan-4977676be99e)

@@ -14,6 +14,6 @@ Second, it may not be feasible if an exception is raised when you try to get a b
 
 http://www.codeplex.com/sharpsnmplib/Thread/View.aspx?ThreadId=38909
 
-That’s all for this week. Stay tuned.
+That's all for this week. Stay tuned.
 
-BTW, if you are interested, I suggest you watch PDC 2008 recordings to know more about Microsoft platforms. They are amazing! I love Miguel’s Mono session a lot. But you will find it even more funny if you watch Anders Hejlsberg’s session at first. Follow my suggestion and you will see why. :)
+BTW, if you are interested, I suggest you watch PDC 2008 recordings to know more about Microsoft platforms. They are amazing! I love Miguel's Mono session a lot. But you will find it even more funny if you watch Anders Hejlsberg's session at first. Follow my suggestion and you will see why. :)

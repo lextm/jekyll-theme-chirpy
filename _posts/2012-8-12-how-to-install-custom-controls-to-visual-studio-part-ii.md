@@ -22,8 +22,8 @@ Now you should be able to start working on your own installer. Good luck.
 
 # Sidenote on SharpDevelop
 
-If you are a control vendor that also wants to support SharpDevelop users, you might note that SharpDevelop does not try to locate design time support assemblies following Visual Studio’s approach. Instead, [SharpDevelop reads its own bin folder](https://github.com/lextm/ActionListWinForms/issues/10).
+If you are a control vendor that also wants to support SharpDevelop users, you might note that SharpDevelop does not try to locate design time support assemblies following Visual Studio's approach. Instead, [SharpDevelop reads its own bin folder](https://github.com/lextm/ActionListWinForms/issues/10).
 
-Besides, I did not yet find a way to automate changes to SharpDevelop’s tool box.
+Besides, I did not yet find a way to automate changes to SharpDevelop's tool box.
 
 So in all, it is reasonable to write a good FAQ article specifically for SharpDevelop users to show them how to manually create the tool box items and add the design time support.
