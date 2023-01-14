@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 Ribbon UI is cool. If you have tried Office 2007, InstallAware 7, or NDepend, you know why it is cool. Although there are negative comments, I really find Ribbon UI a good way to organize so many commands in a rational manner (don't know why Microsoft decides to call it Fluent UI at last).
 <!--more-->
 
-It is easy to see Ribbon not always a correct option (and probably that is why Microsoft makes Ribbon UI licensing this complex — Ribbon is not a silver bullet.) For example, my project at office has only about twenty menu items at all. If I move it to Ribbon, there would be a lot of empty space in the panels which is very ugly. Although I got a license for r.a.d. Ribbonbar after registering Visual Studio 2005, I would not use it until the time is right.
+It is easy to see Ribbon not always a correct option (and probably that is why Microsoft makes Ribbon UI licensing this complex, Ribbon is not a silver bullet). For example, my project at office has only about twenty menu items at all. If I move it to Ribbon, there would be a lot of empty space in the panels which is very ugly. Although I got a license for r.a.d. Ribbonbar after registering Visual Studio 2005, I would not use it until the time is right.
 
 In my case, menu and bar style is enough. Therefore, I have been working on tool strips heavily lately.
 

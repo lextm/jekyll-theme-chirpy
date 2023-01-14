@@ -17,7 +17,7 @@ Thus, I love the new design of IIS 7+ (7.0, 7.5, and 8.0) which provides a detai
 OK, below is an example,
 
 > **Error Summary**\
-> HTTP Error 500.0 — Internal Server Error\
+> HTTP Error 500.0 - Internal Server Error\
 > Internal Server Error\
 > **Detailed Error Information**\
 > Module URLRewrite\

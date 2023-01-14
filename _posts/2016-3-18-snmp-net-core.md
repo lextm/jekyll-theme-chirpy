@@ -26,7 +26,6 @@ excerpt_separator: <!--more-->
 ``` cmd
 C:\Program Files (x86)\Microsoft Visual Studio 14.0>dnvm list
 Active Version Runtime Architecture Location Alias
-— — — — — — — — — — — — — — — — –
 1.0.0-rc1-final clr x86 C:\Users\lextm\.dnx\runtimes
 1.0.0-rc1-update1 clr x64 C:\Users\lextm\.dnx\runtimes
 * 1.0.0-rc1-update1 clr x86 C:\Users\lextm\.dnx\runtimes default

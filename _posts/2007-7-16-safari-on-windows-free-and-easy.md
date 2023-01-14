@@ -14,5 +14,5 @@ Nice UI, and similar shortcuts as Firefox (like Firefox in iTunes theme). Firefo
 
 For me, Firefox is a better one. And I surely will give Safari a try.
 
-(Updated: If you are a Chinese like me, you will find it impossible to input Chinese with Google Pinyin. I do not try other input method because I love Google Pinyin. I have reported this to Apple. Wish they can find a solution soon. In this aspect, Firefox 3 Alpha — Gran Paradiso plays much better.)
+(Updated: If you are a Chinese like me, you will find it impossible to input Chinese with Google Pinyin. I do not try other input method because I love Google Pinyin. I have reported this to Apple. Wish they can find a solution soon. In this aspect, Firefox 3 Alpha (Gran Paradiso) plays much better.)
 <!--more-->

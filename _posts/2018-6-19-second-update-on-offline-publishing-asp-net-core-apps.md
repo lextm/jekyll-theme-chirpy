@@ -51,9 +51,9 @@ Of course, it asks for new version 2.1.0 of the following,
 You should notice that even if the ASP.NET Core MVC sample was created in 2.0 time frame, compiling and running it using 2.1 toolchain changes the behaviors. For example, now this app listens on both `http://localhost:5000` and `https://localhost:5001`. And that's why when you first compile it, the dotnet command would display the following message,
 
 > ASP.NET Core
-> — — — — — —
+> ------------
 > Successfully installed the ASP.NET Core HTTPS Development Certificate.
 >
-> To trust the certificate run `dotnet dev-certs https — trust` (Windows and macOS only). For establishing trust on other platforms refer to the platform specific documentation.
+> To trust the certificate run `dotnet dev-certs https --trust` (Windows and macOS only). For establishing trust on other platforms refer to the platform specific documentation.
 >
 > For more information on configuring HTTPS see https://go.microsoft.com/fwlink/?linkid=848054.

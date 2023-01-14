@@ -41,7 +41,7 @@ If you haven't watched the video clips I mentioned in part I, please watch them 
 
 http://antlr.org/download.html
 
-I am using Version 1.4.3 — for Windows, Linux and Mac OS X right now.
+I am using Version 1.4.3 for Windows, Linux and Mac OS X right now.
 
 We need ANTLRWorks because it is still the best way to debug grammar files.
 

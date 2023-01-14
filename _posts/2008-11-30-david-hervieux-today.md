@@ -21,5 +21,5 @@ It is today that I finally make a tough decision to stop working on CBC. When I 
 
 Thank you so much. I'd like to add you to my professional network on LinkedIn. 
 
-— Lex
+- Lex
 ```

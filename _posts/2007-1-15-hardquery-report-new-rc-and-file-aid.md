@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 
 Lately I have been working on the UI, or more precise, the forms and dialogs. As a result, the File Aid feature is a good assistant. However, David's implementation is buggy because of OTA bugs. Not all Forms are listed in the WinForms Tab.
 
-In this latest buildI present a brand new File Aid. Everything is redone and Interpreter Pattern is used to make code clean — — I am not sure if it is Pattern Happy here.
+In this latest buildI present a brand new File Aid. Everything is redone and Interpreter Pattern is used to make code clean. I am not sure if it is Pattern Happy here.
 
 I have been working on HardQuery for a long time, and I wish Highlander could be released by CodeGear soon. Only after that I can build some GrapeVine, isn't it?
 

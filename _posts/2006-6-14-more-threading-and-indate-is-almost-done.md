@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 ---
 (CSDN June 14, 2006)
 
-.NET threading is not quite hard, if you only use a few threads. For example, two or three threads are used in InDate (in Integrated mode — three threads, standalone mode two).
+.NET threading is not quite hard, if you only use a few threads. For example, two or three threads are used in InDate (in Integrated mode three threads, standalone mode two).
 <!--more-->
 
 In order to make the textbox unlocked when updating, I saw to SDK document and found a DirectorySearcher sample.

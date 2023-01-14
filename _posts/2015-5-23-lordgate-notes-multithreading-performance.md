@@ -26,7 +26,7 @@ public void TestResponses()
 
     var time = DateTime.Now;
     engine.Start();
-    Console.WriteLine(DateTime.Now — time);
+    Console.WriteLine(DateTime.Now - time);
 
     const int timeout = 100000;
     for (int index = start; index < end; index++) // in sync

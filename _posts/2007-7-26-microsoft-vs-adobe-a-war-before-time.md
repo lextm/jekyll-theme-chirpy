@@ -19,7 +19,7 @@ Who will win? I have a guess. Who wins developers' hearts who wins at last.
 
 Visual Studio and Expression Studio may provide some advantages over Adobe. Up-to-now, I see XPS format easier to manipulate than Adobe PDF format because it is XML based. I see XAML great for building GUI (also XML based), but Adobe fails to provide a similar language. Even at this moment, I see no easy way to set up a development environment for Adobe technology (I am not a Java guy, so if Eclipse supports Adobe technology please let me know).
 
-IMHO, Microsoft has more experience in this field — winning developers, so although Adobe starts as the dominator, it may lose in the end.
+IMHO, Microsoft has more experience in this field of winning developers, so although Adobe starts as the dominator, it may lose in the end.
 
 BTW, I am not quite biased even if I use Visual Studio 2005 every day. I am just wishing Adobe could learn from Microsoft in certain aspects, make it easy to learn and develop with its technology.
 <!--more-->

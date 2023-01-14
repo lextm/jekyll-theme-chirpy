@@ -94,7 +94,7 @@ Well, you might have heard the term root a thousand times but never know what it
 
 I personally chose SuperSU, http://forum.xda-developers.com/showthread.php?t=1538053. We need to download a .zip package from http://download.chainfire.eu/350/SuperSU/UPDATE-SuperSU-v1.60.zip
 
-To install the .zip package, use CWM *install from zip* menu, and then choose UPDATE-SuperSU-v1.60.zip. Choose *Yes — install ****.zip* option. Once done, go back and select Reboot menu.
+To install the .zip package, use CWM *install from zip* menu, and then choose UPDATE-SuperSU-v1.60.zip. Choose *Yes - install ****.zip* option. Once done, go back and select Reboot menu.
 
 # Bootloader S-OFF
 

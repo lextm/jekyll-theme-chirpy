@@ -18,7 +18,7 @@ Sometimes I do use Ubuntu to try out new techniques on Linux, where Vault client
 
 In all, if you want to target enterprise market, you'd better choose some platform independent language, such as Java, standard C++, Ruby, PHP, Python and so on. Only in that way, you can see your customers running your applications smoothly on most platforms.
 
-(Updated: Paul, thanks for your comments. I know there are changes in Vault, and the Eclipse plug-in is a very promising one. However, there are still lots of things on the TODO list — like better Linux support without Eclipse. For an Embedded Software Engineer working on Linux, Eclipse is not a quite convenient IDE writing C/C++ code IMHO (I personally prefer NetBeans). Maybe SourceGear can follow Teamprise's way, develop a client with Eclipse RCP.
+(Updated: Paul, thanks for your comments. I know there are changes in Vault, and the Eclipse plug-in is a very promising one. However, there are still lots of things on the TODO list, like better Linux support without Eclipse. For an Embedded Software Engineer working on Linux, Eclipse is not a quite convenient IDE writing C/C++ code IMHO (I personally prefer NetBeans). Maybe SourceGear can follow Teamprise's way, develop a client with Eclipse RCP.
 
 I admire your Vault guys because I do C# programming, too. Vault is so amazing that it is totally built on .NET. The only pity is that Microsoft does not want .NET to go anywhere like Java and Mono is net yet strong enough.
 

@@ -17,4 +17,4 @@ I decided to release M7 as the last milestone for HardQuery, but it had some bug
 
 Also, many beta features are disabled as I wish to do in the final. NFamily is now disabled by default. ComponentNamer in WiseEditor Plus is disabled, too.
 
-Yesterday I built a new plus — — ArtCSB Plus based on an open source project ArtCSB. A Beta version of that will be included in HardQuery Final. You should find it quite useful if you do a lot of WinForms or WebForms development.
+Yesterday I built a new plus, ArtCSB, Plus based on an open source project ArtCSB. A Beta version of that will be included in HardQuery Final. You should find it quite useful if you do a lot of WinForms or WebForms development.

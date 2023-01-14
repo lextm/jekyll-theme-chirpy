@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 
 Artyom Fedyuk created ArtCSB. However, this useful plug in was not updated for a long period. As a result, users can not easily get a version for delphi 2005 and delphi 2006.
 
-Since HardQuery Final, a new Plus — — ArtCSB Plus has been added in CBC. It based on ArtCSB 2.5, and included modifications that made it LeXDK compatible.
+Since HardQuery Final, a new Plus, ArtCSB Plus, has been added in CBC. It based on ArtCSB 2.5, and included modifications that made it LeXDK compatible.
 <!--more-->
 
 Last time, I only ported Designer Navigator feature. Today I am glad to announce that all left features are ported into ArtCSB Plus.

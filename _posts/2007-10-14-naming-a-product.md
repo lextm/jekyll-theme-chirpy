@@ -5,7 +5,7 @@ tags: .NET Mono
 permalink: /naming-a-product-66116a87099c
 excerpt_separator: <!--more-->
 ---
-Sometimes it is funny to see how people name products. Yes, if you are not a programmer, what you will think of the relationship among them when you read these names — Silverlight, Moonlight, and Flash?
+Sometimes it is funny to see how people name products. Yes, if you are not a programmer, what you will think of the relationship among them when you read these names of Silverlight, Moonlight, and Flash?
 <!--more-->
 
 > a Flash is Silver light.

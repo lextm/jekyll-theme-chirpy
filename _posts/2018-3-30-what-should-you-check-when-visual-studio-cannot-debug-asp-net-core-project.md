@@ -34,9 +34,9 @@ Wait a minute, and it does say 'IIS Express', a very special term that might be 
 
     C:\Users\lextm\source\repos\mvccoretest\.vs\config\applicationhost.config(12): within this file and are understood by the IIS Express.
 
-    C:\Users\lextm\source\repos\mvccoretest\.vs\config\applicationhost.config(14): %IIS_USER_HOME% — The IIS Express home directory for the user
+    C:\Users\lextm\source\repos\mvccoretest\.vs\config\applicationhost.config(14): %IIS_USER_HOME% - The IIS Express home directory for the user
 
-    C:\Users\lextm\source\repos\mvccoretest\.vs\config\applicationhost.config(16): %IIS_BIN% — The location of the IIS Express binaries
+    C:\Users\lextm\source\repos\mvccoretest\.vs\config\applicationhost.config(16): %IIS_BIN% - The location of the IIS Express binaries
 
     Matching lines: 4 Matching files: 2 Total files searched: 54
 ```

@@ -21,7 +21,7 @@ Since version 5.2, more features from classic helpers, such as ArtCSB, Sharp Bui
 Brand new features include Source Navigator, AutoSave and so on. Below is a list of major changes:
 
 1. \+ LeXDK Property Registry and Serialization Service.
-1. — Preferences Service is removed.
+1. \- Preferences Service is removed.
 1. \+ ProjectActivator and Source Navigator feature added in WiseEditor.
 1. \+ Unhandled exceptions can all be caught.
 1. \+ Rest of ArtCSB and Sharp Builder Tools features are added.

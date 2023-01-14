@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "动态语言 — — BEA User Group之后的一点想法"
+title: "动态语言，BEA User Group之后的一点想法"
 tags: Java
 permalink: /动态语言-bea-user-group之后的一点想法-2ce5eefdde7c
 excerpt_separator: <!--more-->

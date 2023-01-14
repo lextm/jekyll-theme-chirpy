@@ -18,7 +18,7 @@ For me, a guy full of adventurous ideas, Delphi 7 was too old. So, I tried my be
 
 Luckily, JCF provides me a command line tool named `jcf.exe` which run very similarly to AStyle. JCF is under Mozilla license, while AStyle is under GPL, so both are free and open-source.
 
-AStyle is so powerful that it formats Java/C/C++/C# files. Also, it implements useful build-in styles. So I make no second choice (a BCB plug-in — SourceFormat — utilizes another C++ beautifier, but I never try it).
+AStyle is so powerful that it formats Java/C/C++/C# files. Also, it implements useful build-in styles. So I make no second choice (a BCB plug-in, SourceFormat, utilizes another C++ beautifier, but I never try it).
 
 Compared to AStyle, JCF lacks of build-in styles, but it provides an alternative mechanism. You can use a cfg file to store your style, and call it whenever formatting. I would employ this feature to provide CBC users with some more styles (but this styles will be built-in CBC then) in future versions.
 

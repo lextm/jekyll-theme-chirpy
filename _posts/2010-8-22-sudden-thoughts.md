@@ -10,13 +10,13 @@ excerpt_separator: <!--more-->
 ``` text
 lextm: 每次听到As Long As You Love Me和Miss You的时候心情总是无法平静。也算是光辉岁月的美好回忆了。
 
-PENG WU — 有爱情滋润的人，越发阳光和成熟了！Aug 15
+PENG WU - 有爱情滋润的人，越发阳光和成熟了！Aug 15
 
-陈正熙 — 发情了？Aug 15
+陈正熙 - 发情了？Aug 15
 
-朱骏涛 — 你是哪个单位的啊，谁让你知道那么多的啊Aug 16
+朱骏涛 - 你是哪个单位的啊，谁让你知道那么多的啊Aug 16
 
-david xiao — although loneliness has always been a friend of mine
+david xiao - although loneliness has always been a friend of mine
 
 Aug 18
 ```

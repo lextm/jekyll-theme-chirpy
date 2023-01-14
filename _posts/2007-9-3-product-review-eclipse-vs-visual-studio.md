@@ -16,7 +16,7 @@ Why Eclipse win my heart? Important points are,
 1. So many plug ins. Up to now, I see no major companies create plug ins for Visual Studio. IBM, Oracle, Rad Hat are all Eclipse biased.
 1. Big community. Even though there is no MSDN on Eclipse side, user base of Eclipse is rather large. So many languages host themselves in Eclipse so as to target most platforms so for a long period, I believe all languages would be integrated into the IDE one day.
 
-However, we have to confess there is no silver bullet. Even Eclipse has a weak point that nobody can ignore — it must be extended using Java.
+However, we have to confess there is no silver bullet. Even Eclipse has a weak point that nobody can ignore that it must be extended using Java.
 
 Sometimes, Visual Studio is still the only choice. The good news is that both side start to learn from each other.
 

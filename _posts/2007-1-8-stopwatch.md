@@ -376,7 +376,7 @@ namespace Lextm.Diagnostics {
         private int lastValueBeforeInterval;
 
         public override void Suspend( Lextm.Diagnostics.Stopwatch context ) {
-            int valueBeforeSleep = Environment.TickCount — lastTick;
+            int valueBeforeSleep = Environment.TickCount - lastTick;
             int lastInterval = GetInterval();
             SetState(context, new Idle(valueBeforeSleep, lastInterval));
         }
@@ -389,15 +389,15 @@ namespace Lextm.Diagnostics {
         }
 
         public override int GetInterval( ) {
-            int result = (Environment.TickCount — lastTick) — lastValueBeforeInterval;
-            lastValueBeforeInterval = (Environment.TickCount — lastTick);
+            int result = (Environment.TickCount - lastTick) - lastValueBeforeInterval;
+            lastValueBeforeInterval = (Environment.TickCount - lastTick);
             return result;
         }
 
         public override void Start( Lextm.Diagnostics.Stopwatch context ) {}
 
         public override int GetValue( ) {
-            return Environment.TickCount — lastTick;
+            return Environment.TickCount - lastTick;
         }
 
         public Working( ) :
@@ -407,8 +407,8 @@ namespace Lextm.Diagnostics {
             this(value, 0) {}
 
         public Working( int value, int interval ) {
-            lastTick = Environment.TickCount — value;
-            lastValueBeforeInterval = value — interval;
+            lastTick = Environment.TickCount - value;
+            lastValueBeforeInterval = value - interval;
         }
     }
 }

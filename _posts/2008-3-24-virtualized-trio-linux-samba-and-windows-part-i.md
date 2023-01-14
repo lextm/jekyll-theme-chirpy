@@ -53,7 +53,7 @@ In Fedora it is quite easy to configure one more setting, the users. However, Ub
 https://help.ubuntu.com/community/SettingUpSamba
 
 ``` bash
-sudo  smbpasswd -a username
+sudo smbpasswd -a username
 
 New SMB password:
 Retype new SMB password:

@@ -35,14 +35,14 @@ Configuration: Debug Platform: AnyCPU
 : error : Error building target CheckPrerequisites: Exception has been thrown by
 the target of an invocation.
 Done building project "E:\Projects\sharpsnmplib\SharpSnmpLib\Sha
-rpSnmpLib.csproj". — FAILED
+rpSnmpLib.csproj". - FAILED
 Project "E:\Projects\sharpsnmplib\Mono.Options\Mono.Options.cspr
 oj" (default target(s)):
 ```
 
 Therefore, I need to resolve this problem first.
 
-# MonoDevelop Debugging — Failed
+# MonoDevelop Debugging - Failed
 To begin with, I tried to use MonoDevelop to debug xbuild. Miguel did post about the details a long time ago. However, even if I got the steps right for MonoDevelop 3.0.6, I found that Mono's attaching method is no longer supported by Microsoft on Windows 8 (I did not test on other Windows versions yet),
 
 ```
@@ -62,12 +62,12 @@ I dumped the xbuild error details to a log file with the following command so th
 xbuild sharpsnmplib.md.sln /v:diag > error.log
 Target PreBuildEvent skipped due to false condition: '$(PreBuildEvent)' != ''
 : error : Error building target CheckPrerequisites: Exception has been thrown by the target of an invocation.
-Error building target CheckPrerequisites: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. — -> System.ArgumentException: Illegal characters in path.
+Error building target CheckPrerequisites: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. --> System.ArgumentException: Illegal characters in path.
 at System.IO.Path.IsPathRooted (System.String path) [0x00000] in :0
 at Microsoft.Build.BuildEngine.ConditionFunctionExpression.Exists (System.String file, Microsoft.Build.BuildEngine.Project context) [0x00000] in :0
 at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&)
 at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in :0
-— — End of inner exception stack trace — -
+-- End of inner exception stack trace --
 at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in :0
 at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in :0
 at Microsoft.Build.BuildEngine.ConditionFunctionExpression.BoolEvaluate (Microsoft.Build.BuildEngine.Project context) [0x00000] in :0
@@ -79,7 +79,7 @@ at Microsoft.Build.BuildEngine.TargetBatchingImpl.RunTargetWithBucket (System.Co
 at Microsoft.Build.BuildEngine.TargetBatchingImpl.Run (Microsoft.Build.BuildEngine.Target target, System.Boolean& executeOnErrors) [0x00000] in :0
 at Microsoft.Build.BuildEngine.TargetBatchingImpl.Build (Microsoft.Build.BuildEngine.Target target, System.Boolean& executeOnErrors) [0x00000] in :0
 at Microsoft.Build.BuildEngine.Target.DoBuild (System.Boolean& executeOnErrors) [0x00000] in :0
-Done building project "E:\Projects\sharpsnmplib\SharpSnmpLib\SharpSnmpLib.csproj". — FAILED
+Done building project "E:\Projects\sharpsnmplib\SharpSnmpLib\SharpSnmpLib.csproj". -- FAILED
 ```
 
 And since I could not debug Mono program I tried to use Mono tracing,
@@ -93,12 +93,12 @@ It is unbelievably easy that now I can tell what happened,
 ```
 [00001830: 1.88729 0] ENTER: System.IO.Path:IsPathRooted (string)([STRING:040CA330:$([System.IO.Path]::Combine(E:\Projects\sharpsnmplib\, ".nuget"))\nuget.exe], )
 : error : Error building target CheckPrerequisites: Exception has been thrown by the target of an invocation.
-Error building target CheckPrerequisites: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. — -> System.ArgumentException: Illegal characters in path.
+Error building target CheckPrerequisites: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. --> System.ArgumentException: Illegal characters in path.
 at System.IO.Path.IsPathRooted (System.String path) [0x00000] in :0
 at Microsoft.Build.BuildEngine.ConditionFunctionExpression.Exists (System.String file, Microsoft.Build.BuildEngine.Project context) [0x00000] in :0
 at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&)
 at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in :0
-— — End of inner exception stack trace — -
+-- End of inner exception stack trace --
 at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in :0
 at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in :0
 at Microsoft.Build.BuildEngine.ConditionFunctionExpression.BoolEvaluate (Microsoft.Build.BuildEngine.Project context) [0x00000] in :0

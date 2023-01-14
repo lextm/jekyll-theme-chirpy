@@ -27,7 +27,7 @@ sudo zypper install mono-complete monodevelop git
 and then I remove xbuild and its components by executing
 
 ``` bash
-sudo rpm -e — nodeps mono-devel
+sudo rpm -e --nodeps mono-devel
 ```
 
 This is why I love openSUSE's Mono packages, as mono-devel contains all xbuild related bits. However, even after removing it, MonoDevelop works fine (well, I could not enable xbuild integration inside MD then).

@@ -6,9 +6,8 @@ excerpt_separator: <!--more-->
 ---
 (CSDN Oct 08, 2006)
 
-I believe most of people using the .NET OTA have read this article many times — The C#Builder Open Tools API by Erik Berry. Yes, it is a great introduction.
-
-However, since I have already done a lot of development on .NET OTA, I think something mentioned in that article is no longer correct/convenient.
+I believe most of people using the .NET OTA have read this article many times, "The C#Builder Open Tools API" by Erik Berry. Yes, it is a great introduction. However, since I have already done a lot of development on .NET OTA, I think something mentioned in that article is no longer correct/convenient.
+<!--more-->
 
 For example, Erik wrote:
 
@@ -27,4 +26,3 @@ A solution is to delegate the hooks to a full trusted assembly inside the GAC an
 Yes, when I followed his steps and used UnhandledExceptionManager, now unhandled exceptions are caught. I leave all of you an example. When you open the About form of CBC, double click the title "Beautify the code, delight the work", an exception is thrown and I write no try-catch lines inside the menu event handler. However, since I use UnhandledExceptionManager, it handles the exception for me. This really simplifies the menu handlers.
 
 UnhandledExceptionManager is for general purposes. You can use it anywhere necessary. however, follow Marco's steps. If that assembly is not inside GAC, it may not work well.
-<!--more-->

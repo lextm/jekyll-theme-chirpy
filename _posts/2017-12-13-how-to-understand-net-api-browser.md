@@ -13,13 +13,13 @@ Microsoft tries to use new tools to build .NET documentation, which is good. The
 However, the tooling and its results right now (Dec 2017) are far from perfect, and can be even misleading in certain cases. While we can accept the current state and look for the future, I am sharing below how to interpret certain things in the right way.
 <!--more-->
 
-# "Applied to" Section — Which Platforms Can I Use The Class?
+# "Applied to" Section - Which Platforms Can I Use The Class?
 
 Let's use [the page](https://docs.microsoft.com/dotnet/api/system.security.principal.windowsidentity#Applies_to) for `WindowsIdentity` here as an example, where we easily see from "Applied to" section this class can be used on multiple platforms.
 
 Don't be surprised if you only see 4.x for .NET Framework. I guess Microsoft guys are not yet ready to add .NET Framework 3.5.1 (that platform should be still supported), so I opened [a GitHub issue](https://github.com/dotnet/docs/issues/3931) for them to review.
 
-# "Assemblies" Section — Which NuGet Package Should I Use?
+# "Assemblies" Section - Which NuGet Package Should I Use?
 
 Well, if you do know what is .NET Core and its tooling, then reading the new API documentation becomes more challenging, as now we cannot assume a type is simply there in an assembly (.NET Framework convention), but need to know which NuGet package I should add as reference (MSBuild 15 PackageReference).
 

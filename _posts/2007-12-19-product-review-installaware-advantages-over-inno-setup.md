@@ -31,7 +31,7 @@ Can Inno Setup save CodeGear or Delphi users at last? I do not know. What I know
 
 But I believe IS is best in at least one way. The installer created is not MSI based, so it runs as a flash. Pascal script is more capable of MSIcode.
 
-Do not know what CodeGear will do in the near future but wish those guys can make something right — clear the clouds and mists around InstallAware, or switch again to miserable uncertainty.
+Do not know what CodeGear will do in the near future but wish those guys can make something right that clears the clouds and mists around InstallAware, or switch again to miserable uncertainty.
 
 Long live Delphi
 

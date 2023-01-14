@@ -30,7 +30,7 @@ Mono MVC has an excellent article on what are the common issues you might meet, 
 
 1. Install Mono on Windows, and copy out Microsoft.Build.dll. If you don't have Windows aside, I share it here on DropBox. Someone might tell you to copy from Microsoft's Windows installation or reference assemblies cache. I don't think that meets Microsoft's EULA. The one copied from Mono is open source, so we should use that till Mono bundles it directly on Linux.
 1. Finally put NuGet.exe and Microsoft.Build.dll in the same folder, and execute
-`mono — runtime=v4.0.30319 NuGet.exe`
+`mono --runtime=v4.0.30319 NuGet.exe`
 
 NuGet will try to update itself, and after that you get the latest executable (2.2 right now) running on Linux. Now you can follow Mono MVC's post to see how to create a shell script.
 

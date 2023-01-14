@@ -6,7 +6,7 @@ permalink: /license-management-basic-e126ab09cb81
 excerpt_separator: <!--more-->
 ---
 
-For shareware developers, it is reasonable to develop sort of license management system — a license generator for internal use, and a license verification module inside your software.
+For shareware developers, it is reasonable to develop sort of license management system, aka a license generator for internal use and a license verification module inside your software.
 
 It seems to be a lot of work but the logic is simple,
 

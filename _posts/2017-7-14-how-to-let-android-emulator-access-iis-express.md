@@ -67,8 +67,8 @@ OK. Now let's see how IIS Express log file tells the truth of the incoming reque
 #Version: 1.0
 #Date: 2017–07–15 02:46:56
 #Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
-2017–07–15 02:46:56 127.0.0.1 GET / — 61902–127.0.0.1 Mozilla/5.0+(Linux;+Android+6.0;+sdk_google_phone_armv7+Build/MASTER;+wv)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Version/4.0+Chrome/44.0.2403.119+Mobile+Safari/537.36–500 19 21 21
-2017–07–15 02:46:58 127.0.0.1 GET /favicon.ico — 61902–127.0.0.1 Mozilla/5.0+(Linux;+Android+6.0;+sdk_google_phone_armv7+Build/MASTER;+wv)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Version/4.0+Chrome/44.0.2403.119+Mobile+Safari/537.36 http://10.0.2.2:61902/ 200 0 21 2
+2017–07–15 02:46:56 127.0.0.1 GET / - 61902–127.0.0.1 Mozilla/5.0+(Linux;+Android+6.0;+sdk_google_phone_armv7+Build/MASTER;+wv)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Version/4.0+Chrome/44.0.2403.119+Mobile+Safari/537.36–500 19 21 21
+2017–07–15 02:46:58 127.0.0.1 GET /favicon.ico - 61902–127.0.0.1 Mozilla/5.0+(Linux;+Android+6.0;+sdk_google_phone_armv7+Build/MASTER;+wv)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Version/4.0+Chrome/44.0.2403.119+Mobile+Safari/537.36 http://10.0.2.2:61902/ 200 0 21 2
 ```
 
 See. IIS Express thinks the client IP (c-ip) is `127.0.0.1` for Android requests, while it serves them at `127.0.0.1` of course. The user agent string is pretty ugly also. Interestingly, the request to `/gavicon.ico` recorded a referer of `http://10.0.2.2:61902`, which proves clearly the request came from the Android web browser.

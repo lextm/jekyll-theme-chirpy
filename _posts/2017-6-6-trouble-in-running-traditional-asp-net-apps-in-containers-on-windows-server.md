@@ -20,35 +20,35 @@ But that's not enough if you run Visual Studio 2017 to develop Docker based proj
 ```
 Severity Code Description Project File Line Suppression State
 Error MSB4018 The "PrepareForBuild" task failed unexpectedly.
-Microsoft.DotNet.Docker.CommandLineClientException: Unable to run 'docker-compose'. Verify that Docker for Windows is installed and running locally. For troubleshooting, please review http://aka.ms/DockerToolsTroubleshooting. — -> System.ComponentModel.Win32Exception: The system cannot find the file specified
+Microsoft.DotNet.Docker.CommandLineClientException: Unable to run 'docker-compose'. Verify that Docker for Windows is installed and running locally. For troubleshooting, please review http://aka.ms/DockerToolsTroubleshooting. --> System.ComponentModel.Win32Exception: The system cannot find the file specified
 at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
 at System.Diagnostics.Process.Start()
 at Microsoft.DotNet.Docker.CommandLineClient.<>c__DisplayClass0_0.<ExecuteAsync>b__0()
 at System.Threading.Tasks.Task`1.InnerInvoke()
 at System.Threading.Tasks.Task.Execute()
-— — End of stack trace from previous location where exception was thrown — -
+-- End of stack trace from previous location where exception was thrown --
 at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
 at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
 at Microsoft.DotNet.Docker.DockerComposeClient.<ExecuteAsync>d__18.MoveNext()
-— — End of inner exception stack trace — -
+-- End of inner exception stack trace --
 at Microsoft.DotNet.Docker.DockerComposeClient.<ExecuteAsync>d__18.MoveNext()
-— — End of stack trace from previous location where exception was thrown — -
+-- End of stack trace from previous location where exception was thrown --
 at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
 at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
 at Microsoft.DotNet.Docker.DockerComposeClient.<GetDockerComposeDocumentCacheAsync>d__15.MoveNext()
-— — End of stack trace from previous location where exception was thrown — -
+-- End of stack trace from previous location where exception was thrown --
 at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
 at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
 at Microsoft.DotNet.Docker.DockerComposeClient.<GetDockerComposeDocumentAsync>d__13.MoveNext()
-— — End of stack trace from previous location where exception was thrown — -
+-- End of stack trace from previous location where exception was thrown --
 at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
 at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
 at Microsoft.DotNet.Docker.DockerWorkspace.<GetDockerServiceDebugProfilesAsync>d__12.MoveNext()
-— — End of stack trace from previous location where exception was thrown — -
+-- End of stack trace from previous location where exception was thrown --
 at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
 at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
 at Microsoft.DotNet.Docker.DockerWorkspace.<PrepareForBuildAsync>d__13.MoveNext()
-— — End of stack trace from previous location where exception was thrown — -
+-- End of stack trace from previous location where exception was thrown --
 at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
 at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
 at Microsoft.DotNet.Docker.BuildTasks.DockerBaseTask.Execute()
@@ -67,18 +67,18 @@ Severity Code Description Project File Line Suppression State
 Error MSB4018 The "PrepareForLaunch" task failed unexpectedly.
 Microsoft.DotNet.Docker.CommandLineClientException: Building fullfxweb
 Service 'fullfxweb' failed to build: failed to register layer: re-exec error: exit status 1: output: BackupWrite \\?\C:\ProgramData\docker\windowsfilter\c9581b4e19c69827e1360a27530db816849bbc0ee0345f5503dd2765ba2313d4\Files\ProgramData\Microsoft\Windows Defender\Definition Updates\Default\MpAsBase.vdm: There is not enough space on the disk..
-For more troubleshooting information, go to http://aka.ms/DockerToolsTroubleshooting — -> Microsoft.DotNet.Docker.CommandLineClientException: Building fullfxweb
+For more troubleshooting information, go to http://aka.ms/DockerToolsTroubleshooting --> Microsoft.DotNet.Docker.CommandLineClientException: Building fullfxweb
 Service 'fullfxweb' failed to build: failed to register layer: re-exec error: exit status 1: output: BackupWrite \\?\C:\ProgramData\docker\windowsfilter\c9581b4e19c69827e1360a27530db816849bbc0ee0345f5503dd2765ba2313d4\Files\ProgramData\Microsoft\Windows Defender\Definition Updates\Default\MpAsBase.vdm: There is not enough space on the disk.
 at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
 at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
 at Microsoft.DotNet.Docker.DockerComposeClient.<ExecuteAsync>d__18.MoveNext()
-— — End of inner exception stack trace — -
+-- End of inner exception stack trace --
 at Microsoft.DotNet.Docker.DockerComposeClient.<ExecuteAsync>d__18.MoveNext()
-— — End of stack trace from previous location where exception was thrown — -
+-- End of stack trace from previous location where exception was thrown --
 at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
 at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
 at Microsoft.DotNet.Docker.DockerWorkspace.<PrepareForLaunchAsync>d__14.MoveNext()
-— — End of stack trace from previous location where exception was thrown — -
+-- End of stack trace from previous location where exception was thrown --
 at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
 at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
 at Microsoft.DotNet.Docker.BuildTasks.DockerBaseTask.Execute()
@@ -103,9 +103,9 @@ _Figure 2: Docker Debugger Error._
 So what can be the cause? It is very important now to check the docker container state, so please dig into the Docker logging in Visual Studio Output panel like below,
 
 ``` bash
-docker ps — filter "status=running" — filter "name=dockercompose1104660429_fullfxweb_" — format {{.ID}} -n 1
+docker ps --filter "status=running" --filter "name=dockercompose1104660429_fullfxweb_" --format {{.ID}} -n 1
 c5739cb5ab3b
-docker inspect — format="{{.NetworkSettings.Networks.nat.IPAddress}}" c5739cb5ab3b
+docker inspect --format="{{.NetworkSettings.Networks.nat.IPAddress}}" c5739cb5ab3b
 172.19.8.203
 docker exec c5739cb5ab3b cmd /c "C:\Windows\System32\inetsrv\appcmd.exe set config -section:system.applicationHost/applicationPools /[name='DefaultAppPool'].processModel.identityType:LocalSystem /commit:apphost & C:\Windows\System32\inetsrv\appcmd.exe set config -section:system.webServer/security/authentication/anonymousAuthentication /userName: /commit:apphost"
 Applied configuration changes to section "system.applicationHost/applicationPools" for "MACHINE/WEBROOT/APPHOST" at configuration commit path "MACHINE/WEBROOT/APPHOST"

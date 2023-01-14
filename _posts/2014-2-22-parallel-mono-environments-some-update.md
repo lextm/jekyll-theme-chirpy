@@ -14,7 +14,7 @@ Mono source code is now fully hosted on GitHub, so you don't need source tarball
 
 # Autogen.sh and bootstrap-*
 
-Make sure you execute `./autogen.sh — prefix=/opt/mono` if you cannot see `configure`. For gtk-sharp, you need to run `./bootstrap-* — prefix=/opt/mono`.
+Make sure you execute `./autogen.sh --prefix=/opt/mono` if you cannot see `configure`. For gtk-sharp, you need to run `./bootstrap-* --prefix=/opt/mono`.
 
 # Choose the Correct Branch
 

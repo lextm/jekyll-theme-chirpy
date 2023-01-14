@@ -45,7 +45,7 @@ Open it in a text editor.
 What we are going to modify are,
 
 ``` php
-// ** MySQL settings — You can get this info from your web host ** //
+// ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('DB_NAME', '************');
 

@@ -43,13 +43,13 @@ More details here: http://curl.haxx.se/docs/sslcerts.html
 curl performs SSL certificate verification by default, using a "bundle"
 of Certificate Authority (CA) public keys (CA certs). If the default
 bundle file isn't adequate, you can specify an alternate file
-using the — cacert option.
+using the --cacert option.
 If this HTTPS server uses a certificate signed by a CA represented in
 the bundle, the certificate verification probably failed due to a
 problem with the certificate (it might be expired, or the name might
 not match the domain name in the URL).
 If you'd like to turn off curl's verification of the certificate, use
-the -k (or — insecure) option.
+the -k (or --insecure) option.
 ```
 
 OK, so this time using "curl: (60) SSL certificate problem: certificate is not yet valid" as keyword Google started to provide good explanations.

@@ -23,7 +23,7 @@ Alright, so the fix now is to take full control of x and y calculation, and the 
 ``` csharp
 var workingArea = Screen.GetWorkingArea(ButtonWindowList.PointToScreen(new Point(ButtonWindowList.Width / 2, ButtonWindowList.Height / 2)));
 var menu = new Rectangle(ButtonWindowList.PointToScreen(new Point(0, ButtonWindowList.Location.Y + ButtonWindowList.Height)), SelectMenu.Size);
-var menuMargined = new Rectangle(menu.X — SelectMenuMargin, menu.Y — SelectMenuMargin, menu.Width + SelectMenuMargin, menu.Height + SelectMenuMargin);
+var menuMargined = new Rectangle(menu.X - SelectMenuMargin, menu.Y - SelectMenuMargin, menu.Width + SelectMenuMargin, menu.Height + SelectMenuMargin);
 if (workingArea.Contains(menuMargined))
 {
     SelectMenu.Show(menu.Location);
@@ -37,7 +37,7 @@ else
     if (newPoint.Y < button.Y)
     {
         // flip the menu up to be above the button.
-        newPoint.Y = button.Y — SelectMenu.Height — ButtonWindowList.Height;
+        newPoint.Y = button.Y - SelectMenu.Height - ButtonWindowList.Height;
     }
 
     SelectMenu.Show(newPoint);
@@ -58,7 +58,7 @@ Thus, a quick workaround is to show this menu strip once before the calculation 
 if (newPoint.Y < button.Y)
 {
     // flip the menu up to be above the button.
-    newPoint.Y = button.Y — ButtonWindowList.Height;
+    newPoint.Y = button.Y - ButtonWindowList.Height;
     SelectMenu.Show(newPoint, ToolStripDropDownDirection.AboveRight);
 }
 else

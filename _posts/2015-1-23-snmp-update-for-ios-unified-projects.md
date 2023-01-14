@@ -23,9 +23,9 @@ There are also namespace changes, such as removing the MonoTouch prefix.
 I have been using Windows 10 for a while, as well, as Visual Studio 2015. Thus, when I ran xamarin-component.exe to pack up things, I got this exception,
 
 ``` text
-Running mdoc "update" " — debug" "-LC:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v5.0" "-L
+Running mdoc "update" " --debug" "-LC:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v5.0" "-L
 C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoTouch\v1.0" "-LC:\Program Files (x86)\Reference Asse
-mblies\Microsoft\Framework\Xamarin.iOS\v1.0" " — import=E:\Projects\sharpmibsuite\sharpsnmplib\xamarin_support\SharpSnmpL
+mblies\Microsoft\Framework\Xamarin.iOS\v1.0" " --import=E:\Projects\sharpmibsuite\sharpsnmplib\xamarin_support\SharpSnmpL
 ib.Portable.xml" "-o" "C:\Users\lextm\AppData\Local\Temp\sharpsnmplib-8.5.2–1494637963\en" "E:\Projects\sharpmibsuite\sh
 arpsnmplib\xamarin_support\SharpSnmpLib.Portable.dll"…
 

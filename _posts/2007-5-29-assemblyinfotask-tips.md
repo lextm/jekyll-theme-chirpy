@@ -14,7 +14,7 @@ However, the version available from GotDotNet.com is out-of-date now and lacks o
 
 1. The version number mask should be changed according to [this post](http://blogs.msdn.com/msbuild/archive/2007/01/03/fixing-invalid-version-number-problems-with-the-assemblyinfotask.aspx).
 1. If you are using SVN to manage the source code, you'd better follow [this post](https://www.andrewconnell.com/blog/using-msbuild-to-generate-assembly-version-info-at-build-time-including-subversion-fix/). The "Subversion Fix" section is very useful.
-1. You should copy %ProgramFiles%\MSBuild\Microsoft\AssemblyInfoTask\Microsoft.VersionNumber.Targets to a local folder and make the above changes. Then set AssemblyMajorVersion and other properties in the *.targets file. — — I love this "one targets file one project" way.
+1. You should copy %ProgramFiles%\MSBuild\Microsoft\AssemblyInfoTask\Microsoft.VersionNumber.Targets to a local folder and make the above changes. Then set AssemblyMajorVersion and other properties in the *.targets file. I love this "one targets file one project" way.
 1. Do not change your projects like others tell you. Simply create a batch file named versioningbuild.bat and write
 
 ``` batch
