@@ -19,7 +19,7 @@ The current "Rough History" posts should be seen as drafts for the upcoming Engl
 * [The Rough History of ASP.NET on IIS](/the-rough-history-of-asp-net-on-iis-8f49e2bcefcd)
 * [The Rough History of Referenced Assemblies](/the-rough-history-of-referenced-assemblies-7d752d92c18c)
 * [The Rough History of .NET Core Debuggers](/the-rough-history-of-net-core-debuggers-b9fb206dc4aa)
-* [The Rough History of .NET Framework Reference Source](/posts/the-rough-history-of-microsoft-reference-source/)
+* [The Rough History of .NET Framework Reference Source](/the-rough-history-of-microsoft-reference-source/)
 
 There are also some related posts I did in the past,
 
