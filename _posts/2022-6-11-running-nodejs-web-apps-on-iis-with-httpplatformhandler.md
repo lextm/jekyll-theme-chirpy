@@ -165,9 +165,11 @@ And if an application pool recycle is triggered in IIS Manager, I can also obser
 > Note that the peaceful shutdown is via Windows API `OpenProcess(SYNCHRONIZE | PROCESS_TERMINATE, FALSE, m_dwProcessId)`. You can read [ASP.NET Core module source code](https://github.com/dotnet/aspnetcore/blob/v6.0.5/src/Servers/IIS/AspNetCoreModuleV2/OutOfProcessRequestHandler/serverprocess.cpp#L1337) to learn more, as this module is derived from HttpPlatformHandler.
 
 # Side Notes
+
+## Express for Node.js
 One thing you might notice is that I wrote a very simple Node.js application as example. Why not go a little bit further to use a framework like Express for Node.js? In fact I did try it out (Express 4.18.1), but `node.exe` does not shut down peacefully and it also blocks `w3wp.exe` from proper shutdown. I didn't have time to dig further there, but you might find it an interesting field to explore. Good luck.
 
-# Hosting on Azure App Service (Windows)
+## Hosting on Azure App Service (Windows)
 Two small changes might be needed if you want to deploy `app.js` and `web.config` together to your Azure App Service (Windows),
 
 1. You might need to change its name from `app.js` to `app.mjs`, because Node.js 16+ might tell you that `SyntaxError: Cannot use import statement outside a module`. So that the value of `arguments` now should be `.\app.mjs`.
@@ -191,3 +193,36 @@ The complete `web.config` file might look as below,
     </system.webServer>
 </configuration>
 ```
+
+## Nuxt.js
+
+If you are working on a Nuxt.js project, make sure you modify it further before deploying to IIS. The [official guide for Azure Portal](https://nuxtjs.org/deployments/azure-portal) shows the general hints, 
+
+1. Create `server\index.js`.
+1. Modify `nuxt.config.js`.
+
+but it misses important steps,
+
+* You must add `express` and `nuxt-start` as dependencies (check your `package.json`).
+* Change `const nuxt = await loadNuxt(isDev ? 'dev' : 'start')` to simply `const nuxt = await loadNuxt('start')`, as `isDev` isn't defined anywhere.
+
+Then your `web.config` can work with HttpPlatformHandler as below,
+
+``` xml
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <system.webServer>
+        <handlers>
+            <add name="httpPlatformHandler" path="*" verb="*" modules="httpPlatformHandler" resourceType="Unspecified" requireAccess="Script" />
+        </handlers>
+        <httpPlatform stdoutLogEnabled="true" stdoutLogFile=".\node.log" startupTimeLimit="20" processPath="C:\Users\<user name>\AppData\Roaming\nvm\v16.13.2\node.exe" arguments=".\server\index.js">
+            <environmentVariables>
+                <environmentVariable name="PORT" value="%HTTP_PLATFORM_PORT%" />
+                <environmentVariable name="NODE_ENV" value="Production" />
+            </environmentVariables>
+        </httpPlatform>
+    </system.webServer>
+</configuration>
+```
+
+> I didn't add the rewrite rules as the minimal sample project does not require them, but you can add them for your project if needed.
