@@ -100,11 +100,13 @@ However, Mono's implementation is buggy and a lot of efforts would be required t
 
 > Mono's WinForms implementation on macOS uses some legacy interfaces and is 32 bit only. So when latest macOS no longer supports 32 bit applications, this approach is a dead end. There was an attempt to port Mono WinForms to 64 bit, but no further news on that.
 
-Recently [Microsoft decided](https://github.com/dotnet/corefx/issues/20325) to port `System.Drawing` to non-Windows platforms, which gives an opportunity to also [port Windows Forms officially to non-Windows platforms](https://github.com/dotnet/corefx/issues/21803). It would be welcome if that port becomes a better alternative than Mono's implementation, but whether third parties (commercial/open source) can catch up is uncertain. Third party controls are fantastic on Windows, but rarely they support other OS. Developers usually find it pretty painful to move Windows Forms apps to non-Windows platforms due to such controls they use.
+[Microsoft decided in 2017](https://github.com/dotnet/corefx/issues/20325) to port `System.Drawing` to non-Windows platforms, which gives an opportunity to also [port Windows Forms officially to non-Windows platforms](https://github.com/dotnet/corefx/issues/21803). It would be welcome if that port becomes a better alternative than Mono's implementation, but whether third parties (commercial/open source) can catch up is uncertain. Third party controls are fantastic on Windows, but rarely they support other OS. Developers usually find it pretty painful to move Windows Forms apps to non-Windows platforms due to such controls they use.
 
 More importantly the design of Windows Forms is suitable for desktop apps, but may be not for mobile platforms (personal opinion clearly). Xamarin guys initially had [an idea to port Windows Forms to iOS](http://tirania.org/blog/archive/2009/Sep-14.html). They gave that up and instead decided to bind natively to Cocoa Touch.
 
-> Note that Microsoft is going to support Windows Forms on .NET Core 3.0. Officially Microsoft will make it available on Windows, but anyone can attempt to port to other systems.
+Note that Microsoft is going to support Windows Forms on .NET Core 3.0. Officially Microsoft will make it available on Windows, but anyone can attempt to port to other systems.
+
+> Update (Jan 18, 2023) Microsoft later decided to stop supporting System.Drawing on non-Windows platform, due to the poor maintenance status of `libgtkplus`, and Windows Forms on .NET Core has always been a Windows only thing. As a result, Windows Forms is not considered a cross platform option by Microsoft.
 
 ## WPF/Avalonia/UWP/WinUI
 
