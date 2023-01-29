@@ -37,11 +37,11 @@ Then how to address the need of such modules if you really cannot get rid of the
 1. Develop your own if no other vendor can be found. The extensibility of IIS means you can help yourself as last resort.
 
 # Alternatives for Some Modules
-* IIS Media Services and Transform Manager users should check out Azure Media Services. The cloud services are significant an upgrade of what IIS offers, and should be considered a great opportunity to host your media files.
+* IIS Media Services and Transform Manager users should check out Azure Media Services. The cloud services are huge upgrade of what IIS offers, and should be considered a great opportunity to host your media files and enable a variety of other features.
 * FTP 7.5 has become the built-in FTP services for IIS since IIS 7.5.
 * Advanced Logging has some features (custom logging) ported back as part of IIS default logging. However, its other features are no longer available. If you need those missing ones, it is very likely that you have to develop your own IIS extension. IIS 8.5 and above has [Enhanced Logging](https://docs.microsoft.com/iis/get-started/whats-new-in-iis-85/enhanced-logging-for-iis85) which covers most if not all features of Advanced Logging.
 * Search Engine Optimization Toolkit users should fall back to manual management of related assets/files, while using other SEO services (like Google/Bing's online tools) for analysis and reports.
 * Database Manager users should switch back to general tools, such as SQL Server Management Studio, or the new cross platform SQL Server Operations Studio.
-* Web Farm Framework users should consider Azure Stack for private cloud usage. If you insist on running a classic web farm for IIS 10, you have to fall back to the good old days of configuring Windows load balancing service, or a hardware load balancer.
+* Web Farm Framework users should consider Azure Stack for private cloud usage. If you insist on running a classic web farm for IIS 10, there isn't anything similar offered by Microsoft right now.
 
 More would be added here if I find out. You can also leave a comment with your suggestion.
