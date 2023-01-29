@@ -20,7 +20,9 @@ Only a selected set has been upgraded,
 * ASP.NET Core (1.x/2.x, part of .NET Core) 
 
 # Other Modules
-So you might wonder what happens to other modules. Simply speaking, they are obsolete (only for IIS 10), and you cannot use them on IIS 10. (However, they remain fully supported on IIS 7.x and 8.x.)
+So you might wonder what happens to other modules. Simply speaking, they are deprecated for IIS 10 and above, and you cannot use them. However, they remain fully supported on IIS 7.x and 8.x.
+
+> Note that they have been removed from Microsoft Download Center, so you can no longer get them from Microsoft. Be careful if you try to download from a third party.
 
 > Forget about all other posts that tell you via registry hack how to install them.
 
