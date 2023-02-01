@@ -21,6 +21,12 @@ We all know that IIS has application pools, and each pools has its own worker pr
 
 But there seems to be no direct setting to control thread identities, so when two HTTP requests come from different users, what are the thread identities then?
 
+> Note that typical code to access this identity in C# is as below
+
+``` csharp
+var processIdentity = System.Security.Principal.WindowsIdentity.GetCurrent();
+```
+
 # The Thread Identity
 
 We cannot answer that without assuming an authentication method, because that controls how IIS decides the thread identity.
@@ -34,6 +40,12 @@ If we use Windows authentication, then IIS analyzes who sent the request, and us
 > For other authentication methods, you can dig out the thread identity by running a few simple experiments.
 
 OK. Now we can use the knowledge above to solve a few real world puzzles.
+
+> Note that typical code to access this identity in C# is via the properties,
+
+* [`System.Web.UI.Page.User`](https://learn.microsoft.com/dotnet/api/system.web.ui.page.user) for ASP.NET WebForms
+* [`System.Web.Mvc.Controller.User`](https://learn.microsoft.com/dotnet/api/system.web.mvc.controller.user) for ASP.NET MVC
+* [`System.Web.Http.ApiController.User`](https://learn.microsoft.com/dotnet/api/system.web.http.apicontroller.user) for ASP.NET Web API
 
 # Puzzle 1: Why IIS_IUSRS and IUSR need to read my web content folder?
 
