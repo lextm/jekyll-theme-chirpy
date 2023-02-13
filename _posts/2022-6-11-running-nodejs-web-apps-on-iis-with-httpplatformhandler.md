@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Running Node.js Web Apps on IIS with HttpPlatformHandler"
-tags: IIS Windows JavaScript
+tags: IIS Windows JavaScript Node.js
 excerpt_separator: <!--more-->
 ---
 

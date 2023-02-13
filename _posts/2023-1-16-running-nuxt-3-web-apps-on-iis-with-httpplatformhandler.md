@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Running Nuxt 3 Web Apps on IIS with HttpPlatformHandler"
-tags: IIS Windows JavaScript
+tags: IIS Windows JavaScript Node.js
 excerpt_separator: <!--more-->
 ---
 
