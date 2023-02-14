@@ -7,6 +7,8 @@ excerpt_separator: <!--more-->
 ---
 > Disclaimer: All contents are based on my personal observation. Please leave a comment if you find anything incorrect, and I will revise it often.
 
+> Current version was written on Feb 14, 2023.
+
 There are tons of UI frameworks to choose from if you are going to develop a cross platform GUI application in .NET. This post tries to list their pros and cons for your reference.
 <!--more-->
 
@@ -83,7 +85,7 @@ However, you should know that GTK# apps only look native on Linux distributions.
 
 > MonoDevelop used GTK# on all platforms initially, and gradually (in Xamarin Studio phase) started to utilize xwt to utilize native controls. Its successor Visual Studio for Mac uses both GTK# and Xamarin.Mac bits (I think).
 
-Mono's GTK# wrapper is GTK 2 compatible and not yet upgraded to support GTK 3. [A new repo](https://github.com/GtkSharp/GtkSharp) has been created by a MonoGame maintainer Harry to fill the gaps.
+Mono's GTK# wrapper is GTK 2 compatible and not yet upgraded to support GTK 3. To explore the full potential of GTK 3, you need to use the NuGet package from [a new repo](https://github.com/GtkSharp/GtkSharp) has been created by a MonoGame maintainer Harry which fills the gaps.
 
 ## Windows Forms
 
@@ -98,7 +100,7 @@ Windows Forms works for Windows (including Windows CE, though no serious interes
 
 However, Mono's implementation is buggy and a lot of efforts would be required to further enhance it. Thus, some projects (such as [Plastic SCM](http://blog.plasticscm.com/2014/12/native-linux-gui-gtkplastic.html)) initially take this approach and later drop it.
 
-> Mono's WinForms implementation on macOS uses some legacy interfaces and is 32 bit only. So when latest macOS no longer supports 32 bit applications, this approach is a dead end. There was an attempt to port Mono WinForms to 64 bit, but no further news on that.
+Mono's initial WinForms implementation on macOS uses some legacy interfaces like Carbon and is 32 bit only. So when latest macOS deprecated those APIs and no longer supports 32 bit applications, this approach is a dead end. [There was an attempt](https://github.com/mono/mono/pull/7100) to port Mono WinForms to 64 bit, but no further news on that.
 
 [Microsoft decided in 2017](https://github.com/dotnet/corefx/issues/20325) to port `System.Drawing` to non-Windows platforms, which gives an opportunity to also [port Windows Forms officially to non-Windows platforms](https://github.com/dotnet/corefx/issues/21803). It would be welcome if that port becomes a better alternative than Mono's implementation, but whether third parties (commercial/open source) can catch up is uncertain. Third party controls are fantastic on Windows, but rarely they support other OS. Developers usually find it pretty painful to move Windows Forms apps to non-Windows platforms due to such controls they use.
 
@@ -106,9 +108,11 @@ More importantly the design of Windows Forms is suitable for desktop apps, but m
 
 Note that Microsoft is going to support Windows Forms on .NET Core 3.0. Officially Microsoft will make it available on Windows, but anyone can attempt to port to other systems.
 
-> Update (Jan 18, 2023) Microsoft later decided to stop supporting System.Drawing on non-Windows platform, due to the poor maintenance status of `libgtkplus`, and Windows Forms on .NET Core has always been a Windows only thing. As a result, Windows Forms is not considered a cross platform option by Microsoft.
+Later Microsoft decided to stop supporting System.Drawing on non-Windows platform, due to the poor maintenance status of `libgtkplus`, and Windows Forms on .NET Core has been forced to be Windows only.
 
-## WPF/Avalonia/UWP/WinUI
+As a result, Windows Forms is not considered a cross platform option by Microsoft.
+
+## WPF/Avalonia/Avalonia XPF/UWP/WinUI
 
 |          | Comment      |
 | -------- | -------------|
@@ -116,10 +120,6 @@ Note that Microsoft is going to support Windows Forms on .NET Core 3.0. Official
 | Supported Platforms | Desktop (and possibly mobile) |
 | OS Native Look and Feel | Windows only. |
 | Third Party Controls | Many on Windows. |
-
-Mono was trying to port WPF, but that project was not finished due to [lack of resources](http://www.mono-project.com/docs/gui/wpf/). [Avalonia](https://github.com/AvaloniaUI/Avalonia) is another open source project to do the same.
-
-> Neosis GUI mentioned early can also be seen as a WPF clone, and it is much more mature than Avalonia (it even supports Blend in some degree).
 
 Similar to Unity/MonoGame, WPF internally renders everything on its own, so technically speaking it can go cross platform.
 
@@ -132,10 +132,14 @@ However, this approach has the disadvantages just like Unity/MonoGame, that all 
 > FireMonkey met such issues and its developers have tried to resolve that for a long time.
 >
 > Again (personal opinion) Windows apps should move gradually from Windows Forms/WPF to UWP. So in the near future, UWP would become the "native" solution on Windows.
->
->Note that Microsoft is going to support WPF on .NET Core 3.0. Officially Microsoft will make it available on Windows, but anyone can attempt to port to other systems.
 
-> Avalonia isn't a strict WPF clone, and JetBrains seems to invest a lot here by writing [dotTrace/dotMemory/dotCover user interface in it](https://blog.jetbrains.com/dotnet/2021/04/22/dottrace-and-dotmemory-bring-new-home-screen/).
+Microsoft is going to support WPF on .NET Core 3.0. Officially Microsoft will make it available on Windows, but anyone can attempt to port to other systems.
+
+Mono was trying to port WPF, but that project was not finished due to [lack of resources](http://www.mono-project.com/docs/gui/wpf/).
+
+Neosis GUI mentioned early can also be seen as a WPF clone, and it is much more mature than Avalonia (it even supports Blend in some degree).
+
+[Avalonia](https://github.com/AvaloniaUI/Avalonia) is another open source project to do the same, but it didn't start as a strict WPF clone, so you cannot migrate WPF apps directly to Avalonia. However, it attracted enough attention from the community, even including JetBrains which seems to have invested a lot upon it by writing [dotTrace/dotMemory/dotCover user interface in it](https://blog.jetbrains.com/dotnet/2021/04/22/dottrace-and-dotmemory-bring-new-home-screen/). With such a solid foundation, Avalonia team decided in Feb 2023 to release [a true WPF clone as a commercial/closed source product](https://avaloniaui.net/XPF), called Avalonia XPF. It claims to be compatible with WPF and supports Linux and macOS initially. Its price tag and the actual quality are to be evaluated. The original Avalonia remains open sourced, but I don't expect too much update on that part.
 
 ## Xamarin.Forms/MAUI
 
@@ -164,7 +168,7 @@ Quite a lot of third party vendors are now offering Xamarin.Forms controls, so t
 
 This momentum also makes it appealing to use this framework.
 
-Microsoft just announced [MAUI](https://devblogs.microsoft.com/dotnet/introducing-net-multi-platform-app-ui/), a major upgrade of Xamarin.Forms, as a new option to build cross platform applications. However, due to the pandemic, its delivery date has been changed from Nov 2020 to Nov 2021. You might install a .NET 6 Preview right now and play with it.
+Microsoft announced [MAUI](https://devblogs.microsoft.com/dotnet/introducing-net-multi-platform-app-ui/), a major upgrade of Xamarin.Forms, as a new option to build cross platform applications. However, due to the pandemic, its delivery was delayed several times. You can play with it on .NET 6/7.
 
 ## Uno Platform
 
