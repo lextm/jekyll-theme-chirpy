@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 This blog has been quiet for a while, as I have been pretty busy on several projects, but trapped on an 2007 laptop.
 <!--more-->
 
-# Book Titled "More on Borland Legend"
+## Book Titled "More on Borland Legend"
 
 This is an old book I authored chapter by chapter between 2007 and 2009, which aimed to fill in the gaps of Gordon Li's book Borland Legend.
 
@@ -18,13 +18,13 @@ I have formatted the first two chapters and I think the output is acceptable. Th
 
 It is crazy to do all of above on this old laptop, as it lacks of free disk space for Expression Studio, LaTeX, Word, and Visio. Luckily the new laptop will arrive early next month. Hope the progress can be sped up then.
 
-# DockPanel Suite
+## DockPanel Suite
 
 This project went on quite smoothly, but based on the recent issue reports we received, probably we need to kick off 3.0 branch to include new big features so as to further improve this library.
 
 I have been tracking all the posts, but did not yet have time to post anything lengthy on my thoughts. Hope next month I can finally write up some proposals and start to hack again on it.
 
-# Projects At Office
+## Projects At Office
 
 I am not supposed to comment much about the projects I am working on at office, but recently I finished a major release of one important project. So in the next few days, I can enjoy the China National Days, and also review new requirements for the next release. Tired already, and hope I can get some good rest soon.
 

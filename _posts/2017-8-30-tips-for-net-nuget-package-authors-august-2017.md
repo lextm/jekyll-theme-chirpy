@@ -15,7 +15,7 @@ The responsibilities of a NuGet package author are,
 * Test out the package.
 <!--more-->
 
-# Tips on Target Platform Selection
+## Tips on Target Platform Selection
 
 A few months ago, obviously you should go against .NET Framework and some PCL profiles. I did that too. However, now comes .NET Standard. So, the possible options are,
 
@@ -37,7 +37,7 @@ You can obviously choose your own based on the actual code base. Some libraries 
 
 Make sure you go through [this excellent video](https://learn.microsoft.com/en-us/events/dotnetconf-2017/t112) to learn more about .NET Standard.
 
-# Tips on Source Code Preparation
+## Tips on Source Code Preparation
 
 I used to use multiple projects (csproj) so each compiles to an assembly targeting an individual target platform. Then a NuGet package can be built manually from a .nuspec file.
 
@@ -94,7 +94,7 @@ Then the compiled assembly might trigger runtime exception for .NET Framework pr
 
 Again, your NuGet package in this case must be generated on Windows before uploading to NuGet.org.
 
-# Tips on NuGet Package Generation
+## Tips on NuGet Package Generation
 
 As `<GeneratePackageOnBuild>` can already help generate a package automatically, you can almost directly upload the result to NuGet.org.
 
@@ -107,7 +107,7 @@ If you compare #SNMP Library 10.0.1 release to old releases, you should see some
 
 For example, AESPrivacyProvider now has an IsSupported static property indicating its platform feasibility. Its Encrypt/Decrypt methods would throw PlatformNotSupportedException if running in .NET Core 1.x/2.0 console apps, where AES algorithm is missing.
 
-# Tips on Package Testing
+## Tips on Package Testing
 
 Currently I manually create several test projects,
 

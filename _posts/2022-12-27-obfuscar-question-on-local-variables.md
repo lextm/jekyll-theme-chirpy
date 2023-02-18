@@ -9,7 +9,7 @@ It is not a surprise that many people would like to try out Obfuscar, one of the
 Today, let's start with [a recent issue](https://github.com/obfuscar/obfuscar/issues/404) on GitHub regarding local variables in C# methods.
 <!--more-->
 
-# The Sample Code
+## The Sample Code
 So, we will use the simplest C# sample below as our test case,
 
 ``` csharp
@@ -36,7 +36,7 @@ If you use `dotnet new console` to create a test project and replace the content
 
 If variable names are kept after compilation, we should be able to see them in MSIL format.
 
-# Disassembling MSIL
+## Disassembling MSIL
 You might want to find a disassembler somewhere, and I just published a new global tool for .NET SDK here,
 ``` text
 dotnet tool install --global dotnet-ildasm2
@@ -98,7 +98,7 @@ If we disassemble the corresponding release build, we will see
 
 which does not even have `.locals` any more.
 
-# Conclusion
+## Conclusion
 Thus, now you know that local variable names are lost during C# compilation, so that any obfuscation tool needn't to perform anything else on them.
 
 Stay tuned for more.

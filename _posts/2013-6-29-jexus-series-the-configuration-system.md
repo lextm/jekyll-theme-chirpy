@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 The Jexus configuration system is more similar to Apache/Nginx, rather than IIS.
 <!--more-->
 
-# Server Configuration
+## Server Configuration
 
 The configuration file, which contains most of Jexus settings, is located in Jexus installation folder (usually /usr/jexus) and named jws.conf.
 
@@ -34,7 +34,7 @@ The log directory must give Jexus process permissions to write, as Jexus server 
 
 In default installation, /usr/jexus/siteconf is used as configuration directory, while /usr/jexus/log is used as log directory.
 
-# Web Site Configuration
+## Web Site Configuration
 
 Jexus supports multiple web sites running on the same server. The web sites use individual bindings to distinguish from each other.
 

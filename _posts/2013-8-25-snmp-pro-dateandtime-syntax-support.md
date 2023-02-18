@@ -8,13 +8,13 @@ excerpt_separator: <!--more-->
 Well, I blogged about syntax validation [in a previous post](/snmp-pro-syntax-validation-in-sharpsnmppro-mib-aef7a40c9af4), which should be one of the coolest features for SharpSnmpPro.Mib assembly. But there is an interesting story about that untold.
 <!--more-->
 
-# The Beginning of DateAndTime Support
+## The Beginning of DateAndTime Support
 
 In fact a very long time ago OctetString class has [a special implementation of ToString](https://github.com/lextudio/sharpsnmplib/blob/cec90df0e1f557a3de3beb6c5cbb6d0a16f9c27d/SharpSnmpLib/OctetString.cs). It was not written by me, but Malcolm. Malcolm tried to use it to convert an OctetString instance to DateAndTime value. However, that was not a good way as you never know if that instance should be interpreted in that format.
 
 Anyway, that was the start. Later I moved that logic to a separate method called ToDateString, but it was not improved in the future releases.
 
-# Five Years After
+## Five Years After
 
 Now five years passed, and we have syntax validation ready. Is it a good time now to support DateAndTime completely? Yes, of course.
 
@@ -39,7 +39,7 @@ We expect it can be properly understood by #SNMP Pro, so the following test case
 
 Yes, that passes now with SharpSnmpPro.Mib and we know DateAndTime support is finally finished.
 
-# IDecoder Interface
+## IDecoder Interface
 
 Behind the scene, the raw data we passed in is handled by a new class called DataAndTimeDecoder, which is built into to SharpSnmpPro.Mib. Its source code is as below,
 

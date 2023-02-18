@@ -17,7 +17,7 @@ Generally speaking, ASP.NET Core is cool, and the recent 2.1 release is even coo
 ![img-description](/images/ancm_diag.png)
 _Figure 1: ASP.NET Core Diagnostics in Jexus Manager_
 
-# Famous Issue 1: ASP.NET Core Module on IIS
+## Famous Issue 1: ASP.NET Core Module on IIS
 
 I cannot recall when Microsoft decided to make ASP.NET Core module for IIS a second installer (out of .NET Core SDK for Windows). So whenever a developer gets familiar with .NET Core with merely the SDK installed on Windows, and attempts to publish the binaries for IIS to host, BOMB, a famous 500.19 error page happens.
 
@@ -39,7 +39,7 @@ Therefore, if a new developer comes and tries, he/she won't be able to know what
 
 > Note that you also need to update ASP.NET Core module to match the actual runtime, as ASP.NET Core 2.2 introduced ASP.NET Core module v2, which is different from v1.
 
-# Famous Issue 2: Framework Dependent Deployment vs. Self Contained Deployment
+## Famous Issue 2: Framework Dependent Deployment vs. Self Contained Deployment
 
 Again, Microsoft makes [very clear documentation](https://docs.microsoft.com/dotnet/core/deploying/).
 
@@ -50,13 +50,13 @@ But it is still not easy for beginners to hit this page and fully understand the
 
 Clearly, the developer must know that the runtime ought to be installed separately for FDD.
 
-# Famous Issue 3: Where To Configure HTTPS
+## Famous Issue 3: Where To Configure HTTPS
 
 Ideally you should install the certificate on the reverse proxy server (IIS/Apache/nginx). Then the browser/reverse proxy connection is HTTPS enabled, while the reverse proxy/Kestrel connection can be HTTP.
 
 I think of course the latter can be configured as HTTPS enabled as well, but it would take your some time to figure out how to.
 
-# Possible Solution
+## Possible Solution
 
 I don't know if there can be a complete solution to address both issues, but personally I believe the following might help a little bit,
 

@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 If you played with commercial SNMP products for developers, you may notice how they were designed. For example, SilverCreek combines the compiler with the browser while MGSoft splits them into separate executables. Therefore, I think it is time to decide how to design #SNMP Browser and Compiler.
 <!--more-->
 
-# Plan A
+## Plan A
 
 In this plan, the browser has less features than it is now. The feature set is,
 
@@ -22,13 +22,13 @@ Then these features will be added in the compiler,
 * Compile new MIB documents to *.module files and add to inventory.
 * Delete module files from the module inventory.
 
-# Plan B
+## Plan B
 
 In this plan, the compiler will be part of the browser. So all features described in Plan A will be available in the browser.
 
 However, this means there will be a few more panels and menu items added to the browser which may be an issue for collaboration. Do you know it is hard to merge Form and UserControl in WinForms applications?
 
-# Current Approach
+## Current Approach
 
 I was interested in Plan B at first, and that is why you can add and delete MIB documents from the current MIB browser.
 

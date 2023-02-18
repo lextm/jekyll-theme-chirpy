@@ -12,7 +12,7 @@ image:
 IIS 10 allows users to easily use [wildcard host names](https://docs.microsoft.com/iis/get-started/whats-new-in-iis-10/wildcard-host-header-support). Well, "why is it so late"? You might ask. I did not work on IIS, so I can only guess that the developers believe you can already support such on previous IIS releases. But how? Recently I have been using ARR a lot, so below I provide an approach to support wildcard host names via ARR.
 <!--more-->
 
-# What Is Wildcard Host Name?
+## What Is Wildcard Host Name?
 
 Assume that you have two domains, site1.com and site2.com. For each of them, you would like to host a few subdomains,
 
@@ -27,7 +27,7 @@ and more importantly, all subdomains of site1.com should be served by the same w
 
 OK, if with IIS 10, we just need two web sites. One of them binds to `*.site1.com` and the other `*.site2.com`.
 
-# What To Do on Old IIS Releases?
+## What To Do on Old IIS Releases?
 
 Firstly, of course you need to install ARR and URL Rewrite module. Later we use them to configure a reverse proxy.
 
@@ -72,7 +72,7 @@ Lastly, set up ARR proxy mode at server level,
 </system.webServer>
 ```
 
-# Side Notes
+## Side Notes
 
 The reverse proxy approach is slightly complex if we compare to wildcard host name support in IIS 10. Indeed, it takes more steps to set up, and it requires a few sites with no host name in their bindings, which might not look pleasant. Also when we compare the performance metrics, reverse proxy has more overhead (but negligible in most cases).
 

@@ -29,13 +29,13 @@ You might wonder if we can get rid of the error by modifying IIS Express configu
 ![img-description](/images/jexus-manager-before-editing.png)
 _Figure 3: Site binding before editing._
 
-# Simplest Fix
+## Simplest Fix
 ![img-description](/images/jexus-manager-custom-host.png)
 _Figure 4: 127.0.0.1 as host name._
 
 If you decide to change from "localhost" to `127.0.0.1`, congratulation that you found the simplest fix. It seems that the Android magic sets Host header to `127.0.0.1` so that IIS Express can process the requests in this way.
 
-# More Complicated Fix
+## More Complicated Fix
 What happens if you happen to decide to leave the field blank?
 
 ![img-description](/images/jexus-manager-blank-host.png)

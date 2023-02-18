@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 Some IIS URL Rewrite beginners usually wonder how to write the rules properly. Except learning regular expression, which is the key of rewrite rules, you should also pay enough attention to the rule engine and the special settings the engine provides.
 <!--more-->
 
-# Rule Engine Basic Flow
+## Rule Engine Basic Flow
 The rules are executed in a cascaded way, so that every rule is hit by default, each might modify the URL a little bit.
 ``` text
 Incoming Requests
@@ -22,7 +22,7 @@ Incoming Requests
                          |-> Handler
 ```
 
-# The Challenge
+## The Challenge
 OK, now let's try one complex case. Assume I have a site for cars. The following are the URLs I want to rewrite,
 
 * `/benz`
@@ -54,7 +54,7 @@ Well, I finished the rule in just a few minutes,
 
 However, due to a deal with General Motors I have to leave `/general-motors` untouched. This is where most beginners get puzzled. How can we achieve that goal?
 
-# The Solution
+## The Solution
 Someone uses the below version,
 
 ``` xml

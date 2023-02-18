@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 一周前受衣明志大哥邀请在烟台市他主办的首届胶东开发者大会上与大家分享了关于 Jexus 和 ASP.NET 跨平台开发的一些个人看法。本文内容基本和当日的演讲一致，局部可能补充了一些额外信息，供有兴趣的朋友们参考。
 <!--more-->
 
-# 微软的跨平台战略
+## 微软的跨平台战略
 
 微软在过去的一年多中时间中发生了令整个 IT 行业感到惊叹的变化。这一切始于 Ballmer 的退位和 Nadella 的决心，更始于早已在微软各个基层部门蠢蠢欲动的二次创业。
 
@@ -24,7 +24,7 @@ excerpt_separator: <!--more-->
 
 因此只要微软 ASP.NET 技术能够支持跨平台开发部署，那么就能立即进入一个全新的市场领域。
 
-# .NET Core 5 和 ASP.NET 5
+## .NET Core 5 和 ASP.NET 5
 
 为了达成跨平台目标，微软开发工具部门在发布了 .NET 4.5 和 ASP.NET 4.5 之后花了相当长的时间来构架下一代网站开发技术。在这个超过两年的漫长过程中，以下几个目标逐渐清晰，
 
@@ -50,7 +50,7 @@ ASP.NET 5 方面同样如此，完全开源之外也带来了很大的变化。S
 
 有没有更加简单的方式让 ASP.NET 应用登陆 Linux 平台呢？
 
-# Mono 和 Jexus 网站服务器
+## Mono 和 Jexus 网站服务器
 
 Mono 这个开源项目其实一直伴随着 .NET Framework 成长。Miguel de Icaza 先生早年一直领导着 Gnome 这个开源桌面系统的开发。在2000年微软公布了 C# 语言和 .NET Framework 之后，他非常感兴趣并且希望能把这些新技术带到 Linux 平台，于是一手建立了 Mono 这个项目和社区。现在 Mono 的稳定版本是 4.2.1，得到了 Xamarin 和微软两家公司的共同支持。
 
@@ -74,7 +74,7 @@ http://v.youku.com/v_show/id_XMTQyMTA2MDUzMg==.html
 
 http://v.youku.com/v_show/id_XMTQyMTA2MTUxMg==.html
 
-# Jexus Manager
+## Jexus Manager
 
 为了进一步简化 Jexus 的管理，方便熟悉 IIS 的开发者迁移，我在2014–2015这段时间开发了一个可视化的管理工具，名叫 Jexus Manager。
 
@@ -82,7 +82,7 @@ http://v.youku.com/v_show/id_XMTQyMTA2MTUxMg==.html
 
 从技术细节来看，它也和微软 IIS 高度相似，比如提供了 Microsoft.Web.Administration 和 Microsoft.Web.Management 两个 API 接口，实现配置文件的读写和用户界面的扩展。
 
-# Jexus 的未来蓝图
+## Jexus 的未来蓝图
 
 在未来的版本中，Jexus 服务器可能会加入下面的功能：
 
@@ -97,7 +97,7 @@ http://v.youku.com/v_show/id_XMTQyMTA2MTUxMg==.html
 
 而 Jexus Manager 管理工具则会在2016年分阶段完全开源。
 
-# 参考
+## 参考
 
 * Jexus 官方网站 http://jexus.org
 * Jexus 英文资料 https://jexus.codeplex.com

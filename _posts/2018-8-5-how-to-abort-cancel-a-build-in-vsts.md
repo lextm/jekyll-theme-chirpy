@@ -12,7 +12,7 @@ image:
 I wrote about [how to build a pipeline to host multiple Sphinx sites on Azure App Service](/ci-cd-pipeline-with-vsts-and-zapier-b81d341088dd). But a remaining item is that how to abort a build when nothing (in submodules) is changed.
 <!--more-->
 
-# Changes Detection
+## Changes Detection
 
 First we need to detect changes,
 
@@ -35,7 +35,7 @@ echo change detected. continue.
 
 Most importantly, we execute a PowerShell script to abort.
 
-# Approaches to Abort
+## Approaches to Abort
 
 Well, let's pause here, and go back to VSTS dashboard to review the status of different builds,
 
@@ -47,7 +47,7 @@ So if we decide to abort a build (when nothing changes), what status should the 
 
 Your answer to this question, in fact, decides what approach you should do next.
 
-# Aborted as Succeeded
+## Aborted as Succeeded
 
 This can be easily achieved, by using the following PowerShell script abort.ps1 ,
 
@@ -60,7 +60,7 @@ It simply tells the agent to cancel the task. Miserably, you notice that on dash
 
 > Update: This approach no longer works in newer releases, and the error message is Overwriting readonly variable 'agent.jobstatus' is not permitted.
 
-# Aborted as Failed
+## Aborted as Failed
 
 It is rather simple to achieve, because you simply need to modify the batch file as
 
@@ -79,7 +79,7 @@ echo change detected. continue.
 
 A non-zero return code is enough to fail the task and the whole build.
 
-# Aborted as Cancelled
+## Aborted as Cancelled
 
 If you intend to see the aborted build as cancelled, things go complicated, and we need to call VSTS REST API with some special credentials.
 

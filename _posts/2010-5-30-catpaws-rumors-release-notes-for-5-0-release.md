@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 We did analysis on #SNMP 4.0 before. This post is the latest one for 5.0.
 <!--more-->
 
-# A view of the work achieved
+## A view of the work achieved
 
 ``` sql
 SELECT METHODS WHERE CodeWasChanged OR WasAdded
@@ -23,7 +23,7 @@ You can see a lot of highlighted areas, because
 1. Agent side SNMP v3 support introduces many underlying changes in the Library.
 1. Browser side SNMP v3 support introduces a few changes in itself.
 
-# New Core Public Types
+## New Core Public Types
 
 ``` sql
 SELECT TYPES FROM ASSEMBLIES "SharpSnmpLib","SharpSnmpLib.Controls", "SharpSnmpLib.Mib"
@@ -36,7 +36,7 @@ Only three new types are introduced in 5.0,
 * DecryptionException: An exception raised when an SNMP v3 message cannot be decrypted successfully.
 * ListenerBinding: We introduce this class, so you can ask a Listener class to monitor on several IP address:port number bindings.
 
-# New Assemblies
+## New Assemblies
 
 ``` sql
 SELECT ASSEMBLIES WHERE WasAdded
@@ -44,7 +44,7 @@ SELECT ASSEMBLIES WHERE WasAdded
 
 Only one assembly is added to our binary release package. That is snmptranslate, a utility to show how to use compiled MIB documents to do OID translation.
 
-# New Public Types
+## New Public Types
 
 ``` sql
 SELECT TYPES WHERE WasAdded AND IsPublic
@@ -55,7 +55,7 @@ We have a few new types here except for the three mentioned above,
 * OutputPanelAppender: This is a custom log4net appender used in the Browser and the Compiler. It logs all necessary information into the output panel.
 * RollingFileAppender: This is a custom log4net rolling file appender that outputs log file names in IIS similar pattern.
 
-# Rambling
+## Rambling
 
 Our biggest changes are,
 
@@ -63,7 +63,7 @@ Our biggest changes are,
 1. The Agent, the Browser and the Compiler supports both .NET/Windows and Mono/openSUSE now.
 1. VB.NET samples are added.
 
-# Breaking Changes
+## Breaking Changes
 
 Removed types are,
 

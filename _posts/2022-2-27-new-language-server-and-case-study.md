@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 It was around the year end of 2020 that I noticed the existence of the Snooty language server from MongoDB and [integrated it with the reStructuredText extension for VSCode](/integration-with-snooty-language-server/). After about a year, it's time to move to another language server in this field.
 <!--more-->
 
-# Limitation of Snooty
+## Limitation of Snooty
 
 While Snooty is a nice language server, it has several things that bother me often.
 
@@ -18,7 +18,7 @@ Second, its issue tracker is internal so even I have no idea what the guys are w
 
 Third, it is pretty large a program with performance cost.
 
-# Esbonio History
+## Esbonio History
 
 The new language server is called Esbonio, and created by Alex Carney. Compared to Snooty, it uses a different approach and features a few important parts,
 
@@ -31,7 +31,7 @@ It was launched in August 2020 and has been improved significantly in 2021.
 
 As a result, starting from release 170.0.0, the reStructuredText extension for VSCode moved to Esbonio language server.
 
-# Case Study
+## Case Study
 
 If you just install this extension and would like to work on a ReadTheDocs project, you might notice an error saying "Unable to initialize Sphinx, see output window for details", so here I try to reveal how to troubleshoot and learn the cause.
 
@@ -90,7 +90,7 @@ Finally, we can add this dependency via `C:\Users\lextudio\AppData\Local\Program
 
 But even now, you find features relying on Esbonio do not come back normally. That's because we need to manually restart Esbonio by clicking "esbonio: idle" in status bar.
 
-# Future Plan
+## Future Plan
 
 The migration to Esbonio is going to take a few months, as some existing features of Snooty are missing in Esbonio.
 

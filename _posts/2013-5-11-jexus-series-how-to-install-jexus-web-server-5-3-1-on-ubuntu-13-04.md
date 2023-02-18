@@ -7,14 +7,14 @@ excerpt_separator: <!--more-->
 ---
 This is a series of posts regarding the free Linux web server called Jexus.
 
-# What is Jexus?
+## What is Jexus?
 
 Jexus Web Server is a free web server for Linux (it is free, but not open source). It is powered by Mono and aims to provide best support for ASP.NET applications (while it also provides excellent PHP support out of the box).
 
 Its homepage is at http://www.linuxdot.net/ (in Simplified Chinese).
 <!--more-->
 
-# Install Steps
+## Install Steps
 
 1. Install Mono runtime
 
@@ -60,7 +60,7 @@ In the next post in this series, we will see how to upgrade from an older Jexus 
 
 If you are interested in Jexus, but do not understand Chinese well, you can post your questions to https://github.com/jexuswebserver/jexus-contrib/issues.
 
-# Updated:
+## Updated:
 Below is the alternative way in step 3 to create the test page using vi,)
 
 1. `sudo vi /var/www/default/index.html`

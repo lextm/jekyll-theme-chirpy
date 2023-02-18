@@ -28,7 +28,7 @@ Then please wait till you receive the invitation.
 
 Once you are added to the private beta mailing list and receive the private beta files, please follow the these steps to request a license file.
 
-# Generate License Hint
+## Generate License Hint
 
 1. Launch the compiler by double clicking Compiler.exe.
 1. Go to Help | Register Product menu item.
@@ -37,7 +37,7 @@ Once you are added to the private beta mailing list and receive the private beta
 1. Paste that data to an email and send to me.
 1. Exit the Register dialog by clicking the red cross on top right corner.
 
-# License Activation
+## License Activation
 I will send the license key back via email. Then you just need to perform the following steps to get the compiler activated,
 
 1. Launch the compiler by double clicking Compiler.exe.

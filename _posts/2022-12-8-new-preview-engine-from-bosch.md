@@ -14,7 +14,7 @@ If you have been a long time user of reStructuredText extension for VS Code, you
 This post aims to shed some light on what's the story behind.
 
 <!--more-->
-# How Old Preview Engine Works
+## How Old Preview Engine Works
 
 The old preview engine was ported from VS Code Markdown extension.
 
@@ -35,7 +35,7 @@ However, this engine itself lacks of a good way to generate accurate line number
 
 The initial C# based language server or snooty server didn't help much on previewing pages.
 
-# The Introduction of Esbonio
+## The Introduction of Esbonio
 I [wrote about this language server project](/new-language-server-and-case-study/) created by Alex Carney this February, and since then it has been used as the default for this extension. Esbonio is actually more than just a language server, as Alex tried to also tune the generated pages for previewing.
 
 There were several rounds of conversation between Alex and me, so that we can sync up on his innovation. In order to avoid any breaking changes to users of this extension, we decided to keep the Esbonio VS Code extension alive,
@@ -46,7 +46,7 @@ There were several rounds of conversation between Alex and me, so that we can sy
 
 While this collaboration set a good example and was going slowly but steadily, one day Bosch knocked on the door.
 
-# The New Preview Engine Offered by Bosch
+## The New Preview Engine Offered by Bosch
 Bosch guys were so kind to set up calls with Alex and me and demonstrated their own live preview engine and other important changes they made in this field. I won't cover too much detail, but some are already known to you,
 
 1. A new line counting mechanism was developed so that we can insert very accurate line number information into Sphinx generated HTML pages.
@@ -66,8 +66,5 @@ Bosch guys were so kind to set up calls with Alex and me and demonstrated their 
 1. They investigated many other performance issues and patches will be made available for individual projects in the coming weeks.
 
 In short, the Bosch guys have made a huge contribution not only to this VS Code extension project, but almost the entire reStructured/Sphinx ecosystem.
-
-
-
 
 Due to the scale, I expect a stable release of this extension with all Bosch proposed changes to be shipped in early 2023.

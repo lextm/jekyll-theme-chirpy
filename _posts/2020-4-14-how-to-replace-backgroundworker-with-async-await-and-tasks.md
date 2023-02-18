@@ -18,12 +18,12 @@ However, after .NET Framework 4.x came with `Task` based classes (Task Parallel 
 Well, the only challenge is, how we can convert the code base from `BackgroundWorker` to `async`/`await`, which I will show you in this post.
 <!--more-->
 
-# What The Sample Demonstrates
+## What The Sample Demonstrates
 So for this sample project we want some background operations to execute (which execute in a sequence and each of them takes 1 second to finish) and monitor the overall progress (percentage of completed operations). Of course, cancellation is another most wanted feature so if cancellation is triggered the remaining operations are skipped.
 
 Since the sample will show you how to properly do multithreading operations, its UI runs on the main thread, while all operations execute on a single background thread or on multiple background threads.
 
-# How The Sample Project Starts with BackgroundWorker
+## How The Sample Project Starts with BackgroundWorker
 [The project](https://github.com/lextm/backgroundworker-sample/commit/d2ca2509e06cc7bdbe9492cb54c181cdd704e22e) hosted on GitHub is based on Windows Forms and .NET Framework 4.7.2.
 
 To make full use of `BackgroundWorker`'s capability, both progress reporting and cancellation are utilized. As you can see it is rather simple, and easy to understand.
@@ -38,7 +38,7 @@ This pattern does have its problems, like
 * Here `Thread.Sleep` is used to mimic a slow sync function call (usually in your own project here should be slow function calls like `SqlCommand.ExecuteScalar`).
   > When you need to call an async function like `SqlCommand.ExecuteScalarAsync`, it is not obvious how to write the correct code inside `DoWork`. This is a bigger issue with new .NET APIs, as they are full of async functions (SignalR for example).
 
-# How to Remove BackgroundWorker from The Sample
+## How to Remove BackgroundWorker from The Sample
 Well, now it's time to kill the bird. And you can easily see the changes here in [the commit](https://github.com/lextm/backgroundworker-sample/commit/2e4cdf37c14b4e049407ea91db82dbefb125cc64).
 
 Obvious parts are,
@@ -53,6 +53,6 @@ You must keep in mind there are many important tips on proper usage of `async`/`
 * While the heavy task is executed in the background (and awaited), changing the text of label is on UI thread, as after the `await` line the execution context is restored.
   > Capturing/restoring such context is expensive, so you should suppress that with `ConfigureAwait(false)` if you don't need the context. Microsoft guys wrote [a must-read post here](https://devblogs.microsoft.com/dotnet/configureawait-faq/).
 
-# Conclusion
+## Conclusion
 
 `Task` and `async`/`await` have been very important addition to .NET ecosystem, so use them whenever possible and that's going to make your life a lot easier.

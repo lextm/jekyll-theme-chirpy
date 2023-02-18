@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 Now I'd like to introduce how I find this bug.
 <!--more-->
 
-# The Background and Steps
+## The Background and Steps
 
 I'd like to modify AddMany (CodeCentral entry #25077) project without breaking the original source code. Thus I did the following,
 
@@ -21,6 +21,6 @@ Also when I tried CBC's Delete Project Target, CBC said that target does not exi
 
 Luckily [the workaround is described here](/rad-studio-ota-issue-details-6e111b51c005) so if you also meet this issue you can try my code.
 
-# Update:
+## Update:
 
 This bug is logged as QC#57890. And it applies to both Delphi for Win32 and .NET DLL/BPL projects. Strangely it does not affect EXE projects.

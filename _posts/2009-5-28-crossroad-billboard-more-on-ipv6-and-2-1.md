@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 Here is the technical details about work item 4016 and release 2.1.
 <!--more-->
 
-# Background
+## Background
 
 I bought my laptop in 2007, which ships with Windows Vista Home Basic, so from then on I have worked on IP v6 enabled platforms (Windows Vista and Windows 7).
 
@@ -17,7 +17,7 @@ Before the release of 2.0 final, when I tried to make the library IP v6 compatib
 Yes, I did learn a few key points about Windows XP and Windows Server 2003 in March. But I simply neglected them that day and left the bug there. (Next time surely I will do some tests on Windows XP.
 
 
-# Report
+## Report
 
 BACON report this bug on April 29th (three days after the release day), which soon drew my attention.
 
@@ -25,7 +25,7 @@ This is one of the best bug reports I ever saw, in which not only the problem de
 
 I must thank BACON again as he/she did a great job.
 
-# Extra
+## Extra
 
 The report was about the library, but in fact there was another relevant issue in the browser.
 
@@ -33,7 +33,7 @@ When I designed the notification panel, it also made use of IP v6 so that all TR
 
 The good news is that both issues are addressed, and 2.1 contains both patches.
 
-# Side Notes
+## Side Notes
 
 First, what if your application only targets Windows 6.0 (Vista and Server 2008) and the upcoming Windows 7 (Windows Server 2008 R2 as well)? Do you need to upgrade? I think you can continue using release 2.0.
 

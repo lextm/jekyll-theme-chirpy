@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 
 * June 2000, .NET Framework Beta 发布[1]
 * July 19, 2001 Mono项目启动[2]
-* Feb 13, 2002 .NET Framwork 1.0 发布[1]
+* Feb 13, 2002 .NET Framework 1.0 发布[1]
 * Aug 4, 2003 Novell 收购 Ximian[3]
 * June 30, 2004 Mono 1.0 发布[2]
 * Nov 2, 2006 Novell 与微软达成合作[4]
@@ -30,7 +30,7 @@ excerpt_separator: <!--more-->
 * May 28, 2014 Xamarin 3.0系列产品发布[6]
 * Nov 12, 2014 微软宣布基于MIT协议进一步开放更多.NET Framework源代码（主要是配合ASP.NET的服务器端代码，而特定桌面端代码不含在内）[1]
 
-# 参考
+## 参考
 
 [1] http://en.wikipedia.org/wiki/.NET_Framework
 

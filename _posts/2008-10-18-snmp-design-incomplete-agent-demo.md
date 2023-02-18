@@ -12,7 +12,7 @@ I started to increase agent side support in #SNMP, but soon I found that I could
 
 I am now guiding you to create a WinForms application that can simply handle one SNMP request as an SNMP agent. You may follow the steps to see how many pieces are still missing in the map. By the way, if you are interested in this field and want to contribute, drop me a comment so I can contact you.
 
-# Project Initiated
+## Project Initiated
 
 Create a new WinForms application called AgentDemo in Visual Studio or SharpDevelop.
 
@@ -20,7 +20,7 @@ Then add #SNMP library project into this solution.
 
 Now you can add a project reference in AgentDemo to SharpSnmpLib.
 
-# Basic GUI Setup
+## Basic GUI Setup
 
 If you take a look at the Toolbox at this moment, you can see three new components.
 
@@ -30,7 +30,7 @@ Also you need to add two buttons like this.
 
 So the simplest UI is done.
 
-# Simplest Code
+## Simplest Code
 
 So now let's see how to bind event handlers. The Start button must do this,
 
@@ -64,7 +64,7 @@ private void agent1_GetRequestReceived(object sender, Lextm.SharpSnmpLib.GetRequ
 }
 ```
 
-# Why Not Response?
+## Why Not Response?
 
 Now I will show you how to response to a simple request. Modify GetRequestReceived handler like this,
 
@@ -122,7 +122,7 @@ public OctetString Community
 }
 ```
 
-# The Problems
+## The Problems
 
 Although this small demo works, I cannot say #SNMP can be used to develop agents. There are serious problems,
 

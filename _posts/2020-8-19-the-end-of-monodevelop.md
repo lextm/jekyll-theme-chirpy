@@ -18,14 +18,14 @@ As a long time Mono observer, I wrote two blog posts in the past regarding MonoD
 
 I will explain below why I don't think the sudden change is sudden, and provide my personal opinions.
 
-# The Value of MonoDevelop for Microsoft
+## The Value of MonoDevelop for Microsoft
 Most Microsoft developers are on Windows without a doubt. And recently via VSCode and VS for Mac, Microsoft has been able to reach developer communities on macOS and Linux. But one fact we must consider is that Linux desktop market share is rather small (<1% by certain stats), so VS for Linux has been requested but never fulfilled. Therefore, there is no obvious ROI for Microsoft to keep investing in MonoDevelop for Linux, and we saw more and more issues in the past few years,
 
 1. No more binary package of MonoDevelop for various Linux distributions.
 1. Many issues to compile the latest code base on Linux.
 1. The repository was polluted by Microsoft private NuGet feeds and private code repositories (though some repos became open sourced later on).
 
-# The Investment on MonoDevelop from Microsoft
+## The Investment on MonoDevelop from Microsoft
 While no clear revenue comes from Linux user base, MonoDevelop has been the foundation of VS for Mac. So Microsoft can still earn something back from macOS users.
 
 However, to keep MonoDevelop as a full feature IDE for different operating systems (Windows, macOS, and Linux), the developers must spend time fixing Windows/Linux related issues, which most of the times does not contribute much to the revenue.
@@ -34,7 +34,7 @@ Most importantly, to keep MonoDevelop open sourced, Microsoft had to release cer
 
 Another factor to consider is that competitors in the same field might make use of the newly released code to compete with Visual Studio. For example, JetBrains Rider reused vstest code base to implement MSTest support, which was never part of Rider before. (Recently JetBrains decided to switch from vstest to its brand new testing infrastructure though.)
 
-# Conclusion
+## Conclusion
 A company like Microsoft might not be able to continue its investment when the revenue does not meet the expectation. So it is a natural move to stop contributing to the open source MonoDevelop.
 
 That does not mean VS for Mac is impacted negatively, but good news,

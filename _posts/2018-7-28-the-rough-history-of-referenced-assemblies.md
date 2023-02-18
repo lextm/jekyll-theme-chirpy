@@ -12,11 +12,11 @@ image:
 This post tries to fill the gaps left in the compiler history post. You can find all other posts I wrote in [the index page](/all-in-one-for-the-legends-of-net-materials-43c374a01433).
 <!--more-->
 
-# .NET Framework 1.x/2.x/Compact Framework
+## .NET Framework 1.x/2.x/Compact Framework
 
 When Microsoft released such old releases, the compilers (C#/VB) always compile your program against the core assemblies (like mscorlib ) in GAC or .NET Framework installation folder.
 
-# .NET Framework 3.x/4.x/Silverlight/UWP
+## .NET Framework 3.x/4.x/Silverlight/UWP
 
 Microsoft started to ship referenced assemblies when they released .NET Framework 3.0, according to [an old blog post](https://blogs.msdn.microsoft.com/msbuild/2007/04/12/new-reference-assemblies-location/) from MSBuild team.
 
@@ -30,7 +30,7 @@ As a neat feature, Microsoft made full use of it, when later releasing other pla
 
 > You should also notice that the referenced assemblies of PCL use version number of "2.0.5.0". None of the assemblies contain anything other than metadata, so the version number does not matter at all. At runtime, your program uses the actual underlying platform version of the assemblies (4.0.0.0 is many cases).
 
-# Target Frameworks and Developer Packs
+## Target Frameworks and Developer Packs
 
 So referenced assemblies are grouped into different folders, and each groups map to a specific API surface,
 
@@ -48,7 +48,7 @@ Microsoft creates installers for most of the new target platforms, and they are 
 >
 > Visual Studio relies on the presence of such Developer Packs to show a certain target framework in the project option, so make sure you install such before working on a project.
 
-# SKUs
+## SKUs
 Because target frameworks are in fact API surface (classes and methods), a certain .NET Framework (like 4.7.2) can support code compiled against many target frameworks,
 
 * .NET Framework 4.0
@@ -76,7 +76,7 @@ The `sku` attribute is used by .NET CLR to validate against the installed SKUs. 
 
 > Note that [there is another registry key](https://docs.microsoft.com/dotnet/framework/migration-guide/how-to-determine-which-versions-are-installed) to determine installed .NET Framework version, `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP`, which is irrelevant to SKUs or target frameworks or Developer Packs.
 
-# Mono and Xamarin
+## Mono and Xamarin
 
 The extensibility of referenced assemblies and MSBuild makes it possible to let programs compile against Mono assemblies metadata. But more importantly, Xamarin platforms can later hook to the same system, to enable iOS and Android development.
 
@@ -84,7 +84,7 @@ The extensibility of referenced assemblies and MSBuild makes it possible to let 
 >
 > Also notice that initially Mono/Xamarin guys cannot easily implement PCL support because the materials only shipped with Visual Studio, and were not released under a suitable license. Later [Microsoft decided](https://blogs.msdn.microsoft.com/dotnet/2013/10/14/portable-class-library-pcl-now-available-on-all-platforms/) to release the referenced assemblies separately and allowed Mono to pack it. And [Mono/Xamarin acted](https://blog.xamarin.com/microsofts-pcl-reference-assemblies/) swiftly.
 
-# .NET Core/.NET Standard
+## .NET Core/.NET Standard
 
 Microsoft finally made [an official feature](https://github.com/dotnet/roslyn/issues/2184) in Roslyn to output referenced assemblies.
 

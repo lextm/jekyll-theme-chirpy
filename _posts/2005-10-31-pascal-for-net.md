@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 ---
 (Originally posted to CSDN on Nov 01, 2005)
 
-# Anders的雄心――大鱼是Microsoft
+## Anders的雄心――大鱼是Microsoft
 
 1996年，Anders Hejlsberg从Borland出走到了Microsoft。从VJ++开始，Anders就努力打造一个全新的开发技术。VJ并不是Java，已经是大家都接受的事实了。到了2000年，Windows翻开了新的纪元，MS公开了酝酿已久的.NET平台。虽然那时.NET还在Beta阶段，众多业界人员已经可以感受到强烈的冲击。确实C#和.NET同Java是那样的相似，但是，我们必须承认，.NET做的比Java好一点点。
 
@@ -17,7 +17,7 @@ excerpt_separator: <!--more-->
 
 现在Java反而是最苦恼的，在前台开发领域本来就一直落后于Native的Delphi/C++Builder等等，以至于龟缩在后台做J2EE，而现在C#/.NET来了，连它的老家后台服务领域都被微软给盯上了，它的机会就更少了。其实Java语言真的很优秀，OO的一套很漂亮，但是很多人像我不会考虑用它来作用户界面的，即使有SWT和JBuilder。
 
-# Danny的响应――小鱼是Borland
+## Danny的响应――小鱼是Borland
 
 作为Anders好思想的继承者，Danny Thorpe在Borland决定加入.NET阵营的很短时间内就给出了一个Delphi for .NET Compiler Preview，确实让人高兴。不过，那仅仅是一个编译器，还没有IDE的配合，形不成很好的生产力。另外，你不可能指望用一个还叫Preview的东西开发出可靠的产品。所以，作为Delphi的忠实用户，我们其实一直在等待Delphi 8。
 
@@ -29,7 +29,7 @@ Delphi 8在2003年底终于做出来了，Danny所写的Delphi for .NET编译器
 
 马上发布的Delphi 2006又会是怎样的好东西呢，拭目以待。
 
-# marc的抉择――虾米是RemObjects
+## marc的抉择――虾米是RemObjects
 
 如果Delphi社区人人都像我这样虔诚地等待着Delphi 2005来临，那么Borland的CEO肯定会十分高兴。不幸的是，肯定有些人需要别的解决方式来节约时间――”等待毕竟是一生最初的苍老”。
 
@@ -47,7 +47,7 @@ marc成功了，因为他现在正在进行Chrome 1.5版本的发布准备了，
 
 Chrome 1.5的发布肯定会引入许多更好的特性。可以期待。
 
-# 写在最后
+## 写在最后
 
 .NET时代，你的选择是什么呢？这里列出一些参考建议：
 
@@ -55,7 +55,7 @@ Chrome 1.5的发布肯定会引入许多更好的特性。可以期待。
 1. Delphi的用户可以继续用VCL，只不过VCL for .NET做了一些小小的限制。应该感谢Borland，这些限制作为普通用户的你几乎感觉不到。当然，你也可以用Delphi for .NET开发纯粹的.NET程序。同时Delphi Win32开发仍然是Borland提供的IDE的一部分。
 1. 作为新接触Pascal的用户，你比从前多了选择的权力――Delphi或者Chrome。选择Delphi可以做Win32/.NET的开发，而选择Chrome只能做.NET。在.NET平台方面，由于语言之间没有太多界限，两者之间是可以协作的。
 
-# 修改之后
+## 修改之后
 
 Chrome1.5基本上是一个简单的升级。这大概是因为Chrome的1.0就已经达到了相当的水平，做出了足够的突破。
 

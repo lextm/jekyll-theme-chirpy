@@ -8,6 +8,6 @@ Lex Li is an entrepreneur, engineering manager, developer, podcaster, author, an
 
 The opinions expressed herein are his own personal opinions and do not represent the view of his employers in any way.
 
-# Business Contact
+## Business Contact
 
 [LeXtudio Inc.](https://www.lextudio.com)

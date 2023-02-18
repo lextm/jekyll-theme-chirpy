@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 Xamarin has sent me several mails regarding how to update component submissions to latest iOS platform. Thus, I made a few changes recently, which you can find at GitHub.
 <!--more-->
 
-# Project File Changes
+## Project File Changes
 
 I have created several testing projects, and found that finally the MonoTouch name is abandoned. The new projects all target Xamarin.iOS platform, and also add Xamarin.iOS.dll as reference. You can go into C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\Xamarin.iOS\v1.0 to check the details.
 
@@ -18,7 +18,7 @@ There are also namespace changes, such as removing the MonoTouch prefix.
 
 [The following change set](https://github.com/lextudio/sharpsnmplib/commit/d3caee6984061e2db17dc048cef5449a29dc2a05) shows all the changes I made.
 
-# Packaging Issue
+## Packaging Issue
 
 I have been using Windows 10 for a while, as well, as Visual Studio 2015. Thus, when I ran xamarin-component.exe to pack up things, I got this exception,
 

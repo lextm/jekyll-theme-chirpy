@@ -12,7 +12,7 @@ IIS never ships URL Rewrite module (even in IIS 10 shipped with Windows 10 and W
 Only when I tried to clone the same feature and dived deep into the module, I found its quality (or design) is different from other built-in features.
 <!--more-->
 
-# Nested Page Navigation
+## Nested Page Navigation
 
 In other features, you rarely need to navigate to child pages. But URL Rewrite module heavily uses such pages in IIS Manager.
 
@@ -20,7 +20,7 @@ Note that in the Actions panel there are "Back to…" links to parent pages.
 
 A negative effect of this approach is that you can easily lose track of what you are editing.
 
-# Broken Schema File
+## Broken Schema File
 
 When I tried to understand the usage of schema files (C:\Windows\System32\inetsrv\config\schema), I thought that IIS Manager loads them only when it is opened. But now I know I was wrong, as there is a bug in URL Rewrite module's schema file (rewrite_schema.xml).
 
@@ -49,7 +49,7 @@ Well, note that for `matchType` attribute, there seems to be only a single optio
 
 Since the module works fine with such a buggy schema file, we can see the schema file (as well as others) is not read by the module at runtime. There might be a correct version embedded in the module binary somewhere I think.
 
-# Other Minor Differences
+## Other Minor Differences
 
 If you take a closer look at the Actions panel in the above screen shot, you might observe another issue, that after the "Add Mapping Entry…" item, there is no separator. Such a separator is common in other modules (even in URL Rewrite module's other pages).
 

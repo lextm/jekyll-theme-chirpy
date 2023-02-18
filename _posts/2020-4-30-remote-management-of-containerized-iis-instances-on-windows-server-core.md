@@ -12,7 +12,7 @@ image:
 You might want to run some applications on a Windows Server Core machine for quick testing. Instead of using a full virtual machine, running a Docker container can be easier. But in the meantime, why not enable IIS remote management so that IIS Manager can be used to tune the settings? However, the steps won't look obvious. In this post, I am going to show you the key steps.
 <!--more-->
 
-# Launch The Container
+## Launch The Container
 
 A single command to launch the container,
 
@@ -27,7 +27,7 @@ Now open a web browser and navigate to `http://172.28.253.71` and we should see 
 
 > Note that if your host machine uses ports 80 and 443 for other purposes, then you need to change the mappings to use other ports of the host.
 
-# Enable IIS Remote Management
+## Enable IIS Remote Management
 
 Now attach to that container and open PowerShell,
 
@@ -64,7 +64,7 @@ And from the host we can use IIS Manager to connect to `172.28.253.71:8172` and 
 > * You might use the SSL certificate WMSVC-SHA2 for testing.
 > * When the web browser complaints about the certificate, simply ignore that and continue.
 
-# The End
+## The End
 
 OK, now we can stop the container to save some energy,
 
@@ -84,7 +84,7 @@ When we no longer need the container, we can remove it,
 docker rm aspnet_sample
 ```
 
-# Side Notes
+## Side Notes
 
 The command to set static IP address for an existing container is,
 

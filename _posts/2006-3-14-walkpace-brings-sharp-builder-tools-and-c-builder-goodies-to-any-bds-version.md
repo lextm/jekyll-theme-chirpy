@@ -14,11 +14,11 @@ The first milestone you saw is the BF Update 1 or WalkPace Beta I. It contained 
 The second milestone will be WalkPace Final (I think I will possibly provide some more update for BF users before WP Final).
 <!--more-->
 
-# FOR C#BUILDER GOODIES
+## FOR C#BUILDER GOODIES
 
 From now on, I will release a Plus Pack for CBC 2 Basic (the terms will be explained in later articles). C#Builder Goodies functions will be included. After install CBC 2 Basic and Plus Pack, you can enjoy that tool again on any BDS version.
 
-# FOR SHARP BUILDER TOOLS
+## FOR SHARP BUILDER TOOLS
 
 However, SBT is a huge project to port in. Before my success at last, now I provide you a method to make a SBT for BDS 3/4.
 

@@ -24,7 +24,7 @@ If you have ever opened IIS 7+ configuration file (aka applicationHost.config), 
 It is rather strange that no certificate information is available here, while in IIS Manager (or Jexus Manager for IIS Express) we can see the certificate selected for each bindings. So from where does IIS Manager find the proper certificate?
 <!--more-->
 
-# IP Based Bindings
+## IP Based Bindings
 
 If "Require Server Name Indication" is not checked, then this binding is not SNI enabled. It also means for this binding, the certificate is registered to the IP address + port number (in this example, 0.0.0.0:44300). Windows stores the certificate information in a private storage for http.sys to read, which can be queried via `netsh http show sslcert`.
 
@@ -34,7 +34,7 @@ So now it is very clear that the certificate mappings are here. Note that IIS Ex
 
 Due to the limitation of such mappings, we know for a single IP end point, only a single certificate can be registered. That's why when we attempt to host multiple HTTPS sites on a single IP end point we could only use a wildcard certificate or a UC certificate.
 
-# SNI Based Bindings
+## SNI Based Bindings
 
 Starting from Windows 8/IIS 8 and above, we can create SNI based in addition to IP based bindings. This allows multiple certificates to be bind to a single IP end point.
 
@@ -42,7 +42,7 @@ So here when we scroll down to the bottom of the list, we can see SNI based mapp
 
 Such SNI based mappings are automatically created by IIS Manager/Jexus Manager when you add SNI based bindings to web sites. They are also removed automatically when such bindings are removed from sites.
 
-# Troubleshoot Tips
+## Troubleshoot Tips
 
 Therefore, with this new HTTP API page, you can easily navigate which mappings are currently registered in Windows, and then it can be quite easy to tell whether an HTTPS site has the mappings it needs.
 

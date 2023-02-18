@@ -8,13 +8,13 @@ excerpt_separator: <!--more-->
 I blogged about [what a basic Visual Studio Code language extension should contain](/receipt-of-visual-studio-code-extension-f4fb832fd956) a few months ago, and today we focus on linter.
 <!--more-->
 
-# Linter Basic
+## Linter Basic
 The essential responsibility of a linter is to scan your source file and report back warnings and errors. Many programming languages do have good command line linters, so the remaining task of an extension is quite simple,
 
 * Pass the file information to linter.
 * Collect linter output and display.
 
-# Study By Example
+## Study By Example
 Now let's analyze [the ruby-linter extension](https://github.com/hoovercj/vscode-ruby-linter/blob/master/package.json#L21) to better understand how it works.
 
 First, this extension must be triggered by a special event "onLanguage",`"activationEvents": [ "onLanguage:ruby" ]`. That means when a Ruby file is opened, the extension would be triggered.

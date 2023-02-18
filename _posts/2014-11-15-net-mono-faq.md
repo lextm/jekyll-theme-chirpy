@@ -6,7 +6,7 @@ permalink: /net-开放源代码和mono相关的常见问题-持续更新中-2e74
 excerpt_separator: <!--more-->
 ---
 
-# Q1: Mono 已死
+## Q1: Mono 已死
 
 我：Mono 历经十余年发展，已经成长为一个庞大的生态系统。.NET Framework 和 Mono 的交集仅限于 CLR/编译器/BCL 底层以及 Web 栈。.NET Framework 的上层为 Windows 和 Azure 设计。Mono 上层针对 Linux, OS X 等多平台设计，其中不可替代的东西很多(虽然很多被 Xamarin 拿去做了商业化产品，如Xamarin.Mac)。
 
@@ -16,7 +16,7 @@ excerpt_separator: <!--more-->
 
 即使将来你在 Linux 和 OS X 上面可以安装微软官方的 .NET Framework，Mono 也会是一个替代选项。这个类似甲骨文的 JRE/JDK 和 OpenJDK 的关系。
 
-# Q2: 微软应该公开WPF/WCF/WinForms/XX的全部源代码
+## Q2: 微软应该公开WPF/WCF/WinForms/XX的全部源代码
 
 我：对于一个企业开放自己项目的源代码，有些困难是一般开发人员难以想象的，
 
@@ -28,7 +28,7 @@ excerpt_separator: <!--more-->
 
 WPF 和 WinForms 在其他平台上有 GTK# 或者MonoMac 这样更好的原生替代品，而 WCF 应用可以考虑迁移到早已开源的 ASP.NET Web API。
 
-# Q3: 微软07年就已经开放了源代码啊
+## Q3: 微软07年就已经开放了源代码啊
 
 我：OSI 作为全球开放源代码运动的核心组织定义了一套详细并且符合知识产权保护法律的协议规定体系。只有采用经过 OSI 认证的开放源代码协议发布的源代码，才是真正“开放”的源代码。对于法律、知识产权了解不多的朋友可以自行登录opensource.org学习。
 
@@ -36,7 +36,7 @@ WPF 和 WinForms 在其他平台上有 GTK# 或者MonoMac 这样更好的原生�
 
 2014年十一月微软的公告，则是彻底的基于 OSI 认证的 MIT 协议公开了 .NET Framework 的核心代码，并且提供了免费的专利授权。这使得 Mono 可以拿来就用，更好的繁荣 .NET/Mono 这两个庞大的生态系统。
 
-# Q4: Xamarin 和 Mono 是一回事
+## Q4: Xamarin 和 Mono 是一回事
 
 我：这是一个明显的错误。
 

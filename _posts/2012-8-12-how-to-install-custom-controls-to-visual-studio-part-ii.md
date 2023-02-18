@@ -20,7 +20,7 @@ I have also updated the Inno Setup installer script to reflect the changes (only
 
 Now you should be able to start working on your own installer. Good luck.
 
-# Sidenote on SharpDevelop
+## Sidenote on SharpDevelop
 
 If you are a control vendor that also wants to support SharpDevelop users, you might note that SharpDevelop does not try to locate design time support assemblies following Visual Studio's approach. Instead, [SharpDevelop reads its own bin folder](https://github.com/lextm/ActionListWinForms/issues/10).
 

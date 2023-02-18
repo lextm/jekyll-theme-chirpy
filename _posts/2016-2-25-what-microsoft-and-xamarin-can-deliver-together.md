@@ -12,7 +12,7 @@ However, both companies have been focusing more on the promising future, and kin
 If we are brave enough to make a few guesses, hope that imagination can take us to the far far away land :) Below are the things I personally would like to see in the next few months.
 <!--more-->
 
-# Xamarin.Forms for Desktop, Blend for Xamarin.Forms, and WPF for Cross Platform
+## Xamarin.Forms for Desktop, Blend for Xamarin.Forms, and WPF for Cross Platform
 
 Microsoft has been quiet on WPF and Blend till Visual Studio 2015 ships. The new WPF goodies in Visual Studio 2015 look promising but do not bring much fundamental changes. If that means the team have been cooking WPF for cross platform, then I would be pleased.
 
@@ -20,29 +20,29 @@ On the other hand, at this moment writing Xamarin.Forms applications is painful 
 
 Of course, if Xamarin.Forms can be extended to support OS X, Linux, and Windows desktops, it would be much cooler to learn it.
 
-# .NET Native + Mono AOT
+## .NET Native + Mono AOT
 
 So far Mono and Xamarin platforms still use Mono AOT tool chain. It works, but does not deliver the best performance compared to .NET Native powered by Microsoft's years of experience on application performance tuning. If .NET Native can penetrate into those platforms, then apps built on Xamarin platforms should see a significant boost.
 
-# Visual Studio for OS X/Linux
+## Visual Studio for OS X/Linux
 
 JetBrains revealed its cross platform IntelliJ IDEA based C# IDE "Project Rider" a few weeks ago. If Microsoft wants to compete, its current option should only be Visual Studio Code, a promising platform, but young and simple.
 
 Though MonoDevelop/Xamarin Studio is not as powerful and feature rich as Visual Studio on Windows, it already provides core feature set with an extension framework that works good. Many VS functionalities should be able to arrive on Xamarin Studio to support daily tasks that majority of developers need.
 
-# The Unification of .NET Framework, Mono, and .NET Core
+## The Unification of .NET Framework, Mono, and .NET Core
 
 It is clear now that .NET Core is the future design. But .NET Framework must remain for legacy applications.
 
 Mono should gradually merge with .NET Core, by removing its core modules and replacing with .NET Core bits. Application frameworks such as GTK# are still valuable to the ecosystem to enable native integration with all platforms.
 
-# Cross Platform Visual Basic and Java
+## Cross Platform Visual Basic and Java
 
 Visual Basic has been a missing piece on Mono/Xamarin platforms. Now Microsoft can fill the gap again by bringing VB developers to the new platforms.
 
 Xamarin bought RoboVM last year, and now holds a product line with the Java programming language. Thus, after the attempt of J++/J#, Microsoft again has a chance to hit Java market.
 
-# Final Thoughts
+## Final Thoughts
 
 When Miguel de Icaza and the other Xamarin visionaries join Microsoft, I think that a lot of things they could not do initially at Xamarin due to the limited resources can be fulfilled under proper management.
 

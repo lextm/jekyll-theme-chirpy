@@ -10,7 +10,7 @@ Getting start with ASP.NET Core is in fact easy, if you let it crash and burn. E
 Don't believe it? Let's give it a try.
 <!--more-->
 
-# The Initial Steps
+## The Initial Steps
 
 You can always open a Terminal first,
 
@@ -25,7 +25,7 @@ cd test
 dotnet --info
 ```
 
-# .NET Core SDK
+## .NET Core SDK
 I expect something to break here, as you might not have .NET Core SDK installed.
 
 So if you see the output,
@@ -78,7 +78,7 @@ To install additional .NET runtimes or SDKs:
   https://aka.ms/dotnet-download
 ```
 
-# Test Site
+## Test Site
 
 Now you can create your initial site at the terminal,
 
@@ -92,7 +92,7 @@ You might want to study the source code to see how ASP.NET Core looks like, but 
 
 Why do I suggest you start with a brand new site from the default template here? Because any custom template or a random project you found over the internet can break for its own issues. The default MVC template from Microsoft is expected to work in all cases.
 
-# Web Pages in Browser
+## Web Pages in Browser
 
 At the terminal, run the last command,
 
@@ -129,7 +129,7 @@ If things break here, there can be several kinds of issues,
 
 But again, with the keywords and error messages you can find guides over the internet to help.
 
-# The End or The Start
+## The End or The Start
 
 It might sound like the end of this post, but just the start of your ASP.NET Core adventure.
 

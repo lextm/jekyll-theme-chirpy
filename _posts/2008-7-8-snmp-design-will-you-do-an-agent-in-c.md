@@ -9,7 +9,7 @@ Today a post in the Discussions section asked if #SNMP library can be used to se
 
 I have just created a poll at my blog. So if you are doing C# SNMP agent, vote it. If there are enough requirement, I am going to enhance #SNMP library in that field.
 
-# Updated:
+## Updated:
 
 Now #SNMP 4 introduced an agent reference design, #SNMP Agent. We already did a lot of improvement in version 5 development phase, and now it is much more powerful and Mono/openSUSE compliant. Please check out [this post](/catpaw-rumors-we-are-truly-mono-ready-7c2a1d07835d)
 <!--more-->

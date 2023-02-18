@@ -12,7 +12,7 @@ image:
 I just [wrote about how I started to self host Sphinx sites on Azure App Service](/self-hosting-sphinx-sites-on-azure-app-service-a05b9db25e9a). Here I am writing about how to set up CI/CD pipeline to make it perfect.
 <!--more-->
 
-# Preparation 1: VSTS Repo for App Service
+## Preparation 1: VSTS Repo for App Service
 
 It is very important to learn Azure App Service, so as to know what built-in features we can use.
 
@@ -22,7 +22,7 @@ So I create a new project on Azure called AzureSites, a new repo under it called
 
 > Note that I did not use VSTS pipeline here, because I need to handle it later.
 
-# Preparation 2: VSTS Master Repo for All Sites
+## Preparation 2: VSTS Master Repo for All Sites
 
 I had to create a second repo here called AllSites, because too many web sites are there to integrate, and each of them have their own repos (mostly on GitHub).
 
@@ -33,7 +33,7 @@ _Figure 1: Sphinx based sites as submodules._
 
 I also added AzureSites as a submodule, so later I can copy all web pages into it.
 
-# Preparation 3: A Single Pipeline for All
+## Preparation 3: A Single Pipeline for All
 
 Then I went ahead to create a pipeline for the master repo,
 
@@ -43,7 +43,7 @@ Then I went ahead to create a pipeline for the master repo,
 
 > Note that Azure App Service will automatically pick up the changes from AzureSites, and we are done.
 
-# Enhanced Version
+## Enhanced Version
 
 What if now I modified one of the Sphinx sites? How can this pipeline pick up the changes? That's a good question. To solve the challenges, we need a few things,
 
@@ -57,7 +57,7 @@ What if now I modified one of the Sphinx sites? How can this pipeline pick up th
 >
 > I still keep a daily build trigger in VSTS, in case I run out of Zapier free count (100 per month).
 
-# Remaining Items
+## Remaining Items
 
 You might find it a waste of resources to always run the tasks in pipeline, if no submodule changes.
 

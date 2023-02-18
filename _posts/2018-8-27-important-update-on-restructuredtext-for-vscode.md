@@ -11,13 +11,13 @@ _Figure 1: reStructuredText for VSCode._
 An image should save me a thousand words, but I rather write a blog post to reveal the biggest changes introduced in the latest releases (67.0.0 and above), so that you, the dearest users, have a chance to know the stories behind.
 <!--more-->
 
-# Long Time Pains
+## Long Time Pains
 
 You can see from the left side of the image above that I was using the Workspace feature of Visual Studio Code. Workspace was added in VSCode 1.14, and allows users to group multiple folders in a workspace. The design of this extension always assumes you work on a single folder, so [Workspace was not supported](https://github.com/vscode-restructuredtext/vscode-restructuredtext/issues/52).
 
 Even for a single folder, you might have multiple `conf.py` to work on, and switching the preview setting between them was painful. Manual editing `.vscode/settings.json` was not fun, and as one of the users I felt the same. However, to make a systematic change on the code base was not an easy task.
 
-# Contribution From Tormod
+## Contribution From Tormod
 
 Tormod Landet approached me in June with [a simple pull request](https://github.com/vscode-restructuredtext/vscode-restructuredtext/issues/91).
 
@@ -29,7 +29,7 @@ This time he added a pop-up list and status bar element, so active `conf.py` fil
 
 Unfortunately I was delayed by other things and just recently reviewed his changes (made in early July). There were a few minor user experience issues, which I went a head and fixed.
 
-# New User Experience Explained
+## New User Experience Explained
 
 So if you are using this extension for the first time (or assume you just upgrade from an old version), the usage is simpler than ever.
 

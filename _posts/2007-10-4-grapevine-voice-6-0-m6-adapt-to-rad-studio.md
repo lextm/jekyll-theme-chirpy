@@ -17,7 +17,7 @@ Changes,
 1. Missing files in source package are added.
 1. Now, M6 is already available on Homepage, please go and have a try.
 
-# Notice:
+## Notice:
 
 If you have M4 or M5 installed, M6 cannot uninstall them correctly. Please manually uninstall them and then install M6.
 

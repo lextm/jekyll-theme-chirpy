@@ -13,7 +13,7 @@ It becomes very important for Python developers to learn HttpPlatformHandler, be
 
 <!--more-->
 
-# Basic Flask Setup
+## Basic Flask Setup
 
 No doubt we will start from a sample application as below,
 
@@ -43,7 +43,7 @@ PS C:\flask-test> ~\AppData\Local\Programs\Python\Python310\python.exe -m flask 
 
 > If Python and Flask are not yet installed, you can search for guides.
 
-# HttpPlatformHandler Setup
+## HttpPlatformHandler Setup
 
 Now let's download and install HttpPlatformHandler on IIS, and add a `web.config` in `C:\flask-test`,
 
@@ -62,9 +62,9 @@ Now let's download and install HttpPlatformHandler on IIS, and add a `web.config
 
 With all settings in place, I can go back to IIS Manager and create a site (I chose *:8086 as site binding) to point to `C:\flask-test`. By opening a web browser and navigate to `http://localhost:8086/`, I should now see "Hello, World!". Ah, what happened?
 
-# Troubleshooting
+## Troubleshooting
 
-## 0x8007005
+### 0x8007005
 Yeah I am not able to see "Hello, World!" but a Bad Gateway error page with the Error Code of `0x80070005`,
 
 ![img-description](/images/python-access-denied.jpeg)
@@ -93,14 +93,14 @@ _Figure 1: Bad Gateway error page of 0x80070005_
 
 This isn't hard to understand, because anything under `C:\Users\<user name>\` is protected and accessible only by that user account by default, not `IIS_IUSRS`.
 
-## The Infinite Loading
+### The Infinite Loading
 Once I grant `IIS_IUSRS` read access to `C:\Users\<user name>\AppData\Local\Programs\Python\Python310\python.exe`, the browser seems to work as it is trying to load the web page. However, I notice that now this page takes for ever to load and the `python.exe` process keeps crashing.
 
 No doubt Process Monitor is the best tool to use right now and by using a filter of process name `python.exe` I can see lots of access denied errors on different files in `C:\Users\<user name>\AppData\Local\Programs\Python\Python310\`.
 
 So I go back and grant `IIS_IUSRS` read access on the whole directory, not just `python.exe`.
 
-## Switch to Production Application Server
+### Switch to Production Application Server
 At this moment, a refresh in the web browser leads me to the expected "Hello, World!" message. Now I know that Python/Flask is working.
 
 To move further, I might want to remove the warning of "This is a development server. Do not use it in a production deployment". For that I have to switch to another Python application server, such as waitress.

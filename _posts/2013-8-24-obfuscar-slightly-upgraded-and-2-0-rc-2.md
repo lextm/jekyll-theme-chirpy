@@ -10,19 +10,19 @@ Do you think that I have abandoned this project? No, no, that's not the case. In
 
 The following are the most significant changes made since RC 1,
 
-# Initial BAML Support
+## Initial BAML Support
 
 WPF applications embed BAML in the executable, so that at runtime the type names stored in BAML files are verified and converted to live objects. As a result, normal obfuscation on type names cause type resolution failures as the untouched type names cannot be resolved at runtime.
 
 A complete fix should be able to update the names in BAML files, but I was not able to spare enough time on that subject. So [a quick workaround](https://github.com/lextm/obfuscar/commit/d0b825c2b6f998421f0da80bba4e2db9d69432d3) is used that we simply ignore types who are referred in BAML. Once I have enough time, I will try to complete the BAML update algorithm.
 
-# Heavily Nested Types
+## Heavily Nested Types
 
 When I tried to obfuscate DockPanel Suite I found that some exceptions occurred in the final applications. By tracking down to source code I can see that the original algorithm made an assumption that in the code only one level of nesting exists for nested classes. Of course this is a wrong assumption, especially for DPS, where many internal types are in fact heavily nested.
 
 By slightly [modifying the algorithm](https://github.com/lextm/obfuscar/commit/be1c23adaee1d5d45abc33efbc0759b9e40bdd63) we easily get DPS obfuscated correctly.
 
-# Generic Instance Method
+## Generic Instance Method
 
 Another issue was found when obfuscating Microsoft Unity that some method references were not updated even though the method definition had already been modified.
 

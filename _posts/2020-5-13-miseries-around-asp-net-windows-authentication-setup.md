@@ -11,7 +11,7 @@ image:
 
 ASP.NET developers should have some IIS knowledge. But how much can be enough to fully understand the concepts of Windows authentication? Well, based on the questions from Stack Overflow, I bet the answer is quite lot. A complex topic like this requires extensive knowledge beyond ASP.NET/IIS, and if you don't fully understand some Windows/AD processes behind the scene puzzles are everywhere. This post might not be able to cover everything, but can leave you hints on what to explore further.
 <!--more-->
-# ASP.NET Settings
+## ASP.NET Settings
 
 Surprisingly it is simple to set on ASP.NET side that you want to enable Windows authentication, as it is just merely a piece of setting in your `web.config`,
 
@@ -24,7 +24,7 @@ Surprisingly it is simple to set on ASP.NET side that you want to enable Windows
 ```
 So, as long as IIS gives ASP.NET runtime a valid Windows user, that user's information will be wrapped up and served to properties such as [`Page.User`](https://docs.microsoft.com/dotnet/api/system.web.ui.page.user?view=netframework-4.8), [`Controller.User`](https://docs.microsoft.com/dotnet/api/system.web.mvc.controller.user?view=aspnet-mvc-5.2) and [`ApiController.User`](https://docs.microsoft.com/dotnet/api/system.web.http.apicontroller.user?view=aspnetcore-2.2).
 
-# IIS Settings
+## IIS Settings
 
 OK, now most ASP.NET developers should move on to IIS (or IIS Express), as [the official documentation](https://support.microsoft.com/en-us/help/323176/how-to-implement-windows-authentication-and-authorization-in-asp-net) asks for some changes there.
 
@@ -45,7 +45,7 @@ So finally on IIS, only Windows authentication is enabled in `applicationHost.co
 </configuration>
 ```
 
-# Other Possibilities
+## Other Possibilities
 
 Now let's visit some other scenarios and test your IIS knowledge.
 
@@ -74,6 +74,6 @@ That's simply because [IIS anonymous authentication](https://docs.microsoft.com/
 
 So what happens if we disable all IIS authentication methods and enable digest authentication? I think you've already known the answer, haven't you?
 
-# Site Notes
+## Site Notes
 
 You might also revisit what is impersonation from [my old post](/the-basic-facts-about-iis-asp-net-process-thread-identities-835eaac876a0).

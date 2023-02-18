@@ -32,7 +32,7 @@ Active Version Runtime Architecture Location Alias
 1.0.0-rc1-update1 coreclr x86 C:\Users\lextm\.dnx\runtimes
 ```
 
-# Hacking Starts
+## Hacking Starts
 
 Now it is time to go to Visual Studio 2015, and create a new project using the new "Class Library (Package)".
 
@@ -54,7 +54,7 @@ Of course, some classes just not yet appear in .NET Core, so I have to remove so
 
 When everything compiles without a problem, then the migration is finished.
 
-# Final Words
+## Final Words
 
 A few things to notice are,
 

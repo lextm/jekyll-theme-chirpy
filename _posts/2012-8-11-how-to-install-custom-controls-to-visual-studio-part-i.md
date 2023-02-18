@@ -12,7 +12,7 @@ Note that I just finish Visual Studio 2008 support, which will be covered in par
 
 Another notice is that I will focus on Windows Forms controls in this post, as I am not an author of WPF or Silverlight controls.
 
-# Basic Integration (Mandate)
+## Basic Integration (Mandate)
 
 By creating a new registry key
 
@@ -30,7 +30,7 @@ You can see that magically Crad.Windows.Forms.Actions.dll is listed there just l
 
 This provides us the basic integration, that we can manually create a tab and add new items.
 
-# Advanced Integration (Optional)
+## Advanced Integration (Optional)
 
 Now to achieve better experience, we need to automate Visual Studio to simulate our manual steps above (create a new tab and add items).
 
@@ -40,17 +40,17 @@ By calling this utility the whole automation process will be carried out automat
 
 Please note that this project is no longer active (since 2010), so you might meet various problems using it against Visual Studio 2008. I collected all patches that are available for this project and plan to create a new release in the next few days. You can wait and check out my fork if you plan to also create your own control installer.
 
-# Sidenote 1
+## Sidenote 1
 
-Some articles indicate that it is safer to install the assemblies to GAC. So I also use gacutil to install them to GAC.
+Some articles indicate that it is safer to install the assemblies to GAC. So I also use `gacutil` to install them to GAC.
 
-# Sidenote 2
+## Sidenote 2
 
 If you have split your control library to non-designer and designer assemblies, make sure you put them in the same installation folder. In this way, VS can locate the designer assembly by reading AssemblyFoldersEx. I also install the design assembly to GAC though I am not sure whether I should.
 
 Once the end user drags the control to a form/user control, only the non-designer assembly will be added as a reference. The designer assembly is only important for Visual Studio. In this way, client profiles (.NET 3.5/4) can be perfectly supported.
 
-# Full Sample
+## Full Sample
 
 OK, so if you want to find a sample which covers all details, you can refer to ActionList for WinForms project, where I share [an Inno Setup script](https://github.com/lextm/ActionListWinForms/tree/cc4a57b20148c19c3fdaef120e9e0aa6d87d288b) and the customized Visual Studio Toolbox Manager build.
 

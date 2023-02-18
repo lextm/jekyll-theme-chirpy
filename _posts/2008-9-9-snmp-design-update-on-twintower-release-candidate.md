@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 Steve and I have worked hard to prepare a TwinTower Release Candidate lately (and that's why Steve came across [the Zero Puzzle](/snmp-design-the-puzzle-of-zero-d26d9979f6) and [I fixed it completely](/snmp-design-solving-the-zero-puzzle-ad094d078cfd) yesterday). However, there is more to do on the browser side than on the library side, so I am now considering such a plan to release two candidates before the final release,
 <!--more-->
 
-# Candidate One
+## Candidate One
 
 This candidate contains all bug fixes and new features since last release on the library side. The changes includes,
 
@@ -18,13 +18,13 @@ This candidate contains all bug fixes and new features since last release on the
 
 * to be released this weekend
 
-# Candidate Two
+## Candidate Two
 
 This candidate contains all changes in Candidate One and a basic MIB browser.
 
 * to be released once Steve check in the last bit of the basic browser.
 
-# Final Release
+## Final Release
 
 The final release should fix all bugs detected in Candidates.
 

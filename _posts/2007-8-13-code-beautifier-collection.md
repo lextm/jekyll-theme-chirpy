@@ -10,7 +10,7 @@ excerpt_separator: <!--more-->
 对于不习惯看我英文blog的一些用户，我在这里讲一下CBC的最新进展。
 <!--more-->
 
-# Google Code 主页
+## Google Code 主页
 
 项目的主页从GForge.oss.org.cn迁出，搬到了Google Code上面。
 
@@ -18,7 +18,7 @@ excerpt_separator: <!--more-->
 
 新主页将完全以CBC 6.0为主。
 
-# CBC 6.0 GrapeVine
+## CBC 6.0 GrapeVine
 
 GrapeVine已经放出了三个Preview的版本（包括M1和M2）。现在最新的版本是GrapeVine Milestone 3，支持Delphi 2007、C++Builder 2007。M3还很好地支持Windows Vista。重做的安装包可以支持安装给所有的用户。
 

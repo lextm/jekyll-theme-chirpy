@@ -10,7 +10,7 @@ excerpt_separator: <!--more-->
 I was invited by Mingzhi Yi to give a talk at Jiaodong Developer Conference 2015 on 12 Dec. It was about my opinions on Jexus and ASP.NET cross platform development. This post is based on the same materials, and includes more details where necessary.
 <!--more-->
 
-# Microsoft's Cross Platform Roadmap
+## Microsoft's Cross Platform Roadmap
 
 Microsoft's change in 2015 is astonishing to all other IT companies. Of course, such a shift to openness and open source began with Mr Ballmer's step-down, and Mr Nadella's rise as CEO, but also has been promoted heavily in many of the technology departments.
 
@@ -24,7 +24,7 @@ It is a must to go cross platform to enter new markets. For instance, many compa
 
 For public cloud computing platforms, there is also a cost reduction to use Linux to host your ASP.NET web sites, as in most cases Linux virtual machines are cheaper than Windows ones.
 
-# .NET Core 5 and ASP.NET 5
+## .NET Core 5 and ASP.NET 5
 
 To make web sites cross platform, the developer tools department spent a long time developing ASP.NET vNext after releasing .NET 4.5 and ASP.NET 4.5. After more than two years, the image is clear at this stage,
 
@@ -50,7 +50,7 @@ We can see clearly that Microsoft wants the developers to migrate first from ASP
 
 Well, anything simpler?
 
-# Mono and Jexus Web Server
+## Mono and Jexus Web Server
 
 Mono has been an active open source project for more than a decade, which follows Microsoft .NET Framework. Miguel de Icaza has been leading it still, who became famous when he led the Gnome project. Miguel fell in love with C# and .NET when Microsoft announced it in 2000, and was eager to port such technologies to Linux. Now Mono receives support from both Xamarin and Microsoft.
 
@@ -75,7 +75,7 @@ Jexus has already been used in many web sites already. Many show cases can be fo
 Video 2: [MVC 5 web site exported from Visual Studio 2013](http://v.youku.com/v_show/id_XMTQyMTA2MDUzMg==.html)
 Video 3: [Host MVC 5 on Jexus](http://v.youku.com/v_show/id_XMTQyMTA2MTUxMg==.html)
 
-# Jexus Manager
+## Jexus Manager
 
 For developers who are quite familiar with IIS management already, I developed a management tool called Jexus Manager to simplify Jexus management.
 
@@ -83,7 +83,7 @@ It runs on multiple platforms (Windows, OS X, and Linux), and supports multiple 
 
 Interestingly, Jexus Manager also implements two important sets of API, named Microsoft.Web.Administration and Microsoft.Web.Management, to achieve extensibility.
 
-# Jexus Roadmap
+## Jexus Roadmap
 In the next few months, the following new features might come to Jexus,
 
 * Support <system.webServer> tag in web.config
@@ -97,7 +97,7 @@ In the next few months, the following new features might come to Jexus,
 
 BTW, Jexus Manager will become fully open source in 2016. Stay tuned.
 
-# References
+## References
 
 * Jexus homepage http://jexus.org
 * Jexus English docs https://jexus.codeplex.com

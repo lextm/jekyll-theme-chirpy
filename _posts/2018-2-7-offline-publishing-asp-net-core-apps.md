@@ -12,14 +12,14 @@ image:
 It is my personal view that Microsoft designed .NET Core/ASP.NET Core with little offline experience in consideration, which makes it quite difficult for an enterprise with firewalls and proxies to fully embrace the technology. Thus, a post like this would discuss the investigation I just finished and hope it can help companies with external network access restrictions to set up their internal environment properly.
 <!--more-->
 
-# A Quick Review
+## A Quick Review
 
 So the following test case would be used,
 
 * Make a test web app, by running `dotnet new mvc`. Of course, this generates an ASP.NET Core MVC sample project.
 * On a machine with internet access, `dotnet publish -r win-x64` will generate the x64 deployment binaries for Windows. You can use `dotnet publish -r win-x64 --self-contained` if you need self contained deployment.
 
-# Offline/Internal Network
+## Offline/Internal Network
 
 To simulate the offline/internal network situation, I created an Azure virtual machine and enabled Hyper-V on it. Then I created a Hyper-V guest of Windows Server, where I can switch its network adapter to either external/internal easily.
 
@@ -78,6 +78,6 @@ To publish `linux-x64` you can run `dotnet publish /p:RuntimeFrameworkVersion=2.
 
 > Note that `local` folder here can be replaced by the internal NuGet server your company uses. This internal server must support the necessary NuGet protocols, ideally matching NuGet 3.4 and above. You need to verify on your own, as there are so many NuGet server products out there.
 
-# Side Notes
+## Side Notes
 
 A real world web app can be much more complicated, which might need more NuGet packages to be added to `local` folder. Right now I see no easy tooling to scan dependencies, except letting `dotnet restore` and `dotnet publish` show the errors. Anyway, the experience is not very pleasant, and hope future tooling can improve in this area.

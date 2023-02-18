@@ -10,13 +10,13 @@ excerpt_separator: <!--more-->
 You can download the bits from https://obfuscar.codeplex.com/releases/view/105916
 <!--more-->
 
-# Inclusion Rules
+## Inclusion Rules
 
 An important thing to notice is that Obfuscar only supports exclusion rules. That's because the original design follows this principle that everything should be obfuscated, unless it is excluded by a rule. The principle is simple but the real world is complicated. Thus, sometimes it is very difficult to write exclusion rules if you just want to exclude what you want. Thus, in RC 6 inclusion rules are added, which are named as Force*.
 
 If you know how to use the exclusion rules, Skip*, you should be quite familiar with the new inclusion rules.
 
-# KeepPublicApi and HidePrivateApi
+## KeepPublicApi and HidePrivateApi
 
 If you don't want to write any rule but to achieve simplest obfuscation (all private/internal are striped out, and all public/protected remain), now you can use two new options,
 
@@ -29,13 +29,13 @@ Isn't that simple?
 
 To learn more about the two new options and how rules are prioritized, please check the Wiki page.
 
-# No More Un-renaming
+## No More Un-renaming
 
 A breaking change was introduced in RC 6, where if a series of classes/interfaces define a method group then all methods in the group must be obfuscated together or ignored together. Your rules cannot lead them to an inconsistent state.
 
 In the past, Obfuscar tries to un-rename methods in the group which can lead to surprises and unintended information leak.
 
-# HideString Bug
+## HideString Bug
 
 I was not familiar with Cecil at the very beginning, so when I attempted to fix the code base a bug was introduced in HideString function, where .NET 4's mscorlib is imported to all obfuscated assemblies mistakenly. This can lead to various issues, and luckily today I learned how to avoid that.
 

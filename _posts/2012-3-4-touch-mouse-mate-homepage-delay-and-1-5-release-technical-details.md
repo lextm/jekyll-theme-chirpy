@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 Our 1.4 installers are not yet available at http://touchmousemate.codeplex.com. CodePlex guys have not yet identified what prevents me from publishing this project, so we have to wait for more days. The good news is that now we have nice progress on version 1.5. Details are provided below.
 <!--more-->
 
-# TMM 1.4 Revisit
+## TMM 1.4 Revisit
 
 TMM 1.4 uses J5's implementation of touch-over-click and middle-click.
 
@@ -25,13 +25,13 @@ Both of them lead to the difficulty of supporting drag and drop. For example, wh
 
 In TMM 1.4, I more focused on packaging the binaries with a convenient installer, and added necessary UI elements (notify icon, and menu items) for end users to tune TMM for personal experience, so I was not able to do much on tuning the low level implementation.
 
-# TMM 1.5 Preview
+## TMM 1.5 Preview
 
 If you watch our repository on GitHub, https://github.com/lextm/touchmousemate, you should have noticed significant changes recently, as I heavily changed the low level implementation, and now we almost have a brand new engine for touch detection.
 
 So let's first see how a touch can be analyzed by numbers.
 
-## Section 1 Touch Mouse Sensor
+### Section 1 Touch Mouse Sensor
 
 The Touch Mouse sensor returns a bitmap of 13*15, from which we can detect your finger spot, (picture is taken from Touch Mouse SDK WPF sample)
 
@@ -47,7 +47,7 @@ Then we horizontally divide the whole Touch Mouse surface to fourth parts (J5's 
 
 The left/right most zones are generally not used in TMM for touch detection, as you often need to put thumb/ring finger/pinky there to move the mouse around.
 
-## Section 2 Touch Strength and Key Down/Up Detection
+### Section 2 Touch Strength and Key Down/Up Detection
 
 OK. Now let's focus on left click zone and see what is defined as "touch strength".
 
@@ -60,7 +60,7 @@ Observation shows that if two clicks are made sequentially, a strength-time curv
 
 However, we still need to pay attention to the time difference between the key down and key up events. If the time difference is too small, we should consider that as a false alarm and ignore it.
 
-## Section 3 State Machine Processing Pipeline
+### Section 3 State Machine Processing Pipeline
 
 In order to better process the key down/up events, a state machine is constructed (see StateMachine.cs).
 
@@ -71,7 +71,7 @@ The above chart shows the different states and the state transformation (red arr
 
 To detect finger movement, currently we keep calculating center of mass for the touch spot and the total amount of movement in each touch zone. Therefore, when the movement is larger than a threshold (0.04 currently) TMM tells the state machine that a move is detected, and the related state transformation is triggered. This extra check is added to prevent TMM from breaking Microsoft's default gestures.
 
-# Notice
+## Notice
 
 Note that TMM 1.5 is still in its early stage and many parameters (timeout values and thresholds) are subject to change so as to achieve better performance.
 

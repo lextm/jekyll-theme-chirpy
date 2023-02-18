@@ -12,7 +12,7 @@ image:
 Well, while public repos work perfectly on VSTS, you will find trouble when adding private repos as submodules in your master repo, because passing user credentials in your build pipeline would kill you if you don't pay enough attention. Hope this post helps you out.
 <!--more-->
 
-# Private Repo User Credentials
+## Private Repo User Credentials
 
 It is very important to learn the nature of user credentials of your private repos before moving on.
 
@@ -23,7 +23,7 @@ In my case, I moved all my private repos to VSTS, so I only need to make a choic
 
 To keep things simple, I will use a single authentication type for all private repos (as submodules), and let's move on.
 
-# Authentication via OAuth Token
+## Authentication via OAuth Token
 
 By default, the agent uses an OAuth token to check out the master repo if it is private (in my case). Then same token can be reused to check out other private repos when they are submodules, if you
 
@@ -32,7 +32,7 @@ By default, the agent uses an OAuth token to check out the master repo if it is 
 
 This is probably the simplest way, but with limitations that master and submodules belong to VSTS. If the submodules come from different service providers, then this approach won't work.
 
-# Authentication via SSH
+## Authentication via SSH
 
 It would be easy to achieve this if you use your own agent, which runs under a dedicate account, because
 
@@ -49,7 +49,7 @@ If you cannot use your own agent, then you can follow the same trick from [this 
 1. Create tasks at the beginning of your pipeline to create id_rsa and known_hosts in %userprofile%\.ssh folder.
 1. Delete the files when the pipeline finishes.
 
-# Authentication via Personal Access Token
+## Authentication via Personal Access Token
 
 It is possible to use this approach but I didn't. So nothing is written here.
 

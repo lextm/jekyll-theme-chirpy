@@ -13,7 +13,7 @@ It is rather interesting that even after the acquisition of Xamarin by Microsoft
 So, what should we use today to develop with Xamarin products? Below is a summary from me, unofficial but should help you understand the status.
 <!--more-->
 
-# Visual Studio (Recommended)
+## Visual Studio (Recommended)
 
 You should use Visual Studio on Windows (Community, Professional, Enterprise, and Ultimate) and then install Xamarin for Visual Studio. [Visual Studio 2015/2017](https://www.visualstudio.com/vs/whatsnew/) obviously provides the streamlined installation experience, but if you use an older VS release, it would be pretty tough.
 
@@ -21,11 +21,11 @@ You should use [Visual Studio for Mac](https://www.visualstudio.com/vs/visual-st
 
 Currently there is no Visual Studio for Linux, so there would be no way to develop Xamarin apps (iOS/Android and so on) on Linux. If you like, go and vote for [this feature request](https://visualstudio.uservoice.com/forums/121579-visual-studio-ide/suggestions/18433768-visual-studio-for-linux-os).
 
-# Xamarin Studio (Obsolete)
+## Xamarin Studio (Obsolete)
 
 You should now say goodbye to Xamarin Studio, no matter on Windows and macOS.
 
-# MonoDevelop
+## MonoDevelop
 
 The status of MonoDevelop is always a misery. However, it was the origin of everything we have today.
 

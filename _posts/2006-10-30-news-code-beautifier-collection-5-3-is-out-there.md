@@ -14,7 +14,7 @@ I will go on developing this tool until the day all users disappear. I will find
 BTW, I have published this brand new version on BDN already, and it is also available here.
 <!--more-->
 
-# What's new?
+## What's new?
 
 Since version 5.2, more features from classic helpers, such as ArtCSB, Sharp Builder Tools, have been ported into this collection along with those in AddMany, DILMerge, C#Builder Goodies.
 
@@ -28,7 +28,7 @@ Brand new features include Source Navigator, AutoSave and so on. Below is a list
 1. \+ Clearer, DILMerge, and ProcessChecker are bundled.
 1. \* All documents are updated.
 
-# AD Image
+## AD Image
 
 And here is a big AD image made in GIMP.
 

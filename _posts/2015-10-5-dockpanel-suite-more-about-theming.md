@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 Ever since I finished integrating the VS 2012 light theme into DPS, we see demands on other themes. The community is much stronger than we thought and new theme authors are now with us.
 <!--more-->
 
-# VS 2013 Blue Theme from Thijs Elenbaas
+## VS 2013 Blue Theme from Thijs Elenbaas
 
 Thijs developed this blue theme earlier this year, and successfully covered many elements (dock pane tabs and so on). So now we can see the sample project running in this blue theme.
 
@@ -16,11 +16,11 @@ There are still many more elements to tune, but at least now it looks good.
 
 The changes are now in a separate branch for incubation. More details can be found at [#316](https://github.com/dockpanelsuite/dockpanelsuite/issues/316).
 
-# VS 2012 Dark Theme from Various Sources
+## VS 2012 Dark Theme from Various Sources
 
 I knew DPS has been forked multiple times already, but never realized so many people are interested in the dark theme. But now we can find three different forks containing dark themes. I didn't have time to evaluate their completeness, but created an task to track down their progress in the future. More details can be found in [#317](https://github.com/dockpanelsuite/dockpanelsuite/issues/317).
 
-# Themes in Separate Assemblies
+## Themes in Separate Assemblies
 
 Probably this is not about a new theme, but it is about how new themes can be developed and distributed in the future, so let's see how it works.
 

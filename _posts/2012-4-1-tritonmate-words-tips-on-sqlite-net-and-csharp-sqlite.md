@@ -10,7 +10,7 @@ If you followed the recently changes in #SNMP, you know we have a new MIB compil
 To make full usage of this powerful compiler, we need to make big changes in the top layers such as updating the compiled module file format (*.module). You can imagine, using a database is an obvious option to replace the original text file format.
 <!--more-->
 
-# Challenges on normal SQLite approaches
+## Challenges on normal SQLite approaches
 
 I have evaluated several open source databases, and it seems that SQLite is the best for our needs (open source, small, though feature rich). So I started to try several SQLite libraries, and wished to find a light-weighted one to help me learn SQLite bits. However, most of the well known libraries
 
@@ -18,7 +18,7 @@ have too many features (which may not be useful for #SNMP)
 have dependency on the native SQLite driver (sqlite3.dll), which I hate a lot.
 #SNMP MIB Compiler is good at portable deployment. Currently, this compiler application can be zipped up and deployed because it is purely .NET. I don't want to lose this nice feature due to migration to SQLite.
 
-# New Hope
+## New Hope
 
 Because of Xamarin, I started to pay more attention to all information demonstrated in its seminars,
 

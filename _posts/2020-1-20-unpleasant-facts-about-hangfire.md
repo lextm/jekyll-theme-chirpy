@@ -12,7 +12,7 @@ image:
 When people choose to use a framework, they are not only enjoying the benefits it brings, but also take ownership of the evil associated. Hangfire is one of such frameworks, so be caution.
 <!--more-->
 
-# The Thread Model: Hangfire Threads are Aliens
+## The Thread Model: Hangfire Threads are Aliens
 
 ![img-description](/images/threads-w3wp.png)
 _Figure 1: Threads inside w3wp.exe._
@@ -25,7 +25,7 @@ However, a web application with Hangfire configured usually spins off extra thre
 
 Well, [Hangfire documentation](https://docs.hangfire.io/en/latest/deployment-to-production/making-aspnet-app-always-running.html) tells that you can change IIS settings as workarounds, but does it mention that always running has its side effects? No.
 
-# The Recommended Approaches
+## The Recommended Approaches
 
 If you don't mind all issues brought by Hangfire, keep using it.
 

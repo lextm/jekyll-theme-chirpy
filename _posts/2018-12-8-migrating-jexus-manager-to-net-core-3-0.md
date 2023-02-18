@@ -16,7 +16,7 @@ The version number change is obvious, because from this version on, Jexus Manage
 
 The migration was much smoother than I thought, so here comes a blog post that covers the details.
 
-# Preparation
+## Preparation
 
 Telerik published [a great article](https://www.telerik.com/blogs/how-to-update-wpf-winforms-app-to-dotnet-core-3) showing what you might do.
 
@@ -38,7 +38,7 @@ So there is no hard coded assembly name or default namespace, and the contents c
 
 Noticeably it uses a special SDK for Windows desktop, and uses `WinExe` as output type. Such all changes how the final executable behaves.
 
-# Project Files
+## Project Files
 
 To upgrade Jexus Manager, the first task is to determine which project files need to be changed to the new format. To be safe, I modified [the core projects](https://github.com/jexuswebserver/JexusManager/commit/d883643902c9155c2c886da3f78c9e1cdb4fd9ab).
 
@@ -51,7 +51,7 @@ To upgrade Jexus Manager, the first task is to determine which project files nee
 
 Note that Jexus Manager depends on many NuGet packages, and also has project references (custom WinForms controls). Even though such dependencies are for .NET Framework, I can add references to them directly in the new project. By allowing `netcoreapp3.0` projects to consume `net4xx` assemblies, Microsoft indeed saves me tons of hours.
 
-# Compilation Errors
+## Compilation Errors
 
 You can still hit tons of errors when compiling the source code with new project files. Luckily most of them should be simple to solve, by revising references, adding other packages, such as
 
@@ -71,11 +71,11 @@ Some of the dependencies are also troublesome. For example, `Mono.Security` work
 
 You might also pay attention to things like `Resources.resx`, as you might need to manually specify its generator (`ResXFileCodeGenerator`).
 
-# Compilation Result
+## Compilation Result
 
 .NET Core SDK generates `.exe` files this time, you can launch your application in a more convenient way, but right now it is not clear to me what's the exact runtime dependencies of such `.exe`. At least they rely on .NET Core 3.0 SDK or runtime, and I didn't find a way to generate self-contained deployment.
 
-# Known Issues
+## Known Issues
 
 You should keep an eye on [the issues list](https://github.com/dotnet/winforms/issues), as the more people migrate their apps, the more new issues appear. The ones that bother Jexus Manager a lot are,
 
@@ -83,7 +83,7 @@ You should keep an eye on [the issues list](https://github.com/dotnet/winforms/i
 * [System.ComponentModel.Design.CollectionEditor is missing](https://github.com/dotnet/winforms/issues/177).
 * [Resx support is broken](https://github.com/dotnet/winforms/issues/251).
 
-# Overall Experience
+## Overall Experience
 
 So it was a lot faster to finish the migration than my original estimate. The output at this stage also looks pretty good. The known issues are not quite blocking either, and I hope in .NET Core 3.0 Preview 2 they will all be resolved.
 

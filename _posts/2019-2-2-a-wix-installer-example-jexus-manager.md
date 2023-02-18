@@ -20,13 +20,13 @@ However, the longer you use such an approach, the more issues you observe from l
 No doubt an installer can solve such, and that's why I wrote about Inno Setup many times, which was my preferred way of packing things up. But this time I'd like to talk about WiX, an open source toolkit originated from Microsoft, and how I used it to create the simple MSI installer for Jexus Manager.
 <!--more-->
 
-# Requirements
+## Requirements
 
 * Windows version detection.
 * .NET Framework detection.
 * A Windows Start Menu shortcut.
 
-# WiX Basics
+## WiX Basics
 
 WiX is a tool to create MSI packages. As MSI packages are in fact specialized database files, WiX uses XML as input files.
 

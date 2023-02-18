@@ -16,7 +16,7 @@ It is relatively easy to make a decision than carrying out the plan. Different f
 
 Thus, to release the code in 2016 as truly open source, I will have to stop developing new features for a short while, clean up the code base, and add necessary documentation. Hope the following schedule can be hit without further delay.
 
-# Schedule
+## Schedule
 
 2016 Q1: Clean up my open source implementation of Microsoft.Web.Administration and release it at GitHub. It features the following,
 

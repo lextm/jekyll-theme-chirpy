@@ -16,7 +16,7 @@ I became a happy user just recently, learning that I could dump the vswhere comm
 
 Definitely this inspired me to publish some useful module, like [the one Ruslan Yakushev created](https://www.phpmanager.xyz/tutorials/command-line.html) as part of PHP Manager for IIS. However, horrible things started to happen and it took me days to pass them. So the remaining of this post would focus on that.
 
-# Stable/Preview Sites
+## Stable/Preview Sites
 ![img-description](/images/stable-site.png)
 _Figure 1: PowerShell Gallery._
 
@@ -29,13 +29,13 @@ So I went ahead and switched to the Preview site, and click the "Sign in" link. 
 
 It took hours to get a reply from them with a link to confirm my mail box, but anyway I should be able to publish the module, right?
 
-# PowerShell Snapin vs. PowerShell Module
+## PowerShell Snapin vs. PowerShell Module
 
 At the beginning of PowerShell, custom cmdlets came from extensions called snapins. For example, once PHP Manager for IIS is installed, the snapin assembly is installed to GAC, and then can be loaded by PowerShell via [a single command](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/add-pssnapin?view=powershell-5.1) `Add-PsSnapin PHPManagerSnapin`.
 
 Should I do any conversion to make the existing snapin a new PowerShell module? Internet gave me multiple answers and many were simply misleading. It turns out that a snapin assembly with custom cmdlets can directly be used as [a PowerShell module](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/import-module?view=powershell-6), if I simply use `Import-Module`. This part is not quite relevant to publishing a module, but you should know how to test your module assembly locally via `Import-Module`.
 
-# Publishing
+## Publishing
 
 Well, I could not publish the assembly directly, as the gallery requires me to provide a manifest file. It is really bad that you cannot find a good enough example somewhere, and some blog posts might contain an example of the old syntax.
 
@@ -43,7 +43,7 @@ So lastly I had to use the [Microsoft example](https://github.com/Microsoft/vsse
 
 With the necessary assemblies and manifest in the same folder, I thought that I could then publish it. Well, it did not accept my API key. What?
 
-# Updating PowerShellGet
+## Updating PowerShellGet
 
 By default, Windows ships with an old version of PowerShellGet, which provides the `Publish-Module` command, so [this module must be updated](https://docs.microsoft.com/powershell/gallery/installing-psget) so as to recognize the API key from latest gallery site. 
 It took a while to do this, and then the new module was published after a very long time.

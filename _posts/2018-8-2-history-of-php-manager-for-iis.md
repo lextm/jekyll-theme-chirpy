@@ -12,7 +12,7 @@ image:
 > Ironically [I suggested people to avoid PHP Manager](/why-you-should-forget-php-manager-for-iis-953fae81b05b), but later took over the project.
 <!--more-->
 
-# Overview of PHP on IIS
+## Overview of PHP on IIS
 
 PHP has been a popular programming platform for web applications. It has been integrated to IIS a long time ago by the PHP community.
 
@@ -24,7 +24,7 @@ It took about a year for that to finish and then the ISAPI module became obsolet
 
 The same technology was later used in Windows Azure (renamed to Microsoft Azure today) to support PHP web apps.
 
-# Initial Releases from Ruslan Yakushev
+## Initial Releases from Ruslan Yakushev
 
 From the [code commit history](http://ruslany.net/tag/php/) we can see that Ruslan made the first commit on August 9, 2010. However, the initial code seems to be a little bit older than that.
 
@@ -36,7 +36,7 @@ The last commit he made was on December 13, 2013.
 
 The releases from him were 1.0.x-1.2.1.
 
-# Chaos in The Coming Years
+## Chaos in The Coming Years
 
 There were many factors that made the situation tough for PHP Manager users,
 
@@ -52,7 +52,7 @@ Noticeably, there were installers for "1.3.0" and "1.4.0" from SkyDrive/OneDrive
 
 There was an installer for 1.5.0, but it only aims for IIS 10.
 
-# New Repository for 2.0 Release And Above
+## New Repository for 2.0 Release And Above
 
 To fully take over the project and make it healthy again, I did the following,
 

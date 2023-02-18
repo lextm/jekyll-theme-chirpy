@@ -36,5 +36,5 @@ NuGet will try to update itself, and after that you get the latest executable (2
 
 In part II, I talked about how to let package restore work on Linux/Mono.
 
-# More Information on Microsoft.Build.dll
+## More Information on Microsoft.Build.dll
 xbuild and related files are packaged in mono-devel. However, this rpm package for Mono 2.10.* does not contain Microsoft.Build.dll. That's why you have to perform step 4 above. Luckily Mono 3.0 does fix this issue.

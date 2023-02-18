@@ -10,7 +10,7 @@ When Microsoft designed and shipped IIS 7, they decided to provide a few more ex
 
 The last important post from Microsoft on them is [this one](https://blogs.iis.net/iisoobs/updates-released-for-arr-url-rewrite-and-httpplatformhandler-including-windows-10-support), so you notice a few facts,
 
-# OOB Modules for IIS 10 on Windows 10/Windows Server 2016 (And Above)
+## OOB Modules for IIS 10 on Windows 10/Windows Server 2016 (And Above)
 Only a selected set has been upgraded,
 
 * ARR 3.0
@@ -19,7 +19,7 @@ Only a selected set has been upgraded,
 * IIS CORS 1.0
 * ASP.NET Core (1.x/2.x, part of .NET Core) 
 
-# Other Modules
+## Other Modules
 So you might wonder what happens to other modules. Simply speaking, they are deprecated for IIS 10 and above, and you cannot use them. However, they remain fully supported on IIS 7.x and 8.x.
 
 > Note that they have been removed from Microsoft Download Center, so you can no longer get them from Microsoft. Be careful if you try to download from a third party.
@@ -38,7 +38,7 @@ Then how to address the need of such modules if you really cannot get rid of the
 1. Find alternative modules/tools from third party vendors. As most modules are simple, alternatives are not that hard to find.
 1. Develop your own if no other vendor can be found. The extensibility of IIS means you can help yourself as last resort.
 
-# Alternatives for Some Modules
+## Alternatives for Some Modules
 * IIS Media Services and Transform Manager users should check out Azure Media Services. The cloud services are huge upgrade of what IIS offers, and should be considered a great opportunity to host your media files and enable a variety of other features.
 * FTP 7.5 has become the built-in FTP services for IIS since IIS 7.5.
 * Advanced Logging has some features (custom logging) ported back as part of IIS default logging. However, its other features are no longer available. If you need those missing ones, it is very likely that you have to develop your own IIS extension. IIS 8.5 and above has [Enhanced Logging](https://docs.microsoft.com/iis/get-started/whats-new-in-iis-85/enhanced-logging-for-iis85) which covers most if not all features of Advanced Logging.

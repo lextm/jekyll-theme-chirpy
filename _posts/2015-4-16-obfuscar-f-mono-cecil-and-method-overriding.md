@@ -10,7 +10,7 @@ Due to the announcement of Google that it is going to shut down Google Code, I f
 One reported issue caught my attention, because it is related to F#, a functional programming language which I am not familiar with. Is this language so different that Obfuscar cannot process generated assemblies? Remember that tons of bugs have already been fixed in release 2.0 and 2.0.1. OK, I tested it out yesterday and was completely surprised at my findings.
 <!--more-->
 
-# F# Magic and Assembly Internal
+## F# Magic and Assembly Internal
 
 I would not drill down too deep, but a glance on the F# compiler core library FSharp.Compiler.dll can give you some hints on the differences.
 
@@ -20,7 +20,7 @@ So to sum up,
 * There are a lot of generic usage in classes and methods (quite complex to analyze).
 * Inheritance is quite heavily used.
 
-# Mono.Cecil to Analyze Method Overriding
+## Mono.Cecil to Analyze Method Overriding
 
 Several scenarios were analyzed in order to see why Obfuscar 2.0.1 could not obfuscate the code properly. And the reason was quite simple that when a method overrides a method with generic parameters (several variations though), the InheritMap class could hardly find all method groups, which led to the crash as some overriding methods were mistakenly renamed.
 

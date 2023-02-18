@@ -13,7 +13,7 @@ When Microsoft developed HttpPlatformHandler more than a decade ago to enable no
 Thus, HttpPlatformHandler still plays an important role in the ecosystem and won't go away easily. However, the landscape keeps evolving so this post tries to capture some latest changes on Node.js and show you how to proper set up everything needed and more critically how to troubleshoot if issues occur.
 <!--more-->
 
-# Basic Node.js Setup
+## Basic Node.js Setup
 
 No doubt we will start from a sample application as below,
 
@@ -40,7 +40,7 @@ PS C:\node-test> node app.js
 Example app listening on port 3000!
 ```
 
-# HttpPlatformHandler Setup
+## HttpPlatformHandler Setup
 
 Now let's download and install HttpPlatformHandler on IIS, and add a `web.config` in `C:\node-test`,
 
@@ -63,9 +63,9 @@ Now let's download and install HttpPlatformHandler on IIS, and add a `web.config
 
 With all settings in place, I can go back to IIS Manager and create a site (I chose *:8099 as site binding) to point to `C:\node-test`. By opening a web browser and navigate to `http://localhost:8099/`, I can see "My first server" as expected.
 
-# Troubleshooting
+## Troubleshooting
 
-## 0x80070002
+### 0x80070002
 But wait! Why did I see an error page saying "HTTP Error 502.3 - Bad Gateway" with Error Code `0x80070002`?
 
 ![img-description](/images/bad-gateway-80070002.png)
@@ -122,7 +122,7 @@ Due to the design of IIS, such shortcuts do not work very well, so we need to ch
 
 > Note that to learn all settings such as request timeout, you can refer to [this article](https://docs.microsoft.com/iis/extensions/httpplatformhandler/httpplatformhandler-configuration-reference).
 
-## 0x80070005
+### 0x80070005
 
 OK, now refreshing the browser gives us a different Bad Gateway error page because its Error Code changes to `0x80070005`,
 
@@ -152,7 +152,7 @@ _Figure 3: Bad Gateway error page of 0x80070005_
 
 This also makes perfect sense, because anything under `C:\Users\<user name>\` is protected and accessible only by that user account by default, not `IIS_IUSRS`.
 
-# The End
+## The End
 Once I grant `IIS_IUSRS` read access to `C:\Users\<user name>\AppData\Roaming\nvm\v16.13.2\node.exe`, the browser starts to work as expected and gives me "My first server".
 
 With Process Explorer I can further analyze the `node.exe` process spin off by `w3wp.exe`,
@@ -164,12 +164,12 @@ And if an application pool recycle is triggered in IIS Manager, I can also obser
 
 > Note that the peaceful shutdown is via Windows API `OpenProcess(SYNCHRONIZE | PROCESS_TERMINATE, FALSE, m_dwProcessId)`. You can read [ASP.NET Core module source code](https://github.com/dotnet/aspnetcore/blob/v6.0.5/src/Servers/IIS/AspNetCoreModuleV2/OutOfProcessRequestHandler/serverprocess.cpp#L1337) to learn more, as this module is derived from HttpPlatformHandler.
 
-# Side Notes
+## Side Notes
 
-## Express for Node.js
+### Express for Node.js
 One thing you might notice is that I wrote a very simple Node.js application as example. Why not go a little bit further to use a framework like Express for Node.js? In fact I did try it out (Express 4.18.1), but `node.exe` does not shut down peacefully and it also blocks `w3wp.exe` from proper shutdown. I didn't have time to dig further there, but you might find it an interesting field to explore. Good luck.
 
-## Hosting on Azure App Service (Windows)
+### Hosting on Azure App Service (Windows)
 Two small changes might be needed if you want to deploy `app.js` and `web.config` together to your Azure App Service (Windows),
 
 1. You might need to change its name from `app.js` to `app.mjs`, because Node.js 16+ might tell you that `SyntaxError: Cannot use import statement outside a module`. So that the value of `arguments` now should be `.\app.mjs`.
@@ -194,7 +194,7 @@ The complete `web.config` file might look as below,
 </configuration>
 ```
 
-## Nuxt.js
+### Nuxt.js
 
 > Note that the steps below apply to Nuxt 2.x (2.15.8). To deploy a Nuxt 3.x web app, please refer to [this new post](/running-nuxt-3-web-apps-on-iis-with-httpplatformhandler/).
 

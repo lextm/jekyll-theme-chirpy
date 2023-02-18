@@ -12,11 +12,11 @@ Hi, friends. I am glad to announce the availability of Code Beautifier Collectio
 Merry X'mas and happy new year.
 <!--more-->
 
-# What's the new version?
+## What's the new version?
 
 This version is titled HardQuery R2 Update 1. The version number is 5.3.1.1124.
 
-# What's new in this version?
+## What's new in this version?
 
 There are about ten main changes:
 

@@ -12,7 +12,7 @@ Of course, #SNMP Pro has an important update too, which I announce at this momen
 The changes (compared to the initial release on Feb 3rd, 2014) are as below,
 <!--more-->
 
-# SharpSnmpPro.Mib Assembly
+## SharpSnmpPro.Mib Assembly
 
 * Description, Reference, Status are added to IEntity.
 * DescriptionFormatted extension method is added to IEntity.
@@ -28,7 +28,7 @@ The changes (compared to the initial release on Feb 3rd, 2014) are as below,
 * Counter32Type, Counter64Type, Gauge32Type, IpAddressType, TimeTicksType are added.
 * Changed how NotResolvedException are created.
 
-# #SNMP MIB Compiler Pro
+## #SNMP MIB Compiler Pro
 
 1. New warnings
 

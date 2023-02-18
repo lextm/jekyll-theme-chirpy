@@ -18,13 +18,13 @@ In this part, I am going to tell how to do it at home with the following compone
 * Guest: Ubuntu 7.10
 <!--more-->
 
-# VM Setup
+## VM Setup
 
 Modify Ubuntu VM network adapter settings. Change the adapter from NAT to Host Interface. Please notice that "VirtualBox Host Interface 1" should be used.
 
 If there is no name listed under Interface Name, please create a new interface in Host Interface group.
 
-# Host Setup
+## Host Setup
 
 Normally I use NAT networking option on the VM. However, in VirtualBox case, it is impossible to ping the guest from host. Thus, another approach must be used.
 
@@ -38,7 +38,7 @@ http://forums.virtualbox.org/viewtopic.php?t=4580&highlight=samba+ubuntu
 
 > Notice, because it is very easy to configure on Windows, I do not provide screen shots here.
 
-# Guest Setup
+## Guest Setup
 
 Now let's move to Ubuntu. Open Administration | Network and there should be one Wired connection there.
 
@@ -62,7 +62,7 @@ Added user username.
 
 I use user name `lextm` and `123456`.
 
-# Test
+## Test
 
 Now let's launch a command prompt on host and type in,
 

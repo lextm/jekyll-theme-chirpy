@@ -10,7 +10,7 @@ Microsoft provides [a way to install IIS 8.5 via PowerShell](https://docs.micros
 
 <!--more-->
 
-# How to Learn Module Names?
+## How to Learn Module Names?
 You might wonder from where this IIS 8.5 table comes from, but can you try to run the following command at PowerShell and analyze its output,
 
 ``` powershell
@@ -22,7 +22,7 @@ And you will easily see all features/sub-features (or roles/role-services) are l
 ![img-description](/images/iis85-features.png){: width="512" }
 _Figure 1: IIS 10 Features_
 
-# OK, Why Module Names Remains The Same?
+## OK, Why Module Names Remains The Same?
 
 Don't be surprised that the text `45` in short module names remain while their feature names are using `4.6`.
 

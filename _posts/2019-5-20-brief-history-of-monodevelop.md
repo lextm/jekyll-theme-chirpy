@@ -16,7 +16,7 @@ There is [a Wikipedia article about MonoDevelop](https://en.wikipedia.org/wiki/M
 
 When Miguel de Icaza announced the Mono project at OSCON on June 30, 2001, clearly a free and open source IDE was part of the plan (to replace Visual Studio, as on Linux there was no other option). The early work on Mono CLR, C# compiler, and GTK# binding made it possible to write such an IDE based on GTK#.
 
-# Forking SharpDevelop
+## Forking SharpDevelop
 
 Before they got started, the SharpDevelop project started by Mike Kruger in 2000 was already a mature IDE to enable C# development on Windows. So instead of starting from scratch, it was a natural decision to fork SharpDevelop, and build a GTK# based user interface to replace the original Windows Forms based one. MonoDevelop 0.1 was released on February 4, 2004.
 
@@ -27,7 +27,7 @@ SharpDevelop and MonoDevelop shared common project system and many other compone
 
 MonoDevelop didn't catch up with such, due to the slow progress on Mono. The MSBuild clone, aka xbuild, was not released (as part of Mono 2.6) until December 14, 2009.
 
-# Assisting Unity and MonoTouch
+## Assisting Unity and MonoTouch
 
 Though falling far behind SharpDevelop, MonoDevelop was given a rare chance to grow quickly due to the collaboration between Mono and Unity3D announced on February 26, 2008. Unity3D uses MonoDevelop as the basis of its own gaming IDE, which not only increases the user base, but also moves the project forward.
 
@@ -37,7 +37,7 @@ Right after that, Mono for Android was developed, and existence of xbuild made i
 
 On May 25, 2011, Xamarin was launched by Miguel de Icaza and Nat Friedman after the Novell/Attachmate layoff. All rights of MonoTouch and Mono for Android was handed over from SUSE to Xamarin on July 18.
 
-# Commercializing
+## Commercializing
 
 On February 20, 2013, Xamarin announced its Xamarin 2.0 platform, where its own commercial IDE called Xamarin Studio was shipped for Windows and Mac. It shares many components with MonoDevelop 4.x-6.x, but features commercial extensions to enable iOS/Android/Mac development. Though Xamarin Studio is commercial product with Xamarin brand, it remained free for most users on Windows/Mac if they didn't use the commercial extensions.
 
@@ -57,7 +57,7 @@ It would be rather difficult to predict when we shall be able to compile MonoDev
 
 Should you really care? Visual Studio Community edition (Windows) and VSCode (Linux) can cover many scenarios already.
 
-# Side Notes
+## Side Notes
 
 You can compile MonoDevelop on Mac and Windows [from source code](https://www.monodevelop.com/download/). I recently started to ship MonoDevelop for Windows MSI installer via [my personal fork](https://github.com/lextm/monodevelop-windows).
 

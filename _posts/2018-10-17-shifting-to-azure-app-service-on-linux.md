@@ -16,7 +16,7 @@ All look good, but we do know Windows is not equivalent to Linux, and Microsoft 
 So naturally, if you are hosting web apps on Azure, especially PHP/Python/Ruby users, you have both Windows and Linux backends to choose from.
 <!--more-->
 
-# Interpretation of Microsoft Documentation on Python
+## Interpretation of Microsoft Documentation on Python
 
 I just came across [an article on Azure documentation](https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2017/python/managing-python-on-azure-app-service?view=vs-2017), which contains an important announcement,
 
@@ -40,7 +40,7 @@ However, such support come without a guarantee of the surrounding ecosystem from
 
 > One benefit though is that [App Service on Linux is cheaper](https://azure.microsoft.com/en-ca/pricing/details/app-service/linux/) than App Service on Windows.
 
-# PHP on Windows Issues
+## PHP on Windows Issues
 
 [PHP Manager for IIS](https://docs.phpmanager.xyz/getting-started/history.html) was discontinued once and I picked it up.
 
@@ -48,13 +48,13 @@ However, such support come without a guarantee of the surrounding ecosystem from
 
 Web Platform Installer does not always ship latest PHP releases, and it no longer accepts new submissions (that's why PHP Manager 2 for IIS was not there).
 
-# Python on Windows Issues
+## Python on Windows Issues
 
 It is uncertain either HttpPlatformHandler or wfastcgi should be used, and both were promoted in [Microsoft documentation](https://github.com/MicrosoftDocs/azure-docs/issues/7835).
 
 The future of HttpPlatformHandler and wfastcgi is not clear. [wfastcgi](https://pypi.org/project/wfastcgi/#history) hasn't been updated since March 2017 (or maybe it is simply solid).
 
-# Other Noticeable News
+## Other Noticeable News
 
 [Go tooling on Windows was cut](https://github.com/Azure/app-service-announcements/issues/45) due to unpopularity.
 

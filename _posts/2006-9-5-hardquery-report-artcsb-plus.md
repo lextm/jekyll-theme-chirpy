@@ -10,7 +10,7 @@ excerpt_separator: <!--more-->
 As a C#Builder user, I often find it hard to access the component I want when there are a lot of them inside a form or user control. What's missing? A component tree. The Structure View is empty when you are editing WinForms or WebForms. This is very bad.
 <!--more-->
 
-# ArtCSB 2.5
+## ArtCSB 2.5
 
 I forgot when I met ArtCSB on Borland Developer Network Code Central.
 
@@ -18,7 +18,7 @@ It adds a form which displays a component tree. When you click a component capti
 
 Besides, ArtCSB provides other useful features, though some of them I do not use.
 
-# ArtCSB Plus
+## ArtCSB Plus
 
 ArtCSB 2.5 is very old. It can not run with delphi 2006 without corrections. As a result, I decide to bring it back with LeXDK 5.2. It is quite easy, and only takes me a few hours.
 

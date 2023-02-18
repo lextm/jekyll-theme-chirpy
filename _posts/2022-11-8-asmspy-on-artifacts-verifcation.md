@@ -9,7 +9,7 @@ We often perform artifacts verification via test suites, so for .NET projects NU
 
 <!--more-->
 
-# Out-Of-Control Dependent Assembly Versions
+## Out-Of-Control Dependent Assembly Versions
 I have shipped multiple versions of PHP Manager for IIS in the past few years, but it was recently that [one issue](https://github.com/phpmanager/phpmanager/issues/53) reported back on `Microsoft.Web.Administration` reference,
 
 ``` txt
@@ -19,7 +19,7 @@ Could not load file or assembly 'Microsoft.Web.Administration, Version=7.9.0.0, 
 
 I think you might have seen similar exceptions in the past, and not surprised at all. I blogged about [the cause and solution](/whats-microsoft-web-administration-and-the-horrible-facts-you-should-know-b82f2c974da6) a long while ago, so fixing the bug was just a few minutes.
 
-# The Long Term Defense
+## The Long Term Defense
 However, this time I started to think about whether I could find a permanent way to prevent it from happening again, such as a verification step in CI manifest. Of course, I can write a tool based on Mono Cecil which won't take much long, but doesn't a tool exist already?
 
 I did search for a while and found many tools in this field relying on project files (`*.csproj`). While they can be useful in some scenarios, clearly they cannot be used for this specific task that relies on assembly scan.

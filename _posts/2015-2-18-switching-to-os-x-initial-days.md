@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 It was last week that I finally decided to buy a Macbook Pro as my new laptop. So it worked fine then when I was away from home at Hong Kong, before today I had some time to hook my previous PC extras to it. OK, getting started can always be painful, but if you do have the necessary searching skills, you won't be disappointed after a while.
 <!--more-->
 
-# Logitech Mouse and Keyboard
+## Logitech Mouse and Keyboard
 
 I do love to use wireless mouse and keyboard instead of the laptop built-in ones, so I have M235 and K270 at this moment. To get unifying working, a piece of software is required to be downloaded from Logitech web site,
 

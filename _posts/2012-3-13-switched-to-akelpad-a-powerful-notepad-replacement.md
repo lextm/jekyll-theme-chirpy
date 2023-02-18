@@ -16,20 +16,20 @@ A few days along, I came across AkelPad by Internet search, and now I am happy w
 So please follow the tips to resolve the cons if you feel the same,
 <!--more-->
 
-# Replace Notepad
+## Replace Notepad
 
 A better way is to use a registry key hack (Process Explorer uses this approach too),
 
 1. Expand `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options` node, and add a new key `notepad.exe`.
 1. Add a string value to this new key, and pointed to the path of AkelPad.exe with `/Z`, such as `"D:\AkelPad\AkelPad.exe" /Z`.
 
-# Add to Context Menu
+## Add to Context Menu
 
 1. Expand `HKEY_CLASSES_ROOT\*\shell` node, and add a new key named `Open with AkelPad`.
 1. Under this new key, add `command` as a new key.
 1. Change the `(Default)` value to the path of AkelPad.exe with `%1`, such as `"d:\AkelPad\AkelPad.exe" %1`.
 
-# Enable Coder Plugins
+## Enable Coder Plugins
 
 By default, syntax highlighting is not enabled, so you need to click Options | Plug-ins menu item, and then enable them in Plugins window.
 

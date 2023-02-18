@@ -12,7 +12,7 @@ http://msbuildlaunchpad.codeplex.com/workitem/14833
 Alright, finally I got all the necessary details about the crash, and started to fix it. But was that all I could do this time? Nope :) I have explored a lot.
 <!--more-->
 
-# NuGet Packages
+## NuGet Packages
 
 This has been the best way to publish your .NET libraries (I published #SNMP Library to NuGet last October). But today is the first time I tried to consume packages in the NuGet way.
 
@@ -24,7 +24,7 @@ http://docs.nuget.org/docs/workflows/using-nuget-without-committing-packages
 
 Now dependencies can be easily managed. (NuGet is Mono friendly, too).
 
-# More Unit Testing
+## More Unit Testing
 
 It was not easy to write a unit test case for MSBuild path resolution (MSBuildTask.FindMSBuildPath), but this time using moq I can fake the path validation part, and simulate the following scenarios effortlessly, so all test cases can be easily written,
 
@@ -36,7 +36,7 @@ It was not easy to write a unit test case for MSBuild path resolution (MSBuildTa
 
 > .NET 4.* means either .NET 4 or .NET 4.5.
 
-# Less Hardcoded Information
+## Less Hardcoded Information
 
 In previous builds, .NET Framework versions and MSBuild path were almost all hardcoded in C# files. If .NET 4.5 were not an in-place upgrade of .NET 4, I would have to change a lot of lines to support it.
 

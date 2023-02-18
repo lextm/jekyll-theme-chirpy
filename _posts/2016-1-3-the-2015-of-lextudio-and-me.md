@@ -8,37 +8,37 @@ excerpt_separator: <!--more-->
 2015 was a fantastic year for LeXtudio and me. So below is a summary on what were the achievements.
 <!--more-->
 
-# Projects
+## Projects
 
 There are several open source projects under the LeXtudio brand, and each of the active ones has been updated in a certain way.
 
-## #SNMP
+### #SNMP
 
 #SNMP Library has been quiet for a long while after I published its 8.5 release in Feb 2015. But in fact I have been working on a .NET Core 5 port throughout the year, in order to chase what Microsoft has been developing. So if everything turns out to be fine, in early 2016 a new build will be delivered.
 
 Its twin project, #SNMP Pro, continues to grow and has new customers applied trials and purchased. We will definitely see more improvements in 2016.
 
-## Obfuscar
+### Obfuscar
 
 Obfuscar has been updated several times so as to fix newly discovered bugs. Two beta releases have been done in 2015 for 2.0.2, so in 2016 the final release will be delivered.
 
-## DockPanel Suite
+### DockPanel Suite
 
 This project was actively boosted in the last few weeks of 2015. First, I created a new documentation site for it. Second, we switched to a new theme structure where new themes can be separately developed and deployed via NuGet. Thirdly, a new theme of VS 2013 Blue was added.
 
 So in 2016, the first priority is to ship its 2.10 release, and move everything forward.
 
-## reStructuredText for Visual Studio Code
+### reStructuredText for Visual Studio Code
 
 It was kind of unexpected but I decided to try something new in the last few weeks of 2015, and the outcome was this addin for VS Code. It requires a lot of effort to learn TypeScript, Python, reStructuredText and so on, but I believe it is worth the while.
 
-## Jexus Manager
+### Jexus Manager
 
 The last thing or my core focus was Jexus Manager and its components. The plan is to make Jexus web server fully compatible with IIS settings and management modes, and then this little utility can have some impact too.
 
 In 2016, this utility will become fully open source, and we will see how people can reuse the code to do something cooler.
 
-# Non-Project Related
+## Non-Project Related
 
 Except all those projects I worked on, in 2015 I had learned too much from others.
 

@@ -44,7 +44,7 @@ There must be a few items I missed. If you meet any incompatible issues (from 1.
 \* for changed features
 \- for obsolete or removed features
 
-# Notice:
+## Notice:
 
 Obsolete items are to be removed post this release. So please follow the advice to move away from them.
 

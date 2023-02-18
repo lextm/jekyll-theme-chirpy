@@ -10,7 +10,7 @@ I used to use a Chinese blogging service called CSDN. As it is a closed system w
 Recently I finally get tired of Blogger too, due to its service unavailable in China Mainland (not Google's fault though). So this time I decided to try out Windows Azure and WordPress.
 <!--more-->
 
-# MySQL Hosting on Windows Azure Virtual Machine
+## MySQL Hosting on Windows Azure Virtual Machine
 
 As my MSDN subscription only provides me credits in Windows Azure, I choose to [build a virtual machine and host MySQL on my own](https://learn.microsoft.com/en-us/samples/azure/azure-quickstart-templates/mysql-standalone-server-ubuntu/).
 
@@ -36,7 +36,7 @@ Second we [install Git](https://help.github.com/articles/set-up-git) and [clone 
 
 Create a new web site in IIS and point to the WordPress folder. Then use this web site to host WordPress locally.
 
-# Modify WordPress Binding to MySQL
+## Modify WordPress Binding to MySQL
 
 Rename wp-config-sample.php to wp-config.php.
 
@@ -63,19 +63,19 @@ The information we write down for MySQL hosting should be now filled in to repla
 
 Save the file.
 
-# Import from Blogger
+## Import from Blogger
 
 Now it is time to go to your WordPress site and set up everything, such as [importing from Blogger](http://codex.wordpress.org/Importing_Content#Blogger).
 
 Now check in all changes you make locally in Git and get ready to publish.
 
-# Publish WordPress on Windows Azure
+## Publish WordPress on Windows Azure
 
 To go BitBucket.org and create [a private repository](https://confluence.atlassian.com/display/BITBUCKET/Bitbucket+101). Then you can push your local copy of WordPress to it.
 
 Switch to Windows Azure and now create [a new Web Site with BitBucket back end](https://learn.microsoft.com/en-us/azure/app-service/quickstart-php?tabs=cli&pivots=platform-windows#push-to-azure-from-git). Once finished, Windows Azure will clone the repository and always take care of your new change sets.
 
-# Setup Custom Domain
+## Setup Custom Domain
 
 To set up custom domain, please follow [this guide](https://learn.microsoft.com/en-us/azure/app-service/manage-custom-dns-migrate-domain).
 
@@ -127,7 +127,7 @@ Your web site will start to accept old URLs and redirects them to corresponding 
 
 You can also install WordPress plugins to monitor 404 errors which can help you refine the rewrite rules.
 
-# Redirection from Blogger to WordPress
+## Redirection from Blogger to WordPress
 
 There is no built-in way to redirect traffic from http://lextm.blogspot.com to http://www.lextm.com after the migration. But it is rather simple to utilize a piece of JavaScript,
 
@@ -148,6 +148,6 @@ redirectHttpToHttps();
 
 Make sure this gadget is saved and moved to just below the Header. That should ensure a quicker redirection before any page content is loaded.
 
-# The End
+## The End
 
 If you have finished all previous steps, you almost finish 99% of the work. The rest is small tunings such as adding AD tags, applying new themes, and trying out more WordPress plugins. WordPress is highly extensible, so make sure you check out the funny themes and plugins to get more functionalities added to your site.

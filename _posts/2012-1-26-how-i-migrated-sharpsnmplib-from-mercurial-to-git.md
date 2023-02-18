@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 There are tons of articles on this topic. Here I just summarized what I have done.
 <!--more-->
 
-# Generate Local Git Repository via Hg-Git
+## Generate Local Git Repository via Hg-Git
 
 The Mercurial repository of #SNMP is at d:\sharpsnmplib
 
@@ -28,13 +28,13 @@ Then I install Hg-Git following http://candidcode.com/2010/01/12/a-guide-to-conv
 
 You can now try to push to GitHub in `d:\sharpsnmplib` by executing `hg push git+ssh://git@github.com/schacon/hg-git.git`.
 
-# Troubleshooting Issues
+## Troubleshooting Issues
 
 This push may fail due to an SSH error. In that case assuming you have set up Git following [this guide](http://help.github.com/win-set-up-git/), you may install TortoiseGit, and launch puttygen.exe from its installation folder to load your private key. Then you can save the key in PuTTY format (.ppk) and launch pageant.exe from TortoiseHg installation folder so as to add this new key. After that you can push again to see if everything works fine.
 
 In my case it failed with an invalid parameter error which I cannot address. But the local Git repository is ready in d:\sharpsnmplib\.hg\git
 
-# Consolidate Local Git Repository
+## Consolidate Local Git Repository
 
 To be safe, I used TortoiseGit to create an empty Git repository at d:\temp\sharpsnmplib. Then I copy d:\sharpsnmplib\.hg\git to d:\temp\sharpsnmplib\.git.
 
@@ -48,7 +48,7 @@ git gc --aggressive
 
 If you don't know how to find git command, you may read http://help.github.com/win-set-up-git/.
 
-# Upload to GitHub
+## Upload to GitHub
 
 Finally I went to GitHub to create a repository. It is time to upload everything to it,
 
@@ -56,14 +56,14 @@ Finally I went to GitHub to create a repository. It is time to upload everything
 git push --mirror --progress git@github.com:lextudio/sharpsnmplib.git
 ```
 
-# Remaining Issues
+## Remaining Issues
 
 If you use branching heavily, then you may experience more issues like me. Here are my fixes,
 
-## 1. Unnamed Branches
+### 1. Unnamed Branches
 
 Use TortoiseGit to show log on d:\temp\sharpsnmplib and I can see unnamed branches (the branch names seem to be removed during conversion). To rename them, we can simply create new branches in the log view, http://superuser.com/questions/382602/git-repository-migrated-from-mercurial-shows-unnamed-branches .
 
-## 2. Messy Committers and Authors
+### 2. Messy Committers and Authors
 
 I was not able to find a suitable way to clean up them without breaking the repository, so I decided to leave it as it was. This is bit of expected after Subversion to Mercurial to Git migration.

@@ -8,13 +8,13 @@ excerpt_separator: <!--more-->
 Microsoft collaborates with Docker to introduce container support in both Windows 10 and Windows Server 2016. However, due to some unknown reasons, the user experience differs so much that if you find everything is nice and smooth on Windows 10, then things are so painful on Windows Server 2016.
 <!--more-->
 
-# Basic Installation
+## Basic Installation
 
 While on Windows 10 you probably need only Docker for Windows, on Windows Server 2016 you need to install Docker engine following [this article](https://docs.docker.com/docker-ee-for-windows/install/#install-docker-ee).
 
 Yup, the PowerShell installation is a little tricky to follow.
 
-# Docker Compose
+## Docker Compose
 But that's not enough if you run Visual Studio 2017 to develop Docker based projects, as it would complain about missing docker-compose like
 
 ```
@@ -58,7 +58,7 @@ at Microsoft.Build.BackEnd.TaskBuilder.<ExecuteInstantiatedTask>d__26.MoveNext()
 
 The error message is more suitable for Windows 10 users, but totally misleading for Windows Server 2016 users. The steps to install docker-compose are different, as [documented here](https://docs.docker.com/compose/install/).
 
-# Low Disk Space Error
+## Low Disk Space Error
 
 Even if you have that installed, you might hit another error message,
 
@@ -93,7 +93,7 @@ _Figure 1: Docker Image `microsoft/aspnet`._
 
 Thus, only after freeing enough space, everything starts to move on.
 
-# Visual Studio Debugger Error
+## Visual Studio Debugger Error
 
 Next you might see an error as below ("Unable to start debugging on the web server. The remote server returned an error: (403) Forbidden."),
 

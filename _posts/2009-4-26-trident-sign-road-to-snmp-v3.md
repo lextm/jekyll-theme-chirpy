@@ -13,7 +13,7 @@ We shall finally come to work on SNMP v3. But how to go there step by step? I ha
 
 Good news is that I just finished the first critical task. Well, that's a good start. Cooking Trident must be cooler :)
 
-# Updated:
+## Updated:
 
 You must wonder how to configure Net-SNMP agent, so here are the links you must read,
 

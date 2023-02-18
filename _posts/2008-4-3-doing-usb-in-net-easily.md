@@ -12,16 +12,16 @@ Thus, how to manipulate USB easily? I recommend SharpUsbLib, a wrapper over libu
 
 http://www.icsharpcode.net/OpenSource/SharpUSBLib/default.aspx
 
-# Deployment
+## Deployment
 
 Since it is a wrapper, so when you deploy your application, libusb must be deployed besides SharpUsbLib. On Windows platform, you should use LibUsb-Win32. (Notice: it does not officially support Windows Server 2003, Vista, and Server 2008).
 
 http://libusb-win32.sourceforge.net/
 
-# Usage
+## Usage
 
 Even though the demo project in SharpUsbLib does not read or write data through USB, it illustrates how to query Device instances connected to the PC. If you take a look at Device class, you can find I/O functions such as BulkRead, BulkWrite and so on. So it is in fact quite easy to learn and use in your applications.
 
-# License
+## License
 
 As a reminder, please notice that SharpUsbLib is published under GPL or LGPL. So if you want to use it in a commercial application, please follow the restrictions of LGPL carefully.

@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 I just renamed the first build of Beta 3 back to Jexus Manager 2.0. The removal of "for IIS Express" does not mean IIS Express support is cut (but significantly enhanced if you read further). This change is intentioned, because now in fact this tool supports much more than IIS Express.
 <!--more-->
 
-# The Name Change
+## The Name Change
 
 Yep, a quick glance can let you see the changes. From top to bottom we have three servers opened,
 
@@ -18,7 +18,7 @@ Yep, a quick glance can let you see the changes. From top to bottom we have thre
 
 Thus, it is time to get rid of the IIS Express limitation, and embrace all the best web servers for ASP.NET!
 
-# Local IIS Express Custom Configuration
+## Local IIS Express Custom Configuration
 
 If you happen to use Visual Studio 2015 (I hope you did), you will find [the latest build](https://devblogs.microsoft.com/dotnet/new-asp-net-features-and-fixes-in-visual-studio-2015-rc/) quite useful.
 

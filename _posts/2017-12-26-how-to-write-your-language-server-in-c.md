@@ -11,7 +11,7 @@ I just wrote about [my plan](/a-new-restructuredtext-project-112e9ae52acb) to en
 While it is going to be a long road ahead, I already got some initial results. For this post, I would like to share some tips on the Language Server Protocol, so that if you are eager to start your own today as a C# developer, you can do the same.
 <!--more-->
 
-# Language Server Protocol
+## Language Server Protocol
 There would be no better place than [this Microsoft site](https://microsoft.github.io/language-server-protocol/). So not only Visual Studio Code supports it, other major editors and IDE vendors are starting to adopt it,
 
 * Eclipse (including Che)
@@ -23,7 +23,7 @@ So simply speaking, your Visual Studio Code extension should initialize a client
 
 Thanks to Visual Studio Code and Erick Gamma for making this a reality.
 
-# LSP .NET Implementations
+## LSP .NET Implementations
 Next, how to choose a framework that implements the protocol? Well, I collected a bunch projects, so let's go over them one by one.
 
 * Josh Johnson created vscode-dotnet in 2016 and published it in May. Sadly this project didn't last long enough.
@@ -32,7 +32,7 @@ Next, how to choose a framework that implements the protocol? Well, I collected 
 * Adam Friedman created another implementation in September 2017 and used it to help Visual Studio.
 * Microsoft released its own Visual Studio LSP Preview, but not sure if they are going to open source the implementation behind. If they do, they will compete in this field with others. If they happen to use any of above, then that framework would receive some more love :)
 
-# Start My Own
+## Start My Own
 Roughly below are the steps I used,
 
 1. Clone CXuesong's repo to local, and follow the instructions to get the demo extension work. Of course, I met some tiny issues, but they are easy to fix, and the pull request was merged.
@@ -43,5 +43,5 @@ Don't jump too soon to step 3, as LSP is complex. Make sure that step 2 works wo
 
 I still have more to dig in the coming weeks, but it is so interesting to see the parser gives so many possibilities.
 
-# Start Your Own
+## Start Your Own
 What language do you use often in Visual Studio Code but currently lacks of a good extension with language server? Help them out and don't wait!

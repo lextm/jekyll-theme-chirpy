@@ -20,7 +20,7 @@ Here I show a few common mistakes that many make, and hope by reading such you c
 >
 > Do read all related articles published by Microsoft and test the sample rules on your machine to get familiar with the different parts of this module, like basic rule structure, conditions, rewrite maps, and outbound rules. Later when you start to author your own rules, such knowledge will guide you on the right track.
 
-# Mistake 1: Wrong Value Set to `url` Attribute of `<match>` Tag
+## Mistake 1: Wrong Value Set to `url` Attribute of `<match>` Tag
 
 Someone can easily rush to his/her feet to write a rewrite rule as below,
 
@@ -59,7 +59,7 @@ It won't work at all, and the reason is that when a request on `http://some.site
 >
 > Also note that the URL in `<match>` tag does not have `/` at the beginning. If you put `/` there, then IIS won't be able to match the page.
 
-# Mistake 2: Use Rewrite When Actually Redirect Is Needed
+## Mistake 2: Use Rewrite When Actually Redirect Is Needed
 
 Often you want to do HTTP to HTTPS redirection and find a rule from the internet. However, instead of copying it you would like to modify it a bit,
 
@@ -83,7 +83,7 @@ Why doesn't it work? Because HTTP and HTTPS use different TCP ports, and if not 
 >
 > Do use `Redirect` as action type, and that asks the browser to connect to your HTTPS link.
 
-# Mistake 3: Write Proxy Rules Without ARR Proxy
+## Mistake 3: Write Proxy Rules Without ARR Proxy
 
 Microsoft decided to split most of the reverse proxy feature into another module called [Application Request Routing](https://docs.microsoft.com/iis/extensions/url-rewrite-module/reverse-proxy-with-url-rewrite-v2-and-application-request-routing), so many times when you design a certain type of rules you need to install ARR and enable proxy mode.
 
@@ -102,7 +102,7 @@ If you don't enable ARR proxy mode in such cases, IIS should respond with 404 er
 
 Stay tuned, as more common mistakes will be added soon.
 
-# Side Notes
+## Side Notes
 
 Microsoft should make `redirectType="Found"` the default value for rewrite actions, because such 302 redirection is not cached by browsers. You should manually add this to your `<action>` tags during rule development, so that you don't have to manually clear browser caches or resort to the private browsing mode.
 

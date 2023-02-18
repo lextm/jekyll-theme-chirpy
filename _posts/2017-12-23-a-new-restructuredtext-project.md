@@ -15,7 +15,7 @@ Well, digging into the long extension list seems to show me the obvious answer, 
 
 OK, enough background. Here comes [the new GitHub repo](https://github.com/lextm/restructuredtext-antlr).
 
-# What does this project offer now?
+## What does this project offer now?
 * An ANTLR v4 based parser (MIT license).
 * A C# based .NET Standard 1.3 library (MIT license).
 * A Language Server for reStructuredText and sphinx (Apache license).
@@ -23,7 +23,7 @@ OK, enough background. Here comes [the new GitHub repo](https://github.com/lextm
 * (future) A better previewer.
 * (future) DocFX integration.
 
-# Why do you choose C# and ANTLR?
+## Why do you choose C# and ANTLR?
 * I am familiar with C#, but not Python (reStructuredText and sphinx are written in Python) or TypeScript/JavaScript.
 * C# is now open source and cross platform, just like Python and TypeScript/JavaScript.
 * I know a little bit ANTLR, but not other frameworks.

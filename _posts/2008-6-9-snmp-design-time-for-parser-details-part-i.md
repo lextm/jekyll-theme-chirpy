@@ -10,7 +10,7 @@ This morning I changed to version number of #SNMP to 0.9 after checking in lates
 So what would be contained in these posts? I'd like to share some implementation details interesting with you.
 <!--more-->
 
-# Why it is an experimental parser and what it can do?
+## Why it is an experimental parser and what it can do?
 
 This must be answered at first to clear the clouds. I am working on a MIB parser because right now there is no need to dig as deep as possible. You can look at ObjectTree.cs and see that only a few entities inside the MIB module are used to construct the tree. Therefore, in the first stage of the parser, I am only curious about how to parse out those entities.
 

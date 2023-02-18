@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 It is August, and my last post on DockPanel Suite was in December. So I have to admit that too little has happened there, but if you do monitor this project, you should notice significant changes.
 <!--more-->
 
-# New Releases (2.10 RTM/2.11 Alpha)
+## New Releases (2.10 RTM/2.11 Alpha)
 
 On July 6 2016 we finally shipped [2.10 release](https://www.nuget.org/packages/DockPanelSuite/).
 
@@ -24,7 +24,7 @@ We also resolved a few outstanding issues (memory, flickers for example). As a r
 
 Starting from July, two Alpha builds of 2.11 release have been published. They feature a new mechanism called "patch controller". We are now shipping a selection of unstable patches (enabled by default), and also providing users a few switches to disable them if needed. This allows more testing to be performed on those patches for us to collect feedback. If you like to stay on the bleeding edge, try them out and send us issue reports [at GitHub](https://github.com/dockpanelsuite/dockpanelsuite/issues).
 
-# Documentation
+## Documentation
 
 [One new article](http://docs.dockpanelsuite.com/themes/basics.html) has been added recently to reveal the basic building blocks of themes.
 

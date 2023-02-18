@@ -17,7 +17,7 @@ https://github.com/lextm/touchmousemate/blob/master/setup/x64/setup.iss
 https://github.com/lextm/touchmousemate/blob/master/setup/x86/setup.iss
 
 <!--more-->
-# 32 Bit/64 Bit Installers
+## 32 Bit/64 Bit Installers
 
 There are two approaches if your product is going to be installed on both 32 bit and 64 bit Windows. You can write a single installer to support both, or write two installers (one for 32 bit and the other for 64 bit).
 
@@ -29,11 +29,11 @@ The following rules are set (avoid possible confusion),
 * Dependencies (such as Visual C++ runtime and .NET Framework) are packed.
 * Platform dependent library files are put in different folders (x64 or x86).
 
-# Version Comparison
+## Version Comparison
 
 The version comparison code has been updated slightly in the two installer scripts.
 
-# psvince.dll 64 Bit
+## psvince.dll 64 Bit
 
 I am not a Visual C++ expert, and I don't want to waste my time compiling 64 bit psvince.dll from source code. Therefore, I wrote a processviewer.exe command line utility in Delphi (Turbo Delphi 2006) to provide the same functionality.
 

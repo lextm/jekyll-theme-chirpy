@@ -11,7 +11,7 @@ image:
 
 WinUI was developed as part of UWP and has been the foundation of many Windows 10 apps. [Uno Platform](https://platform.uno/docs/articles/intro.html) implements the same API surface on non-Windows platforms, so some applications can be migrated to iOS/Android/macOS (and even the Web via WebAssembly). But how difficult can such a migration be? In this series of posts, I will try to cover the story to migrate Files UWP, a medium size open source file explorer, to macOS.
 <!--more-->
-# What is Files UWP?
+## What is Files UWP?
 
 It is interesting that Microsoft keeps the classic Windows Explorer on Windows 10, instead of rewriting it in UWP. But a group of developers do make a UWP version file explorer, as below, and publish it as an open source project on GitHub.
 
@@ -22,7 +22,7 @@ By checking its code base, we can see typical usage of XAML/MVVM, as well as fil
 
 We will follow [the Uno migration guide](https://platform.uno/docs/articles/migrating-apps.html) to see what to do next.
 
-# Organizing the Code
+## Organizing the Code
 
 The guide is pretty short and not in the step by step fashion. So I have to guess sometimes what exactly I am supposed to do.
 
@@ -35,7 +35,7 @@ Theses are the steps I did to get the initial working directory on my machine,
 
 So finally a new folder called Files_Uno is added to [the repo](https://github.com/lextm/files-uwp/tree/uno), and it contains many projects for different platforms.
 
-# Migrating the Code
+## Migrating the Code
 
 I copied the files from original Files folder to `Files_Uno | Files_Uno.Shared` and `Files_Uno | Files_Uno.UWP`. Then compile and run the UWP project to confirm that everything continues to work.
 
@@ -45,7 +45,7 @@ Then it is time to switch to the macOS project and try to compile it, and there 
 
 Don't worry. We can conquer them one by one and learn from that.
 
-# Typical Errors
+## Typical Errors
 
 Namespace related errors are quite common.
 

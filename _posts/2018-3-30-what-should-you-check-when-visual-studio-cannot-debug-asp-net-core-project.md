@@ -16,7 +16,7 @@ I [documented a few typical Visual Studio and IIS Express related issues](/jexus
 I [wrote about ASP.NET Core and Visual Studio once](/how-visual-studio-launches-iis-express-to-debug-asp-net-core-apps-d7fd3677e3c3). However, I didn't reveal enough on all the issues you might hit. So this post would serve the missing pieces.
 <!--more-->
 
-# Unable to connect to web server IIS Express
+## Unable to connect to web server IIS Express
 
 OK, let's get started from an error message,
 
@@ -43,7 +43,7 @@ Wait a minute, and it does say 'IIS Express', a very special term that might be 
 
 Of course, `applicationHost.config` is not yet useful here, as we know the lines come from the comments. `launchSettings.json` is the only thing we should move on to.
 
-# The Magic of `launchSettings.json`
+## The Magic of `launchSettings.json`
 
 When I wrote about `VSIISExeLauncher.exe`, I had no idea how `launchSettings.json` works. [It turns out to be very important a piece of magic](https://docs.microsoft.com/aspnet/core/fundamentals/environments).
 
@@ -107,7 +107,7 @@ Got it? The site mapping to this project in fact has no binding that would accep
 
 > Note that Visual Studio 2017 15.7 (Preview 2.0) is smart enough to fix broken `applicationhost.config` every time I change `launchSettings.json`. So Microsoft finally decides to take actions on the right track.
 
-# HTTPS Scenario
+## HTTPS Scenario
 
 OK. Now let's change `launchSettings.json` to work on HTTPS,
 
@@ -171,7 +171,7 @@ _Figure 3: App Url error dialog._
 
 Note that how horrible is the error message itself, with typo and not enough information for readers to know what exactly is missing.
 
-# Side Notes
+## Side Notes
 
 I might add more contents in the future, as now I am enhancing Jexus Manager Visual Studio Project Diagnostics tool to [support ASP.NET Core projects](https://docs.jexusmanager.com/tutorials/vs-diagnostics.html).
 

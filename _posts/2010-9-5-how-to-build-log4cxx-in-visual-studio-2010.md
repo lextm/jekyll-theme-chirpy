@@ -12,7 +12,7 @@ http://old.nabble.com/Unable-to-build-with-VS2010-td28519743.html
 We are going to follow the steps here, http://logging.apache.org/log4cxx/building/vstudio.html. However, we must make changes to adapt to Visual Studio 2010.
 <!--more-->
 
-# Preparation
+## Preparation
 
 1. Download the log4cxx ZIP package from here, http://logging.apache.org/log4cxx/download.html, and extract its content.
 1. Download apr and apr-util ZIP packages from here, http://apr.apache.org/download.cgi.
@@ -38,7 +38,7 @@ configure-aprutil                   -> see below*
 
 The changes mean that we won't use APR ICONV and LDAP support.
 
-# Building log4cxx.dll
+## Building log4cxx.dll
 
 Now we have to convert *.dsw to *.cxproj. In order to make it smooth, you may launch Visual Studio 2010 and open log4cxx.dsw.
 

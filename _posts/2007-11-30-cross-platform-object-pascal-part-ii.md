@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 In this part, I am going to do comparison between Delphi and Chrome. I try to illustrate why Delphi goes this way and Chrome approaches another. Correct me if anything is wrong.
 <!--more-->
 
-# The IDE
+## The IDE
 
 Chrome package consists of a runtime plus a Visual Studio plug in. The runtime ensures you can build and run Chrome applications without any IDE which is also named the command line version of Chrome.
 
@@ -32,7 +32,7 @@ After about 3 years, everything changes. Now, Eclipse based IDE is so popular (C
 
 RO announces that it will add support to MonoDevelop. Let's wait and see what will happen.
 
-# The Language
+## The Language
 
 I do not want to start a language war.
 
@@ -44,6 +44,6 @@ Both languages are evolving. RO and Borland/CodeGear did add a few interesting e
 
 Chrome does not support Win32, and Delphi does not support .NET 2.0, 3.0, and 3.5 completely (e.g., no visual editor support for Windows Forms and WPF).
 
-# The Conclusion
+## The Conclusion
 
 You must make a choice if you want to learn Object Pascal today, but if you already use either of them, stick to it and keep an eye on the other.

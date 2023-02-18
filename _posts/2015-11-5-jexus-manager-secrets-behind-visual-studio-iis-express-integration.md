@@ -10,7 +10,7 @@ Visual Studio has shipped IIS Express for a few releases. Behind the scene, ther
 
 > Note that we will start from Visual Studio 2015.
 
-# Web Projects and Their IIS Express Configuration
+## Web Projects and Their IIS Express Configuration
 If a new Web project called "WebApplication1" is created in VS 2015 (MVC 5 for example), the IIS Express configuration is initialized under `(solution folder)\.vs\config\applicationHost.config`.
 
 > Note that the `.vs` folder is hidden.
@@ -79,7 +79,7 @@ And by clicking Yes the sync is made for you.
 
 > Please note that this post only covers localhost cases.
 
-# Use Machine Name
+## Use Machine Name
 Sometimes you might want to expose IIS Express externally, so that other machines in the same network can access the web server.
 
 Then in Visual Studio 2015, you will get an error message "Unable to create the virtual directory. Cannot create the web site "http://DESKTOP-3SV65QS:49510". You must specify "localhost" for the server name." when trying to modify the project setting.
@@ -107,7 +107,7 @@ netsh http add urlacl url=http://DESKTOP-3SV65QS:49510/ user=everyone
 
 I can then debug at `http://desktop-3SV65QS:49510`. Once you open TCP port 49510 at Windows Firewall, this site can be viewed from other machines.
 
-# HTTPS for Machine Name Case
+## HTTPS for Machine Name Case
 OK, let's see how HTTPS messes things up. Assume now the project file uses this setting and the config file contains,
 
 ``` xml
@@ -129,7 +129,7 @@ netsh http add urlacl url=https://DESKTOP-3SV65QS:44313/ user=everyone
 
 Of course, the self-signed certificate is not trusted, but it at least works.
 
-# Visual Studio 2013 and Below
+## Visual Studio 2013 and Below
 If unfortunately you are stuck and still use old releases such as Visual Studio 2013, then your web sites live in the global IIS Express configuration file (per user), which is at `(My Documents)\IISExpress\config\applicationHost.config`. Some of the tips discussed above would need modification in order to work for those scenarios.
 
 > To be continued with custom domain name settings.

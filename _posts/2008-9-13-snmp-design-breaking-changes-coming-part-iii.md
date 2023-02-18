@@ -25,18 +25,18 @@ As a reference at first, there are new methods and properties in `OctetString` c
 
 Now let's review a few common scenarios and discuss what you may do to customize `OctetString`'s behaviors.
 
-# Default ASCII Way
+## Default ASCII Way
 If you don't touch the properties and methods related to `Encoding`, then you are in a pure ASCII way. It should behave the same as old releases of #SNMP (0.5, 1.0 and 1.1).
 
-# Default Encoding.* Way
+## Default Encoding.* Way
 If you change `DefaultEncoding` to any other `Encoding` types, and don't touch the properties and methods related to `Encoding` later, you are in a pure `Encoding.*` way.
 
-# Basic Hybrid Way
+## Basic Hybrid Way
 If some of your devices require ASCII while others require Unicode (aka UTF-16), then you may find it a little bit difficult. My suggestions are,
 
 Whenever you need to construct an `OctetString` object, specify its encoding explicitly. Whenever you need to use an `OctetString` object, check its `Encoding` before calling `ToString()`. If the `Encoding` is not correct, call `ToString(Encoding)` explicitly.
 
-# Last Word
+## Last Word
 I understand the current implementation is not perfect yet. When #SNMP parses incoming packets, it always use `DefaultEncoding` to construct `OctetString` objects from raw bytes. This is not optimal for hybrid cases. Hope a better way can be found soon.
 
 No matter what, please report any critical issues or your suggestions in this field.

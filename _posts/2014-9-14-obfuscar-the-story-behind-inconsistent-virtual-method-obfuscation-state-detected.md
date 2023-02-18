@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 "Inconsistent virtual method obfuscation state detected" has been a well-known issue of Obfuscar for a while but users do not seem to fully understand the rationale behind it. This post is going to cover the technical details.
 <!--more-->
 
-# The Scenario
+## The Scenario
 
 Assume that we have the following elements defined in a C# project,
 
@@ -39,7 +39,7 @@ following methods,
 
 So, how to understand the cause? `MainInterface` is going to be obfuscated, as it is internal. That obfuscation also applies to `MainInterface.Test`. That's why a `WillRename` action is set for it. However, `MainClass` is a public class, and its public `Test` method should not be obfuscated in this case. A `Skipped` action is marked. Obfuscar decides to break at this stage, because it cannot fulfill the two actions due to the relationship between the functions.
 
-# The Thoughts
+## The Thoughts
 
 Do you know that before that Obfuscar silently changes actions of `Rename` to `Skipped`? Do you want to see the things you want to hide revealed unexpectedly? I personally go against silent operations.
 

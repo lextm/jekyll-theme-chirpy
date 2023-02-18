@@ -13,7 +13,7 @@ So in my case, I had to write a reStructuredText parser on my own (as I met diff
 Aha, the next step clearly is to ship the LSP component, but I hit a challenge.
 <!--more-->
 
-# Runtime Dependencies
+## Runtime Dependencies
 The language server is written as .NET Core 2.0 console app, so it can be distributed as self-contained for each platforms,
 
 * darwin_x64 for macOS
@@ -32,7 +32,7 @@ Well, should I ship all the packages in the extension to all users? It would be 
 ![img-description](/images/language-server-packages-2.png)
 _Figure 2: Language Server packages after IL Linker._
 
-# Dear OmniSharp
+## Dear OmniSharp
 There were so many times that I installed the C# extension and noticed it tried to download OmniSharp and .NET Core debugger from the internet, so no doubt I should do the same!
 
 First, I zip all the folders separately and upload them to [a GitHub page](https://github.com/lextm/restructuredtext-antlr/releases/tag/v0.9).
@@ -93,7 +93,7 @@ So once the dependency is downloaded and installed, the extension can launch the
 
 For complete usage of the above code, please analyze the reStructuredText extension code base, as there are quite a few tricks you need to follow.
 
-# What For New Package Drop?
+## What For New Package Drop?
 What should happen if I need to update the ZIP packages so a new release of the Language Server could be there?
 
 The answer is quite simple. Just bump the version of the extension, and publish it. Visual Studio Code would remove the old folder (including `./rst` folder inside) during the update process. So when the new extension is loaded, all dependencies would be downloaded again, which makes sure end users receive your new language server.

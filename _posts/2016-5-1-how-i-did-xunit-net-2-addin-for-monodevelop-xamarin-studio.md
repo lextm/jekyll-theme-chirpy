@@ -20,24 +20,24 @@ If you review the code changes, you can see what I have done,
 
 The most tricky parts are as below.
 
-# MonoDevelop on Ubuntu
+## MonoDevelop on Ubuntu
 I might be wrong, but only when I run the project in MonoDevelop on Linux (Ubuntu), I can easily debug the addin by simply starting the debugger. That one click debugging experience does not work on Windows and OS X. I am not sure whether that's by design, but it really hurts beginners like me, although I do have Windows/OS X/Ubuntu. If a guy only has Windows or OS X and would like to contribute, he/she would be frustrated.
 
 (Updated: It is now possible to run Xamarin Studio 6 on Windows to debug the addin, which is cool.)
 
-# MonoDevelop.Addins Incompatibility
+## MonoDevelop.Addins Incompatibility
 
 I am not sure why, but for this addin I have to stick with MonoDevelop.Addins 0.2.3. Once upgraded to the latest, the code simply won't compile any more due to .NET compatibility issue (the compiler asks for System.Runtime assembly).
 
 (Updated: I found a way to hack the csproj file to target .NET 4.5 profile and then this error message is gone and I can use latest MonoDevelop.Addins package.)
 
-# xUnit.net Dll Hell
+## xUnit.net Dll Hell
 
 To support multiple platforms, xUnit.net NuGet package "xunit.runner.utility" has far too many assemblies shipped, and they change in different beta and RC builds. And it is not surprising that when a specific version is used, some code in the addin would break. So I have to revise the integration code multiple times.
 
 (Updated: I decided to stick to the net35 version.)
 
-# MonoDevelop Community Repository Issues
+## MonoDevelop Community Repository Issues
 
 Finally I got the addin working locally, and attempted to publish it to [the MonoDevelop Community Repository](https://addins.monodevelop.com/) there were further issues.
 
@@ -49,7 +49,7 @@ Then another issue came that the build server told me "xunit.runner.utility" NuG
 
 Now the addin is there and waiting for approval. Hope that wouldn't take too long.
 
-# Overall Experience
+## Overall Experience
 
 I think the current local debugging experience on Linux and using a build server to process the addin repository are cool ideas, but if I can simply zip up the bits and publish a package for a group of testers without going through the approval process would make a quicker feedback loop.
 

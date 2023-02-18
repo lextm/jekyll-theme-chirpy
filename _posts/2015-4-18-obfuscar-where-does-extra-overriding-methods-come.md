@@ -9,7 +9,7 @@ An issue has been reported to me one year ago, but I could not easily fix it as 
 Don't get me wrong. It is pretty easy to reproduce it, and then analyze the IL instruction with ILSpy. But even if the cause is identified, the difficulty is how to properly fix it. So let's review the technical details and see why this issue occurs first.
 <!--more-->
 
-# The Wrong Obfuscation Process
+## The Wrong Obfuscation Process
 
 When Obfuscar processes the assembly, it first identifies two method groups to be renamed,
 
@@ -22,13 +22,13 @@ Then when the second group is going to be renamed, Obfuscar checks the methods o
 
 In this way, overriding relationship is added to the code, which makes ClassB.get_PropB an overriding method of ClassA.get_PropA, as both of them are virtual and now both named as A. Note that such relationship is valid at MSIL level (as the IL instructions are valid), but since the relationship does not exist in original source code, it is still harmful as it can lead to unpredictable execution result.
 
-# The Puzzles
+## The Puzzles
 
 1. Could Mono.Cecil avoid the issue? No. Cecil is a MSIL parser, so it does not take good care of method relationship that seriously. The flexibility it provides can lead to any kind of evil if you make mistakes.
 
 1. Could .NET Framework avoid the issue? No. C# compiler emits MSIL instructions and then CLR executes them. If post processing of MSIL generates extra overriding relationship, CLR simply accepts that.
 
-# The Fix
+## The Fix
 
 You can see from CodePlex that Jirka7a proposed his patch on how to fix the bug. It might work (I did not test), but it does not look good. The naming algorithm should not be heavily modified, as that will affect all kinds of scenarios.
 

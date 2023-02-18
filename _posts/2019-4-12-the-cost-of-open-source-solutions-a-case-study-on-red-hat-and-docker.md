@@ -12,7 +12,7 @@ image:
 Open source movement changes how we produce software. Companies like Red Hat and Docker do make their source code publicly available, but using products from them is not free, and not even cheap. So if you do want to host an application on their platforms, learn how to calculate the cost is very important.
 <!--more-->
 
-# Red Hat
+## Red Hat
 
 In the past decades, Red Hat has established its hierarchy of products. Individuals might use Fedora or CentOS which come without significant technical support, but enterprises might use Red Hat Enterprise Linux (RHEL).
 
@@ -24,7 +24,7 @@ For developers who want to evaluate RHEL, Red Hat is generous enough to grant yo
 
 > I started to use this developer subscription in the past few days and finally learned many new things on RHEL.
 
-# Docker
+## Docker
 
 It is natural today to enable Docker on a Linux server. However, the cost of Docker engine is still a misery.
 
@@ -46,6 +46,6 @@ You might wonder why not Docker CE (Community Edition), but the fact is that Doc
 
 > Docker Community Edition (Docker CE) is not supported on Red Hat Enterprise Linux.
 
-# Conclusion
+## Conclusion
 
 Once we know the costs of RHEL and Docker EE, planning the budget should be easier.

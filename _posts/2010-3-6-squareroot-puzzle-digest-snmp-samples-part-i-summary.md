@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 Many samples are shipped in #SNMP Suite. But why they are that useful?
 <!--more-->
 
-# The Command Line Tools
+## The Command Line Tools
 
 The command line tools are small samples showing you only a few aspects of #SNMP Library. For example, snmpget tells how to send GET messages in all SNMP versions, and handle the response messages. snmpset, snmpbulkget, snmpgetnext and so on serves similarly.
 
@@ -20,7 +20,7 @@ Topics covered are,
 1. How to do WALK operation.
 1. How to monitor incoming TRAP/INFORM messages.
 
-# The Agent
+## The Agent
 
 If you know the daily work of a hardware engineer, you see how important a reference design is. If the vendor provides you a reference design about a chipset, you can simply modify a few parts and use the main part if your product. This saves you a lot of efforts.
 
@@ -36,7 +36,7 @@ Topics covered are,
 1. How to query objects.
 1. How to log operations.
 
-# The Compiler
+## The Compiler
 
 The Compiler sample mainly shows you how to compile MIB documents (*.mib or *.txt) to module files (*.module) that the Browser expects.
 
@@ -47,7 +47,7 @@ Topics covered are,
 1. How to compile MIB documents.
 1. How to report errors.
 
-# The Browser
+## The Browser
 
 At the very beginning, the Browser contains the Compiler. But after a while we split them, so now it only loads module files (*.module) and provides functions such as MIB tree navigation, trap monitor, basic SNMP operations.
 

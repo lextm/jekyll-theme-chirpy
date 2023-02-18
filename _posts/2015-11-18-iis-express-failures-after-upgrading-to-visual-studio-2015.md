@@ -12,7 +12,7 @@ VS2015 uses `<solution folder>\.vs\config\applicationHost.config` as IIS Express
 The changes break the following scenarios.
 <!--more-->
 
-# Settings Overridden in Web.Config Leads to 500.19 Errors
+## Settings Overridden in Web.Config Leads to 500.19 Errors
 
 Many settings such as MIME types are significantly changed in IIS 10 Express (.vs\config\applicationHost.config). So if you added your own MIME types in web.config in the past, and now you might hit 500.19 reporting that duplicate elements are detected.
 
@@ -20,6 +20,6 @@ Many settings such as MIME types are significantly changed in IIS 10 Express (.v
 
 This does not only apply to MIME types, but also other IIS settings if they vary from IIS 7/8 Express to IIS 10 Express.
 
-# Changes to Global Configuration File Does Not Take Effect
+## Changes to Global Configuration File Does Not Take Effect
 
 Of course, you will have to modify .vs\config\applicationHost.config from now on, unless you do want to enable the global configuration file via project file hack.

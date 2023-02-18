@@ -8,14 +8,14 @@ excerpt_separator: <!--more-->
 Open source developers of .NET platform should not care much about obfuscation of the assemblies, as they even have the source code publicly available. However, if an open source project begins the commercialization, an obfuscator is needed to encrypt the secrets of the code base. That's what this blog post is going to talk about.
 <!--more-->
 
-# What is Obfuscation?
+## What is Obfuscation?
 Simply speaking, after obfuscation the assembly becomes harder to understand. It won't stop anyone from decompiling it via ILSpy or any similar decompilers. It just makes the decompiled result strange enough. What about an example?
 
 Download JustDecompile from Telerik.com.
 Decompile itself to a project with source files.
 Now if you try to compile the project, you will see what I mean.
 
-# What You Should Not Expect From Obfuscation
+## What You Should Not Expect From Obfuscation
 You should not expect obfuscation to hide everything, as the openness of MSIL makes it even possible to reverse part of obfuscation, via an open source project,
 
 https://bitbucket.org/0xd4d/de4dot
@@ -28,7 +28,7 @@ I am fully aware of the limitation of obfuscation, but for #SNMP Pro editions I 
 
 https://code.google.com/p/obfuscar/
 
-# What I Did On Obfuscar
+## What I Did On Obfuscar
 As the original project was long dead (last commit was in 2010 Dec), I have to fork it. Luckily other guys already did this, including RemObjects who built a product called Oxfuscator,
 
 http://www.remobjects.com/oxfuscator.aspx

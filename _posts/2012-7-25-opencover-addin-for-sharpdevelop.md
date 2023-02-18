@@ -10,7 +10,7 @@ Last weekend I was bit of busy. This time I found it too boring to work with Par
 This post is going to document some history about SharpDevelop's unit test coverage tool integration. So if you are just interesting in the addin itself, please scroll to the bottom of this post and grab the code.
 <!--more-->
 
-# SharpDevelop with NCover
+## SharpDevelop with NCover
 
 SharpDevelop has been a test driven development IDE for years and personally I think this is one of its design goals. But its code coverage support just started in 2006 [1].
 
@@ -20,7 +20,7 @@ NCover continues to evolve though, and now it is almost the best option you have
 
 If you are an author of a similar tool, you will understand how much effort is required to develop a tool as large as NCover. At that time there was no Mono.Cecil nor Microsoft CCI nor Gendarme, which means NCover team have to write almost everything from scratch. So it is reasonable to commercialize this project and receive funding/sell licenses in order to speed up the development [13].
 
-# SharpDevelop with PartCover
+## SharpDevelop with PartCover
 
 PartCover was started in 2008 [6] by Dmitri Kashtanov [7]. Several developers have worked on it during the years, but it was never as mature as NCover. There were many issues reported but not fixed until recently, such as
 
@@ -29,7 +29,7 @@ PartCover was started in 2008 [6] by Dmitri Kashtanov [7]. Several developers ha
 
 Therefore, its last maintainer Shaun Wilde decided to abandon it and started OpenCover [9].
 
-# OpenCover's Pro's and Con's
+## OpenCover's Pro's and Con's
 
 OpenCover is a wonderful project in the following way,
 
@@ -46,7 +46,7 @@ However, its weakness is also obvious,
 1. It does not have any IDE integration (no VS addin nor SD addin). Can't imagine how to write C# programs with an IDE.
 1. Its output format is special.
 
-# SharpDevelop with OpenCover
+## SharpDevelop with OpenCover
 
 OK. Now it's my time. I think I am almost the best candidate for this piece of work, as
 
@@ -57,7 +57,7 @@ OK. Now it's my time. I think I am almost the best candidate for this piece of w
 
 So last weekend I forked SharpDevelop and started my hacking [12].
 
-# Information on Beta 1
+## Information on Beta 1
 
 The following are the steps you need to compile my work and enjoy the very first Beta of this addin,
 
@@ -76,7 +76,7 @@ If you meet any issues with this Beta build addin, please leave the detail infor
 
 I will spend time fixing them before finalizing the 1.0 release.
 
-# References
+## References
 
 [1] http://community.sharpdevelop.net/blogs/mattward/archive/2006/01/31/CodeCoverageWithNCover.aspx
 

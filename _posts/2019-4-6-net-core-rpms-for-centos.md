@@ -12,7 +12,7 @@ image:
 It is very important to learn what to install on a CentOS if you want to deploy a .NET Core application or set up a development environment there. So here we quickly go over the necessary details.
 <!--more-->
 
-# RPM Packages
+## RPM Packages
 
 The actual package we might install is,
 
@@ -25,7 +25,7 @@ From the diagram below we can see the dependency relationship among the RPM pack
 ![img-description](/images/2.2-rpms-centos7.png)
 _Figure 1: .NET Core 2.2 RPM packages for CentOS 7._
 
-# Native Dependencies
+## Native Dependencies
 
 For CentOS 7, we can see three native dependencies (not part of .NET Core) are needed,
 
@@ -35,7 +35,7 @@ For CentOS 7, we can see three native dependencies (not part of .NET Core) are n
 
 If they are missing from the system, .NET Core apps or SDK won't function properly.
 
-# Self-Contained Deployment
+## Self-Contained Deployment
 
 So what do we need if an application is published in self-contained deployment mode?
 

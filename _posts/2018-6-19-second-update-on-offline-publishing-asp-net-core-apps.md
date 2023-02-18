@@ -14,7 +14,7 @@ I [posted about offline publishing ASP.NET Core web apps](/update-on-offline-pub
 
 Microsoft has [a very long article](https://docs.microsoft.com/aspnet/core/migration/20_21?view=aspnetcore-2.1) on the migration steps in general. But you might find I didn't follow all their steps.
 
-# Project File Changes
+## Project File Changes
 
 I only changed `TargetFramework` and `PackageReference` parts, so the project file looks like this,
 
@@ -31,7 +31,7 @@ I only changed `TargetFramework` and `PackageReference` parts, so the project fi
 
 It is quite simple to follow.
 
-# Publishing Command
+## Publishing Command
 
 This time `RuntimeFrameworkVersion` is no longer needed,
 
@@ -39,7 +39,7 @@ This time `RuntimeFrameworkVersion` is no longer needed,
     dotnet publish -r win-x64 --self-contained
 ```
 
-# NuGet Packages
+## NuGet Packages
 
 Of course, it asks for new version 2.1.0 of the following,
 

@@ -16,11 +16,11 @@ Signing your code is a very important step to confirm that you ship something th
 OK. Assume somehow you get a certificate (that can sign code), then how can you use it? I believe all certificate authorities have their documentation, but always they cannot cover all the details (otherwise, I won't bother writing this post). So let the story start.
 <!--more-->
 
-# Install The Certificate on Windows
+## Install The Certificate on Windows
 
 It is very important to find a secure machine and install the certificate. You should install it as private key not exportable, and only to your personal store. Then only you can use the certificate to sign code.
 
-# What to Sign
+## What to Sign
 
 Many files can be signed, and in my case I only choose two types,
 
@@ -29,7 +29,7 @@ Many files can be signed, and in my case I only choose two types,
 
 > If you need to sign other file types, please refer to the relevant documentation on those types.
 
-# How to Verify Digital Signature
+## How to Verify Digital Signature
 
 To sign the code, I use signtool of Windows SDK, and nuget command line, and both of them allow you to verify signatures.
 
@@ -40,7 +40,7 @@ To sign the code, I use signtool of Windows SDK, and nuget command line, and bot
 
 Always verify all files that you are interested in, and then we move on to actually sign the files.
 
-# How to Sign The Files
+## How to Sign The Files
 
 Signing NuGet packages are easy, so I tell it first,
 
@@ -58,7 +58,7 @@ However, this does not cover all the possible cases.
 
 > Please understand code signing here is completely different from strong naming your assemblies.
 
-# Special Case for .NET SDK Projects
+## Special Case for .NET SDK Projects
 
 However, some situation can be rather complicated. That is, how can I sign the assemblies of a .NET Standard project (multi targeting) when it generates a NuGet package directly.
 
@@ -66,7 +66,7 @@ Obviously you need some special steps to sign the assemblies, before they are pa
 
 I decided to use Post Build events, which turned out to be the right way.
 
-# Example
+## Example
 
 I listed the steps in [the batch files](https://github.com/lextudio/sharpsnmplib/blob/10.0.10/dist.nuget.bat) for #SNMP Library. So the next release of #SNMP Library will be fully signed.
 

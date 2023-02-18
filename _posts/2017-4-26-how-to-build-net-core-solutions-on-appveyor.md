@@ -9,14 +9,14 @@ excerpt_separator: <!--more-->
 I have recently upgraded #SNMP Library to .NET Core. And to the extreme, I get rid of the classic class library projects, and use a single .NET Standard 1.3 class library instead. Then it becomes a challenge to build the code base on AppVeyor, so I think it is worth the while to document what I have changed.
 <!--more-->
 
-# The Whole Manifest
+## The Whole Manifest
 The whole manifest can be found here,
 https://github.com/lextudio/sharpsnmplib/blob/8e1d5b7e99a9d91c20d0dccc2d339afeacd809a3/appveyor.yml
 
-# The Image
+## The Image
 It is very important to use Visual Studio 2017 image. It has all the development dependencies installed (Xamarin, .NET Core SDK, as well as Git and NuGet bits).
 
-# Build Script
+## Build Script
 You cannot use the default MSBuild tasks from AppVeyor, so I suggest you use a custom script like I do.
 
 If your solution only contains .NET Core projects or .NET Framework projects, you can now even use dotnet command to perform the operations,
@@ -41,7 +41,7 @@ msbuild /t:Clean somesolution.sln
 msbuild somesolution.sln
 ```
 
-# Test Script
+## Test Script
 The default AppVeyor unit test runner configuration does not yet support .NET Core runners. Thus, again we have to use a custom script right now.
 
 I simply use `dotnet test` as it is the easiest.

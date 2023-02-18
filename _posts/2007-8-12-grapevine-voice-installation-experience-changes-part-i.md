@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 I'd like to review some historical phases at first, (details can be found in docs/Readme.pdf)
 <!--more-->
 
-# Without An Installer
+## Without An Installer
 
 The first version of Code Beautifier Collection (named under JCFExpert) was released a long time ago. It was not included in an installer so manually installation is required.
 
@@ -16,13 +16,13 @@ It must be tough for users at that moment. They had to build the assemblies at f
 
 So if you have chance to review that package, you will see JCFExpert bundles SharpBuilderTools 3.1. SBT, which is much larger than JCFExpert, is included only to install JCFExpert.
 
-# Simple Installer
+## Simple Installer
 
 2005–10–30 when I "Announce CBC 2.2 RC 1", I wrote a very simple installer myself to install CBC, so SharpBuilderTools Expert Manager was no longer bundled.
 
 In fact what I wrote was something similar to an Expert Manager which is far from an installer. However, I had successfully reduced the package size.
 
-# Inno Setup Installers
+## Inno Setup Installers
 
 On 2005–12–16 I started to write an installer with Inno Setup while I was learning it bit by bit. Yes, it is an amazing technology that changed CBC user experience a lot then. I could imagine why download counts increased after I shipped CBC as an installer.
 

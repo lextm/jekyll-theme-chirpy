@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 I blogged a few days ago on DockPanel Suite recent changes, but well excitingly there is much more to share this time.
 <!--more-->
 
-# New Features
+## New Features
 
 Remember that I mentioned the "new theme design"? It has been greatly upgraded in the past few days, with the following features I personally never thought I could have achieved,
 
@@ -20,7 +20,7 @@ Pressed images are now supported (only normal and hovered were supported).
 
 What do they mean? They mean that in just a few minutes you should be able now to create a new theme by using the greatest visual tool developed by Microsoft for Visual Studio, and then enable it in DockPanel Suite. I have updated [the new theme creation guide](http://docs.dockpanelsuite.com/themes/creating-new-theme.html) to reflect the changes and hope you like them immediately,
 
-# New Themes and 2.11 Beta 1
+## New Themes and 2.11 Beta 1
 
 The result of all such efforts is that now the following themes are shipped,
 
@@ -31,7 +31,7 @@ The result of all such efforts is that now the following themes are shipped,
 
 Totally you get 8 themes for the first time. You can now grab them [via NuGet](https://www.nuget.org/packages/DockPanelSuite/2.11.0-beta1). The upcoming Beta 2 will add VS2015 Blue/Dark/Light to the list.
 
-# Interesting Facts
+## Interesting Facts
 You might think that well we shipped VS2012 Light and VS2013 Blue themes already, so what's the big deal. Well, even they receive significant updates in many aspects,
 
 1. By using the .vstheme files from Microsoft, a few incorrect colors are now fixed.

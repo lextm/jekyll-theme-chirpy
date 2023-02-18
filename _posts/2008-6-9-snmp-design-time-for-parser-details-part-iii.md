@@ -5,7 +5,7 @@ tags: SNMP
 permalink: /snmp-design-time-for-parser-details-part-three-99e23346a7f8
 excerpt_separator: <!--more-->
 ---
-# How to parse so many file in order? And how can I add more files to ObjectRegistry?
+## How to parse so many file in order? And how can I add more files to ObjectRegistry?
 
 Even though right now the parser is still experimental, ObjectRegistry parses over sixty documents at startup. In this way you don't need to have basic documents at hand before using #SNMP. Hope this helps.
 <!--more-->

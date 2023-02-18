@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 I played with Stardock's Start8 since its initial release, but since Stardock would like to make some fortune from this useful tool and I did not plan to pay, I have been searching for a free alternative for a while. Today I think I have found the last piece, so here comes a blog post that covers my findings.
 <!--more-->
 
-# Classic Shell
+## Classic Shell
 
 http://classicshell.sourceforge.net
 
@@ -24,7 +24,7 @@ First please download and install this utility (Only Classic Start Menu componen
 
 Now you can click on the start button and check out how the start menu looks like.
 
-# Removing Metro Applications
+## Removing Metro Applications
 
 Right click on the start button and choose Exit menu item. It's time to go back to Metro and remove applications that might pull you out of the desktop. Below is a list of apps I removed,
 
@@ -37,7 +37,7 @@ Right click on the start button and choose Exit menu item. It's time to go back 
 
 Now let's go back to C:\Program Files\Classic Shell and double click ClassicStartMenu.exe. We are almost done.
 
-# Find a Windows 7 Start Button Icon
+## Find a Windows 7 Start Button Icon
 
 The last bit that bores me is that Classic Shell does not have a good enough icon for the start button. Luckily today I found one.
 

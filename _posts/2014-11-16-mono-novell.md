@@ -34,7 +34,7 @@ Novell 是一家神奇的技术公司[1]，它自行开发和收购了很多不�
 
 最后不得不提一下2014年九月的一段新闻。MicroFocus公司宣布收购Attachmate集团，并由此获得了Novell这个厂牌。有趣的是MicroFocus同样收购了Borland厂牌。这两个古老而著名的品牌最后以这种方式到了一起。
 
-# 参考
+## 参考
 
 [1] http://en.wikipedia.org/wiki/Novell
 

@@ -12,7 +12,7 @@ DockPanel Suite homepage is now at http://dockpanelsuite.com.
 
 Microsoft first introduced the docking panel layout in Visual Studio .NET (2002), and soon it became popular in application design. Many commercial .NET component vendors started to provide docking libraries initially, but there was no good free and open source alternative, until WeiFen Luo released DockPanel Suite (DPS for short) on SourceForge.net in 2006.
 
-# WeiFen Luo's Efforts and Early Years
+## WeiFen Luo's Efforts and Early Years
 
 Its 1.0 release was available on Feb 13, 2006, one day before the Valentine's day [1]. From the SVN repository we could no longer find the commits earlier than Mar 2, 2007. Therefore, we don't know exactly when WeiFen decided to implement this docking library and the day he started.
 
@@ -26,21 +26,21 @@ SharpDevelop [5], the open source C#/VB.NET IDE, has chosen DPS as its docking l
 
 On Aug 16, 2009, WeiFen wrote in a discussion thread, that he would like to move this project to CodePlex.com [8]. However, this move was never carried out. But in this thread WeiFen linked one of his important blog posts on DPS [9], which documented his ideas on why WPF based docking library is better. WeiFen's interest has been moved to WPF side product called WPF Docking [10].
 
-# Extended Maintenance by Steve Overton
+## Extended Maintenance by Steve Overton
 
 Steve Overton stepped up and started to maintain this library in 2010 [11]. He managed to release 2.4 on Oct 30, 2010 with a few patches [12]. For the first time, DPS is released with binaries/source code/release notes. This release has been downloaded over 8000 times. Soon release 2.5.0 (with RC1 flag) was available on Nov 25 the same year with more patches included [13]. This is the last stable release that can be found on SF.net with accumulated downloads of 61,000.
 
-# Sidenote on My Work
+## Sidenote on My Work
 
 I have been a DockPanel Suite user since 2007, where I used this great library in a commercial product. DPS is also used in my open source project #SNMP [14]. My main interest is how to use it on Mono and other operating systems. My attempt was initialized in May 2010 [15], and finalized in Feb 2012 [16].
 
 This patch, as well as many other patches of DPS, has not been reviewed or merged to the trunk, which makes it again difficult for users to make use of them.
 
-# Sidenote on New Implementation
+## Sidenote on New Implementation
 
 There is a new implementation published on CodePlex for DPS [17]. It claims that with the changes it resolves many DPS known issues. But whether its changes can be ported back to DPS is still under investigation.
 
-# New Hope and A Call to The Community
+## New Hope and A Call to The Community
 
 Frustrated DPS users started to discuss about the future of this project [18], and soon some agreed to create a fork on GitHub [19].
 
@@ -72,7 +72,7 @@ Note that if you already have a patch for the issue you meet, please follow "Gui
 
 You may also use SF.net tracker [23], but it is not recommended. Issues recorded on SF.net may be gradually fixed in this fork.
 
-# References
+## References
 
 [1] http://sourceforge.net/projects/dockpanelsuite/files/DockPanel%20Suite/1.0.0.0/
 

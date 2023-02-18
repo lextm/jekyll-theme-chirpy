@@ -12,7 +12,7 @@ image:
 I used to host documentation sites on Read The Docs, and [wrote about the details in previous posts](/dockpanel-suite-docs-site-restructuredtext-and-visual-studio-code-d9d5a6b37a0d). But finally it came to an end, as over the weekend I moved all such sites to my own Azure App Service. So this post shows the details behind.
 <!--more-->
 
-# Self Hosting Advantages vs. Disadvantages
+## Self Hosting Advantages vs. Disadvantages
 
 The advantages are clear,
 
@@ -27,7 +27,7 @@ The disadvantages are also obvious,
 * GitHub integration is lost.
 * Google Analytics integration is lost.
 
-# Fixing The Broken Parts
+## Fixing The Broken Parts
 
 Clearly I need to fix GitHub and Google Analytics integration, as they are the most critical parts.
 
@@ -43,7 +43,7 @@ Then I can easily call make html to generate all pages and deploy to Azure App S
 
 > Note that you should be able to also use Azure Storage Static Websites.
 
-# URL Rewriting
+## URL Rewriting
 
 Now you should notice the web site works, but old links not. That's because Read The Docs appends language specific parts such as en/latest to URLs.
 

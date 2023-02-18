@@ -21,11 +21,11 @@ In this way, I can finally make install for all users possible.
 
 Actually that's why I add two installer helpers.
 
-# Phase 1
+## Phase 1
 
 When you double click installer, in fact the installer only extract all files into Program Files folder. Then installforallusers.exe, a helper, is launched. You can then decide whether to install CBC for all users. If for all users, a registry entry is added to LocalMachine. Otherwise, the entry is added to CurrentUser.
 
-# Phase 2
+## Phase 2
 
 When Delphi is fired, CBC should be loaded if a registry entry is there. If CBC is already installed, nothing would happen. If not, CBC copies preferences files into user' local folder by calling another helper, installforcurrentuser.exe.
 
@@ -33,7 +33,7 @@ In order to prevent double copy, a new registry entry is added under CurrentUser
 
 Because it is hard to remove preferences files from local folders, I decide to leave them there.
 
-# Conclusion
+## Conclusion
 
 I have to say I made a lot of changes in the installer of M3. Thanks for Tom's reports I fixed most bugs. If you meet bugs during installation, please contact me immediately.
 

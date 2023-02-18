@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 Part IV: ANTLR Grammar Tricks for C#
 <!--more-->
 
-# Tip 1: Twin Files Approach
+## Tip 1: Twin Files Approach
 
 If you have followed the series, you know already that ANTLR syntax heavily relies on Java. So if you are writing a new grammar and want to use it on .NET, make sure you write the grammar first with Java rules. Then you can easily test the grammar elements in ANTLRWorks (debugging).
 
@@ -22,7 +22,7 @@ Comparing the above two files you can see a few obvious difference. For example,
 
 So gradually you can convert your Java targeting grammar file to a C# targeting one.
 
-# Tip 2: Exception Handling
+## Tip 2: Exception Handling
 
 Currently #SNMP throws all exceptions if it cannot handle, which is configured in Smi.g like this,
 
@@ -41,7 +41,7 @@ In this way any ANTLR parsing exceptions (derived from RecognitionException) wil
 
 Of course, there are other approaches which you can learn from the Java projects (Hibernate for example). Before learning them, make sure you already read related runtime API documentation.
 
-# Tip 3: Use Partial Class Smartly
+## Tip 3: Use Partial Class Smartly
 
 If you have reviewed Java targeting grammar files with actions, you can see a lot of Java code has to be embedded in the grammar file to enhance the generated parser class. In C#/.NET, partial class can be used to remedy this ugly issue.
 
@@ -51,7 +51,7 @@ The above source file contains a portion of SmiParser class. By using the partia
 
 Finally SmiParser class can be used in other projects to parse SMI/MIB files.
 
-# (Updated) Tip 4: Exception Handling Extra
+## (Updated) Tip 4: Exception Handling Extra
 
 ANTLR 3 has built-in support for token recovery which might generate error node and attach them to the final AST. Such recovered errors won't be caught even if we apply Tip 2.
 

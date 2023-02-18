@@ -23,11 +23,11 @@ About the second, a workaround was found in 2010 that if all known DockContent o
 From the bug report on GitHub you might find that how I attempted to locate the culprit.
 <!--more-->
 
-# Initial Attempt
+## Initial Attempt
 
 I documented the steps on how to reproduce the crash on Mono. I even got the complete call stack, but it was to hard to analyze and not very useful at that time (well, it is in fact useful, but the information is not obvious enough).
 
-# JArchitect's Patch
+## JArchitect's Patch
 
 Soon I remembered that JArchitect uses DPS on Mono (http://codebetter.com/patricksmacchia/2011/11/07/real-world-feedback-on-a-net-to-mono-migration/), so I wrote to Patrick for help. He kindly introduced JArchitect's Product Manager Issam Lahlali. The story went on unbelievably, as Issam shared with me their build of DPS, and suddenly I noticed they started from my fork of DPS on #SNMP.
 
@@ -35,7 +35,7 @@ https://github.com/dockpanelsuite/dockpanelsuite/issues/18
 
 JArchitect's patch worked as expected, but honestly speaking, they hacked on many Dispose methods and that seems not good to me. Therefore, I decided to pursue my investigation on the root cause.
 
-# Lighting Hit
+## Lighting Hit
 
 @jumpinjackie posted his patch last week which tries to avoid multiple calls to the same Dispose method. His changes are in the DockConentHandler.Dispose. That reminds me suddenly of how to identify the culprit. So today I finally found a simple way to get the obvious hint I wanted.
 

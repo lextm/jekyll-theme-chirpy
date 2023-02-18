@@ -8,12 +8,12 @@ excerpt_separator: <!--more-->
 For many .NET developers, mscorlib is something miserable as they never pay much attention to it. In fact, they should learn about it, especially when Visual Studio and MSBuild report an error about it.
 <!--more-->
 
-# What is mscorlib?
+## What is mscorlib?
 We might go to [Mono's source code](https://github.com/mono/mono/tree/master/mcs/class/corlib) to see what is mscorlib, as that's better than using a decompiler.
 
 OK. A glance can show you how many namespaces are included (please ignore `Mono.*` which are Mono specific). So when we write in C# `using System;` or `using System.IO;`, usually the consumed classes come from `mscorlib`, not `System.dll`. All .NET assemblies have `mscorlib.dll` as a reference, so it is part of the foundation of Base Class Library.
 
-# How It Is Referenced By Others Normally?
+## How It Is Referenced By Others Normally?
 If you create a new C# project in Visual Studio (such as Windows Console applications), you perhaps don't see a reference to mscorlib.dll. Why? Well, that's because of an MSBuild/CSC trick Microsoft implements.
 
 First, most csproj files do not have `<NoStdLib></NoStdLib>` defined under `<PropertyGroup>`. In this way MSBuild uses the default value of `false` in its execution. This finally translates to [a switch](http://msdn.microsoft.com/en-us/library/fa13yay7.aspx) of `csc.exe` called `/nostdlib-`.
@@ -24,7 +24,7 @@ Finally, `csc.exe` generates the assembly for your project, and the reference to
 
 The above knowledge can be easily gained by turning on [MSBuild logging](http://msdn.microsoft.com/en-us/library/vstudio/ms164311.aspx) via `/verbose` switch.
 
-# Specially Case
+## Specially Case
 Normally you never need to worry about the reference to `mscorlib.dll` if you read above. Now let's visit the most common exceptional cases where you should care about `mscorlib.dll`.
 
 Because of the fact that .NET targets multiple platforms, some project types requires a special `mscorlib.dll` to be added as reference. The very first example was .NET Compact Framework, where its `mscorlib.dll` contains a reduced set of classes. Then more platforms follow, such as Xamarin.iOS, Xamarin.Android, Windows RT, and Windows Phone.

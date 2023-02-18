@@ -14,13 +14,13 @@ Of course, ASP.NET guys are not the first to do so, as Mono guys have used a sim
 Thus, a few weeks ago when I was in a conference room in Microsoft Campus, Redmond, I thought I should try out such an approach for some projects. Yes, DockPanel Suite is a perfect option to experiment.
 <!--more-->
 
-# The GitHub Repo for Docs
+## The GitHub Repo for Docs
 
 It all starts from [a new Git repo](https://github.com/dockpanelsuite/dockpanelsuite_docs) at GitHub. If you check out the files, it looks just similar to Microsoft ASP.NET docs repo. Learning from Microsoft guys saves me tons of hours trying out the technologies.
 
 Primarily speaking, the paragraphs come from our original Wiki articles at GitHub, but well formatted in a syntax called reStructuredText (reST). This syntax is more powerful than Markdown, and has already been tested out by many other projects.
 
-# The Read the Docs Integration
+## The Read the Docs Integration
 
 It is pretty easy to sign up at Read the Docs, and configure a new doc project to point to the GitHub repo. Then every time a new commit arrives at GitHub, the pages are regenerated automatically and take effect in just a few minutes. So now DPS docs site is at https://dockpanelsuite.readthedocs.org/
 
@@ -28,7 +28,7 @@ Once Ryan is back from his vacation in South East Asia, we will try to change th
 
 I would not include all details and steps, but generally speaking [Read the Docs' own documentation](https://read-the-docs.readthedocs.org/en/latest/getting_started.html) can answer almost all questions I have.
 
-# reStructuredText in Visual Studio Code
+## reStructuredText in Visual Studio Code
 
 I am using Windows less and less, so when I worked on DPS docs, most of the time I was on OS X on my Macbook Pro. Visual Studio Code is really a light weighted editor with easy-to-use Git integration. It feels great except that it does not support reStructuredText natively (though Markdown works perfectly).
 

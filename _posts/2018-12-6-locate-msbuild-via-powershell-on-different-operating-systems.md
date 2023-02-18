@@ -12,14 +12,14 @@ image:
 Today, PowerShell is a cross platform scripting engine, while MSBuild is also a cross platform build engine. Then how can we use PowerShell to locate MSBuild and compile the source code? You might think it is easy, but it turns out to be bit of difficult.
 <!--more-->
 
-# MSBuild on macOS/Linux/Windows
+## MSBuild on macOS/Linux/Windows
 Rather interesting that MSBuild can be called directly once you install Mono, as the installation registers MSBuild in the system paths.
 
 However, it is much more difficult to do the same on Windows, as starting from Visual Studio 2017 MSBuild is no longer installed globally but as part of Visual Studio itself. You might use the command line tool `vswhere.exe` to locate VS installation folder, and then find MSBuild path. But in PowerShell it is recommended to use the `VSSetup` module.
 
 > Visual Studio 2019 Preview was just released by Microsoft and it changes the folder structure a little bit, so now the script looks a little lengthy.
 
-# The Actual Script
+## The Actual Script
 
 You can run the following script on macOS/Linux as well as Windows to locate MSBuild 15.0 or above.
 

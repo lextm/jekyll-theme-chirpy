@@ -13,7 +13,7 @@ When Microsoft developed HttpPlatformHandler more than a decade ago to enable no
 Thus, HttpPlatformHandler still plays an important role in the ecosystem and won't go away easily. However, the landscape keeps evolving so this post tries to capture some latest changes on Nuxt 3 and show you how to proper set up everything needed and more critically how to troubleshoot if issues occur.
 <!--more-->
 
-# Sample Project Preparation
+## Sample Project Preparation
 
 Compared to Nuxt 2.x releases, 3.0 introduced brand new steps so you must stick to [the official guide](https://nuxt.com/docs/getting-started/installation#new-project) closely,
 
@@ -26,7 +26,7 @@ npm run build
 
 > Note that I chose `npx` and `npm` steps, while you can use `pnpm` or `yarn`.
 
-# Add IIS Configuration
+## Add IIS Configuration
 
 Simply create a `web.config` file at the root,
 

@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 You probably read my first post on how to migrate from .NET Framework to .NET Core RC1. Now it is time to update the code base to RC2. [The actual commits](https://github.com/lextudio/sharpsnmplib/commits/netcore5) were made two weeks ago. So this post will cover the necessary details.
 <!--more-->
 
-# .NET Core RC2 ABC
+## .NET Core RC2 ABC
 The tooling started with `k` and `kvm` (a reminder of JVM, as K is the adjacent letter), and then became `dnx` and `dnvm` in RC1. With more confusion, RC2 introduced the new `dotnet` command to replace them all. You are warned that this is not yet the end. The tooling is still called Preview 1, which means we should expect more changes in the next few months.
 
 Luckily the core libraries are already quite stable, so I just need to modify the project.json file to match [the latest specifications](https://github.com/lextudio/sharpsnmplib/commit/36017c8112ab3665303fcb20b66c27b2032c9257).
@@ -17,7 +17,7 @@ The `dotnet5.4` to `netstandard1.3` change has been known for months, and finall
 
 So make sure you use it smartly.
 
-# Conditional Defines
+## Conditional Defines
 
 As I decided to keep .NET Framework 4.5 around, [conditional compilation is required](https://github.com/lextudio/sharpsnmplib/commit/dd7bf11af1a959ffb5576e7fb432b11a8d3d60a3).
 
@@ -25,7 +25,7 @@ I dug further in the above commit, and learned how to use `define` under `buildO
 
 However, there are still missing pieces to fill which I will leave for the future.
 
-# Conclusion
+## Conclusion
 
 The official guide from Microsoft is a must-read,
 

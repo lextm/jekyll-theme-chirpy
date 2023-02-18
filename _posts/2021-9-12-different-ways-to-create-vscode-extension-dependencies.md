@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 If you are developing your own VSCode extensions, you might find a need to specify dependencies on other extensions. There are more than one way to manage such relationship, so this post is going to discuss the pros and cons of each approaches, so that you can easily choose the right one for your case.
 <!--more-->
 
-# Extension Dependencies in Configuration
+## Extension Dependencies in Configuration
 
 In `project.json` you can easily specify what extensions are prerequisites of your extension using the `extensionDependencies` setting (which is [documented here](https://code.visualstudio.com/api/references/extension-manifest)).
 
@@ -24,7 +24,7 @@ This is probably the most likely option you are going to use, as it is very simp
 
 However, this builds up a very strong binding between your extension and the dependencies. So if some of the dependencies are recommended and optional, but not mandatory, you should avoid putting them here.
 
-# Recommendation in Code
+## Recommendation in Code
 
 In your extension's source code, it is very flexible to detect what extensions are already installed. Then you can prompt which extensions the user might install to get better experience.
 
@@ -52,7 +52,7 @@ This approach requires some TypeScript code in `function activate(context: vscod
 
 > Note that you can also use similar code block to detect conflicting extensions and prompt users to uninstall them.
 
-# Extension Pack
+## Extension Pack
 
 If you just want the users to install a bunch of extensions together, you might write your own extension packs, following [the documentation](https://code.visualstudio.com/api/references/extension-manifest#extension-packs). When an extension pack is being installed by VSCode, all extensions defined in this pack are being installed.
 

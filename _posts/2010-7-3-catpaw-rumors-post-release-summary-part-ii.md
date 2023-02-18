@@ -8,11 +8,11 @@ excerpt_separator: <!--more-->
 Our agent, snmpd.exe, supports all three SNMP versions. Then how to get data from it?
 <!--more-->
 
-# SNMP v1 and v2c
+## SNMP v1 and v2c
 
 The community strings for both GET and SET operations are the same, `public`.
 
-# SNMP v3
+## SNMP v3
 
 Community names are obsolete, so snmpd.exe supports three users (to match three modes).
 
@@ -22,7 +22,7 @@ Community names are obsolete, so snmpd.exe supports three users (to match three 
 
 Now let's see if you are going to test out snmpd.exe using our command line tools what commands should be used.
 
-# SNMPGET
+## SNMPGET
 
 For SNMP v1 and v2c, typical command is
 
@@ -32,7 +32,7 @@ For SNMP v3, typical command is
 
 snmpget -v=3 -l=authPriv -a=MD5 -A=authentication -x=DES -X=privacyphrase -u=privacy localhost 1.3.6.1.2.1.1.1.0
 
-# SNMPSET
+## SNMPSET
 
 For SNMP v1 and v2c, typical command is
 
@@ -42,7 +42,7 @@ For SNMP v3, typical command is
 
 snmpset -v=3 -l=authPriv -a=MD5 -A=authentication -x=DES -X=privacyphrase -u=privacy localhost 1.3.6.1.2.1.1.1.0 s Shanghai
 
-# SNMPBULKGET
+## SNMPBULKGET
 
 For SNMP v2c, typical command is
 
@@ -52,7 +52,7 @@ For SNMP v3, typical command is
 
 snmpbulkget -v=3 -l=authPriv -a=MD5 -A=authentication -x=DES -X=privacyphrase -u=privacy -Cr=10 localhost 1.3.6.1.2.1.1.1.0
 
-# SNMPGETNEXT
+## SNMPGETNEXT
 
 For SNMP v1 and v2c, typical command is
 
@@ -62,12 +62,12 @@ For SNMP v3, typical command is
 
 snmpgetnext -v=3 -l=authPriv -a=MD5 -A=authentication -x=DES -X=privacyphrase -u=privacy localhost 1.3.6.1.2.1.1.1.0
 
-# SNMPTRANSLATE
+## SNMPTRANSLATE
 Typical command is
 
 snmptranslate 1.3.6.1.2.1.1.1.0
 
-# SNMPWALK
+## SNMPWALK
 
 For SNMP v1, typical command is
 

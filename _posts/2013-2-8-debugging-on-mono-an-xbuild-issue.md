@@ -42,7 +42,7 @@ oj" (default target(s)):
 
 Therefore, I need to resolve this problem first.
 
-# MonoDevelop Debugging - Failed
+## MonoDevelop Debugging - Failed
 To begin with, I tried to use MonoDevelop to debug xbuild. Miguel did post about the details a long time ago. However, even if I got the steps right for MonoDevelop 3.0.6, I found that Mono's attaching method is no longer supported by Microsoft on Windows 8 (I did not test on other Windows versions yet),
 
 ```
@@ -55,7 +55,7 @@ at Mono.Debugging.Client.DebuggerSession.<>c__DisplayClassc.b__a()
 ```
 So I have to find another way :(
 
-# Mono Tracing
+## Mono Tracing
 I dumped the xbuild error details to a log file with the following command so that I can see what is the culprit,
 
 ```

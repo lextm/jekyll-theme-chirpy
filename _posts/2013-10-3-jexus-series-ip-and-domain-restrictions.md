@@ -14,7 +14,7 @@ To configure IIS IP and Domain Restrictions, you need to follow [this article](h
 
 It is very easy to translate the steps to Jexus.
 
-# Scenario 1
+## Scenario 1
 
 When we specify `<ipSecurity allowUnlisted="true" />` on IIS and add deny entries
 
@@ -33,7 +33,7 @@ denyfrom=192.168.100.1,169.254.0.0/16
 > 1. 169.254.0.0/16 (with prefix size)
 > 1. 169.254.*.* (with wildcard)
 
-# Scenario 2
+## Scenario 2
 
 When we specify `<ipSecurity allowUnlisted="false" />` on IIS and add allow entries
 
@@ -46,7 +46,7 @@ Then in Jexus configuration we should use
 allowfrom=192.168.100.1,169.254.0.0/16
 ```
 
-# Scenario 3
+## Scenario 3
 
 If in Jexus settings we have
 

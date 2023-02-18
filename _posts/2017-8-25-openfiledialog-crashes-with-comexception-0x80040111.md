@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 I have been updating Jexus Manager quite frequently as more and more useful crash reports were sent to me by Rollbar. And today a strange issue caught my attention.
 <!--more-->
 
-# Exception Details
+## Exception Details
 ```
 Traceback (most recent call last):
 at System.Windows.Forms.SaveFileDialog.CreateVistaDialog() in "System.Windows.Forms.SaveFileDialog" line 0
@@ -29,10 +29,10 @@ Google does return many search results, but only a Stack Overflow thread provide
 
 So I personally found two workarounds, and used them both in Jexus Manager to handle different scenarios. The related commit is [here](https://github.com/jexuswebserver/JexusManager/commit/a6eb456bb495c207996341584d8895007b1e4cb2)
 
-# Workaround 1: Set `FileDialog.AutoUpgradeEnabled` to `false`
+## Workaround 1: Set `FileDialog.AutoUpgradeEnabled` to `false`
 
 Microsoft has [an ugly property defined](https://msdn.microsoft.com/en-us/library/system.windows.forms.filedialog.autoupgradeenabled%28v=vs.110%29.aspx), and I can only use this to let the ancient dialogs pop up. Anyway it should work (as many users reported success).
 
-# Workaround 2: Fallback from `Ookii.Dialogs.VistaFolderBrowserDialog` to `FolderBrowserDialog`
+## Workaround 2: Fallback from `Ookii.Dialogs.VistaFolderBrowserDialog` to `FolderBrowserDialog`
 
 I have been using `Ookii.Dialogs.VistaFolderBrowserDialog` to show the Vista style folder browse dialog. However, the developer of Ookii.Dialogs failed to handle the `COMException` either. Thus, I have to manually create a traditional `FolderBrowserDialog` if the exception occurs.

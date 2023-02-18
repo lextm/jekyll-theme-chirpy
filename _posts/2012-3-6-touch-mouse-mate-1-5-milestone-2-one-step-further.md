@@ -10,7 +10,7 @@ Hi guys,
 Today you can download TMM installers from its homepage finally, http://touchmousemate.codeplex.com. That's the most important news except that we hit the second milestone of 1.5 release.
 <!--more-->
 
-# Milestone 1
+## Milestone 1
 
 Revision fe36f62585 was our first milestone in 1.5 phase, https://github.com/lextm/touchmousemate/commit/fe36f62585758196956b1cbd43bf194b435c3884.
 
@@ -20,7 +20,7 @@ However, an obvious result is that this new engine leads to conflicts with Micro
 
 In the following revisions, I was trying to introduce movement detection to this new engine, and hope that can resolve the conflicts. However, it is really difficult to determine whether a finger is clicked at the same spot or it has moved. Within 50 time units (minClickTimeout), the observed total movement does not have an easy-to-tell relationship with simple clicks or scrolls. I tried to choose a threshold for total movement (moveThreshold), but no matter which value is chosen, TMM either wrongly recognizes simple clicks when I want to scroll, or vice versa.
 
-# Milestone 2
+## Milestone 2
 
 Revision 636a81a82 is our second milestone in 1.5 phase, https://github.com/lextm/touchmousemate/commit/636a81a8255591042abbd90bc84f79648ce7d6e5
 

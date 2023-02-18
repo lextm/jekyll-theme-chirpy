@@ -16,19 +16,19 @@ And [my last blog post on ANTLR](/how-to-use-antlr-4-on-net-4361915b670f) was in
 But today it is time to provide some more information after three years.
 <!--more-->
 
-# .NET Standard Support
+## .NET Standard Support
 
 ANTLR v4 has evolved a lot. It is now .NET Standard 1.3 compliant, and also has some experimental IKVM support (so that you might avoid installing Java runtime to compile the grammar). However, IKVM is no more maintained, so it is still recommended that you stick to Java runtime.
 
 In the meantime, if you use ANTLR v4 in the latest MSBuild 15 projects, [the project file](https://github.com/lextm/restructuredtext-antlr/blob/master/ReStructuredText/ReStructuredText.csproj) can be very clean.
 
-# Listener and Visitor
+## Listener and Visitor
 
 Last post I could not show an example on how to properly utilize ANTLR v4's new generated listener and visitor. This time finally I have [an open source project](https://github.com/lextm/restructuredtext-antlr/blob/master/ReStructuredText/restructuredtextParser.cs) to demonstrate the technique.
 
 You can see that by adapting to the new mechanism, the grammar file indeed has no action (C# code), and all the extra processing logic is in the visitor hierarchy. It would be possible to reuse the grammar file for other projects (to develop a Java parser for the grammar if you like).
 
-# JetBrains Rider
+## JetBrains Rider
 
 Now I prefer to develop the grammar in Rider, which has great ANTLR support.
 
@@ -45,7 +45,7 @@ As this grammar has no more action, there is no need to even change "language" o
 
 Now you can run C# unit test cases and ANTLR Preview in the same IDE, so developing a grammar is easier than ever.
 
-# Some More Tips on v3/v4 Migration Coming
+## Some More Tips on v3/v4 Migration Coming
 
 In last post I did share some tips, but without examples. I might find some time in the next few weeks to dig real world examples (for this reStructuredText grammar of course), as I did come across far too many issues in the past few days, and successfully figured out a few ways to address them (though ugly).
 

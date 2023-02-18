@@ -11,7 +11,7 @@ excerpt_separator: <!--more-->
 When I wrote about [C# compilers](/the-rough-history-of-the-so-many-c-compilers-f3a85500707c), it is quite natural that MSBuild must be written some day. So today before my flight from YUL to JFK, let's see if I can finish the task.
 <!--more-->
 
-# Sad Story of NANT
+## Sad Story of NANT
 I have been using MSBuild for a long while (ever since its introduction), and I even wrote a utility to help you run MSBuild from Windows Explorer context menu, called [MSBuild Launch Pad](https://github.com/lextm/msbuildlaunchpad).
 
 > MSBuild Shell Extension was the first batch of utilities to enable launching MSBuild from context menu of Windows Explorer. It was recommended by Scott Hanselman in his toolbox posts. However, that project was once idle for long. I chose a different angle to implement my own tool, MSBuild Launch Pad and reused some of its code base. Letter that project was revived and ported some code from mPad.
@@ -26,7 +26,7 @@ NANT was meant to be popular, but it also suffered issues. For example, you alre
 
 The design of ANT was not flawless, so later we see many other tools replacing it for Java projects (Maven, Gradle for instance). NANT inherited all the flaws, so when Microsoft started to think about its own build automation system for .NET Framework 2.0, they created MSBuild.
 
-# MSBuild Itself
+## MSBuild Itself
 So MSBuild started to hit the market in July 3, 2004, the community welcomed it and moved away from NANT. NANT was kind of abandoned since then, but still maintained by a few guys to support newer .NET Framework releases.
 
 > Some interesting facts can be found in [this blog post](https://notgartner.wordpress.com/2005/05/01/the-road-to-msbuild/).
@@ -59,7 +59,7 @@ MSBuild 15 introduces the new SDK based project system, and .NET Core projects a
 
 And there was also [a trick to support Mono on non Windows machines](https://github.com/dotnet/netcorecli-fsc/wiki/.NET-Core-SDK-1.0.1).
 
-# Visual C++ on MSBuild
+## Visual C++ on MSBuild
 Visual C++ is complex, so when Borland C++Builder was using MSBuild as build engine, it is not.
 
 Initially Microsoft created nmake as build engine, and then moved to a new generation of tool called VCBuild.
@@ -68,7 +68,7 @@ It was till Visual Studio 2010 that finally [VC++ projects were successfully mig
 
 There was an open source project to support older VC++ releases.
 
-# Mono xbuild
+## Mono xbuild
 Mono was initially using NANT and shipping it by default. It was till December 14, 2009 that Mono 2.6 release started to ship xbuild, a clone of MSBuild for cross platform. Years later, xbuild still lacked many features of MSBuild. I suffered quite a lot personally too for my own open source projects.
 
 > MSBuild was code named XBuild so it is coincidence that Mono later used the same name for its MSBuild clone. Similar to Mono XSP, as ASP.NET was code named XSP before its 1.0 release.

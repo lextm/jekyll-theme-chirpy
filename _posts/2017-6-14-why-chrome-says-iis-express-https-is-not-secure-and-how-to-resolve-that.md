@@ -23,13 +23,13 @@ _Figure 2: Test site using IIS Express Development Certificate._
 
 If you search around, there are many methods to fix this issue. So below I only demonstrate how to use Jexus Manager to quickly resolve it.
 
-# Step 1: Generate a new certificate to match Chrome's requirements.
+## Step 1: Generate a new certificate to match Chrome's requirements.
 The details can be found in [this article](https://docs.jexusmanager.com/tutorials/self-signed.html#self-signed-certificate-wizard), and for this specific case, you should set "localhost" as custom name, and give the certificate a friendly name ("new" for example). All other fields can use the default values.
 
-# Step 2: Let Windows trust this certificate
+## Step 2: Let Windows trust this certificate
 So in [just a few clicks](https://docs.jexusmanager.com/tutorials/self-signed.html#to-trust-self-signed-certificate) you can get it done.
 
-# Step 3: Change the site binding to use the new certificate
+## Step 3: Change the site binding to use the new certificate
 Go back to the site binding dialog and choose the new certificate instead,
 
 ![img-description](/images/new-certificate.png)

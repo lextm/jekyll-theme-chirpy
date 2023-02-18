@@ -10,13 +10,13 @@ I just shipped [a test build](https://github.com/xunit/xamarinstudio.xunit/relea
 So what are the steps to build such an add-in? Below I try to show some technical details.
 <!--more-->
 
-# Visual Studio for Mac
+## Visual Studio for Mac
 Microsoft announced this new IDE last year at Connect 2016 keynote, which is a surprise for many developers. But if we check this IDE further, easily we can see it is not a surprise at all.
 
 * This IDE is based on MonoDevelop/Xamarin Studio, which has a very long history already.
 * It reuses many useful ingredients from Visual Studio itself, such as the editor experience.
 
-# Extension Authoring
+## Extension Authoring
 Previously to develop extensions for MonoDevelop/Xamarin Studio, we need to target the 5.x or 6.x profiles of MonoDevelop core binaries. That's why for [xUnit.net add-in](https://github.com/xunit/xamarinstudio.xunit) there are two branches, 5.0 and 6.0.
 
 The core assemblies have significant differences in editor related APIs, due to the big upgrade in Xamarin Studio 6.x. And now again, Visual Studio for Mac (based on MonoDevelop 7.x) requires a new branch.
@@ -25,7 +25,7 @@ So to create a new add-in, you can always get start from [the official guide for
 
 > Updated (Jan 12, 2023): This guide is no longer valid.
 
-# Extending Xamarin Studio with Add-Ins
+## Extending Xamarin Studio with Add-Ins
 
 Replace all texts of "Xamarin Studio" with "Visual Studio for Mac", and you should be able to get Addin Maker (>=1.3.4) installed and a sample add-in created.
 

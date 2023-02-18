@@ -12,19 +12,19 @@ You may have noticed while other Delphi experts, such as Castalia, GExperts, and
 
 In fact, there are two rules existing for years,
 
-# Rule I, Native
+## Rule I, Native
 
 Most of Delphi experts are native experts. As a result, they must link to some IDE packages. Because of the incompatibilities of the packages across Delphi versions, there is no way to compile one version of experts for all Delphi versions. For example, you must compile CnPack Wizards against Delphi 7 packages in order to make an installer for Delphi 7.
 
 If you need to compile against different versions, you have to make installers for different versions. That is the rule I.
 
-# Rule II, .NET
+## Rule II, .NET
 
 The rule for .NET expert, such as Sharp Builder Tools and Code Beautifier Collection is different. If you compile against latest Borland.Studio.ToolsAPI.dll, the expert can work even in old versions of RAD Studio.
 
 CBC 5.3.3 can be installed for all BDS versions 1–4. That can be a good proof.
 
-# New Rules?
+## New Rules?
 
 However, these rules are governed by Borland/CodeGear. So they can be changed without notice.
 

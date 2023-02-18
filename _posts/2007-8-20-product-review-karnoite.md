@@ -10,19 +10,19 @@ NHibernate and ECO are huge library for enterprise usage. However, even if you a
 That is why Microsoft creates LINQ in .NET 3.5. However up-to-now, you cannot redistribute .NET 3.5 because it is a Beta. So try a nice third party product may be an alternative.
 <!--more-->
 
-# Why I chose Karvonite?
+## Why I chose Karvonite?
 
 I downloaded Karvonite May Preview to see if it meets my requirement for CBC. In order to enhance PropertyRegistry unit I need some library who can persist collections. Basic classes in .NET framework fail to provide a solution.
 
 BTW, Karvonite is free although not Free As the Freedom.
 
-# Manual And Sample
+## Manual And Sample
 
 While I was still reading the manual, I found some information was missing. Yes, object library was mentioned several times but there was no line about how to create one.
 
 It is normal because Karvonite is still a Preview, and the sample project illustrates so many aspects which is a good starting point.
 
-# Conclusion
+## Conclusion
 
 I am sure that Karvonite can help to make CBC better manage preferences in collections form. The only shortage is that object library is not in XML format so manual editing is hard.
 

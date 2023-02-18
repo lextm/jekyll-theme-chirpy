@@ -9,20 +9,20 @@ excerpt_separator: <!--more-->
 Web servers have become so ordinary when we have so many successful web applications, such as WordPress and so on, and it seems that more and more people would like to do self hosting instead of using a service provider. That's alright. However, what you should learn before hosting a web application on your own machine(s)? What kind of technologies you need to learn? These series of posts aim to provide you some hints on what you should know and try out.
 <!--more-->
 
-# The Assumptions
+## The Assumptions
 Before we move on, let me make some assumptions about your technical skills. If you find yourself difficult to understand what I mean below, try to grab a friend to help you out instead of wasting your own time for nothing.
 
 * You should have basic idea of what is Internet and TCP/IP. This should be covered by computer networking courses at college or great books in this area.
 * You should have basic idea of the devices you are going to use. Make sure you know how to find the manual or support for the device you own.
 * You should have basic idea of the operating system and the web server you use.
 
-# The Diagram
+## The Diagram
 ![img-description](/images/web-server-network.png)
 _Figure 1: Web server network._
 
 OK, above is a much simplified diagram of a corporate or home network, which only aims to show what are the important elements you are going to touch.
 
-# The Web Server
+## The Web Server
 The web server is not something of rocket science. Generally speaking, it is an agent that takes the HTTP requests from the web browser you use, and responds with proper HTTP responses. Thus, after you install the web server and web application, the first thing you are going to do is to launch a web browser on the server itself to test out the web site. In this way, all possible barriers are avoided. If the local browser shows everything good, you hit the first milestone.
 
 If there is anything wrong, please check the following,
@@ -36,7 +36,7 @@ If there is anything wrong, please check the following,
 
 > You can learn more about IIS site bindings from [this article](https://docs.jexusmanager.com/tutorials/binding-diagnostics.html#background).
 
-# The Internal Client
+## The Internal Client
 An internal client means a machine sitting in the same network of the web server. In the simplest setup, a web browser on such a client should connect directly to the web server (via switches or similar L2 devices). Use this internal browser to test your web site, and if nothing is wrong you hit the second milestone.
 
 If failures occur, please check the following,
@@ -51,7 +51,7 @@ To troubleshoot the link, we usually install network sniffers (such as Wireshark
 
 > If you are testing a web site with a specific domain, at this stage you can let the domain resolve to the internal IP address of the server.
 
-# The External Client
+## The External Client
 An external client sits far far away from your web server, and it often connects to your server via the Internet first, and then passes through a router/gateway (L3 devices usually). If you already have internal clients working fine, it is time to apply the same tricks to external clients. If everything works for external guys, you hit the final milestone.
 
 Common causes of failures here are,

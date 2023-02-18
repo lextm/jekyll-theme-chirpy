@@ -49,12 +49,12 @@ Please download and extract the err.exe from this package. Running it at command
 
 ``` text
 E:\Green\err>err 800703e9
-# for hex 0x800703e9 / decimal -2147023895 :
+## for hex 0x800703e9 / decimal -2147023895 :
 COR_E_STACKOVERFLOW corerror.h
-# MessageText:
-# Is raised by the EE when the execution stack overflows as
-# it is attempting to ex
-# 1 matches found for "800703e9"
+## MessageText:
+## Is raised by the EE when the execution stack overflows as
+## it is attempting to ex
+## 1 matches found for "800703e9"
 ```
 
 Do you know what is stack overflow? Wikipedia shows it clearly. Do you also know what is URL Rewrite? Microsoft makes it clear here. So if you are familiar with both like me, the root cause is almost clear. Right! If the rewrite rules lead to infinite redirection then the stack overflow is expected.

@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 ---
 > .NET Core 依然在飞速进化中，所以如果不是非常喜欢折腾的性格，建议各位还是暂时忍耐。
 
-# 准备阶段
+## 准备阶段
 
 首先，Visual Studio 2015是必要的开发工具。虽然它已经包含了.NET Core的原始测试版，这里还是推荐[下载 RC1 安装包](http://get.asp.net/).
 <!--more-->
@@ -33,7 +33,7 @@ Active Version Runtime Architecture Location Alias
 1.0.0-rc1-update1 coreclr x86 C:\Users\lextm\.dnx\runtimes
 ```
 
-# 开始迁移
+## 开始迁移
 
 下面可以开启 Visual Studio 2015，并且创建一个类型是 Class Library (Package) 的新工程。这种工程的文件后缀是.xproj。这种工程的编译结果会是一个 NuGet 包。
 
@@ -63,7 +63,7 @@ Active Version Runtime Architecture Location Alias
 因为仅仅作为一个测试，所以我在迁移 #SNMP Library 过程中就删去了很多代码。另外由于 Socket 类型的同步方法都被移除，我也不得不将很多 #SNMP Library 的代码改写为 async/await 方式。等微软正式发布 RC2，我会考虑再迁移一部分代码过去。
 到此，只要编译通过，那么初步的迁移工作也就结束了。
 
-# 写在最后
+## 写在最后
 还有其他值得注意之处：
 
 * 和 project.json 对应，Visual Studio 会维护一个 project.lock.json 文件。这个文件详细记录了依赖项展开的情况，了解它的结构有利于调试一些依赖项问题。但是不要将它签入到版本控制。

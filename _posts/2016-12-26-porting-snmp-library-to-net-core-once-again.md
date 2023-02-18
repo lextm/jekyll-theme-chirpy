@@ -17,7 +17,7 @@ Overall things work as Microsoft promised, but the process was rather painful. S
 It turns out to be a smart choice as Microsoft later shipped Visual Studio 2017 RC (refreshed a few days ago), and today I can use an IDE to migrate once again. But I do hit a few different issues, so I'd like to list below.
 <!--more-->
 
-# MSBuild Project
+## MSBuild Project
 
 First I created an empty .NET standard 1.3 class library project, and then put it into SharpSnmpLib folder. The new format of MSBuild scripts allow the project to automatically include all C# source files without my manually adding them all. But immediately I hit an error that many existing attributes are duplicate such as,
 
@@ -25,7 +25,7 @@ First I created an empty .NET standard 1.3 class library project, and then put i
 
 I was able to find similar posts on Stack Overflow and GitHub, but my solution is to add conditionals in AssemblyInfo.cs to exclude certain attributes from .NET Core compilation.
 
-# Missing Packages
+## Missing Packages
 
 The remaining errors are so common that still classes or methods are missing. And I have to manually edit .csproj to add necessary packages in Visual Studio Code, where I can run `dotnet restore` and `dotnet build` at integrated terminal to observe errors,
 
@@ -43,13 +43,13 @@ The remaining errors are so common that still classes or methods are missing. An
 
 You might notice [a quite strange package](https://www.nuget.org/packages/System.AppDomain/) `System.AppDomain`, which comes from a third party, . So Microsoft does have AppDomain support in CoreCLR but intentionally hides that in CoreFX. This package exposes some important API, but not all.
 
-# Conditionals
+## Conditionals
 
 Still I have to leave conditional compilation from time to time, but compared to the previous attempts, the number has decreased, which is quite a pleasure. I no longer need to remove the sync versions of the Socket related methods, as the underlying API is back in .NET standard 1.3.
 
 You can check [the whole commit here](https://github.com/lextudio/sharpsnmplib/commit/a26d8af07f04d095c903d61ee923ce66286dd316)
 
-# Sidenote
+## Sidenote
 I also hit [one Visual Studio 2017 limitation](https://developercommunity.visualstudio.com/content/problem/9051/microsoftnugettargets-error-when-compiling-a-pcl-p.html) where after compiling the .NET standard solution, the classic solution cannot be compiled properly.
 
 Luckily a workaround was found and documented in the link above.

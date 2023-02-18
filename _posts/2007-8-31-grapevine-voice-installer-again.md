@@ -7,15 +7,15 @@ excerpt_separator: <!--more-->
 ---
 When I published this post, I did not expect ISPP changed most of things easily.
 
-# What is ISPP?
+## What is ISPP?
 
 ISPP is Inno Setup Pre-Processor. From its name you can guess what it does. Yep, it preprocesses your script and then builds the installer. In this way, ISPP provides you so many macros and build-in functions which free you from writing error prone Pascal scripts.
 
-# Changes
+## Changes
 
 Now I use marcos to store version information and other strings. Thus, every time I need to create an installer, only a few changes are required. When I release 6.0 M5, you can check up the new Inno Setup script for details. Also you need to install Inno Setup QuickStart Pack instead of Inno Setup.
 
-# Limitation
+## Limitation
 
 Although ISPP solves a lot of problems, it is hard to write my own functions in its language. It is not similar to Pascal but C/C++. Luckily right now I do not need to do some customization here.
 

@@ -12,7 +12,7 @@ image:
 I just shipped the 81.0.0 release of this extension. As it is worth a blog post, you can see how big the changes are there.
 <!--more-->
 
-# Summary on Improvements
+## Summary on Improvements
 
 First, a Microsoft guy approached me and informed kindly that due to recent changes in VSCode, I should try to switch to [Webview API](https://code.visualstudio.com/docs/extensions/webview) instead.
 
@@ -24,7 +24,7 @@ Second, [synchronized preview](https://github.com/vscode-restructuredtext/vscode
 
 Third, the status bar element (which indicates the active preview engine) does not show at the desired time, and [that has been fixed](https://github.com/vscode-restructuredtext/vscode-restructuredtext/issues/98).
 
-# Stories Behind The Scene
+## Stories Behind The Scene
 This release is bigger than it seems to be. In fact, it demonstrated another time that open source collaboration is great.
 
 OK, let's turn back time to February 2017, and Microsoft released [VSCode 1.9](https://code.visualstudio.com/updates/v1_9#_markdown-preview-and-editor-integration) with synchronized Markdown preview support.
@@ -50,7 +50,7 @@ It gave me a very nice chance to clean up the current code base (due to the chan
 * Support preview page revival when VSCode is restarted.
 * Fixed all test cases.
 
-# Secrets on Synchronized Preview
+## Secrets on Synchronized Preview
 
 If you really want to understand the technical details, here it is.
 

@@ -8,11 +8,11 @@ excerpt_separator: <!--more-->
 You probably noticed that I have been back to work on Jexus Manager due to the adventure on Docker/ASP.NET Core. So finally I can spend some time on the things I planned a while ago. Thus, this post would show you the most important changes.
 <!--more-->
 
-# Better Self Signed Certificates
+## Better Self Signed Certificates
 
 Well, I covered this in [a earlier post](/why-chrome-says-iis-express-https-is-not-secure-and-how-to-resolve-that-d906a183f0), so in short Jexus Manager is now capable of generating certificates with proper SAN extensions. And as always, it is never easier to configure HTTPS sites in this tool visually. Every detail is at your fingers.
 
-# Goodbye to "Unable to launch the IIS Express Web server"
+## Goodbye to "Unable to launch the IIS Express Web server"
 
 [I blogged about](/jexus-manager-secrets-behind-visual-studio-iis-express-integration-834f88c8e8b) how horrible things can happen if your IIS Express configuration is out of sync with the web project file.
 

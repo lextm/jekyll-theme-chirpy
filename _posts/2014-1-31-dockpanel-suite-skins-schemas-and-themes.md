@@ -8,19 +8,19 @@ excerpt_separator: <!--more-->
 In the adventure of VS2012 Light theme support, I have gained further knowledge on how DPS works internally. Thus, I summarized what I learnt [in this blog post](/dockpanel-suite-a-summary-on-visual-studio-2012-light-theme-a8391c84c769). What I missed was a detailed explanation on the confusing terms used throughout the code base. Hope this post is not too late for anyone who would like to customize DPS look and feel.
 <!--more-->
 
-# The History of Schemas
+## The History of Schemas
 
 The term schema was invented by Weifen Luo when both VS2003 and 2005 need to be supported. If you check out release 2.2 and go to Extender.SetSchema function you can see that when a new schema is applied, the function sets three factory objects to the Extender and the whole look and feel is changed.
 
 Of course there was nothing called skins nor themes.
 
-# The History of Skins
+## The History of Skins
 
 The term skin was introduced in release 2.3 by Steve Overton. It was not heavily emphasized in 2.3 release, but was made visible in release 2.5 (DockPanelSkin Demo button in the sample).
 
 By setting a new skin, the look and feel changes even if you don't change the schema. Thus, it becomes easy enough to create sub-schemas and the door of customization is opened.
 
-# The History of Themes
+## The History of Themes
 
 I attempted to refine the customization interface in 3.0 branch so as to resolve two issues,
 

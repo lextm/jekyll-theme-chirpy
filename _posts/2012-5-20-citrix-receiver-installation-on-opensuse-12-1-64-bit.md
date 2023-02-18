@@ -24,7 +24,7 @@ The last issue was that SSL error 61 occurred. It was easily solved by copying F
 sudo cp /usr/share/ca-certificates/mozilla/* /opt/Citrix/ICAClient/keystore/cacerts
 ```
 
-# References
+## References
 
 * [1]: http://www.citrix.com/English/ss/downloads/details.asp?downloadId=2323812&productId=1689163#top
 * [2]: http://www.itswapshop.com/tutorial/how-install-citrix-receiver-linux-120-opensuse-121

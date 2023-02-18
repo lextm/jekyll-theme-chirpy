@@ -10,14 +10,14 @@ If you master MSBuild, you can manually modified *.proj files in source package 
 > Notice, please do not modify installation folders. My MSBuild scripts assume you install the tools to default folders.
 <!--more-->
 
-Phase I:
+## Phase I:
 
 1. Install .NET Framework 2.0. It contains MSBuild, which is a build engine now pseudo standardized on Windows Platform.
 1. Install MSBee, which enables you build .NET 1.1 assemblies with MSBuild.
 
 > If you have 1, and 2 installed, you can run make.debug.bat to test. Run ExpertManager.bat and add Lextm.CodeBeautifierCollection.Framework.dll to BDS 2006 Expert list, then you can see CBC loaded by BDS.
 
-# Phase II:
+## Phase II:
 
 The following are tools you need to run make.all.bat.
 

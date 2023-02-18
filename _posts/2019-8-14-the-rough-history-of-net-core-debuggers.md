@@ -12,13 +12,13 @@ image:
 There are several .NET Core debuggers out there from different vendors, and this post covers the major ones and their stories.
 <!--more-->
 
-# .NET Core Debugger from Microsoft, aka vsdbg
+## .NET Core Debugger from Microsoft, aka vsdbg
 
 .NET Core was born with a debugger, of course from Microsoft, called vsdbg. With a long history and reputation in Windows based debuggers, it is not difficult for Microsoft to create such a tool on Windows, and also make it cross platform for macOS and Linux. Naturally, this debugger is a core asset for .NET Core development and also part of Visual Studio (Windows/Mac) and Visual Studio Code.
 
 > vsdbg is not open sourced and not everyone paid enough attention to the licensing terms of vsdbg (and its various components), until one day JetBrains entered the arena and shipped its .NET IDE called Rider.
 
-# .NET Core Debugger from JetBrains
+## .NET Core Debugger from JetBrains
 
 It was in February 2017 that [JetBrains realized](https://blog.jetbrains.com/dotnet/2017/02/15/rider-eap-17-nuget-unit-testing-build-debugging/) the the debugging functionality of Rider was built upon a Microsoft NuGet package `Microsoft.VisualStudio.clrdbg` which in fact was not licensed to any third party IDEs like Rider.
 
@@ -33,7 +33,7 @@ Since then, JetBrains has been able to continuously refine its own .NET Core deb
 
 However, JetBrains .NET Core debugger is also proprietary, so only ships as part of the commercial IDE, Rider.
 
-# Samsung .NET Core Debugger, aka netcoredbg
+## Samsung .NET Core Debugger, aka netcoredbg
 
 [Samsung joined .NET Foundation Technical Steering Group](https://old.dotnetfoundation.org/blog/2016/06/27/samsung-join-tsg) back in June 27, 2016.
 
@@ -43,7 +43,7 @@ On November 16, 2016, [Visual Studio Tools for Tizen](https://old.dotnetfoundati
 
 Compared to the debuggers from Microsoft/JetBrains, this open source debugger lacks of many important features, but as the solely free tool without licensing problems it enables all kind of possibilities.
 
-# Side Notes on MonoDevelop
+## Side Notes on MonoDevelop
 
 Visual Studio for Mac is built upon MonoDevelop. However, Microsoft does not license vsdbg to be used in MonoDevelop. That's why earlier this year I finished [the extension to enable .NET Core debugging in MonoDevelop with the Samsung debugger](/samsung-net-core-debugger-and-monodevelop-80a6ea4bcab3).
 

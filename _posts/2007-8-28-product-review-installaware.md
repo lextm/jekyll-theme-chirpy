@@ -10,7 +10,7 @@ It is so common to distribute software as installers, that so many installation 
 Even though I am just running a small open source project named Code Beautifier Collection, I have to make a good quality installer to please users.
 <!--more-->
 
-# Inno Setup
+## Inno Setup
 
 I have been using Inno Setup for a long time. Generally speaking, with help of Pascal Script support, I could do nearly everything in the installer to provide as many features as I can imagine.
 
@@ -20,7 +20,7 @@ However, it is not yet a perfect solution too. Its main disadvantages are,
 1. Inno Setup does not provide a powerful wizard to guide newbies. The learning curve is tough. That's why I spent so much time learning it.
 1. Pascal Script authoring is really hard and sometimes error prone. Usually I wrote the script in Delphi, test it and then copy back to Inno script file.
 
-# InstallAware Studio
+## InstallAware Studio
 
 When I install InstallAware I soon understand why Marco Cantu find it professional.
 

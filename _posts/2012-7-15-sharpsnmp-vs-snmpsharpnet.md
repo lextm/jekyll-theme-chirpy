@@ -16,7 +16,7 @@ I try to provide a few updates and also provide more details.
 SNMP#NET homepage is at http://snmpsharpnet.com.
 <!--more-->
 
-# The Beginning
+## The Beginning
 
 [I started to work on #SNMP](/announce-sharp-snmp-library-for-net-e359089cad7f) in April 2008, before leaving Cisco in September.
 
@@ -28,7 +28,7 @@ Besides, #SNMP's SNMP v3 support was ported from SNMP#NET, where I avoided reinv
 
 At that point I already noticed the huge differences between the two projects, so I did not expect any further integration and continued my efforts on #SNMP.
 
-# The Differences on Design Principles
+## The Differences on Design Principles
 
 #SNMP was derived from Malcolm Crowe's research project, and I did some refactoring and enhancements so as to provide an easy-to-use API.
 
@@ -44,7 +44,7 @@ http://snmpsharpnet.com/node/1
 
 Personally I dislike that, though it may help a few Java developers to migrate their projects to C#/.NET, it does not make very good use of C# language and .NET platform. As I am kind of familiar with SNMP#NET's weakness, [I wrote some tip](/a-tip-for-snmpsharpnet-snmp-net-users-6a23a02b71e) about how to properly use it.
 
-# The Differences on Project Management
+## The Differences on Project Management
 
 milans and I have different backgrounds, so we chose different approaches to manage our projects, which is quite obvious if you watch both.
 
@@ -58,7 +58,7 @@ http://www.snmpsharpnet.com/blog/3
 
 But he haven't written a new post in the past two years.
 
-# The Differences on API Richness
+## The Differences on API Richness
 
 #SNMP started as a SNMP manager library initially, as that was what I knew about SNMP in early 2008. But [agent support](/snmp-design-incomplete-agent-demo-5550acc8f1e4) appeared in late 2008. And this has been enhanced in 2010 with the [introduction of SNMP processing pipeline](/honeycell-drops-snmp-pipeline-and-our-agent-demo-89986da1a5da).
 
@@ -68,7 +68,7 @@ Noticeably, #SNMP has MIB document support (compiling MIB documents). It was dev
 
 SNMP#NET, though it has good small samples (http://snmpsharpnet.com/node/6), does not have large scaled samples (no compiler, no browser and no agent). It also lacks of MIB support. It is still good for SNMP users if you only use basic SNMP operations. But once you require something beyond that, you will have to do it on your own.
 
-# The Differences on Platform Support
+## The Differences on Platform Support
 
 #SNMP has been [tested on Mono and Linux](/dockpanel-suite-tip-5-we-could-go-mono-63ee484f77a0) for a few years now,
 
@@ -76,7 +76,7 @@ During these two years, many Mono bugs have been identified, reported, and resol
 
 There is no report on whether SNMP#NET can work on Mono. Personally I think it should work, as it is relatively simple, and fully managed.
 
-# End
+## End
 
 Fine. As I am the developer of #SNMP, this post must be biased, although I am trying hard to be objective. Therefore, I suggest you perform your own evaluation.
 

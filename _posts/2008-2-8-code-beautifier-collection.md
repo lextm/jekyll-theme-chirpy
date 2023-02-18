@@ -18,6 +18,6 @@ excerpt_separator: <!--more-->
 1. \+ 加入了 Object Pascal 代码样式编辑器。
 1. × 报告于 Google Code 站点的全部缺陷都得到了解决。
 
-# 下载链接
+## 下载链接
 
 尽管项目主页迁到了 Google Code (http://code.google.com/p/lextudio)，我依然使用着 SF.net 的服务。现在你可以通过 PayPal 或者 SF.net 对 CBC 项目进行捐赠。

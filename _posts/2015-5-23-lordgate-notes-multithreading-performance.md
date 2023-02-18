@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 A few performance testing scenarios have been executed recently and the results are quite surprising. Before locating the culprits, this post only shows what the testing reveals.
 <!--more-->
 
-# Sample Code
+## Sample Code
 
 ``` csharp
 [Test]
@@ -48,7 +48,7 @@ public void TestResponses()
 }
 ```
 
-# Four Requests in Sync
+## Four Requests in Sync
 
 ``` text
 manager 16102: 00:00:01.7603102
@@ -63,7 +63,7 @@ manager 16105: 00:00:00.0003382
 
 Interesting that the very first request takes much longer than all other requests following.
 
-# 40 Requests in Sync
+## 40 Requests in Sync
 
 ``` text
 manager 16102: 00:00:37.6857179
@@ -150,7 +150,7 @@ manager 16141: 00:00:00.0002836
 
 When testing with 40 requests, the initial delay is much more significant.
 
-# 40 Requests Async
+## 40 Requests Async
 
 ``` text
 manager 16102: 00:00:36.2356932
@@ -239,7 +239,7 @@ Parallel execution takes even longer to finish, as not only it has no improvemen
 
 Profiling only shows the delay comes from System.Net.Sockets.Socket.Receive(), which is less useful.
 
-# Further Analysis
+## Further Analysis
 
 Interestingly the final analysis was performed by adding more time logging to the agent part, which reveals the culprit.
 

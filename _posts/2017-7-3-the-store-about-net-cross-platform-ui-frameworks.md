@@ -12,7 +12,7 @@ excerpt_separator: <!--more-->
 There are tons of UI frameworks to choose from if you are going to develop a cross platform GUI application in .NET. This post tries to list their pros and cons for your reference.
 <!--more-->
 
-# Native Bindings
+## Native Bindings
 Today we can develop cross platform applications using C#, and share non-UI code easily. This has been the best approach so far, as our projects can explore all native controls and third party controls to achieve full OS integration.
 
 > By saying "full OS integration", I mean our apps have full access to system standard controls, such as buttons, check boxes and so on. More examples are,
@@ -48,14 +48,14 @@ Most projects choose to use this approach, such as
 * [Plastic SCM](https://www.plasticscm.com/) uses GTK# on Linux, Xamarin.Mac on macOS, and Windows Forms on Windows.
 * [iCircuit](http://icircuitapp.com/) uses Xamarin.Mac on macOS, Xamarin.iOS on iOS, Xamarin.Android on Android, and what Microsoft offers on Windows and Windows Phone.
 
-# Cross Platform Frameworks
+## Cross Platform Frameworks
 But some of us do hope for cross platform UI frameworks. So this post shows what has been attempted. Roughly speaking, they go three approaches,
 
 * Full custom rendering and native control emulating.
 * Native on some OS and emulating on others.
 * Native control mapping.
 
-## Unity/MonoGame
+### Unity/MonoGame
 
 |          | Comment |
 | :------- | :------ |
@@ -70,7 +70,7 @@ Of course, that works fine for games, but obviously not all applications. Your a
 
 > Third party add-ons such as [noesisGUI](http://noesisengine.com/) amazingly add the possibility to build UI based on XAML and controls. An impressive approach.
 
-## GTK#
+### GTK#
 
 |          | Comment      |
 | -------- | -------------|
@@ -87,7 +87,7 @@ However, you should know that GTK# apps only look native on Linux distributions.
 
 Mono's GTK# wrapper is GTK 2 compatible and not yet upgraded to support GTK 3. To explore the full potential of GTK 3, you need to use the NuGet package from [a new repo](https://github.com/GtkSharp/GtkSharp) has been created by a MonoGame maintainer Harry which fills the gaps.
 
-## Windows Forms
+### Windows Forms
 
 |          | Comment      |
 | -------- | -------------|
@@ -112,7 +112,7 @@ Later Microsoft decided to stop supporting System.Drawing on non-Windows platfor
 
 As a result, Windows Forms is not considered a cross platform option by Microsoft.
 
-## WPF/Avalonia/Avalonia XPF/UWP/WinUI
+### WPF/Avalonia/Avalonia XPF/UWP/WinUI
 
 |          | Comment      |
 | -------- | -------------|
@@ -141,7 +141,7 @@ Neosis GUI mentioned early can also be seen as a WPF clone, and it is much more 
 
 [Avalonia](https://github.com/AvaloniaUI/Avalonia) is another open source project to do the same, but it didn't start as a strict WPF clone, so you cannot migrate WPF apps directly to Avalonia. However, it attracted enough attention from the community, even including JetBrains which seems to have invested a lot upon it by writing [dotTrace/dotMemory/dotCover user interface in it](https://blog.jetbrains.com/dotnet/2021/04/22/dottrace-and-dotmemory-bring-new-home-screen/). With such a solid foundation, Avalonia team decided in Feb 2023 to release [a true WPF clone as a commercial/closed source product](https://avaloniaui.net/XPF), called Avalonia XPF. It claims to be compatible with WPF and supports Linux and macOS initially. Its price tag and the actual quality are to be evaluated. The original Avalonia remains open sourced, but I don't expect too much update on that part.
 
-## Xamarin.Forms/MAUI
+### Xamarin.Forms/MAUI
 
 |          | Comment      |
 | -------- | -------------|
@@ -170,7 +170,7 @@ This momentum also makes it appealing to use this framework.
 
 Microsoft announced [MAUI](https://devblogs.microsoft.com/dotnet/introducing-net-multi-platform-app-ui/), a major upgrade of Xamarin.Forms, as a new option to build cross platform applications. However, due to the pandemic, its delivery was delayed several times. You can play with it on .NET 6/7.
 
-## Uno Platform
+### Uno Platform
 
 |          | Comment      |
 | -------- | -------------|
@@ -194,7 +194,7 @@ Starting from Microsoft Ignite 2019, Microsoft WinUI team started to [embrace Un
 
 Third party control vendor Syncfusion announced its [collaboration](https://www.syncfusion.com/blogs/post/collaboration-syncfusion-uno-platform.aspx) earlier in September 2019.
 
-## xwt/Eto.Forms
+### xwt/Eto.Forms
 
 |          | Comment      |
 | -------- | -------------|

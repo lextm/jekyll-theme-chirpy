@@ -12,7 +12,7 @@ XAML files can be easily manipulated by using XamlReader and XamlWriter classes 
 
 However, if you need to manipulate BAML files directly, you will find it bit of tough to get things done without some investigation. This aims to save you some time if you happen to do that like I am doing right now.
 
-# Microsoft Implementations
+## Microsoft Implementations
 
 If Microsoft can open source or at least make the following classes public, we should be able to save a lot of time, System.Windows.Markup.BamlReader and System.Windows.Markup.BamlWriter in PresentationFramework.dll.
 
@@ -24,7 +24,7 @@ There is another class System.Windows.Baml2006.Baml2006Reader, which can be used
 
 There is a very special class System.Windows.Markup.Localizer.BamlLocalizer. It gives you a way to load/write BAML but with a lot of limitations. It was designed to assist localization, so it does not expose all possibilities of BAML to us. The LocBaml sample from Microsoft utilizes this class.
 
-# Open Source Implementations
+## Open Source Implementations
 
 Of course, there are other implementations that analyze BAML, such as the open source XmlBamlReader from Cristian Ricciolo Civera under Ms-PL (which later becomes part of ILSpy). It does not require target assemblies to be loaded via reflection.
 
