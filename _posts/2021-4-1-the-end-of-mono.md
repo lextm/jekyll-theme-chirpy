@@ -5,7 +5,7 @@ tags: Mono Microsoft Linux Xamarin .NET
 excerpt_separator: <!--more-->
 ---
 
-If today you still run an application on Mono, I suggest you assert again whether that decision is sustainable. A look back on the Mono history can easily tell that it can be a risky platform to use in 2021 and beyond.
+If today you still run an application on Mono, I suggest you think twice whether that decision is sustainable. A look back on the Mono history can easily tell that it can be a risky platform to use in 2021 and beyond.
 <!--more-->
 
 ## 2000-2003
@@ -27,6 +27,8 @@ It is certain that the core Mono bits (CLR and BCL) have been actively maintaine
 * Unity is [migrating to .NET CoreCLR](https://blog.unity.com/technology/unity-and-net-whats-next), and expects to finish in 2024.
 
 The driving force to maintain the very large Mono distribution has shrunk significantly.
+
+> Meanwhile, you can see [here](https://discord.com/channels/732297728826277939/732325020738519091) how engineers like Jo Shields and Alexander Köplinger are trying their best to keep the Mono distribution alive and answering tough questions. I am very grateful for their efforts. But should you bet your production applications on a small group of volunteers?
 
 As many said, .NET 6 and above is going to be the right platform you migrate to. Microsoft/Unity and other companies in the ecosystem have already invested a lot there.
 

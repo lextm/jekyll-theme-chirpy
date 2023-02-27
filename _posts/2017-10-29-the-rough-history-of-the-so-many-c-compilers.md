@@ -32,6 +32,8 @@ These compilers can exist side by side. For example, on Windows Server 2016, you
 * C# compiler 3.5
 * C# compiler 4.x
 
+> Note that the same rules apply to VB.NET compilers, but VB.NET compilers started from 7.0 instead of 1.0 (to distinguish from the classic VB 6).
+
 ## Microsoft Compilers (Roslyn) as Part of Visual Studio
 Starting from Visual Studio 2015, the 1.0 release of Roslyn based C# compiler became the default compiler, but Microsoft decided to make it part of Visual Studio (also as NuGet package), instead of being part of .NET Framework.
 
