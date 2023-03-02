@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Time for Parser Details, Part Five"
+description: "This post talks about the exceptions the compiler may raise and what they mean."
 tags: SNMP
 permalink: /snmp-design-time-for-parser-details-part-five-39f92e7fdff6
 excerpt_separator: <!--more-->

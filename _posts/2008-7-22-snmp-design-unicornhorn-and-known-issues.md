@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: UnicornHorn and Known Issues"
+description: "This post talks about the 1.0 release of #SNMP and known issues."
 tags: SNMP
 permalink: /snmp-design-unicornhorn-and-known-issues-d5950576ac36
 excerpt_separator: <!--more-->

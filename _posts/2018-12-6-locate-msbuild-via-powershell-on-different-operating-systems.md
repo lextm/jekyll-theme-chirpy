@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Locate MSBuild via PowerShell on Different Operating Systems
+description: A post about how to locate MSBuild via PowerShell on different operating systems
 tags: Visual-Studio MSBuild PowerShell Windows Linux macOS Mono
 permalink: /locate-msbuild-via-powershell-on-different-operating-systems-140757bb8e18
 excerpt_separator: <!--more-->

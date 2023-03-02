@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Undocumented JCF Change"
+description: This post talks about an undocumented JCF change.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-undocumented-jcf-change-54804104e7d
 excerpt_separator: <!--more-->

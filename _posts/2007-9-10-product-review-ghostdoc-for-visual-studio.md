@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Product Review: GhostDoc for Visual Studio"
+description: "This post talks about GhostDoc for Visual Studio."
 tags: .NET Visual-Studio
 permalink: /product-review-ghostdoc-for-visual-studio-7bb2925c469f
 excerpt_separator: <!--more-->

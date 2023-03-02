@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Tick Tick Tick: You Are Counted Here"
+description: "This post describes how to count the visitors to your blog."
 tags: Others
 permalink: /tick-tick-tick-you-are-counted-here-646d0ecc981b
 excerpt_separator: <!--more-->

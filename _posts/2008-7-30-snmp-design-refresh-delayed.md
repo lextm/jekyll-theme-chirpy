@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Refresh Delayed"
+description: "This post talks about the delay of the refresh release."
 tags: SNMP
 permalink: /snmp-design-refresh-delayed-e0585e5ad772
 excerpt_separator: <!--more-->

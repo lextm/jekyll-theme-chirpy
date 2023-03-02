@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Windows Service File Name"
+description: "This post talks about how to get Windows Service executable name and path."
 tags: Windows .NET
 permalink: /windows-service-file-name-56f73788dcb9
 excerpt_separator: <!--more-->

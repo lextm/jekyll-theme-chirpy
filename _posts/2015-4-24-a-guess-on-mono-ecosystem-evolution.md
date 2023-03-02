@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Guess on Mono Ecosystem Evolution"
+description: "This post is about how I guess Mono ecosystem will evolve in the future."
 tags: Mono
 permalink: /a-guess-on-mono-ecosystem-evolution-b096ccad6600
 excerpt_separator: <!--more-->

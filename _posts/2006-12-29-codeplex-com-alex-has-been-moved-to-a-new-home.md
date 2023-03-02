@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CodePlex.com: Alex has been moved to a new home"
+description: "This post describes that Alex has been moved to CodePlex.com."
 tags: .NET SharpDevelop
 permalink: /codeplex-com-alex-has-been-moved-to-a-new-home-856628648bdd
 excerpt_separator: <!--more-->

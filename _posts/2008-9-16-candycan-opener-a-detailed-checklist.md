@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CandyCan Opener: A Detailed Checklist"
+description: This post talks about the next major release of Code Beautifier Collection.
 tags: Code-Beautifier-Collection Delphi
 permalink: /candycan-opener-a-detailed-checklist-9fe92aa18c59
 excerpt_separator: <!--more-->

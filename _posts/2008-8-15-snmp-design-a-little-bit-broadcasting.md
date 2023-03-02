@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: A Little Bit Broadcasting"
+description: "This post talks about UDP broadcasting feature of #SNMP library."
 tags: SNMP
 permalink: /snmp-design-a-little-bit-broadcasting-954d2b48c1c6
 excerpt_separator: <!--more-->

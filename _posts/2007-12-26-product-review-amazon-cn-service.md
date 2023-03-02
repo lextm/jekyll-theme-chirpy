@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Product Review: Amazon.CN Service"
+description: This post is about Amazon China service.
 tags: Others
 permalink: /product-review-amazon-cn-service-b4b660ad202
 excerpt_separator: <!--more-->

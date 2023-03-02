@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Product Review: DockPanel Suite"
+description: This post is a product review of DockPanel Suite.
 tags: DockPanel-Suite
 permalink: /product-review-dockpanel-suite-b6a6a0f24750
 excerpt_separator: <!--more-->

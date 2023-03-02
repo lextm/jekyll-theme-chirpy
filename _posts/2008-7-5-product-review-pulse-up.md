@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Product Review: Pulse Up"
+description: "This post talks about the progress of Pulse for Eclipse."
 tags: Java
 permalink: /product-review-pulse-up-cfaea3b7535d
 excerpt_separator: <!--more-->

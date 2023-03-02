@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Stronger coreide.bpl"
+description: "This post describes about GrapeVine release and the breaking changes observed."
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-stronger-coreide-bpl-b49696307989
 excerpt_separator: <!--more-->

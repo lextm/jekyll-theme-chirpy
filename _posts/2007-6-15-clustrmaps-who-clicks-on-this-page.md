@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "ClustrMaps: Who Clicks on This Page?"
+description: "This post describes how to see who clicks on this blog with ClustrMaps."
 tags: Others
 permalink: /clustrmaps-who-clicks-on-this-page-883a2f3d30cf
 excerpt_separator: <!--more-->

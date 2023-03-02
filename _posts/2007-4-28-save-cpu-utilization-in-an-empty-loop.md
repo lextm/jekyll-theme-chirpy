@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Save CPU Utilization In An Empty Loop"
+description: "This post describes how to save CPU utilization in an empty loop."
 tags: .NET
 permalink: /save-cpu-utilization-in-an-empty-loop-e9b4a265d874
 excerpt_separator: <!--more-->

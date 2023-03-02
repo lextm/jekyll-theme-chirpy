@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Fancy Delphi Applications And More"
+description: This post talks about many fancy applications built in Delphi.
 tags: Delphi
 permalink: /fancy-delphi-applications-and-more-815e84f6c9a
 excerpt_separator: <!--more-->

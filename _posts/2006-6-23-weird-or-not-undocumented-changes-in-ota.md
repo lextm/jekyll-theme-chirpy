@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Weird or Not: Undocumented Changes in OTA"
+description: This post is about undocumented changes in Delphi IDE OTA.
 tags: Code-Beautifier-Collection Delphi
 permalink: /weird-or-not-undocumented-changes-in-ota-648b47d2db58
 excerpt_separator: <!--more-->

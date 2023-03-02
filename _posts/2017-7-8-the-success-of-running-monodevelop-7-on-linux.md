@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Success of Running MonoDevelop 7 on Linux"
+description: "This post is about how to run MonoDevelop 7 on Linux."
 tags: Mono Linux
 permalink: /the-success-of-running-monodevelop-7-on-linux-a55f1469b1d1
 excerpt_separator: <!--more-->

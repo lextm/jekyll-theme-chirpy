@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: M3 Bug or RAD Studio Bug"
+description: "This post talks about a bug in M3 installer, and also a bug related to BDS.exe."
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-m3-bug-or-rad-studio-bug-53893c39d016
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Help from a Native American"
+description: "This post describes how I got help from a native American."
 tags: Others
 permalink: /help-from-a-native-american-7f10903475f1
 excerpt_separator: <!--more-->

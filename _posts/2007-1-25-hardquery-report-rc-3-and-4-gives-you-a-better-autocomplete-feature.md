@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: RC 3 and 4 gives you a better AutoComplete feature"
+description: "This post is about the progress of HardQuery."
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-rc-3-and-4-gives-you-a-better-autocomplete-feature-6cffcfbe9180
 excerpt_separator: <!--more-->

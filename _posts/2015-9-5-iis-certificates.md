@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "IIS迷宫之消失的证书"
+description: "这篇文章讲述了在 IIS 中配置 SSL 证书出现证书消失问题的时候应该如何应对，以及这个问题的追踪中涉及到的证书、IIS 相关知识"
 tags: IIS Windows
 permalink: /iis迷宫之消失的证书-558d58aff8f5
 excerpt_separator: <!--more-->

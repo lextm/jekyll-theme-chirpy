@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: More features ported into ArtCSB Plus"
+description: This post reports the progress of HardQuery.
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-more-features-ported-into-artcsb-plus-3f40f0c52ee2
 excerpt_separator: <!--more-->

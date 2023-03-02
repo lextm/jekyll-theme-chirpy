@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Why OWIN Matters A Lot for ASP.NET Developers"
+description: This post talks about why OWIN matters a lot for ASP.NET developers with more details and examples.
 tags: .NET Mono IIS
 permalink: /why-owin-matters-a-lot-for-asp-net-developers-3377d9d15f02
 excerpt_separator: <!--more-->

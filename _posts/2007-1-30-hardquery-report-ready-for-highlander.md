@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: Ready for Highlander"
+description: "This post reports the status of HardQuery."
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-ready-for-highlander-2d08b71b33d4
 excerpt_separator: <!--more-->

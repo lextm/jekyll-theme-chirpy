@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Alex: License Changed to MIT"
+description: "This post talks about the license change of Alex."
 tags: .NET
 permalink: /alex-license-changed-to-mit-f89171174dbe
 excerpt_separator: <!--more-->

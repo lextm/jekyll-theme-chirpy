@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Last Issue On Milestone 2"
+description: "This post describes about the last issue blocking Milestone 2 build."
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-last-issue-on-milestone-2-da46970957bc
 excerpt_separator: <!--more-->

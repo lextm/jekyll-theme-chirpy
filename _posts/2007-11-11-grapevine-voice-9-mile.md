@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: 9 Mile"
+description: This post announces the release of GrapeVine M9.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-9-mile-8f951330da6a
 excerpt_separator: <!--more-->

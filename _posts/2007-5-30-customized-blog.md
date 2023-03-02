@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Customized Blog"
+description: "This post describes the customized blog."
 tags: Others
 permalink: /customized-blog-5261951e5dc6
 excerpt_separator: <!--more-->

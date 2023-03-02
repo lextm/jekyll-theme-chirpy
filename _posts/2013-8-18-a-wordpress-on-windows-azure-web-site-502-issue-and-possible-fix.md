@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A WordPress on Windows Azure Web Site 502 Issue and Possible Fix"
+description: "This post talks about a 502 issue I met on my WordPress blog hosted on Windows Azure."
 tags: Azure
 permalink: /a-wordpress-on-windows-azure-web-site-502-issue-and-possible-fix-e9c8bf77e360
 excerpt_separator: <!--more-->

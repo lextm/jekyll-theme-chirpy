@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Lucky Day"
+description: "This post talks about the progress of #SNMP 0.9 release."
 tags: SNMP
 permalink: /snmp-design-lucky-day-6384d98cc892
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to Use Private Repos as Submodules in VSTS
+description: A post about why and how to use private repos as submodules in VSTS.
 tags: Visual-Studio
 permalink: /how-to-use-private-repos-as-submodules-in-vsts-fd69801e233f
 excerpt_separator: <!--more-->

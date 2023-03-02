@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Firefox 3和Google拼音"
+title: "Firefox 3和 Google 拼音"
+description: "这篇文章介绍了 Firefox 3和 Google 拼音。"
 tags: Windows Google
 permalink: /firefox-3和google拼音-f897870b3b97
 excerpt_separator: <!--more-->

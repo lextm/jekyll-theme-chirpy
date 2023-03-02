@@ -1,6 +1,7 @@
 ---
 layout: post
 title: History of PHP Manager for IIS
+description: A post about the history of PHP Manager for IIS and how I got involved.
 tags: PHP IIS
 permalink: /history-of-php-manager-for-iis-7e29bd9828f0
 excerpt_separator: <!--more-->

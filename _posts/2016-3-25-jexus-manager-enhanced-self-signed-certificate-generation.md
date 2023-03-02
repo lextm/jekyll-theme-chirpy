@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jexus Manager: Enhanced Self-Signed Certificate Generation"
+description: "This post is about how Jexus Manager enhances IIS Manager's self-signed certificate generation."
 tags: Jexus-Manager IIS
 permalink: /jexus-manager-enhanced-self-signed-certificate-generation-9ff4940d6b07
 excerpt_separator: <!--more-->

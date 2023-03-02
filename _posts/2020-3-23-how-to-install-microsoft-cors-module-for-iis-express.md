@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to Install Microsoft CORS Module for IIS Express
+description: A post about how to install Microsoft IIS CORS module for IIS Express to fill the gap.
 tags: Windows IIS Microsoft
 permalink: /how-to-install-microsoft-cors-module-for-iis-express-7ac24e4c3bc4
 excerpt_separator: <!--more-->

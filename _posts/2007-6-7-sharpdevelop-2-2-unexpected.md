@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "SharpDevelop 2.2: Unexpected"
+description: "This post describes the unexpected version number update of SharpDevelop."
 tags: Code-Beautifier-Collection Delphi
 permalink: /sharpdevelop-2-2-unexpected-eb87cf0cccc8
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: Cooking 5.3.3"
+description: This post is about the progress of HardQuery, specifically related to migrating from NAnt to MSBuild.
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-cooking-5-3-3-da1bb8fdb78f
 excerpt_separator: <!--more-->

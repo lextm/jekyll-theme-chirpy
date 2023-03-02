@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Failed to Extend Windows Live Writer"
+description: This post is about extending Windows Live Writer.
 tags: .NET
 permalink: /failed-to-extend-windows-live-writer-501d5f0e91fa
 excerpt_separator: <!--more-->

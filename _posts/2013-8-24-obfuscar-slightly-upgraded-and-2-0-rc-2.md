@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Obfuscar: Slightly Upgraded and 2.0 RC 2"
+description: "This post talks about Obfuscar 2.0 RC 2."
 tags: .NET
 permalink: /obfuscar-slightly-upgraded-and-2-0-rc-2-ba25398933e7
 excerpt_separator: <!--more-->

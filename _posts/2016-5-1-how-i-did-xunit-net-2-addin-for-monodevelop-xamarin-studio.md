@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How I Did xUnit.net 2 Addin for MonoDevelop/Xamarin Studio"
+description: "This post is about how I extended xUnit.net 2 addin for MonoDevelop/Xamarin Studio."
 tags: Mono .NET
 permalink: /how-i-did-xunit-net-2-addin-for-monodevelop-xamarin-studio-c61029051407
 excerpt_separator: <!--more-->

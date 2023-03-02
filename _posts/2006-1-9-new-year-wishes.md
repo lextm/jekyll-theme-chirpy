@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "新年的愿望"
+description: 介绍了自己的新年愿望
 tags: Code-Beautifier-Collection Delphi
 permalink: /新年的愿望-c9e65ef8d170
 excerpt_separator: <!--more-->

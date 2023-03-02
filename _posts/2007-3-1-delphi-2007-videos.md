@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Delphi 2007 Videos"
+description: "This post is about Delphi 2007 Videos."
 tags: Delphi
 permalink: /delphi-2007-videos-3d89a8ae7be4
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: Source Navigator Highlight"
+description: This post reports the progress of HardQuery and changes in Source Navigator feature.
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-source-navigator-highlight-53186ae0900e
 excerpt_separator: <!--more-->

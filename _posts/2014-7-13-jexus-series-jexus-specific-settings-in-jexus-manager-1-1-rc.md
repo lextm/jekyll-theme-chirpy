@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jexus Series: Jexus Specific Settings in Jexus Manager 1.1 RC"
+description: "This post talks about Jexus specific settings in Jexus Manager 1.1 RC."
 tags: Jexus-Manager
 permalink: /jexus-series-jexus-specific-settings-in-jexus-manager-1-1-rc-d5a10f06cc9
 excerpt_separator: <!--more-->

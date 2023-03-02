@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Broken Changes"
+description: This post talks about the changes in 6.0 Final.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-broken-changes-b90409bf2261
 excerpt_separator: <!--more-->

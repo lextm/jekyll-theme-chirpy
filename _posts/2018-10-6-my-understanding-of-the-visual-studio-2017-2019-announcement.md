@@ -1,6 +1,7 @@
 ---
 layout: post
 title: My Understanding of The Visual Studio 2017/2019 Announcements
+description: A post about my understanding of the Visual Studio 2017/2019 announcements and Microsoft's intentions behind.
 tags: Visual-Studio Microsoft
 permalink: /my-understanding-of-the-visual-studio-2017-2019-announcements-53846c20453c
 excerpt_separator: <!--more-->

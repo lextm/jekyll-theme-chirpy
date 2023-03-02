@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "为BDN做的一些工作"
+description: "这篇文章讲述了我为 BDN 做的一些工作。"
 tags: Code-Beautifier-Collection Delphi
 permalink: /为bdn做的一些工作-87f1070da08b
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Clear Visual Studio 2005 Vault Error State"
+description: This post talks about how to clear Visual Studio 2005 Vault error state.
 tags: Visual-Studio
 permalink: /clear-visual-studio-2005-vault-error-state-63a024005060
 excerpt_separator: <!--more-->

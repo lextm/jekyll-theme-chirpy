@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "SharpDevelop 2.0/2.1: 开源.NET IDE的诱惑"
+description: "这篇文章讲述了我试玩 SharpDevelop 2.0/2.1的体验。"
 tags: Code-Beautifier-Collection Delphi
 permalink: /sharpdevelop-2-0-2-1-开源-net-ide的诱惑-9e020f8d4057
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "News! What's in WalkPace Update 2 (Part III)"
+description: This post is about the third release candidate of CBC 2 WalkPace Update 2.
 tags: Code-Beautifier-Collection Delphi
 permalink: /news-whats-in-walkpace-update-2-part-iii-e35da8b3a670
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jexus Manager: Initial Persist-to-Disk Support in 2.0 Alpha 5"
+description: "This post is about how Jexus Manager provides initial persist-to-disk support in 2.0 Alpha 5."
 tags: Jexus-Manager IIS Visual-Studio
 permalink: /jexus-manager-initial-persist-to-disk-support-in-2-0-alpha-5-a022b5935f64
 excerpt_separator: <!--more-->

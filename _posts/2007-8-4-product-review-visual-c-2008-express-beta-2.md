@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Product Review: Visual C# 2008 Express Beta 2"
+description: "This post talks about my experience with Visual C# 2008 Express Beta 2."
 tags: Visual-Studio
 permalink: /product-review-visual-c-2008-express-beta-2-95aaafc1148efb
 excerpt_separator: <!--more-->

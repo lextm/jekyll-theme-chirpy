@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "See Through Internet Explorer 8 Beta 1"
+description: This post talks about Internet Explorer 8 Beta 1.
 tags: Windows
 permalink: /see-through-internet-explorer-8-beta-1-ffb352e7ba2
 excerpt_separator: <!--more-->

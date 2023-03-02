@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "SharpDevelop 2.2 Is Really There"
+description: "This post describes the new version of SharpDevelop."
 tags: .NET
 permalink: /sharpdevelop-2-2-is-really-there-2b0eec92a4f3
 excerpt_separator: <!--more-->

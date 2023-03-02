@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Localization Helpers"
+description: "This post describes some tools to help on .NET localization."
 tags: Code-Beautifier-Collection Delphi
 permalink: /localization-helpers-8510baf738e1
 excerpt_separator: <!--more-->

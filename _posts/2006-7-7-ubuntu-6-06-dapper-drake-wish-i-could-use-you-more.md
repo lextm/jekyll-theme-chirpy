@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Ubuntu 6.06 Dapper Drake: Wish I could use you more"
+description: "This post talks about my experience of using Ubuntu 6.06 Dapper Drake."
 tags: Mono Linux
 permalink: /ubuntu-6-06-dapper-drake-wish-i-could-use-you-more-24cbd42145
 excerpt_separator: <!--more-->

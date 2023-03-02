@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Pro: SharpSnmpPro.Mib Assembly Released"
+description: "This post talks about the release of SharpSnmpPro.Mib assembly."
 tags: SNMP
 permalink: /snmp-pro-sharpsnmppro-mib-assembly-released-7789ae356e5a
 excerpt_separator: <!--more-->

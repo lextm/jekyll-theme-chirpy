@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: ToolsAPI 5.0"
+description: This post describes about Borland.Studio.ToolsAPI.dll 5.0.
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-toolsapi-5-0-fe0127a56797
 excerpt_separator: <!--more-->

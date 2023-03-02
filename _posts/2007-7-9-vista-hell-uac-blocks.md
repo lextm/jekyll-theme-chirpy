@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Vista Hell: UAC Blocks"
+description: "This post describes why Vista blocks CBC from saving settings."
 tags: Code-Beautifier-Collection Delphi
 permalink: /vista-hell-uac-blocks-f293a5fbc3a7
 excerpt_separator: <!--more-->

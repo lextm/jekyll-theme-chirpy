@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "I Do Not Know What I Can Blog"
+description: "This post is about impact of my new job."
 tags: Code-Beautifier-Collection Delphi
 permalink: /i-do-not-know-what-i-can-blog-73c6d4a98bb
 excerpt_separator: <!--more-->

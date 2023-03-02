@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "PicLens With Images Search"
+description: This post talks about PicLens and how to use it with images search.
 tags: Windows
 permalink: /piclens-with-images-search-1aae5e7196fe
 excerpt_separator: <!--more-->

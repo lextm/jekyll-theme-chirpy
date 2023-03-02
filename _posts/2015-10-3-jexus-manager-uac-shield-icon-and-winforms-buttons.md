@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jexus Manager: UAC Shield Icon and WinForms Buttons"
+description: "This post is about how Jexus Manager shows UAC shield icon with WinForms buttons."
 tags: Jexus-Manager
 permalink: /jexus-manager-uac-shield-icon-and-winforms-buttons-db702ed73e13
 excerpt_separator: <!--more-->

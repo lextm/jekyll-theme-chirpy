@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to Use NuGet on Mono, Part II"
+description: "In this part, we document how to get NuGet package restore working."
 tags: .NET Mono
 permalink: /how-to-use-nuget-on-mono-part-ii-1e71e55757bd
 excerpt_separator: <!--more-->

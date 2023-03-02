@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Hacking xbuild: Part I, Grab a Box"
+description: "This post talks about how to set up a clean environment for hacking xbuild."
 tags: Linux Mono
 permalink: /hacking-xbuild-part-i-grab-a-box-24e70b6d2821
 excerpt_separator: <!--more-->

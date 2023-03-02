@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Milestone 1 is Coming"
+description: "This post describes about the changes in GrapeVine M1."
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-milestone-1-is-coming-14b901b93fe9
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Notes on Resource Refactoring Tool"
+description: "This post describes some notes on Resource Refactoring Tool."
 tags: .NET
 permalink: /notes-on-resource-refactoring-tool-ca033dacf091
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Library, Bouncy Castle Extensions"
+description: "A post about the new Bouncy Castle extensions for #SNMP Library and why you might need them."
 tags: Visual-Studio .NET SNMP
 permalink: /snmp-library-bouncy-castle-extensions-e85333583bb4
 excerpt_separator: <!--more-->

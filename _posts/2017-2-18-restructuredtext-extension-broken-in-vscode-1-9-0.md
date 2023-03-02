@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "reStructuredText Extension: Broken in VSCode 1.9.0"
+title: "reStructuredText Extension: Broken in VS Code 1.9.0"
+description: "This post is about why the reStructuredText extension was broken in VS Code 1.9.0."
 tags: reStructuredText
 permalink: /restructuredtext-extension-broken-in-vscode-1-9-0-3e01952ad155
 excerpt_separator: <!--more-->

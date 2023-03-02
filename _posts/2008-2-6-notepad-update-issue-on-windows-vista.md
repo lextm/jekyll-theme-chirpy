@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Notepad++ Update Issue on Windows Vista"
+description: This post talks about the update issue of Notepad++ on Windows Vista.
 tags: Windows
 permalink: /notepad-update-issue-on-windows-vista-f97c4148d6a1
 excerpt_separator: <!--more-->

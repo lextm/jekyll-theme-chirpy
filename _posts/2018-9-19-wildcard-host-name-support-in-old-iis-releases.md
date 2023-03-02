@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Wildcard Host Name Support in Old IIS Releases
+description: A post about how to support wildcard host names in old IIS releases with ARR.
 tags: Visual-Studio .NET IIS
 permalink: /wildcard-host-name-support-in-old-iis-releases-8e4448040b5a
 excerpt_separator: <!--more-->

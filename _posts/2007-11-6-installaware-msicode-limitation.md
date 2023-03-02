@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "InstallAware MSIcode Limitation"
+description: This post talks about a limitation of InstallAware MSIcode.
 tags: Windows
 permalink: /installaware-msicode-limitation-e2e6c6aedeb
 excerpt_separator: <!--more-->

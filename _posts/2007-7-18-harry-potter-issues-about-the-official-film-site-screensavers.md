@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Harry Potter: Issues About The Official Film Site Screensavers"
+description: "This post talks about some issues I found on the official film site of Harry Potter and the Order of the Phoenix."
 tags: Windows
 permalink: /harry-potter-issues-about-the-official-film-site-screensavers-5ce7b367c5dc
 excerpt_separator: <!--more-->

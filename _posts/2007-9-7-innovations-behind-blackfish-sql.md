@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Innovations Behind Blackfish SQL"
+description: "This post talks about the innovations behind Blackfish SQL that compiles Java source code to C#."
 tags: Java .NET
 permalink: /innovations-behind-blackfish-sql-718909bb010c
 excerpt_separator: <!--more-->

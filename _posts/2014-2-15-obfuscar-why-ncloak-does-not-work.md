@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Obfuscar: Why NCloak Does Not Work"
+description: "This post talks about why NCloak does not work."
 tags: .NET
 permalink: /obfuscar-why-ncloak-does-not-work-f4ed152f06dd
 excerpt_separator: <!--more-->

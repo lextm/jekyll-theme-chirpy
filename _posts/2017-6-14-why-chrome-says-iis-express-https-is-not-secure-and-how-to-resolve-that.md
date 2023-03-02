@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Why Chrome Says IIS Express HTTPS Is Not Secure And How to Resolve That
+description: "This post would show you how to resolve the issue that Chrome says HTTPS is not secure for web apps hosted on IIS Express."
 tags: Visual-Studio IIS
 permalink: /why-chrome-says-iis-express-https-is-not-secure-and-how-to-resolve-that-d906a183f0
 excerpt_separator: <!--more-->

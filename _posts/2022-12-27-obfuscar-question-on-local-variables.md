@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Obfuscar: Question on Local Variables"
+description: A post about how Obfuscar works on C# local variables
 tags: .NET
 excerpt_separator: <!--more-->
 ---

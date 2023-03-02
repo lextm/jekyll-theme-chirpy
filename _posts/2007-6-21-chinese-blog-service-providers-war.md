@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Chinese Blog Service Providers' War"
+description: "This post describes the war between Chinese blog service providers."
 tags: Others
 permalink: /chinese-blog-service-providers-war-876f8639fe76
 excerpt_separator: <!--more-->

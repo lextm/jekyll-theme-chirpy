@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: 6.0 Final is Out And Donation is Welcome"
+description: This post talks about the release of 6.0 Final.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-6-0-final-is-out-and-donation-is-welcome-c2924156056
 excerpt_separator: <!--more-->

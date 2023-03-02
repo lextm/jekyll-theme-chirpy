@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Product Review: Eclipse vs. Visual Studio"
+description: "This post is to compare Eclipse and Visual Studio."
 tags: Java Visual-Studio
 permalink: /product-review-eclipse-vs-visual-studio-698403cf8503
 excerpt_separator: <!--more-->

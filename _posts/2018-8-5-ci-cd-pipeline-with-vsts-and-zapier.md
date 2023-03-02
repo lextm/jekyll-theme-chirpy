@@ -1,6 +1,7 @@
 ---
 layout: post
 title: CI/CD Pipeline with VSTS and Zapier
+description: A post about how to set up CI/CD pipeline with VSTS and Zapier.
 tags: Visual-Studio
 permalink: /ci-cd-pipeline-with-vsts-and-zapier-b81d341088dd
 excerpt_separator: <!--more-->

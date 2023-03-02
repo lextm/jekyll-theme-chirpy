@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Programming Competitions, HARD to say 'I Love U'"
+description: A post about why I give up programming competitions.
 tags: Code-Beautifier-Collection Delphi
 permalink: /programming-competitions-hard-to-say-i-love-u-b5fa84d2b158
 excerpt_separator: <!--more-->

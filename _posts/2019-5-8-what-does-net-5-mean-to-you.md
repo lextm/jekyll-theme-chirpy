@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What Does .NET 5 Mean to You
+description: A post about what .NET 5 means to different groups of people
 tags: Linux Mono .NET ASP.NET
 permalink: /what-does-net-5-mean-to-you-c63d06b63285
 excerpt_separator: <!--more-->

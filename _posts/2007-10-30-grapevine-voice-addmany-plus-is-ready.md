@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: AddMany Plus Is Ready"
+description: This post announces the release of AddMany Plus.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-addmany-plus-is-ready-108400f4d7b6
 excerpt_separator: <!--more-->

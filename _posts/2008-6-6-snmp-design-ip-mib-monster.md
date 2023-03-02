@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: IP-MIB Monster"
+description: "This post talks about the progress of #SNMP 0.9 release."
 tags: SNMP
 permalink: /snmp-design-ip-mib-monster-9a40366c13d8
 excerpt_separator: <!--more-->

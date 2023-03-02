@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Inno Setup and ISPP"
+description: This post is about Inno Setup and ISPP.
 tags: Inno-Setup
 permalink: /inno-setup-and-ispp-4ca328e5faef
 excerpt_separator: <!--more-->

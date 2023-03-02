@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: Delay of Preview 2"
+description: "This post talks about why HardQuery Preview 2 is delayed."
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-delay-of-preview-2-9aed3ac94f1f
 excerpt_separator: <!--more-->

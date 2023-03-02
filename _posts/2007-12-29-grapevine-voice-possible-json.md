@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Possible JSON"
+description: This posts announces the possible switch to JSON.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-possible-json-e2370c321dea
 excerpt_separator: <!--more-->

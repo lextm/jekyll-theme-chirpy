@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Windows Live Writer Special Tip"
+description: "This post talks about a special tip for Windows Live Writer."
 tags: Windows
 permalink: /windows-live-writer-special-tip-13fbf9ddfdb4
 excerpt_separator: <!--more-->

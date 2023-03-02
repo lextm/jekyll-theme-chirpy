@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Missing Feature"
+description: "This post is to reveal a potential new feature in Code Beautifier Collection"
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-missing-feature-3cbbfc556a00
 excerpt_separator: <!--more-->

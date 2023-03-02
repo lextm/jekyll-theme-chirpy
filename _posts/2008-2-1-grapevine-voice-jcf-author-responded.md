@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: JCF Author Responded"
+description: This post talks about the response from JCF's author on the issue I reported.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-jcf-author-responded-330ea8f679bb
 excerpt_separator: <!--more-->

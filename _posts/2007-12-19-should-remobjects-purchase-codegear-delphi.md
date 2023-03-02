@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Should RemObjects Purchase CodeGear Delphi?"
+description: This post is about whether RemObjects should purchase CodeGear Delphi.
 tags: Delphi
 permalink: /should-remobjects-purchase-codegear-delphi-ce7dace250b1
 excerpt_separator: <!--more-->

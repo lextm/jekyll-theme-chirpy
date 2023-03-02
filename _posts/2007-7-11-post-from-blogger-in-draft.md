@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Post from Blogger in Draft"
+description: This post talks about how I keep blogging in Blogger in Draft.
 tags: Others
 permalink: /post-from-blogger-in-draft-741a8f8d0154
 excerpt_separator: <!--more-->

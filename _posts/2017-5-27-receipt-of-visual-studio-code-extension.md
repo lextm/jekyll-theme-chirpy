@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Receipt of Visual Studio Code Extension
+description: This post is about what a Visual Studio Code extension should contain.
 tags: Visual-Studio-Code
 permalink: /receipt-of-visual-studio-code-extension-f4fb832fd956
 excerpt_separator: <!--more-->

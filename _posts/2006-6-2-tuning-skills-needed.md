@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Tuning Skills Needed"
+description: 这篇文章是介绍 CBC 2 项目的进度和遇到的性能问题。
 tags: Code-Beautifier-Collection Delphi
 permalink: /tuning-skills-needed-5e563c20b137
 excerpt_separator: <!--more-->

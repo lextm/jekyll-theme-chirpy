@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Obfuscar: Where Does Extra Overriding Methods Come"
+description: "This post is about why Obfuscar warns of extra overriding methods and how to resolve that."
 tags: .NET
 excerpt_separator: <!--more-->
 ---

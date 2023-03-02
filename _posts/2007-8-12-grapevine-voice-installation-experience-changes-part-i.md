@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Installation Experience Changes (Part I)"
+description: "This post talks about the installation experience changes in Code Beautifier Collection."
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-installation-experience-changes-part-i-8928cd2e56a3
 excerpt_separator: <!--more-->

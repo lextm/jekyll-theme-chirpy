@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Milestone 1 is Incomplete"
+description: "This post describes about the incomplete Milestone 1 build."
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-milestone-1-is-incomplete-56c49ab6d78a
 excerpt_separator: <!--more-->

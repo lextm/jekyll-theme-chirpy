@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: Tips about R2U2"
+description: This post is about R2U2.
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-tips-about-r2u2-bf5261aad8e4
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Turn It Off"
+description: This post talks about the future of GrapeVine.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-turn-it-off-11b1e3f89e1b
 excerpt_separator: <!--more-->

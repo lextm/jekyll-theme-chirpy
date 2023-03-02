@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Brazil Trip Delay & Harry Potter 7"
+description: This post talks about my delayed trip to Brazil and Harry Potter 7.
 tags: Code-Beautifier-Collection Delphi
 permalink: /brazil-trip-delay-harry-potter-7-fe8cfcf20158
 excerpt_separator: <!--more-->

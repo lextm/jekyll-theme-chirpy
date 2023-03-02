@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Parallel Mono Environments, Some Update"
+description: "This post talks about how to set up parallel Mono environments with latest updates."
 tags: Mono
 permalink: /parallel-mono-environments-some-update-3916d327ec97
 excerpt_separator: <!--more-->

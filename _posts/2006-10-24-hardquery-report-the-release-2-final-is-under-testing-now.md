@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: The Release 2 Final is under testing now"
+description: This post reports the progress of HardQuery and its second release.
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-the-release-2-final-is-under-testing-now-6874698912d7
 excerpt_separator: <!--more-->

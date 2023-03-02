@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "What Questions are Less Likely to Be Answered on IIS.net?"
+description: "This post is about what questions are less likely to be answered on IIS.net forums."
 tags: IIS
 permalink: /what-questions-are-less-likely-to-be-answered-on-iis-net-49310b254eb9
 excerpt_separator: <!--more-->

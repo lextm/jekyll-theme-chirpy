@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Opera Against Open Source?"
+description: This post talks about the interview of Opera CEO.
 tags: Others
 permalink: /opera-against-open-source-980512168fa7
 excerpt_separator: <!--more-->

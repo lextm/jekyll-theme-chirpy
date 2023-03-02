@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "WalkPace Restarted"
+description: This post is about the restart of CBC 2.5 WalkPace.
 tags: Code-Beautifier-Collection Delphi
 permalink: /walkpace-restarted-50fe0b708c79
 excerpt_separator: <!--more-->

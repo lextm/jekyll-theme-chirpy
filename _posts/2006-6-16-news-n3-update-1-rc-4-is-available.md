@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "News! N3 Update 1 RC 4 is available"
+description: This post is about N3 Update 1 RC 4.
 tags: Code-Beautifier-Collection Delphi
 permalink: /news-n3-update-1-rc-4-is-available-dca13583c79e
 excerpt_separator: <!--more-->

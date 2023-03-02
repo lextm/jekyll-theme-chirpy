@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: M5 Is Drawing Near"
+description: "This post is to announce M5 of GrapeVine."
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-m5-is-drawing-near-7f4201fb5a
 excerpt_separator: <!--more-->

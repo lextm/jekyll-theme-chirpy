@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: JCF Deeper Integration"
+description: "This post talks about the improved integration of JCF into GrapeVine."
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-jcf-deeper-adapting-83f7e56f48e4
 excerpt_separator: <!--more-->

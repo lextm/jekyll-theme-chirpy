@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "TritonMate Words: Important Change on #SNMP Library License"
+description: "This post talks about the license change of #SNMP Library."
 tags: SNMP
 permalink: /tritonmate-words-important-change-on-snmp-library-license-724c3c25e237
 excerpt_separator: <!--more-->

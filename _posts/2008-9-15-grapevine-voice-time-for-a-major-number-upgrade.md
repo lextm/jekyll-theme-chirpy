@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Time for A Major Number Upgrade"
+description: This post talks about the next major release of Code Beautifier Collection.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-time-for-a-major-number-upgrade-479a85c0b76a
 excerpt_separator: <!--more-->

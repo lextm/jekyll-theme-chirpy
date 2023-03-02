@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Summary of BAML Reader/Writer Implementations"
+description: "This post summarizes the implementations of BAML reader/writer in Microsoft and open source projects."
 tags: .NET
 permalink: /summary-of-baml-reader-writer-implementations-62950ac47481
 excerpt_separator: <!--more-->

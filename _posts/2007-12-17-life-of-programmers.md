@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Life of Programmers"
+description: This post is about life of programmers.
 tags: Delphi
 permalink: /life-of-programmers-8fb1c033a68
 excerpt_separator: <!--more-->

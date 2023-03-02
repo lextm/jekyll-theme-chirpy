@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "News! Code Beautifier Collection 5.3 is out there"
+description: This post reports the progress of Code Beautifier Collection and announces the new version 5.3.
 tags: Code-Beautifier-Collection Delphi
 permalink: /news-code-beautifier-collection-5-3-is-out-there-7fdefec8a225
 excerpt_separator: <!--more-->

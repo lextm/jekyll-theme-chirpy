@@ -2,6 +2,7 @@
 ---
 layout: post
 title: "AStyle AddIn: A sign that I cannot ignore"
+description: This post reports the progress of AStyle AddIn for SharpDevelop.
 tags: Code-Beautifier-Collection Delphi
 permalink: /astyle-addin-a-sign-that-i-cannot-ignore-9849c4bee02f
 excerpt_separator: <!--more-->

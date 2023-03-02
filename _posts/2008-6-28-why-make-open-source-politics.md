@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Why Make Open Source Politics?"
+description: "This post talks about why I don't like politics in open source."
 tags: Others
 permalink: /why-make-open-source-politics-7fa42ca45f1f
 excerpt_separator: <!--more-->

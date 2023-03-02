@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "WalkPace brings Sharp Builder Tools and C#Builder Goodies to any BDS version!"
+description: A post about how to bring Sharp Builder Tools and C#Builder Goodies to any BDS version as part of CBC
 tags: Code-Beautifier-Collection Delphi
 permalink: /walkpace-brings-sharp-builder-tools-and-c-builder-goodies-to-any-bds-version-935f0c0f21a4
 excerpt_separator: <!--more-->

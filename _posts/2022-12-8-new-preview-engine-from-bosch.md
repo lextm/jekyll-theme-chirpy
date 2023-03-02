@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The New Preview Engine from Bosch"
+description: A post about the new preview engine for sphinx from Bosch
 tags: Visual-Studio-Code reStructuredText
 excerpt_separator: <!--more-->
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: OpenFileDialog Crashes With COMException 0x80040111
+description: This post is about a strange issue I encountered when using OpenFileDialog.
 tags: Visual-Studio Windows .NET
 permalink: /openfiledialog-crashes-with-comexception-0x80040111-f51e18d1ab89
 excerpt_separator: <!--more-->

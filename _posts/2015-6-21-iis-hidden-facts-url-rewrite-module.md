@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "IIS Hidden Facts: URL Rewrite Module"
+description: "This post is about some interesting facts about IIS URL Rewrite module."
 tags: IIS
 permalink: /iis-hidden-facts-url-rewrite-module-55214414ab89
 excerpt_separator: <!--more-->

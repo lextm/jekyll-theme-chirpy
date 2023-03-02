@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: How To Debug"
+description: "This post writes about how to debug GrapeVine."
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-how-to-debug-8b21849e20b2
 excerpt_separator: <!--more-->

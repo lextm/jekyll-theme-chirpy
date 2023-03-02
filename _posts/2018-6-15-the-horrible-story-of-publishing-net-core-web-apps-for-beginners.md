@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Horrible Story of Publishing .NET Core Web Apps For Beginners
+description: A post about the horrible experience of publishing ASP.NET Core apps for beginners.
 tags: Visual-Studio .NET IIS
 permalink: /the-horrible-story-of-publishing-net-core-web-apps-for-beginners-6121662dd8c4
 excerpt_separator: <!--more-->

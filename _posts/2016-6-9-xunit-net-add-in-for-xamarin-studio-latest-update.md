@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "xUnit.NET Add-in for Xamarin Studio: Latest Update"
+description: "This post is about the latest update of xUnit.NET add-in for Xamarin Studio, such as support for Xamarin Studio 6.x."
 tags: .NET Mono
 permalink: /xunit-net-add-in-for-xamarin-studio-latest-update-b9ef69414f54
 excerpt_separator: <!--more-->

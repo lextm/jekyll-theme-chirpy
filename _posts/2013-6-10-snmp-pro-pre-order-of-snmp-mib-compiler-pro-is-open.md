@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Pro: Pre-Order of #SNMP MIB Compiler Pro is Open"
+description: "This post talks about the pre-order program of #SNMP MIB Compiler Pro."
 tags: SNMP
 permalink: /snmp-pro-pre-order-of-snmp-mib-compiler-pro-is-open-fef4ae2456cd
 excerpt_separator: <!--more-->

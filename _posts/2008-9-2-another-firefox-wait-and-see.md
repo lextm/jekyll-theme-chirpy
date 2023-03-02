@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Another Firefox? Wait And See"
+description: "This post talks about the new browser from Google."
 tags: Windows
 permalink: /another-firefox-wait-and-see-37f009d7068b
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Google's Attack on Eclipse and Java"
+description: This post talks about Google's attack on Eclipse and Java.
 tags: Java
 permalink: /googles-attack-on-eclipse-and-java-982c1f54e536
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Rough History of Referenced Assemblies
+description: A post about the rough history of referenced assemblies and interesting stories behind them.
 tags: Visual-Studio MSBuild .NET Mono
 permalink: /the-rough-history-of-referenced-assemblies-7d752d92c18c
 excerpt_separator: <!--more-->

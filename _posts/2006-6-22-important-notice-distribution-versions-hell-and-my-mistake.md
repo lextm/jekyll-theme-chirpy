@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Important Notice! Distribution Versions Hell, and My Mistake"
+description: This post is about difficulty to distribute CBC versions at different sites.
 tags: Code-Beautifier-Collection Delphi
 permalink: /important-notice-distribution-versions-hell-and-my-mistake-d431d1882b6c
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Mono历史片段：Novell的崩溃和Xamarin的浴火重生"
+description: "本文介绍了 Mono 历史中的一个片段，Novell 公司的崩溃和 Xamarin 公司的诞生。"
 tags: Mono
 permalink: /mono历史片段-novell的崩溃和xamarin的浴火重生-bf1dd7b8621b
 excerpt_separator: <!--more-->

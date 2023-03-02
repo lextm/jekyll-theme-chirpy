@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Cross Platform Object Pascal (Part II)"
+description: This post compares Delphi and Chrome.
 tags: Delphi
 permalink: /cross-platform-object-pascal-part-ii-6d3ac47874e7
 excerpt_separator: <!--more-->

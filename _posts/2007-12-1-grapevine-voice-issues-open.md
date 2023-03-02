@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Issues Open"
+description: This post talks about that I have found some issues in GrapeVine.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-issues-open-95b178de64d
 excerpt_separator: <!--more-->

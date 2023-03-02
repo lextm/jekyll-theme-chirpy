@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Source Public"
+description: This post talks about the source code of April 08 Release.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-source-public-3943fefa8b4c
 excerpt_separator: <!--more-->

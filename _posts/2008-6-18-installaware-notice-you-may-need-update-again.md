@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "InstallAware Notice: You May Need Update Again"
+description: This post talks about the new update for InstallAware 7.
 tags: Windows
 permalink: /installaware-notice-you-may-need-update-again-7c791c38190d
 excerpt_separator: <!--more-->

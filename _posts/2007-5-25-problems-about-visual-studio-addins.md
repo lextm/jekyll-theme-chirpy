@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Problems about Visual Studio Addins"
+description: "This post describes some of my thoughts on Visual Studio."
 tags: Code-Beautifier-Collection Delphi Visual-Studio
 permalink: /problems-about-visual-studio-addins-6ee50c6b2244
 excerpt_separator: <!--more-->

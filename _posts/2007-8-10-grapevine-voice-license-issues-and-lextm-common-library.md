@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine: License Issues and Lextm Common Library"
+description: "This post talks about GrapeVine license issues."
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-license-issues-and-lextm-common-library-8b9a5e62f01e
 excerpt_separator: <!--more-->

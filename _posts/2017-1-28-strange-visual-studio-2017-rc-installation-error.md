@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Strange Visual Studio 2017 RC Installation Error"
+description: "This post is about a strange Visual Studio 2017 RC installation error."
 tags: Visual-Studio
 permalink: /strange-visual-studio-2017-rc-installation-error-acdce0000c34
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Tips for .NET Core Unit Testing
+description: This post is about tips for .NET Core unit testing with xUnit.net.
 tags: .NET Visual-Studio macOS xUnit
 permalink: /tips-for-net-core-unit-testing-92a8d123a17a
 excerpt_separator: <!--more-->

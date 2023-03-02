@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to Use NuGet on Mono, Part IV"
+description: "This post described how we should patch NuGet so that it works better on Mono."
 tags: .NET Mono
 permalink: /how-to-use-nuget-on-mono-part-iv-65d6349aa5dc
 excerpt_separator: <!--more-->

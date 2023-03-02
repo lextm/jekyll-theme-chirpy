@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Windows Live Writer Welcomes Blogger.com"
+description: "This post talks about Windows Live Writer's support for Blogger.com."
 tags: Windows
 permalink: /windows-live-writer-welcomes-blogger-com-25a634d35435
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Roadmap of Stage 2.4"
+description: "This post talks about the roadmap of #SNMP 2.x."
 tags: SNMP
 permalink: /snmp-design-instance-property-octetstring-encoding-8f355c053e9a
 excerpt_separator: <!--more-->

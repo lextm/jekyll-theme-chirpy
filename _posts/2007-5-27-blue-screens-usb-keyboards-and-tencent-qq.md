@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Blue Screens: USB Keyboards and Tencent QQ"
+description: "This post describes the problem of Blue Screens on Windows XP and Vista."
 tags: Windows
 permalink: /blue-screens-usb-keyboards-and-tencent-qq-94a83ab2dbd5
 excerpt_separator: <!--more-->

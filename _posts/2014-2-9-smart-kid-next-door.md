@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "别人家的小孩"
+description: "这篇文章讲述了别人家的小孩是我童年时候的梦魇。"
 tags: Others
 permalink: /别人家的小孩-bc0a5face876
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "News: From Cisco to Microsoft"
+description: This post talks about my new job at Microsoft.
 tags: Microsoft
 permalink: /lextm-cn-news-from-cisco-to-microsoft-a32452730e6c
 excerpt_separator: <!--more-->

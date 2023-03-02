@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Further Delay"
+description: This post talks about further delay of 6.0 Final release.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-further-delay-769dcb171683
 excerpt_separator: <!--more-->

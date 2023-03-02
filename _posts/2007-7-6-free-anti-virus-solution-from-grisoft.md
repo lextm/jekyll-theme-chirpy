@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Free Anti-Virus Solution From Grisoft"
+description: "This post describes a free anti-virus solution from Grisoft."
 tags: Windows
 permalink: /free-anti-virus-solution-from-grisoft-d4d2ee24726e
 excerpt_separator: <!--more-->

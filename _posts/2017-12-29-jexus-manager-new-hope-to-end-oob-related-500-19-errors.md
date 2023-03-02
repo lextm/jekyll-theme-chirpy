@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Jexus Manager, New Hope to End OOB Related 500.19 Errors
+description: A post about the new OOB diagnostics in Jexus Manager.
 tags: Visual-Studio .NET IIS
 permalink: /jexus-manager-new-hope-to-end-oob-related-500-19-errors-193854de0d4d
 excerpt_separator: <!--more-->

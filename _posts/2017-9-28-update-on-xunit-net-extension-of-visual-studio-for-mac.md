@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Update on xUnit.net Extension of Visual Studio for Mac
+description: This post is about the latest progress of xUnit.net extension of Visual Studio for Mac and a tough bug.
 tags: .NET Visual-Studio macOS xUnit
 permalink: /update-on-xunit-net-extension-of-visual-studio-for-mac-af69457e3441
 excerpt_separator: <!--more-->

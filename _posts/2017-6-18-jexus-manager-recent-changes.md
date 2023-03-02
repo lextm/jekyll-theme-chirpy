@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jexus Manager: Recent Changes"
+description: "This post would show you the most important changes in Jexus Manager."
 tags: Jexus-Manager IIS
 permalink: /jexus-manager-recent-changes-to-save-the-world-ada896d098aa
 excerpt_separator: <!--more-->

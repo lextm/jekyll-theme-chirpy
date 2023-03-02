@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Public Sessions/Programs I Worked On In The Past"
+description: A post about public sessions/programs I worked on in the past few years.
 tags: Others
 excerpt_separator: <!--more-->
 ---

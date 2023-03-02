@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Different Ways to Create VSCode Extension Dependencies
+description: A post about different ways to define VSCode extension dependencies and which might work best for your case
 tags: Visual-Studio-Code
 excerpt_separator: <!--more-->
 ---

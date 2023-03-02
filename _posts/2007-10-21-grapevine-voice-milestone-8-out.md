@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Milestone 8 Out"
+description: This post announces the release of GrapeVine M8.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-milestone-8-out-6421c1ed5679
 excerpt_separator: <!--more-->

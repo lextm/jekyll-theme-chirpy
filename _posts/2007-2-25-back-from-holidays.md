@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Back from Holidays"
+description: "This post describes my plan after the holidays."
 tags: Code-Beautifier-Collection Delphi
 permalink: /back-from-holidays-8f6d806ad988
 excerpt_separator: <!--more-->

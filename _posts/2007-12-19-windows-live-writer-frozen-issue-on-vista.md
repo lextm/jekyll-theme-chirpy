@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Windows Live Writer Frozen Issue On Vista"
+description: This post is about Windows Live Writer frozen issue on Windows Vista.
 tags: Windows
 permalink: /windows-live-writer-frozen-issue-on-vista-476707dbeeb0
 excerpt_separator: <!--more-->

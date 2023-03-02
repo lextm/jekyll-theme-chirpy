@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Jexus Manager Is Now Open Source
+description: This post announces that Jexus Manager becomes open source.
 tags: IIS
 permalink: /jexus-manager-is-now-open-source-a48fef80a6e7
 excerpt_separator: <!--more-->

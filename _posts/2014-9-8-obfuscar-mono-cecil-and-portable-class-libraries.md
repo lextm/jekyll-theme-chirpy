@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Obfuscar: Mono.Cecil and Portable Class Libraries"
+description: This post describes how Mono.Cecil and Portable Class Libraries are related.
 tags: .NET
 permalink: /obfuscar-mono-cecil-and-portable-class-libraries-40ac70755d50
 excerpt_separator: <!--more-->
@@ -8,7 +9,7 @@ excerpt_separator: <!--more-->
 It must be a pain to see that Mono.Cecil includes PCL support, but you still find PCL breaks Mono.Cecil based utilities, such as Obfuscar. Forgive us, as Microsoft designs it in a horrible way. There is still too much to be changed so as to catch up. Let's see two examples below.
 <!--more-->
 
-#SuppressIldasm Attribute in Obfuscar
+## SuppressIldasm Attribute in Obfuscar
 
 Microsoft kindly provides an attribute in BCL, and once attaches to an assembly ILdasm utility refuses to decompile it. Well, unfortunately no other decompiler honors this attribute. I updated Obfuscar to insert such attribute to assemblies, only to match other obfuscators.
 

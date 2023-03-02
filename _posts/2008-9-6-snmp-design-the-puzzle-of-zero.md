@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: The Puzzle of Zero"
+description: "This post talks about the zeroes in SNMP protocol."
 tags: SNMP
 permalink: /snmp-design-the-puzzle-of-zero-d26d9979f6
 excerpt_separator: <!--more-->

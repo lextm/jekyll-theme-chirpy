@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Obfuscar: The Story Behind 'Inconsistent virtual method obfuscation state detected'"
+description: This post is going to cover the technical details of an issue related to virtual method renaming.
 tags: .NET
 permalink: /obfuscar-the-story-behind-inconsistent-virtual-method-obfuscation-state-detected-82c9f8c38667
 excerpt_separator: <!--more-->

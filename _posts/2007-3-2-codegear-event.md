@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "免费的CodeGear开发者日"
+description: "这篇文章讲述了 CodeGear 开发者日的信息。"
 tags: Code-Beautifier-Collection Delphi
 permalink: /免费的codegear开发者日-784bf46183a7
 excerpt_separator: <!--more-->

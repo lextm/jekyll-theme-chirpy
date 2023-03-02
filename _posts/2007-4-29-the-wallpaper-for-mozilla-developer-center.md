@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Wallpaper for Mozilla Developer Center"
+description: "This post is about a nice wallpaper for Mozilla Developer Center."
 tags: Firefox
 permalink: /the-wallpaper-for-mozilla-developer-center-36420430e1d6
 excerpt_separator: <!--more-->

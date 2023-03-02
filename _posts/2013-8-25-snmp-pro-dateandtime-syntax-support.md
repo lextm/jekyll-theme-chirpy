@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Pro: DateAndTime Syntax Support"
+description: "This post talks about DateAndTime syntax support in #SNMP Pro."
 tags: SNMP
 permalink: /snmp-pro-dateandtime-syntax-support-e99abc51bc2f
 excerpt_separator: <!--more-->

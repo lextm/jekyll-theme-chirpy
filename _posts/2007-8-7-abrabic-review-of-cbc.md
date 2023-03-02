@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Arabic Review of CBC?"
+description: "This post talks about a review of CBC in Arabic language."
 tags: Code-Beautifier-Collection Delphi
 permalink: /arabic-review-of-cbc-2dffb549de0e
 excerpt_separator: <!--more-->

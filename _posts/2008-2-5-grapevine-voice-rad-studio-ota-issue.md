@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: RAD Studio OTA Issue"
+description: This post talks about a RAD Studio OTA issue.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-rad-studio-ota-issue-4b405586bbf3
 excerpt_separator: <!--more-->

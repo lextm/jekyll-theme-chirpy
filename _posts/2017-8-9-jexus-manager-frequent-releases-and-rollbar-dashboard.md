@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jexus Manager: Frequent Releases and Rollbar Dashboard"
+description: "This post is about how I use Rollbar to track Jexus Manager issues."
 tags: Jexus-Manager IIS
 permalink: /jexus-manager-frequent-releases-and-rollbar-dashboard-79afefd6f4ea
 excerpt_separator: <!--more-->

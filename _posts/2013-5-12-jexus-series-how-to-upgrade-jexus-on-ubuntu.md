@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jexus Series: How to Upgrade Jexus on Ubuntu"
+description: "This post talks about how to upgrade Jexus on Ubuntu."
 tags: Jexus-Manager Linux
 permalink: /jexus-series-how-to-upgrade-jexus-on-ubuntu-167ae3a1b6ef
 excerpt_separator: <!--more-->

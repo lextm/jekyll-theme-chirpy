@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How I Set Up Visual Studio Code Remote with Multipass on macOS
+description: A post about how I set up Visual Studio Code Remote with Multipass on macOS to get a WSL-like experience.
 tags: Visual-Studio-Code macOS Linux Multipass
 permalink: /how-i-set-up-visual-studio-code-remote-with-multipass-on-macos-674ce00956d1
 excerpt_separator: <!--more-->

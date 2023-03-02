@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Hacking xbuild: Part II, Handling ItemGroup Inside Target"
+description: "This post is the second part of my hacking xbuild series. It describes how I handle ItemGroup inside Target."
 tags: Mono
 permalink: /hacking-xbuild-part-ii-handling-itemgroup-inside-target-ccbae2ef6abf
 excerpt_separator: <!--more-->

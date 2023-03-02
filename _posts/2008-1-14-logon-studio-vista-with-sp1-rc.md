@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Logon Studio Vista with SP1 RC"
+description: This post talks about Logon Studio Vista with SP1 RC.
 tags: Windows
 permalink: /logon-studio-vista-with-sp1-rc-b352f50eecdf
 excerpt_separator: <!--more-->

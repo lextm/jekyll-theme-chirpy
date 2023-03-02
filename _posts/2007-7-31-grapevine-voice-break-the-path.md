@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Break The Path"
+description: "This post talks about how to break down the PathTree class into smaller classes."
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-break-the-path-da7842731d27
 excerpt_separator: <!--more-->

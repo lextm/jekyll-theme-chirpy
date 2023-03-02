@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Thanks, Malcolm"
+description: This post talks about the blessing I received from Malcolm Crowe.
 tags: SNMP
 permalink: /snmp-design-thanks-malcolm-1f4ae8ef70d0
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "News! NixNewNer Update 1 is out there"
+description: "This post talks about NixNewNer Update 1."
 tags: Code-Beautifier-Collection Delphi
 permalink: /news-nixnewner-update-1-is-out-there-112ae3c9d5ad
 excerpt_separator: <!--more-->

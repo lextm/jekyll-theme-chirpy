@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Castalia Author's Post"
+description: "This post talks about the upcoming Delphi 2009 (code name Tiburon)."
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-castalia-authors-post-4785b48604c5
 excerpt_separator: <!--more-->

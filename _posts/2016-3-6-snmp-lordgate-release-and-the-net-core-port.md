@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP: LordGate Release and The .NET Core Port"
+description: "This post is about the 9.0 release of #SNMP Library and the .NET Core port."
 tags: SNMP .NET
 permalink: /snmp-lordgate-release-and-the-net-core-port-8c655a5eaa69
 excerpt_separator: <!--more-->

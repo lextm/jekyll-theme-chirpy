@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The first entry here"
+description: "This is the first entry here in Blogger."
 tags: Code-Beautifier-Collection Delphi
 permalink: /the-first-entry-here-b1ec9f6a9d8a
 excerpt_separator: <!--more-->

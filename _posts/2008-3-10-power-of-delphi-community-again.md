@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Power of Delphi Community Again"
+description: This post talks about the power of Delphi community.
 tags: Delphi
 permalink: /power-of-delphi-community-again-2d2217ae0ca
 excerpt_separator: <!--more-->

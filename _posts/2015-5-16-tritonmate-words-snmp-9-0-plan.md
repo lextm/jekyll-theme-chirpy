@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "TritonMate Words: #SNMP 9.0 Plan"
+description: "This post is to announce the plan of #SNMP Library 9.0."
 tags: SNMP
 excerpt_separator: <!--more-->
 ---

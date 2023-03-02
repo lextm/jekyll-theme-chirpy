@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Some articles to write"
+description: A post about some articles I am going to write
 tags: Code-Beautifier-Collection Delphi
 permalink: /some-articles-to-write-7045892bc3af
 excerpt_separator: <!--more-->

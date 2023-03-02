@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Lucky Stars"
+description: This post talks about the stars I followed.
 tags: Others
 permalink: /lucky-stars-61c0f327dadb
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Installer Hack"
+description: This post talks about a GrapeVine hack during installation.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-installer-hack-840558857a23
 excerpt_separator: <!--more-->

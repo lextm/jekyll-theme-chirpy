@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to Tune User Account Control on Windows Server
+description: A post about how to tune User Account Control on Windows Server to make your life easier.
 tags: Windows
 permalink: /tune-user-account-control-on-windows-server-a96204c4ebc3
 excerpt_separator: <!--more-->

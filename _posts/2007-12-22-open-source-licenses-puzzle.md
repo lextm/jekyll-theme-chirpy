@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Open Source Licenses Puzzle"
+description: This post is about open source licenses puzzle.
 tags: Code-Beautifier-Collection Delphi
 permalink: /open-source-licenses-puzzle-d40590fbe2ad
 excerpt_separator: <!--more-->

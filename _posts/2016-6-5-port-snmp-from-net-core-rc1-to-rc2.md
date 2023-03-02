@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Port #SNMP from .NET Core RC1 to RC2"
+description: "This post is about how I port #SNMP Library from .NET Core RC1 to RC2."
 tags: SNMP .NET
 permalink: /port-snmp-from-net-core-rc1-to-rc2-141207cbe4f
 excerpt_separator: <!--more-->

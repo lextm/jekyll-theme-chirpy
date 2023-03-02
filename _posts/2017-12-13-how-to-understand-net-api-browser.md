@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to Understand .NET API Browser (Dec 2017)
+description: A post about how to understand the information presented in .NET API Browser (Dec 2017).
 tags: Visual-Studio .NET
 permalink: /how-to-understand-net-api-browser-dec-2017-16fe068ab072
 excerpt_separator: <!--more-->

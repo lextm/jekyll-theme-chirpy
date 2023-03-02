@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Checked Menu Items"
+description: This post talks about how to create checked menu items.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-checked-menu-items-a33bb0aa51c4
 excerpt_separator: <!--more-->

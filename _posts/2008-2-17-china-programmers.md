@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "学习编程：中国程序员入门的怪现象之一――古老的IDE"
+description: 这篇文章讨论了中国程序员入门的怪现象。
 tags: Others
 permalink: /学习编程-中国程序员入门的怪现象之一-古老的ide-bfbb02e7f63d
 excerpt_separator: <!--more-->

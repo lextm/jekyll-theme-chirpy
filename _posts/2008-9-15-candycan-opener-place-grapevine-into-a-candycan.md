@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CandyCan Opener: Place GrapeVine into a CandyCan"
+description: This post talks about the next major release of Code Beautifier Collection.
 tags: Code-Beautifier-Collection Delphi
 permalink: /candycan-opener-place-grapevine-into-a-candycan-b64cd552de30
 excerpt_separator: <!--more-->

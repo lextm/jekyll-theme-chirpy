@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Finally This Blog Is Inaccessible From My Office Too"
+description: This post is to reveal that my blog is inaccessible even from my office.
 tags: Google
 permalink: /finally-this-blog-is-inaccessible-from-my-office-too-4f4df4f2e7b
 excerpt_separator: <!--more-->

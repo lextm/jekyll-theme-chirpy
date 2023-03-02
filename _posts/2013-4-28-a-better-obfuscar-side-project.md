@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Better Obfuscar, Side Project"
+description: "This post talks about a better Obfuscar as a side project."
 tags: .NET
 permalink: /snmp-pro-a-better-obfuscar-side-project-ec176ca6a7c3
 excerpt_separator: <!--more-->

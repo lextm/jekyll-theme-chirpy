@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Obfuscar: A Rush to 2.0 RC 6"
+description: "This post covers RC 6, which contains accumulated bug fixes and new features."
 tags: .NET
 permalink: /obfuscar-a-rush-to-2-0-rc-6-c4eb72357d03
 excerpt_separator: <!--more-->

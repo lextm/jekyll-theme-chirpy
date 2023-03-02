@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Infinite Loops Best Practice (Not a real best practice)"
+description: "This post talks about how to write an infinite loop in .NET."
 tags: .NET
 permalink: /infinite-loops-best-practice-not-a-real-best-practice-e47b8922f445
 excerpt_separator: <!--more-->

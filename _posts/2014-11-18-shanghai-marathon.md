@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "2014上海马拉松照片服务"
+description: 本文介绍了2014上海马拉松照片服务。
 tags: Others
 permalink: /2014上海马拉松照片服务-e156e6a5c25e
 excerpt_separator: <!--more-->

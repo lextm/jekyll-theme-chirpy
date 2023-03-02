@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Sandcastle：NDoc的继承人"
+description: "这篇文章讲述了 Sandcastle 项目的一些信息。"
 tags: .NET
 permalink: /sandcastle-ndoc的继承人-fd544ecc3f17
 excerpt_separator: <!--more-->

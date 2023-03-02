@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "WinForms Tips: 两个很简单但是不容易想到的点子"
+description: "这篇文章讲述了两个很简单但是不容易想到的 WinForms 技巧。"
 tags: Code-Beautifier-Collection Delphi
 permalink: /winforms-tips-两个很简单但是不容易想到的点子-889fdc0ac00
 excerpt_separator: <!--more-->

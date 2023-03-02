@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Miseries Around ASP.NET Windows Authentication Setup
+description: A post about ASP.NET Windows authentication setup and what typical issues you might encounter.
 tags: IIS Windows ASP.NET
 permalink: /miseries-around-asp-net-windows-authentication-setup-14e2e8522ad2
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: Sharp Builder Tools and others are reborn inside CBC"
+description: "This article describes that Sharp Builder Tools and others are reborn inside CBC."
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-sharp-builder-tools-and-others-are-reborn-inside-cbc-d3fbf4baf54e
 excerpt_separator: <!--more-->

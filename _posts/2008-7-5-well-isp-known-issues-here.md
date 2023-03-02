@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Well ISP Known Issues Here"
+description: "This post talks about the internet connection issues I have to face at home."
 tags: Google
 permalink: /well-isp-known-issues-here-ff6b6ec0f2e1
 excerpt_separator: <!--more-->

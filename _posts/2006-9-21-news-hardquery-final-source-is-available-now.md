@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "News! HardQuery Final source is available now"
+description: "This post describes that the source code of HardQuery is available now."
 tags: Code-Beautifier-Collection Delphi
 permalink: /news-hardquery-final-source-is-available-now-b8bdcdc11e5
 excerpt_separator: <!--more-->

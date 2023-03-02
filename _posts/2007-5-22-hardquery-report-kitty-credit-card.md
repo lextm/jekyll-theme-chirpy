@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "HardQuery Report: Kitty Credit Card"
-tags: Code-Beautifier-Collection Delphi
+title: "Kitty Credit Card"
+description: "This post describes my first credit card."
+tags:
 permalink: /hardquery-report-kitty-credit-card-1cc7e1da33ab
 excerpt_separator: <!--more-->
 ---

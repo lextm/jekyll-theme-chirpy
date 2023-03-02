@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "InstallAware Update for .NET 3.5 RTM"
+description: This post announces the release of InstallAware Update for .NET 3.5 RTM.
 tags: .NET Windows
 permalink: /installaware-update-for-net-3-5-rtm-e24d9b90a99b
 excerpt_separator: <!--more-->

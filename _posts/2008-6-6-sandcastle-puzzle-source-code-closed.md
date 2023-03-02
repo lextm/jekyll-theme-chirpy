@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Sandcastle Puzzle: Source Code Closed"
+description: "This post talks about the removal of Sandcastle from CodePlex.com."
 tags: .NET
 permalink: /sandcastle-puzzle-source-code-closed-cc9c793e35c1
 excerpt_separator: <!--more-->

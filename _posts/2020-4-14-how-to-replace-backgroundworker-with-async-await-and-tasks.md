@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to Replace BackgroundWorker with Async/Await and Tasks
+description: A post about how to replace BackgroundWorker with async/await and tasks to make your code more readable and maintainable
 tags: .NET Visual-Studio Microsoft
 permalink: /how-to-replace-backgroundworker-with-async-await-and-tasks-80d7c8ed89dc
 excerpt_separator: <!--more-->

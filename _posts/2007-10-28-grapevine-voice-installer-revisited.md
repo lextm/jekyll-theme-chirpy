@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Installer Revisited"
+description: This post talks about CodeGear's installer and Code Beautifier Collection's installation experience.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-installer-revisited-183ac61b6026
 excerpt_separator: <!--more-->

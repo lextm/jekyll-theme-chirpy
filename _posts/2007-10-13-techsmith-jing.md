@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Product Review: TechSmith Jing Shines"
+description: This post talks about a free tool from TechSmith, called Jing.
 tags: Windows
 permalink: /techsmith-goes-crazy-jing-shines-9354dc8736c8
 excerpt_separator: <!--more-->

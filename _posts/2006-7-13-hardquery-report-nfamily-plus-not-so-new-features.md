@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: NFamily Plus, not-so-new features"
+description: "This post talks about NFamily Plus, a few new features with it."
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-nfamily-plus-not-so-new-features-6bcf14061e86
 excerpt_separator: <!--more-->

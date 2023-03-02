@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "DockPanel Suite: Some Update for 2016"
+description: "This post is about some update for DockPanel Suite in 2016."
 tags: DockPanel-Suite
 permalink: /dockpanel-suite-some-update-for-2016-f04dd830106d
 excerpt_separator: <!--more-->

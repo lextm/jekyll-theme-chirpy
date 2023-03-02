@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Product Review: Silverlight Lights Up What?"
+description: "This post is to review Silverlight 1.0."
 tags: .NET
 permalink: /product-review-silverlight-lights-up-what-1fb2af15444d
 excerpt_separator: <!--more-->

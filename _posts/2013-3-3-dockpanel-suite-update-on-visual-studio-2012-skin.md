@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "DockPanel Suite: Update on Visual Studio 2012 Skin"
+description: "This post talks about the update on Visual Studio 2012 skin for DockPanel Suite."
 tags: DockPanel-Suite
 permalink: /dockpanel-suite-update-on-visual-studio-2012-skin-1dcb4e32fe67
 excerpt_separator: <!--more-->

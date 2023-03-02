@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Poll On Encoding"
+description: "This post talks about the poll on encoding in #SNMP Library."
 tags: SNMP
 permalink: /snmp-design-poll-on-encoding-d7a95fe7c4b7
 excerpt_separator: <!--more-->

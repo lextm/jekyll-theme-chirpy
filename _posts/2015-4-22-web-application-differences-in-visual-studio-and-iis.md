@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Web Application Differences in Visual Studio and IIS
+description: "This post is about the differences between web applications running in Visual Studio and IIS."
 tags: IIS
 permalink: /web-application-differences-in-visual-studio-and-iis-60fec7e311b3
 excerpt_separator: <!--more-->

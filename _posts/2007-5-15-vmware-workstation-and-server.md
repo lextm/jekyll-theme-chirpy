@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "VMware Workstation和Server: 艰难的选择"
+title: "VMware Workstation 和 Server: 艰难的选择"
+description: "这篇文章介绍了 VMware Workstation 和 Server。"
 tags: Windows
 permalink: /vmware-workstation和server-艰难的选择-4ee13e7eeb26
 excerpt_separator: <!--more-->

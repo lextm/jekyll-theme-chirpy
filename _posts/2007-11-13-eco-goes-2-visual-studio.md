@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "ECO Goes 2 Visual Studio"
+description: This post talks about ECO's move to Visual Studio.
 tags: .NET Visual-Studio
 permalink: /eco-goes-2-visual-studio-451ee5ce9bdc
 excerpt_separator: <!--more-->

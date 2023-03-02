@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Poll Result"
+description: "This post talks about the poll result."
 tags: SNMP
 permalink: /snmp-design-poll-result-a323261f192
 excerpt_separator: <!--more-->

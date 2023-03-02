@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: RC5 Becomes Final"
+description: "This post describes about HardQuery Report RC5."
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-rc5-becomes-final-29c846689852
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "What Is Missing in Firefox 3 Beta 4 Release Notes"
+description: This post talks about what is missing in Firefox 3 Beta 4 release notes.
 tags: Windows
 permalink: /what-is-missing-in-firefox-3-beta-4-release-notes-d31cec0a145d
 excerpt_separator: <!--more-->

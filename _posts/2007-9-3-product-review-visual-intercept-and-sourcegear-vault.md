@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Product Review: Visual Intercept and SourceGear Vault"
+description: "This post talks about my experience with Visual Intercept and SourceGear Vault."
 tags: Windows
 permalink: /product-review-visual-intercept-and-sourcegear-vault-5c4da5493a07
 excerpt_separator: <!--more-->

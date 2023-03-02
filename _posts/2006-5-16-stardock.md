@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Stardock: 创意总能令人兴奋"
+description: 这篇文章是关于 Stardock 公司的介绍。它的产品都很有意思。
 tags: Windows
 permalink: /stardock-创意总能令人兴奋-322658aa432f
 excerpt_separator: <!--more-->

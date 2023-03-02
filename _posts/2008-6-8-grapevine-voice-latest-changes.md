@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Latest Changes"
+description: This post talks about the latest changes of CBC.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-latest-changes-f916c585230f
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "LinkedIn and Facebook Profile"
+title: "LinkedIn and Facebook Profiles"
+description: This post describes my LinkedIn and Facebook profiles.
 tags: Others
 permalink: /linkedin-and-facebook-profile-dd22ad4236f6
 excerpt_separator: <!--more-->

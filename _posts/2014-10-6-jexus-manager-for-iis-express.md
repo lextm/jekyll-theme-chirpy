@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Jexus Manager for IIS Express
+description: This post is about how Jexus Manager can manage IIS Express.
 tags: IIS
 permalink: /jexus-manager-for-iis-express-7620e9e976d0
 excerpt_separator: <!--more-->

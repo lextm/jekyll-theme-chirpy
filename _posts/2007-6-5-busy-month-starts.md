@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Busy Month Starts"
+description: "This post describes my busy month ahead."
 tags: Others
 permalink: /busy-month-starts-2520a3d046f6
 excerpt_separator: <!--more-->

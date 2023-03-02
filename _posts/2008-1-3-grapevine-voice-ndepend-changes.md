@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: NDepend Changes"
+description: This posts talks about the changes in NDepend.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-ndepend-changes-d54136a22bdd
 excerpt_separator: <!--more-->

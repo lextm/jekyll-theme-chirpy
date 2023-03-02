@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Separate .NET 2.0/3.0 SP1 Installers"
+description: This post is about separate .NET 2.0/3.0 SP1 installers.
 tags: .NET
 permalink: /separate-net-2-0-3-0-sp1-installers-330e39e03ae1
 excerpt_separator: <!--more-->

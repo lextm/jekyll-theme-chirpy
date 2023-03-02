@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CBC BigFace version is out there!"
+description: A post about CBC BigFace version 4.4
 tags: Code-Beautifier-Collection Delphi
 permalink: /cbc-bigface-version-is-out-there-a94ff3b01476
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Code Beautifier Collection 2.4 Beta 2 is Nearly Ready!"
+description: A post about Code Beautifier Collection 2.4 Beta 2.
 tags: Code-Beautifier-Collection Delphi
 permalink: /code-beautifier-collection-2-4-beta-2-is-nearly-ready-4849800eac1
 excerpt_separator: <!--more-->

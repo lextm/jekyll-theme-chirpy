@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Promoting Open Source Projects"
+description: "This post talks about how to promote open source projects."
 tags: Others
 permalink: /promoting-open-source-projects-863ad2f838dc
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CBC TechNote: About 2.2"
+description: A post about the latest version 2.2 of CBC.
 tags: Code-Beautifier-Collection Delphi
 permalink: /cbc-technote-about-2-2-754f219938dc
 excerpt_separator: <!--more-->

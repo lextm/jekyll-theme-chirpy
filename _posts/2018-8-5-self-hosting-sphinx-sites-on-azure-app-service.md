@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Self-Hosting Sphinx Sites on Azure App Service
+description: A post about how I self-hosted Sphinx sites on Azure App Service.
 tags: Visual-Studio
 permalink: /self-hosting-sphinx-sites-on-azure-app-service-a05b9db25e9a
 excerpt_separator: <!--more-->

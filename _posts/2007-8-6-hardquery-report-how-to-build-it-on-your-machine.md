@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: How To Build It On Your Machine"
+description: "This post talks about how to build HardQuery source code on your machine."
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-how-to-build-it-on-your-machine-8659b530e522
 excerpt_separator: <!--more-->

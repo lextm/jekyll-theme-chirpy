@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "假期开始：迷惘和兴奋交织"
+description: "这篇文章讲述了假期开始的一些事情。"
 tags: Others
 permalink: /假期开始-迷惘和兴奋交织-964503e8ac4d
 excerpt_separator: <!--more-->

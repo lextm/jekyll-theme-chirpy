@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: InDate's Future"
+description: "This post describes about the InDate feature in GrapeVine release."
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-indates-future-c4f23b2d0f2f
 excerpt_separator: <!--more-->

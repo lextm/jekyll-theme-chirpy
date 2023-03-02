@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "I Think NixNewNer is on the way"
+description: This post is about the new roadmap of NixNewNer.
 tags: Code-Beautifier-Collection Delphi
 permalink: /i-think-nixnewner-is-on-the-way-482c5707705d
 excerpt_separator: <!--more-->

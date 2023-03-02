@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to Use ANTLR 4 on .NET in 2017
+description: A post about how to use ANTLR 4 on .NET in 2017.
 tags: Visual-Studio .NET
 permalink: /how-to-use-antlr-4-on-net-in-2017-d8bfe7efa74c
 excerpt_separator: <!--more-->

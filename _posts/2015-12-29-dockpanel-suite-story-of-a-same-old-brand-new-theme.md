@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "DockPanel Suite: Story of A Same Old Brand New Theme"
+description: "This post is about how I created a new theme for DockPanel Suite."
 tags: Code-Beautifier-Collection Delphi
 excerpt_separator: <!--more-->
 ---

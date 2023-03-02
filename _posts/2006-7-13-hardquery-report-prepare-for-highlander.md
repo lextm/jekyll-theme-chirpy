@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: Prepare, for Highlander"
+description: "This post talks about my preparation for .NET Framework 2.0."
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-prepare-for-highlander-7b18d63fb452
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: RC 5 is out and the Final will be available late in April"
+description: This post is about the progress of HardQuery.
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-rc-5-is-out-and-the-final-will-be-available-late-in-april-22bf25edde59
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: User Interface Update 2"
+description: This article shows the new user interface of GrapeVine Voice.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-user-interface-update-2-18cc87893d4a
 excerpt_separator: <!--more-->

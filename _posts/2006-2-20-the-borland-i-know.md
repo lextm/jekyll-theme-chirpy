@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Borland I Know"
+description: 介绍了自己对 Borland 的很多看法
 tags: Code-Beautifier-Collection Delphi
 permalink: /the-borland-i-know-141062ba985a
 excerpt_separator: <!--more-->

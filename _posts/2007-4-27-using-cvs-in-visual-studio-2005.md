@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Using CVS in Visual Studio 2005"
+description: "This article introduces how to use CVS in Visual Studio 2005."
 tags: Visual-Studio
 permalink: /using-cvs-in-visual-studio-2005-99a59576e68f
 excerpt_separator: <!--more-->

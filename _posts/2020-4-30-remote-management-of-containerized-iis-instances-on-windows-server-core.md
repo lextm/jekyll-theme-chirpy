@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Remote Management of Containerized IIS Instances on Windows Server Core
+description: A post about how to enable IIS remote management on Windows Server Core
 tags: Windows IIS Microsoft
 permalink: /remote-management-of-containerized-iis-instances-on-windows-server-core-f6864c74917f
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Removed Feature List for N3 RC 1"
+description: This post is about the removed features in N3 RC 1.
 tags: Code-Beautifier-Collection Delphi
 permalink: /removed-feature-list-for-n3-rc-1-589771f3662d
 excerpt_separator: <!--more-->

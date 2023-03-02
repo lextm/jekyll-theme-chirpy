@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Pex: Test What?"
+description: "This post talks about Pex, a new test framework from Microsoft Research."
 tags: .NET
 permalink: /pex-test-what-bb2186df5203
 excerpt_separator: <!--more-->

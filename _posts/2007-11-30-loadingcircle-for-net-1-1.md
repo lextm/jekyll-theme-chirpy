@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "LoadingCircle for .NET 1.1"
+description: This post talks about my attempt to port LoadingCircle to .NET 1.1.
 tags: Code-Beautifier-Collection Delphi
 permalink: /loadingcircle-for-net-1-1-a6921ccdccb4
 excerpt_separator: <!--more-->

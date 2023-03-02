@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Source Code Is More Important?"
+description: "This post talks about the download count of GrapeVine Voice."
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-source-code-is-more-important-7088e21ac620
 excerpt_separator: <!--more-->

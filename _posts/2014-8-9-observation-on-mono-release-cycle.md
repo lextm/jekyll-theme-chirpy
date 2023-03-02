@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Observation on Mono Release Cycle"
+description: "This post is about the recent release cycles of Mono."
 tags: Mono
 permalink: /observation-on-mono-release-cycle-ad4ef995cd19
 excerpt_separator: <!--more-->

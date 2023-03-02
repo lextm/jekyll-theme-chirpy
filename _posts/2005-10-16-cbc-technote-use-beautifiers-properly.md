@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CBC TechNote: Use Beautifiers Properly?"
+description: A post about when to use code beautifiers and how to avoid the pitfalls.
 tags: Code-Beautifier-Collection Delphi
 permalink: /cbc-technote-use-beautifiers-properly-cd446deaf8e6
 excerpt_separator: <!--more-->

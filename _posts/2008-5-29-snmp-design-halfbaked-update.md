@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Halfbaked Update"
+description: This post talks about the delay of #SNMP 0.5 (Halfbaked) release.
 tags: SNMP
 permalink: /snmp-design-halfbaked-update-361038bda1cb
 excerpt_separator: <!--more-->

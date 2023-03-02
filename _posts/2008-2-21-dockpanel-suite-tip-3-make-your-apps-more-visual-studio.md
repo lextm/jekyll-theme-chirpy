@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "DockPanel Suite Tip #3: Make Your Apps More Visual Studio"
+description: This post talks about how to make DockPanel Suite more like Visual Studio.
 tags: DockPanel-Suite
 permalink: /dockpanel-suite-tip-3-make-your-apps-more-visual-studio-da921c4f92cb
 excerpt_separator: <!--more-->

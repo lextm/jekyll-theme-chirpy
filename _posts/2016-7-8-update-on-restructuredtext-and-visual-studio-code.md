@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Update on reStructuredText and Visual Studio Code"
+description: "This post is about the update on reStructuredText and Visual Studio Code."
 tags: reStructuredText
 permalink: /update-on-restructuredtext-and-visual-studio-code-1b23916c4c0f
 excerpt_separator: <!--more-->

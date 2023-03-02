@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Refactoring Tools: Dangerous"
+description: "This post describes why manual refactoring is much safer than using refactoring tools."
 tags: JetBrains
 permalink: /refactoring-tools-dangerous-c4ce872a5425
 excerpt_separator: <!--more-->

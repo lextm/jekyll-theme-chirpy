@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Vista SP1 Performance"
+description: This post is about Windows Vista SP1 performance.
 tags: Windows
 permalink: /vista-sp1-performance-d66b85d22f19
 excerpt_separator: <!--more-->

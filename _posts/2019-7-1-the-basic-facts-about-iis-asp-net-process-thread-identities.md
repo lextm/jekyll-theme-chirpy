@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Basic Facts About IIS/ASP.NET Process/Thread Identities
+description: A post about the basic facts about IIS/ASP.NET process/thread identities that can help you understand the root cause of some issues.
 tags: IIS .NET ASP.NET
 permalink: /the-basic-facts-about-iis-asp-net-process-thread-identities-835eaac876a0
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: How To Build It On Your Machine (Part II)"
+description: "This post is part ii on how to build GrapeVine on your machine."
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-how-to-build-it-on-your-machine-part-ii-a6f1c5577e76
 excerpt_separator: <!--more-->

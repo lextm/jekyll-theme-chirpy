@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Banshee for Windows Progress"
+description: "This post talks about the progress of Banshee for Windows."
 tags: Windows Mono
 permalink: /banshee-for-windows-progress-e65b7cc18392
 excerpt_separator: <!--more-->

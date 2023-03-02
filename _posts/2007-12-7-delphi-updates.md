@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Delphi 7/2005/2006/2007的最新更新"
+description: "这篇文章介绍了 Delphi 7/2005/2006/2007的最新更新。"
 tags: Delphi
 permalink: /delphi-7-2005-2006-2007的最新更新-dc4b18b8724b
 excerpt_separator: <!--more-->

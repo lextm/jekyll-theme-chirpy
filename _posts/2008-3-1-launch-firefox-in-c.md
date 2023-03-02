@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Launch Firefox in C#"
+description: This post talks about how to launch Firefox in C#.
 tags: .NET
 permalink: /launch-firefox-in-c-b74d7264d2a4
 excerpt_separator: <!--more-->

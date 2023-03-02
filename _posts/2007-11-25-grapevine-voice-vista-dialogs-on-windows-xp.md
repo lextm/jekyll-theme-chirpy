@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Vista Dialogs on Windows XP"
+description: This post talks about that it is possible to emulate those Vista only dialogs on Windows XP.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-vista-dialogs-on-windows-xp-7cb7af841c1b
 excerpt_separator: <!--more-->

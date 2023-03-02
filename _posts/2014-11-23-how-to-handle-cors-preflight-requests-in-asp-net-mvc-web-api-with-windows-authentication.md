@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to Handle CORS Preflight Requests in ASP.NET MVC/Web API with Windows Authentication
+description: "This post is about how to handle CORS preflight requests in ASP.NET MVC/Web API with Windows Authentication."
 tags: IIS .NET
 permalink: /how-to-handle-cors-preflight-requests-in-asp-net-mvc-web-api-with-windows-authentication-f19814cbb558
 excerpt_separator: <!--more-->

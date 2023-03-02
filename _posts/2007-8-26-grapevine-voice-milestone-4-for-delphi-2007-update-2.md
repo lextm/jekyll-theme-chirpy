@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Milestone 4 for Delphi 2007 Update 2"
+description: "This post is to announce Milestone 4 for Delphi 2007 Update 2."
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-milestone-4-for-delphi-2007-update-2-a1971ce08d69
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "ClearContext Update"
+description: This post announces the release of IMS 4.0.
 tags: Windows
 permalink: /clearcontext-update-676c77d86c03
 excerpt_separator: <!--more-->

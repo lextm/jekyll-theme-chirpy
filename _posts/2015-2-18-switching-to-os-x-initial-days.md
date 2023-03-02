@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Switching to OS X: Initial Days"
+description: "This post is about my initial days of switching to OS X."
 tags: macOS
 permalink: /switching-to-os-x-initial-days-54cad828abac
 excerpt_separator: <!--more-->

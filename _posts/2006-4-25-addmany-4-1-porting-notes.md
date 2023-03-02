@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AddMany 4.1 Porting Notes"
+description: This post is about the porting of AddMany 4.1 to CBC 2.
 tags: Code-Beautifier-Collection Delphi
 permalink: /addmany-4-1-porting-notes-eace63c85cae
 excerpt_separator: <!--more-->

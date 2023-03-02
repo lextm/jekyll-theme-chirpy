@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Migrating Files UWP to Uno, Part I
+description: A post about my attempt migrating Files UWP to Uno Platform
 tags: Windows Uno-Platform macOS
 permalink: /migrating-files-uwp-to-uno-part-i-ee20c4b0084a
 excerpt_separator: <!--more-->

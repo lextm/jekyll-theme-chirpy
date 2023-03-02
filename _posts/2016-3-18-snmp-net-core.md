@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "如何迁移#SNMP到.NET Core平台的一些体会"
+description: "本文介绍了如何迁移#SNMP到.NET Core平台的一些体会"
 tags: SNMP .NET
 permalink: /如何迁移-snmp到-net-core平台的一些体会-b5e8b56f69da
 excerpt_separator: <!--more-->

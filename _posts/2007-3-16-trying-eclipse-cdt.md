@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Trying Eclipse CDT"
+description: "This post is about my experience with Eclipse CDT."
 tags: Java
 permalink: /trying-eclipse-cdt-43d754f617e1
 excerpt_separator: <!--more-->

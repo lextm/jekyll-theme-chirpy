@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "First Entry written with Windows Live Writer"
+description: "This post describes how I use Windows Live Writer to author a blog entry."
 tags: Windows
 permalink: /first-entry-written-with-windows-live-writer-af344ebbd829
 excerpt_separator: <!--more-->

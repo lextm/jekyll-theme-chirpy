@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Product Review: QC Plus 1.0"
+description: This post is a product review of QC Plus 1.0.
 tags: Delphi
 permalink: /product-review-qc-plus-1-0-77a0e79f86a8
 excerpt_separator: <!--more-->

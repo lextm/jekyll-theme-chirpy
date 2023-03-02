@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Who Should Support Mono?"
+description: "This post talks about who should support Mono development."
 tags: Mono
 permalink: /who-should-support-mono-e5384b9d94d8
 excerpt_separator: <!--more-->

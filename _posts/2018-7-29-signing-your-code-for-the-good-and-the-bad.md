@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Signing Your Code For The Good, And The Bad
+description: A post about how to sign your code, and why you should do it.
 tags: Visual-Studio .NET
 permalink: /signing-your-code-for-the-good-and-the-bad-350b25d2b38d
 excerpt_separator: <!--more-->

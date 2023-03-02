@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Alex: SharpDevelop 2.2 Is Still Supported"
+description: "This post describes that Alex 1.0 still works fine with SharpDevelop 2.2."
 tags: .NET
 permalink: /alex-sharpdevelop-2-2-is-still-supported-151a6fc6216a
 excerpt_separator: <!--more-->

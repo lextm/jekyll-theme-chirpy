@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Offline Publishing ASP.NET Core Apps
+description: A post about offline publishing ASP.NET Core apps.
 tags: Visual-Studio .NET IIS
 permalink: /offline-publishing-asp-net-core-apps-cf22f45158af
 excerpt_separator: <!--more-->

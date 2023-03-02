@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "DockPanel Suite: Skins, Schemas, and Themes"
+description: "This post talks about the history of skins, schemas, and themes in DockPanel Suite."
 tags: Code-Beautifier-Collection Delphi
 permalink: /dockpanel-suite-skins-schemas-and-themes-a080747aa1c8
 excerpt_separator: <!--more-->

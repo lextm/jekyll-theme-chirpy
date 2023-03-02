@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Milestone 3 Is Feature Complete"
+description: "This post describes about the new features in Code Beautifier Collection 6.0.0.1003."
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-milestone-3-is-feature-complete-a693a6e0e02e
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ASP.NET Core Crashes and Burns
+description: A post about ASP.NET Core common issues that you should be aware of
 tags: Windows .NET Visual-Studio
 excerpt_separator: <!--more-->
 ---

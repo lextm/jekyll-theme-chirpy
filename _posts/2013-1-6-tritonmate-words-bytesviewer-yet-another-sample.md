@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "TritonMate Words: BytesViewer, Yet Another Sample"
+description: This post talks about the new sample, BytesViewer, which is a very useful tool for learning and troubleshooting.
 tags: SNMP
 permalink: /tritonmate-words-bytesviewer-yet-another-sample-3c83c897ccf7
 excerpt_separator: <!--more-->

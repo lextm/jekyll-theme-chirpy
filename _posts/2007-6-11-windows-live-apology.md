@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Windows Live Apology"
+description: "This post describes the recent Windows Live Writer issue."
 tags: Windows
 permalink: /windows-live-apology-693b3a39918
 excerpt_separator: <!--more-->

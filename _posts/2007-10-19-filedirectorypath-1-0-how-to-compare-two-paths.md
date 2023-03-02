@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "FileDirectoryPath 1.0: How to Compare Two Paths"
+description: "This post shows how to compare two paths in C# with the library FileDirectoryPath."
 tags: .NET
 permalink: /filedirectorypath-1-0-how-to-compare-two-path-69926ba6e0e1
 excerpt_separator: <!--more-->

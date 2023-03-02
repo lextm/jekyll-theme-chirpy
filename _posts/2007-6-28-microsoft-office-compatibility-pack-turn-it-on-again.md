@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Microsoft Office Compatibility Pack: Turn It On Again"
+description: "This post describes that after installing Microsoft Office Compatibility Pack, my Office XP can open Office 2007 format files."
 tags: Code-Beautifier-Collection Delphi
 permalink: /microsoft-office-compatibility-pack-turn-it-on-again-1548e87d6dd2
 excerpt_separator: <!--more-->

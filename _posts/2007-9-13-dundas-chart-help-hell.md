@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Dundas Chart Help Hell"
+description: "This post talks about the low quality help materials of Dundas Chart."
 tags: .NET
 permalink: /dundas-chart-help-hell-9cebbb2c5621
 excerpt_separator: <!--more-->

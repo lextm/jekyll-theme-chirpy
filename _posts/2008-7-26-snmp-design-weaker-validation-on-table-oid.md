@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Weaker Validation on Table OID"
+description: "This post talks about the validation on table OID."
 tags: SNMP
 permalink: /snmp-design-weaker-validation-on-table-oid-b34c0c4d9e00
 excerpt_separator: <!--more-->

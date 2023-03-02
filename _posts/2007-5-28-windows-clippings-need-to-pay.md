@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Window Clippings: Need to Pay?"
+description: "This post describes the change of Window Clippings."
 tags: Windows
 permalink: /window-clippings-need-to-pay-7b3251bcc924
 excerpt_separator: <!--more-->

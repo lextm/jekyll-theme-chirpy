@@ -1,6 +1,7 @@
 ---
 layout: post
 title: IIS Express Failed to Start ASP.NET Core Apps Edge Case
+description: This post is about an edge case when IIS Express failed to start ASP.NET Core apps.
 tags: Visual-Studio IIS
 permalink: /iis-express-failed-to-start-for-asp-net-core-apps-edge-case-78efdc18e1c6
 excerpt_separator: <!--more-->

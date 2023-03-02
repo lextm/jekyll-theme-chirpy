@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Digging Windows Live Writer"
+description: "This post describes some interesting things about Windows Live Writer."
 tags: Windows
 permalink: /digging-windows-live-writer-9b5403d6af8a
 excerpt_separator: <!--more-->

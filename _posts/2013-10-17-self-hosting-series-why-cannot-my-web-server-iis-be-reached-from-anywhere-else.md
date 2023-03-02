@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Self Hosting Series: Why Cannot My Web Server (IIS) Be Reached from Anywhere Else?"
+description: "This post talks about how to troubleshoot web server (IIS) connection issues with complex network setup."
 tags: IIS
 permalink: /self-hosting-series-why-cannot-my-web-server-iis-be-reached-from-anywhere-else-8da0e0b252ef
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Unhandled Exceptions Revisited, Part II"
+description: This post talks about how to handle unhandled exceptions.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-unhandled-exceptions-revisited-part-ii-c9972b3f8478
 excerpt_separator: <!--more-->

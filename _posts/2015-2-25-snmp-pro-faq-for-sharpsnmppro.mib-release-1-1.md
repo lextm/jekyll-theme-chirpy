@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Pro: FAQ for SharpSnmpPro.Mib Release 1.1"
+description: This post is about some frequently asked questions about SharpSnmpPro.Mib release 1.1.
 tags: SNMP
 permalink: /snmp-pro-faq-for-sharpsnmppro-mib-release-1-1-b68824d9220a
 excerpt_separator: <!--more-->

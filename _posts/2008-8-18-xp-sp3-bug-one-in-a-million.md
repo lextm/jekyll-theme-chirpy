@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "XP SP3 Bug: One in A Million"
+description: "This post talks about the XP SP3 bug."
 tags: Windows
 permalink: /xp-sp3-bug-one-in-a-million-c13e434f05b8
 excerpt_separator: <!--more-->

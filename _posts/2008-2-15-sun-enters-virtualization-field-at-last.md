@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "SUN Enters Virtualization Field At Last"
+description: This post talks about SUN's virtualization strategy.
 tags: Others
 permalink: /sun-enters-virtualization-field-at-last-35707de66311
 excerpt_separator: <!--more-->

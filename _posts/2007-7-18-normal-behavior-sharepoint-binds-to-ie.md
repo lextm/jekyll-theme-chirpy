@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Normal Behavior: SharePoint Binds to IE"
+description: "This post talks about SharePoint and IE."
 tags: Windows
 permalink: /normal-behavior-sharepoint-binds-to-ie-f6e77819d6b3
 excerpt_separator: <!--more-->

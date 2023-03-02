@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: 5.3.4.1001 Source Code Is Available"
+description: This post announces the release of HardQuery 5.3.4.1001 source code.
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-5-3-4-1001-source-code-is-available-2461ec88def9
 excerpt_separator: <!--more-->

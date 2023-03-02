@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Product Review: ClearContext IMS"
+description: "This post talks about ClearContext, an Outlook extension that improves productivity."
 tags: Windows
 permalink: /product-review-clearcontext-ims-4f5ce4dcb4f
 excerpt_separator: <!--more-->

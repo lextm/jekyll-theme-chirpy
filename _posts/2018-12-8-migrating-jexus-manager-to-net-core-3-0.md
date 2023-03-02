@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Migrating Jexus Manager to .NET Core 3.0
+description: A post about migrating Jexus Manager to .NET Core 3.0 and what are the goodies.
 tags: Visual-Studio .NET IIS
 permalink: /migrating-jexus-manager-to-net-core-3-0-f1c41ae50572
 excerpt_separator: <!--more-->

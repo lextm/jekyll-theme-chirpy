@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Shield Test For Your Site"
+description: This post talks about the Golden Shield.
 tags: Google
 permalink: /shield-test-for-your-site-dc672a27b4a6
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "From Value Types to Reference Types"
+description: "This post talks about what you must pay attention to when you design a library and have to change a few types from value types to reference types."
 tags: .NET
 permalink: /from-value-types-to-reference-types-93912062163c
 excerpt_separator: <!--more-->

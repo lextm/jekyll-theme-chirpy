@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Safari: Is It Firefox?"
+description: "This post talks about Safari and Firefox."
 tags: Windows
 permalink: /safari-is-it-firefox-575190f8f312
 excerpt_separator: <!--more-->

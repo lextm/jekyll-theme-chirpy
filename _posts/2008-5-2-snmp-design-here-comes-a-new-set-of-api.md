@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Here Comes A New Set of API"
+description: This post talks about the new API of #SNMP.
 tags: SNMP
 permalink: /snmp-design-here-comes-a-new-set-of-api-ededcefba0e0
 excerpt_separator: <!--more-->

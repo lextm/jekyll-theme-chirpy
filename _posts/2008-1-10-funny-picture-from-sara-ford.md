@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Funny Picture from Sara Ford"
+description: This post is about a funny picture taken at CodeMash.
 tags: Delphi Visual-Studio
 permalink: /funny-picture-from-sara-ford-1aa65fbc559c
 excerpt_separator: <!--more-->

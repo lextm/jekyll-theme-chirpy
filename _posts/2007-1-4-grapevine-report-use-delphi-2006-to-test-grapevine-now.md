@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Report: Use Delphi 2006 to test GrapeVine now"
+description: "This post reports the progress of GrapeVine."
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-report-use-delphi-2006-to-test-grapevine-now-75458ab97c9f
 excerpt_separator: <!--more-->

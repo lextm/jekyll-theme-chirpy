@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Go Big or Go Home?"
+description: This post talks about the recent acquisition of BEA by Oracle.
 tags: Java
 permalink: /go-big-or-go-home-d39687fba93c
 excerpt_separator: <!--more-->

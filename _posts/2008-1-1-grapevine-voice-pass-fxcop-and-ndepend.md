@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Pass FxCop And NDepend"
+description: This posts talks about FxCop and NDepend generated reports.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-pass-fxcop-and-ndepend-ad7cbe830db2
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "harry-potter-7-extras-86ee10a303a2"
+description: This post is about Harry Potter 7 Extras.
 tags: Others
 permalink: /harry-potter-7-extras-86ee10a303a2
 excerpt_separator: <!--more-->

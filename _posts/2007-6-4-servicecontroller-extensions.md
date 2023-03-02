@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "ServiceController Extensions"
+description: "This post describes how to get the executable name of a Windows service."
 tags: Windows .NET
 permalink: /servicecontroller-extensions-de5af7a92903
 excerpt_separator: <!--more-->

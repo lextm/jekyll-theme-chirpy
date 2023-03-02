@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to Acquire Dependencies for Visual Studio Code Extensions
+description: A post about how to acquire dependencies for Visual Studio Code extensions.
 tags: Visual-Studio-Code
 permalink: /how-to-acquire-dependencies-for-visual-studio-code-extensions-9ca828cb168d
 excerpt_separator: <!--more-->

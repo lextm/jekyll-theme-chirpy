@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Popfly Explorer: Add-in For Visual Studio Express"
+description: "This post describes Popfly Explorer, an Add-in for Visual Studio Express."
 tags: Visual-Studio
 permalink: /popfly-explorer-add-in-for-visual-studio-express-495637f47aa3
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Alex: Revived By Matt"
+description: "This post talks about the progress of Alex."
 tags: .NET
 permalink: /alex-revived-by-matt-b9acc3395e3e
 excerpt_separator: <!--more-->

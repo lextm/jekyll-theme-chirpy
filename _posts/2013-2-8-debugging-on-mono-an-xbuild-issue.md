@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Debugging on Mono: An xbuild Issue"
+description: This post talks about an issue I encountered when trying to compile F# on Windows with Mono.
 tags: Mono
 permalink: /debugging-on-mono-an-xbuild-issue-44cda356cfa1
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "DockPanel Suite: Difficulties of Integating Visual Studio 2012 Skin"
+title: "DockPanel Suite: Difficulties of Integrating Visual Studio 2012 Skin"
+description: "This post talks about the difficulties of integrating Visual Studio 2012 skin into DockPanel Suite."
 tags: DockPanel-Suite
 permalink: /dockpanel-suite-difficulties-of-integating-visual-studio-2012-skin-bf4eb1529cf2
 excerpt_separator: <!--more-->

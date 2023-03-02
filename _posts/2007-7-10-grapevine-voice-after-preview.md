@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: After Preview"
+description: "This post describes about the changes after GrapeVine Preview."
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-after-preview-e225b8c640f8
 excerpt_separator: <!--more-->

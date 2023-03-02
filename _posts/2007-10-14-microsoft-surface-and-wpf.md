@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Microsoft Surface And WPF"
+description: This post talks about Microsoft Surface and WPF.
 tags: Windows .NET
 permalink: /microsoft-surface-and-wpf-b7647ff0b94f
 excerpt_separator: <!--more-->

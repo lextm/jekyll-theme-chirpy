@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Time to .NET? I found it not"
+description: This post is about the problems of .NET Framework.
 tags: Code-Beautifier-Collection Delphi
 permalink: /time-to-net-i-found-it-not-98043f7486d8
 excerpt_separator: <!--more-->

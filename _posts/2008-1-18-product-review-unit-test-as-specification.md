@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Product Review: Unit Test As Specification"
+description: This post is a product review of NSpec.
 tags: .NET
 permalink: /product-review-unit-test-as-specification-5b1e7fcc9c3e
 excerpt_separator: <!--more-->

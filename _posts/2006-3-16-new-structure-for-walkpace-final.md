@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "New Structure for WalkPace Final"
+description: A post about new architecture for WalkPace Final
 tags: Code-Beautifier-Collection Delphi
 permalink: /new-structure-for-walkpace-final-4fcea361893f
 excerpt_separator: <!--more-->

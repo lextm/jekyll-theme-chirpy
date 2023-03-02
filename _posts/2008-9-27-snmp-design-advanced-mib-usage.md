@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Advanced MIB Usage"
+description: "This post talks about advanced MIB usage in #SNMP Library."
 tags: SNMP
 permalink: /snmp-design-advanced-mib-usage-30a13924564f
 excerpt_separator: <!--more-->

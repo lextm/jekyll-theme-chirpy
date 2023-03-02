@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "UAC Off On Applications"
+description: This post is about how to turn off UAC for some applications.
 tags: Windows
 permalink: /uac-off-on-applications-8ee164af45a1
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "News: NixNewNer Update 1 RC 2 is ready"
+description: This post is about the latest build of N3 Update 1 RC 2.
 tags: Code-Beautifier-Collection Delphi
 permalink: /news-nixnewner-update-1-rc-2-is-ready-8812b6fbcfae
 excerpt_separator: <!--more-->
@@ -9,10 +10,6 @@ excerpt_separator: <!--more-->
 
 Some useful features added.
 <!--more-->
-
-(CSDN June 12, 2006)
-
-Some useful features added.
 
 1. Multi-level tree node support is added in Preferences Dialog. However, it is not complete now, so details are not listed in LeXDK Developer's Guide.
 1. CodeBeautifiers Plus uses this feature first to deliver more options in CB General Page. Currently only SaveBeforeFormat option is available but it is disabled by default. You can turn it on if you are tired of MessageBoxes that warn you to save your file before formatting.

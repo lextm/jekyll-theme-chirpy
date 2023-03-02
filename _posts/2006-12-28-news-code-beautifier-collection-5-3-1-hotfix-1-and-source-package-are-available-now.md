@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "News! Code Beautifier Collection 5.3.1 Hotfix 1 and source package are available now"
+description: "This post announces the availability of Code Beautifier Collection 5.3.1 Hotfix 1 and source code."
 tags: Code-Beautifier-Collection Delphi
 permalink: /news-code-beautifier-collection-5-3-1-hotfix-1-and-source-package-are-available-now-367dcb1537af
 excerpt_separator: <!--more-->

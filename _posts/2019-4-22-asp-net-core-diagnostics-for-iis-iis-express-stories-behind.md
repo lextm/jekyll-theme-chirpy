@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ASP.NET Core Diagnostics for IIS/IIS Express, Stories Behind
+description: A post about how to diagnose ASP.NET Core issues on IIS/IIS Express.
 tags: .NET IIS ASP.NET Visual-Studio
 permalink: /asp-net-core-diagnostics-for-iis-iis-express-stories-behind-90b4e8229aad
 excerpt_separator: <!--more-->

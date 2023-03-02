@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jexus Series: Jexus Web Server English Homepage"
+description: "This post talks about Jexus web server English homepage."
 tags: Jexus-Manager
 permalink: /jexus-series-jexus-web-server-english-homepage-3ce04b9b6c5b
 excerpt_separator: <!--more-->

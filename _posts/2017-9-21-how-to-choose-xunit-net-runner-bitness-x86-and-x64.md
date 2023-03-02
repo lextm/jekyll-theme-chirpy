@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to Choose xUnit.net Runner Bitness (x86 and x64)
+description: This post is about how to choose xUnit.net runner bitness (x86 and x64) in console or Visual Studio.
 tags: .NET Visual-Studio macOS xUnit
 permalink: /how-to-choose-xunit-net-runner-bitness-x86-and-x64-11f1fb540478
 excerpt_separator: <!--more-->

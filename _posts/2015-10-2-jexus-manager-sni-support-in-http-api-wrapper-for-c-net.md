@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Jexus Manager: SNI Support in HTTP API Wrapper for C#/.NET
-"
+title: "Jexus Manager: SNI Support in HTTP API Wrapper for C#/.NET"
+description: "This post is about how to access SNI information in C# code."
 tags: Jexus-Manager IIS .NET
 permalink: /jexus-manager-sni-support-in-http-api-wrapper-for-c-net-3c56d620b2b2
 excerpt_separator: <!--more-->

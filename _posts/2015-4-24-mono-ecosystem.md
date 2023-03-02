@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Mono 生态系统未来可能的进化方向"
+description: "本文介绍了 Mono 生态系统未来可能的进化方向。"
 tags: Mono
 permalink: /mono-生态系统未来可能的进化方向-cff149c24f9e
 excerpt_separator: <!--more-->

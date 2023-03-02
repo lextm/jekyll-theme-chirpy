@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: Who freezes BDS when launching"
+description: "This post reports a problem when launching CBC in Delphi 2006."
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-who-freezes-bds-when-launching-cba788e99b53
 excerpt_separator: <!--more-->

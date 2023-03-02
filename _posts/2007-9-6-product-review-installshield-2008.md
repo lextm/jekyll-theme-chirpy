@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Product Review: InstallShield 2008"
+description: "This post is about InstallShield 2008."
 tags: Windows
 permalink: /product-review-installshield-2008-e80bed2f9336
 excerpt_separator: <!--more-->

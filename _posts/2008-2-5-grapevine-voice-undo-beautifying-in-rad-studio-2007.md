@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Undo Beautifying in RAD Studio 2007"
+description: This post talks about the change in undo/redo mechanism in RAD Studio 2007.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-undo-beautifying-in-rad-studio-2007-f715e6a121fa
 excerpt_separator: <!--more-->

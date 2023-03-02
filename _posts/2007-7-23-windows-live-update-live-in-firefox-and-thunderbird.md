@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Windows Live Update: Live in Firefox and Thunderbird"
+description: "This post talks about Windows Live Update and it doesn't yet work with Firefox and Thunderbird."
 tags: Windows
 permalink: /windows-live-update-live-in-firefox-and-thunderbird-da3faaa4657a
 excerpt_separator: <!--more-->

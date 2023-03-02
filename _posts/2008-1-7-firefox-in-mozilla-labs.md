@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Firefox in Mozilla Labs"
+description: This post is about Firefox in Mozilla Labs.
 tags: Firefox
 permalink: /firefox-in-mozilla-labs-d9983318cdef
 excerpt_separator: <!--more-->

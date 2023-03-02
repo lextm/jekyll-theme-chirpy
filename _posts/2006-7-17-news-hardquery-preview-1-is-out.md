@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "News: HardQuery Preview 1 is out"
+description: "This post talks about HardQuery Preview 1."
 tags: Code-Beautifier-Collection Delphi
 permalink: /news-hardquery-preview-1-is-out-f32eb717d9ad
 excerpt_separator: <!--more-->

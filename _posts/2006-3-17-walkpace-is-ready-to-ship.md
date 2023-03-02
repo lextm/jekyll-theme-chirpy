@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "WalkPace is ready to ship!"
+description: This post is about the status of CBC WalkPace and it features.
 tags: Code-Beautifier-Collection Delphi
 permalink: /walkpace-is-ready-to-ship-7fed5643f114
 excerpt_separator: <!--more-->

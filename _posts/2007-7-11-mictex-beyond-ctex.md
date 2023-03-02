@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "MiCTeX: Beyond CTeX"
+description: "This post describes why/how I have to switch to MiCTeX from CTeX."
 tags: Windows
 permalink: /mictex-beyond-ctex-e2df20d4b8c0
 excerpt_separator: <!--more-->

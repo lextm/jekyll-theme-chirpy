@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "More on .NET Localization"
+description: "This post describes more tips on .NET localization."
 tags: .NET
 permalink: /more-on-net-localization-da1d4edfc0ba
 excerpt_separator: <!--more-->

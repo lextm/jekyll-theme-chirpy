@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Safari on Windows: Free and Easy"
+description: "This post talks about Safari on Windows."
 tags: Windows
 permalink: /safari-on-windows-free-and-easy-1f36a1b58e08
 excerpt_separator: <!--more-->

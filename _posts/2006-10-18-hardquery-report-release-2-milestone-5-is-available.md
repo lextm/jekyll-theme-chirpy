@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: Release 2 Milestone 5 is available."
+description: This post reports the progress of HardQuery and Release 2 Milestone 5.
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-release-2-milestone-5-is-available-ee7c4a96c4d4
 excerpt_separator: <!--more-->

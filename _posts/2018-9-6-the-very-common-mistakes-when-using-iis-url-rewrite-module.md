@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Very Common Mistakes When Using IIS URL Rewrite Module
+description: A post about the very common mistakes when using IIS URL Rewrite Module and how to avoid them.
 tags: IIS
 permalink: /the-very-common-mistakes-when-using-iis-url-rewrite-module-a2ab7e4fee59
 excerpt_separator: <!--more-->

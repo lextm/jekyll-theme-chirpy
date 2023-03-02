@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Microsoft SQL Server Instances"
+description: This post talks about why there are several SQL Server services running on my workstation.
 tags: Microsoft
 permalink: /microsoft-sql-server-instances-14d9f80ef5e9
 excerpt_separator: <!--more-->

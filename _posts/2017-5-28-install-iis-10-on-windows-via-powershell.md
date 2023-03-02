@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Install IIS 10 on Windows via PowerShell
+description: "This post would show you how to install IIS 10 on Windows 10/Windows Server 2016 via PowerShell."
 tags: IIS PowerShell
 permalink: /install-iis-10-on-windows-via-powershell-96baf95efc2e
 excerpt_separator: <!--more-->

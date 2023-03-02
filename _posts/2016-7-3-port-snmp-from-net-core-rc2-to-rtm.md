@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Port #SNMP from .NET Core RC2 to RTM"
+description: "This post is about how I port #SNMP Library from .NET Core RC2 to RTM."
 tags: SNMP .NET
 permalink: /port-snmp-from-net-core-rc2-to-rtm-76234f61be98
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to Tell .NET 4.5 Only Assemblies"
+description: "This post shows how to tell whether a .NET assembly is compiled against .NET 4 or .NET 4.5."
 tags: .NET
 permalink: /how-to-tell-net-4-5-only-assemblies-f5e9041533bb
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Product Review: SNMP Libraries for .NET Evaluation Report"
+description: This post is about SNMP libraries for .NET.
 tags: SNMP .NET
 permalink: /product-review-snmp-libraries-for-net-evaluation-report-e13f25991cad
 excerpt_separator: <!--more-->

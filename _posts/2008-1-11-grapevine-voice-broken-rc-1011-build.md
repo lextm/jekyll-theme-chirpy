@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Broken RC 1011 Build"
+description: This post talks about the broken RC 1011 build.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-broken-rc-1011-build-314829bbea70
 excerpt_separator: <!--more-->

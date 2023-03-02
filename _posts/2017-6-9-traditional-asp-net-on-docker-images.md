@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Traditional ASP.NET on Docker: Images"
+description: "This post is about how to analyze the layers of a Docker image, and use ASP.NET container images as example."
 tags: IIS .NET
 permalink: /traditional-asp-net-on-docker-images-1af3b72eeaaf
 excerpt_separator: <!--more-->

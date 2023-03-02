@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "NAnt Update"
+description: This post announces the release of NAnt 0.86-beta1.
 tags: .NET Mono
 permalink: /nant-update-d02c0e49886d
 excerpt_separator: <!--more-->

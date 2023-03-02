@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "VMware Server vs. Player"
+description: "This post compares VMware Server and VMware Player."
 tags: Code-Beautifier-Collection Delphi
 permalink: /vmware-server-vs-player-b25c1c3f164e
 excerpt_separator: <!--more-->

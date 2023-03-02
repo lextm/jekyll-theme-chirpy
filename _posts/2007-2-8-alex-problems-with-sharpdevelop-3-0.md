@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Alex Problems with SharpDevelop 3.0"
+description: "This post is about the problems of Alex with SharpDevelop 3.0."
 tags: .NET SharpDevelop
 permalink: /alex-problems-with-sharpdevelop-3-0-23660f73fb7a
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A Test Page for IIS CPU Throttling
+description: A post about how to test IIS CPU throttling feature.
 tags: Visual-Studio .NET IIS
 permalink: /a-test-page-for-iis-cpu-throttling-8813f76c67d
 excerpt_separator: <!--more-->

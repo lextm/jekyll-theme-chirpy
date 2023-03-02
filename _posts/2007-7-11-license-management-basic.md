@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "License Management Basic"
+description: "This post describes how to develop a license management system for shareware."
 tags: Code-Beautifier-Collection Delphi
 permalink: /license-management-basic-e126ab09cb81
 excerpt_separator: <!--more-->

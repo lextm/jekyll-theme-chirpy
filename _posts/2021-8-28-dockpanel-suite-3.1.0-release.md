@@ -1,6 +1,7 @@
 ---
 layout: post
 title: DockPanel Suite 3.1.0 Release
+description: A post about DockPanel Suite 3.1.0 release and my departure from this open source project
 tags: Windows .NET Visual-Studio
 excerpt_separator: <!--more-->
 ---

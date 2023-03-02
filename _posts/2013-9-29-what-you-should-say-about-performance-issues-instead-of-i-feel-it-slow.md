@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "What You Should Say About Performance Issues Instead of 'I Feel It Slow'"
+description: "This post talks about how to discuss performance issues with others with clear descriptions."
 tags: IIS
 permalink: /what-you-should-say-about-performance-issues-instead-of-i-feel-it-slow-313b0e871aad
 excerpt_separator: <!--more-->

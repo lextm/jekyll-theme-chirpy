@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: Last piece?"
+description: "This post reports the progress of HardQuery."
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-last-piece-946fb572bfd6
 excerpt_separator: <!--more-->

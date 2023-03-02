@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "News! Plus File Format Version 2 is ready"
+description: This post is about Plus File Format Version 2.
 tags: Code-Beautifier-Collection Delphi
 permalink: /news-plus-file-format-version-2-is-ready-9c21c653da0f
 excerpt_separator: <!--more-->

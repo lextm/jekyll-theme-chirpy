@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Cost of Open Source Solutions, A Case Study on Red Hat and Docker
+description: A post about how to calculate the cost of open source solutions such as Docker on Red Hat Linux.
 tags: Linux Docker Red-Hat
 permalink: /the-cost-of-open-source-solutions-a-case-study-on-red-hat-and-docker-27f8cdad5969
 excerpt_separator: <!--more-->

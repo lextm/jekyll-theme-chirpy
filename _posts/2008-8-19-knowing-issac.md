@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Knowing Issac"
+description: "This post talks about a Hong Kong boy named Issac."
 tags: Others
 permalink: /knowing-issac-a6703cfb8167
 excerpt_separator: <!--more-->

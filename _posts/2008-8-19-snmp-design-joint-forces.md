@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Joint Forces"
+description: "This post talks about the new collaborator on CodePlex."
 tags: SNMP
 permalink: /snmp-design-joint-forces-237d43589acc
 excerpt_separator: <!--more-->

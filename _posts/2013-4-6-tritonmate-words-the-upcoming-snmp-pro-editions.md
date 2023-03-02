@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "TritonMate Words: The Upcoming #SNMP Pro Editions"
+description: "This post talks about the upcoming #SNMP Pro editions."
 tags: SNMP
 permalink: /tritonmate-words-the-upcoming-snmp-pro-editions-1b7b38c12c3d
 excerpt_separator: <!--more-->

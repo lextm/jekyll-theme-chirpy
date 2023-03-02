@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Flags Icons"
+description: "This post talks about some flags icons found over the internet."
 tags: Others
 permalink: /flags-icons-1851da691b49
 excerpt_separator: <!--more-->

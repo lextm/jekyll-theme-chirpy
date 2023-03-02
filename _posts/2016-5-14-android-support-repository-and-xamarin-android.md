@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Android Support Repository and Xamarin.Android"
+description: "This post is about how Android Support Repository works with Xamarin.Android."
 tags: .NET
 permalink: /android-support-repository-and-xamarin-android-4d7de680bcf2
 excerpt_separator: <!--more-->

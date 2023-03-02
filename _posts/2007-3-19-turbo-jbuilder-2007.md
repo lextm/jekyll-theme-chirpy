@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "免费的新东西：Turbo JBuilder 2007"
+description: "这篇文章讲述了 Turbo JBuilder 2007。"
 tags: Java
 permalink: /免费的新东西-turbo-jbuilder-2007-23ed47e254d6
 excerpt_separator: <!--more-->

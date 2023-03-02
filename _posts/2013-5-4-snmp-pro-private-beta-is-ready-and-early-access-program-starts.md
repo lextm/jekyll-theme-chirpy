@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Pro: Private Beta is Ready and Early Access Program Starts"
+description: "This post talks about the start of #SNMP MIB Compiler Pro Early Access Program."
 tags: SNMP
 permalink: /snmp-pro-private-beta-is-ready-and-early-access-program-starts-7311b09abd8e
 excerpt_separator: <!--more-->

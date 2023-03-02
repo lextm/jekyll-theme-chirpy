@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "OTA/.NET Compatibility Tests"
+description: This post is about the compatibility tests of OTA for .NET.
 tags: Code-Beautifier-Collection Delphi
 permalink: /ota-net-compatibilty-tests-6bf780a81a54
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "DockPanel Suite: Theme Reloaded"
+description: "This post would show you how we ported VS2012 Light theme in, how the related API was refactored, and how themes became separate NuGet packages."
 tags: DockPanel-Suite
 permalink: /dockpanel-suite-theme-reloaded-3bb41273d127
 excerpt_separator: <!--more-->

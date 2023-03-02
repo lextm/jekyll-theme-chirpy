@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jexus 网站服务器和 ASP.NET 跨平台开发"
+description: "这片文章分享了关于 Jexus 和 ASP.NET 跨平台开发的一些个人看法，供有兴趣的朋友们参考。"
 tags: Jexus-Manager IIS .NET
 permalink: /jexus-网站服务器和-asp-net-跨平台开发-e4cac4316352
 excerpt_separator: <!--more-->

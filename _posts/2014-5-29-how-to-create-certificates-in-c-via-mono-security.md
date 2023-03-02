@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to Create Certificates in C# via Mono.Security"
+description: This post shows how to create certificates in C# via Mono.Security.
 tags: .NET Mono
 permalink: /how-to-create-certificates-in-c-via-mono-security-f92ded38e6fb
 excerpt_separator: <!--more-->

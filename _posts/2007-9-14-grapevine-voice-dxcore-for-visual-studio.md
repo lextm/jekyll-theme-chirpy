@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: DXCore for Visual Studio"
+description: "This post talks about DXCore for Visual Studio."
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-dxcore-for-visual-studio-258b665a996e
 excerpt_separator: <!--more-->

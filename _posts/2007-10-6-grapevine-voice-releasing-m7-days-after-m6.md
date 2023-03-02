@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Releasing M7 Days After M6"
+description: This post announces the release of GrapeVine M7.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-releasing-m7-days-after-m6-ecc2354d73f6
 excerpt_separator: <!--more-->

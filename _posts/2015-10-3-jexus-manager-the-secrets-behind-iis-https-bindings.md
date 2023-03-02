@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jexus Manager: The Secret Behind IIS HTTPS Bindings"
+description: "This post is about how Jexus Manager finds the proper certificate for an HTTPS binding."
 tags: Jexus-Manager IIS
 permalink: /jexus-manager-the-secret-behind-iis-https-bindings-5ad3466a6db5
 excerpt_separator: <!--more-->

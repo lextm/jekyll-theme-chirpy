@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "News! New Bug and Its Hotfix"
+description: This post is about a new bug and its hotfix.
 tags: Code-Beautifier-Collection Delphi
 permalink: /news-new-bug-and-its-hotfix-f817484853c
 excerpt_separator: <!--more-->

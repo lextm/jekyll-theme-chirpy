@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Product Review: BT Clients"
+description: "This post talks about my experience with BT clients."
 tags: Windows
 permalink: /product-review-bt-clients-68bde888d59d
 excerpt_separator: <!--more-->

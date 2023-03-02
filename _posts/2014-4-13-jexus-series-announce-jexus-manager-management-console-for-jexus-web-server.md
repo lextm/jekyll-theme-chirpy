@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jexus Series: Announce Jexus Manager, Management Console for Jexus Web Server"
+description: "This post talks about Jexus Manager, a management console for Jexus Web Server."
 tags: Code-Beautifier-Collection Delphi
 excerpt_separator: <!--more-->
 ---

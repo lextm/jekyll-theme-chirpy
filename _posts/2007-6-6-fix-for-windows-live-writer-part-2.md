@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Fix for Windows Live Writer Part 2"
+description: "This post describes how to enable spell checking for English in a localized version of Windows Live Writer."
 tags: Windows
 permalink: /fix-for-windows-live-writer-part-2-89608a886f43
 excerpt_separator: <!--more-->

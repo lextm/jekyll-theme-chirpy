@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Opposite Sides of Delphi Parser"
+description: This post is about Delphi parsers.
 tags: Code-Beautifier-Collection Delphi
 permalink: /opposite-sides-of-delphi-parser-c9599d515ff7
 excerpt_separator: <!--more-->

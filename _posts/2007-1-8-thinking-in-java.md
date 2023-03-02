@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "隐藏在Thinking in Java中的Delphi信息"
+description: "这篇文章讲述了隐藏在 Thinking in Java 一书中关于 Delphi 信息。"
 tags: Java Delphi
 permalink: /隐藏在thinking-in-java中的delphi信息-354525afe646
 excerpt_separator: <!--more-->

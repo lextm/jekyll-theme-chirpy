@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Issue ID 2 On Homepage"
+description: "This post is about a bug in M5."
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-issue-id-2-on-homepage-6aec30a98f5
 excerpt_separator: <!--more-->

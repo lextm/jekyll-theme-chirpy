@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Pro: Syntax Validation in SharpSnmpPro.Mib"
+description: "This post talks about the syntax validation support in SharpSnmpPro.Mib assembly."
 tags: SNMP
 permalink: /snmp-pro-syntax-validation-in-sharpsnmppro-mib-aef7a40c9af4
 excerpt_separator: <!--more-->

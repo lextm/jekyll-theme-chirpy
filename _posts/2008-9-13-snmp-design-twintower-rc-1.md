@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: TwinTower RC 1"
+description: "This post talks about the first release candidate of TwinTower."
 tags: SNMP
 permalink: /snmp-design-twintower-rc-1-f4cade28a4ca
 excerpt_separator: <!--more-->

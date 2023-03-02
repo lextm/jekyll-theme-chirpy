@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Vista Dialogs and Controls"
+description: "This post describes how to use Vista dialogs and controls in .NET."
 tags: Windows .NET
 permalink: /vista-dialog-and-controls-38dba03f3d19
 excerpt_separator: <!--more-->

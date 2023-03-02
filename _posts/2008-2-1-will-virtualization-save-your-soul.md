@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Will Virtualization Save Your Soul?"
+description: This post talks about how virtualization can help improve productivity.
 tags: Windows
 permalink: /will-virtualization-save-your-soul-e1041d55a0c0
 excerpt_separator: <!--more-->

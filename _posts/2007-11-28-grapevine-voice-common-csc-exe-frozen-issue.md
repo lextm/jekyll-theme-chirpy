@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Common csc.exe Frozen Issue"
+description: This post talks about that csc.exe may freeze when deserializing preferences.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-common-csc-exe-frozen-issue-85bebd48a310
 excerpt_separator: <!--more-->

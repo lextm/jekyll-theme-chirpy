@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Binding Diagnostics for IIS and IIS Express Users
+description: A post about the new Binding Diagnostics for IIS and IIS Express in Jexus Manager.
 tags: IIS
 permalink: /binding-diagnostics-for-iis-and-iis-express-users-595aaa42cbbd
 excerpt_separator: <!--more-->

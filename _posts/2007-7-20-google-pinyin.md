@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Google拼音: 当更新如此安静"
+description: "这篇文章谈谈 Google 拼音的更新体验。"
 tags: Windows
 permalink: /google拼音-当更新如此安静-5639a472c4f1
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: New Build and CodePlex.com Bug"
+description: "This post talks about the new build of #SNMP and a critical bug of CodePlex.com."
 tags: SNMP
 permalink: /snmp-design-new-build-and-codeplex-com-bug-d114c1dec027
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Product Review: Teamprise and TFS"
+description: "This post talks about Teamprise, a standalone Java client for TFS built on Eclipse RCP."
 tags: Visual-Studio
 permalink: /product-review-teamprise-and-tfs-2cbfc148f1b8
 excerpt_separator: <!--more-->

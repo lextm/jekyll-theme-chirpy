@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP and Portable Class Library"
+description: "This post talks about the future of #SNMP and how it will support Portable Class Library."
 tags: SNMP .NET
 permalink: /snmp-and-portable-class-library-52ce3ff6d47
 excerpt_separator: <!--more-->

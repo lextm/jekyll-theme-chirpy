@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "DockPanel Suite Tip #4: Mix Different Versions"
+description: This post talks about how to mix different versions of DockPanel Suite.
 tags: DockPanel-Suite
 permalink: /dockpanel-suite-tip-4-mix-different-versions-4b09c86f1aa5
 excerpt_separator: <!--more-->

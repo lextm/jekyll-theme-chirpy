@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Cisco Joins Eclipse Foundation"
+description: This post talks about the news that Cisco has joined Eclipse Foundation.
 tags: Java
 permalink: /cisco-joins-eclipse-foundation-93521044b04c
 excerpt_separator: <!--more-->

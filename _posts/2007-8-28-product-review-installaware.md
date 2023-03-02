@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Product Review: InstallAware"
+description: "This post talks about InstallAware, a professional installer solution."
 tags: Windows
 permalink: /product-review-installaware-7d3088d8e806
 excerpt_separator: <!--more-->

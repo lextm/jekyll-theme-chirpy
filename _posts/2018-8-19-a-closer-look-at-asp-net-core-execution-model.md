@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A Closer Look At ASP.NET Core Execution Model
+description: A post about the process model of ASP.NET Core on IIS and why you should know it.
 tags: .NET IIS
 permalink: /a-closer-look-at-asp-net-core-execution-model-b3c332f6ed1
 excerpt_separator: <!--more-->

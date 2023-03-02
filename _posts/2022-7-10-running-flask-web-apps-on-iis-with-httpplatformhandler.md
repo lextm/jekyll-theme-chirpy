@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Running Flask Web Apps on IIS with HttpPlatformHandler"
+description: A post about how to create a simple Flask web app and host it on IIS with HttpPlatformHandler
 tags: IIS Windows Python Flask
 excerpt_separator: <!--more-->
 ---

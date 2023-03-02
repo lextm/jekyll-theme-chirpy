@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: MIB Browser and SNMP v2"
+description: "This post talks about MIB Browser and SNMP v2 support."
 tags: SNMP
 permalink: /snmp-design-mib-browser-and-snmp-v2-74a48ec539ce
 excerpt_separator: <!--more-->

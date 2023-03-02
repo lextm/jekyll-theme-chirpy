@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Product Review: PDF-XChange Viewer, Free But Powerful"
+description: This post talks about a free PDF reader and editor.
 tags: Windows
 permalink: /product-review-pdf-xchange-viewer-free-but-powerful-c21fc3722e57
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Adobe Reader 8的安装"
+description: "这篇文章讲述了Adobe Reader 8的安装。"
 tags: Windows
 permalink: /adobe-reader-8的安装-36cb6dcc493d
 excerpt_separator: <!--more-->

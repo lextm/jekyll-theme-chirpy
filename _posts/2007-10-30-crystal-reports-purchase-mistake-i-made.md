@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Crystal Reports Purchase Mistake I Made"
+description: This post talks about the mistake I made when I bought Crystal Reports.
 tags: Visual-Studio
 permalink: /crystal-reports-purchase-mistake-i-made-46e74a9742fe
 excerpt_separator: <!--more-->

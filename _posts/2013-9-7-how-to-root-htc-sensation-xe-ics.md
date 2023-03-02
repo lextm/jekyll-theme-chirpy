@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to Root HTC Sensation XE (ICS)"
+description: "This post talks about how I rooted HTC Sensation XE with ICS."
 tags: Android
 permalink: /how-to-root-htc-sensation-xe-ics-892ca9881b8c
 excerpt_separator: <!--more-->

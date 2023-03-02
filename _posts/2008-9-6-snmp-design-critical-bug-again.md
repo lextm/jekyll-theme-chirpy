@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Critical Bug Again"
+description: "This post talks about a critical bug."
 tags: SNMP
 permalink: /snmp-design-critical-bug-again-f3a5dafd1d02
 excerpt_separator: <!--more-->

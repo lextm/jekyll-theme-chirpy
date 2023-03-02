@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: 6.0 M6, Adapt to RAD Studio"
+description: "This post is to announce M6 of GrapeVine."
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-6-0-m6-adapt-to-rad-studio-be694bd1a864
 excerpt_separator: <!--more-->

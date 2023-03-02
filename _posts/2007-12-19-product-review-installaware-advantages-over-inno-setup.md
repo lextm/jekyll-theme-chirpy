@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Product Review: InstallAware Advantages Over Inno Setup"
+description: This post is about InstallAware and why it is better than Inno Setup.
 tags: Windows
 permalink: /product-review-installaware-advantages-over-inno-setup-f39f8d9c9f2
 excerpt_separator: <!--more-->

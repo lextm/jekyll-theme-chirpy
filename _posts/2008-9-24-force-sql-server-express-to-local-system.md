@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Force SQL Server Express to Local System"
+description: This post talks about the  SQL Server issue that troubles me a lot in the past.
 tags: Code-Beautifier-Collection Delphi
 permalink: /force-sql-server-express-to-local-system-3e52f628b23c
 excerpt_separator: <!--more-->

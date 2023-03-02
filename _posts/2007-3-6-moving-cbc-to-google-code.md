@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Moving CBC to Google Code"
+description: "This post is about moving CBC from GForge to Google Code."
 tags: Code-Beautifier-Collection Delphi
 permalink: /moving-cbc-to-google-code-6554a356aebc
 excerpt_separator: <!--more-->

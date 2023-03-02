@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "DockPanel Suite: Design the Theming Experience"
+description: "This post talks about the new theming experience in DockPanel Suite."
 tags: DockPanel-Suite
 permalink: /dockpanel-suite-design-the-theming-experience-4c55f51d65c8
 excerpt_separator: <!--more-->

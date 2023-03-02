@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to Write Your Language Server in C#
+description: A post about how to write your own language server in C#. I will use reStructuredText as an example.
 tags: Visual-Studio .NET
 permalink: /how-to-write-your-language-server-in-c-d9302a44f694
 excerpt_separator: <!--more-->

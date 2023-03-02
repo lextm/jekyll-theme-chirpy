@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Why I love taking buses now?"
+description: "This post is about why I love taking buses now."
 tags: Others
 permalink: /why-i-love-taking-buses-now-35ca03865d7c
 excerpt_separator: <!--more-->

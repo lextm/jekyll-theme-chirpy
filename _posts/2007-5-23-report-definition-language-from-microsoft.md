@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Report Definition Language from Microsoft"
+description: "This post describes RDL from Microsoft."
 tags: Visual-Studio .NET
 permalink: /report-definition-language-from-microsoft-7c66510089cb
 excerpt_separator: <!--more-->

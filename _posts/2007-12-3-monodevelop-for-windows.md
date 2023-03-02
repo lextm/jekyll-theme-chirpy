@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "MonoDevelop for Windows"
+description: This post is about MonoDevelop for Windows.
 tags: Mono .NET
 permalink: /monodevelop-for-windows-c99aea1c7590
 excerpt_separator: <!--more-->

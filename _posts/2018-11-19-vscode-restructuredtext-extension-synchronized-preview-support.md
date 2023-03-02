@@ -1,6 +1,7 @@
 ---
 layout: post
 title: VSCode reStructuredText Extension, Synchronized Preview Support
+description: A post about the latest release of the VSCode reStructuredText extension, which added synchronized preview support.
 tags: Visual-Studio-Code reStructuredText
 permalink: /vscode-restructuredtext-extension-synchronized-preview-support-3f54ebdd3416
 excerpt_separator: <!--more-->

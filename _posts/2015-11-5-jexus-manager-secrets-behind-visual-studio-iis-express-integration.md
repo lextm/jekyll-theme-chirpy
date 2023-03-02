@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jexus Manager: Secrets Behind Visual Studio IIS Express Integration"
+description: "This post is about the secrets behind Visual Studio IIS Express integration, and how it can help you troubleshoot IIS Express issues."
 tags: Visual-Studio IIS
 permalink: /jexus-manager-secrets-behind-visual-studio-iis-express-integration-834f88c8e8b
 excerpt_separator: <!--more-->

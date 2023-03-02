@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Will You Do An Agent in C#?"
+description: "This post is a poll to see how many C# developers are doing SNMP agent development."
 tags: SNMP
 permalink: /snmp-design-will-you-do-an-agent-in-c-31af397da12a
 excerpt_separator: <!--more-->

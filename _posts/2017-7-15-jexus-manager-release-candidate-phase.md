@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jexus Manager: Release Candidate Phase"
+description: "This post is about the recent changes of Jexus Manager."
 tags: Jexus-Manager IIS
 permalink: /jexus-manager-release-candidate-phase-46206e4a0b9a
 excerpt_separator: <!--more-->

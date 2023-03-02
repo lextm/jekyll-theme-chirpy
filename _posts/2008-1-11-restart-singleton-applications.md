@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Restart Singleton Applications"
+description: This post talks about how to restart a singleton application.
 tags: .NET
 permalink: /restart-singleton-applications-8619bc5d6375
 excerpt_separator: <!--more-->

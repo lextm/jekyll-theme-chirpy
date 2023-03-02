@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "So Young, So Innocent"
+description: "This post talks about my mom's denial of my adulthood."
 tags: Others
 permalink: /so-young-so-innocent-4bfb6957f065
 excerpt_separator: <!--more-->

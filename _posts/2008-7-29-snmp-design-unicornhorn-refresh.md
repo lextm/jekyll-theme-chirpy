@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: UnicornHorn Refresh"
+description: "This post talks about the refresh release of UnicornHorn."
 tags: SNMP
 permalink: /snmp-design-unicornhorn-refresh-3e277b405804
 excerpt_separator: <!--more-->

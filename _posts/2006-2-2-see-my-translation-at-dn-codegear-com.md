@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "See my translation at DN.CodeGear.com"
+description: A post about my translation at DN.CodeGear.com
 tags: Code-Beautifier-Collection Delphi
 permalink: /see-my-translation-at-dn-codegear-com-9705f3253961
 excerpt_separator: <!--more-->

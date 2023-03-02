@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Installation Tips: Mono 1.1.15 on Ubuntu"
+description: "This article describes how to install Mono 1.1.15 on Ubuntu."
 tags: Mono Linux
 permalink: /installation-tips-mono-1-1-15-on-ubuntu-53bd76750e6
 excerpt_separator: <!--more-->

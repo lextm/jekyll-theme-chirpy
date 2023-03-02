@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "DockPanel Suite: Too Many Themes and New Goodies"
+description: "This post is about DockPanel Suite recent changes and how easy it is now to generate new themes."
 tags: DockPanel-Suite
 permalink: /dockpanel-suite-too-many-themes-and-new-goodies-fb4fe55d127e
 excerpt_separator: <!--more-->

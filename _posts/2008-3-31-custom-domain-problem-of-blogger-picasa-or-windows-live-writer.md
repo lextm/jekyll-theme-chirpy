@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Custom Domain: Problem of Blogger? Picasa? Or Windows Live Writer?"
+description: This post talks about the problem of using custom domain with Blogger, Picasa and Windows Live Writer.
 tags: Windows
 permalink: /custom-domain-problem-of-blogger-picasa-or-windows-live-writer-36b21acfaf01
 excerpt_separator: <!--more-->

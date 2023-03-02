@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Code Beautifier Collection 动态"
+description: "这篇文章讲一下 CBC 的最新进展。"
 tags: Code-Beautifier-Collection Delphi
 permalink: /code-beautifier-collection-动态-6d7f83ee125a
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Build My Own Lexer"
+description: This post talks about how I build my own lexer.
 tags: SNMP
 permalink: /snmp-design-build-my-own-lexer-c45cd940e87a
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Holiday Sweeties"
+description: This post describes the holiday plan.
 tags: Others
 permalink: /the-holiday-sweeties-1c8325d0be35
 excerpt_separator: <!--more-->

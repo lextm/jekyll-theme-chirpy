@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Viruses From U Disk"
+description: "This post describes how to remove viruses from U Disk."
 tags: Windows
 permalink: /viruses-from-u-disk-92f9f71ec3aa
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "C#Builder Would Be Dropped?"
+description: "This post describes why C#Builder might be dropped in RAD Studio Highlander."
 tags: Code-Beautifier-Collection Delphi
 permalink: /c-builder-would-be-dropped-aa78d783c4d1
 excerpt_separator: <!--more-->

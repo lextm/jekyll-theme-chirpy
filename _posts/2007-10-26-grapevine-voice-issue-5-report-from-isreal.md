@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "GrapeVine Voice: Issue 5 Report From Isreal"
+title: "GrapeVine Voice: Issue 5 Report From Israel"
+description: This post talks about a GrapeVine issue reported by a CEO from Israel.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-issue-5-report-from-isreal-93361cd1ef30
 excerpt_separator: <!--more-->

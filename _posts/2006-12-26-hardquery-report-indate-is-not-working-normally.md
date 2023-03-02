@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Hardquery Report: InDate is not working normally"
+description: "This post describes why InDate is not working normally."
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-in-date-is-not-working-normally-eea0eef14c14
 excerpt_separator: <!--more-->

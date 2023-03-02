@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Latest BCB Broadcast from CodeGear"
+description: "This post describes the latest news from CodeGear on using C++ libraries with C++Builder."
 tags: Delphi
 permalink: /latest-bcb-broadcast-from-codegear-c9b9403a56e4
 excerpt_separator: <!--more-->

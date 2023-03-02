@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: Project Group Helper"
+description: This post reports the progress of HardQuery and the feature of Project Group Helper.
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-project-group-helper-b7670bd33578
 excerpt_separator: <!--more-->

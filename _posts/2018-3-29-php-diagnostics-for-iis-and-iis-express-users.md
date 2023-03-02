@@ -1,6 +1,7 @@
 ---
 layout: post
 title: PHP Diagnostics for IIS and IIS Express Users
+description: A post about the new PHP Diagnostics for IIS and IIS Express and why it is important.
 tags: IIS PHP
 permalink: /php-diagnostics-for-iis-and-iis-express-users-ba8beeb99f0c
 excerpt_separator: <!--more-->

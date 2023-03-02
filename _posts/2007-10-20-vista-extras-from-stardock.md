@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Vista Extras From Stardock"
+description: This post talks about some free software from Stardock for Windows Vista users.
 tags: Windows
 permalink: /vista-extras-from-stardock-e3bf903822b
 excerpt_separator: <!--more-->

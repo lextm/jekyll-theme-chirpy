@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Pro: Release 1.1 is Out"
+description: "This post is to announce the release of #SNMP Pro 1.1."
 tags: SNMP
 permalink: /snmp-pro-release-1-1-is-out-11ddf223eaa7
 excerpt_separator: <!--more-->

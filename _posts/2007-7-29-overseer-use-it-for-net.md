@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Overseer: Use It For .NET"
+description: "This post talks about Overseer, a logging tool for .NET."
 tags: .NET
 permalink: /overseer-use-it-for-net-efff10eed378
 excerpt_separator: <!--more-->

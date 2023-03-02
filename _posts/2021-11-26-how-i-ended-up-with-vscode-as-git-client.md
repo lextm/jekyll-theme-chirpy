@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How I Ended Up with VSCode as Git Client
+description: A post about how I ended up using VS Code as my default Git client on all platforms
 tags: Visual-Studio-Code
 excerpt_separator: <!--more-->
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Unpleasant Facts about Hangfire
+description: A post about common issues of Hangfire and why it won't work very well with IIS.
 tags: IIS ASP.NET
 permalink: /unpleasant-facts-about-hangfire-632a3228ff8a
 excerpt_separator: <!--more-->

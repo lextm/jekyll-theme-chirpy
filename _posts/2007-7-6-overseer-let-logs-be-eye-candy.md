@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Overseer, Let Logs Be Eye-Candy"
+description: "This post describes a free logging tool for .NET."
 tags: .NET
 permalink: /overseer-let-logs-be-eye-candy-50f3462fe4bd
 excerpt_separator: <!--more-->

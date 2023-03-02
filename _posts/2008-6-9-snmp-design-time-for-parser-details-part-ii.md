@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Time for Parser Details, Part Two"
+description: "This post is the second part of the parser details."
 tags: SNMP
 permalink: /snmp-design-time-for-parser-details-part-two-f722930f5c8e
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jexus Series: Management Script and Commands"
+description: "This post talks about Jexus management script and commands."
 tags: Jexus-Manager Linux
 permalink: /jexus-series-management-script-and-commands-2d0b8eaf673e
 excerpt_separator: <!--more-->

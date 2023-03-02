@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "DockPanel Suite: A Summary on Visual Studio 2012 Light Theme"
+description: "This post talks about the Visual Studio 2012 Light theme of DockPanel Suite."
 tags: DockPanel-Suite
 permalink: /dockpanel-suite-a-summary-on-visual-studio-2012-light-theme-a8391c84c769
 excerpt_separator: <!--more-->

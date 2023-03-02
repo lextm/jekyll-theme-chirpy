@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Miles Further?"
+description: This post talks about the future of GrapeVine.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-miles-further-442cc280d861
 excerpt_separator: <!--more-->

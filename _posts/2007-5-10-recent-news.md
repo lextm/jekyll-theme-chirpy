@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "匆匆写就的近况"
+description: "这篇文章讲述了自己的近况。"
 tags: Others
 permalink: /匆匆写就的近况-7261702a4024
 excerpt_separator: <!--more-->

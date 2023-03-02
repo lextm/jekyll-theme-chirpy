@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Merry X'mas & Happy New Year"
+description: This post is about my wishes for 2008.
 tags: Code-Beautifier-Collection Delphi
 permalink: /merry-xmas-happy-new-year-cf9c5ec7208f
 excerpt_separator: <!--more-->

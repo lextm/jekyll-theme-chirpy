@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Interwise Experiences"
+description: This post talks about my experiences with Interwise.
 tags: Delphi
-permalink: //interwise-experiences-e3a86afe1a25
+permalink: /interwise-experiences-e3a86afe1a25
 excerpt_separator: <!--more-->
 ---
 CodeGear uses Interwise technology to host online live training sessions. I joined one session in September about Delphi for .NET Generics. And just right now I joined Luke Fan's session on Blackfish.

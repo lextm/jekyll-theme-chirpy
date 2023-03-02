@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Indirect Visit to My Blog Front Page"
+description: This post talks about a way to indirectly visit my blog front page.
 tags: Google
 permalink: /indirect-visit-to-my-blog-front-page-fa3dfbd4aded
 excerpt_separator: <!--more-->

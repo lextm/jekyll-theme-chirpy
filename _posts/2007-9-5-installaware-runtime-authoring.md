@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "InstallAware Runtime Authoring"
+description: "This post is about how to author InstallAware runtimes."
 tags: Windows
 permalink: /installaware-runtime-authoring-ec8d08213f1c
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "开始上班的一些变化"
+description: "这篇文章讲述了开始上班的一些变化。"
 tags: Code-Beautifier-Collection Delphi
 permalink: /开始上班的一些变化-6709c7e594b1
 excerpt_separator: <!--more-->

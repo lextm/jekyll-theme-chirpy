@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Custom Domain: Now I Have My Own"
+description: This post talks about how I got my own domain.
 tags: Others
 permalink: /custom-domain-now-i-have-my-own-47c4863622db
 excerpt_separator: <!--more-->
@@ -13,5 +14,5 @@ http://www.lextm.cn or http://lextm.cn
 
 > Sorry that China Mainland residents may not be able to access this address as well as http://lextm.blogspot.com
 
-What I am going to do next? I may try Google Adsense ASAP.
+What I am going to do next? I may try Google AdSense ASAP.
 <!--more-->

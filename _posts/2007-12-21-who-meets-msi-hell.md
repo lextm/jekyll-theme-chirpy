@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Who Meets MSI Hell"
+description: This post is about Visual Studio installation issues.
 tags: Code-Beautifier-Collection Delphi
 permalink: /who-meets-msi-hell-8a16aa535afb
 excerpt_separator: <!--more-->

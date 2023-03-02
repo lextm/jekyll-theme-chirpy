@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "JBuilder 2007的快捷键"
+description: "这篇文章讲述了 JBuilder 2007的快捷键。"
 tags: Code-Beautifier-Collection Delphi
 permalink: /jbuilder-2007的快捷键-8b658bd32428
 excerpt_separator: <!--more-->

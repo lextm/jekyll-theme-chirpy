@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to Build .NET Core Solutions on AppVeyor"
+description: "This post would show you how to build .NET Core solutions on AppVeyor, and a complete example."
 tags: .NET
 permalink: /how-to-build-net-core-solutions-on-appveyor-95cda0b15724
 excerpt_separator: <!--more-->

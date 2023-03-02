@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Announce Sharp SNMP Library for .NET"
+description: This post talks about the new project Sharp SNMP Library for .NET.
 tags: SNMP
 permalink: /announce-sharp-snmp-library-for-net-e359089cad7f
 excerpt_separator: <!--more-->

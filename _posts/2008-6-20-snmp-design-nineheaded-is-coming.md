@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: NineHeaded Is Coming"
+description: "This post talks about the progress of #SNMP 0.9 release."
 tags: SNMP
 permalink: /snmp-design-nineheaded-is-coming-9f2c70c0b9de
 excerpt_separator: <!--more-->

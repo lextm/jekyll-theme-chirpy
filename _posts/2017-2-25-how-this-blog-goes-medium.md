@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How This Blog Goes to Medium"
+description: "This post is about how this blog was migrated to Medium."
 tags: Others
 permalink: /how-this-blog-goes-to-medium-1f2b441f59d2
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to Resolve mscorlib Related Issues in Visual Studio/MSBuild
+description: "This post talks about how to resolve mscorlib related issues in Visual Studio/MSBuild."
 tags: Visual-Studio .NET
 permalink: /how-to-resolve-mscorlib-related-issues-in-visual-studio-msbuild-84965aaf6f47
 excerpt_separator: <!--more-->

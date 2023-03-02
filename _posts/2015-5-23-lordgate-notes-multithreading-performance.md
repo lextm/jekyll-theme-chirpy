@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "LordGate Notes: Multithreading Performance"
+description: This post is about how to analyze the performance of multithreading scenarios.
 tags: SNMP
 permalink: /lordgate-notes-multithreading-performance-2a816da2af6d
 excerpt_separator: <!--more-->

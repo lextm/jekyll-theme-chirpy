@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "So Many Modeling Tools"
+description: "This post talks about some modeling tools I have used."
 tags: Others
 permalink: /so-many-modeling-tools-49349b2dcff6
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "More Threading and InDate is Almost Done"
+description: "This post is about threading in .NET and the new feature InDate."
 tags: Code-Beautifier-Collection Delphi
 permalink: /more-threading-and-indate-is-almost-done-d4b9e87bd5bf
 excerpt_separator: <!--more-->

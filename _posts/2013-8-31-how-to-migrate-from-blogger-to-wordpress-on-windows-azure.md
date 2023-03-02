@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to Migrate from Blogger to WordPress on Windows Azure"
+description: "This post talks about how I migrated from Blogger to WordPress on Windows Azure."
 tags: Azure
 permalink: /how-to-migrate-from-blogger-to-wordpress-on-windows-azure-bcd9322df84a
 excerpt_separator: <!--more-->

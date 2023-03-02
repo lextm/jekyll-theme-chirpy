@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GIMP and Paint.NET"
+description: "This post describes the comparison between GIMP and Paint.NET."
 tags: Windows .NET
 permalink: /gimp-and-paint-net-dd78adad0bda
 excerpt_separator: <!--more-->

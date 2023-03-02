@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to Let Android Emulator Access IIS Express
+description: This post is about how to let Android emulator access web apps hosted on IIS Express.
 tags: Visual-Studio IIS
 permalink: /how-to-let-android-emulator-access-iis-express-f6530a02b1d3
 excerpt_separator: <!--more-->

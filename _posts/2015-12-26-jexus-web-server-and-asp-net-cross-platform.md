@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jexus Web Server and ASP.NET Cross Platform"
+description: "This post is about my opinions on Jexus and ASP.NET cross platform development."
 tags: .NET Mono Jexus-Manager
 permalink: /jexus-web-server-and-asp-net-cross-platform-7d3c9169a906
 excerpt_separator: <!--more-->

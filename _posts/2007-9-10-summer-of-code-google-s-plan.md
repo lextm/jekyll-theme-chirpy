@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Summer of Code: Google's Plan"
+description: "This post talks about Google's Summer of Code."
 tags: Google
 permalink: /summer-of-code-googles-plan-533c901a066e
 excerpt_separator: <!--more-->

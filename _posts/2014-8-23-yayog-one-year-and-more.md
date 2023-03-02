@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "YAYOG, One Year and More"
+description: "This post talks about my one year experience of following YAYOG."
 tags: Others
 permalink: /yayog-one-year-and-more-90792dd42f0b
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Expression Studio"
+description: "This post describes Expression Studio."
 tags: Visual-Studio .NET
 permalink: /expression-studio-fb279f4adde2
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "在Windows Vista上面安装Delphi 2006"
+title: "在 Windows Vista 上面安装 Delphi 2006"
+description: "这篇文章讲述了在 Windows Vista 上面安装 Delphi 2006的一些问题。"
 tags: Code-Beautifier-Collection Delphi
 permalink: /在windows-vista上面安装delphi-2006-af18f79f0ac0
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "iPod Host: MediaMonkey vs. iTune"
+description: "This post compares MediaMonkey and iTune."
 tags: Windows Delphi
 permalink: /ipod-host-mediamonkey-vs-itune-d72da8cd1697
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: Latest Bugs Are Fixed"
+description: This post reports the latest bugs fixed.
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-latest-bugs-are-fixed-38dbbf43179c
 excerpt_separator: <!--more-->

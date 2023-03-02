@@ -1,7 +1,8 @@
 ---
 layout: post
 title: A New reStructuredText Project
-tags: Visual-Studio .NET
+description: A post about the new reStructuredText project for Visual Studio Code that I am working on.
+tags: Visual-Studio-Code .NET
 permalink: /a-new-restructuredtext-project-112e9ae52acb
 excerpt_separator: <!--more-->
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Two Years on Medium
+description: A post about my experience on Medium so far.
 tags: Blog .NET SNMP
 permalink: /two-years-on-medium-88a5763c9850
 excerpt_separator: <!--more-->

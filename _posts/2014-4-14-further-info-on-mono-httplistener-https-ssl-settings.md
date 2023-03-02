@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Further Info on Mono HttpListener HTTPS/SSL Settings"
+description: "This post talks about how to configure Mono HttpListener HTTPS/SSL settings."
 tags: Mono
 permalink: /further-info-on-mono-httplistener-https-ssl-settings-d4cf0bfc4211
 excerpt_separator: <!--more-->

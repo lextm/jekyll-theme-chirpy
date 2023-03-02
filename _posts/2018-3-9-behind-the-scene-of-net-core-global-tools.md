@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Behind The Scene of .NET Core Global Tools
+description: A post about the technical details behind .NET Core Global Tools.
 tags: .NET
 permalink: /behind-the-scene-of-net-core-global-tools-c098814c87b1
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "至CnPack项目组的公开信――草稿"
+description: "对于 CnWizards 项目未来发展的一些看法。"
 tags: Code-Beautifier-Collection Delphi
 permalink: /至cnpack项目组的公开信-草稿-40064c875807
 excerpt_separator: <!--more-->

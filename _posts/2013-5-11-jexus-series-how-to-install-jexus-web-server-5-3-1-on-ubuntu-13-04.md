@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jexus Series: How to Install Jexus Web Server 5.3.1 on Ubuntu 13.04"
+description: "This post talks about how to install Jexus Web Server 5.3.1 on Ubuntu 13.04."
 tags: Jexus-Manager Linux
 permalink: /jexus-series-how-to-install-jexus-web-server-5-3-1-on-ubuntu-13-04-fb344997faa0
 excerpt_separator: <!--more-->

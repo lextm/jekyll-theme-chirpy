@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Agent Side Support Update"
+description: "This post talks about the progress of agent side support."
 tags: SNMP
 permalink: /snmp-design-agent-side-support-update-41b47b2bcea3
 excerpt_separator: <!--more-->

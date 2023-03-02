@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: The 1.5 Release Candidate Refresh"
+description: "This post talks about the second release candidate of #SNMP Library 1.5."
 tags: SNMP
 permalink: /snmp-design-the-1-5-release-candidate-refresh-95d36832ed8b
 excerpt_separator: <!--more-->

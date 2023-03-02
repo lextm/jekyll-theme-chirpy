@@ -1,6 +1,7 @@
 ---
 layout: post
 title: IntelliSense for reStructuredText Extension, Initial Offering
+description: A post about the initial offering of IntelliSense for reStructuredText extension.
 tags: Visual-Studio-Code
 permalink: /intellisense-for-restructuredtext-extension-initial-offering-6886b17d874b
 excerpt_separator: <!--more-->

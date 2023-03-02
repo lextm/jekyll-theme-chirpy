@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Pro: Second Compiler Sneak Preview"
+description: "This post talks about the second sneak preview of #SNMP MIB Compiler Pro."
 tags: SNMP
 permalink: /snmp-pro-second-compiler-sneak-preview-dc62ff62f38
 excerpt_separator: <!--more-->

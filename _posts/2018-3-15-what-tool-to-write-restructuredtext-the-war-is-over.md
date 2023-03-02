@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What Tool to Write reStructuredText? The War Is Over
+description: A post about which editor to use for reStructuredText.
 tags: Visual-Studio-Code reStructuredText
 permalink: /what-tool-to-write-restructuredtext-the-war-is-over-249953d88c25
 excerpt_separator: <!--more-->

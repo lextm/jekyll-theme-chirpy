@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Signing Assemblies"
+description: This post talks about signing assemblies.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-signing-assemblies-1fdc8737cb52
 excerpt_separator: <!--more-->

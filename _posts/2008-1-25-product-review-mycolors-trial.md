@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Product Review: MyColors Trial"
+description: This post is a product review of MyColors.
 tags: Windows
 permalink: /product-review-mycolors-trial-7e56ff9891c1
 excerpt_separator: <!--more-->

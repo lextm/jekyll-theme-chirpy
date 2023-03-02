@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Library Update"
+description: "This post talks about the update of #SNMP library."
 tags: SNMP
 permalink: /snmp-design-library-update-4c705cee683e
 excerpt_separator: <!--more-->

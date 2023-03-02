@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Another Gear: SourceGear DiffMerge"
+description: "This post talks about DiffMerge, another great product from SourceGear."
 tags: Windows
 permalink: /another-gear-sourcegear-diffmerge-5d3475e4a736
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "History of This Blog"
+description: A post about the history of this blog and how it migrated from CSDN to Blogger to Medium to GitHub Pages and to Cloudflare Pages
 tags: Others
 excerpt_separator: <!--more-->
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Submitted to Xamarin Component Store"
+description: This post covers the steps I did to make the store submission and hope to show other developers how to properly make their components ready for Xamarin platforms.
 tags: SNMP Mono
 permalink: /snmp-submitted-to-xamarin-component-store-9a22d7d1e9f8
 excerpt_separator: <!--more-->

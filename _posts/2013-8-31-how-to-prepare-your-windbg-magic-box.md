@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to Prepare Your WinDbg Magic Box
+description: "This post talks about how to prepare your toolbox around WinDbg."
 tags: Visual-Studio .NET
 permalink: /how-to-prepare-your-windbg-magic-box-43b5e9ad8a03
 excerpt_separator: <!--more-->

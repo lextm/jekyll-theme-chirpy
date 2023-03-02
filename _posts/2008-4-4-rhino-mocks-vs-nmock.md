@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Rhino Mocks vs. NMock"
+description: This post compares Rhino Mocks and NMock.
 tags: .NET
 permalink: /rhino-mocks-vs-nmock-cea2fb93f6e7
 excerpt_separator: <!--more-->

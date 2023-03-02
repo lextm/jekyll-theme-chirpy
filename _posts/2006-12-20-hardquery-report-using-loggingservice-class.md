@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: Using LoggingService class"
+description: "This article describes how to use LoggingService class in HardQuery."
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-using-loggingservice-class-64c6cacc48e4
 excerpt_separator: <!--more-->

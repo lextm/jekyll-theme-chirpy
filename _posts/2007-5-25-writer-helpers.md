@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Writer Helpers"
+description: "This post describes some plug-ins for Windows Live Writer."
 tags: Windows
 permalink: /writer-helpers-48d211511bd9
 excerpt_separator: <!--more-->

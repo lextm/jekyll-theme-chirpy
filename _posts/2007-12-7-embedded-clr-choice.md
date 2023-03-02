@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Embedded CLR Choice"
+description: This post talks about the choice of embedded CLR.
 tags: .NET Mono
 permalink: /embedded-clr-choice-448cdc55137c
 excerpt_separator: <!--more-->

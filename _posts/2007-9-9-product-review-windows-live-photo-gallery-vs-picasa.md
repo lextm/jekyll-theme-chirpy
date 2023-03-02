@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Product Review: Windows Live Photo Gallery vs. Picasa"
+description: "This post talks about the comparison between Windows Live Photo Gallery and Picasa."
 tags: Windows
 permalink: /product-review-windows-live-photo-gallery-vs-picasa-f0d176d48141
 excerpt_separator: <!--more-->

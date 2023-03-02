@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "最近的生活状态"
+description: 这篇文章是关于我最近的生活状态。
 tags: Code-Beautifier-Collection Delphi
 permalink: /最近的生活状态-270478d01187
 excerpt_separator: <!--more-->

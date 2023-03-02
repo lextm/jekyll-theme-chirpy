@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Change Sets From Steve"
+description: "This post talks about the change sets from Steve."
 tags: SNMP
 permalink: /snmp-design-change-sets-from-steve-d413e1e0956a
 excerpt_separator: <!--more-->

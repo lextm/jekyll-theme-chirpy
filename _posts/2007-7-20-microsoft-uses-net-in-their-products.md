@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Microsoft Uses .NET In Their Products"
+description: "This post talks about how Microsoft uses .NET in their products."
 tags: .NET
 permalink: /microsoft-uses-net-in-their-products-5443b2aa4b2
 excerpt_separator: <!--more-->

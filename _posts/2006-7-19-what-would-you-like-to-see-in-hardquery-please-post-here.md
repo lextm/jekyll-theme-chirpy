@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "What would you like to see in HardQuery, please post here"
+description: "This post talks how end users might request new features in HardQuery."
 tags: Code-Beautifier-Collection Delphi
 permalink: /what-would-you-like-to-see-in-hardquery-please-post-here-d3e977c3a93d
 excerpt_separator: <!--more-->

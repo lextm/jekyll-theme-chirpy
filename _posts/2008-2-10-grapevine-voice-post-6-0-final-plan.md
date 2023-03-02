@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Post 6.0 Final Plan"
+description: This post talks about the plan after 6.0 final.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-post-6-0-final-plan-40567d5846c6
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: How to Handle Non Standard SNMP Devices"
+description: "This post is about how to handle non standard SNMP devices with #SNMP Library."
 tags: SNMP
 permalink: /snmp-design-how-to-handle-non-standard-snmp-devices-ec75872ae9d
 excerpt_separator: <!--more-->

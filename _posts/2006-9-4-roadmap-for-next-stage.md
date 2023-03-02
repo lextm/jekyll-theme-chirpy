@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Roadmap for Next Stage"
+description: "This post describes the roadmap for CBC next stage."
 tags: Code-Beautifier-Collection Delphi
 permalink: /roadmap-for-next-stage-e36218e454ec
 excerpt_separator: <!--more-->

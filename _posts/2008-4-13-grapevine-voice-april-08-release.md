@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: April 08 Release"
+description: This post talks about the new release of Code Beautifier Collection.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-april-08-release-6c3b2492ad5d
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The long goodbye"
+description: This post announces the goodbye to CSDN.
 tags: Code-Beautifier-Collection Delphi
 permalink: /the-long-goodbye-c78a0ffeb5fd
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: FxCop and Gendarme"
+description: This post talks about the tools I use to keep the code clean.
 tags: SNMP
 permalink: /snmp-design-fxcop-and-gendarme-8bca59a85563
 excerpt_separator: <!--more-->

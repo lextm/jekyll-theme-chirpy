@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Rough History of MonoDevelop
+description: A post about the rough history of MonoDevelop and interesting stories behind it.
 tags: Linux Mono
 permalink: /brief-history-of-monodevelop-93b1d4011978
 excerpt_separator: <!--more-->

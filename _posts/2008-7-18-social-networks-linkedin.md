@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Social Networks: LinkedIn"
+description: "This post talks about my LinkedIn profile."
 tags: Others
 permalink: /social-networks-linkedin-a04b82772780
 excerpt_separator: <!--more-->

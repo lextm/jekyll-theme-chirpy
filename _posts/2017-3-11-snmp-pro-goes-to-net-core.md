@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Pro Goes to .NET Core"
+description: "This post is about how we are going to make #SNMP Pro .NET Core ready."
 tags: IIS
 permalink: /snmp-pro-goes-to-net-core-d3b3ebdc2750
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "RC: If you want to test"
+description: This post is about the latest build of N3 Update 1 RC.
 tags: Code-Beautifier-Collection Delphi
 permalink: /rc-if-you-want-to-test-2c15c57ee120
 excerpt_separator: <!--more-->

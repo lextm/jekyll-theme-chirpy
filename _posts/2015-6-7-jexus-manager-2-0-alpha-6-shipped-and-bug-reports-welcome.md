@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jexus Manager: 2.0 Alpha 6 Shipped and Bug Reports Welcome"
+description: "This post is to announce that Jexus Manager 2.0 Alpha 6 is shipped and bug reports are welcome."
 tags: Jexus-Manager
 permalink: /jexus-manager-2-0-alpha-6-shipped-and-bug-reports-welcome-9cf6474ef521
 excerpt_separator: <!--more-->

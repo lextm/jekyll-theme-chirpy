@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Framework Design Guidelines"
+description: "This post talks about the book Framework Design Guidelines."
 tags: .NET
 permalink: /framework-design-guidelines-b2d3f0efd53a
 excerpt_separator: <!--more-->

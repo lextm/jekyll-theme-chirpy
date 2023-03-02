@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "What are they? Contents Inside The Installer (Rule 2)"
+description: This post is about the contents inside the installer of CBC 2.0.
 tags: Code-Beautifier-Collection Delphi
 permalink: /what-are-they-contents-inside-the-installer-rule-2-2cbdc7a9159f
 excerpt_separator: <!--more-->

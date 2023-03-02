@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jexus Manager: Built-in SSL Diagnostics for IIS and IIS Express"
+description: "This post is about how Jexus Manager built-in SSL Diagnostics for IIS and IIS Express, and how it can help you troubleshoot SSL/TLS/HTTPS issues."
 tags: Jexus-Manager IIS
 permalink: /jexus-manager-built-in-ssl-diagnostics-for-iis-and-iis-express-69128ad1c4fb
 excerpt_separator: <!--more-->

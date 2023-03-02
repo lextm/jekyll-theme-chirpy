@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Powered By Visual Studio Shell"
+description: This post is about Visual Studio Shell.
 tags: Visual-Studio
 permalink: /powered-by-visual-studio-shell-709b5c7ea7da
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CBC TechNote: Why I choose JCF and AStyle"
+description: A post about why I chose JCF and AStyle as code beautifiers for CBC.
 tags: Code-Beautifier-Collection Delphi
 permalink: /cbc-technote-why-i-choose-jcf-and-astyle-b4cf28311f72
 excerpt_separator: <!--more-->

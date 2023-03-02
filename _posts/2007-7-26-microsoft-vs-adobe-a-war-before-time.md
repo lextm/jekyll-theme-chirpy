@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Microsoft vs. Adobe: A War Before Time"
+description: "This post talks about the competition between Microsoft and Adobe."
 tags: Windows
 permalink: /microsoft-vs-adobe-a-war-before-time-9f4b04528753
 excerpt_separator: <!--more-->

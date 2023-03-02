@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "DockPanel Suite Tip #1: DockPanel with ToolStripContainer"
+description: This post talks about how to use DockPanel with ToolStripContainer.
 tags: DockPanel-Suite
 permalink: /dockpanel-suite-tip-1-dockpanel-with-toolstripcontainer-e783a774e90
 excerpt_separator: <!--more-->

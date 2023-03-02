@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Firefox's Flaw or Windows'"
+description: This post talks about the issue that prevents me from setting Firefox as my default web browser.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-firefoxs-flaw-or-windows-e108ed376916
 excerpt_separator: <!--more-->

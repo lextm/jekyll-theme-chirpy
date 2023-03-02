@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AssemblyInfoTask Tips"
+description: "This post describes some tips for AssemblyInfoTask."
 tags: Code-Beautifier-Collection Delphi
 permalink: /assemblyinfotask-tips-5db57caa1c66
 excerpt_separator: <!--more-->

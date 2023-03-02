@@ -1,13 +1,14 @@
 ---
 layout: post
 title: "Migration to DockPanel"
+description: This post talks about my work to migrate a project to DockPanel Suite.
 tags: DockPanel-Suite
 permalink: /migration-to-dockpanel-296ecd64e9ea
 excerpt_separator: <!--more-->
 ---
 I have been maintaining a Windows Forms application (Project E) for about 10 months since last April. The user interface was very complex because the original creator left so many lines of code inside event handlers.
 
-Right now after countless rounds of refactorings, I successfully cut off most lines and move them into a low level layer. So I start to add unit tests to the low level layer in order to achieve automatic testing.
+Right now after countless rounds of refactoring, I successfully cut off most lines and move them into a low level layer. So I start to add unit tests to the low level layer in order to achieve automatic testing.
 <!--more-->
 
 However, this is not what the marketing department wants. One message from our customers is that the user interface is not friendly enough compared to other Windows applications.

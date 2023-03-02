@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Wait Wait Wait For Open Source Alternative"
+description: "This post talks about my experience with PDFCreator and CutePDF Writer."
 tags: Windows
 permalink: /wait-wait-wait-for-open-source-alternative-7a4b1ae961c6
 excerpt_separator: <!--more-->

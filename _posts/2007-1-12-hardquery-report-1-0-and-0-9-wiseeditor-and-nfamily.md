@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: 1.0 and 0.9, WiseEditor and NFamily"
+description: "This post talks about the new features of WiseEditor and NFamily."
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-1-0-and-0-9-wiseeditor-and-nfamily-cc4b51210503
 excerpt_separator: <!--more-->

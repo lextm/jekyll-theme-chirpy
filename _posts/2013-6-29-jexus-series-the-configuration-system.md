@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jexus Series: The Configuration System"
+description: "This post talks about Jexus configuration system."
 tags: Jexus-Manager
 permalink: /jexus-series-the-configuration-system-108aa9e471b0
 excerpt_separator: <!--more-->

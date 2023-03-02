@@ -1,6 +1,7 @@
  ---
 layout: post
 title: "GrapeVine Voice: A Special Preview"
+description: "This post describes about a special preview build of GrapeVine release."
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-a-special-preview-e51d4bbaf9bd
 excerpt_separator: <!--more-->

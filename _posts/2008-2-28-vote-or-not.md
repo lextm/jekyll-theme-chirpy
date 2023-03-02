@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Vote Or Not?"
+description: This post talks about the vote.
 tags: Code-Beautifier-Collection Delphi
 permalink: /vote-or-not-7b864142f2f5
 excerpt_separator: <!--more-->

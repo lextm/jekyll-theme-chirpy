@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Breaking Changes Coming, Part III"
+description: "This post talks about the breaking changes in #SNMP Library."
 tags: SNMP
 permalink: /snmp-design-breaking-changes-coming-part-iii
 excerpt_separator: <!--more-->

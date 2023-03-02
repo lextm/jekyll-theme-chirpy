@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "SF.net Donate Button"
+description: This post talks about the SF.net Donate button.
 tags: Others
 permalink: /sf-net-donate-button-83670646be49
 excerpt_separator: <!--more-->

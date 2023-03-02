@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Running Node.js Web Apps on IIS with HttpPlatformHandler"
+description: A post about how to create a simple Node.js web app and host it on IIS with HttpPlatformHandler
 tags: IIS Windows JavaScript Node.js
 excerpt_separator: <!--more-->
 ---

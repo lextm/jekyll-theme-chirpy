@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "暑假：不敢奢求的东西"
+description: "本文描述了自己暑假的计划。"
 tags: Code-Beautifier-Collection Delphi
 permalink: /暑假-不敢奢求的东西-b171469fbcbe
 excerpt_separator: <!--more-->

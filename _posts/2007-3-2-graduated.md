@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Graduated"
+description: "This post is about my graduation."
 tags: Others
 permalink: /graduated-3b7647ff0ac8
 excerpt_separator: <!--more-->

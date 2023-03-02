@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Configure AVG Free for Linux"
+description: This post describes how to configure AVG Free for Linux on Ubuntu.
 tags: Linux
 permalink: /configure-avg-free-for-linux-ac164e5234c6
 excerpt_separator: <!--more-->

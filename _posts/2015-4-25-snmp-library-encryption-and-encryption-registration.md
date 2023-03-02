@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Library, Encryption, and Encryption Registration"
+description: "This post is about how I registered #SNMP Library with US government for encryption support."
 tags: SNMP
 permalink: /snmp-library-encryption-and-encryption-registration-2d68d88841bc
 excerpt_separator: <!--more-->

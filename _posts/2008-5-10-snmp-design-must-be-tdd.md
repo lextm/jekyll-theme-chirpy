@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Must Be TDD"
+description: This post talks about the reason why I start #SNMP with TDD in mind.
 tags: SNMP
 permalink: /snmp-design-must-be-tdd-8223de32099f
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "TritonMate Words: 8.0 Release"
+description: "This post talks about the release of #SNMP 8.0."
 tags: SNMP
 permalink: /tritonmate-words-8-0-release-fe233a4078c4
 excerpt_separator: <!--more-->

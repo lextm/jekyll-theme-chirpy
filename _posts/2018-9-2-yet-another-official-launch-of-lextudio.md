@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Yet Another Official Launch of LeXtudio
+description: A post about the official launch of LeXtudio as a company.
 tags: Others
 permalink: /yet-another-official-launch-of-lextudio-77ca144b7f51
 excerpt_separator: <!--more-->

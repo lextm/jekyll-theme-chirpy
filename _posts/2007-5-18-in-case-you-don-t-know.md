@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "In Case You Don't Know"
+description: "This post describes two articles worth reading if you are a .NET developer."
 tags: .NET Visual-Studio
 permalink: /in-case-you-dont-know-b5b8846541df
 excerpt_separator: <!--more-->

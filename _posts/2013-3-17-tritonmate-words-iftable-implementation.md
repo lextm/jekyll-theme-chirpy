@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "TritonMate Words: ifTable Implementation"
+description: "This post talks about the implementation of ifTable in TritonMate."
 tags: SNMP
 permalink: /tritonmate-words-iftable-implementation-c15a6b8a587f
 excerpt_separator: <!--more-->

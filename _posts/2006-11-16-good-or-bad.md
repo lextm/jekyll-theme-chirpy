@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "潦倒还是快乐？"
+description: "这篇文章讲述了我找工作的困苦。"
 tags: Code-Beautifier-Collection Delphi
 permalink: /潦倒还是快乐-499579b24255
 excerpt_separator: <!--more-->

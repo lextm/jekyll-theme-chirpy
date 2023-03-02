@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jexus Series: Application Pool Setting"
+description: "This post talks about Jexus application pool setting."
 tags: Jexus-Manager
 permalink: /jexus-series-application-pool-setting-7e026fdff6f7
 excerpt_separator: <!--more-->

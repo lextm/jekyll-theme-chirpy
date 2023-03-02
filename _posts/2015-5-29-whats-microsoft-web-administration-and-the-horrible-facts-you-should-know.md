@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What's Microsoft.Web.Administration and The Horrible Facts You Should Know
+description: A post that explains what is Microsoft.Web.Administration and what are the things you must know before using it in your project.
 tags: IIS
 permalink: /whats-microsoft-web-administration-and-the-horrible-facts-you-should-know-b82f2c974da6
 excerpt_separator: <!--more-->

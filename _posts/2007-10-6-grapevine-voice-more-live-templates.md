@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: More Live Templates"
+description: "This post is to announce that I will move some functions out of TypingSpeeder and re-implement them using Live Templates."
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-more-live-templates-edee1e446e9e
 excerpt_separator: <!--more-->

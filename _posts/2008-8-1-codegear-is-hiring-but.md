@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CodeGear Is Hiring, But…"
+description: "This post talks about the CodeGear job openings."
 tags: Delphi
 permalink: /codegear-is-hiring-but-8432cc437d1a
 excerpt_separator: <!--more-->

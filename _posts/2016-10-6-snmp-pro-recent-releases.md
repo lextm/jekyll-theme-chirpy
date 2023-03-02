@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Pro: Recent Releases"
+description: "This post would show you the recent releases of #SNMP Pro."
 tags: SNMP
 permalink: /snmp-pro-recent-releases-5e72c7973ba0
 excerpt_separator: <!--more-->

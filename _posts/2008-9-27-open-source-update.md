@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "“对于开源的种种误读”的更新"
+description: "这篇文章讨论了微软公司的一些开源策略。"
 tags: Others
 permalink: /对于开源的种种误读-的更新-9d83150b8e35
 excerpt_separator: <!--more-->

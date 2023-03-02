@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to Port #SNMP Library to .NET Core"
+description: "This post is about how I port #SNMP Library to .NET Core."
 tags: SNMP .NET
 permalink: /how-to-port-snmp-library-to-net-core-878d29074f9c
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Loss Of OptimizeIt"
+description: "This post describes the story of OptimizeIt."
 tags: .NET
 permalink: /the-loss-of-optimizeit-cf0ad18031c
 excerpt_separator: <!--more-->

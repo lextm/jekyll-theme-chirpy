@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Laziness and Craziness"
+description: "This post talks about the progress of #SNMP 1.0 release."
 tags: SNMP
 permalink: /snmp-design-laziness-and-craziness-3577cccec578
 excerpt_separator: <!--more-->

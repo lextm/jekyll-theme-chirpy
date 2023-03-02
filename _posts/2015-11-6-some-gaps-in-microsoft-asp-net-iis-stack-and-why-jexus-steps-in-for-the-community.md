@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Some Gaps in Microsoft ASP.NET/IIS Stack and Why Jexus Steps In for The Community"
+description: This post is about some gaps in Microsoft ASP.NET/IIS stack and why Jexus projects were created.
 tags: Jexus-Manager .NET
 permalink: /some-gaps-in-microsoft-asp-net-iis-stack-and-why-jexus-steps-in-for-the-community-e5a6f79fec99
 excerpt_separator: <!--more-->

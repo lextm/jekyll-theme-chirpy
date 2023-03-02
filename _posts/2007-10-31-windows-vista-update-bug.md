@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Windows Vista Update Bug"
+description: This post talks about a bug of Windows Vista Update.
 tags: Windows
 permalink: /windows-vista-update-bug-cad93850ea19
 excerpt_separator: <!--more-->

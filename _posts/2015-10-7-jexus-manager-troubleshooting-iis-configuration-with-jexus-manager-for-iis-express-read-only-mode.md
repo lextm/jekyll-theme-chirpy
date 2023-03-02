@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jexus Manager: Troubleshooting IIS Configuration with Jexus Manager for IIS Express Read Only Mode"
+description: "This post is about how Jexus Manager can help you troubleshoot IIS configuration issues."
 tags: Jexus-Manager IIS
 permalink: /jexus-manager-troubleshooting-iis-configuration-with-jexus-manager-for-iis-express-read-only-mode-3aa89c332f79
 excerpt_separator: <!--more-->

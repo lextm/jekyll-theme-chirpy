@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What Should You Check When Visual Studio Cannot Debug ASP.NET Core Projects
+description: A post about what you should check when Visual Studio cannot debug ASP.NET Core projects.
 tags: Visual-Studio .NET IIS
 permalink: /what-should-you-check-when-visual-studio-cannot-debug-asp-net-core-projects-4b5db8c5e129
 excerpt_separator: <!--more-->

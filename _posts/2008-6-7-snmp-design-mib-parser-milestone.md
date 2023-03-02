@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: MIB Parser Milestone"
+description: "This post talks about the progress of #SNMP 0.9 release."
 tags: SNMP
 permalink: /snmp-design-mib-parser-milestone-69dab4e666ca
 excerpt_separator: <!--more-->

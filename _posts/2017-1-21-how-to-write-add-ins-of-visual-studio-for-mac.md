@@ -1,6 +1,7 @@
 ---
 layout: post
-title: How to Write Add-ins of Visual Studio for Mac
+title: How to Write Add-ins to Extend Visual Studio for Mac
+description: This post is about how to write add-ins to extend Visual Studio for Mac.
 tags: Visual-Studio
 permalink: /how-to-write-add-ins-of-visual-studio-for-mac-ee6113db5ddf
 excerpt_separator: <!--more-->

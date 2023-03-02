@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Product Review: .NET Custom Search"
+description: This post is a product review of SearchDotNet.com.
 tags: .NET
 permalink: /product-review-net-custom-search-2cfed9f0b01
 excerpt_separator: <!--more-->

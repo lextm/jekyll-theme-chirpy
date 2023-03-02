@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: Recommendation"
+description: This post talks about the future of HardQuery.
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-recommendation-8148575027cf
 excerpt_separator: <!--more-->

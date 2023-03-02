@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Dynamic C# Extensions Are Coming"
+description: This post talks about the coming dynamic C# extensions.
 tags: .NET
 permalink: /dynamic-c-extensions-are-coming-57eb08d44ef5
 excerpt_separator: <!--more-->

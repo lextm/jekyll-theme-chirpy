@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Visual Studio Clones RAD Studio?"
+description: This post is about features Visual Studio clones from RAD Studio.
 tags: Code-Beautifier-Collection Delphi
 permalink: /visual-studio-clones-rad-studio-c8aba372adc3
 excerpt_separator: <!--more-->

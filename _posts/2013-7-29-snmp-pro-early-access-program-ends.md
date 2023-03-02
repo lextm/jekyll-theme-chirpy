@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Pro: Early Access Program Ends"
+description: "This post talks about the end of #SNMP Pro Early Access Program."
 tags: SNMP
 permalink: /snmp-pro-early-access-program-ends-92f9fb358fc3
 excerpt_separator: <!--more-->

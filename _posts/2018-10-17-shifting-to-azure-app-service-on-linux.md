@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Shifting to Azure App Service on Linux
+description: A post about why you should consider shifting to Azure App Service on Linux.
 tags: Azure Windows Linux PHP Python
 permalink: /shifting-to-azure-app-service-on-linux-b216f4584b03
 excerpt_separator: <!--more-->

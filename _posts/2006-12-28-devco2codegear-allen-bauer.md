@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "DevCo2CodeGear: Allen Bauer眼中的2006"
+description: "这篇文章讲述了 Allen Bauer 眼中的2006。"
 tags: Delphi
 permalink: /devco2codegear-allen-bauer眼中的2006-2830f8e958dd
 excerpt_separator: <!--more-->

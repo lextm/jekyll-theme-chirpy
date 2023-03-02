@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Stupid Story of Installing MonoDevelop 7"
+description: "This post is about how to install MonoDevelop 7 on Linux and all remaining issues."
 tags: Mono
 permalink: /the-stupid-story-of-installing-monodevelop-7-223c1420915b
 excerpt_separator: <!--more-->

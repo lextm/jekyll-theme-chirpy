@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: R2U1 RC3 is available from now on"
+description: "This post announces the third release candidate of HardQuery Report R2U1."
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-r2u1-rc3-is-available-from-now-on-bba730f33250
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Borland Customer Service In China"
+description: "This post talks about my experience with Borland Customer Service."
 tags: Delphi
 permalink: /borland-customer-service-in-china-f1e4f4e2583f
 excerpt_separator: <!--more-->

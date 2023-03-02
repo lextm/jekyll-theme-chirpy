@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Sao Paulo Trip Delay Again And The Cost"
+description: This post talks about my delayed trip to Sao Paulo and the cost.
 tags: Others
 permalink: /sao-paulo-trip-delay-again-and-the-cost-6706dd7f9e66
 excerpt_separator: <!--more-->

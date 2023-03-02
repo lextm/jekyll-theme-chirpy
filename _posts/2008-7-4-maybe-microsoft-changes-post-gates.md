@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Maybe Microsoft Changes Post-Gates"
+description: "This post talks about the possible changes of Microsoft after Bill Gates' retirement."
 tags: Microsoft
 permalink: /maybe-microsoft-changes-post-gates-12cad5afbe3a
 excerpt_separator: <!--more-->

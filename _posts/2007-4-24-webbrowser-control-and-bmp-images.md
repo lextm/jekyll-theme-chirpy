@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "WebBrowser Control and BMP Images"
+description: "This post describes why to open BMP images in a WebBrowser control can be troublesome."
 tags: Windows .NET
 permalink: /webbrowser-control-and-bmp-images-855a5bb4f23f
 excerpt_separator: <!--more-->

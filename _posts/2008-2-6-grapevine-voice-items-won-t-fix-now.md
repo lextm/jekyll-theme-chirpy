@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Items Won't Fix Now"
+description: This post talks about the items that won't be fixed in 6.0 Final.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-items-wont-fix-now-eaadd4701e4c
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "RAD Studio December Update"
+description: This post is about my experience of installing December Update.
 tags: Code-Beautifier-Collection Delphi
 permalink: /rad-studio-december-update-22b7202e444e
 excerpt_separator: <!--more-->

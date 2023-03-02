@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Inno Setup Script Sample for Version Comparison
+description: This post talks about a sample Inno Setup script for version comparison.
 tags: Inno-Setup
 permalink: /inno-setup-script-sample-for-version-comparison-d5ac8f776f1d
 excerpt_separator: <!--more-->

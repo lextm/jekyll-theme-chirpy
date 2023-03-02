@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "SUN技术日的见闻-06.12.06"
+description: "这篇文章讲述了我参加 SUN 技术日的见闻。"
 tags: Java
 permalink: /sun技术日的见闻-06-12-06-e6815979f036
 excerpt_separator: <!--more-->

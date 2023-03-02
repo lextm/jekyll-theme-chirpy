@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: Release 2 Update 1 RC 2 is ready"
+description: "This article is about the upcoming update of CBC."
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-release-2-update-1-rc-2-is-ready-bf3d18b015db
 excerpt_separator: <!--more-->

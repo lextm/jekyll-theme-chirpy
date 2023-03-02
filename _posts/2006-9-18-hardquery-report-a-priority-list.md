@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: A Priority List"
+description: "This post describes how different features are prioritized in HardQuery."
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-a-priority-list-3cc5649c8265
 excerpt_separator: <!--more-->

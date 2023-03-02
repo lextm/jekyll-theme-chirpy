@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: 5.3.2.1125 Can Work With C++Builder 2007"
+description: "This post describes that HardQuery Report 5.3.2.1125 can work with C++Builder 2007."
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-5-3-2-1125-can-work-with-c-builder-2007-20da732d0e71
 excerpt_separator: <!--more-->

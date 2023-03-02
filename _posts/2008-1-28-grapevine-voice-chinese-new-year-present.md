@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Chinese New Year Present"
+description: This post talks about the Chinese New Year present.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-chinese-new-year-present-65b2ae9fdfc8
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "上班以来使用的开源东西"
+description: "这篇文章讲述了上班以来使用的开源产品。"
 tags: Windows SharpDevelop Firefox Java .NET
 permalink: /上班以来使用的开源东西-c30fde3baa04
 excerpt_separator: <!--more-->

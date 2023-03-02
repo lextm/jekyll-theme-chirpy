@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Windows XP Themes: Luna, Zune And Royale"
+description: This post talks about Windows XP themes I used.
 tags: Windows
 permalink: /windows-xp-themes-luna-zune-and-royale-14fdcb0e3850
 excerpt_separator: <!--more-->

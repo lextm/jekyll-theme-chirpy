@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The 2015 of LeXtudio and Me"
+description: This post is about what I have done in 2015.
 tags: Others
 permalink: /the-2015-of-lextudio-and-me-9a920c3ef836
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Power Of Advertisements"
+description: "This post talks about the power of advertisements."
 tags: Code-Beautifier-Collection Delphi
 permalink: /the-power-of-ad-dc0d4c5ac7c9
 excerpt_separator: <!--more-->

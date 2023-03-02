@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CBC TechNote: How to solve the coupling effect with SBT?"
+description: A post about how I kept my code isolated from David's Sharp Builder Tools.
 tags: Code-Beautifier-Collection Delphi
 permalink: /cbc-technote-how-to-solve-the-coupling-effect-with-sbt-6fde78543560
 excerpt_separator: <!--more-->

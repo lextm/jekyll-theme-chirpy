@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Two Network Adapters Issues Resolution"
+description: This post is about how to resolve issues when you have two network adapters installed.
 tags: SNMP Windows
 permalink: /two-network-adapters-issues-resolution-7d9e80034b59
 excerpt_separator: <!--more-->

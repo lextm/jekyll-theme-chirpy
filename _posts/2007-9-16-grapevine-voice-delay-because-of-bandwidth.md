@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Delay Because of Bandwidth"
+description: "This post is to announce a delay to ship M5 of GrapeVine."
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-delay-because-of-bandwidth-dcbcc6442f50
 excerpt_separator: <!--more-->

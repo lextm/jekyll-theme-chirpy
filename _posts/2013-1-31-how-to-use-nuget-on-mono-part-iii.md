@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to Use NuGet on Mono, Part III"
+description: "This post shows how to find out that Microsoft.Build.dll is missing."
 tags: Mono .NET
 permalink: /how-to-use-nuget-on-mono-part-iii-bc1d14e79db4
 excerpt_separator: <!--more-->

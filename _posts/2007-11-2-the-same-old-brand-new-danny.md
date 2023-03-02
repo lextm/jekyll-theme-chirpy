@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Same Old Brand New Danny"
+description: This post talks about Danny Thorpe's new job.
 tags: Delphi
 permalink: /the-same-old-brand-new-danny-1ef5b561ab5b
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Table Manipulation"
+description: "This post talks about the table manipulation in #SNMP."
 tags: SNMP
 permalink: /snmp-design-table-manipulation-6f8353bc9ebc
 excerpt_separator: <!--more-->

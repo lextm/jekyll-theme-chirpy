@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Most Common Technologies Not Supported By Microsoft
+description: A post about the most common technologies not supported by Microsoft and how to work around them.
 tags: Visual-Studio .NET
 permalink: /the-most-common-technologies-not-supported-by-microsoft-8675c409bde2
 excerpt_separator: <!--more-->

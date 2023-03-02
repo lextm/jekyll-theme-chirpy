@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: May Be Another Update"
+description: This post talks about the possible next update of HardQuery.
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-may-be-another-update-c7510c18117a
 excerpt_separator: <!--more-->

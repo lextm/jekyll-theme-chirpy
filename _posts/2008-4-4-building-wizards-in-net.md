@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Building Wizards In .NET"
+description: This post talks about how to build wizards in .NET.
 tags: .NET
 permalink: /building-wizards-in-net-6cc9e085d600
 excerpt_separator: <!--more-->

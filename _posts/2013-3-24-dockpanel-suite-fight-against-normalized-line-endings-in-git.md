@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "DockPanel Suite: Fight Against Normalized Line Endings in Git"
+description: "This post talks about how to fight against normalized line endings in Git."
 tags: DockPanel-Suite
 permalink: /dockpanel-suite-fight-against-normalized-line-endings-in-git-b5d897e17a07
 excerpt_separator: <!--more-->

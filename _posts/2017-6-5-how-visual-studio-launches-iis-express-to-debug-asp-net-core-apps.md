@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How Visual Studio Launches IIS Express to Debug ASP.NET Core Apps
+description: This post is about the technical details behind the scenes when Visual Studio launches IIS Express to debug ASP.NET Core apps.
 tags: Visual-Studio IIS .NET
 permalink: /how-visual-studio-launches-iis-express-to-debug-asp-net-core-apps-d7fd3677e3c3
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Books Arrived On Time"
+description: "This post describes that I bought some books from China-Pub.com."
 tags: Others
 permalink: /books-arrived-on-time-916acb1acad6
 excerpt_separator: <!--more-->

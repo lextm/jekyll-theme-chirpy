@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Stopwatch的手术"
+description: "这篇文章讲述了 Stopwatch 相关的代码重构。"
 tags: Code-Beautifier-Collection Delphi
 permalink: /stopwatch的手术-ecd03c9b6020
 excerpt_separator: <!--more-->

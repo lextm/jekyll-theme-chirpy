@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Whole Story of "Server Certificate Disappears in IIS 7/7.5/8/8.5/10.0 After Installing It! Why!"
+description: This post tries to show you why server certificate might disappear after installing to IIS Manager, so that you get both the solution and the rationale.
 tags: IIS
 permalink: /the-whole-story-of-server-certificate-disappears-in-iis-7-7-5-8-8-5-10-0-after-installing-it-why-b66e802baa38
 excerpt_separator: <!--more-->

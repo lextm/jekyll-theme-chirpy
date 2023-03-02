@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Blogspot Is Blocked At Home"
+description: "This post describes that Blogspot.com is blocked in China."
 tags: Google
 permalink: /blogspot-is-blocked-at-home-1a9572fe530d
 excerpt_separator: <!--more-->

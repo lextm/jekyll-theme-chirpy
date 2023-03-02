@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Moving Back to BitComet, and Farewell FlashGet"
+description: "This post talks about the move back to BitComet."
 tags: Windows
 permalink: /moving-back-to-bitcomet-and-farewell-flashget-e2e854518e29
 excerpt_separator: <!--more-->

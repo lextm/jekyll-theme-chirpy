@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Horrible Facts on Visual Studio Setup Projects
+description: A post about the stories about Visual Studio Setup Projects and why you should avoid this project type.
 tags: Microsoft Visual-Studio Windows-Installer
 permalink: /the-horrible-facts-on-visual-studio-setup-projects-45e66fe86d8d
 excerpt_separator: <!--more-->

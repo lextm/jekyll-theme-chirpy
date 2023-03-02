@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "DockPanel Suite Tip #2: Conflicts with Crad Action List"
+description: This post talks about how to use DockPanel with Crad Action List.
 tags: DockPanel-Suite
 permalink: /dockpanel-suite-tip-2-conflicts-with-crad-action-list-baf8cc207d14
 excerpt_separator: <!--more-->

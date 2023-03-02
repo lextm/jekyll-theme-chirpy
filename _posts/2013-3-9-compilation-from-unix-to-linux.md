@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "一些链接的汇编：从UNIX到Linux和UNIX的复兴"
+description: "这篇文章讨论了 UNIX 和 Linux 操作系统诞生和壮大的历史故事。"
 tags: Linux
 permalink: /一些链接的汇编-从unix到linux和unix的复兴-2b3ce2d69861
 excerpt_separator: <!--more-->

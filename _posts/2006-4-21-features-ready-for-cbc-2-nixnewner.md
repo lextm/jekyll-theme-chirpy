@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Features ready for CBC 2 NixNewNer"
+description: This post is about the features ready for CBC 2 NixNewNer.
 tags: Code-Beautifier-Collection Delphi
 permalink: /features-ready-for-cbc-2-nixnewner-70e310238f34
 excerpt_separator: <!--more-->

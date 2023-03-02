@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Block Breaker: Google Reader's Difference From Thunderbird"
+description: "This post talks about how Google Reader works better than Thunderbird."
 tags: Google
 permalink: /block-breaker-google-readers-difference-from-thunderbird-addbb4a93948
 excerpt_separator: <!--more-->

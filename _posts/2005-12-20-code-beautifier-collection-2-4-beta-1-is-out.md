@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Code Beautifier Collection 2.4 Beta 1 is out!"
+description: A post about Code Beautifier Collection 2.4 Beta 1.
 tags: Code-Beautifier-Collection Delphi
 permalink: /code-beautifier-collection-2-4-beta-1-is-out-51e305ce6f9f
 excerpt_separator: <!--more-->

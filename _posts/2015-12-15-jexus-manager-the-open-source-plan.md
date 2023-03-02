@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jexus Manager: The Open Source Plan"
+description: "This post is about the open source plan of Jexus Manager."
 tags: Jexus-Manager
 permalink: /jexus-manager-the-open-source-plan-4977676be99e
 excerpt_separator: <!--more-->

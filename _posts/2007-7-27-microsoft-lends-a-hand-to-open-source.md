@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Microsoft Lends A Hand To Open Source?"
+description: "This post talks about Microsoft's open source policy changes."
 tags: Microsoft
 permalink: /microsoft-lends-a-hand-to-open-source-460001aab0da
 excerpt_separator: <!--more-->

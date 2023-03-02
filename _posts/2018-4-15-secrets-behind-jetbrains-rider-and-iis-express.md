@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Secrets Behind JetBrains Rider and IIS Express
+description: A post about the integration between JetBrains Rider and IIS Express.
 tags: JetBrains .NET IIS
 permalink: /secrets-behind-jetbrains-rider-and-iis-express-d2ad006301e1
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Product Registration Extras"
+description: "This post talks about the benefits of registering your purchased products."
 tags: Delphi
 permalink: /product-registration-extras-a649425ff8ea
 excerpt_separator: <!--more-->

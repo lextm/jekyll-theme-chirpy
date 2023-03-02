@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Source Analysis"
+description: "This post is about the source analysis of #SNMP."
 tags: SNMP
 permalink: /snmp-design-source-analysis-9eaa8a62a6f4
 excerpt_separator: <!--more-->

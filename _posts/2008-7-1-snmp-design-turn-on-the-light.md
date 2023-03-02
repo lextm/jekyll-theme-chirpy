@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Turn On The Light"
+description: "This post talks about MIB browser improvement and other bug fixes."
 tags: SNMP
 permalink: /snmp-design-turn-on-the-light-dd9ad54c79bf
 excerpt_separator: <!--more-->

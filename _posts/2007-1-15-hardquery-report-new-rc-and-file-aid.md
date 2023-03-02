@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: New RC and File Aid"
+description: "This post reports the new RC and File Aid feature of HardQuery."
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-new-rc-and-file-aid-7508fb61ee7c
 excerpt_separator: <!--more-->

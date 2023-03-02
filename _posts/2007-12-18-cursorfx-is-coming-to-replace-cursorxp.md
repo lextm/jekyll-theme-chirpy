@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CursorFX Is Coming to Replace CursorXP"
+description: This post is about CursorFX.
 tags: Windows
 permalink: /cursorfx-is-coming-to-replace-cursorxp-2337a5211c5f
 excerpt_separator: <!--more-->

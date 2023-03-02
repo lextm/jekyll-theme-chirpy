@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Everything Good And Horrible About PowerShell Gallery
+description: A post about my experience on PowerShell Gallery and why I decided to give up.
 tags: PowerShell
 permalink: /everything-good-and-horrible-about-powershell-gallery-a2814e1a8ab6
 excerpt_separator: <!--more-->

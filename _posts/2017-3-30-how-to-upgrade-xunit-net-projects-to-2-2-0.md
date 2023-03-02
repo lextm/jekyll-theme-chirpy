@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to Upgrade xUnit.net Projects to 2.2.0"
+description: "This post is about how to upgrade xUnit.net projects to 2.2.0."
 tags: .NET Visual-Studio
 permalink: /how-to-upgrade-xunit-net-projects-to-2-2-0-f8fb943b725d
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Naming a Product"
+description: This post talks about how difficult to name products.
 tags: .NET Mono
 permalink: /naming-a-product-66116a87099c
 excerpt_separator: <!--more-->

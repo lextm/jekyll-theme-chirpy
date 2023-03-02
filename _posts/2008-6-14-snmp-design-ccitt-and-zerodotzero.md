@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: ccitt and zeroDotZero"
+description: "This post talks about the difference between ccitt and zeroDotZero."
 tags: SNMP
 permalink: /snmp-design-ccitt-and-zerodotzero-f87da8b8c3b6
 excerpt_separator: <!--more-->

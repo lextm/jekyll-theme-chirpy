@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Unsigned long December"
+description: "这篇文章讲述了我在十二月的感受。"
 tags: Others
 permalink: /unsigned-long-december-e4e58e957e88
 excerpt_separator: <!--more-->

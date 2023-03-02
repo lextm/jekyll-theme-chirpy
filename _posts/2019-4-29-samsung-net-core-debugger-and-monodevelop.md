@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Samsung .NET Core Debugger and MonoDevelop
+description: A post about Samsung's .NET Core debugger and how I integrate it with MonoDevelop
 tags: Linux Mono Samsung .NET
 permalink: /samsung-net-core-debugger-and-monodevelop-80a6ea4bcab3
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Oh Cops, I Love You"
+description: "This post talks about the static code analysis tools that help me to write better code."
 tags: .NET
 permalink: /oh-cops-i-love-you-3d72b598ceac
 excerpt_separator: <!--more-->

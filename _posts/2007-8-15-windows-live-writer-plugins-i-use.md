@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Windows Live Writer Plugins I Use"
+description: "This post talks about some plugins I use with Windows Live Writer."
 tags: Windows
 permalink: /windows-live-writer-plugins-i-use-603828787534
 excerpt_separator: <!--more-->

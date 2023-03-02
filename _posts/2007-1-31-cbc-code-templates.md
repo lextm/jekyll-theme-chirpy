@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CBC Code Templates"
+description: "This post describes how to use CBC Code Templates."
 tags: Code-Beautifier-Collection Delphi
 permalink: /cbc-code-templates-760c67c006c8
 excerpt_separator: <!--more-->

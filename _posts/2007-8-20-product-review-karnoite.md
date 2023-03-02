@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Product Review: Karvonite"
+description: "This post talks about Karvonite, a .NET object persistence library."
 tags: Delphi Windows
 permalink: /product-review-karvonite-de33d25e6212
 excerpt_separator: <!--more-->

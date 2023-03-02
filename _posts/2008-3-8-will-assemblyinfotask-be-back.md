@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Will AssemblyInfoTask Be Back"
+description: This post talks about the fate of AssemblyInfoTask.
 tags: .NET
 permalink: /will-assemblyinfotask-be-back-1fc09eddcd9d
 excerpt_separator: <!--more-->

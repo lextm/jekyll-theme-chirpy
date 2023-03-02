@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "F# and Visual Studio After 2008"
+description: "This post talks about the future of F# and Visual Studio."
 tags: Visual-Studio .NET
 permalink: /f-and-visual-studio-after-2008-bd188bf6c0a3
 excerpt_separator: <!--more-->

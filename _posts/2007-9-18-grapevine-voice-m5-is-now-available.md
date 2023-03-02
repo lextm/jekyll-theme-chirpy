@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: M5 Is Now Available"
+description: "This post is to announce M5 of GrapeVine."
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-m5-is-now-available-828bbd803d88
 excerpt_separator: <!--more-->

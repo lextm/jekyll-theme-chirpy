@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Fix for Windows Live Writer"
+description: "This post describes how to fix the problem that Windows Live Writer consumes 100% CPU."
 tags: Windows
 permalink: /fix-for-windows-live-writer-52eaf7bdfcb3
 excerpt_separator: <!--more-->

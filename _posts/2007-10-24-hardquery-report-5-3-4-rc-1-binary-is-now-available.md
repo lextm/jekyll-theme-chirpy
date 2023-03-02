@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: 5.3.4 RC 1 Binary Is Now Available"
+description: This post announces the release of HardQuery 5.3.4 RC 1 binaries.
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-5-3-4-rc-1-binary-is-now-available-dc1a0e75ea67
 excerpt_separator: <!--more-->

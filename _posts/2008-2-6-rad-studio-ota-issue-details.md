@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "RAD Studio OTA Issue Details"
+description: This post describes how I find a bug in RAD Studio OTA.
 tags: Code-Beautifier-Collection Delphi
 permalink: /rad-studio-ota-issue-details-6e111b51c005
 excerpt_separator: <!--more-->

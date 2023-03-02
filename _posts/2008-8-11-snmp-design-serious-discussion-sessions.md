@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Serious Discussion Sessions"
+description: "This post talks about the serious discussion sessions on CodePlex."
 tags: SNMP
 permalink: /snmp-design-serious-discussion-sessions-5a26c93aca30
 excerpt_separator: <!--more-->

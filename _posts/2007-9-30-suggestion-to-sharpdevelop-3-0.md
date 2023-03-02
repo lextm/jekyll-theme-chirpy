@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Suggestion to SharpDevelop 3.0"
+description: "This post talks about my suggestion to SharpDevelop 3.0."
 tags: SharpDevelop .NET
 permalink: /suggestion-to-sharpdevelop-3-0-a4b1ba8b2cc8
 excerpt_separator: <!--more-->

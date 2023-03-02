@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Challenges to Enable 'Open With Windows Terminal'"
+description: A post about the challenges I encountered when I created a project to enable Windows Explorer context menu for Windows Terminal.
 tags: Windows PowerShell
 permalink: /the-challenges-to-enable-open-with-windows-terminal-8090b2d92d5a
 excerpt_separator: <!--more-->

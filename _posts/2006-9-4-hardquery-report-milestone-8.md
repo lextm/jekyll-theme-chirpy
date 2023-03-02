@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: Milestone 8"
+description: "This post describes the progress of HardQuery."
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-milestone-8-e089de32a80a
 excerpt_separator: <!--more-->

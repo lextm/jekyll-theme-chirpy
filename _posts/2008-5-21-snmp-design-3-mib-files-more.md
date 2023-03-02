@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: 3 MIB Files More"
+description: This post talks about how I parse more MIB files.
 tags: SNMP
 permalink: /snmp-design-3-mib-files-more-c69206fb3006
 excerpt_separator: <!--more-->

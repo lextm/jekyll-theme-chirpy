@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CodeGear Merged into Embarcadero"
+description: This post talks about the merger of CodeGear into Embarcadero.
 tags: Delphi
 permalink: /codegear-merged-into-embarcadero-a4d6531a1b88
 excerpt_separator: <!--more-->

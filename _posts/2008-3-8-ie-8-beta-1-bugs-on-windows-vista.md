@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "IE 8 Beta 1 Bugs on Windows Vista"
+description: This post talks about the bugs of IE 8 Beta 1 on Windows Vista.
 tags: Windows
 permalink: /ie-8-beta-1-bugs-on-windows-vista-7b395093b073
 excerpt_separator: <!--more-->

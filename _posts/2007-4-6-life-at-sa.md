@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Life at SA"
+description: "This post is about my new job."
 tags: Code-Beautifier-Collection Delphi
 permalink: /life-at-sa-9ab7492a7797
 excerpt_separator: <!--more-->

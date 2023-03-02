@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CodeSmith Free Tip"
+description: This post talks about the free version of CodeSmith.
 tags: Others
 permalink: /codesmith-free-tip-a057dd4a617f
 excerpt_separator: <!--more-->

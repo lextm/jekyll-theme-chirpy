@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "对于开源的种种误读"
+description: 这篇文章讨论了对于开源的常见误会。
 tags: Code-Beautifier-Collection Delphi
 permalink: /对于开源的种种误读-8f5f38d66030
 excerpt_separator: <!--more-->

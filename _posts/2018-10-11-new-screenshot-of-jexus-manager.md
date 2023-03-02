@@ -1,6 +1,7 @@
 ---
 layout: post
 title: New Screenshot of Jexus Manager
+description: A post about the new screenshot of Jexus Manager and the new features revealed.
 tags: Visual-Studio .NET IIS
 permalink: /new-screenshot-of-jexus-manager-b23da44dee1f
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Status of IIS Out-Of-Band Modules
+description: This post is about the status of IIS out-of-band modules, such as ARR, URL Rewrite, HttpPlatformHandler, IIS CORS, and ASP.NET Core.
 tags: IIS
 permalink: /status-of-iis-out-of-band-modules-80a3af57c489
 excerpt_separator: <!--more-->

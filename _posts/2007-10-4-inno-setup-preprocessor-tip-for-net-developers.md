@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Inno Setup Preprocessor Tip for .NET Developers"
+description: "This post talks about how to use ISPP for .NET developers."
 tags: Inno-Setup .NET
 permalink: /inno-setup-preprocessor-tip-for-net-developers-a4bece8d7349
 excerpt_separator: <!--more-->

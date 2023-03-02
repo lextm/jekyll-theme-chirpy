@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Moving From Delphi Hours To Delphi.org"
+description: "This post talks about the move from Delphi Hours to Delphi.org."
 tags: Delphi
 permalink: /moving-from-delphi-hours-to-delphi-org-4afeb6a7e918
 excerpt_separator: <!--more-->

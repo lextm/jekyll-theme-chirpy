@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: May be an Update 1 RC"
+description: This post reports the progress of HardQuery and possibly an Update 1 RC.
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-may-be-an-update-1-rc-20c0a266b428
 excerpt_separator: <!--more-->

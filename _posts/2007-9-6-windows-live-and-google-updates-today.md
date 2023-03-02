@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Windows Live and Google Updates Today"
+description: "This post talks about the latest updates of Windows Live and Google."
 tags: Windows
 permalink: /windows-live-and-google-updates-today-d3db1b82d3ce
 excerpt_separator: <!--more-->

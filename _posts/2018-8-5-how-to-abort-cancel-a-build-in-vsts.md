@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to Abort/Cancel A Build In VSTS
+description: A post about how to abort a build in VSTS when nothing is changed.
 tags: Visual-Studio
 permalink: /how-to-abort-cancel-a-build-in-vsts-7a41fce5a42c
 excerpt_separator: <!--more-->

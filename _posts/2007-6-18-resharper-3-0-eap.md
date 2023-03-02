@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "ReSharper 3.0 EAP"
+description: "This post describes my experience with ReSharper 3.0 EAP."
 tags: .NET
 permalink: /resharper-3-0-eap-bdd5386368eb
 excerpt_separator: <!--more-->

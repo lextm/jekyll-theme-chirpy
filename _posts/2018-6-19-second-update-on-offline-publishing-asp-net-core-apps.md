@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Second Update on Offline Publishing ASP.NET Core Apps
+description: A third post about offline publishing ASP.NET Core apps.
 tags: Visual-Studio .NET
 permalink: /second-update-on-offline-publishing-asp-net-core-apps-e79c682fd287
 excerpt_separator: <!--more-->

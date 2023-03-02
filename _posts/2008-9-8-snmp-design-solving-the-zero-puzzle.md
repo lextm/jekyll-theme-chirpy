@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Solving the Zero Puzzle"
+description: "This post talks about the solution to SNMP zero puzzle."
 tags: SNMP
 permalink: /snmp-design-solving-the-zero-puzzle-ad094d078cfd
 excerpt_separator: <!--more-->

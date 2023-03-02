@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to Interpret IIS 7+ 500 Error Page Correctly"
+description: "This post talks about how to interpret IIS 7+ 500 error page correctly."
 tags: IIS
 permalink: /how-to-interpret-iis-7-500-error-page-correctly-187fe536993c
 excerpt_separator: <!--more-->

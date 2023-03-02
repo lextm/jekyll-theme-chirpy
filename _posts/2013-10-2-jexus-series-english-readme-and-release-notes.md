@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jexus Series: English Readme and Release Notes"
+description: "This post talks about Jexus Readme and Release Notes."
 tags: Jexus-Manager
 permalink: /jexus-series-english-readme-and-release-notes-6c7afdfb7c5e
 excerpt_separator: <!--more-->

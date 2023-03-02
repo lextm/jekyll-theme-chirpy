@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Rough History of .NET Core Debuggers
+description: A post about the rough history of .NET Core debuggers and interesting stories behind them.
 tags: Microsoft Visual-Studio .NET
 permalink: /the-rough-history-of-net-core-debuggers-b9fb206dc4aa
 excerpt_separator: <!--more-->

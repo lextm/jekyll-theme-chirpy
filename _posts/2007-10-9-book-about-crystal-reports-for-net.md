@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Book About Crystal Reports for .NET"
+description: "This post talks about a book on Crystal Reports for .NET."
 tags: .NET
 permalink: /book-about-crystal-reports-for-net-5580101a3dfb
 excerpt_separator: <!--more-->

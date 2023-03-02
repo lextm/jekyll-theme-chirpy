@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jexus Series: IP and Domain Restrictions"
+description: "This post talks about Jexus IP and Domain Restrictions."
 tags: Jexus-Manager
 permalink: /jexus-series-ip-and-domain-restrictions-c04db4ff4060
 excerpt_separator: <!--more-->

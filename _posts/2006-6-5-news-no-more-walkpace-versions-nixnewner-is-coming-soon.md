@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "News! No more WalkPace versions. NixNewNer is coming soon"
+description: This post is about the progress of LeXDK and new features in NixNewNer.
 tags: Code-Beautifier-Collection Delphi
 permalink: /news-no-more-walkpace-versions-nixnewner-is-coming-soon-db7d47ba4d1a
 excerpt_separator: <!--more-->

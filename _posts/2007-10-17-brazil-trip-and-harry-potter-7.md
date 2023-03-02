@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Brazil Trip and Harry Potter 7"
+description: This post talks about my trip to Brazil and Harry Potter 7.
 tags: Others
 permalink: /brazil-trip-and-harry-potter-7-57e5eb615d24
 excerpt_separator: <!--more-->

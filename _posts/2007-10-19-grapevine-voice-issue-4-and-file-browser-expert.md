@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Issue 4 and File Browser Expert"
+description: This post talks about issue 4 and File Browser Expert.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-issue-4-and-file-browser-expert-cebd080357bd
 excerpt_separator: <!--more-->

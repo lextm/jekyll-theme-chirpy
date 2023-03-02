@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Locating Boxing The Standard Way"
+description: "This post talks about how to locate boxing instructions in #SNMP library."
 tags: SNMP
 permalink: /snmp-design-locating-boxing-the-standard-way-13eb1cecfd6b
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Product Review: WinZip E-Mail Companion"
+description: This post talks about a nice utility from WinZip.
 tags: Windows
 permalink: /product-review-winzip-e-mail-companion-2be55039ccfe
 excerpt_separator: <!--more-->

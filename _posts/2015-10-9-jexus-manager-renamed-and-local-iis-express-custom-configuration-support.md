@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jexus Manager: Renamed and Local IIS Express Custom Configuration Support"
+description: "This post is about why Jexus Manager is renamed and how it supports IIS Express custom configuration."
 tags: Jexus-Manager IIS
 permalink: /jexus-manager-renamed-and-local-iis-express-custom-configuration-support-8cff599d012b
 excerpt_separator: <!--more-->
@@ -18,7 +19,7 @@ Yep, a quick glance can let you see the changes. From top to bottom we have thre
 
 Thus, it is time to get rid of the IIS Express limitation, and embrace all the best web servers for ASP.NET!
 
-## Local IIS Express Custom Configuration
+## IIS Express Custom Configuration
 
 If you happen to use Visual Studio 2015 (I hope you did), you will find [the latest build](https://devblogs.microsoft.com/dotnet/new-asp-net-features-and-fixes-in-visual-studio-2015-rc/) quite useful.
 

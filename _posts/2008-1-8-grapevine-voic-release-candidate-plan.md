@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Release Candidate (6.0.0.1011) Plan"
+description: This post announces the release plan of GrapeVine Voice 6.0.0.1011.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-release-candidate-6-0-0-1011-plan-42189fe6d376
 excerpt_separator: <!--more-->

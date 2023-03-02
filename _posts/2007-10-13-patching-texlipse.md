@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Tuning Skills Needed"
+description: This post talks about tuning skills to configure LaTeX environment.
 tags: Java
 permalink: /patching-texlipse-ec5908768adf
 excerpt_separator: <!--more-->

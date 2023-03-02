@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Ribbon Everywhere?"
+description: "This post talks about Ribbon UI in development tools."
 tags: Windows
 permalink: /ribbon-everywhere-b444365c6cb4
 excerpt_separator: <!--more-->

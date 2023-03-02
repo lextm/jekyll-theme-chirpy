@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Pro: Secrets Behind OBJECT IDENTIFIER"
+description: "This post talks about the secrets behind OBJECT IDENTIFIER."
 tags: SNMP
 permalink: /snmp-pro-secrets-behind-object-identifier-ff242fd4474e
 excerpt_separator: <!--more-->

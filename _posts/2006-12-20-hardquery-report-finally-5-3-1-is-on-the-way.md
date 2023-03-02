@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: Finally 5.3.1 is on the way"
+description: "This post reports the progress of HardQuery 5.3.1."
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-finally-5-3-1-is-on-the-way-3d92d36f015b
 excerpt_separator: <!--more-->

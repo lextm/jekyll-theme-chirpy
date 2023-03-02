@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Sweet Memories: Joy FM Days"
+description: This post talks about the radio program named Joy FM.
 tags: Others
 permalink: /sweet-memories-joy-fm-days-d4527f1f3b2c
 excerpt_separator: <!--more-->

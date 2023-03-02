@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Logging, Exceptions, and Hacks"
+description: "This post describes how to log exceptions."
 tags: Others
 permalink: /logging-exceptions-and-hacks-83bec1bf4075
 excerpt_separator: <!--more-->

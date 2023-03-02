@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Brazil Trip Cancelled"
+description: This post is about my cancelled Brazil trip.
 tags: Others
 permalink: /brazil-trip-cancelled-9fc269202be
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Firefox 3 Icons With Chinese Characters"
+description: This post talks about the new icons for Firefox 3.
 tags: Windows
 permalink: /firefox-3-icons-with-chinese-characters-95b3806451d4
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Manual Installation of Firefox Extensions"
+description: This post talks about the manual installation of Firefox extensions.
 tags: Firefox
 permalink: /manual-installation-of-firefox-extensions-9ba8b416ce8a
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: New Language Server and Case Study
+description: A post about the new Esbonio language server and how to troubleshoot issues with it
 tags: Visual-Studio-Code
 excerpt_separator: <!--more-->
 ---

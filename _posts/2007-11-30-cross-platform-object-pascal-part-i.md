@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Cross Platform Object Pascal (Part I)"
+description: This post talks about that there are totally three major groups working on cross platform Object Pascal.
 tags: Code-Beautifier-Collection Delphi
 permalink: /cross-platform-object-pascal-part-i-e4d73af87646
 excerpt_separator: <!--more-->

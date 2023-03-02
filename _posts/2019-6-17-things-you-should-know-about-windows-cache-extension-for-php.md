@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Things You Should Know About Windows Cache Extension for PHP
-tags: IIS .NET ASP.NET
+description: A post about things you should know about Windows Cache Extension for PHP and why it is not recommended to use.
+tags: IIS PHP
 permalink: /things-you-should-know-about-windows-cache-extension-for-php-93b7e013ea4c
 excerpt_separator: <!--more-->
 image:

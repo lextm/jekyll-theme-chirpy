@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Product Review: First Look At PowerShell"
+description: This post is about PowerShell.
 tags: Windows
 permalink: /product-review-first-look-at-powershell-db413733099a
 excerpt_separator: <!--more-->

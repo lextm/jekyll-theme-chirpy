@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Chinese Translator In Firefox And Thunderbird"
+description: "This post talks about Chinese translator in Firefox and Thunderbird."
 tags: Others
 permalink: /chinese-translator-in-firefox-and-thunderbird-88ca45c8b3e
 excerpt_separator: <!--more-->

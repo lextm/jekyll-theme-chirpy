@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: Release 2 Update 3 Final is Finally Out There"
+description: "This post describes about HardQuery Report Release 2 Update 3."
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-release-2-update-3-final-is-finally-out-there-b0835b9e84b7
 excerpt_separator: <!--more-->

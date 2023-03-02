@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Installation Experience (Part II)"
+description: "This post talks about the installation experience of GrapeVine build."
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-installation-experience-part-ii-b2899f34a18d
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Printed Documents: Intel Volumes Arrived"
+description: "This post describes that I ordered a few volumes of Intel manuals and they arrived today by FedEx."
 tags: Others
 permalink: /printed-documents-intel-volumes-arrived-2f956bb1d5a5
 excerpt_separator: <!--more-->

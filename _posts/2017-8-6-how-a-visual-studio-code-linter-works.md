@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How A Visual Studio Code Linter Works
+description: This post is about how a Visual Studio Code linter works so that you can develop other linter integration.
 tags: Visual-Studio-Code
 permalink: /how-a-visual-studio-code-linter-works-681c8388b0ea
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Busy Week and Happy End"
+description: "This post describes my busy week."
 tags: Others
 permalink: /busy-week-and-happy-end-c9c795b7db43
 excerpt_separator: <!--more-->

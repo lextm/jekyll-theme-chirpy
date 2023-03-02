@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "DockPanel Suite: How to Write a New Theme"
+description: "This post talks about how to write a new theme for DockPanel Suite."
 tags: DockPanel-Suite
 permalink: /dockpanel-suite-how-to-write-a-new-theme-573f46197486
 excerpt_separator: <!--more-->

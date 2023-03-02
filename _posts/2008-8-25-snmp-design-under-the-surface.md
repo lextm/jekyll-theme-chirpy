@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Under The Surface"
+description: "This post talks about the low level functions exposed by those message classes."
 tags: SNMP
 permalink: /snmp-design-under-the-surface-7374b30a15e8
 excerpt_separator: <!--more-->

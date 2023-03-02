@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Bugs That Prevent 6.0 Final"
+description: This post talks about the bugs that prevent 6.0 from running out of the door.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-bugs-that-prevent-6-0-final-2fd207fe3882
 excerpt_separator: <!--more-->

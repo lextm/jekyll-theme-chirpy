@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: There will be a Preview 2"
+description: "This post talks about HardQuery Preview 2."
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-there-will-be-a-preview-2-b5fa50f1de3
 excerpt_separator: <!--more-->

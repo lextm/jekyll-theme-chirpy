@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Free Unmanaged Resources"
+description: This post is about how to free up unmanaged resources.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-free-unmanaged-resources-2bd41102062a
 excerpt_separator: <!--more-->

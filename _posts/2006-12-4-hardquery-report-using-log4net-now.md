@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HardQuery Report: Using log4net now"
+description: "This post describes that I have changed the logging framework to log4net."
 tags: Code-Beautifier-Collection Delphi
 permalink: /hardquery-report-using-log4net-now-dfb6b817a46a
 excerpt_separator: <!--more-->

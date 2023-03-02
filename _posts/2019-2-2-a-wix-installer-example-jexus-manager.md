@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A WiX Installer Example, Jexus Manager
+description: A post about how I used WiX to create the simple MSI installer for Jexus Manager.
 tags: Visual-Studio Windows-Installer
 permalink: /a-wix-installer-example-jexus-manager-640b6586c27c
 excerpt_separator: <!--more-->

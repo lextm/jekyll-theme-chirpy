@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: AddMany 5.2 Comes"
+description: This post talks about a new version of AddMany.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-addmany-5-2-comes-4cad3c2a3425
 excerpt_separator: <!--more-->

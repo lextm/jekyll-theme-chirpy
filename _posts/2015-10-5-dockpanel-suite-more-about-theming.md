@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "DockPanel Suite: More About Theming"
+description: "This post is about how new themes are developed and distributed in the future."
 tags: DockPanel-Suite .NET
 permalink: /dockpanel-suite-more-about-theming-48864f47892c
 excerpt_separator: <!--more-->

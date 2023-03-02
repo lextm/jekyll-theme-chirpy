@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Anti-Virus Trouble"
+description: "This post describes my anti-virus choice."
 tags: Windows
 permalink: /anti-virus-trouble-d22c83ae2334
 excerpt_separator: <!--more-->

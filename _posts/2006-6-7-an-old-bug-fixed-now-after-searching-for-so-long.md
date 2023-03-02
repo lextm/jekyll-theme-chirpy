@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "An old bug fixed now after searching for so long"
+description: This post is about a bug in CBC 2, which is fixed now.
 tags: Code-Beautifier-Collection Delphi
 permalink: /an-old-bug-fixed-now-after-searching-for-so-long-b123d7e1c926
 excerpt_separator: <!--more-->

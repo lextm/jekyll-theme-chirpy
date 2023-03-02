@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "TDD, IoC, and Mock Framework"
+description: This post talks about my experience of using TDD, IoC, and Mock Framework.
 tags: .NET
 permalink: /tdd-ioc-and-mock-framework-a16825154e8b
 excerpt_separator: <!--more-->

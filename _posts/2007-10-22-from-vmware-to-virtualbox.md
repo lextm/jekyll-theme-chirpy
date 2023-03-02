@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "From VMware to VirtualBox"
+description: This post talks about my migration from VMware to VirtualBox.
 tags: Windows
 permalink: /from-vmware-to-virtualbox-eda6ec764f49
 excerpt_separator: <!--more-->

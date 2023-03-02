@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Rough History of .NET Framework Reference Source
+description: A post about the rough history of .NET Framework Reference Source and interesting stories around it.
 tags: .NET Visual-Studio
 excerpt_separator: <!--more-->
 ---

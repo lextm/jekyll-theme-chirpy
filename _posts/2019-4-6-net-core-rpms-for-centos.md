@@ -1,6 +1,7 @@
 ---
 layout: post
 title: .NET Core RPMs for CentOS
+description: A post about how to install .NET Core RPMs on CentOS.
 tags: Linux Red-Hat .NET
 permalink: /net-core-rpms-for-centos-1c40862e8166
 excerpt_separator: <!--more-->

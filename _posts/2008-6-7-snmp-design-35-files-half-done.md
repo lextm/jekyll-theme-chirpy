@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: 35 Files, Half Done"
+description: "This post talks about the progress of #SNMP 0.9 release."
 tags: SNMP
 permalink: /snmp-design-35-files-half-done-43bcc00dfdda
 excerpt_separator: <!--more-->

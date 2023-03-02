@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "ANN: WalkPace IV is out!"
+description: This post is about the final release of CBC 2 WalkPace.
 tags: Code-Beautifier-Collection Delphi
 permalink: /ann-walkpace-iv-is-out-b57762d4b90
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "News! HardQuery Final is finally out."
+description: "This post describes the final version of HardQuery."
 tags: Code-Beautifier-Collection Delphi
 permalink: /news-hardquery-final-is-finally-out-18730d02c929
 excerpt_separator: <!--more-->

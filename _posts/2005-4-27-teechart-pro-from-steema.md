@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 寻找被忽视和低估的TeeChart Pro (from Steema)
+description: 介绍了 .NET 下的一个图表控件 TeeChart Pro 的使用方法。
 tags: .NET Visual-Studio macOS xUnit
 permalink: /寻找被忽视和低估的teechart-pro-from-steema-1b4d255ba814
 excerpt_separator: <!--more-->

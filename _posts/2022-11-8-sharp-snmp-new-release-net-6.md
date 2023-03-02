@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP New Release for .NET 6"
+description: "A post about new release of #SNMP Library specific to .NET 6."
 tags: Visual-Studio .NET SNMP
 excerpt_separator: <!--more-->
 ---

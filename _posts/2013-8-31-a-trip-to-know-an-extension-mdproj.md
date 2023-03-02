@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Trip to Know an Extension, mdproj"
+description: "This post talks about how I find out the relationship between Rational XDE and mdproj extension."
 tags: Java
 permalink: /a-trip-to-know-an-extension-mdproj-ccefe199864a
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "TamTam SVN SCC is Now Available"
+description: "This post describes the availability of TamTam SVN SCC."
 tags: Visual-Studio
 permalink: /tamtam-svn-scc-is-now-available-c289a6f759bd
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Microsoft.Web.Administration of IIS Express
+description: A post about how to use Microsoft.Web.Administration to manage IIS Express
 tags: IIS .NET
 excerpt_separator: <!--more-->
 ---

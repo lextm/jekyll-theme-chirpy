@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Strange 'Peer Certificate Cannot Be Authenticated' Issue"
+description: This post is about a strange issue when using .NET Core related to time synchronization.
 tags: Linux .NET
 permalink: /a-strange-peer-certificate-cannot-be-authenticated-issue-a7f47193699
 excerpt_separator: <!--more-->

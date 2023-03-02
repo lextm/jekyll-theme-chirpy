@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Analysis on a #SNMP Library Memory Leak Report with JetBrains dotMemory"
+description: "This post is about how I analyzed a memory leak report on a #SNMP Library with JetBrains dotMemory."
 tags: .NET Visual-Studio
 permalink: /analysis-on-a-snmp-library-memory-leak-report-with-jetbrains-dotmemory-9199f8a98955
 excerpt_separator: <!--more-->

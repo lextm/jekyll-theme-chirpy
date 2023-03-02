@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Eclipse Download Experience Changes"
+description: "This post talks about the changes in Eclipse download experience."
 tags: Java
 permalink: /eclipse-download-experience-changes-547b60438263
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Important Update on reStructuredText for VSCode
+description: A post about the latest update on reStructuredText for VSCode and the new features introduced.
 tags: Visual-Studio-Code reStructuredText
 permalink: /important-update-on-restructuredtext-for-vscode-efa0d412422f
 excerpt_separator: <!--more-->

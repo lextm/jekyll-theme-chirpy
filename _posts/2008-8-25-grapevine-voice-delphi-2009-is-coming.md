@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Delphi 2009 Is Coming"
+description: "This post talks about the new release for Delphi 2009."
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-delphi-2009-is-coming-188071447b6f
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "ANN: WalkPace Update 1 is out!"
+description: This post is about an update of CBC 2 WalkPace.
 tags: Code-Beautifier-Collection Delphi
 permalink: /ann-walkpace-update-1-is-out-9c2bf90138e5
 excerpt_separator: <!--more-->

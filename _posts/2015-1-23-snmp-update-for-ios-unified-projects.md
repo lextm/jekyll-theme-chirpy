@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Update for iOS Unified Projects"
+description: "This post is about how I updated #SNMP Library for iOS Unified Projects."
 tags: SNMP Mono
 permalink: /snmp-update-for-ios-unified-projects-35272fa4bba0
 excerpt_separator: <!--more-->

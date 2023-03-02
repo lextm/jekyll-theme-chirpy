@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Browser Update"
+description: "This post talks about the update of the MIB browser."
 tags: SNMP
 permalink: /snmp-design-browser-update-9bd1942b53b7
 excerpt_separator: <!--more-->

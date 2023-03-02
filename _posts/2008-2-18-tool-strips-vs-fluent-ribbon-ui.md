@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Tool Strips vs. Fluent/Ribbon UI"
+description: This post talks about the difference between tool strips and Ribbon UI.
 tags: Windows
 permalink: /tool-strips-vs-fluent-ribbon-ui-fac98821c7bd
 excerpt_separator: <!--more-->

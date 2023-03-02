@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Over UAC: Batch Build On Vista"
+description: "This post talks about how to use make.all.bat on Windows Vista with UAC enabled."
 tags: Windows
 permalink: /over-uac-batch-build-on-vista-13d31dee6a5d
 excerpt_separator: <!--more-->

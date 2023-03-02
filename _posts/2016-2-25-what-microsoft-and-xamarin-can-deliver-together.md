@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "What Microsoft and Xamarin Can Deliver Together"
+description: "This post is about what new technologies Microsoft and Xamarin can deliver together."
 tags: .NET Mono
 permalink: /what-microsoft-and-xamarin-can-deliver-together-221f668884a7
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: Issue 4 Revisited Once More"
+description: This post talks about the changes in 6.0 Update 1.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-issue-4-revisited-once-more-9fb06f8d6638
 excerpt_separator: <!--more-->

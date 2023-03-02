@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: 360Safe Treats InDate As Spyware"
+description: This post talks about 360Safe treats InDate as spyware.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-360safe-treats-indate-as-spyware-ba96e5bce4e2
 excerpt_separator: <!--more-->

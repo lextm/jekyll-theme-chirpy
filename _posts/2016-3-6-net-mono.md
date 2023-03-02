@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ".NET 和 Mono 的一点历史"
+description: "这篇文章是关于 .NET 和 Mono 的历史故事。"
 tags: .NET Mono
 permalink: /net-和-mono-的一点历史-772aebf42e24
 excerpt_separator: <!--more-->

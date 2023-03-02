@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Halfbaked RC 1"
+description: "This post talks about the progress of #SNMP 0.5 series."
 tags: SNMP
 permalink: /snmp-design-halfbaked-rc-1-9c15d910dfc6
 excerpt_separator: <!--more-->

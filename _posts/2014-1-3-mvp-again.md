@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "MVP Again"
+description: "This post talks about my MVP award."
 tags: Microsoft
 permalink: /mvp-again-4e3bb9b8fb6d
 excerpt_separator: <!--more-->

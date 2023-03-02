@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Project Renamed"
+description: "This post talks about the renaming of #SNMP project."
 tags: SNMP
 permalink: /snmp-design-project-renamed-b8503ea27506
 excerpt_separator: <!--more-->

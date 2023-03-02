@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "About languages of this blog"
+description: A post about why I use English in this blog.
 tags: Others
 permalink: /about-languages-of-this-blog-1fd2d08f9dbb
 excerpt_separator: <!--more-->

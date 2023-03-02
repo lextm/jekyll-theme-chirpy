@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jexus Series: URL Rewrite"
+description: "This post talks about Jexus URL Rewrite."
 tags: Jexus-Manager
 permalink: /jexus-series-url-rewrite-408e97900999
 excerpt_separator: <!--more-->

@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "HardQuery Report: Dell Inpiron 640m"
-tags: Code-Beautifier-Collection Delphi
+title: "Dell Inspiron 640m"
+description: "This post describes my new Dell Inspiron 640m."
+tags:
 permalink: /hardquery-report-dell-inpiron-640m-2f561ad3cf15
 excerpt_separator: <!--more-->
 ---

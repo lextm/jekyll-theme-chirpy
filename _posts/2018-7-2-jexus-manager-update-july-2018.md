@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Jexus Manager Update July 2018
+description: A post about the new features of Jexus Manager and the new screenshot.
 tags: Visual-Studio .NET IIS
 permalink: /jexus-manager-update-july-2018-597ff6bc1483
 excerpt_separator: <!--more-->

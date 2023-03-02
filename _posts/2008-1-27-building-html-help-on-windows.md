@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Building HTML Help on Windows"
+description: This post talks about how to build HTML Help on Windows.
 tags: Windows
 permalink: /building-html-help-on-windows-88f2168cb4b1
 excerpt_separator: <!--more-->

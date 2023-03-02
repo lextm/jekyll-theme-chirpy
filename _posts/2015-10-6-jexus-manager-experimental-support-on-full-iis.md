@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jexus Manager: Experimental Support on Full IIS"
+description: "This post is about how Jexus Manager provides experimental support on full IIS."
 tags: Jexus-Manager IIS
 permalink: /jexus-manager-experimental-support-on-full-iis-8bcf2e350647
 excerpt_separator: <!--more-->

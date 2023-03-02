@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Merge of .NET and Mono: Phase One"
+description: "This post is about the first phase of the merge of .NET and Mono."
 tags: .NET Mono
 permalink: /the-merge-of-net-and-mono-phase-one-c157e68ce371
 excerpt_separator: <!--more-->

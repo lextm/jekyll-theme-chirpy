@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GrapeVine Voice: JCF for Generics"
+description: This post is about JCF's support for generics.
 tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-jcf-for-generics-51269640c9f6
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Cool Tools for VS"
+description: "This post describes two extensions for Visual Studio."
 tags: Visual-Studio
 permalink: /cool-tools-for-vs-19896742ca5
 excerpt_separator: <!--more-->

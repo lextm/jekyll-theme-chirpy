@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AsmSpy on Artifacts Verification"
+description: A post about how to use the tool AsmSpy to verify dependent assembly versions to avoid runtime issues
 tags: Visual-Studio .NET
 excerpt_separator: <!--more-->
 ---

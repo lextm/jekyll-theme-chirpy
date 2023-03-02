@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "又一封公开信？"
+description: 这篇文章是又一封公开信，介绍了我自己开发的 CBC 项目。
 tags: Code-Beautifier-Collection Delphi
 permalink: /又一封公开信-a0e8bc60ec03
 excerpt_separator: <!--more-->
