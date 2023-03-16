@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Reach StackOverflow"
+description: "This post is about questions about #SNMP on Stack Overflow site."
 tags: SNMP
 permalink: /snmp-design-reach-stackoverflow-b6b3177e3dcb
 excerpt_separator: <!--more-->

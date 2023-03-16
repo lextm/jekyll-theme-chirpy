@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CrossRoad Billboard: CrossRoad Refresh (2.1)"
+description: "This post is about a refresh release of CrossRoad."
 tags: SNMP
 permalink: /crossroad-billboard-crossroad-refresh-2-1-1ad2424af35b
 excerpt_separator: <!--more-->

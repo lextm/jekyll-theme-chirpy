@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Fast Moving Mozilla"
+description: "This post is about how much I love the improvements in Firefox 3.1b2 and Thunderbird 3.0b1."
 tags: Windows
 permalink: /fast-moving-mozilla-6d25647698db
 excerpt_separator: <!--more-->

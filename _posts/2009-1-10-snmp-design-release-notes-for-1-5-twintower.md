@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Release Notes for 1.5 (TwinTower)"
+description: "This post is about the release notes of #SNMP 1.5 (TwinTower)."
 tags: SNMP
 permalink: /snmp-design-release-notes-for-1-5-twintower-2de00443601c
 excerpt_separator: <!--more-->

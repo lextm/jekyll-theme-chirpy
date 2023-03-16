@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "More on Windows SNMP Agent"
+description: "This post is about Windows SNMP Services."
 tags: Windows SNMP
 permalink: /more-on-windows-snmp-agent-ddf62a3eaf6
 excerpt_separator: <!--more-->

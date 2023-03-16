@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CrossRoad Billboard: More on IP v6 and 2.1"
+description: "This post is about a bug in the latest CrossRoad release."
 tags: Code-Beautifier-Collection Delphi
 permalink: /crossroad-billboard-more-on-ip-v6-and-2-1-3b924cecacef
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Compiler Promise from Embarcadero"
+description: "This post is about the promise of the new compiler from Embarcadero."
 tags: Delphi
 permalink: /compiler-promise-from-embarcadero-c0d2eed64fd2
 excerpt_separator: <!--more-->

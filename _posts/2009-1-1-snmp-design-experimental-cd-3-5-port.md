@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Experimental CF 3.5 Port"
+description: "This post is about the experimental .NET Compact Framework 3.5 port of #SNMP Library."
 tags: SNMP
 permalink: /snmp-design-experimental-cf-3-5-port-69bd866592b2
 excerpt_separator: <!--more-->

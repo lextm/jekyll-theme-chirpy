@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "David Hervieux Today"
+description: "This post is about David Hervieux."
 tags: Delphi
 permalink: /david-hervieux-today-c76b3e6fc462
 excerpt_separator: <!--more-->

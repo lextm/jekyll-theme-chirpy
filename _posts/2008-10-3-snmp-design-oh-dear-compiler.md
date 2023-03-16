@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Oh, Dear Compiler"
+description: This post is about the latest progress of the MIB compiler.
 tags: SNMP
 permalink: /snmp-design-oh-dear-compiler-44369d113f58
 excerpt_separator: <!--more-->

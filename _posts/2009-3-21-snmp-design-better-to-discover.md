@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Better to Discover"
+description: "This post is about the design of Discoverer class."
 tags: SNMP
 permalink: /snmp-design-better-to-discover-8c159a9fcc2d
 excerpt_separator: <!--more-->

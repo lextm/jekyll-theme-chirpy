@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Important Notice"
+description: "This post is about my vacation and the progress of #SNMP."
 tags: Others
 permalink: /important-notice-89278c4605f3
 excerpt_separator: <!--more-->

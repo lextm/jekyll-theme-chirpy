@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: BitString Status"
+description: "This post is about the status of BitString class."
 tags: SNMP
 permalink: /snmp-design-bitstring-status-3b80c3a479e9
 excerpt_separator: <!--more-->

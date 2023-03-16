@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Last Mile to Final Release of 2.0"
+description: "This post is about IPv6 support in the upcoming 2.0 release."
 tags: SNMP
 permalink: /snmp-design-last-mile-to-final-release-of-2-0-7550cb325620
 excerpt_separator: <!--more-->

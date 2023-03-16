@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: New Look of Its Home"
+description: "This post is about the new look of #SNMP homepage on CodePlex."
 tags: SNMP
 permalink: /snmp-design-new-look-of-its-home-f300092084cc
 excerpt_separator: <!--more-->

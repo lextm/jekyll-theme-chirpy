@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CatPaw Rumors: The Solution Files"
+description: "This post is about the solution files in #SNMP 5 codebase"
 tags: SNMP
 permalink: /catpaw-rumors-the-solution-files-3cf989f268fe
 excerpt_separator: <!--more-->

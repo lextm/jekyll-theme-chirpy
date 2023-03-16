@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Annual Release"
+description: "This post is about an important release of #SNMP around its first anniversary."
 tags: SNMP
 permalink: /snmp-design-annual-release-8168bc1ca5b2
 excerpt_separator: <!--more-->

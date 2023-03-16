@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Trident Sign: SNMP Agent Approach I Chose and The News"
+description: "this post is about how I implemented the SNMP agent with a different approach"
 tags: SNMP
 permalink: /trident-sign-snmp-agent-approach-i-chose-and-the-news-7a95902b8d83
 excerpt_separator: <!--more-->

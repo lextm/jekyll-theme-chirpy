@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "SquareRoot Puzzle: NDepend Check on #SNMP 4.0"
+description: "This post is about #SNMP 4.0 and NDepend."
 tags: SNMP
 excerpt_separator: <!--more-->
 ---

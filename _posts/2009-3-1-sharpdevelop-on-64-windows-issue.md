@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "SharpDevelop on x64 Windows Issue"
+description: "This post is about the issue I met when using SharpDevelop on Windows 7 x64 build 7000."
 tags: Windows .NET
 permalink: /sharpdevelop-on-x64-windows-issue-2e845c12cdc1
 excerpt_separator: <!--more-->

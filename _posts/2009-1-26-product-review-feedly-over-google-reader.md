@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Product Review: feedly over Google Reader"
+description: "This post is about my experience of using feedly over Google Reader."
 tags: Google
 permalink: /product-review-feedly-over-google-reader-e89293cfadd8
 excerpt_separator: <!--more-->

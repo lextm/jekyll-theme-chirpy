@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Backport to C# 2.0/Visual Studio 2005"
+description: "This post is about the work to back port #SNMP to C# 2.0/Visual Studio 2005."
 tags: SNMP .NET Visual-Studio
 permalink: /snmp-design-backport-to-c-2-0-visual-studio-2005-253d6b099c55
 excerpt_separator: <!--more-->

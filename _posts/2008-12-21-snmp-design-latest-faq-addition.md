@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Latest FAQ Addition"
+description: "This post is about the latest FAQ addition."
 tags: SNMP
 permalink: /snmp-design-latest-faq-addition-af988ee9a64e
 excerpt_separator: <!--more-->

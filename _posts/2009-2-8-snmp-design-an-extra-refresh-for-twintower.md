@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: An Extra Refresh for TwinTower"
+description: "This post is about another important release for TwinTower."
 tags: SNMP
 permalink: /snmp-design-an-extra-refresh-for-twintower-2009c8d650ce
 excerpt_separator: <!--more-->

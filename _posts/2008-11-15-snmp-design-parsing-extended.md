@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Parsing Extended"
+description: "This post is about the improvement in MIB parser."
 tags: SNMP
 permalink: /snmp-design-parsing-extended-483997023960
 excerpt_separator: <!--more-->

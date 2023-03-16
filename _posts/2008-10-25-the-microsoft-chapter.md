@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Microsoft Chapter"
+description: "This post is about my new blog at MSDN Blogs."
 tags: Microsoft
 excerpt_separator: <!--more-->
 ---

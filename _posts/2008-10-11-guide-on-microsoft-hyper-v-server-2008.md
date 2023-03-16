@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Guide on Microsoft Hyper-V Server 2008"
+description: This post is about how to install Microsoft Hyper-V Server 2008.
 tags: Windows
 permalink: /guide-on-microsoft-hyper-v-server-2008-f972da89fff7
 excerpt_separator: <!--more-->

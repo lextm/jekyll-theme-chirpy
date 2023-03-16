@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Product Review: Chrome-Look Firefox"
+description: "This post is about how to theme Firefox as Chrome."
 tags: Firefox
 permalink: /product-review-chrome-look-firefox-473fe9e6248b
 excerpt_separator: <!--more-->

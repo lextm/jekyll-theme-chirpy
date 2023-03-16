@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Take A Break"
+description: "This post is about my vacation and the progress of #SNMP."
 tags: SNMP
 permalink: /snmp-design-take-a-break-6915e7d8691c
 excerpt_separator: <!--more-->

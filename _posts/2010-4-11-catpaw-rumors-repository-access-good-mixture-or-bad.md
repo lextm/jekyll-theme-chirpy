@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CatPaw Rumors: Repository Access, Good Mixture Or Bad?"
+description: "This post is about repository access issues on MonoDevelop on openSUSE"
 tags: SNMP
 permalink: /catpaw-rumors-repository-access-good-mixture-or-bad-e2aaebc1d686
 excerpt_separator: <!--more-->

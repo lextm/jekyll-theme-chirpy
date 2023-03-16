@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CandyCan Opener: Bad News at Prime Time"
+description: "This post is about my departure from the Code Beautifier Collection project."
 tags: Code-Beautifier-Collection Delphi
 permalink: /candycan-opener-bad-news-at-prime-time-b9f0478bfe78
 excerpt_separator: <!--more-->

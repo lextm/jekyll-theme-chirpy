@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "SquareRoot Puzzle: A Pity on Mono Support"
+description: "This post is about why I could not work on Mono support"
 tags: SNMP Mono
 permalink: /squareroot-puzzle-a-pity-on-mono-support-36a947c50037
 excerpt_separator: <!--more-->

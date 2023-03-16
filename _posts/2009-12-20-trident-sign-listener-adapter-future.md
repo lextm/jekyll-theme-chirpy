@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Trident Sign: Listener Adapter Future"
+description: "This post is about the future of Listener Adapter"
 tags: SNMP
 permalink: /trident-sign-listener-adapter-future-e61bee9d07c1
 excerpt_separator: <!--more-->

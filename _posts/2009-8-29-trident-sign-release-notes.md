@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Trident Sign: Release Notes"
+description: "This post is about the release notes of 3.0."
 tags: SNMP
 permalink: /trident-sign-release-notes-b55aac776781
 excerpt_separator: <!--more-->

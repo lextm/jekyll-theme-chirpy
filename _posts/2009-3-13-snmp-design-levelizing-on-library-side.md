@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Levelizing on Library Side"
+description: "This post is about the code base cleanup of #SNMP Library."
 tags: SNMP
 permalink: /snmp-design-levelizing-on-library-side-7ca59c20a7cb
 excerpt_separator: <!--more-->

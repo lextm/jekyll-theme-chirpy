@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Important License Change for Browser and Compiler"
+description: "This post is about the license change for the Browser and Compiler."
 tags: SNMP
 permalink: /snmp-design-important-license-change-for-browser-and-compiler-c2c3562565f9
 excerpt_separator: <!--more-->

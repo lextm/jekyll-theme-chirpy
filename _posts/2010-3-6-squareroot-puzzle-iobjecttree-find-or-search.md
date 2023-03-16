@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "SquareRoot Puzzle: IObjectTree, Find or Search?"
+description: "This post is about the design of IObjectTree.Find method"
 tags: SNMP
 permalink: /squareroot-puzzle-iobjecttree-find-or-search-eed6e2060504
 excerpt_separator: <!--more-->

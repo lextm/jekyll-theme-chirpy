@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Label Cloud for Blogger"
+description: "This post is about how to add a Label Cloud in Blogger."
 tags: Others
 permalink: /label-cloud-for-blogger-b88787802772
 excerpt_separator: <!--more-->

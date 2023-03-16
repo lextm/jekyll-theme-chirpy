@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Steve's Week"
+description: "This post is about Steve's work in the past week."
 tags: SNMP
 permalink: /snmp-design-steves-week-f052a50ac4f
 excerpt_separator: <!--more-->

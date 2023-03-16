@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "从Meizu的招聘职位看M8的未来"
+description: “这篇文章是关于 Meizu 招聘职位透露出的未来趋势”
 tags: Meizu Android
 permalink: /从meizu的招聘职位看m8的未来-6e20a7e3930d
 excerpt_separator: <!--more-->

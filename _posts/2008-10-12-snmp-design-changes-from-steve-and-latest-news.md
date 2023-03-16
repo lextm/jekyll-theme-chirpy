@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Changes from Steve, and Latest News"
+description: "This post is about the latest changes from Steve and the latest news on #SNMP."
 tags: SNMP
 permalink: /snmp-design-changes-from-steve-and-latest-news-2a448a7568a7
 excerpt_separator: <!--more-->

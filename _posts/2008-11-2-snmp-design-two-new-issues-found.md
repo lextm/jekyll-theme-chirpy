@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Two New Issues Found"
+description: "This post is about two new issues found in #SNMP."
 tags: SNMP
 permalink: /snmp-design-two-new-issues-found-f4f0081a76de
 excerpt_separator: <!--more-->

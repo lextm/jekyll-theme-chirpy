@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: CrossRoad Beta 3"
+description: "This post is about the new beta of #SNMP MIB Browser and Compiler."
 tags: SNMP
 permalink: /snmp-design-crossroad-beta-3-ce39689c01f9
 excerpt_separator: <!--more-->

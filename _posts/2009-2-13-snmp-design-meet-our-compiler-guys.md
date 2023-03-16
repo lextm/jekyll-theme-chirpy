@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Meet Our Compiler Guys"
+description: "This post is about the new MIB compiler plan."
 tags: SNMP
 permalink: /snmp-design-meet-our-compiler-guys-c17b25c8c56e
 excerpt_separator: <!--more-->

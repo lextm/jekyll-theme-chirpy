@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "MonoDevelop on Windows Progress"
+description: "This post is about the progress of MonoDevelop on Windows."
 tags: Windows Mono
 permalink: /monodevelop-on-windows-progress-815557308815
 excerpt_separator: <!--more-->

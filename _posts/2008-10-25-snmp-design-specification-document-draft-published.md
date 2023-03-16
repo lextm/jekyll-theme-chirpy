@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Specification Document Draft Published"
+description: "This post is about the specification document for #SNMP."
 tags: SNMP
 permalink: /snmp-design-specification-document-draft-published-14078359972c
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Is Now A Time to Release CrossRoad?"
+description: "This post is about the status of CrossRoad."
 tags: SNMP
 permalink: /snmp-design-is-now-a-time-to-release-crossroad-be2ddbb0b59b
 excerpt_separator: <!--more-->

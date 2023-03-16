@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Request on MIB Builder Again"
+description: "This post is about a request on MIB Builder again."
 tags: SNMP
 permalink: /snmp-design-request-on-mib-builder-again-62d3c3e9af18
 excerpt_separator: <!--more-->

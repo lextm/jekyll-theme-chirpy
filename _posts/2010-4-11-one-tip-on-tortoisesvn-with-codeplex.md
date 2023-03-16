@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "One Tip on TortoiseSVN with CodePlex"
+description: "This post is about one tip on TortoiseSVN with CodePlex"
 tags: Microsoft
 permalink: /one-tip-on-tortoisesvn-with-codeplex-80a92c141939
 excerpt_separator: <!--more-->

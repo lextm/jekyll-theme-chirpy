@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CatPaw Rumors: Now We Have Bindings And More"
+description: "This post is about the new features in CatPaw SNMP Agent"
 tags: SNMP
 permalink: /catpaw-rumors-now-we-have-bindings-and-more-b54b4026575f
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Shipping the Package of CrossRoad"
+description: "This post is about the binaries and documentation of CrossRoad release."
 tags: SNMP
 permalink: /snmp-design-shipping-the-package-of-crossroad-30354b65e2b6
 excerpt_separator: <!--more-->

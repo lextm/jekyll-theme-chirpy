@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CatPaw Rumors: More Mono Support Coming"
+description: "This post is about #SNMP Mono support"
 tags: SNMP Mono
 permalink: /catpaw-rumors-more-mono-support-coming-fb16f90d7c89
 excerpt_separator: <!--more-->

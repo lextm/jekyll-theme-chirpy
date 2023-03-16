@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CatPaw Rumor: Time To Say Farewell to Visual Studio 2005"
+description: "This post is about the fact that CatPaw will drop Visual Studio 2005 support."
 tags: SNMP Visual-Studio
 permalink: /catpaw-rumor-time-to-say-farewell-to-visual-studio-2005-2a0313501950
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Obsolete Methods"
+description: "This post is about the obsolete methods in #SNMP 1.5 RC3."
 tags: SNMP
 permalink: /snmp-design-obsolete-methods-c3549a6c18d9
 excerpt_separator: <!--more-->

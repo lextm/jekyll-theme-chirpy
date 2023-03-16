@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: 400+ TwinTower Downloads"
+description: "This post is about the download count of TwinTower RC 2."
 tags: SNMP
 permalink: /snmp-design-400-twintower-downloads-f61fb91ab92d
 excerpt_separator: <!--more-->

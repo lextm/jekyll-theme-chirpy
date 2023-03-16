@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: The Logic Behind ToBytes and _raw"
+description: "This post is about the ideas behind the design of ToBytes and _raw."
 tags: SNMP
 permalink: /snmp-design-the-logic-behind-tobytes-and-raw-649293790e97
 excerpt_separator: <!--more-->

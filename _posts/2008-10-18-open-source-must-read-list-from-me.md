@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Open Source 'Must Read' List From Me"
+description: This post is about my favorite books about open source.
 tags: Others
 permalink: /open-source-must-read-list-from-me-3b179c25158
 excerpt_separator: <!--more-->

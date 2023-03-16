@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CrossRoad Billboard: How to Support IP v6 in .NET/C#"
+description: "This post is about how to support IP v6 in .NET/C# by using the new API in .NET Framework."
 tags: SNMP .NET
 permalink: /crossroad-billboard-how-to-support-ip-v6-in-net-c-d579939ce0f0
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Incomplete Agent Demo"
+description: "This post is about how to create a simple but incomplete SNMP agent."
 tags: SNMP
 permalink: /snmp-design-incomplete-agent-demo-5550acc8f1e4
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Static Methods"
+description: "This post is about the design of static methods in #SNMP."
 tags: SNMP
 permalink: /snmp-design-static-methods-8fda0d466c89
 excerpt_separator: <!--more-->

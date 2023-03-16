@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Delphi Prism, My Take"
+description: "This post is about my personal ideas about the changes on Delphi for .NET side."
 tags: Delphi .NET
 permalink: /delphi-prism-my-take-3bcb11339c73
 excerpt_separator: <!--more-->

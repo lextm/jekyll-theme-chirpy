@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "M8主题大师（M8 Theme Builder） 2.0正式发布"
+description: “这篇文章是关于 Meizu M8美化工具的2.0版本”
 tags: Meizu
 permalink: /m8主题大师-m8-theme-builder-2-0正式发布-e527117eabcd
 excerpt_separator: <!--more-->

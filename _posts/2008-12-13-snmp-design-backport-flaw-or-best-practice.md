@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Backport Flaw Or Best Practice"
+description: "This post is about the technical challenges back porting #SNMP to C# 2.0 and Visual Studio 2005."
 tags: SNMP
 permalink: /snmp-design-backport-flaw-or-best-practice-2bbe343b98f6
 excerpt_separator: <!--more-->

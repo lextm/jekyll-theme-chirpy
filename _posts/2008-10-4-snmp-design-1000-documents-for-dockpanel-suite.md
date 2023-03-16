@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: 1000+ Documents for DockPanel Suite"
+description: This post is about how to implement the MIB compiler GUI with DockPanel Suite.
 tags: SNMP
 permalink: /snmp-design-1000-documents-for-dockpanel-suite-c7399068d59d
 excerpt_separator: <!--more-->

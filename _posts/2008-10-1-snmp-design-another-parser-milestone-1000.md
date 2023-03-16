@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Another Parser Milestone, 1000+"
+description: This post is about the progress of the MIB parser.
 tags: SNMP
 permalink: /snmp-design-another-parser-milestone-1000-ff525619b835
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Trident Sign: Listener Adapters"
+description: "This post is about listener adapters implementation."
 tags: SNMP
 permalink: /trident-sign-listener-adapters-5ae14aef23c5
 excerpt_separator: <!--more-->

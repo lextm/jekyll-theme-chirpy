@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: CrossRoad Release Notes"
+description: "This post is the release notes of CrossRoad release."
 tags: SNMP
 permalink: /snmp-design-crossroad-release-notes-2deb83b7318f
 excerpt_separator: <!--more-->

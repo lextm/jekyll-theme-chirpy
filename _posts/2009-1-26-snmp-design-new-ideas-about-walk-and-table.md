@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: New Ideas about Walk and Table"
+description: "This post is about new ideas on how to implement SNMP walk and table."
 tags: SNMP
 permalink: /snmp-design-new-ideas-about-walk-and-table-a9c9113b2229
 excerpt_separator: <!--more-->

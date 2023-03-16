@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "M8主题修改的对决？"
+description: "这篇文章是关于 Meizu M8的几个美化工具"
 tags: Meizu
 permalink: /m8主题修改的对决-50ec3afcddf4
 excerpt_separator: <!--more-->

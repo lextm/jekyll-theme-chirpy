@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "给哥们的祝福"
+description: "这篇文章是关于给一个哥们的祝福"
 tags: Others
 permalink: /给哥们的祝福-4c6ffd68ed8
 excerpt_separator: <!--more-->

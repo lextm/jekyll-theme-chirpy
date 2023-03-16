@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CD/DVD Emulation Tool for Windows 7"
+description: "This post is about a CD/DVD emulation tool for Windows 7."
 tags: Windows
 permalink: /cd-dvd-emulation-tool-for-windows-7-a168ee51778e
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: The Ship Map Ready"
+description: "This post is about the product roadmap for CrossRoad."
 tags: SNMP
 permalink: /snmp-design-the-ship-map-ready-76d33b946beb
 excerpt_separator: <!--more-->

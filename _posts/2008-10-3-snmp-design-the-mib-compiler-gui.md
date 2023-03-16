@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: The MIB Compiler GUI"
+description: This post is about how to design the MIB compiler GUI.
 tags: SNMP
 permalink: /snmp-design-the-mib-compiler-gui-219e6495f7a8
 excerpt_separator: <!--more-->

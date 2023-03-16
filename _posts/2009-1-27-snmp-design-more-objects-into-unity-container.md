@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: More Objects into Unity Container"
+description: "This post is about the changes in CrossRoad to use more of IoC containers."
 tags: SNMP
 permalink: /snmp-design-more-objects-into-unity-container-aa6fc2425e35
 excerpt_separator: <!--more-->

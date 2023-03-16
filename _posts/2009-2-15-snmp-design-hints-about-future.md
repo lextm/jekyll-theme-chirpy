@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Hints about Future"
+description: "This post is about the future arrangement of #SNMP."
 tags: SNMP
 permalink: /snmp-design-hints-about-future-f945dc90fa12
 excerpt_separator: <!--more-->

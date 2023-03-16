@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Why Unity Appears in Browser and Related Changes"
+description: "This post is about why the IoC framework Unity appears in Browser and related changes."
 tags: SNMP
 permalink: /snmp-design-why-unity-appears-in-browser-and-related-changes-6b9a4422bbc1
 excerpt_separator: <!--more-->

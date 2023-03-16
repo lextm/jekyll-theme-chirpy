@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Do We Need Command Line Tools?"
+description: "This post is about the command line tools in #SNMP."
 tags: SNMP
 permalink: /snmp-design-do-we-need-command-line-tools-2fbf1c72e82
 excerpt_separator: <!--more-->

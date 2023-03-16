@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Trident Sign: Another Open Source SNMP Library via C#"
+description: "This post is about another open source SNMP library for .NET, snmp#net."
 tags: SNMP
 permalink: /trident-sign-another-open-source-snmp-library-via-c-4f2b904252
 excerpt_separator: <!--more-->

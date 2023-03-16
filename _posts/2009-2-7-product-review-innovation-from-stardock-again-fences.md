@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Product Review: Innovation from Stardock Again, Fences"
+description: "This post is about the new product from Stardock, Fences."
 tags: Windows
 permalink: /product-review-innovation-from-stardock-again-fences-808bdd32c349
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to Force Eclipse/XMind to Run in English"
+description: "This post is about how to force Eclipse based products to run in English."
 tags: Java
 permalink: /how-to-force-eclipse-xmind-to-run-in-english-48dd5334de90
 excerpt_separator: <!--more-->

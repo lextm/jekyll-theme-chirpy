@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: TwinTower Status on Library Side"
+description: "This post is about the status of TwinTower on Library features."
 tags: SNMP
 permalink: /snmp-design-twintower-status-on-library-side-2e21343772f
 excerpt_separator: <!--more-->

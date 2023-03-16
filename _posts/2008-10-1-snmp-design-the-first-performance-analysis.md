@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: The First Performance Analysis"
+description: This post is about the first performance analysis of the MIB parser.
 tags: SNMP
 permalink: /snmp-design-the-first-performance-analysis-fa3b7f884253
 excerpt_separator: <!--more-->

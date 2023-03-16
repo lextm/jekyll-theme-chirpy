@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Trident Sign: Broken Builds"
+description: "This post is about broken builds at CodePlex.com."
 tags: SNMP
 permalink: /trident-sign-broken-builds-30f0087a056c
 excerpt_separator: <!--more-->

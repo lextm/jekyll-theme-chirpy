@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Oh, 63 Seconds!"
+description: This post is about the latest performance analysis of the MIB parser.
 tags: SNMP
 permalink: /snmp-design-oh-63-seconds-70998d527347
 excerpt_separator: <!--more-->

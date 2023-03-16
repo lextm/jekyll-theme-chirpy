@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Coding For Meizu M8"
+description: "这篇文章是关于我为 Meizu M8做的一个美化工具"
 tags: Meizu
 permalink: /coding-for-meizu-m8-9dd629fe2604
 excerpt_separator: <!--more-->

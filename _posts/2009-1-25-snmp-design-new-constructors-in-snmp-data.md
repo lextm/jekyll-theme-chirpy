@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: New Constructors in SNMP Data"
+description: "This post is about the new constructors in SNMP data types."
 tags: SNMP
 permalink: /snmp-design-new-constructors-in-snmp-data-855781525f07
 excerpt_separator: <!--more-->

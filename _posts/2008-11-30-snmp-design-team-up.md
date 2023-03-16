@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Team Up"
+description: "This post is about the new member of #SNMP Design team."
 tags: SNMP
 permalink: /snmp-design-team-up-74d4ef676e28
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CatPaw Rumors: 5.0 Beta 1 is Out"
+description: "This post is about SNMP 5.0 Beta 1"
 tags: SNMP
 permalink: /catpaw-rumors-5-0-beta-1-is-out-e81b961ece8c
 excerpt_separator: <!--more-->

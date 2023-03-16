@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CatPaw Rumors: SNMP v3 Agent Is Ready"
+description: "This post is about SNMP v3 Agent"
 tags: SNMP
 permalink: /catpaw-rumors-snmp-v3-agent-is-ready-fd7b5819093b
 excerpt_separator: <!--more-->

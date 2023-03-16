@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: One API Design Flaw"
+description: "This post is about a design flaw of the current #SNMP APIs."
 tags: SNMP
 permalink: /snmp-design-one-api-design-flaw-d1a3f72a9966
 excerpt_separator: <!--more-->

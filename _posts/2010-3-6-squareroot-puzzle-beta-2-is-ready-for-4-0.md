@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "SquareRoot Puzzle: Beta 2 is Ready for 4.0"
+description: "This post is about #SNMP 4.0 Beta 2."
 tags: SNMP
 permalink: /squareroot-puzzle-beta-2-is-ready-for-4-0-20f4ac91daa0
 excerpt_separator: <!--more-->

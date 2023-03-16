@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CatPaw Rumors: CodePlex Ways, TFS and SVN"
+description: "This post is about my experience on CodePlex and TFS/SVN"
 tags: SNMP
 permalink: /catpaw-rumors-codeplex-ways-tfs-and-svn-1b9aa6a4ab98
 excerpt_separator: <!--more-->

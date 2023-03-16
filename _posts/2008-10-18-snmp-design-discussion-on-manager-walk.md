@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Discussion on Manager.Walk"
+description: "This post is about a discussion on Manager.Walk design and implementation."
 tags: SNMP
 permalink: /snmp-design-discussion-on-manager-walk-e6c3c359ff9b
 excerpt_separator: <!--more-->

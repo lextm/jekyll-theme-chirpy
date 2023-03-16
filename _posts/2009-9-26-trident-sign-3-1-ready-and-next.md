@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Trident Sign: 3.1 Ready and Next"
+description: "This post is about the 3.1 release."
 tags: SNMP
 permalink: /trident-sign-3-1-ready-and-next-bc522bef47fb
 excerpt_separator: <!--more-->

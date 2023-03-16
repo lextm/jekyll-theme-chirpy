@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#SNMP Design: Month Update"
+description: "This post is a monthly update from the team."
 tags: SNMP
 permalink: /snmp-design-month-update-7a8e5b675645
 excerpt_separator: <!--more-->

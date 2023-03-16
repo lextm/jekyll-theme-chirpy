@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Trident Sign: How to Set Up SNMP4J Agent, Part 1"
+description: "This post is about how to set up SNMP4J Agent."
 tags: SNMP
 permalink: /trident-sign-how-to-set-up-snmp4j-agent-part-1-9354ddb8868a
 excerpt_separator: <!--more-->
