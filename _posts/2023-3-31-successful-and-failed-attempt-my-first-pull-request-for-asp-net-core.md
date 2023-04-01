@@ -6,7 +6,7 @@ tags: .NET Visual-Studio Windows
 excerpt_separator: <!--more-->
 ---
 
-I was fortunate enough to be able to contribute to a lot of open source projects, not only the ones I own, but many others as well. I wrote about some of the important stories such as [this one for SharpDevelop](_posts/2012-7-25-opencover-addin-for-sharpdevelop.md) and [this one for Mono](_posts/2014-5-29-how-to-create-certificates-in-c-via-mono-security.md). There are more such pull requests and I acknowledge that not all of them were accepted due to various reasons. In this post, I will write about my recent experience with ASP.NET Core on Windows 11 ARM64, and my first pull request for the repo.
+I was fortunate enough to be able to contribute to a lot of open source projects, not only the ones I own, but many others as well. I wrote about some of the important stories such as [this one for SharpDevelop](/opencover-addin-for-sharpdevelop-e5fd5cdadc80) and [this one for Mono](/how-to-create-certificates-in-c-via-mono-security-f92ded38e6fb). There are more such pull requests and I acknowledge that not all of them were accepted due to various reasons. In this post, I will write about my recent experience with ASP.NET Core on Windows 11 ARM64, and my first pull request for the repo.
 
 ## Apple Silicon, ARM64, and Windows ARM64
 
