@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "TritonMate Words: Story on RFC 3414 Support"
+description: "This post is about the story of adding RFC 3414 support in #SNMP."
 tags: SNMP
 permalink: /tritonmate-words-story-on-rfc-3414-support-5a7ff6448e7b
 excerpt_separator: <!--more-->

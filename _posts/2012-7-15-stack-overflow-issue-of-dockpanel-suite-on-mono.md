@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Stack overflow issue of DockPanel Suite on Mono"
+description: "This post is about stack overflow issue of DockPanel Suite on Mono and how I investigated on it."
 tags: Mono DockPanel-Suite
 permalink: /stack-overflow-issue-of-dockpanel-suite-on-mono-514a0c896d98
 excerpt_separator: <!--more-->

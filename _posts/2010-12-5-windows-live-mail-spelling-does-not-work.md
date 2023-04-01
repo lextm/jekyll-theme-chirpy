@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Windows Live Mail Spelling Does Not Work"
+description: "This post is about how to fix the spelling button in Windows Live Mail."
 tags: Windows
 permalink: /windows-live-mail-spelling-does-not-work-40600aa03433
 excerpt_separator: <!--more-->

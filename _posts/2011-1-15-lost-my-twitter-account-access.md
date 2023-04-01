@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Lost My Twitter Account Access"
+description: "This post is about my lost Twitter account."
 tags: Others
 permalink: /lost-my-twitter-account-access-d0316b7210f
 excerpt_separator: <!--more-->

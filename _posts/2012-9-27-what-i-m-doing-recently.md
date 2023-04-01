@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "What I'm Doing Recently"
+description: "This post is about what I'm doing recently, the book and the projects."
 tags: Others
 permalink: /what-im-doing-recently-71cb38b0d35a
 excerpt_separator: <!--more-->

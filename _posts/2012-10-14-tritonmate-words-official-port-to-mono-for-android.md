@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "TritonMate Words: Official Port to Mono for Android"
+description: "This post is about the official #SNMP port to Mono for Android."
 tags: SNMP Mono
 permalink: /tritonmate-words-official-port-to-mono-for-android-6eb298f9a66
 excerpt_separator: <!--more-->

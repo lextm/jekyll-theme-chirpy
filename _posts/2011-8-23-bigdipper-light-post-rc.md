@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "BigDipper Light: Post RC"
+description: "This post is about the latest RC build of #SNMP 7."
 tags: SNMP
 permalink: /bigdipper-light-post-rc-fc68076fa85c
 excerpt_separator: <!--more-->

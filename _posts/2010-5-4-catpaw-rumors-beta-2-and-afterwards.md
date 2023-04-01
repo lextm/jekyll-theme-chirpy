@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CatPaw Rumors: Beta 2 and Afterwards"
+description: "This post is about future plans of #SNMP 5."
 tags: SNMP Mono
 permalink: /catpaw-rumors-beta-2-and-afterwards-ce41cef93014
 excerpt_separator: <!--more-->

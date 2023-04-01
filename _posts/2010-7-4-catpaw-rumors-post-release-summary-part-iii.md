@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CatPaw Rumors: Post Release Summary Part III"
+description: This post is about the CF assembly.
 tags: SNMP
 permalink: /catpaw-rumors-post-release-summary-part-iii-d38b80d60ab1
 excerpt_separator: <!--more-->

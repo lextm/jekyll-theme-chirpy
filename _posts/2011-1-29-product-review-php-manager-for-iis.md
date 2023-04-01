@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Product Review: PHP Manager for IIS"
+description: "This post is about PHP Manager for IIS."
 tags: IIS
 permalink: /product-review-php-manager-for-iis-e17105c8f751
 excerpt_separator: <!--more-->

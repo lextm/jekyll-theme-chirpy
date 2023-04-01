@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Packaging Crad's ActionList for .NET via NuGet"
+description: "This post is about packaging Crad's ActionList for .NET via NuGet."
 tags: .NET
 permalink: /packaging-crads-actionlist-for-net-via-nuget-5c72e77ece94
 excerpt_separator: <!--more-->

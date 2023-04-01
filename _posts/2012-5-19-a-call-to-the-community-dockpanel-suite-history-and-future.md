@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Call to The Community: DockPanel Suite History and Future"
+description: "This post is about the history and future of DockPanel Suite."
 tags: DockPanel-Suite
 permalink: /a-call-to-the-community-dockpanel-suite-history-and-future-ec3b9ab8bdc9
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Touch Mouse Mate: Fatter Installers But Smoother Experience"
+description: "This post is about the latest news of Touch Mouse Mate."
 tags: Windows
 permalink: /touch-mouse-mate-fatter-installers-but-smoother-experience-62030cdf0c90
 excerpt_separator: <!--more-->

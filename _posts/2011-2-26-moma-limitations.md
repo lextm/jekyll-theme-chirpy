@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "MoMA Limitations"
+description: "This post is about MoMA tool limitations."
 tags: Mono
 permalink: /moma-limitations-e5438c2c1187
 excerpt_separator: <!--more-->

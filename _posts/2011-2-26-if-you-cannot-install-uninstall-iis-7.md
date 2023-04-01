@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "If You Cannot Install/Uninstall IIS 7"
+description: "This post is about how to resolve IIS 7 installation issue."
 tags: Windows IIS
 permalink: /if-you-cannot-install-uninstall-iis-7-292f3d582837
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Touch Mouse Mate: 1.5 Milestone 2, One Step Further"
+description: "This post is about the second milestone of Touch Mouse Mate 1.5."
 tags: Windows
 permalink: /touch-mouse-mate-1-5-milestone-2-one-step-further-aca10ce76be9
 excerpt_separator: <!--more-->

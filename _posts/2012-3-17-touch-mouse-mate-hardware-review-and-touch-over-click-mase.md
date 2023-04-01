@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Touch Mouse Mate: Hardware Review and Touch-over-click Mase"
+description: "This post is about the background information about Touch Mouse."
 tags: Windows
 permalink: /touch-mouse-mate-hardware-review-and-touch-over-click-mase-32f39db01a4c
 excerpt_separator: <!--more-->

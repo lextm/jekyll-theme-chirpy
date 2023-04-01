@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Touch Mouse Mate"
+description: "This post is about a new open source project I am working on this weekend, named Touch Mouse Mate."
 tags: Windows
 permalink: /touch-mouse-mate-74b8fe2ec7e1
 excerpt_separator: <!--more-->

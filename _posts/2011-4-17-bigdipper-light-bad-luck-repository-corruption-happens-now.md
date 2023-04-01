@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "BigDipper Light: Bad Luck, Repository Corruption Happens Now"
+description: "This post is about the CodePlex repository corruption of #SNMP."
 tags: SNMP
 permalink: /bigdipper-light-bad-luck-repository-corruption-happens-now-1ee9e122e76c
 excerpt_separator: <!--more-->

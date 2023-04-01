@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "TritonMate Words: Upcoming Change to SharpSnmpLib.Mib.dll License"
+description: "This post is about the upcoming change to SharpSnmpLib.Mib.dll license."
 tags: SNMP
 permalink: /tritonmate-words-upcoming-change-to-sharpsnmplib-mib-dll-license-b797092665a
 excerpt_separator: <!--more-->

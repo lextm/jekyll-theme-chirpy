@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Flickr Blog this"
+description: This post is about Flickr Blog this feature.
 tags: Others
 permalink: /flickr-blog-this-72e3626b32ed
 excerpt_separator: <!--more-->

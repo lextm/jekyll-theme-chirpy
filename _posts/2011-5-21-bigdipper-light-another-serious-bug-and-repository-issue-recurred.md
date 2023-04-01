@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "BigDipper Light: Another serious bug and repository issue recurred"
+description: "This post is about the CodePlex repository corruption of #SNMP."
 tags: SNMP
 permalink: /bigdipper-light-another-serious-bug-and-repository-issue-recurred-5eb32ee14187
 excerpt_separator: <!--more-->

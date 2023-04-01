@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Windows在上海地铁中的应用"
+description: 这篇文章是关于 Windows 在上海地铁中的应用。
 tags: Windows
 permalink: /windows在上海地铁中的应用-b5e09978418c
 excerpt_separator: <!--more-->

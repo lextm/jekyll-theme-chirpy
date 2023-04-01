@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HoneyCell Drops: SNMP Pipeline And Our Agent Demo"
+description: "This post is about #SNMP's agent side technical details."
 tags: SNMP
 permalink: /honeycell-drops-snmp-pipeline-and-our-agent-demo-89986da1a5da
 excerpt_separator: <!--more-->

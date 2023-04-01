@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Switched to AkelPad, a Powerful Notepad Replacement"
+description: "This post is about my switch to AkelPad, a powerful Notepad replacement."
 tags: Windows
 permalink: /switched-to-akelpad-a-powerful-notepad-replacement-5ab9896f70
 excerpt_separator: <!--more-->

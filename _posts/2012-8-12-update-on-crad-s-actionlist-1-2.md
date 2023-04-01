@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Update on Crad's ActionList 1.2"
+description: "This post is about Crad's ActionList 1.2 release."
 tags: .NET
 permalink: /update-on-crads-actionlist-1-2-1300b9afbd18
 excerpt_separator: <!--more-->

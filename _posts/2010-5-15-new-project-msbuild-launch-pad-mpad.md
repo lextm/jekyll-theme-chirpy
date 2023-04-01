@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "New Project: MSBuild Launch Pad (mPad)"
+description: This post is about my new project MSBuild Launch Pad.
 tags: .NET
 permalink: /new-project-msbuild-launch-pad-mpad-e1ce8c5acb15
 excerpt_separator: <!--more-->

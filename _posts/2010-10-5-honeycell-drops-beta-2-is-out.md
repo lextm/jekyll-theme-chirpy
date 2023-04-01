@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HoneyCell Drops: Beta 2 is Out"
+description: This post is about the second beta release of HoneyCell 6.0.
 tags: SNMP
 permalink: /honeycell-drops-beta-2-is-out-6e2addb5757
 excerpt_separator: <!--more-->

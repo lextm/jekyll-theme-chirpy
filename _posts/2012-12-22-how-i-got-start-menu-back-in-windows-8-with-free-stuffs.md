@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How I Got Start Menu Back in Windows 8 with Free Stuffs"
+description: "This post is about how I got start menu back in Windows 8 with free stuffs."
 tags: Windows
 permalink: /how-i-got-start-menu-back-in-windows-8-with-free-stuffs-b1a6f0d84a53
 excerpt_separator: <!--more-->

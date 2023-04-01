@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "TritonMate Words: #SNMP and PowerShell"
+description: "This post is about #SNMP and PowerShell."
 tags: SNMP
 permalink: /tritonmate-words-snmp-and-powershell-df232d4384c5
 excerpt_separator: <!--more-->

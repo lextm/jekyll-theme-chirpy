@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HoneyCell Drops: Beta 3 and Afterwards"
+description: "This post is about the third beta release of #SNMP 6.0 and future plan."
 tags: SNMP
 permalink: /honeycell-drops-beta-3-and-afterwards-3f462280c700
 excerpt_separator: <!--more-->

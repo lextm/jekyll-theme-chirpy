@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "BigDipper Light: Plan B for Repository Hosting"
+description: "This post is about the new repository hosting plan for #SNMP."
 tags: SNMP
 permalink: /bigdipper-light-plan-b-for-repository-hosting-495c9abe4e27
 excerpt_separator: <!--more-->

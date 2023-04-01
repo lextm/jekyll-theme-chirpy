@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "TritonMate Words: New Era for SMI Compiler"
+description: "This post is about the new approach to develop the SMI compiler."
 tags: SNMP
 permalink: /tritonmate-words-new-era-for-smi-compiler-bbcd83ed9bb9
 excerpt_separator: <!--more-->

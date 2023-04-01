@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How To Build Log4cxx In Visual Studio 2010"
+description: This post is about how to build log4cxx in Visual Studio 2010.
 tags: Visual-Studio
 permalink: /how-to-build-log4cxx-in-visual-studio-2010-a69d9bbd65d7
 excerpt_separator: <!--more-->

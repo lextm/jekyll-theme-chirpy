@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Touch Mouse Mate: Homepage Delay and 1.5 Release Technical Details"
+description: "This post is about the technical details of TMM 1.5."
 tags: Windows
 permalink: /touch-mouse-mate-homepage-delay-and-1-5-release-technical-details-4e0b6c212eeb
 excerpt_separator: <!--more-->

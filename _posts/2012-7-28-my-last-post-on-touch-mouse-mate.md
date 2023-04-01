@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "My Last Post on Touch Mouse Mate"
+description: "This post is about my last post on Touch Mouse Mate and why I stopped here."
 tags: Windows
 permalink: /my-last-post-on-touch-mouse-mate-46033bbafa8c
 excerpt_separator: <!--more-->

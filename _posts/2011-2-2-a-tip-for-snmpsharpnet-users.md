@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Tip for SnmpSharpNet (SNMP#NET) Users"
+description: "This post is about a tip for SnmpSharpNet (SNMP#NET) users."
 tags: SNMP
 permalink: /a-tip-for-snmpsharpnet-snmp-net-users-6a23a02b71e
 excerpt_separator: <!--more-->

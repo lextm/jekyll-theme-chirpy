@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "TritonMate Words: Compiler Update So Far"
+description: "This post is about the status of the new compiler for #SNMP."
 tags: SNMP
 permalink: /tritonmate-words-compiler-update-so-far-d5050e21d4e6
 excerpt_separator: <!--more-->

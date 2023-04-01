@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Citrix Receiver Installation on openSUSE 12.1 64-bit"
+description: "This post is about Citrix Receiver installation on openSUSE 12.1 64-bit."
 tags: Linux
 permalink: /citrix-receiver-installation-on-opensuse-12-1-64-bit-fc20b664928b
 excerpt_separator: <!--more-->

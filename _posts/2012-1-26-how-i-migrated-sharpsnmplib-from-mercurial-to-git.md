@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How I Migrated SharpSnmpLib From Mercurial to Git"
+description: "This post is about how I migrated #SNMP repo from Mercurial to Git."
 tags: Others
 permalink: /how-i-migrated-sharpsnmplib-from-mercurial-to-git-54a19d4419a5
 excerpt_separator: <!--more-->

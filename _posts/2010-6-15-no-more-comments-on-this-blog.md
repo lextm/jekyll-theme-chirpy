@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "No More Comments on This Blog"
+description: This post is about the issue with Blogger.
 tags: Others
 permalink: /no-more-comments-on-this-blog-67c513e2f419
 excerpt_separator: <!--more-->

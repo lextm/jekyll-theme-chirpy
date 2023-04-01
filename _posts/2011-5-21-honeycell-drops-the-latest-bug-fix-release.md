@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HoneyCell Drops: The Latest Bug Fix Release"
+description: "This post is about the latest bug fix release of #SNMP."
 tags: SNMP
 permalink: /honeycell-drops-the-latest-bug-fix-release-395c009941ef
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Why A Developer Should Learn Troubleshooting, Part I: The Reasons"
+description: "This post is about why a developer should learn troubleshooting skills."
 tags: Others
 permalink: /why-a-developer-should-learn-troubleshooting-part-i-the-reasons-bfccd3cf5529
 excerpt_separator: <!--more-->

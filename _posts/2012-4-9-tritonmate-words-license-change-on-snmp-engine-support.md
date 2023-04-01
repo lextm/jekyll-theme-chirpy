@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "TritonMate Words: License Change on SNMP Engine Support"
+description: "This post is about the license change on SNMP Engine support related source files."
 tags: SNMP
 permalink: /tritonmate-words-license-change-on-snmp-engine-support-e7410b98e8e
 excerpt_separator: <!--more-->

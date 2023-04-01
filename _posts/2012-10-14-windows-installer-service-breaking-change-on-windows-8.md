@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Windows Installer Service Breaking Change on Windows 8"
+description: "This post is about Windows Installer Service Breaking Change on Windows 8."
 tags: Windows
 permalink: /windows-installer-service-breaking-change-on-windows-8-93547462fa3a
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Touch Mouse Mate: 1.5 Beta"
+description: "This post is about the latest news of Touch Mouse Mate."
 tags: Windows
 permalink: /touch-mouse-mate-1-5-beta-8dc67d90970c
 excerpt_separator: <!--more-->

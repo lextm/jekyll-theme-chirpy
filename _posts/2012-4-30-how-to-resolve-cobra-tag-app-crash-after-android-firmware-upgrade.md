@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to Resolve Cobra Tag App Crashed After Android Firmware Upgrade"
+description: "This post is about how to resolve Cobra Tag app crashed after Android firmware upgrade."
 tags: Android
 permalink: /how-to-resolve-cobra-tag-app-crashed-after-android-firmware-upgrade-56cbd9d116e
 excerpt_separator: <!--more-->

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HoneyCell Drops: Now Comes 6.0 Codename for #SNMP"
+description: This post is about the codename for the next release of #SNMP.
 tags: SNMP
 permalink: /honeycell-drops-now-comes-6-0-codename-for-snmp-8f4cff5f981f
 excerpt_separator: <!--more-->

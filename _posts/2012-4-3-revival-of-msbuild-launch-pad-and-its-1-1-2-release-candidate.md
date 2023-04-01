@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Revival of MSBuild Launch Pad and Its 1.1.2 Release Candidate"
+description: "This post is about the revival of MSBuild Launch Pad and its 1.1.2 release candidate."
 tags: .NET
 permalink: /revival-of-msbuild-launch-pad-and-its-1-1-2-release-candidate-d8a915e8366a
 excerpt_separator: <!--more-->

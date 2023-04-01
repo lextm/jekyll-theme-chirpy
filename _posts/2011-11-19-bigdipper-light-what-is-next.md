@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "BigDipper Light: What Is Next"
+description: "This post is about the next release of #SNMP."
 tags: SNMP
 permalink: /bigdipper-light-what-is-next-12a1945bccb1
 excerpt_separator: <!--more-->

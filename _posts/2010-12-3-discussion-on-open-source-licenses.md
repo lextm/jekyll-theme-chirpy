@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Discussion on Open Source Licenses"
+description: "This post is about the discussion on open source licenses."
 tags: Others
 permalink: /discussion-on-open-source-licenses-fdc1f1829c3d
 excerpt_separator: <!--more-->

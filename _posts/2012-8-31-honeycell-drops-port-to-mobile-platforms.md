@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HoneyCell Drops: Port to Mobile Platforms"
+description: "This post is about #SNMP port to mobile platforms."
 tags: SNMP
 permalink: /honeycell-drops-port-to-mobile-platforms-9959f6e4b303
 excerpt_separator: <!--more-->

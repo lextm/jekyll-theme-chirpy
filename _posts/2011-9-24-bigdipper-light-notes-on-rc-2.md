@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "BigDipper Light: Notes on RC 2"
+description: "This post is about the release notes for #SNMP 7.0 RC 2."
 tags: SNMP
 permalink: /bigdipper-light-notes-on-rc-2-dfee378826b1
 excerpt_separator: <!--more-->

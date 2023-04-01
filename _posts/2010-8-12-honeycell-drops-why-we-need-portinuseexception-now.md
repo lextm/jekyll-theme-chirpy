@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HoneyCell Drops: Why We Need PortInUseException Now"
+description: This post is about the new PortInUseException.
 tags: SNMP
 permalink: /honeycell-drops-why-we-need-portinuseexception-now-88fb45fb7962
 excerpt_separator: <!--more-->

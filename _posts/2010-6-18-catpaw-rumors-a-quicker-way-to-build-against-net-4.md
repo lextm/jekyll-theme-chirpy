@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CatPaw Rumors: A Quick Way to Build Against .NET 4"
+description: This post is about a quick way to build against .NET 4.
 tags: SNMP
 permalink: /catpaw-rumors-a-quick-way-to-build-against-net-4-88b7fad6d346
 excerpt_separator: <!--more-->

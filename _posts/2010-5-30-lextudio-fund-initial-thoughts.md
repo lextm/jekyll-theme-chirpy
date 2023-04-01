@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "LeXtudio Fund: Initial Thoughts"
+description: This post is about LeXtudio Fund, my plan with the income of my personal studio.
 tags: Others
 permalink: /lextudio-fund-initial-thoughts-60d2e096ba55
 excerpt_separator: <!--more-->

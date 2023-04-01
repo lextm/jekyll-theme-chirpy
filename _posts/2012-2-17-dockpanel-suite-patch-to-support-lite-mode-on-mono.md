@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "DockPanel Suite patch to support lite mode on Mono"
+description: "This post is about a patch to enable DockPanel Suite on Mono."
 tags: DockPanel-Suite Mono
 permalink: /dockpanel-suite-patch-to-support-lite-mode-on-mono-217547fc710b
 excerpt_separator: <!--more-->

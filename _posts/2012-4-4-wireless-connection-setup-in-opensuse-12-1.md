@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Wireless Connection Setup in openSUSE 12.1"
+description: "This post is about the wireless connection setup in openSUSE 12.1."
 tags: Linux
 permalink: /wireless-connection-setup-in-opensuse-12-1-ccc288d10cbc
 excerpt_separator: <!--more-->

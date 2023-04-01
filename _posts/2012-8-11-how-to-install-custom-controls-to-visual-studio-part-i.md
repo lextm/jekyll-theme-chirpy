@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to Install Custom Controls to Visual Studio, Part I"
+description: "This post is about how to install custom controls to Visual Studio."
 tags: .NET Visual-Studio
 permalink: /how-to-install-custom-controls-to-visual-studio-part-i-39fa7733bb3
 excerpt_separator: <!--more-->

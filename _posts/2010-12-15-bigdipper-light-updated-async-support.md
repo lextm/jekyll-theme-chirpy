@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "BigDipper Light: Updated Async Support"
+description: "This post is about the updated async support in #SNMP."
 tags: SNMP
 permalink: /bigdipper-light-updated-async-support-76d3c950066e
 excerpt_separator: <!--more-->

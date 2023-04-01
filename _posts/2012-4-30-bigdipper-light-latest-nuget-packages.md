@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "BigDipper Light: Latest NuGet Packages"
+description: "This post is about the latest NuGet packages for #SNMP."
 tags: SNMP
 permalink: /bigdipper-light-latest-nuget-packages-805787c264ff
 excerpt_separator: <!--more-->

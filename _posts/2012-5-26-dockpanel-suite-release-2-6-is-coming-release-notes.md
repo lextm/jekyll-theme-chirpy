@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "DockPanel Suite: Release 2.6 is Coming (Release Notes)"
+description: "This post is about DockPanel Suite 2.6 release."
 tags: DockPanel-Suite
 permalink: /dockpanel-suite-release-2-6-is-coming-release-notes-bf7810a6b66b
 excerpt_separator: <!--more-->

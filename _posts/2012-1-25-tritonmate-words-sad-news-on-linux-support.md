@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "TritonMate Words: Sad News on Linux Support"
+description: "This post is about the sad news on Linux support."
 tags: SNMP
 permalink: /tritonmate-words-sad-news-on-linux-support-afe1d22c041a
 excerpt_separator: <!--more-->

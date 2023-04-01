@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "New Inno Setup Installer Script Samples (Version Compare, Running Processes)"
+description: "This post is about two new Inno Setup installer script samples."
 tags: Inno-Setup
 permalink: /new-inno-setup-installer-script-samples-version-compare-running-processes-112b407de77e
 excerpt_separator: <!--more-->

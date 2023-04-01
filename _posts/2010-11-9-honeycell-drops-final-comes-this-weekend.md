@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HoneyCell Drops: Final Comes This Weekend"
+description: "This post is about the final release of #SNMP 6.0."
 tags: SNMP
 permalink: /honeycell-drops-final-comes-this-weekend-346ee3dfbcc3
 excerpt_separator: <!--more-->

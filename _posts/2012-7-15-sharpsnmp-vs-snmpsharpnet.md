@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "SharpSnmp vs. SnmpSharpNet"
+description: "This post is about the similarity and difference between #SNMP and SnmpSharpNet."
 tags: SNMP
 permalink: /sharpsnmp-vs-snmpsharpnet-5fdce55232e7
 excerpt_separator: <!--more-->

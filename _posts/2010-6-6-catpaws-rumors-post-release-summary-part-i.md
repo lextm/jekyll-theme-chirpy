@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CatPaw Rumors: Post Release Summary Part 1"
+description: This post is about the future of Manager and Messenger classes.
 tags: SNMP
 permalink: /catpaw-rumors-post-release-summary-part-1-5dc1f4a327a3
 excerpt_separator: <!--more-->

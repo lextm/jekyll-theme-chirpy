@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "TritonMate Words: Compile with ANTLR on Linux/Mono"
+description: "This post is about compiling #SNMP 7.5 on Linux/Mono."
 tags: SNMP Mono Linux
 permalink: /tritonmate-words-compile-with-antlr-on-linux-mono-4cca2cf7ed27
 excerpt_separator: <!--more-->

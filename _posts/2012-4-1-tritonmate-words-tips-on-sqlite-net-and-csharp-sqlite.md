@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "TritonMate Words: Tips on sqlite-net and csharp-sqlite"
+description: "This post is about tips on sqlite-net and csharp-sqlite."
 tags: SNMP .NET
 permalink: /tritonmate-words-tips-on-sqlite-net-and-csharp-sqlite-36ae8b1a3c89
 excerpt_separator: <!--more-->

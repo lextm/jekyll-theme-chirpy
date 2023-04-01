@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Slow/No CodePlex Response"
+description: "This post is about the slow/no response from CodePlex support team."
 tags: Microsoft
 permalink: /slow-no-codeplex-response-98986109bc2d
 excerpt_separator: <!--more-->

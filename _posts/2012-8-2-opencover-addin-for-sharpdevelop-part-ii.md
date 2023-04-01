@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "OpenCover Addin for SharpDevelop, Part II"
+description: "This post is about the final release of OpenCover addin for SharpDevelop."
 tags: .NET
 permalink: /opencover-addin-for-sharpdevelop-part-ii-e29554bc28ef
 excerpt_separator: <!--more-->

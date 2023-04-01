@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Not-So-Cool CodeRush Express 10.1 Installer (Resolved)"
+description: This post is about the issue with CodeRush Express 10.1 installer.
 tags: Visual-Studio
 permalink: /the-not-so-cool-coderush-express-10-1-installer-resolved-6938c7cbd9dd
 excerpt_separator: <!--more-->

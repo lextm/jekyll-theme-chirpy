@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to Compile Bouncy Castle on Mono/Linux"
+description: "This post is about how to compile Bouncy Castle on Mono/Linux."
 tags: Mono Linux
 permalink: /how-to-compile-bouncy-castle-on-mono-linux-ec90f43eeda7
 excerpt_separator: <!--more-->

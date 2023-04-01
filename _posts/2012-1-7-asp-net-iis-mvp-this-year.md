@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "ASP.NET/IIS MVP This Year"
+description: "This post is about the MVP award I received from Microsoft under ASP.NET/IIS category for 2012."
 tags: Microsoft
 permalink: /asp-net-iis-mvp-this-year-4f9f5d822f5a
 excerpt_separator: <!--more-->

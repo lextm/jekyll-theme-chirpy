@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "BigDipper Light: Asynchronous Calls Coming"
+description: "This post is about the asynchronous calls in #SNMP 7."
 tags: SNMP
 permalink: /bigdipper-light-asynchronous-calls-coming-30eaee7f4b88
 excerpt_separator: <!--more-->

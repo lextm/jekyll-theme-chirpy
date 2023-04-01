@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "BigDipper Light: Knowledge Base Initialized"
+description: "This post is about the new knowledge base for #SNMP."
 tags: SNMP
 permalink: /bigdipper-light-knowledge-base-initialized-dbf222c1ed3
 excerpt_separator: <!--more-->

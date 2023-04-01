@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to Transform T4 files (.tt) without Visual Studio"
+description: "This post is about how to transform T4 files (.tt) without Visual Studio."
 tags: Visual-Studio Mono
 permalink: /how-to-transform-t4-files-tt-without-visual-studio-d9042165a0eb
 excerpt_separator: <!--more-->

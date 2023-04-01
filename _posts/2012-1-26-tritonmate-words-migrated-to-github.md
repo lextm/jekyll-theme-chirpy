@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "TritonMate Words: Migrated to GitHub"
+description: "This post is about the migration of #SNMP repo to GitHub."
 tags: SNMP
 permalink: /tritonmate-migrated-to-github-db7328984126
 excerpt_separator: <!--more-->

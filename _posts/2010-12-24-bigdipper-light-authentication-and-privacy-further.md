@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "BigDipper Light: Authentication and Privacy Further"
+description: "This post is about the authentication and privacy issues in #SNMP."
 tags: SNMP
 permalink: /bigdipper-light-authentication-and-privacy-further-86429d12a875
 excerpt_separator: <!--more-->

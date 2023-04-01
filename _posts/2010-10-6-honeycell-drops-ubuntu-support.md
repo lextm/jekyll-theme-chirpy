@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HoneyCell Drops: Ubuntu Support"
+description: "This post is about #SNMP's support of Ubuntu 10.10."
 tags: SNMP Linux
 permalink: /honeycell-drops-ubuntu-support-74bade4942cb
 excerpt_separator: <!--more-->

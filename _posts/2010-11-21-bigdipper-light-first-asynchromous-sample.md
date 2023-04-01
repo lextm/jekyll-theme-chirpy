@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "BigDipper Light: First Asynchronous Sample"
+description: "This post is about the first asynchronous sample for Sharp SNMP Library."
 tags: SNMP
 permalink: /bigdipper-light-first-asynchronous-sample-cb5b4cb15dfd
 excerpt_separator: <!--more-->

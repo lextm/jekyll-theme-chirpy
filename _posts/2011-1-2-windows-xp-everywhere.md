@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Windows XP Everywhere"
+description: "This post is about Windows XP used in Shanghai Metro system."
 tags: Windows
 permalink: /windows-xp-everywhere-eecd7661cc58
 excerpt_separator: <!--more-->

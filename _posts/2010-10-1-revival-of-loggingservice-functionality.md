@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Revival of LoggingService Functionality"
+description: "This post is about why I revived the LoggingService functionality."
 tags: .NET
 permalink: /revival-of-loggingservice-functionality-29aef28c75b1
 excerpt_separator: <!--more-->

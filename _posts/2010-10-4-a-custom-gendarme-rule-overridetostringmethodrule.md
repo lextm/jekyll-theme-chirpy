@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Custom Gendarme Rule: OverrideToStringMethodRule"
+description: This post is about a custom Gendarme rule.
 tags: Mono
 permalink: /a-custom-gendarme-rule-overridetostringmethodrule-fc52ebb18c78
 excerpt_separator: <!--more-->

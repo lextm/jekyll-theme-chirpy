@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "BigDipper Light: Compiler Status Update"
+description: "This post is about the status of the new compiler for #SNMP."
 tags: SNMP
 permalink: /bigdipper-light-compiler-status-update-f5d2b2f6103d
 excerpt_separator: <!--more-->

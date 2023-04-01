@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "TritonMate Words: #SNMP and Compact Framework"
+description: "This post is about #SNMP and Compact Framework."
 tags: SNMP
 permalink: /tritonmate-words-snmp-and-compact-framework-e2cb24d7250e
 excerpt_separator: <!--more-->

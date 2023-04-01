@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CatPaw Rumors: Release Notes for 5.0 Release"
+description: This post is about the release notes for 5.0 release.
 tags: SNMP
 permalink: /catpaw-rumors-release-notes-for-5-0-release-d51fb1c07c1b
 excerpt_separator: <!--more-->

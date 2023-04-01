@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "I Love The Blue Colour"
+description: "This post is about my previous employer."
 tags: Microsoft
 permalink: /i-love-the-blue-colour-d4b2948cf9d
 excerpt_separator: <!--more-->

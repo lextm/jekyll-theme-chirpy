@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to Troubleshoot MonoDevelop Errors on openSUSE"
+description: "This post is about how to troubleshoot MonoDevelop errors on openSUSE."
 tags: Mono Linux
 permalink: /how-to-troubleshoot-monodevelop-errors-on-opensuse-93498e626335
 excerpt_separator: <!--more-->
