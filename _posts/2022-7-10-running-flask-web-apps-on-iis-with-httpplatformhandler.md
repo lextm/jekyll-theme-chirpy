@@ -136,3 +136,9 @@ With all the help from waitress, I can modify `web.config` as below as final ver
     </system.webServer>
 </configuration>
 ```
+
+## Side Notes
+
+With some minimal changes, you can host such a Python/Flask application on Azure App Service (Windows).
+
+I also created the necessary PowerShell scripts to help you enable HttpPlatformHandler on IIS Express if you want to give it a try. You can find them on [my GitHub repository](https://github.com/lextm/iisexpress-httpplatformhandler).

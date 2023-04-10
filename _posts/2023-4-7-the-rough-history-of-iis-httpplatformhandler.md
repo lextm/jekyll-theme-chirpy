@@ -45,6 +45,11 @@ Almost all misinformation today can be traced back to [this announcement made by
 
 HttpPlatformHandler is still fully supported by Microsoft, and has been upgraded to support all latest Windows releases. If you are hosting Python/Ruby/Go/Java/Node.js applications on IIS, give it a try and feel how simple it is to set up everything around it.
 
+## Side Notes
+HttpPlatformHandler is also enabled on Azure App Service (Windows) by default, so if you have tested your web apps on your own IIS server, you can confidently host them on Azure App Service without many changes on configuration.
+
+I also created the necessary PowerShell scripts to help you enable HttpPlatformHandler on IIS Express if you want to give it a try. You can find them on [my GitHub repository](https://github.com/lextm/iisexpress-httpplatformhandler).
+
 ## References
 
 * [Download](https://www.iis.net/downloads/microsoft/httpplatformhandler#additionalDownloads)

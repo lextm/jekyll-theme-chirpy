@@ -51,3 +51,9 @@ Simply create a `web.config` file at the root,
 With all settings in place, I can go back to IIS Manager and create a site (I chose *:8030 as site binding, but as a normal IIS site you can configure any bindings you like) to point to `C:\test-nuxt`. By opening a web browser and navigate to `http://localhost:8030/`, I can see "Welcome to Nuxt" page as expected.
 
 If you are not familiar with the contents and hit any IIS error, please read [my previous post](/running-nodejs-web-apps-on-iis-with-httpplatformhandler/) to learn how to troubleshoot.
+
+## Side Notes
+
+Clearly you can easily move this web app to Azure App Service (Windows) with minimal changes.
+
+I also created the necessary PowerShell scripts to help you enable HttpPlatformHandler on IIS Express if you want to give it a try. You can find them on [my GitHub repository](https://github.com/lextm/iisexpress-httpplatformhandler).

@@ -229,3 +229,7 @@ Then your `web.config` can work with HttpPlatformHandler as below,
 ```
 
 > I didn't add the rewrite rules as the minimal sample project does not require them, but you can add them for your project if needed.
+
+### Node.js on IIS Express
+
+I also created the necessary PowerShell scripts to help you enable HttpPlatformHandler on IIS Express if you want to give it a try. You can find them on [my GitHub repository](https://github.com/lextm/iisexpress-httpplatformhandler).
