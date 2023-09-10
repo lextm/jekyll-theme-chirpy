@@ -2,7 +2,7 @@
 layout: post
 title: "How to Use ANTLR on .NET, Part II"
 description: "This post is about how to use ANTLR on .NET."
-tags: .NET
+tags: .NET ANTLR
 permalink: /how-to-use-antlr-on-net-part-ii-d6b4514b0970
 excerpt_separator: <!--more-->
 ---

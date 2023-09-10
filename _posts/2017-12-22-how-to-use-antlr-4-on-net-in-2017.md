@@ -2,7 +2,7 @@
 layout: post
 title: How to Use ANTLR 4 on .NET in 2017
 description: A post about how to use ANTLR 4 on .NET in 2017.
-tags: Visual-Studio .NET
+tags: Visual-Studio .NET ANTLR
 permalink: /how-to-use-antlr-4-on-net-in-2017-d8bfe7efa74c
 excerpt_separator: <!--more-->
 image:
@@ -10,7 +10,7 @@ image:
   alt: Copyright © Lex Li. OCT, Pujiang Town, Shanghai.
 ---
 
-I once blogged heavily about how to use ANTLR on .NET, and you can find all related posts in [the archive](/archives).
+I once blogged heavily about how to use ANTLR on .NET, and you can find all related posts in [here](/tags/antlr/).
 
 And [my last blog post on ANTLR](/how-to-use-antlr-4-on-net-4361915b670f) was in 2014. You can still learn something useful from the old post.
 
