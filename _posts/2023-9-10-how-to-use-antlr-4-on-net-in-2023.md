@@ -60,8 +60,10 @@ your project should once again be able to compile, and this time against latest 
 
 For example, grammar files must be explicitly included, and the settings are different.
 
-## Side Note
+## Side Notes
 `Antlr4.Runtime.Standard` adn `Antlr4.Runtime` are compatible in most cases, but note that you might have to fix a few minor changes, such as `PredictionMode.Sll` becomes `PredictionMode.SLL`.
+
+If you notice that generated lexer/parser code isn't updated and remains the same (ANTLR 4.6.6), then you need to restart Visual Studio and try again.
 
 ## Complete Example
 I migrated my ANSI C language server project to the new tooling, and you can find the changes [here](https://github.com/lextm/ansi-c-antlr/commit/cdc3092ef2c533816b474edc6954a1103dd17c8f).
