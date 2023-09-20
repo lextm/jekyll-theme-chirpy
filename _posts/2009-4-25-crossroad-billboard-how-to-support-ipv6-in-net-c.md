@@ -18,15 +18,15 @@ Do you know the following exception messages?
 * "The system detected an invalid pointer address in attempting to use a pointer argument in a call"
 * "An address incompatible with the requested protocol was used"
 
-Well, Google reveals that they are the hints that you need to search for all Socket/UdpClient objects used and let them aware of IP v6 existence.
+Well, Google reveals that they are the hints that you need to search for all `Socket`/`UdpClient`` objects used and let them aware of IP v6 existence.
 
 My changes are,
 
-1. Specify AddressFamily parameter when creating a Socket object. From then on, this Socket object will only be used for IP v4 or v6.
-1. Every time an IPAddress object is used, check its AddressFamily so that a proper Socket object can be used.
+1. Specify `AddressFamily` parameter when creating a `Socket` object. From then on, this `Socket` object will only be used for IP v4 or v6.
+1. Every time an `IPAddress` object is used, check its `AddressFamily` so that a proper `Socket` object can be used.
 
-The toughest problem is how to monitor incoming packets for "All Unassigned". Ha, you must wonder why monitoring IPAddress.Any is not enough. OK, here is the answer.
+The toughest problem is how to monitor incoming packets for "All Unassigned". Ha, you must wonder why monitoring `IPAddress.Any` is not enough. OK, here is the answer.
 
-IPAddress.Any is for IP v4 only. IPAddress.IPv6Any must be used besides to monitor IP v6 packets. So finally I have to use two Socket objects in this panel. One is used for IP v4, and the other for IP v6.
+`IPAddress.Any` is for IP v4 only. `IPAddress.IPv6Any` must be used besides to monitor IP v6 packets. So finally I have to use two `Socket` objects in this panel. One is used for IP v4, and the other for IP v6.
 
 It is perfect that I have this notification panel completed and in the meantime IP v6 support is accomplished. .NET platform really makes the progress quite smooth.
