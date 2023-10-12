@@ -25,7 +25,7 @@ Clearly an alternative is to run those non Microsoft technologies on their own a
 1. You need complex reverse proxy rules to be defined on IIS side, so that traffic can be properly forwarded to the application server.
 1. You need to predetermine the port for your application server. It's not a big deal for your own server which just hosts one or two web apps this way, but what about an enterprise server with hundreds of web apps? It's not easy to manage the port numbers.
 
-## The Magical HttpPlatformHander
+## The Magical HttpPlatformHandler
 
 The experience of building FastCGI and ARR gave Microsoft developers enough experience on both sides of the coin, so they came back with a very smart idea and implemented a new component called HttpPlatformHandler.
 
