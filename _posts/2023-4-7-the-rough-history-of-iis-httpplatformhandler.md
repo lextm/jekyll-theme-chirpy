@@ -13,9 +13,11 @@ Due to various misinformation around this IIS out-of-band component, I think it'
 
 When Microsoft entered the cloud computing market, it was a big challenge to support non-Microsoft technologies on Windows Server so that this platform can expand its reach to a broader audience.
 
-That effort happened to align with a few important changes on IIS itself, where FastCGI support was added so that PHP applications can be hosted on IIS via that interface. PHP community was willing to help on PHP for Windows while Microsoft provided support.
+That effort happened to align with a few important changes on IIS itself, where FastCGI support was added so that PHP applications can be hosted on IIS via that interface. Zend Technologies Inc. and PHP community were willing to help on PHP for Windows while Microsoft provided support.
 
-While this was a big step forward, soon people discovered the difficulty to extend the excitement to other programming languages, such as Ruby and Python. While it is possible to develop the FastCGI based integration for Python, which later became the open source wfastcgi module, who was going to maintain the FastCGI integration bits? As a result, the Python wfastcgi module had been maintained by Microsoft developers till a while ago. But this didn't work out for Ruby, Go, Java, Node.js and many more.
+While this was a big step forward, soon people discovered the difficulty to extend the excitement to other programming languages. For example, wfastcgi was developed by Microsoft Python team to enable FastCGI support for Python. IISNode was developed by Tomasz Janczuk initially to enable FastCGI support for Node.js, and later handed over to Microsoft Azure team.
+
+But the FastCGI approach isn't sustainable, and the story for Ruby, Go, Java, and many more was undone.
 
 ## The Reverse Proxy Disadvantages
 
@@ -52,6 +54,7 @@ I also created the necessary PowerShell scripts to help you enable HttpPlatformH
 
 ## References
 
+* [PHP on IIS announcement](https://news.microsoft.com/2006/10/31/microsoft-and-zend-technologies-announce-technical-collaboration-to-improve-interoperability-of-php-on-the-windows-server-platform/)
 * [Download](https://www.iis.net/downloads/microsoft/httpplatformhandler#additionalDownloads)
 * [Configuration Reference by Microsoft](https://learn.microsoft.com/iis/extensions/httpplatformhandler/httpplatformhandler-configuration-reference)
 * [Java Example by Microsoft](https://learn.microsoft.com/previous-versions/azure/windows-server-azure-pack/mt125371(v=technet.10))
