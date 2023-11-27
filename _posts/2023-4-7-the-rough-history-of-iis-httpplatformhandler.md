@@ -13,9 +13,9 @@ Due to various misinformation around this IIS out-of-band component, I think it'
 
 When Microsoft entered the cloud computing market, it was a big challenge to support non-Microsoft technologies on Windows Server so that this platform can expand its reach to a broader audience.
 
-That effort happened to align with a few important changes on IIS itself, where FastCGI support was added so that PHP applications can be hosted on IIS via that interface. Zend Technologies Inc. and PHP community were willing to help on PHP for Windows while Microsoft provided support.
+That effort happened to align with a few important changes on IIS itself, where FastCGI support was added so that PHP applications can be hosted on IIS via that interface in 2006. Zend Technologies Inc. and PHP community were willing to help on PHP for Windows while Microsoft provided support.
 
-While this was a big step forward, soon people discovered the difficulty to extend the excitement to other programming languages. For example, wfastcgi was developed by Microsoft Python team to enable FastCGI support for Python. IISNode was developed by Tomasz Janczuk initially to enable FastCGI support for Node.js, and later handed over to Microsoft Azure team.
+While this was a big step forward, soon people discovered the difficulty to extend the excitement to other programming languages. For example, wfastcgi was developed by Microsoft Python team in 2012 to enable FastCGI support for Python. iisnode was developed by Tomasz Janczuk initially in 2012 to enable FastCGI support for Node.js, and later handed over to Microsoft Azure team.
 
 But the FastCGI approach isn't sustainable, and the story for Ruby, Go, Java, and many more was undone.
 
@@ -34,6 +34,8 @@ The experience of building FastCGI and ARR gave Microsoft developers enough expe
 In general it works as a reverse proxy between IIS and your application server, but it hooks up the reverse proxy rules itself and also determines which port to use. Then all you need is to specify which process should be called with what arguments to launch the application server process. After such simple configuration, this module spins out the application server on demand and recycle it whenever needed. The port number to use is either passed as one of the arguments or via an environment variable.
 
 The simplicity of this design makes the module a great success, as you no longer need any specific FastCGI bits or ISAPI modules. All you need is just the very simple HttpPlatformHandler configuration snippet and it works for almost all modern web stacks.
+
+Initially this was used by Microsoft Azure Websites to host Java web apps, and later released as a separate download for IIS in 2015.
 
 ## The Mist of ASP.NET Core
 
@@ -55,6 +57,9 @@ I also created the necessary PowerShell scripts to help you enable HttpPlatformH
 ## References
 
 * [PHP on IIS announcement](https://news.microsoft.com/2006/10/31/microsoft-and-zend-technologies-announce-technical-collaboration-to-improve-interoperability-of-php-on-the-windows-server-platform/)
+* [wfastCGI initial commit](https://github.com/microsoft/PTVS/commit/0b944a292442dcb7a5caaffb9e3cd7542bbf190f)
+* [iisnode initial commit](https://github.com/tjanczuk/iisnode/commit/2ad22f2dbc5d9721a58c006c5fb7aef18ae6b430)
+* [HttpPlatformHandler initial announcement](https://azure.microsoft.com/en-us/blog/announcing-the-release-of-the-httpplatformhandler-module-for-iis-8/)
 * [Download](https://www.iis.net/downloads/microsoft/httpplatformhandler#additionalDownloads)
 * [Configuration Reference by Microsoft](https://learn.microsoft.com/iis/extensions/httpplatformhandler/httpplatformhandler-configuration-reference)
 * [Java Example by Microsoft](https://learn.microsoft.com/previous-versions/azure/windows-server-azure-pack/mt125371(v=technet.10))
