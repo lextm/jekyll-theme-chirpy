@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 ---
 > Disclaimer: All contents are based on my personal observation. Please leave a comment if you find anything incorrect, and I will revise it often.
 
-> Current version was written on Feb 14, 2023.
+> Current version was written on Dec 9, 2023.
 
 There are tons of UI frameworks to choose from if you are going to develop a cross platform GUI application in .NET. This post tries to list their pros and cons for your reference.
 <!--more-->
@@ -46,7 +46,7 @@ Below are the native UI frameworks for C# developers,
 Most projects choose to use this approach, such as
 
 * [NI LabView](http://www.ni.com/en-us/shop/labview.html) uses Xamarin.iOS on iOS, and Windows Forms (not quite sure) on Windows.
-* [Plastic SCM](https://www.plasticscm.com/) uses GTK# on Linux, Xamarin.Mac on macOS, and Windows Forms on Windows.
+* [Plastic SCM](https://www.plasticscm.com/) once used GTK# on Linux, Xamarin.Mac on macOS, and Windows Forms on Windows (till they announced the new GUI based on Avalonia in Feb 2022).
 * [iCircuit](http://icircuitapp.com/) uses Xamarin.Mac on macOS, Xamarin.iOS on iOS, Xamarin.Android on Android, and what Microsoft offers on Windows and Windows Phone.
 
 ## Cross Platform Frameworks
