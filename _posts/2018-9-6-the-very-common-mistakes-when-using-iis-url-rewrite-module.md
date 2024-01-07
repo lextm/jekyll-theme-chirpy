@@ -43,17 +43,19 @@ It won't work at all, and the reason is that when a request on `http://some.site
 > Remove domain name from the url tag and add a condition to check domain name instead.
 
 ``` xml
-<rewrite>
-  <rules>
-    <rule name="Rewrite to some page">
-      <match url="some.page" />
-      <conditions>
-        <add input="{HTTP_HOST}" pattern="^some.site$" />
-      </conditions>
-      <action type="Redirect" url="http://other.site/other.page" />
-    </rule>
-  </rules>
-</rewrite>
+<system.webServer>
+  <rewrite>
+    <rules>
+      <rule name="Rewrite to some page">
+        <match url="some.page" />
+        <conditions>
+          <add input="{HTTP_HOST}" pattern="^some.site$" />
+        </conditions>
+        <action type="Redirect" url="http://other.site/other.page" />
+      </rule>
+    </rules>
+  </rewrite>
+</system.webServer>
 ```
 
 > **Tip**
@@ -89,17 +91,27 @@ Why doesn't it work? Because HTTP and HTTPS use different TCP ports, and if not 
 Microsoft decided to split most of the reverse proxy feature into another module called [Application Request Routing](https://docs.microsoft.com/iis/extensions/url-rewrite-module/reverse-proxy-with-url-rewrite-v2-and-application-request-routing), so many times when you design a certain type of rules you need to install ARR and enable proxy mode.
 
 ``` xml
-<rewrite>
-  <rules>
-    <rule name="Reverse Proxy to webmail" stopProcessing="true">
-      <match url="^webmail/(.*)" />
-      <action type="Rewrite" url="http://localhost:8081/{R:1}" />
-    </rule>
-  </rules>
-</rewrite>
+<system.webServer>
+  <rewrite>
+    <rules>
+      <rule name="Reverse Proxy to webmail" stopProcessing="true">
+        <match url="^webmail/(.*)" />
+        <action type="Rewrite" url="http://localhost:8081/{R:1}" />
+      </rule>
+    </rules>
+  </rewrite>
+</system.webServer>
 ```
 
 If you don't enable ARR proxy mode in such cases, IIS should respond with 404 errors.
+
+> To proper configure ARR as a reverse proxy, you should read the official documentation. And usually you need the following,
+>
+> ``` xml
+> <system.webServer>
+>   <proxy enabled="true" preserveHostHeader="true" />
+> </system.webServer>
+> ```
 
 Stay tuned, as more common mistakes will be added soon.
 
