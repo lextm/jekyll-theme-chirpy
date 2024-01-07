@@ -167,8 +167,17 @@ And if an application pool recycle is triggered in IIS Manager, I can also obser
 
 ## Side Notes
 
+### The Infinite Loading
+Sometimes the browser seems to work as it is trying to load the web page but the page takes for ever to load and the `node.exe` process keeps crashing.
+
+No doubt Process Monitor is the best tool to use right now and by using a filter of process name `node.exe` I can see lots of access denied errors on different files in `C:\Users\<user name>`.
+
+That's because the web app contents are in a user folder such as `C:\Users\<user name>\source\repos\test-node-express`, and `node.exe` has difficulty accessing them. The simplest way is to move the folder to a different location, such as `C:\node-test`.
+
 ### Express for Node.js
-One thing you might notice is that I wrote a very simple Node.js application as example. Why not go a little bit further to use a framework like Express for Node.js? In fact I did try it out (Express 4.18.1), but `node.exe` does not shut down peacefully and it also blocks `w3wp.exe` from proper shutdown. I didn't have time to dig further there, but you might find it an interesting field to explore. Good luck.
+One thing you might notice is that I wrote a very simple Node.js application as example. Why not go a little bit further to use a framework like Express for Node.js?
+
+My latest test in 2024 with Node.js v21 and Express 4.18.2 works flawlessly, but when I tried out Node.js v16 and Express 4.18.1, `node.exe` did not shut down peacefully and it also blocked `w3wp.exe` from proper shutdown. You might need to dig further if such an issue occurs.
 
 ### Hosting on Azure App Service (Windows)
 Two small changes might be needed if you want to deploy `app.js` and `web.config` together to your Azure App Service (Windows),
