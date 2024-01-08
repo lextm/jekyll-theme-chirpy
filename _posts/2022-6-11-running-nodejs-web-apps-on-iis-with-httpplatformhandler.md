@@ -179,6 +179,9 @@ One thing you might notice is that I wrote a very simple Node.js application as 
 
 My latest test in 2024 with Node.js v21 and Express 4.18.2 works flawlessly, but when I tried out Node.js v16 and Express 4.18.1, `node.exe` did not shut down peacefully and it also blocked `w3wp.exe` from proper shutdown. You might need to dig further if such an issue occurs.
 
+### Socket.IO Support
+If you want to use Socket.IO in your Node.js web apps, make sure IIS WebSocket Protocol support is installed and enabled. Then HttpPlatformHandler can work with Socket.IO without any issues.
+
 ### Hosting on Azure App Service (Windows)
 Two small changes might be needed if you want to deploy `app.js` and `web.config` together to your Azure App Service (Windows),
 
