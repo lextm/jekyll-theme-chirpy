@@ -139,6 +139,15 @@ With all the help from waitress, I can modify `web.config` as below as final ver
 
 ## Side Notes
 
+### Flask on Azure App Service
 With some minimal changes, you can host such a Python/Flask application on Azure App Service (Windows).
 
+### Flask on IIS Express
 I also created the necessary PowerShell scripts to help you enable HttpPlatformHandler on IIS Express if you want to give it a try. You can find them on [my GitHub repository](https://github.com/lextm/iisexpress-httpplatformhandler).
+
+### Flask with Socket.IO
+You might easily hit issues with WebSocket and Socket.IO if you try to host a Python web app on IIS, as many of the Python package authors might not have a Windows machine for testing. You might find the following links useful, but I didn't see a complete solution yet.
+
+* [Python WebSocket package requires compression to be disabled](https://github.com/python-websockets/websockets/issues/1192)
+* [Python WebSocket debugging](https://websockets.readthedocs.io/en/stable/howto/cheatsheet.html#debugging)
+* [Flask-SocketIO doesn't work well with IIS](https://stackoverflow.com/questions/77771538/flask-socketio-gevent-or-eventlet-windows-iis-do-these-things-work-tog)
