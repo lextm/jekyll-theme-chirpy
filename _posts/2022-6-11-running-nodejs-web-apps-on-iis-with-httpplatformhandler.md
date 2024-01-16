@@ -208,7 +208,7 @@ The complete `web.config` file might look as below,
 ```
 
 ### Next.js
-To run Next.js web apps locally you might be quite familiar with `next start` command. Therefore, if you want to host a Next.js web app on IIS, you might need to modify `web.config` as below to invoke `next start` properly,
+To run Next.js web apps locally you might be quite familiar with `next start` command. Therefore, if you want to host them on IIS, you might need to modify `web.config` as below to invoke `next start` properly,
 
 ``` xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -227,7 +227,7 @@ To run Next.js web apps locally you might be quite familiar with `next start` co
 </configuration>
 ```
 
-> Note that you must run `next build` to generate the production artifacts before deploying to IIS.
+> Note that you must run `next build` to generate the production artifacts before deploying to IIS. Besides, you can delete source files and only leave `.next`, `node_modules` and `web.config` in the deployment folder.
 
 ### Nuxt.js
 
