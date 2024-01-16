@@ -207,6 +207,28 @@ The complete `web.config` file might look as below,
 </configuration>
 ```
 
+### Next.js
+To run Next.js web apps locally you might be quite familiar with `next start` command. Therefore, if you want to host a Next.js web app on IIS, you might need to modify `web.config` as below to invoke `next start` properly,
+
+``` xml
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <system.webServer>
+        <handlers>
+            <add name="httpPlatformHandler" path="*" verb="*" modules="httpPlatformHandler" resourceType="Unspecified" requireAccess="Script" />
+        </handlers>
+        <httpPlatform stdoutLogEnabled="true" stdoutLogFile=".\node.log" startupTimeLimit="20" processPath="C:\Users\<user name>\AppData\Roaming\nvm\v16.13.2\node.exe" arguments=".\node_modules\next\dist\bin\next start">
+            <environmentVariables>
+                <environmentVariable name="PORT" value="%HTTP_PLATFORM_PORT%" />
+                <environmentVariable name="NODE_ENV" value="Production" />
+            </environmentVariables>
+        </httpPlatform>
+    </system.webServer>
+</configuration>
+```
+
+> Note that you must run `next build` to generate the production artifacts before deploying to IIS.
+
 ### Nuxt.js
 
 > Note that the steps below apply to Nuxt 2.x (2.15.8). To deploy a Nuxt 3.x web app, please refer to [this new post](/running-nuxt-3-web-apps-on-iis-with-httpplatformhandler/).
