@@ -67,4 +67,4 @@ I also created the necessary PowerShell scripts to help you enable HttpPlatformH
 * [Python Example by me]({% post_url 2022-7-10-running-flask-web-apps-on-iis-with-httpplatformhandler %})
 * [Node.js Example by me]({% post_url 2022-6-11-running-nodejs-web-apps-on-iis-with-httpplatformhandler %})
 * [Ruby Example by Scott Hanselman](http://www.hanselman.com/blog/announcing-running-ruby-on-rails-on-iis8-or-anything-else-really-with-the-new-httpplatformhandler)
-* [Go Example by Hang Ruan](https://blog.jayway.com/2015/02/16/deploying-go-applications-azure-websites/)
+* [Go Example by me]({% post_url 2024-2-9-running-go-web-apps-on-iis-with-httpplatformhandler %})
