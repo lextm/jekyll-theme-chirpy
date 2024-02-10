@@ -6,7 +6,7 @@ tags: .NET
 permalink: /launch-firefox-in-c-b74d7264d2a4
 excerpt_separator: <!--more-->
 ---
-I talked about this topic in [this post](/grapevine-voice-firefoxs-flaw-or-windows-e108ed376916), but today's content is brand new. Yes, finally I find out how to launch Firefox without an exception. Then HOW?
+I talked about this topic in [this post]({% post_url 2008-2-5-grapevine-voice-firefox-s-flaw-or-windows %}), but today's content is brand new. Yes, finally I find out how to launch Firefox without an exception. Then HOW?
 
 The old code to launch Firefox was,
 

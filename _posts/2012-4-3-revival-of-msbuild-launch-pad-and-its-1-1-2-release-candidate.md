@@ -6,9 +6,7 @@ tags: .NET
 permalink: /revival-of-msbuild-launch-pad-and-its-1-1-2-release-candidate-d8a915e8366a
 excerpt_separator: <!--more-->
 ---
-I haven't been updating mPad for a long time (since June 11, 2011). There was no strong drive because all major features have been implemented (though ugly, they work). I kind of forgot about it till this bug report came a few weeks ago,
-
-http://msbuildlaunchpad.codeplex.com/workitem/14833
+I haven't been updating mPad for a long time (since June 11, 2011). There was no strong drive because all major features have been implemented (though ugly, they work). I kind of forgot about it till this bug report came a few weeks ago.
 
 Alright, finally I got all the necessary details about the crash, and started to fix it. But was that all I could do this time? Nope :) I have explored a lot.
 <!--more-->
@@ -45,8 +43,6 @@ So in the past few days, I extracted all such information into the app.config fi
 
 You can receive our latest change sets to see how the above changes have been made.
 
-Don't forget to download the latest 1.1.2 RC,
-
-http://msbuildlaunchpad.codeplex.com/releases/view/47157
+Don't forget to download the latest 1.1.2 RC.
 
 Stay tuned.

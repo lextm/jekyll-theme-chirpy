@@ -7,8 +7,6 @@ permalink: /snmp-design-instance-property-octetstring-encoding-8f355c053e9a
 excerpt_separator: <!--more-->
 ---
 It was in the latest Change Set 15756 that I added a static property DefaultEncoding to OctetString class. Soon, as a user commented in this thread, that was not enough if both ASCII and Unicode strings are required in the management system (especially for "community name"). Therefore, now I am working on a new approach.
-
-http://www.codeplex.com/sharpsnmplib/Thread/View.aspx?ThreadId=35765
 <!--more-->
 
 The idea is simple. Why not provide an instance property to OctetString for encoding? In this way, you can configure every objects of this class. I believe this is the most flexible way I can think of now. I will check in a new Change Set tonight so you can play with it and provide me feedbacks.

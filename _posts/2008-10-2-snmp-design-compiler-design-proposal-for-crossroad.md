@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 ---
 You may notice the current official release of #SNMP is still UnicornHorn Refresh (1.1) which is available since August. Now TwinTower (1.5) RC2 is out, and the final release will be published weeks later. So it is time to define detailed baselines for both TwinTower and CrossRoad (2.0) that match the situation.
 
-[In this post](/snmp-design-the-first-performance-analysis-fa3b7f884253), I already stated that no new features (even the performance tuning) will be added to TwinTower except bug fixes. So the following features will definitely be delayed to CrossRoad,
+[In this post]({% post_url 2008-10-1-snmp-design-the-first-performance-analysis %}), I already stated that no new features (even the performance tuning) will be added to TwinTower except bug fixes. So the following features will definitely be delayed to CrossRoad,
 
 1. MIB compiler prototype.
 1. MIB browser performance improvement for 1000+ MIB documents.

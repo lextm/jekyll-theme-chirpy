@@ -12,9 +12,9 @@ image:
 
 Debugging is very important a process for developers to learn more about the development environment and the code base. So frustration can be a lot if suddenly your development tool fails to debug.
 
-I [documented a few typical Visual Studio and IIS Express related issues](/jexus-manager-secrets-behind-visual-studio-iis-express-integration-834f88c8e8b) that can prevent debugging from working. But you already noticed that they were about ASP.NET 4.x projects, and do not apply to ASP.NET Core projects.
+I [documented a few typical Visual Studio and IIS Express related issues]({% post_url 2015-11-5-jexus-manager-secrets-behind-visual-studio-iis-express-integration %}) that can prevent debugging from working. But you already noticed that they were about ASP.NET 4.x projects, and do not apply to ASP.NET Core projects.
 
-I [wrote about ASP.NET Core and Visual Studio once](/how-visual-studio-launches-iis-express-to-debug-asp-net-core-apps-d7fd3677e3c3). However, I didn't reveal enough on all the issues you might hit. So this post would serve the missing pieces.
+I [wrote about ASP.NET Core and Visual Studio once]({% post_url 2017-6-5-how-visual-studio-launches-iis-express-to-debug-asp-net-core-apps %}). However, I didn't reveal enough on all the issues you might hit. So this post would serve the missing pieces.
 <!--more-->
 
 ## Unable to connect to web server IIS Express

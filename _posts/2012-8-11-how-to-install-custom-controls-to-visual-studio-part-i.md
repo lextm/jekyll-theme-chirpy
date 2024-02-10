@@ -35,7 +35,7 @@ This provides us the basic integration, that we can manually create a tab and ad
 
 Now to achieve better experience, we need to automate Visual Studio to simulate our manual steps above (create a new tab and add items).
 
-This requires familiarity on Visual Studio COM interfaces and Visual Studio SDK. However, you should not be panic, as we are kindly served by open source community with a project named [Visual Studio Toolbox Manager](http://vstudiotoolbox.codeplex.com/).
+This requires familiarity on Visual Studio COM interfaces and Visual Studio SDK. However, you should not be panic, as we are kindly served by open source community with a project named Visual Studio Toolbox Manager.
 
 By calling this utility the whole automation process will be carried out automatically.
 

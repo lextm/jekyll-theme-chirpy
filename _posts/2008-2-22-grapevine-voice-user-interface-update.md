@@ -6,7 +6,7 @@ tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-user-interface-update-9b308ecd45c
 excerpt_separator: <!--more-->
 ---
-Did you read [this post](/office-2007-style-346123fdad23) You might think I use Krypton Toolkit, but in fact I didn't because Krypton Toolkit is not open source.
+Did you read [this post]({% post_url 2008-2-18-office-2007-style %}) You might think I use Krypton Toolkit, but in fact I didn't because Krypton Toolkit is not open source.
 
 This article is quite important in this case. It seems Phil did not place an EULA there to restrict us, so I think why not make use of the wonderful code?
 

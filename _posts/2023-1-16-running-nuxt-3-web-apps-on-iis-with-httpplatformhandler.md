@@ -50,7 +50,7 @@ Simply create a `web.config` file at the root,
 
 With all settings in place, I can go back to IIS Manager and create a site (I chose *:8030 as site binding, but as a normal IIS site you can configure any bindings you like) to point to `C:\test-nuxt`. By opening a web browser and navigate to `http://localhost:8030/`, I can see "Welcome to Nuxt" page as expected.
 
-If you are not familiar with the contents and hit any IIS error, please read [my previous post](/running-nodejs-web-apps-on-iis-with-httpplatformhandler/) to learn how to troubleshoot.
+If you are not familiar with the contents and hit any IIS error, please read [my previous post on Node.js](2022-6-11-running-nodejs-web-apps-on-iis-with-httpplatformhandler.md ) to learn how to troubleshoot.
 
 ## Side Notes
 

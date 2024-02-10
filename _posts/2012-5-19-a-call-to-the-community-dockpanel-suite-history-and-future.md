@@ -74,48 +74,50 @@ Note that if you already have a patch for the issue you meet, please follow "Gui
 You may also use SF.net tracker [23], but it is not recommended. Issues recorded on SF.net may be gradually fixed in this fork.
 
 ## References
+[1][DockPanel Suite 1.0.0.0]
+[2][DockPanel Suite 2.2]
+[3][DockPanel Suite 2.3.1]
+[4][A Visual Studio 2005-like Interface]
+[5][ICSharpCode]
+[6][AvalonDock]
+[7][SharpDevelop on GitHub]
+[8][DockPanel Suite Forum Topic 1]
+[9][WPF vs Windows Forms]
+[10][WpfDocking Overview]
+[11][DockPanel Suite Forum Topic 2]
+[12][DockPanel Suite 2.4.0]
+[13][DockPanel Suite 2.5.0 RC1]
+[14][Sharp SNMP Library]
+[15][DockPanel Suite Tip]
+[16][DockPanel Suite Patch]
+[17][Guo Yong Rong on Codeplex]
+[18][DockPanel Suite Forum Topic 3]
+[19][DockPanel Suite Forum Topic 4]
+[20][svn2git on GitHub]
+[21][DockPanel Suite Issues]
+[22][DockPanel Suite Pull Request]
+[23][SourceForge Tracker]
 
-[1] http://sourceforge.net/projects/dockpanelsuite/files/DockPanel%20Suite/1.0.0.0/
-
-[2] http://sourceforge.net/projects/dockpanelsuite/files/DockPanel%20Suite/2.2/
-
-[3] http://sourceforge.net/projects/dockpanelsuite/files/DockPanel%20Suite/2.3.1/
-
-[4] http://www.codeproject.com/Articles/14336/A-Visual-Studio-2005-like-Interface
-
-[5] http://www.icsharpcode.net/OpenSource/SD/Default.aspx
-
-[6] http://avalondock.codeplex.com/
-
-[7] https://github.com/icsharpcode/SharpDevelop/tree/c4336b038c23fa37ee19bdd7d27bfa29b575a4a4/src/Libraries/DockPanel_Src
-
-[8] http://sourceforge.net/projects/dockpanelsuite/forums/forum/402316/topic/3368441
-
-[9] http://www.devzest.com/blog/post/WPF-vs-Windows-Forms-From-Control-Authoring-Perspective.aspx
-
-[10] http://www.devzest.com/WpfDocking.aspx?Show=Overview
-[11] http://sourceforge.net/projects/dockpanelsuite/forums/forum/402316/topic/3879095
-
-[12] http://sourceforge.net/projects/dockpanelsuite/files/DockPanel%20Suite/2.4.0/
-
-[13] http://sourceforge.net/projects/dockpanelsuite/files/DockPanel%20Suite/2.5.0%20RC1/
-
-[14] http://sharpsnmplib.codeplex.com
-
-[15] https://halfblood.pro/dockpanel-suite-tip-5-we-could-go-mono-63ee484f77a0
-
-[16] https://halfblood.pro/dockpanel-suite-patch-to-support-lite-mode-on-mono-217547fc710b
-
-[17] http://guoyongrong.codeplex.com/
-
-[18] http://sourceforge.net/projects/dockpanelsuite/forums/forum/402316/topic/5080422
-
-[19] http://sourceforge.net/projects/dockpanelsuite/forums/forum/402316/topic/5271451
-
-[20] https://github.com/nirvdrum/svn2git
-
-[21] https://github.com/dockpanelsuite/dockpanelsuite/issues/milestones
-
-[22] https://github.com/dockpanelsuite/dockpanelsuite/pull/8
-
-[23] https://sourceforge.net/tracker/?group_id=110642
+[DockPanel Suite 1.0.0.0]: http://sourceforge.net/projects/dockpanelsuite/files/DockPanel%20Suite/1.0.0.0/
+[DockPanel Suite 2.2]: http://sourceforge.net/projects/dockpanelsuite/files/DockPanel%20Suite/2.2/
+[DockPanel Suite 2.3.1]: http://sourceforge.net/projects/dockpanelsuite/files/DockPanel%20Suite/2.3.1/
+[A Visual Studio 2005-like Interface]: http://www.codeproject.com/Articles/14336/A-Visual-Studio-2005-like-Interface
+[ICSharpCode]: http://www.icsharpcode.net/OpenSource/SD/Default.aspx
+[AvalonDock]: https://github.com/xceedsoftware/wpftoolkit/wiki/AvalonDock
+[SharpDevelop on GitHub]: https://github.com/icsharpcode/SharpDevelop/tree/c4336b038c23fa37ee19bdd7d27bfa29b575a4a4/src/Libraries/DockPanel_Src
+[DockPanel Suite Forum Topic 1]: http://sourceforge.net/projects/dockpanelsuite/forums/forum/402316/topic/3368441
+[WPF vs Windows Forms]: http://www.devzest.com/blog/post/WPF-vs-Windows-Forms-From-Control-Authoring-Perspective.aspx
+[WpfDocking Overview]: http://www.devzest.com/WpfDocking.aspx?Show=Overview
+[DockPanel Suite Forum Topic 2]: http://sourceforge.net/projects/dockpanelsuite/forums/forum/402316/topic/3879095
+[DockPanel Suite 2.4.0]: http://sourceforge.net/projects/dockpanelsuite/files/DockPanel%20Suite/2.4.0/
+[DockPanel Suite 2.5.0 RC1]: http://sourceforge.net/projects/dockpanelsuite/files/DockPanel%20Suite/2.5.0%20RC1/
+[Sharp SNMP Library]: http://sharpsnmp.com
+[DockPanel Suite Tip]: https://halfblood.pro/dockpanel-suite-tip-5-we-could-go-mono-63ee484f77a0
+[DockPanel Suite Patch]: https://halfblood.pro/dockpanel-suite-patch-to-support-lite-mode-on-mono-217547fc710b
+[Guo Yong Rong on Codeplex]: http://guoyongrong.codeplex.com/
+[DockPanel Suite Forum Topic 3]: http://sourceforge.net/projects/dockpanelsuite/forums/forum/402316/topic/5080422
+[DockPanel Suite Forum Topic 4]: http://sourceforge.net/projects/dockpanelsuite/forums/forum/402316/topic/5271451
+[svn2git on GitHub]: https://github.com/nirvdrum/svn2git
+[DockPanel Suite Issues]: https://github.com/dockpanelsuite/dockpanelsuite/issues/milestones
+[DockPanel Suite Pull Request]: https://github.com/dockpanelsuite/dockpanelsuite/pull/8
+[SourceForge Tracker]: https://sourceforge.net/tracker/?group_id=110642

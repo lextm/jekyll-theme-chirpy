@@ -13,6 +13,4 @@ What is Alex? It is just AStyle AddIn for SharpDevelop version 1.0. Because I am
 Finally I have added an options dialog since I created those betas. So in this version you can configure AStyle as you like. Most of CBC code on AStyle is used. As a result, it is not hard to make all implemented.
 
 Try it now if you have been waiting for long.
-
-http://alex.codeplex.com
 <!--more-->

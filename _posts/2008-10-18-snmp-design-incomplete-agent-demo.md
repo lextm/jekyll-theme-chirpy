@@ -6,7 +6,7 @@ tags: SNMP
 permalink: /snmp-design-incomplete-agent-demo-5550acc8f1e4
 excerpt_separator: <!--more-->
 ---
-> Update: This post is obsolete. For #SNMP 6+, please read [this new post](/honeycell-drops-snmp-pipeline-and-our-agent-demo-89986da1a5da).
+> Update: This post is obsolete. For #SNMP 6+, please read [this new post]({% post_url 2010-11-14-honeycell-drops-snmp-pipeline-and-our-agent-demo %}).
 
 I started to increase agent side support in #SNMP, but soon I found that I could not do that fast. It is really a big topic. But I owe everyone who voted on the poll a detailed post, so here comes it.
 <!--more-->

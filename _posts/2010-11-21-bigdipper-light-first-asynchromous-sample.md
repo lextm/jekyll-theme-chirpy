@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 Microsoft invents a series of patterns for .NET asynchronous API design. However, no every pattern meet all requirements. For #SNMP, currently the Begin/End pattern is still the most suitable as it can be used in extension methods.
 <!--more-->
 
-Today I built the first sample for our asynchronous API and soon detected a few issues. Luckily the issues were resolved in our latest change set (http://sharpsnmplib.codeplex.com/SourceControl/changeset/changes/faffeafa130c) and below is the sample code,
+Today I built the first sample for our asynchronous API and soon detected a few issues. Luckily the issues were resolved in our latest change set and below is the sample code,
 
 ``` csharp
 using System;

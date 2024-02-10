@@ -10,5 +10,5 @@ Well, after so many months I finally figured out how to create new Wiki pages on
 
 Happy new year, guys.
 
-By the way, do you notice that now you can access the homepage using http://sharpsnmplib.codeplex.com ? Nice change.
+By the way, do you notice that now you can access the homepage using https://github.com/lextudio/sharpsnmplib ? Nice change.
 <!--more-->

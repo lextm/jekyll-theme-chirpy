@@ -8,9 +8,7 @@ excerpt_separator: <!--more-->
 ---
 Hi dear users,
 
-Today is the time to update the suite at hand to its latest release. Yes, SquareRoot phase is over, and we have 4.0 final here,
-
-http://sharpsnmplib.codeplex.com
+Today is the time to update the suite at hand to its latest release. Yes, SquareRoot phase is over, and we have 4.0 final here.
 
 Work on 5.0 (CatPaw) will start soon.
 

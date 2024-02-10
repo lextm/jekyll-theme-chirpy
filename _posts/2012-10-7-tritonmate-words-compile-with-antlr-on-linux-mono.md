@@ -21,9 +21,7 @@ https://github.com/lextudio/sharpsnmplib/commit/e10d42dbd84e16141d345b83470ee3cb
 
 In this way, we can still use ANTLR targets on Windows, while switching to ANTLR3 compilation on Linux/Mono. I don't plan to do anything further here, as mainly the development is on Windows.
 
-Unfortunately, this only fixes the ANTLR compilation issue, while NuGet is another silly piece that fails to work on Mono, and when I tried to fix it a bug occurred,
-
-http://nuget.codeplex.com/workitem/2662
+Unfortunately, this only fixes the ANTLR compilation issue, while NuGet is another silly piece that fails to work on Mono, and when I tried to fix it a bug occurred.
 
 Let's see if those Microsoft guys can fix it sooner.
 
@@ -31,10 +29,7 @@ This NuGet bug prevents NuGet packages from being restored, so if you want to co
 
 https://github.com/downloads/lextudio/sharpsnmplib/packages.tar.gz
 
-Decompress it, and then put the packages folder in the correct place. After that, the remaining steps are documented in KB600006 and KB600007,
-
-http://sharpsnmplib.codeplex.com/wikipage?title=600006&referringTitle=KB
-http://sharpsnmplib.codeplex.com/wikipage?title=600007&referringTitle=KB
+Decompress it, and then put the packages folder in the correct place. After that, the remaining steps are documented in KB600006 and KB600007.
 
 I am going to receive my new laptop tomorrow. The development of TritonMate will be reactivated in a couple of hours.
 

@@ -10,7 +10,5 @@ Just one minute earlier, the #SNMP MIB parser parsed all Net-SNMP bundled MIB do
 
 I am going to parse this file later today so to close Work Item 2275. Therefore, keep an eye on #SNMP as I am going to make another build public soon.
 
-http://www.codeplex.com/sharpsnmplib/WorkItem/View.aspx?WorkItemId=2275
-
 Stay tuned.
 <!--more-->

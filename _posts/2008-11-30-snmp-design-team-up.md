@@ -15,8 +15,6 @@ Then we have another developer now. Welcome, Rick Born (did I mention that he is
 ## Latest Changes
 Steve and I checked in a few changes this weekend, so we are getting near to RC 3 for TwinTower. We closed a few Work Items and something new. You may read the check in notes for hints.
 
-http://www.codeplex.com/sharpsnmplib/SourceControl/ListDownloadableCommits.aspx
-
 But the key change is that Steve back ported the source code to C# 2.0, so now #SNMP can be used in Visual Studio 2005 directly. I know some of you have been waiting for this long enough. So now you can check it out from the repository.
 
 ## Next Step

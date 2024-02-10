@@ -10,7 +10,5 @@ Hi all,
 
 If you find that #SNMP MIB Compiler always crashes at start up, I am so sorry that I messed up compiler.exe.config in that package.
 
-Please download the latest package from here again,
-
-http://sharpsnmplib.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=15118
+Please download the latest package from here again.
 <!--more-->

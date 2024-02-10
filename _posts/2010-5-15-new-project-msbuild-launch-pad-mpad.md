@@ -20,7 +20,7 @@ It still has the following disadvantages,
 
 I was planning to join this project and bring in some update, but why not start from a new perspective and write something new from scratch?
 
-Here comes MSBuild Launch Pad, http://msbuildlaunchpad.codeplex.com/, my fourth CodePlex project (my fifth open source project).
+Here comes MSBuild Launch Pad, https://github.com/lextm/msbuildlaunchpad, my fourth CodePlex project (my fifth open source project).
 
 Itself contains a launch pad application who parses sln/csproj/vbproj/vcxproj files to determine which MSBuild version should be used.
 

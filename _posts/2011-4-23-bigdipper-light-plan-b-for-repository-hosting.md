@@ -13,6 +13,6 @@ We just started to enjoy some of the benefits of switching to Mercurial,
 * (Most important) We can easily find another place to host the repository so that all collaboration can be resumed.
 <!--more-->
 
-Now we have Plan B for our repository. Before CodePlex fixes our repository there, we will use Google Code temporarily, http://code.google.com/p/sharpsnmplib/.
+Now we have Plan B for our repository. Before CodePlex fixes our repository there, we will use Google Code temporarily.
 
-Please continue to visit our CodePlex home page, http://sharpsnmplib.codeplex.com for all other information (discussion board, issue tracker, and wiki).
+Please continue to visit our CodePlex home page for all other information (discussion board, issue tracker, and wiki).

@@ -6,7 +6,7 @@ tags: .NET Visual-Studio
 permalink: /how-to-install-custom-controls-to-visual-studio-part-ii-cff4b3227ed3
 excerpt_separator: <!--more-->
 ---
-> [Part I is here](/how-to-install-custom-controls-to-visual-studio-part-i-39fa7733bb3)
+> [Part I is here]({% post_url 2012-8-11-how-to-install-custom-controls-to-visual-studio-part-i %})
 
 In part I I mentioned all you need to install your custom WinForms controls to Visual Studio 2008.
 

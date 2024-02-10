@@ -6,7 +6,7 @@ tags: .NET ANTLR
 permalink: /how-to-use-antlr-4-on-net-4361915b670f
 excerpt_separator: <!--more-->
 ---
-> Update: [A new article](/how-to-use-antlr-4-on-net-in-2017-d8bfe7efa74c) is now alive.
+> Update: [A new article]({% post_url 2017-12-22-how-to-use-antlr-4-on-net-in-2017 %}) is now alive.
 
 I once blogged heavily about how to use ANTLR 3 on .NET, and you can find all links from [the archive](/archives/)
 

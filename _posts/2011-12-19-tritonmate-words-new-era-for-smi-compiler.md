@@ -6,12 +6,12 @@ tags: SNMP
 permalink: /tritonmate-words-new-era-for-smi-compiler-bbcd83ed9bb9
 excerpt_separator: <!--more-->
 ---
-I just published a new RC for our 7.5 release, http://sharpsnmplib.codeplex.com/releases/view/78947. But this is not the most exciting news recently, as finally #SNMP 8.0 codename is finalized, as TritonMate, http://sharpsnmplib.codeplex.com/releases/view/79079.
+I just published a new RC for our 7.5 release. But this is not the most exciting news recently, as finally #SNMP 8.0 codename is finalized, as TritonMate.
 <!--more-->
 
 In the coming weeks I will publish more information on my discovery on ANTLR and SMI/MIB compiling progress, just like what I did back in 2008 for the initial compiler. Let's see how modern technologies make things different :-)
 
-By the way, if you cannot wait, you can follow my recent changes on our Google Code repository, http://code.google.com/p/sharpsnmplib/source/list?name=t7226.
+By the way, if you cannot wait, you can follow my recent changes on our Google Code repository.
 
 Stay tuned.
 

@@ -101,4 +101,4 @@ BTW, Jexus Manager will become fully open source in 2016. Stay tuned.
 ## References
 
 * Jexus homepage http://jexus.org
-* Jexus English docs https://jexus.codeplex.com
+* Jexus English docs https://server.jexusmanager.com

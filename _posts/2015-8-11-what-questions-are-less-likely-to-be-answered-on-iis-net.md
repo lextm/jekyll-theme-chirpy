@@ -22,7 +22,7 @@ As there are far too many things might work with IIS, you can imagine this list 
 
 Each such components has its own mailing lists or forums where experts stay, and commercial products such as WebSphere and ColdFusion even have vendor support (from IBM and Adobe respectively). Thus, if you do want to get a quick answer or proper guidance, search on the Internet for the proper resources.
 
-Another example is the PHP support on IIS, which I documented in more details [in another post](/who-should-be-contacted-for-php-on-iis-issues-c80b90bd365).
+Another example is the PHP support on IIS, which I documented in more details [in another post]({% post_url 2018-3-31-why-you-should-forget-php-manager-for-iis %}).
 
 IIS.net is very Microsoft centric and many experts I know of (including myself) never have a chance to play with such third party components. We are willing to help, but we are obvious not the guys you are looking for.
 

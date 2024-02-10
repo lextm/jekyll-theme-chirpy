@@ -11,7 +11,7 @@ It was at the very beginning that users call for asynchronous GetResponse. Well,
 But now we are working on our 7.0 release, and with new extension methods there is no longer a need to duplicate code undesirably, so why not give asynchronous calls a chance to shine? Here it is.
 <!--more-->
 
-In the latest change set, http://sharpsnmplib.codeplex.com/SourceControl/changeset/changes/9e97111b90dc, two methods are added to SnmpMessageExtension. They are BeginGetResponse and EndGetResponse. Because I follow .NET Framework's async pattern, you should be familiar with how to call them correctly.
+In the latest change set, two methods are added to SnmpMessageExtension. They are BeginGetResponse and EndGetResponse. Because I follow .NET Framework's async pattern, you should be familiar with how to call them correctly.
 
 Note that comparing to GetResponse, the timeout parameter is not present. For asynchronous calls, I think it is no longer necessary to pass timeout in.
 

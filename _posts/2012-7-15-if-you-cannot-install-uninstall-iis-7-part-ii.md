@@ -6,7 +6,7 @@ tags: Windows IIS
 permalink: /if-you-cannot-install-uninstall-iis-7-part-ii-73a14fe3db0
 excerpt_separator: <!--more-->
 ---
-I blogged about this last year as [part I](/if-you-cannot-install-uninstall-iis-7-292f3d582837).
+I blogged about this last year as [part I]({% post_url 2011-2-26-if-you-cannot-install-uninstall-iis-7 %}).
 
 In this part, I am going to tell you more about the corruption.
 <!--more-->

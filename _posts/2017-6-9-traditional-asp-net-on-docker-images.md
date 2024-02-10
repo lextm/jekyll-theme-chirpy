@@ -54,6 +54,6 @@ So, we can learn the following key points from Microsoft's Dockerfile files,
 
 You should notice that except the base image of "windowsservercore", we can prepare our own IIS/ASP.NET images to suit our own needs,
 
-* Instead of adding the whole Web Server role, we can further select which are the role services to go. (I blogged about that in [this post](/install-iis-10-on-windows-via-powershell-96baf95efc2e).
+* Instead of adding the whole Web Server role, we can further select which are the role services to go. (I blogged about that in [this post]({% post_url 2017-5-28-install-iis-10-on-windows-via-powershell %}).
 * Instead of open only port 80, we can open any suitable port(s).
 * We can further tune IIS configuration to define our own site (and its applications), and are not limited by default web site.

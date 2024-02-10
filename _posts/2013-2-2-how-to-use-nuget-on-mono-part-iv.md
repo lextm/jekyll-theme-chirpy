@@ -8,9 +8,9 @@ excerpt_separator: <!--more-->
 ---
 [Update: Microsoft starts to officially support Mono, so please simply use latest NuGet executable such as 3.5]
 
-> In [part I](/how-to-use-nuget-on-mono-part-i-8d2cd63bd1e0) and [part II](/how-to-use-nuget-on-mono-part-ii-1e71e55757bd) I have already mentioned the steps you need to follow. [Part III](/how-to-use-nuget-on-mono-part-iii-bc1d14e79db4) is about Mono packaging. This post described how we should patch NuGet so that it works better on Mono.
+> In [part I]({% post_url 2013-1-27-how-to-use-nuget-on-mono-part-i %}) and [part II]({% post_url 2013-1-28-how-to-use-nuget-on-mono-part-ii %}) I have already mentioned the steps you need to follow. [Part III]({% post_url 2013-1-31-how-to-use-nuget-on-mono-part-iii %}) is about Mono packaging. This post described how we should patch NuGet so that it works better on Mono.
 
-I have opened [a bug of NuGet on its homepage](http://nuget.codeplex.com/workitem/3007) earlier today. I noticed it when I attempted to build my open source project #SNMP on Mono/Linux, as NuGet seems to ignore installed packages, which leads to multiple downloads of the same package and hurt performance significantly.
+I have opened a bug of NuGet on its homepage earlier today. I noticed it when I attempted to build my open source project #SNMP on Mono/Linux, as NuGet seems to ignore installed packages, which leads to multiple downloads of the same package and hurt performance significantly.
 <!--more-->
 
 Therefore, I downloaded NuGet source code on Mono/Linux and planed to build it. Failed. Alright, this is not a NuGet issue right now, as xbuild is not strong enough to support the build, which have been reported a long time ago and multiple times. Sadly Mono guys do not yet resolve it.

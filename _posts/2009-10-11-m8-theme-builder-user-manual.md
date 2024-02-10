@@ -12,10 +12,6 @@ excerpt_separator: <!--more-->
 
 适合2.5/3.0正式版。
 
-## 下载
-
-http://mymobilepack.codeplex.com
-
 ## 运行平台
 
 （最低）.NET Framework 3.5 SP1 。支持Windows XP, Windows Server 2003, Windows Vista, Windows Server 2008, Windows 7, Windows Server 2008 R2。

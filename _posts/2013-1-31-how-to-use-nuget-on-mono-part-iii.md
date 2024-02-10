@@ -8,9 +8,9 @@ excerpt_separator: <!--more-->
 ---
 [Update: Microsoft starts to officially support Mono, so please simply use latest NuGet executable such as 3.5]
 
-> In [part I](/how-to-use-nuget-on-mono-part-i-8d2cd63bd1e0) and [part II](/how-to-use-nuget-on-mono-part-ii-1e71e55757bd) I have already mentioned the steps you need to follow. This post only described how to find out that Microsoft.Build.dll is missing.
+> In [part I]({% post_url 2013-1-27-how-to-use-nuget-on-mono-part-i %}) and [part II]({% post_url 2013-1-28-how-to-use-nuget-on-mono-part-ii %}) I have already mentioned the steps you need to follow. This post only described how to find out that Microsoft.Build.dll is missing.
 
-On openSUSE (12.2) it is easy to find that xbuild and Microsoft.Build.Framework.dll is available under mono-devel package,
+On openSUSE (12.2) it is easy to find that `xbuild` and `Microsoft.Build.Framework.dll` is available under `mono-devel` package,
 
 ```
 lextm@linux-gtil:~> rpm -ql mono-devel | grep xbuild

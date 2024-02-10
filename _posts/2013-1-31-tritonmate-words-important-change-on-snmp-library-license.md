@@ -15,8 +15,6 @@ I should have thought about such scenarios the very first time we started to sup
 
 You should have read about our announcement on switching from LGPL to BSD 3 Clause for the MIB support assembly. Today, I am happy to announce that all contributors of #SNMP agree to re-license the source code under MIT/X11. This is heavily inspired by Mono's choice on how to license its class library. Hope you find this change useful.
 
-Note that this change of license only covers our latest release. I am tired of tracking down old releases (even 7.5). Please start to evaluate 7.6, which contains many bugfixes and new additions,
-
-http://sharpsnmplib.codeplex.com/releases/view/79079
+Note that this change of license only covers our latest release. I am tired of tracking down old releases (even 7.5). Please start to evaluate 7.6, which contains many bugfixes and new additions.
 
 Later I am going to publish the emails among the other contributors and me about the license change on my DropBox public folder for your reference. Let's thank them for their great efforts on making this project so successful today.

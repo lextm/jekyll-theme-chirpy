@@ -7,7 +7,7 @@ permalink: /the-merge-of-net-and-mono-phase-two-6442efc11331
 excerpt_separator: <!--more-->
 ---
 
-> You can find [phase one post here](/the-merge-of-net-and-mono-phase-one-c157e68ce371).
+> You can find [phase one post here]({% post_url 2017-4-16-the-merge-of-.net-and-mono-phase-one %}).
 
 The relationship between Mono and Microsoft .NET teams have been closer and closer in the past few years. We can see Miguel de Icaza showed his appreciation multiple times at different circumstances (C# compiler async/await support, PCL support, and BCL documentation for example).
 <!--more-->

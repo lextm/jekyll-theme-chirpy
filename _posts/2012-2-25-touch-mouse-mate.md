@@ -9,13 +9,13 @@ excerpt_separator: <!--more-->
 Here I announce a new open source project I am working on this weekend, named Touch Mouse Mate.
 <!--more-->
 
-Microsoft releases a product called Touch Mouse early last year (Augest 2011 per http://www.zdnet.com/blog/btl/hands-on-review-microsoft-touch-mouse/54264).
+Microsoft releases a product called Touch Mouse early last year (August 2011 per http://www.zdnet.com/blog/btl/hands-on-review-microsoft-touch-mouse/54264).
 
 http://www.microsoft.com/hardware/en-us/products/touch-mouse/microsite/
 
 Compared to a normal mouse, it is slightly different in the following way,
 
-* It supports multitouch
+* It supports multi-touch
 * It supports gestures
 * BAD, it does not support middle click (Arc Touch Mouse supports that)
 * WOW, it has an SDK
@@ -30,8 +30,7 @@ However, like the comments pointed out, there are a few issues with the code bas
 Now my first day achievement is out there on GitHub, released under MIT/X11 license,
 https://github.com/lextm/touchmousemate
 
-And its CodePlex homepage is being prepared,
-http://touchmousemate.codeplex.com (will be online in the coming days)
+And its CodePlex homepage is being prepared and will be online in the coming days.
 
 If you cannot wait until the installers are available on CodePlex, you can compile the code base following the instructions in readme.txt.
 

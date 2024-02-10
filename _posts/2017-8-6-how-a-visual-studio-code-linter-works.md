@@ -6,7 +6,7 @@ tags: Visual-Studio-Code
 permalink: /how-a-visual-studio-code-linter-works-681c8388b0ea
 excerpt_separator: <!--more-->
 ---
-I blogged about [what a basic Visual Studio Code language extension should contain](/receipt-of-visual-studio-code-extension-f4fb832fd956) a few months ago, and today we focus on linter.
+I blogged about [what a basic Visual Studio Code language extension should contain]({% post_url 2017-5-27-receipt-of-visual-studio-code-extension %}) a few months ago, and today we focus on linter.
 <!--more-->
 
 ## Linter Basic

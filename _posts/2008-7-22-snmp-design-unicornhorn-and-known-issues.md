@@ -10,7 +10,5 @@ Finally the 1.0 release is here.
 
 However, soon I found more issues inside the simple MIB parser with some MIB documents and there were a bug report in the discussion board, too. So, there is still a lot ahead.
 
-http://www.codeplex.com/sharpsnmplib/Thread/View.aspx?ThreadId=31763
-
 I hope I can fix the parser at first and then move on to the MIB browser. Stay tuned.
 <!--more-->

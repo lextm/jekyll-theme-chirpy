@@ -91,4 +91,4 @@ They also have their own compilers, but with almost no influence in the market.
 JetBrains Rider and ReSharper share a C# language parser. Though not a full compiler, it supports multiple C# language specifications.
 This parser has a few unique features, and [JetBrains decided to keep using it](https://blog.jetbrains.com/dotnet/2014/04/10/resharper-and-roslyn-qa/), instead of switching to Roslyn (DevExpress CodeRush moved to Roslyn).
 
-> Look for other interesting posts like this one? You can visit [the index page](/all-in-one-for-the-legends-of-net-materials-43c374a01433).
+> Look for other interesting posts like this one? You can visit [the index page]({% post_url 2017-11-2-all-in-one-for-the-legends-of-net-materials %}).

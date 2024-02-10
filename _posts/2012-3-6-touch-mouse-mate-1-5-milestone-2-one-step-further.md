@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 ---
 Hi guys,
 
-Today you can download TMM installers from its homepage finally, http://touchmousemate.codeplex.com. That's the most important news except that we hit the second milestone of 1.5 release.
+Today you can download TMM installers from its homepage finally. That's the most important news except that we hit the second milestone of 1.5 release.
 <!--more-->
 
 ## Milestone 1

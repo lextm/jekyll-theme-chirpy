@@ -6,11 +6,7 @@ tags: SNMP
 permalink: /tritonmate-words-snmp-and-powershell-df232d4384c5
 excerpt_separator: <!--more-->
 ---
-A long time ago there was voices asking whether #SNMP can be used in PowerShell,
-
-* http://sharpsnmplib.codeplex.com/discussions/72439
-* http://sharpsnmplib.codeplex.com/discussions/221620
-* http://sharpsnmplib.codeplex.com/discussions/354566
+A long time ago there was voices asking whether #SNMP can be used in PowerShell.
 <!--more-->
 
 So why did I never focus on this area? Well, because I am a C# developer, and I am not a PowerShell master. Though I took some PowerShell training and the trainer was "the Script Queen" from local Microsoft office, I am still conservative toward PowerShell. I really hope that C# vNext can become a PowerShell alternative (as the Mono guys did http://www.mono-project.com/CsharpRepl).

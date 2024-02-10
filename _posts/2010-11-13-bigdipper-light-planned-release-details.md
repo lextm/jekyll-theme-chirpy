@@ -10,8 +10,6 @@ HoneyCell 6.0 is our last release that has some binaries targeting .NET 2.0 SP2.
 
 Therefore, today I started to clean up .NET 2.0 stuffs in our master/default branch. Well, it is amazing! All duplicate code that live for a long time is removed completely, and new extension methods are created.
 
-http://sharpsnmplib.codeplex.com/SourceControl/changeset/changes/b3d63fe8fefa
-
 Have to confess that there are lots of changes today already, and luckily we have enough test cases to ensure that the changes do not break anything critical.
 
 Stay tuned.

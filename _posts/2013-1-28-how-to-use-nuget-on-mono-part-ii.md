@@ -21,7 +21,7 @@ There are several steps needed,
    export EnableNuGetPackageRestore=true
    ```
 
-1. Go to .nuget folder and replace NuGet.targets with this new version, http://nuget.codeplex.com/SourceControl/changeset/view/0b1e224884a3#src/Build/NuGet.targets
+1. Go to .nuget folder and replace NuGet.targets with a new version.
 1. Copy Microsoft.Build.dll to .nuget folder if you did not yet. (Please refer to part I)
 1. Now the most difficult step comes. Please go to all .csproj/.vbproj files and modify
 to

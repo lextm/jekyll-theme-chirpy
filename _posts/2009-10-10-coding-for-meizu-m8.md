@@ -12,9 +12,5 @@ excerpt_separator: <!--more-->
 
 竞争还是十分有利于创新的，希望Editor和Builder的竞争能够给MY们带来更多的选择。
 
-M8 Theme Builder可以从这里下载
-
-http://mymobilepack.codeplex.com
-
 源代码基于GPL 2一并发布。
 <!--more-->

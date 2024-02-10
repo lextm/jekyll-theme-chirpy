@@ -19,11 +19,9 @@ Today I publish the release candidate of #SNMP 8.0, which contains significant n
 
 Note that though the open source version of #SNMP MIB Compiler now contains significantly less features than the Pro edition, it still receives patches from the paid version, as the two still shares the same grammar file and a common code base.
 
-https://sharpsnmplib.codeplex.com/releases/view/79079
-
 Stay tuned.
 
 (Updated: After releasing the RC build, no big issue is found, so today I mark it as RTW. Yes, the RC bits become final release.)
 
-BTW, the Pro edition is now [in private beta](/snmp-pro-private-beta-is-ready-and-early-access-program-starts-7311b09abd8e).
+BTW, the Pro edition is now [in private beta]({% post_url 2013-5-4-snmp-pro-private-beta-is-ready-and-early-access-program-starts %}).
 

@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 ---
 > Don't hurt the Web. Please use open standards.
 
-Do you remember the words? [I mention it here](/the-wallpaper-for-mozilla-developer-center-36420430e1d6). Mozilla was one of the driving forces of open standards as well as Opera. However, what they gained was incompatibility brought by Microsoft. How many times I navigated to a site and saw elements misaligned in Firefox!
+Do you remember the words? [I mention it here]({% post_url 2007-4-29-the-wallpaper-for-mozilla-developer-center %}). Mozilla was one of the driving forces of open standards as well as Opera. However, what they gained was incompatibility brought by Microsoft. How many times I navigated to a site and saw elements misaligned in Firefox!
 
 Luckily, even though those days are not gone yet, Microsoft itself "bravely" joins Mozilla and Opera this time. If you install IE 8 Beta 1 and navigate http://www.codebetter.com, http://www.sourceforget.net, or even my blog at http://lextm.blogspot.com, you will meet obvious rendering and alignment issues.
 

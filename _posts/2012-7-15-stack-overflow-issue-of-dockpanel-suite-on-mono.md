@@ -8,14 +8,14 @@ excerpt_separator: <!--more-->
 ---
 The issue information can be found at https://github.com/dockpanelsuite/dockpanelsuite/issues/16
 
-It was in May 2010 I first attempted to port DockPanel Suite to Mono, so as to [bring #SNMP to Linux](/dockpanel-suite-tip-5-we-could-go-mono-63ee484f77a0) and any other operating systems supported by Mono.
+It was in May 2010 I first attempted to port DockPanel Suite to Mono, so as to [bring #SNMP to Linux]({% post_url 2010-5-2-dockpanel-suite-tip-5-we-can-go-mono %}) and any other operating systems supported by Mono.
 
 But at that time I met two difficulties,
 
 * I could not find a way to let DPS switch to lite mode on Mono, while use full mode on .NET.
 * My apps crashed immediately once closed.
 
-Years later [I came across a patch](/dockpanel-suite-patch-to-support-lite-mode-on-mono-217547fc710b) for the first one in February.
+Years later [I came across a patch]({% post_url 2012-2-17-dockpanel-suite-patch-to-support-lite-mode-on-mono %}) for the first one in February.
 
 I should have found it earlier, right? But anyway this patch is now part of DPS 2.6 release.
 

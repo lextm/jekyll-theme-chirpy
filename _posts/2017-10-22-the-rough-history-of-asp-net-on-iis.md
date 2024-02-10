@@ -63,4 +63,4 @@ One recent update is that ASP.NET Core/Kestrel can be used to host reverse proxy
 
 Kestrel/YARP is now widely used inside Microsoft Azure to replace IIS ARR in many scenarios as reported, so literally now you can host your own production web apps with Kestrel/YARP without any other web server (IIS/nginx/Apache) in front as well.
 
-> Look for other interesting posts like this one? You can visit [the .NET Legends page](/all-in-one-for-the-legends-of-net-materials-43c374a01433).
+> Look for other interesting posts like this one? You can visit [the .NET Legends page]({% post_url 2017-11-2-all-in-one-for-the-legends-of-net-materials %}).

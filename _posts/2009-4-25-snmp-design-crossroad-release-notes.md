@@ -9,8 +9,6 @@ excerpt_separator: <!--more-->
 > Last release is TwinTower 1.5 on Jan 17.
 
 This release takes more than three months and please grab a copy from here,
-
-http://sharpsnmplib.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=15118
 <!--more-->
 
 It contains the following changes (bug fixes are not listed, so please check our issue tracker for information):

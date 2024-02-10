@@ -7,8 +7,6 @@ permalink: /snmp-design-parsing-extended-483997023960
 excerpt_separator: <!--more-->
 ---
 It is not the first time that I see posts on #SNMP discussion board contain messages formed by hex numbers. Yes, one of them is this thread . How did I involve in this thread? I have to carefully analyse the numbers and then understand their meanings.
-
-http://www.codeplex.com/sharpsnmplib/Thread/View.aspx?ThreadId=37191
 <!--more-->
 
 Suddenly a new idea pops up. Why not use MessageFactory to parse the string directly? The simplest way may be,

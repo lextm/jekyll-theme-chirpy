@@ -9,7 +9,7 @@ image:
   alt: Copyright © Lex Li. A famous place to host marriage ceremonies, Montreal.
 ---
 
-[I wrote a language server prototype](/a-new-restructuredtext-project-112e9ae52acb) for reStructuredText in 2017 (let's call it rst-antlr), which helped create some basic functionality in the reStructuredText VSCode extension. But in the next few years I didn't have too much time to extend it further.
+[I wrote a language server prototype]({% post_url 2017-12-23-a-new-restructuredtext-project %}) for reStructuredText in 2017 (let's call it rst-antlr), which helped create some basic functionality in the reStructuredText VSCode extension. But in the next few years I didn't have too much time to extend it further.
 
 That approach has several limitations,
 

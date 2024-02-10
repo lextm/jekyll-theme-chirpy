@@ -11,11 +11,7 @@ I did not post recently (for more than two weeks), as I was focused on optimizin
 
 While the private beta program is still open (I really like the advice I received from the dear testers), I think now it is time to accept orders of the compiler and its underlying library. Thus, I have added one page to #SNMP Wiki to demonstrate the features,
 
-https://sharpsnmplib.codeplex.com/wikipage?title=Pro%20Edition
-
-Orders can be made via the PayPal links,
-
-https://sharpsnmplib.codeplex.com/wikipage?title=Purchase&referringTitle=Pro%20Edition
+Orders can be made via PayPal.
 
 The activation method is exactly the same as the private beta.
 

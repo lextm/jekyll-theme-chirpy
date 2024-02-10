@@ -28,6 +28,4 @@ The change is significantly a breaking one, but it also brings in some goodness,
 
 Now a Beta 2 package for 2.0 is available here.
 
-http://sharpsnmplib.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=15118
-
 We are now one step closer to the 2.0 release. Stay tuned.

@@ -29,8 +29,8 @@ If Mono guys fix this issue, I will test again to see if everything works as exp
 
 (Update on March 1) Well, 17802 has been fixed, but two more issues are found,
 
-* [Mono 28106](https://bugzilla.xamarin.com/show_bug.cgi?id=18106)
+* Mono bug #28106
 
-* [NuGet 4051](https://nuget.codeplex.com/workitem/4051)
+* NuGet bug #4051
 
 Will track down the progress on these two in the next few weeks.

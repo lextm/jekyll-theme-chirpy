@@ -12,7 +12,7 @@ I have just set up a new project on CodePlex.com named Sharp SNMP Suite. This pr
 
 The project home page is here at,
 
-http://www.codeplex.com/sharpsnmplib
+https://github.com/lextudio/sharpsnmplib
 
 The FAQ page is here.
 <!--more-->

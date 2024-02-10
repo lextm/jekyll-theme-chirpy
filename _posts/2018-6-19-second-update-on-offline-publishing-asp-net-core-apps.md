@@ -10,7 +10,7 @@ image:
   alt: Copyright © Lex Li. Place des Canotiers, Quebec City
 ---
 
-I [posted about offline publishing ASP.NET Core web apps](/update-on-offline-publishing-asp-net-core-apps-e7894a84bd46) earlier. It was a migration from 2.0.5 to 2.0.6. And now we need a new post, to upgrade from 2.0.6 to 2.1.0.
+I [posted about offline publishing ASP.NET Core web apps]({% post_url 2018-3-21-update-on-offline-publishing-asp-net-core-apps %}) earlier. It was a migration from 2.0.5 to 2.0.6. And now we need a new post, to upgrade from 2.0.6 to 2.1.0.
 <!--more-->
 
 Microsoft has [a very long article](https://docs.microsoft.com/aspnet/core/migration/20_21?view=aspnetcore-2.1) on the migration steps in general. But you might find I didn't follow all their steps.

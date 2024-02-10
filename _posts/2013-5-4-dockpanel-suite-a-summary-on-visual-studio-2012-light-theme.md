@@ -8,8 +8,8 @@ excerpt_separator: <!--more-->
 ---
 Previously I have posted about the new theme several times, such as
 
-* [Overall experience](/dockpanel-suite-design-the-theming-experience-4c55f51d65c8)
-* [How to write new themes](/dockpanel-suite-how-to-write-a-new-theme-573f46197486)
+* [Overall experience]({% post_url 2013-3-22-dockpanel-suite-design-the-theming-experience %})
+* [How to write new themes]({% post_url 2013-3-17-dockpanel-suite-how-to-write-a-new-theme %})
 
 Today I made a few more changes to the theme and I believe it is a stable milestone. So this post will serve as a summary of all the works on this new theme.
 
@@ -133,14 +133,14 @@ We will keep working hard on this new theme to make it even better. There are on
 
 Note that if you use a custom tool strip renderer the final look can be even closer to Visual Studio 2012,
 
-I have added such a renderer to DPS sample project, which is based on the pre-defined color scheme included in [ToolStrip Customizer](https://toolstripcustomizer.codeplex.com/)
+I have added such a renderer to DPS sample project, which is based on the pre-defined color scheme included in ToolStrip Customizer.
 
 Stay tuned.
 
 ## Updated on Oct 22, 2015
 
-There is [a new post](/dockpanel-suite-more-about-theming-48864f47892c) covering VS 2013 Blue theme and separation of core and themes,
+There is [a new post]({% post_url 2015-10-5-dockpanel-suite-more-about-theming %}) covering VS 2013 Blue theme and separation of core and themes,
 
 ## Updated on Sept 5, 2016
 
-Color palettes completely change how a theme can be designed, so I urge all readers to read [the latest post](/dockpanel-suite-theme-reloaded-3bb41273d127).
+Color palettes completely change how a theme can be designed, so I urge all readers to read [the latest post]({% post_url 2016-9-3-dockpanel-suite-theme-reloaded %}).

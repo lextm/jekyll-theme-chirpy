@@ -17,7 +17,7 @@ and then created NuGet packages for it,
 
 https://nuget.org/packages/ActionListWinForms
 
-This serves myself well, as [many of my existing open source projects use this control](/dockpanel-suite-tip-2-conflicts-with-crad-action-list-baf8cc207d14), which dated back to 2007 and 2008.
+This serves myself well, as [many of my existing open source projects use this control]({% post_url 2008-2-16-dockpanel-suite-tip-2-conflicts-with-crad-actionlist %}), which dated back to 2007 and 2008.
 
 I hope that I can put more fixes to this library and maintain it for a while.
 

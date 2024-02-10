@@ -6,7 +6,7 @@ tags: DockPanel-Suite Mono
 permalink: /dockpanel-suite-patch-to-support-lite-mode-on-mono-217547fc710b
 excerpt_separator: <!--more-->
 ---
-Back in 2010 [I wrote about using lite mode of DPS on Mono](/dockpanel-suite-tip-5-we-could-go-mono-63ee484f77a0).
+Back in 2010 [I wrote about using lite mode of DPS on Mono]({% post_url 2010-5-2-dockpanel-suite-tip-5-we-can-go-mono %}).
 <!--more-->
 
 Today I announce a better lite mode implementation,

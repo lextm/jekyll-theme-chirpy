@@ -10,7 +10,7 @@ image:
   alt: Copyright © Lex Li. Clouds reflected in the canal, Montreal.
 ---
 
-This post tries to fill the gaps left in the compiler history post. You can find all other posts I wrote in [the index page](/all-in-one-for-the-legends-of-net-materials-43c374a01433).
+This post tries to fill the gaps left in the compiler history post. You can find all other posts I wrote in [the index page]({% post_url 2017-11-2-all-in-one-for-the-legends-of-net-materials %}).
 <!--more-->
 
 ## .NET Framework 1.x/2.x/Compact Framework
@@ -95,4 +95,4 @@ Now it is time to ship referenced assemblies in your NuGet package, and Oren Nov
 
 Enjoy it :)
 
-> Look for other interesting posts like this one? You can visit [the index page](/all-in-one-for-the-legends-of-net-materials-43c374a01433).
+> Look for other interesting posts like this one? You can visit [the index page]({% post_url 2017-11-2-all-in-one-for-the-legends-of-net-materials %}).

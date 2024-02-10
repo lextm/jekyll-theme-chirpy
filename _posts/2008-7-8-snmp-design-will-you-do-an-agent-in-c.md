@@ -12,5 +12,5 @@ I have just created a poll at my blog. So if you are doing C# SNMP agent, vote i
 
 ## Updated:
 
-Now #SNMP 4 introduced an agent reference design, #SNMP Agent. We already did a lot of improvement in version 5 development phase, and now it is much more powerful and Mono/openSUSE compliant. Please check out [this post](/catpaw-rumors-we-are-truly-mono-ready-7c2a1d07835d)
+Now #SNMP 4 introduced an agent reference design, #SNMP Agent. We already did a lot of improvement in version 5 development phase, and now it is much more powerful and Mono/openSUSE compliant. Please check out [this post]({% post_url 2010-4-10-catpaw-rumors-we-are-truly-mono-ready %})
 <!--more-->

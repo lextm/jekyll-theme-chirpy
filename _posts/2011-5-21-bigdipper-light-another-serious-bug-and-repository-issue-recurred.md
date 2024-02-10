@@ -6,7 +6,7 @@ tags: SNMP
 permalink: /bigdipper-light-another-serious-bug-and-repository-issue-recurred-5eb32ee14187
 excerpt_separator: <!--more-->
 ---
-[A critical bug was discovered](http://sharpsnmplib.codeplex.com/workitem/7217) recently and I have to admit this is a "too bad" one.
+A critical bug was discovered recently and I have to admit this is a "too bad" one.
 
 It simply means that #SNMP generates wrong bytes for many and many negative values, and that can lead to disastrous effects.
 

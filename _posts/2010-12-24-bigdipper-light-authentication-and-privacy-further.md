@@ -8,11 +8,9 @@ excerpt_separator: <!--more-->
 ---
 Ivo reported a new issue recently, and it shows that #SNMP does not yet handle SNMP v3 REPORT message completely.
 
-http://sharpsnmplib.codeplex.com/Thread/View.aspx?ThreadId=238442
-
 The technical details behind the issue can be found in RFC 3414.
 
-http://www.apps.ietf.org/rfc/rfc3414.html
+https://www.rfc-editor.org/rfc/rfc3414
 <!--more-->
 
 In short, under some scenarios an SNMP agent sends back an AuthNoPriv mode REPORT message for an AuthPriv mode request. MessageFactory class in #SNMP could not handle such REPORT message correctly (both 6.0 and early 7.0 builds).

@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 ---
 Back in May 2009 when I was working on initial SNMP v3 support, I think the discovery process was rather simple. Since then that piece of code have been working well. It seems to me that choosing Net-SNMP agent/utilities as reference is a good idea. However, observing discovery process by capturing message dumps was in fact a stupid idea, because the observation could be incomplete and corner cases could be neglected.
 
-Finally we received [an in-depth bug report](http://sharpsnmplib.codeplex.com/workitem/7243) in October.
+Finally we received an in-depth bug report in October.
 <!--more-->
 
 I did not pay much attention to it, and thought that this Cisco agent was not properly configured. But thanks to HiMik74, who appears to be demanding and detail-oriented, more evidence had been collected and the whole picture became clearer every time we had new packet captures.
@@ -32,7 +32,7 @@ http://tools.ietf.org/html/rfc3414#section-4, that at step 2 only engine ID shou
 
 Net-SNMP's utilities are smart enough to perform this kind of conversation, as I think they have been played with such devices for a long time. As a result, my task then was to educate #SNMP's utilities to perform the same steps, and yesterday I finished the fix.
 
-Except the fix to support the longer discovery process, there is another fix added to support all Request messages to be sent at step 1. I stupidly thought that only GET requests should be sent, but RFC3414 indicates that in fact other types of Request messages must also be supported. Luckily soon we received [a new bug report](http://sharpsnmplib.codeplex.com/workitem/7245) which provides evidence.
+Except the fix to support the longer discovery process, there is another fix added to support all Request messages to be sent at step 1. I stupidly thought that only GET requests should be sent, but RFC3414 indicates that in fact other types of Request messages must also be supported. Luckily soon we received a new bug report which provides evidence.
 
 After two months of investigation, #SNMP reaches better compliance with RFC3414, and have two critical issues fixed. Thus, it is time to cut a new maintenance release (7.6 or another number).
 

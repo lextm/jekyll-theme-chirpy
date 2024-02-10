@@ -14,7 +14,7 @@ The first time I read about high test coverage, I was curious about two points,
 The longer I had been applying TDD in my development, the easier it seemed to make the impossible-to-test code testable. However, I still didn't trust the ROI of high test coverage until I dived into #SNMP 7.0, the BigDipper release.
 <!--more-->
 
-On the first day I performed a few crazy actions on the code base (http://sharpsnmplib.codeplex.com/SourceControl/changeset/changes/b3d63fe8fefa) and it may introduce millions of bugs if no unit cases is available. Believe me. As least three times I broke several cases in those hours, and debugging those small test cases made it super fast to resolve the issues in only a few minutes. Once NUnit gave me all green, I knew I was done. That also feels good.
+On the first day I performed a few crazy actions on the code base and it may introduce millions of bugs if no unit cases is available. Believe me. As least three times I broke several cases in those hours, and debugging those small test cases made it super fast to resolve the issues in only a few minutes. Once NUnit gave me all green, I knew I was done. That also feels good.
 
 I could not believe that there were still so many bugs in the code base until this weekend I started to pay special attention to coverage. Typically existing test cases ensure the code works in a way I want under ordinary scenarios. But how does it work under all exceptional scenarios? Is there any misbehavior that I can foresee? I don't know as that's what is missing in test cases.
 

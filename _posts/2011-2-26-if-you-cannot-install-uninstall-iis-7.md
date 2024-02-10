@@ -16,4 +16,4 @@ Then why may CBS ever be corrupt without any hint? Possible causes are listed be
 1. Windows Update process ended abnormally and broke CBS (like turning off Windows protection when Windows Update is in progress).
 1. Many others…
 
-About how to resolve the issue, you might go on to read [part II](/if-you-cannot-install-uninstall-iis-7-part-ii-73a14fe3db0).
+About how to resolve the issue, you might go on to read [part II]({% post_url 2012-7-15-if-you-cannot-install-uninstall-iis-7-part-ii %}).

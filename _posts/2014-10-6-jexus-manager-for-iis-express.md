@@ -36,4 +36,4 @@ Beta 3 is available at the same location, with IIS Express support enhanced, ful
 The documentation site https://jexusmanager.com is now online.
 
 [Update on June 26, 2016]
-[Jexus Manager is open source](/jexus-manager-is-now-open-source-a48fef80a6e7)
+[Jexus Manager is open source]({% post_url 2016-6-26-jexus-manager-is-now-open-source %})

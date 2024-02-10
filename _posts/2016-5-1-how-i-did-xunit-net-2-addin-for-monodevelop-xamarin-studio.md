@@ -6,7 +6,7 @@ tags: Mono .NET
 permalink: /how-i-did-xunit-net-2-addin-for-monodevelop-xamarin-studio-c61029051407
 excerpt_separator: <!--more-->
 ---
-I started [my very first project](https://github.com/lextm/lextudio) to extend Borland Delphi/C#Builder. And then I created [an AStyle addin for SharpDevelop](https://alex.codeplex.com/), and then [an OpenCover addin](/opencover-addin-for-sharpdevelop-e5fd5cdadc80). And a few months ago, I launched [an extension for Visual Studio Code for reStructuredText users](/dockpanel-suite-docs-site-restructuredtext-and-visual-studio-code-d9d5a6b37a0d). So I think except Eclipse/Visual Studio/IntelliJ IDEA, I have touched most of the IDE platforms. And today I finally enter the land of MonoDevelop/Xamarin Studio.
+I started [my very first project](https://github.com/lextudio/codebeautifiercollection) to extend Borland Delphi/C#Builder. And then I created an AStyle addin for SharpDevelop, and then [an OpenCover addin]({% post_url 2012-7-25-opencover-addin-for-sharpdevelop %}). And a few months ago, I launched [an extension for Visual Studio Code for reStructuredText users]({% post_url 2015-11-28-dockpanel-suite-docs-site-restructuredtext-and-visual-studio-code %}). So I think except Eclipse/Visual Studio/IntelliJ IDEA, I have touched most of the IDE platforms. And today I finally enter the land of MonoDevelop/Xamarin Studio.
 <!--more-->
 
 MonoDevelop started as a fork of SharpDevelop, and there is already an addin for xUnit.net 1.x. What I wanted to do initially, was to send [a pull request](https://github.com/xunit/xamarinstudio.xunit/pull/10) to the original author, Sergey Khabibullin.
@@ -40,9 +40,9 @@ To support multiple platforms, xUnit.net NuGet package "xunit.runner.utility" ha
 
 ## MonoDevelop Community Repository Issues
 
-Finally I got the addin working locally, and attempted to publish it to [the MonoDevelop Community Repository](https://addins.monodevelop.com/) there were further issues.
+Finally I got the addin working locally, and attempted to publish it to the MonoDevelop Community Repository there were further issues.
 
-> Updated (Jan 12, 2023): VS for Mac extension gallery [moved](https://learn.microsoft.com/en-us/previous-versions/visualstudio/mac/migrate-extensions?view=vsmac-2019)
+> Updated (Jan 12, 2023): VS for Mac extension gallery [moved](https://learn.microsoft.com/previous-versions/visualstudio/mac/migrate-extensions?view=vsmac-2019).
 
 Initially I could not easily trigger a build of the addin, as the documentation is sparse. I might be wrong, but later selecting "Publish releases automatically at every change" under Edit Source page seems to solve that.
 
@@ -61,4 +61,3 @@ With the merge of Xamarin and Microsoft, Xamarin Studio/MonoDevelop would be a m
 Join me if you want to help out.)
 
 Stay tuned.
-

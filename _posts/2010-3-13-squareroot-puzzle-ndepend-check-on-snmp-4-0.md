@@ -25,7 +25,7 @@ SELECT TYPES FROM ASSEMBLIES "SharpSnmpLib", "SharpSnmpLib.Controls", "SharpSnmp
 WHERE IsPublic AND WasAdded
 ```
 
-Only one new types is introduced in 4.0. That is the SearchResult class. You will use it more and more in the future, as [we recommend `IObjectTree.Search`](/squareroot-puzzle-iobjecttree-find-or-search-eed6e2060504).
+Only one new types is introduced in 4.0. That is the SearchResult class. You will use it more and more in the future, as [we recommend `IObjectTree.Search`]({% post_url 2010-3-6-squareroot-puzzle-iobjecttree-find-or-search %}).
 
 ## New Assemblies
 

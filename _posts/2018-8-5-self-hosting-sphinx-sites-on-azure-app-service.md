@@ -10,7 +10,7 @@ image:
   alt: Copyright © Lex Li. Trees near the old port, Montreal.
 ---
 
-I used to host documentation sites on Read The Docs, and [wrote about the details in previous posts](/dockpanel-suite-docs-site-restructuredtext-and-visual-studio-code-d9d5a6b37a0d). But finally it came to an end, as over the weekend I moved all such sites to my own Azure App Service. So this post shows the details behind.
+I used to host documentation sites on Read The Docs, and [wrote about the details in previous posts]({% post_url 2015-11-28-dockpanel-suite-docs-site-restructuredtext-and-visual-studio-code %}). But finally it came to an end, as over the weekend I moved all such sites to my own Azure App Service. So this post shows the details behind.
 <!--more-->
 
 ## Self Hosting Advantages vs. Disadvantages
@@ -63,6 +63,6 @@ I created two rules in my case,
 
 If you are familiar with IIS URL Rewriting module, easily you know what it means. I didn't redirect to HTTPS, as some sites do not work with HTTPS yet. I have another HTTPS redirection rule for HTTPS enabled sites, which I don't show here.
 
-OK. I wrote [another post on how to set up CI/CD pipeline with VSTS](/ci-cd-pipeline-with-vsts-and-zapier-b81d341088dd).
+OK. I wrote [another post on how to set up CI/CD pipeline with VSTS]({% post_url 2018-8-5-ci-cd-pipeline-with-vsts-and-zapier %}).
 
 Stay tuned.

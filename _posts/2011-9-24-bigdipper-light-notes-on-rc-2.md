@@ -7,8 +7,6 @@ permalink: /bigdipper-light-notes-on-rc-2-dfee378826b1
 excerpt_separator: <!--more-->
 ---
 Today, I started typing the release notes for our next major release, BigDipper, or 7.0.
-
-http://sharpsnmplib.codeplex.com/releases/view/52820
 <!--more-->
 
 It is not yet fully finished, as for the removed/obsolete things I did not document all the workarounds for you. The help document is not yet compiled either.

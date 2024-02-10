@@ -10,7 +10,7 @@ image:
   alt: Copyright © Lex Li. Crossroad on rue Wellington, Montreal.
 ---
 
-> Ironically [I suggested people to avoid PHP Manager](/why-you-should-forget-php-manager-for-iis-953fae81b05b), but later took over the project.
+> Ironically [I suggested people to avoid PHP Manager]({% post_url 2018-3-31-why-you-should-forget-php-manager-for-iis %}), but later took over the project.
 <!--more-->
 
 ## Overview of PHP on IIS

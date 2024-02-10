@@ -6,9 +6,7 @@ tags: .NET
 permalink: /obfuscar-a-rush-to-2-0-rc-6-c4eb72357d03
 excerpt_separator: <!--more-->
 ---
-[I blogged about RC 2](/obfuscar-slightly-upgraded-and-2-0-rc-2-ba25398933e7) a long time ago. This post covers RC 6, which contains accumulated bug fixes and new features.
-
-You can download the bits from https://obfuscar.codeplex.com/releases/view/105916
+[I blogged about RC 2]({% post_url 2013-8-24-obfuscar-slightly-upgraded-and-2-0-rc-2 %}) a long time ago. This post covers RC 6, which contains accumulated bug fixes and new features.
 <!--more-->
 
 ## Inclusion Rules

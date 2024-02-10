@@ -101,4 +101,4 @@ http://v.youku.com/v_show/id_XMTQyMTA2MTUxMg==.html
 ## 参考
 
 * Jexus 官方网站 http://jexus.org
-* Jexus 英文资料 https://jexus.codeplex.com
+* Jexus 英文资料 https://server.jexusmanager.com

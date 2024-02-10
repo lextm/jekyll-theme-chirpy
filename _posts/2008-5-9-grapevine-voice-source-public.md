@@ -14,5 +14,5 @@ From now on, I am going to use the SVN repository provided by Google Code. You c
 
 There may be some other issues I am not aware now ('cause I am not an SVN expert) but I will fix them all in a few days. Stay tuned.
 
-(Update: If you failed to build the source on your machine, please [read this post](/grapevine-voice-how-to-build-it-on-your-machine-part-ii-a6f1c5577e76) carefully.)
+(Update: If you failed to build the source on your machine, please [read this post]({% post_url 2007-10-8-grapevine-voice-how-to-build-it-on-your-machine-part-ii %}) carefully.)
 <!--more-->

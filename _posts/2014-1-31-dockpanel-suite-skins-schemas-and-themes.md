@@ -6,7 +6,7 @@ tags: Code-Beautifier-Collection Delphi
 permalink: /dockpanel-suite-skins-schemas-and-themes-a080747aa1c8
 excerpt_separator: <!--more-->
 ---
-In the adventure of VS2012 Light theme support, I have gained further knowledge on how DPS works internally. Thus, I summarized what I learnt [in this blog post](/dockpanel-suite-a-summary-on-visual-studio-2012-light-theme-a8391c84c769). What I missed was a detailed explanation on the confusing terms used throughout the code base. Hope this post is not too late for anyone who would like to customize DPS look and feel.
+In the adventure of VS2012 Light theme support, I have gained further knowledge on how DPS works internally. Thus, I summarized what I learnt [in this blog post]({% post_url 2013-5-4-dockpanel-suite-a-summary-on-visual-studio-2012-light-theme %}). What I missed was a detailed explanation on the confusing terms used throughout the code base. Hope this post is not too late for anyone who would like to customize DPS look and feel.
 <!--more-->
 
 ## The History of Schemas

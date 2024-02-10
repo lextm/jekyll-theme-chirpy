@@ -6,12 +6,12 @@ tags: Inno-Setup
 permalink: /new-inno-setup-installer-script-samples-version-compare-running-processes-112b407de77e
 excerpt_separator: <!--more-->
 ---
-A long time ago, I used Inno Setup extensively on open source projects, such as Code Beautifier Collection (http://code.google.com/p/lextudio). At that time I was able to share a few tips,
+A long time ago, I used Inno Setup extensively on open source projects, such as Code Beautifier Collection (https://github.com/lextudio/codebeautifiercollection). At that time I was able to share a few tips,
 
-* [Initial post](/inno-setup-script-sample-for-version-comparison-d5ac8f776f1d)
-* [Better version](/inno-setup-script-sample-for-version-comparison-advanced-version-c398d0ef18ad)
+* [Initial post]({% post_url 2007-8-28-inno-setup-script-sample-for-version-comparison %})
+* [Better version]({% post_url 2007-9-7-inno-setup-script-sample-for-version-comparison-advanced-version %})
 
-Recently during the development of Touch Mouse Mate (http://touchmousemate.codeplex.com), I wrote two new installer scripts which may be interesting for Inno Setup beginners.
+Recently during the development of Touch Mouse Mate, I wrote two new installer scripts which may be interesting for Inno Setup beginners.
 
 https://github.com/lextm/touchmousemate/blob/master/setup/x64/setup.iss
 
@@ -34,9 +34,9 @@ The following rules are set (avoid possible confusion),
 
 The version comparison code has been updated slightly in the two installer scripts.
 
-## psvince.dll 64 Bit
+## `psvince.dll` 64 Bit
 
-I am not a Visual C++ expert, and I don't want to waste my time compiling 64 bit psvince.dll from source code. Therefore, I wrote a processviewer.exe command line utility in Delphi (Turbo Delphi 2006) to provide the same functionality.
+I am not a Visual C++ expert, and I don't want to waste my time compiling 64 bit `psvince.dll` from source code. Therefore, I wrote a `processviewer.exe` command line utility in Delphi (Turbo Delphi 2006) to provide the same functionality.
 
 However, as this becomes an executable, we have to pack the command line utility and release it to temp folder on demand, which has been demonstrated too in both installer scripts.
 

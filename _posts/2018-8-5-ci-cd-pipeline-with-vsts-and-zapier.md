@@ -10,7 +10,7 @@ image:
   alt: Copyright © Lex Li. The canal in the summer, Montreal.
 ---
 
-I just [wrote about how I started to self host Sphinx sites on Azure App Service](/self-hosting-sphinx-sites-on-azure-app-service-a05b9db25e9a). Here I am writing about how to set up CI/CD pipeline to make it perfect.
+I just [wrote about how I started to self host Sphinx sites on Azure App Service]({% post_url 2018-8-5-self-hosting-sphinx-sites-on-azure-app-service %}). Here I am writing about how to set up CI/CD pipeline to make it perfect.
 <!--more-->
 
 ## Preparation 1: VSTS Repo for App Service
@@ -62,6 +62,6 @@ What if now I modified one of the Sphinx sites? How can this pipeline pick up th
 
 You might find it a waste of resources to always run the tasks in pipeline, if no submodule changes.
 
-I showed you a way to abort the execution early in [a separate post](/how-to-abort-cancel-a-build-in-vsts-7a41fce5a42c).
+I showed you a way to abort the execution early in [a separate post]({% post_url 2018-8-5-how-to-abort-cancel-a-build-in-vsts %}).
 
 Stay tuned.

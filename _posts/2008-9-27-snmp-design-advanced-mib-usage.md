@@ -6,7 +6,7 @@ tags: SNMP
 permalink: /snmp-design-advanced-mib-usage-30a13924564f
 excerpt_separator: <!--more-->
 ---
-It was in July that I talked about this topic simply in this thread with Scott, "Whether MIB documents are mandatory". I did not have much time then, so the answer from me was quite simply and it missed a lot of details. Therefore, now I try to provide more information [in this post](http://www.codeplex.com/sharpsnmplib/Thread/View.aspx?ThreadId=31473).
+It was in July that I talked about this topic simply in this thread with Scott, "Whether MIB documents are mandatory". I did not have much time then, so the answer from me was quite simply and it missed a lot of details. Therefore, now I try to provide more information in this post.
 <!--more-->
 
 ## MIB Document Content

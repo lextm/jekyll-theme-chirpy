@@ -13,9 +13,7 @@ The changes do not make their way to our 7.0 release, simply because I was not f
 
 ## Long Time Issue
 
-Everybody knows that SNMP is old. Since it is so old that many devices out there in the network may run an SNMP application which is too old to comply to latest SNMP standards/best practice. For example, a strange issue was reported here,
-
-http://sharpsnmplib.codeplex.com/discussions/244276
+Everybody knows that SNMP is old. Since it is so old that many devices out there in the network may run an SNMP application which is too old to comply to latest SNMP standards/best practice. For example, a strange issue was reported here.
 
 And our troubleshooting shows the problem was caused by the device itself. When this device decides to encode SNMP information, it generates the length bytes in a correct, but not optimal way (it does not generated the fewest bytes).
 

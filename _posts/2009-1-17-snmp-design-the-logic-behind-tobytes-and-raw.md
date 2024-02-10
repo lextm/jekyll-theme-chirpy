@@ -7,8 +7,6 @@ permalink: /snmp-design-the-logic-behind-tobytes-and-raw-649293790e97
 excerpt_separator: <!--more-->
 ---
 Well you must notice this thread and my promise there. So in this post I am going to talk about the _raw fields and why they appear in every basic data types.
-
-http://www.codeplex.com/sharpsnmplib/Thread/View.aspx?ThreadId=44161
 <!--more-->
 
 OK, first do you know that every packets passed during SNMP communication is constructed by raw bytes? It is not hard to understand that because bytes are common entities every programming languages supports. So every objects of ISnmpData has a corresponding raw bytes representation.

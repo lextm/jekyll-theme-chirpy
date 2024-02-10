@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 
 > Again, [a Stack Overflow question](https://stackoverflow.com/questions/47061820/can-msbuild-binaries-be-used-on-their-own/47062127#47062127) triggers my ideas to write this up.
 
-When I wrote about [C# compilers](/the-rough-history-of-the-so-many-c-compilers-f3a85500707c), it is quite natural that MSBuild must be written some day. So today before my flight from YUL to JFK, let's see if I can finish the task.
+When I wrote about [C# compilers]({% post_url 2017-10-29-the-rough-history-of-the-so-many-c-compilers %}), it is quite natural that MSBuild must be written some day. So today before my flight from YUL to JFK, let's see if I can finish the task.
 <!--more-->
 
 ## Sad Story of NANT
@@ -36,7 +36,7 @@ It was not only .NET community that began to use MSBuild, but companies such as 
 
 A few interesting projects were created to enhance MSBuild,
 
-* MSBee, to enable .NET Framework 1.1 projects on MSBuild, https://msbee.codeplex.com
+* MSBee, to enable .NET Framework 1.1 projects on MSBuild.
 * MSBuild Community Tasks, https://github.com/loresoft/msbuildtasks/ which implements many useful tasks for your MSBuild scripts.
 
 > I used MSBee heavily for a few years, as my very first open source project, Code Beautifier Collection for Borland Delphi was .NET Framework 1.1 only.
@@ -78,4 +78,4 @@ Xamarin used xbuild for their products (MonoTouch and Mono for Android initially
 
 On March 18, 2015, upon the request of Miguel de Icaza (and other Xamarin engineers), [Microsoft decided to make MSBuild open source](https://github.com/Microsoft/msbuild). Soon works started to make it cross platform (like xbuild), and Mono 5.0 started to ship MSBuild as default build engine. xbuild finally phased out.
 
-> Look for other interesting posts like this one? You can visit the [index page](/all-in-one-for-the-legends-of-net-materials-43c374a01433).
+> Look for other interesting posts like this one? You can visit the [index page]({% post_url 2017-11-2-all-in-one-for-the-legends-of-net-materials %}).

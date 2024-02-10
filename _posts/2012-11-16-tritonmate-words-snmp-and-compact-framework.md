@@ -17,7 +17,7 @@ Like the failed attempt of J2ME, personally I believe that CF will fail soon. No
 
 If you have followed this blog for a while, you know that I rarely blogged about CF
 
-The previous releases of #SNMP only exposed a limited set of features on CF (starting from TwinTower 1.5, http://sharpsnmplib.codeplex.com/releases/view/15319) as I did not attempt to port all the classes. Therefore, to help out this Taiwan guy, last month I made a few new change sets that included better CF support. The important changes are,
+The previous releases of #SNMP only exposed a limited set of features on CF (starting from TwinTower 1.5) as I did not attempt to port all the classes. Therefore, to help out this Taiwan guy, last month I made a few new change sets that included better CF support. The important changes are,
 
 * SharpSnmpLib.cf35.dll now contains almost all important classes in SharpSnmpLib.dll. Many classes under Messaging namespace are ported this time to CF.
 * SharpSnmpLib.Engine.cf35.dll is added, which contains all classes from SharpSnmpLib.Engine.dll.

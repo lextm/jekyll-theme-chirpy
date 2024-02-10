@@ -10,7 +10,7 @@ image:
   alt: Copyright © Lex Li. Winter trees, Montreal.
 ---
 
-I just [blogged about how I made Obfuscar a Global Tool](/make-obfuscar-a-global-tool-in-net-core-1cc3ee2cfe30), and in this post I tried to reveal the technical details behind the scene.
+I just [blogged about how I made Obfuscar a Global Tool]({% post_url 2018-3-9-make-obfuscar-a-global-tool-in-net-core %}), and in this post I tried to reveal the technical details behind the scene.
 <!--more-->
 
 First, [the project file](https://github.com/lextm/obfuscar/blob/globaltool/Core/Core.csproj) can be found at GitHub, which looks pretty simple, except the `<PackAsTool>` tag. So generally speaking, this project should generate a console application. By running `dotnet pack -c release -o nupkg` at command prompt, a NuGet package is generated.

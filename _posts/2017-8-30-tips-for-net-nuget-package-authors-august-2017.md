@@ -123,7 +123,7 @@ Another thing you might be interested in, is how to test out .NET Standard class
 
 Initially you can create a .NET Core 1.0 console application (with xUnit.net) to contain the test cases for your project, as it provides some confidence. Then you can add other platforms, such as .NET Framework. That can guarantee the code runs fine on all its supported platforms.
 
-> I have just written [a separate post](/tips-for-net-core-unit-testing-92a8d123a17a) with more details on that part.
+> I have just written [a separate post](2017-9-25-tips-for-net-core-unit-testing.md) with more details on that part.
 
 If you are looking for a complete sample, you can go to [#SNMP Library on GitHub](https://github.com/lextudio/sharpsnmplib).
 

@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 ---
 > It is a long story, but I believe I enjoy the overall progress. So, let's get started.
 
-A few days ago, I was notified by a user that [xUnit.net extension did not work quite well for him](https://github.com/xunit/xamarinstudio.xunit/issues/71). So he needs the extension to be able to kick off the runner as 64 bit on Mac, which I achieved and reported my research result in [a previous post](/how-to-choose-xunit-net-runner-bitness-x86-and-x64-11f1fb540478). However, that only addressed part of the puzzle, and made F# test cases of Miguel de Icaza's TensorFlowSharp project working. The C# test cases still [failed miserably](https://github.com/xunit/xamarinstudio.xunit/issues/72).
+A few days ago, I was notified by a user that [xUnit.net extension did not work quite well for him](https://github.com/xunit/xamarinstudio.xunit/issues/71). So he needs the extension to be able to kick off the runner as 64 bit on Mac, which I achieved and reported my research result in [a previous post]({% post_url 2017-9-21-how-to-choose-xunit-net-runner-bitness-x86-and-x64 %}). However, that only addressed part of the puzzle, and made F# test cases of Miguel de Icaza's TensorFlowSharp project working. The C# test cases still [failed miserably](https://github.com/xunit/xamarinstudio.xunit/issues/72).
 
 It took me a long while to locate the culprit, as this issue could not be reproduced under EASY_DEBUGGING mode (something specific to the extension code base). But I did find the cause, I also noticed that I could not provide the ultimate solution, as the source file `BinaryMessage.cs` was copied directly from MonoDevelop code base.
 

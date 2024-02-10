@@ -6,7 +6,7 @@ tags: Code-Beautifier-Collection Delphi
 permalink: /grapevine-voice-issue-4-revisited-once-more-9fb06f8d6638
 excerpt_separator: <!--more-->
 ---
-This is an interesting issue because it touches one of the .NET essentials, PE format. So even though [I talked about it in this post earlier](/grapevine-voice-issue-4-revisited-17f7247ca063), I think another post is worthwhile.
+This is an interesting issue because it touches one of the .NET essentials, PE format. So even though [I talked about it in this post earlier]({% post_url 2008-3-1-grapevine-voice-issue-4-revisited %}), I think another post is worthwhile.
 <!--more-->
 
 Yes, using the sample code in last post I was able to determine if a file is .NET assembly but it was not efficient. Because of a well known .NET bug that assemblies loaded by reflection cannot be unloaded easily. Thus, if you try to verify a thousand files, then you may waste a lot of memory unexpectedly.

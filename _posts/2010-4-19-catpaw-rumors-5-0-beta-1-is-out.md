@@ -8,8 +8,6 @@ excerpt_separator: <!--more-->
 ---
 #SNMP 5 Beta 1 is available now. Our main focus here is to make the Agent (snmpd) feature complete and Mono ready.
 
-http://sharpsnmplib.codeplex.com/releases/view/43006
-
 In Beta 2 phase, I am going to work on the Browser side.
 
 Stay tuned.

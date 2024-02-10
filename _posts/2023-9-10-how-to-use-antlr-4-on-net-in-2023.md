@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 
 I once blogged heavily about how to use ANTLR on .NET, and you can find all related posts in [here](/tags/antlr/).
 
-And [my last blog post on ANTLR](/how-to-use-antlr-4-on-net-in-2017-d8bfe7efa74c) was in 2017. You can still learn something useful from the old post.
+And [my last blog post on ANTLR]({% post_url 2017-12-22-how-to-use-antlr-4-on-net-in-2017 %}) was in 2017. You can still learn something useful from the old post.
 
 Today it is time to provide some important update.
 <!--more-->

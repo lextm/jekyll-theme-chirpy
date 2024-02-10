@@ -12,7 +12,5 @@ AStyle AddIn for SharpDevelop, or Alex, has been available for a few weeks. Beca
 
 As I wish, it is amazing in certain aspects. First, it is very easy to learn than GForge or SF.net. Second, I can write a long enough summary in the front page. Third, it looks nice. But there is a sad limitation, no direct link to the file package is available. If you decide to download one package you have to accept the license in your browser. It seems InDate of CBC cannot consume the service, either. However, this CP service is enough for Alex project.
 
-If you like to know more about Alex or CodePlex.com, please pay a visit here
-
-http://alex.codeplex.com
+If you like to know more about Alex or CodePlex.com, please pay a visit.
 <!--more-->

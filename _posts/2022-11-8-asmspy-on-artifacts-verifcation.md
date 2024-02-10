@@ -18,7 +18,7 @@ Could not load file or assembly 'Microsoft.Web.Administration, Version=7.9.0.0, 
  cannot find the file specified.
 ```
 
-I think you might have seen similar exceptions in the past, and not surprised at all. I blogged about [the cause and solution](/whats-microsoft-web-administration-and-the-horrible-facts-you-should-know-b82f2c974da6) a long while ago, so fixing the bug was just a few minutes.
+I think you might have seen similar exceptions in the past, and not surprised at all. I blogged about [the cause and solution]({% post_url 2015-5-29-whats-microsoft-web-administration-and-the-horrible-facts-you-should-know %}) a long while ago, so fixing the bug was just a few minutes.
 
 ## The Long Term Defense
 However, this time I started to think about whether I could find a permanent way to prevent it from happening again, such as a verification step in CI manifest. Of course, I can write a tool based on Mono Cecil which won't take much long, but doesn't a tool exist already?

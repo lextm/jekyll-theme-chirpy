@@ -25,6 +25,6 @@ Does Jexus Manager for IIS Express offer something better? Yes, the following ar
 * Experimental server certificate support (requires to be run as administrator).
 With such new additions, it is OK now to manage quite a few important features of IIS Express.
 
-Jexus Manager for IIS Express Alpha 5 is available at https://jexus.codeplex.com/releases/view/138373
+Jexus Manager for IIS Express Alpha 5 is available.
 
 Stay tuned.

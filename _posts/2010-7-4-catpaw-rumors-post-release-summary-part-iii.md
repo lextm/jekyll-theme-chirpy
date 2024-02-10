@@ -16,5 +16,3 @@ The biggest problem comes from our CF assembly. It is hard to make sure everythi
 As Microsoft cut off too many things, even though Mono classes filled in some gaps, an issue happened when I tried to work around a missing String.Split method. This breaks 5.1 release, so we have to release 5.2 this weekend.
 
 Hope you are not bothered much by these issues. If you are, please grab our latest release which contains the fixes.
-
-http://sharpsnmplib.codeplex.com/releases/view/47894

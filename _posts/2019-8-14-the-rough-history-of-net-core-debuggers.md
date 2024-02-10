@@ -46,8 +46,8 @@ Compared to the debuggers from Microsoft/JetBrains, this open source debugger la
 
 ## Side Notes on MonoDevelop
 
-Visual Studio for Mac is built upon MonoDevelop. However, Microsoft does not license vsdbg to be used in MonoDevelop. That's why earlier this year I finished [the extension to enable .NET Core debugging in MonoDevelop with the Samsung debugger](/samsung-net-core-debugger-and-monodevelop-80a6ea4bcab3).
+Visual Studio for Mac is built upon MonoDevelop. However, Microsoft does not license vsdbg to be used in MonoDevelop. That's why earlier this year I finished [the extension to enable .NET Core debugging in MonoDevelop with the Samsung debugger]({% post_url 2019-4-29-samsung-net-core-debugger-and-monodevelop %}).
 
 There was a long inactive period on Samsung .NET Core debugger repo since April 2019 but later the project started to be active again.
 
-> Look for other interesting posts like this one? You can visit [the index page](/all-in-one-for-the-legends-of-net-materials-43c374a01433).
+> Look for other interesting posts like this one? You can visit [the index page]({% post_url 2017-11-2-all-in-one-for-the-legends-of-net-materials %}).

@@ -6,7 +6,7 @@ tags: SNMP
 permalink: /snmp-design-backport-flaw-or-best-practice-2bbe343b98f6
 excerpt_separator: <!--more-->
 ---
-When Steve [finished the backport](/snmp-design-backport-to-c-2-0-visual-studio-2005-253d6b099c55) and discussed with me, both of us were aware that maintaining both VS2005 and VS2008 solution and project files are hard. Therefore, I began to (re)search on that topic.
+When Steve [finished the backport]({% post_url 2008-12-6-snmp-design-backport-to-c-2-0-visual-studio-2005 %}) and discussed with me, both of us were aware that maintaining both VS2005 and VS2008 solution and project files are hard. Therefore, I began to research on that topic.
 <!--more-->
 
 A bug report set the fire bigger, so I made big progress too yesterday. Now we no longer have to maintain duplicate project files (*.csproj) except separate solution files for each IDE. How we achieve this? Simple.

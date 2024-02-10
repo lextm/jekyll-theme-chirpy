@@ -21,19 +21,8 @@ Error processing resource 'MS-Help://Hx/Resources/HelpCollection.dtd'.
 Fatal Error HXC2056: Parse of the .HxC file failed.
 BUILD FAILED: Unexpected error in last build step. See output above for details.
 ```
-http://shfb.codeplex.com/Thread/View.aspx?ThreadId=2475,
-
-please follow suggestion of this article,
-http://helpware.net/mshelp2/h2faq.htm#FixMissingDTD
-
+please follow suggestion of this article.
 
 On my computer, Resources.HxC is here, C:\Program Files (x86)\Visual Studio 2005 SDK\2007.02\VisualStudioIntegration\Archive\HelpIntegration\Resources.HxS
 
 If you use Sandcastle Help File Builder then it may report Sandcastle is too old. That's because VS2005 SDK ships a very old version of Sandcastle. Please download the suggested version and then manually configure SHFB to use the new version.
-
-References:
-
-* http://sandcastle.codeplex.com/
-* http://shfb.codeplex.com/
-* http://helpware.net/mshelp2/h20.htm#Getting_Started
-* http://helpware.net/mshelp2/h2faq.htm

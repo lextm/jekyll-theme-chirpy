@@ -231,7 +231,7 @@ To run Next.js web apps locally you might be quite familiar with `next start` co
 
 ### Nuxt.js
 
-> Note that the steps below apply to Nuxt 2.x (2.15.8). To deploy a Nuxt 3.x web app, please refer to [this new post](/running-nuxt-3-web-apps-on-iis-with-httpplatformhandler/).
+> Note that the steps below apply to Nuxt 2.x (2.15.8). To deploy a Nuxt 3.x web app, please refer to [this new post]({% post_url 2023-1-16-running-nuxt-3-web-apps-on-iis-with-httpplatformhandler %}).
 
 If you are working on a Nuxt.js project, make sure you modify it further before deploying to IIS. The [official guide for Azure Portal](https://nuxtjs.org/deployments/azure-portal) shows the general hints, 
 

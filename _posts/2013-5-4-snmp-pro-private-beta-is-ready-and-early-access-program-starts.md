@@ -6,7 +6,7 @@ tags: SNMP
 permalink: /snmp-pro-private-beta-is-ready-and-early-access-program-starts-7311b09abd8e
 excerpt_separator: <!--more-->
 ---
-> Updated: [The EAP has already ended](/snmp-pro-early-access-program-ends-92f9fb358fc3).
+> Updated: [The EAP has already ended]({% post_url 2013-7-29-snmp-pro-early-access-program-ends %}).
 
 After the original announcement on April 6th, I have been working hard on finishing the 1.0 feature set of #SNMP MIB Compiler Pro. Now I believe the time is right and let's kick off the Early Access Program (EAP).
 <!--more-->

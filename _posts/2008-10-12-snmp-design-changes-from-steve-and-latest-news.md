@@ -16,6 +16,4 @@ The SET dialogue is the last piece to enhance for TwinTower on Steve's list, so 
 
 If you monitor the Discussion board, you may find out new bug reports like this one. OK, this one really reveals that the old versions must be retired as soon as possible. After checking the Issue Tracker, I suddenly realized that I have done so many during August and September. Therefore, now Unicorn Refresh is no longer the default release.
 
-http://www.codeplex.com/sharpsnmplib/Thread/View.aspx?ThreadId=37191
-
 Please try out TwinTower RC2 from now on. Although both Steve and I checked in changes later, the RC 2 interfaces are not modified.

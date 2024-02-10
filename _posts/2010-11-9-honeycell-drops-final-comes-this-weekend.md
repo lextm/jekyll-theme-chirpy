@@ -6,9 +6,7 @@ tags: SNMP
 permalink: /honeycell-drops-final-comes-this-weekend-346ee3dfbcc3
 excerpt_separator: <!--more-->
 ---
-Probably you heard from my tweets that we are going to release #SNMP 6.0 final this weekend, so beta 5 is the last beta,
-
-http://sharpsnmplib.codeplex.com/releases/view/46604
+Probably you heard from my tweets that we are going to release #SNMP 6.0 final this weekend, so beta 5 is the last beta.
 
 The new API is much more stable now, so you can try them out if you like.
 

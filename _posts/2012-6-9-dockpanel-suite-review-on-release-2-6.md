@@ -14,7 +14,7 @@ DockPanel Suite 2.6 is now available in two places,
 Ryan and I will move on to release 2.7.
 <!--more-->
 
-Except what you can see from [2.6 release notes](/dockpanel-suite-release-2-6-is-coming-release-notes-bf7810a6b66b).
+Except what you can see from [2.6 release notes]({% post_url 2012-5-26-dockpanel-suite-release-2-6-is-coming-release-notes %}).
 
 please check known issues here,
 

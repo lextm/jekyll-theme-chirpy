@@ -14,9 +14,7 @@ _Figure 1: #SNMP on Mono for Android._
 
 Well if you are familiar with Android development, you know this is an Android app running on the simulator. I used this app to test out SNMP GET messages sent from it to my local development box (Windows 8, aka 6.2), so now I am confident the code base works as expected.
 
-Anyway you can now try out on your own, by downloading the binaries bigdipper_7.5_bin_monodroid.zip from
-
-http://sharpsnmplib.codeplex.com/releases/view/78947
+Anyway you can now try out on your own, by downloading the binaries bigdipper_7.5_bin_monodroid.zip.
 
 Although it is listed under a stable release page, please understand that this package alone is still a Beta quality piece.
 

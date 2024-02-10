@@ -13,12 +13,9 @@ For me, the pains of translating is less than the pains with Visual Studio 2005 
 
 First, Resource Refactoring Tool from Microsoft.
 
-http://www.codeplex.com/Wiki/View.aspx?ProjectName=ResourceRefactoring
+https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.ResourceRefactoringTool
 
-Second, download a tool named ResEx
-
-http://www.papadi.gr/resex.aspx
-http://resex.codeplex.com/
+Second, download a tool named ResEx.
 
 The first one helps you to extract a hard coded string to a resource string in an RESX file. The second helps you to translate RESX files.
 
@@ -26,4 +23,4 @@ I will go on to translate my project. If I dig something new, I will soon post i
 
 Stay tuned.
 
-[Updated: Now there are even more tools available, such as http://visualstudiogallery.msdn.microsoft.com/3b64e04c-e8de-4b97-8358-06c73a97cc68]
+Updated: Now there are even more tools available, such as [ResXManager](https://marketplace.visualstudio.com/items?itemName=TomEnglert.ResXManager).

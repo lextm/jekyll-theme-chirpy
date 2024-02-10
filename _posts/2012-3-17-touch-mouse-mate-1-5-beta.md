@@ -8,9 +8,7 @@ excerpt_separator: <!--more-->
 ---
 Hi guys,
 
-I am going to take a vacation in the coming days, so decide to release 1.5 Beta right now for you to try out. It is stable enough so I set it as our default release on the project site,
-
-http://touchmousemate.codeplex.com/releases/view/83675
+I am going to take a vacation in the coming days, so decide to release 1.5 Beta right now for you to try out. It is stable enough so I set it as our default release on the project site.
 <!--more-->
 
 Compared to 1.4 release, the following changes are introduced,

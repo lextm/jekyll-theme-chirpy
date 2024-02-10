@@ -10,7 +10,7 @@ I was happy to see Microsoft hosted Sandcastle on CodePlex.com. I believed once 
 
 I was wrong and MSFT ate its word. Sandcastle was removed from CodePlex.com. So many days have passed but no Sandcastle code has been released under an open source license. And according to CodePlex rules, Sandcastle should have been removed a few months ago.
 
-http://blogs.msdn.com/sandcastle/archive/2008/06/06/sandcastle-project-removed-from-codeplex.aspx
+https://learn.microsoft.com/archive/blogs/sandcastle/sandcastle-project-removed-from-codeplex
 
 So can we draw a conclusion that MSFT is still against open source? Indeed. By releasing .NET BCL source code under a reference license (not open source), and removing Sandcastle from CodePlex.com, this company sticks to one of its basic principles,
 

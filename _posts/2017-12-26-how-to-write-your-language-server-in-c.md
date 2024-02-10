@@ -7,7 +7,7 @@ permalink: /how-to-write-your-language-server-in-c-d9302a44f694
 excerpt_separator: <!--more-->
 ---
 
-I just wrote about [my plan](/a-new-restructuredtext-project-112e9ae52acb) to enhance reStructuredText extension for Visual Studio Code by adding a language server.
+I just wrote about [my plan]({% post_url 2017-12-23-a-new-restructuredtext-project %}) to enhance reStructuredText extension for Visual Studio Code by adding a language server.
 
 While it is going to be a long road ahead, I already got some initial results. For this post, I would like to share some tips on the Language Server Protocol, so that if you are eager to start your own today as a C# developer, you can do the same.
 <!--more-->
