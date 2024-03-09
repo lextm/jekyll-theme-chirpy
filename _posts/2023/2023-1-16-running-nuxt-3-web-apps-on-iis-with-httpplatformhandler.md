@@ -25,11 +25,13 @@ npm install
 npm run build
 ```
 
-> Note that I chose `npx` and `npm` steps, while you can use `pnpm` or `yarn`.
+> Note that
+> * I chose `npx` and `npm` steps, while you can use `pnpm` or `yarn`.
+> * I used `C:\` as the start point, so `C:\test-nuxt` contains the source code, and `C:\test-nuxt\.output` contains the generated artifacts for deployment.
 
 ## Add IIS Configuration
 
-Simply create a `web.config` file at the root,
+Simply create a `web.config` file at the root (`C:\test-nuxt` in my case) with the following content,
 
 ``` xml
 <?xml version="1.0" encoding="UTF-8"?>
