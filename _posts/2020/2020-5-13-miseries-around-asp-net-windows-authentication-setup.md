@@ -29,7 +29,7 @@ So, as long as IIS gives ASP.NET runtime a valid Windows user, that user's infor
 
 OK, now most ASP.NET developers should move on to IIS (or IIS Express), as [the official documentation](https://support.microsoft.com/en-us/help/323176/how-to-implement-windows-authentication-and-authorization-in-asp-net) asks for some changes there.
 
-> Note that the article still points to IIS 5/6. IIS 7 and above needs [a few different steps](https://docs.microsoft.com/iis/configuration/system.webserver/security/authentication/windowsauthentication/#setup) in IIS Manager, but I think you can figure that out.
+> Note that the article still points to IIS 5/6. IIS 7 and above needs [a few different steps](https://learn.microsoft.com/iis/configuration/system.webserver/security/authentication/windowsauthentication/#setup) in IIS Manager, but I think you can figure that out.
 
 So finally on IIS, only Windows authentication is enabled in `applicationHost.config`,
 

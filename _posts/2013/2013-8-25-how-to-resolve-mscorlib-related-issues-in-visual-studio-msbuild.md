@@ -17,13 +17,13 @@ OK. A glance can show you how many namespaces are included (please ignore `Mono.
 ## How It Is Referenced By Others Normally?
 If you create a new C# project in Visual Studio (such as Windows Console applications), you perhaps don't see a reference to mscorlib.dll. Why? Well, that's because of an MSBuild/CSC trick Microsoft implements.
 
-First, most csproj files do not have `<NoStdLib></NoStdLib>` defined under `<PropertyGroup>`. In this way MSBuild uses the default value of `false` in its execution. This finally translates to [a switch](http://msdn.microsoft.com/en-us/library/fa13yay7.aspx) of `csc.exe` called `/nostdlib-`.
+First, most csproj files do not have `<NoStdLib></NoStdLib>` defined under `<PropertyGroup>`. In this way MSBuild uses the default value of `false` in its execution. This finally translates to [a switch](https://learn.microsoft.com/dotnet/csharp/language-reference/compiler-options/advanced#nostandardlib) of `csc.exe` called `/nostdlib-`.
 
 Second, `csc.exe` automatically picks up the proper `mscorlib.dll` (the details on that resolution itself are worth another post).
 
 Finally, `csc.exe` generates the assembly for your project, and the reference to `mscorlib.dll` is written into that file.
 
-The above knowledge can be easily gained by turning on [MSBuild logging](http://msdn.microsoft.com/en-us/library/vstudio/ms164311.aspx) via `/verbose` switch.
+The above knowledge can be easily gained by turning on [MSBuild logging](https://learn.microsoft.com/previous-versions/visualstudio/visual-studio-2015/msbuild/msbuild-command-line-reference) via `/verbose` switch.
 
 ## Specially Case
 Normally you never need to worry about the reference to `mscorlib.dll` if you read above. Now let's visit the most common exceptional cases where you should care about `mscorlib.dll`.

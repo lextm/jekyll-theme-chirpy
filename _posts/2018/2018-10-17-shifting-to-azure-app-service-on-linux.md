@@ -19,7 +19,7 @@ So naturally, if you are hosting web apps on Azure, especially PHP/Python/Ruby u
 
 ## Interpretation of Microsoft Documentation on Python
 
-I just came across [an article on Azure documentation](https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2017/python/managing-python-on-azure-app-service?view=vs-2017), which contains an important announcement,
+I just came across [an article on Azure documentation](https://learn.microsoft.com/previous-versions/visualstudio/visual-studio-2017/python/managing-python-on-azure-app-service?view=vs-2017), which contains an important announcement,
 
 > **Important**
 >

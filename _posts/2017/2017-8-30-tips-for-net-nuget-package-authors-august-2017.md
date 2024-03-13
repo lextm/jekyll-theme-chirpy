@@ -36,13 +36,13 @@ For #SNMP Library 10.0.1 release, I choose
 
 You can obviously choose your own based on the actual code base. Some libraries can successfully choose .NET Standard 1.0, while some might have to choose .NET Standard 2.0 (or a future version) if it needs too many APIs.
 
-Make sure you go through [this excellent video](https://learn.microsoft.com/en-us/events/dotnetconf-2017/t112) to learn more about .NET Standard.
+Make sure you go through [this excellent video](https://learn.microsoft.com/events/dotnetconf-2017/t112) to learn more about .NET Standard.
 
 ## Tips on Source Code Preparation
 
 I used to use multiple projects (csproj) so each compiles to an assembly targeting an individual target platform. Then a NuGet package can be built manually from a .nuspec file.
 
-It was yesterday that I were brave enough to try .NET Core 2.0 tooling again and its [plural `<TargetFrameworks>` element](https://docs.microsoft.com/en-us/dotnet/standard/frameworks#how-to-specify-target-frameworks).
+It was yesterday that I were brave enough to try .NET Core 2.0 tooling again and its [plural `<TargetFrameworks>` element](https://learn.microsoft.com/dotnet/standard/frameworks#how-to-specify-target-frameworks).
 
 > Note that if you need conditional compilation (like I did for #SNMP Library), this article also shows which constants you might use.
 

@@ -44,4 +44,4 @@ Then a `.mpack` file would be generated and everyone can manually add it to Visu
 
 Now Microsoft/Xamarin has opened up the addin feed for Visual Studio for Mac, so as publisher you should use https://addins.monodevelop.com to publish your addin. Users then use the integrated Extension Manager to search and install.
 
-> Updated (Jan 12, 2023): The latest news can be found in [this post](https://learn.microsoft.com/en-us/visualstudio/mac/migrate-extensions?view=vsmac-2022)
+> Updated (Jan 12, 2023): The latest news can be found in [this post](https://learn.microsoft.com/visualstudio/mac/migrate-extensions?view=vsmac-2022)

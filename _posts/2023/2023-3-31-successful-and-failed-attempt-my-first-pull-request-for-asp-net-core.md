@@ -57,13 +57,13 @@ The x64 application pool also crashed, which raises a bigger question that where
 
 ## The Magic of Windows 11 ARM64, Arm64X
 
-By reading further through Microsoft Docs, I finally learned that instead of extending the old WOW64 emulation layer (the trick around x86 Program Files and so on), Microsoft engineers developed [a new approach called Arm64X](https://learn.microsoft.com/en-us/windows/arm/arm64x-pe) so that binaries can be built by merging x64 (ARM64EC) and ARM64 bits together in the same Portable Executable (PE) file. This is a very good idea (similar to Universal Binary used by Apple), so I could then understand why there is no x64 Program Files folder on Windows 11 ARM64.
+By reading further through Microsoft Docs, I finally learned that instead of extending the old WOW64 emulation layer (the trick around x86 Program Files and so on), Microsoft engineers developed [a new approach called Arm64X](https://learn.microsoft.com/windows/arm/arm64x-pe) so that binaries can be built by merging x64 (ARM64EC) and ARM64 bits together in the same Portable Executable (PE) file. This is a very good idea (similar to Universal Binary used by Apple), so I could then understand why there is no x64 Program Files folder on Windows 11 ARM64.
 
 Therefore, to fix the x64 application pool crash, I thought I needed to produce an Arm64X build of `aspnetcorev2.dll` and put it in the right place. I cloned the code base and started to dig further. However, I couldn't move much further even after fixing many common challenges in the C++ project files, because the compilation seems to need Arm64X build of ASP.NET Core runtime itself, which isn't available.
 
 > I felt lucky that for one of my previous employers there was a project based on ASP.NET Core module source code, so I used to dig into the code base and understood roughly how it works. Otherwise, I wouldn't have dared to build it as Arm64X.
 
-A hint called ["Arm64X pure forwarder DLL"](https://learn.microsoft.com/en-us/windows/arm/arm64x-build) was then the only option on the table, and I decided to try it out. Luckily after producing my own pure forwarders and reorganizing the ASP.NET Core bits in the Program Files folder, I can get the x64 application pool running properly.
+A hint called ["Arm64X pure forwarder DLL"](https://learn.microsoft.com/windows/arm/arm64x-build) was then the only option on the table, and I decided to try it out. Luckily after producing my own pure forwarders and reorganizing the ASP.NET Core bits in the Program Files folder, I can get the x64 application pool running properly.
 
 > This article had some mistakes in it, so I sent a pull request to fix the contents separately, which was merged and published. You are now reading the fixed version.
 

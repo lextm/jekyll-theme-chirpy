@@ -16,7 +16,7 @@ Microsoft retired more legacy platforms in 2022, so this project follows the tre
 ## Nullable Annotations
 Microsoft has been working on nullable reference types for decades (even Anders Hejlsberg admitted that this should be added to C# many years earlier). But the adoption of this new language feature is rather painful, because it in general breaks too many things. But throughout the years, the syntax and tooling have been steadily improved.
 
-In .NET 6, Microsoft is finally comfortable to [enable this feature on new projects](https://learn.microsoft.com/en-us/dotnet/csharp/nullable-references), so #SNMP Library starts to offer the same convenience. Behind the scenes, [the Nullable NuGet package](https://github.com/manuelroemer/Nullable) plays an important role as it enables nullable attributes on a variety of platforms that Microsoft left behind.
+In .NET 6, Microsoft is finally comfortable to [enable this feature on new projects](https://learn.microsoft.com/dotnet/csharp/nullable-references), so #SNMP Library starts to offer the same convenience. Behind the scenes, [the Nullable NuGet package](https://github.com/manuelroemer/Nullable) plays an important role as it enables nullable attributes on a variety of platforms that Microsoft left behind.
 
 This is just the first release with nullable annotations enabled, so slight changes are expected in the future releases.
 

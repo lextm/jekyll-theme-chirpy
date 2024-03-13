@@ -59,7 +59,7 @@ I also created the necessary PowerShell scripts to help you enable HttpPlatformH
 * [PHP on IIS announcement](https://news.microsoft.com/2006/10/31/microsoft-and-zend-technologies-announce-technical-collaboration-to-improve-interoperability-of-php-on-the-windows-server-platform/)
 * [wfastCGI initial commit](https://github.com/microsoft/PTVS/commit/0b944a292442dcb7a5caaffb9e3cd7542bbf190f)
 * [iisnode initial commit](https://github.com/tjanczuk/iisnode/commit/2ad22f2dbc5d9721a58c006c5fb7aef18ae6b430)
-* [HttpPlatformHandler initial announcement](https://azure.microsoft.com/en-us/blog/announcing-the-release-of-the-httpplatformhandler-module-for-iis-8/)
+* [HttpPlatformHandler initial announcement](https://azure.microsoft.com/blog/announcing-the-release-of-the-httpplatformhandler-module-for-iis-8/)
 * [Download](https://www.iis.net/downloads/microsoft/httpplatformhandler#additionalDownloads)
 * [Configuration Reference by Microsoft](https://learn.microsoft.com/iis/extensions/httpplatformhandler/httpplatformhandler-configuration-reference)
 * [Java Example by Microsoft](https://learn.microsoft.com/previous-versions/azure/windows-server-azure-pack/mt125371(v=technet.10))

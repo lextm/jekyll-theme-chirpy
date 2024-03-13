@@ -13,4 +13,4 @@ But if you do not manipulate the items (here site bindings) that require elevati
 
 {% gist e966ca6bbf44403d906b %}
 
-Microsoft carefully documents [the API on MSDN](https://msdn.microsoft.com/en-us/library/aa361904.aspx). However, they fail to remember that we are all C# people.
+Microsoft carefully documents [the API on MSDN](https://learn.microsoft.com/windows/win32/controls/bcm-setshield). However, they fail to remember that we are all C# people.

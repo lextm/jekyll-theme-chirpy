@@ -34,7 +34,7 @@ The driving force to maintain the very large Mono distribution has shrunk signif
 As many said, .NET 6 and above is going to be the right platform you migrate to. Microsoft/Unity and other companies in the ecosystem have already invested a lot there.
 
 ## 2024 and Beyond
-Once [Xamarin is fully deprecated by .NET MAUI on May 1, 2024](https://dotnet.microsoft.com/en-us/platform/support/policy/xamarin) and Unity ships its new release to fully switch to .NET CoreCLR, we should expect no more commits to the GitHub Mono repo(s) from Microsoft. And that concludes the long journey to unify .NET runtimes.
+Once [Xamarin is fully deprecated by .NET MAUI on May 1, 2024](https://dotnet.microsoft.com/platform/support/policy/xamarin) and Unity ships its new release to fully switch to .NET CoreCLR, we should expect no more commits to the GitHub Mono repo(s) from Microsoft. And that concludes the long journey to unify .NET runtimes.
 
 It is your freedom to stay on Mono, and have no plan to migrate to .NET Core, but then it would be your own adventure to support yourself.
 

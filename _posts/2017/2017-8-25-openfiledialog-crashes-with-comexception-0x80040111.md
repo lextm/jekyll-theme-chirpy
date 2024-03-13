@@ -32,7 +32,7 @@ So I personally found two workarounds, and used them both in Jexus Manager to ha
 
 ## Workaround 1: Set `FileDialog.AutoUpgradeEnabled` to `false`
 
-Microsoft has [an ugly property defined](https://msdn.microsoft.com/en-us/library/system.windows.forms.filedialog.autoupgradeenabled%28v=vs.110%29.aspx), and I can only use this to let the ancient dialogs pop up. Anyway it should work (as many users reported success).
+Microsoft has [an ugly property defined](https://learn.microsoft.com/dotnet/api/system.windows.forms.filedialog.autoupgradeenabled), and I can only use this to let the ancient dialogs pop up. Anyway it should work (as many users reported success).
 
 ## Workaround 2: Fallback from `Ookii.Dialogs.VistaFolderBrowserDialog` to `FolderBrowserDialog`
 

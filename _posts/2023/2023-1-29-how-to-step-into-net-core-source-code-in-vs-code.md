@@ -6,7 +6,7 @@ tags: .NET Visual-Studio-Code
 excerpt_separator: <!--more-->
 ---
 
-You probably know how to use Visual Studio to step into .NET Core source code, as [Microsoft documented it very well](https://learn.microsoft.com/en-us/aspnet/core/test/debug-aspnetcore-source?view=aspnetcore-7.0). However, what if you are using Visual Studio Code?
+You probably know how to use Visual Studio to step into .NET Core source code, as [Microsoft documented it very well](https://learn.microsoft.com/aspnet/core/test/debug-aspnetcore-source?view=aspnetcore-7.0). However, what if you are using Visual Studio Code?
 <!--more-->
 
 In fact, the steps are also simple, so let's simply check them out.

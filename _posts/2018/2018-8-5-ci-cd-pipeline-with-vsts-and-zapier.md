@@ -19,7 +19,7 @@ It is very important to learn Azure App Service, so as to know what built-in fea
 
 Clearly here I need to set its deployment method to a custom repo on VSTS (I cannot use GitHub or others because I need to handle private repos).
 
-So I create a new project on Azure called AzureSites, a new repo under it called production, and hook my App Service to it by following [this article](https://learn.microsoft.com/en-us/azure/app-service/deploy-continuous-deployment?tabs=github#deploy-continuously-from-vsts).
+So I create a new project on Azure called AzureSites, a new repo under it called production, and hook my App Service to it by following [this article](https://learn.microsoft.com/azure/app-service/deploy-continuous-deployment?tabs=github#deploy-continuously-from-vsts).
 
 > Note that I did not use VSTS pipeline here, because I need to handle it later.
 

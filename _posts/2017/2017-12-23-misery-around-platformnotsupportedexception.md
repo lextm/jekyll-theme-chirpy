@@ -7,7 +7,7 @@ permalink: /misery-around-platformnotsupportedexception-1b890c74a08a
 excerpt_separator: <!--more-->
 ---
 
-Honestly speaking, [PlatformNotSupportedException](https://learn.microsoft.com/en-us/dotnet/api/system.platformnotsupportedexception) is not something new, as it was initially introduced on .NET Framework 1.x.
+Honestly speaking, [PlatformNotSupportedException](https://learn.microsoft.com/dotnet/api/system.platformnotsupportedexception) is not something new, as it was initially introduced on .NET Framework 1.x.
 
 Why do we need to talk about it now when .NET Core is the center of innovation? Well, simply due to the facts that it is highly possible to pop into your eyes.
 
@@ -46,7 +46,7 @@ public sealed class DESPrivacyProvider : IPrivacyProvider
 }
 ```
 
-OK. See it? The `Encrypt` method throws `PlatformNotSupportedException`, because within all supported platforms (`net452`, `netstandard1.3`, `netcoreapp2.0`, and so on) the underlying [`DES`](https://learn.microsoft.com/en-us/dotnet/api/system.security.cryptography.des) might exist or not.
+OK. See it? The `Encrypt` method throws `PlatformNotSupportedException`, because within all supported platforms (`net452`, `netstandard1.3`, `netcoreapp2.0`, and so on) the underlying [`DES`](https://learn.microsoft.com/dotnet/api/system.security.cryptography.des) might exist or not.
 
 The new pattern here is that the exception should be thrown when the underlying platform (`netstandard1.3`) fails to provide the necessary API.
 
