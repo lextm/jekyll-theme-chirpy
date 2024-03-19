@@ -112,8 +112,8 @@ You may also use SF.net tracker [23], but it is not recommended. Issues recorded
 [DockPanel Suite 2.4.0]: http://sourceforge.net/projects/dockpanelsuite/files/DockPanel%20Suite/2.4.0/
 [DockPanel Suite 2.5.0 RC1]: http://sourceforge.net/projects/dockpanelsuite/files/DockPanel%20Suite/2.5.0%20RC1/
 [Sharp SNMP Library]: http://sharpsnmp.com
-[DockPanel Suite Tip]: https://halfblood.pro/dockpanel-suite-tip-5-we-could-go-mono-63ee484f77a0
-[DockPanel Suite Patch]: https://halfblood.pro/dockpanel-suite-patch-to-support-lite-mode-on-mono-217547fc710b
+[DockPanel Suite Tip]: https://docs.lextudio.com/blog/dockpanel-suite-tip-5-we-could-go-mono-63ee484f77a0
+[DockPanel Suite Patch]: https://docs.lextudio.com/blog/dockpanel-suite-patch-to-support-lite-mode-on-mono-217547fc710b
 [Guo Yong Rong on Codeplex]: http://guoyongrong.codeplex.com/
 [DockPanel Suite Forum Topic 3]: http://sourceforge.net/projects/dockpanelsuite/forums/forum/402316/topic/5080422
 [DockPanel Suite Forum Topic 4]: http://sourceforge.net/projects/dockpanelsuite/forums/forum/402316/topic/5271451

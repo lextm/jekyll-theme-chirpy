@@ -14,7 +14,7 @@ Seems to be a good time to recap on how many public sessions/programs I worked o
 
 Hosted on Dec 12 as part of the JiaoDong Developer Conference.
 
-The contents can be found on [my blog](https://halfblood.pro/jexus-%E7%BD%91%E7%AB%99%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%92%8C-asp-net-%E8%B7%A8%E5%B9%B3%E5%8F%B0%E5%BC%80%E5%8F%91-e4cac4316352).
+The contents can be found on [my blog](https://docs.lextudio.com/blog/jexus-%E7%BD%91%E7%AB%99%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%92%8C-asp-net-%E8%B7%A8%E5%B9%B3%E5%8F%B0%E5%BC%80%E5%8F%91-e4cac4316352).
 
 The slides can be found on [GitHub](https://github.com/lextm/slides/raw/master/JexusManager%20cn.pptx).
 

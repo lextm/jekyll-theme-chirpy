@@ -11,13 +11,13 @@ I talked about this topic in [this post]({% post_url 2008-2-5-grapevine-voice-fi
 The old code to launch Firefox was,
 
 ``` csharp
-Process.Start("https://halfblood.pro");
+Process.Start("https://docs.lextudio.com/blog");
 ```
 
 And the new code is,
 
 ``` csharp
-Help.ShowHelp(null, "https://halfblood.pro");
+Help.ShowHelp(null, "https://docs.lextudio.com/blog");
 ```
 
 I don't understand why Microsoft implements them differently and I don't want to waste my time to dig .NET Framework source code under that MS-RL. Maybe the guys want to promote Internet Explorer, isn't it?

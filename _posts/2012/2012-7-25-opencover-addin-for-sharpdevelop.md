@@ -93,7 +93,7 @@ I will spend time fixing them before finalizing the 1.0 release.
 
 [7] http://sourceforge.net/users/mr2dark
 
-[8] https://halfblood.pro/sharpdevelop-on-x64-windows-issue-2e845c12cdc1
+[8] https://docs.lextudio.com/blog/sharpdevelop-on-x64-windows-issue-2e845c12cdc1
 
 [9] https://github.com/sawilde/opencover
 

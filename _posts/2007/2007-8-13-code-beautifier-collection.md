@@ -25,6 +25,6 @@ GrapeVine已经放出了三个Preview的版本（包括M1和M2）。现在最新
 
 好了，如果有兴趣，请访问
 
-https://halfblood.pro
+https://docs.lextudio.com/blog
 
 以获取最新的信息。

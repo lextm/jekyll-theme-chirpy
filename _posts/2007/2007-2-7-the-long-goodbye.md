@@ -17,7 +17,7 @@ There are several factors a new service has to met:
 1. Firefox compatibility. Live Spaces fails to meet this.
 1. Easy to use.
 
-After all, I find Blogger today. Soon I will stop posting here and build up a new blog there. Thanks for those who read and comment here. You may see my new blog here: https://halfblood.pro.
+After all, I find Blogger today. Soon I will stop posting here and build up a new blog there. Thanks for those who read and comment here. You may see my new blog here: https://docs.lextudio.com/blog.
 
 P.S., I have to mention that in fact, CSDN provides more features than Blogger. However, I am caring about stability more.
 
