@@ -6,21 +6,23 @@ tags: SNMP
 permalink: /honeycell-drops-snmp-pipeline-and-our-agent-demo-89986da1a5da
 excerpt_separator: <!--more-->
 ---
-> A long time ago I wrote an agent demo for #SNMP. It is interesting to know how far we were away from a complete demo. You can still find [the post here]({% post_url 2008-10-18-snmp-design-incomplete-agent-demo %}).
+
+> A long time ago I wrote an agent demo for #SNMP. It is interesting to know how far we were away from a complete demo. You can still find [the post here]({% post_url 2008/2008-10-18-snmp-design-incomplete-agent-demo %}).
 >
 > More than two years passed and now we have 6.0 release out. How about a new post on our agent technical details? This one is for snmpd.
 
 If this is the first time you download #SNMP source code, you will find that snmpd folder is named strangely. Well, our SNMP agent uses a UNIX name :)
 
 When you open snmpd.csproj in Visual Studio (or another IDE), you should first check what are its references.
+
 <!--more-->
 
 ## Dependencies
 
 There are several references you should pay attention to,
 
-* `SharpSnmpLib*.dll` are our #SNMP Library components.
-* `*Unity*.dll` are Microsoft Unity Application Block components.
+- `SharpSnmpLib*.dll` are our #SNMP Library components.
+- `*Unity*.dll` are Microsoft Unity Application Block components.
 
 ## IoC, Facade, and Pipeline
 
@@ -38,21 +40,23 @@ An SNMP message captured by Listener will be packaged as an SnmpContext object. 
 
 Currently (in 6.0) we only have four phases in the pipeline,
 
-* Authentication
-* Request handler mapping
-* Request handler executing
-* Logging request
+- Authentication
+- Request handler mapping
+- Request handler executing
+- Logging request
 
 After phase 4, the pipeline is reused by SnmpApplicationFactory for future messages.
 
 We may add an authorization phase to achieve user based authorization, but it is not yet designed and implemented.
 
 ### Authentication
+
 Via app.config you can see how the primary membership provider (ComposedMembershipProvider) is created and injected into the pipeline. The request is checked by the provider and dropped if it does not contain a proper community name.
 
 ComposedMembershipProvider is a special membership provider, who allows you to support different SNMP versions. If you only target a specific version, you can use the version specific provider as primary one.
 
 ### Request handler mapping
+
 For authenticated message, in this phase it is verified again and mapped to a message handler.
 
 Message handlers are injected to the pipeline, too. So you can analyze app.config to know how many handlers are there already, and how each registers its interested message (SNMP version and verb).
@@ -62,11 +66,13 @@ For example, GetV1MessageHandler is only interested in v1 GET messages, while Ge
 Carefully configure the existing handlers, you can achieve different SNMP engine configurations, so as to meet different requirements.
 
 ### Request handler executing
+
 Once a message handler is found for the message, in this phase the handler performs the requested operation and generate a response message.
 
-You should notice that *V1MessageHandler classes follow RFC 1157 specification to handle v1 messages, while other handler classes follow RFC 3416 to handle v2 and v3 messages.
+You should notice that \*V1MessageHandler classes follow RFC 1157 specification to handle v1 messages, while other handler classes follow RFC 3416 to handle v2 and v3 messages.
 
 ### Logging request
+
 In this phase the response message is sent back, while the logger logs the processing into log files.
 
 ## ObjectStore and ISnmpObject

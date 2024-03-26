@@ -6,11 +6,13 @@ tags: .NET ANTLR
 permalink: /how-to-use-antlr-4-on-net-4361915b670f
 excerpt_separator: <!--more-->
 ---
-> Update: [A new article]({% post_url 2017-12-22-how-to-use-antlr-4-on-net-in-2017 %}) is now alive.
+
+> Update: [A new article]({% post_url 2017/2017-12-22-how-to-use-antlr-4-on-net-in-2017 %}) is now alive.
 
 I once blogged heavily about how to use ANTLR 3 on .NET, and you can find all links from [the archive](/archives/)
 
 Interesting that when I prepared those materials I was fully aware of the upcoming ANTLR 4, and kept an eye on it until right now. In the past two weeks I converted a very large grammar file from ANTLR 3 to ANTLR 4, and this post aims to show some of the hints and tips.
+
 <!--more-->
 
 ## What's new in ANTLR 4?
@@ -23,15 +25,15 @@ Just read some and make sure you get basic understanding. They can help you a lo
 
 A few things have changed dramatically, including
 
-* ANTLRWorks 2 is NetBeans based and almost rewritten. The debugging experience becomes pretty painful, like sample text must be fed by files , and we lose the power to debug the grammar token by token.
-* There is no more a C# port of the ANTLR compiler (grammar to C#) and we will have to use the Java version. Although this time the NuGet packages ease most of the pains, we get a dependency on JVM on development machines.
-* There are lots of changes required to modify the grammar files. Well, let's revisit those later.
+- ANTLRWorks 2 is NetBeans based and almost rewritten. The debugging experience becomes pretty painful, like sample text must be fed by files , and we lose the power to debug the grammar token by token.
+- There is no more a C# port of the ANTLR compiler (grammar to C#) and we will have to use the Java version. Although this time the NuGet packages ease most of the pains, we get a dependency on JVM on development machines.
+- There are lots of changes required to modify the grammar files. Well, let's revisit those later.
 
 ## Starting Point - Replace ANTLR 3 with ANTLR 4 at Project level
 
 With the project opened in Visual Studio, add two NuGet packages to it, Antlr4 and Antlr4.Runtime,
 
-``` powershell
+```powershell
 Install-Package Antlr4
 Install-Package Antlr4.Runtime
 ```
@@ -45,7 +47,7 @@ Exclude the previous grammar files, and change their extension to .g4. That's re
 1. Make sure all parser rules are above lexer rules. This just requires some cut and paste.
 1. Remove all predicates as ANTLR 4 claims to be able to handle them all. Anyway we will fix issues later.
 1. If you define returns like [Something result = new Something()], now it is time to move the constructor part to action { $result = new Something(); }. Yes, actions are still fully supported by ANTLR 4, and you don't really need to remove them at this moment.
-1. Use *? instead of * as options {greedy=false} is gone.
+1. Use _? instead of _ as options {greedy=false} is gone.
 1. Use ($name) in actions instead of $name if there is any error.
 1. To ignore something or put to hidden channel, now use –> skip or –>channel(HIDDEN).
 

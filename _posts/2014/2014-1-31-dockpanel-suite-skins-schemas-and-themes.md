@@ -7,7 +7,9 @@ categories: [History, .NET]
 permalink: /dockpanel-suite-skins-schemas-and-themes-a080747aa1c8
 excerpt_separator: <!--more-->
 ---
-In the adventure of VS2012 Light theme support, I have gained further knowledge on how DPS works internally. Thus, I summarized what I learnt [in this blog post]({% post_url 2013-5-4-dockpanel-suite-a-summary-on-visual-studio-2012-light-theme %}). What I missed was a detailed explanation on the confusing terms used throughout the code base. Hope this post is not too late for anyone who would like to customize DPS look and feel.
+
+In the adventure of VS2012 Light theme support, I have gained further knowledge on how DPS works internally. Thus, I summarized what I learnt [in this blog post]({% post_url 2013/2013-5-4-dockpanel-suite-a-summary-on-visual-studio-2012-light-theme %}). What I missed was a detailed explanation on the confusing terms used throughout the code base. Hope this post is not too late for anyone who would like to customize DPS look and feel.
+
 <!--more-->
 
 ## The History of Schemas
@@ -26,12 +28,12 @@ By setting a new skin, the look and feel changes even if you don't change the sc
 
 I attempted to refine the customization interface in 3.0 branch so as to resolve two issues,
 
-* Schema is not something easy to drop in. To develop a new schema and apply, you have to touch too many places in the code base and that's too bad for beginners.
-* Skin has been too weak. You cannot create a VS2012 Light theme with a new skin, because the old schemas do not cover the new elements introduced by Microsoft.
+- Schema is not something easy to drop in. To develop a new schema and apply, you have to touch too many places in the code base and that's too bad for beginners.
+- Skin has been too weak. You cannot create a VS2012 Light theme with a new skin, because the old schemas do not cover the new elements introduced by Microsoft.
 
 So ITheme interface and the three default themes were created, and the following advantages are achieved,
 
-* To change the whole look and feel, you simply create a new theme that derives from ITheme. Existing themes can be forked as templates.
-* To apply a new theme, you simply hook it to DockPanel.Theme. You no longer need to modify multiple spots.
+- To change the whole look and feel, you simply create a new theme that derives from ITheme. Existing themes can be forked as templates.
+- To apply a new theme, you simply hook it to DockPanel.Theme. You no longer need to modify multiple spots.
 
 Thus, themes are nothing new, but better schemas with unified API. Of course, skins are still supported by themes, so you can change skins so as to achieve sub-themes.

@@ -6,10 +6,12 @@ tags: IIS
 permalink: /binding-diagnostics-for-iis-and-iis-express-users-595aaa42cbbd
 excerpt_separator: <!--more-->
 ---
+
 The complexity of IIS makes it difficult to learn (nginx and Apache are not exceptionally easy either). So many web developers (ASP.NET or not) can find it hard to understand certain concepts, and such might lead to the configuration failing to meet their desires.
+
 <!--more-->
 
-I already discussed HTTPS configuration, and how Jexus Manager [SSL Diagnostics]({% post_url 2015-11-12-jexus-manager-built-in-ssl-diagnostics-for-iis-and-iis-express %}) might help them out. And also [Visual Studio Project Diagnostics]({% post_url 2017-6-18-jexus-manager-recent-changes %}), a tool to sync project settings and site configuration.
+I already discussed HTTPS configuration, and how Jexus Manager [SSL Diagnostics]({% post_url 2015/2015-11-12-jexus-manager-built-in-ssl-diagnostics-for-iis-and-iis-express %}) might help them out. And also [Visual Studio Project Diagnostics]({% post_url 2017/2017-6-18-jexus-manager-recent-changes %}), a tool to sync project settings and site configuration.
 
 Today, I am happy to announce another diagnostics tool for site bindings, aka Binding Diagnostics.
 

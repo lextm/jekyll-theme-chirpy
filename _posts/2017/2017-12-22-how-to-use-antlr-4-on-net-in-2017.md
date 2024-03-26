@@ -12,9 +12,10 @@ image:
 
 I once blogged heavily about how to use ANTLR on .NET, and you can find all related posts in [here](/tags/antlr/).
 
-And [my last blog post on ANTLR]({% post_url 2014-8-3-how-to-use-antlr-4-on-net %}) was in 2014. You can still learn something useful from the old post.
+And [my last blog post on ANTLR]({% post_url 2014/2014-8-3-how-to-use-antlr-4-on-net %}) was in 2014. You can still learn something useful from the old post.
 
 But today it is time to provide some more information after three years.
+
 <!--more-->
 
 ## .NET Standard Support

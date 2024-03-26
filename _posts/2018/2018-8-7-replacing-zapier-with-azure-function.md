@@ -10,14 +10,14 @@ image:
   alt: Copyright © Lex Li. A bridge over the canal, Montreal.
 ---
 
-I just blogged about that I used [Zapier to trigger VSTS build]({% post_url 2018-8-5-ci-cd-pipeline-with-vsts-and-zapier %}), which works well. And I love it, except
+I just blogged about that I used [Zapier to trigger VSTS build]({% post_url 2018/2018-8-5-ci-cd-pipeline-with-vsts-and-zapier %}), which works well. And I love it, except
 
-* It seems to ask for too many permissions (both on VSTS/GitHub sides).
-* Such permissions are granted for a very long time (not a one time setup).
-* Its free plan of course has limitation.
+- It seems to ask for too many permissions (both on VSTS/GitHub sides).
+- Such permissions are granted for a very long time (not a one time setup).
+- Its free plan of course has limitation.
 <!--more-->
 
-I still remembered that [when I attempted to abort VSTS build]({% post_url 2018-8-5-how-to-abort-cancel-a-build-in-vsts %}), I read about how to call VSTS REST API in C#.
+I still remembered that [when I attempted to abort VSTS build]({% post_url 2018/2018-8-5-how-to-abort-cancel-a-build-in-vsts %}), I read about how to call VSTS REST API in C#.
 
 > In fact, the first revision of that abort tool was in C#.
 
@@ -37,7 +37,7 @@ Easy? Time to put them all together.
 1. Go to the GitHub repos you want to track, and add a web hook in them with the info you got in step 1.
 1. Modify the Azure Function, and use the following code snippet to trigger a build.
 
-``` csharp
+```csharp
 using System;
 using System.Net;
 using System.Net.Http;
@@ -73,7 +73,7 @@ public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, TraceW
             Console.WriteLine(responseBody);
         }
     }
-    
+
     return req.CreateResponse(HttpStatusCode.OK, "From Github:" + gitHubComment);
 }
 ```

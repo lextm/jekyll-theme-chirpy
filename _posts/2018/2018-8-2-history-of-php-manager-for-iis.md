@@ -11,7 +11,8 @@ image:
   alt: Copyright © Lex Li. Crossroad on rue Wellington, Montreal.
 ---
 
-> Ironically [I suggested people to avoid PHP Manager]({% post_url 2018-3-31-why-you-should-forget-php-manager-for-iis %}), but later took over the project.
+> Ironically [I suggested people to avoid PHP Manager]({% post_url 2018/2018-3-31-why-you-should-forget-php-manager-for-iis %}), but later took over the project.
+
 <!--more-->
 
 ## Overview of PHP on IIS
@@ -42,11 +43,11 @@ The releases from him were 1.0.x-1.2.1.
 
 There were many factors that made the situation tough for PHP Manager users,
 
-* PHP started to evolve fast. The 7.x releases came quickly and things started to age.
-* Windows started to release more often. New IIS releases (8.x and 10.x) were not quite well supported.
-* .NET Framework 4.x introduced breaking changes that also affected the old installers.
-* CodePlex shutdown took effect a few months ago, which closed down the home page for this project.
-* Other noticeable changes.
+- PHP started to evolve fast. The 7.x releases came quickly and things started to age.
+- Windows started to release more often. New IIS releases (8.x and 10.x) were not quite well supported.
+- .NET Framework 4.x introduced breaking changes that also affected the old installers.
+- CodePlex shutdown took effect a few months ago, which closed down the home page for this project.
+- Other noticeable changes.
 
 There were several attempts to help out the users, but they only provided temporary solutions, and [none aimed to revive the project](https://github.com/phpmanager/phpmanager/issues/1) and bring it to a healthy state.
 
@@ -58,11 +59,11 @@ There was an installer for 1.5.0, but it only aims for IIS 10.
 
 To fully take over the project and make it healthy again, I did the following,
 
-* Fork the code on GitHub.
-* Set up AppVeyor to compile the code and generate new installers.
-* Migrate the documentation to the new homepage.
-* Fix known issues.
-* Test on all supported platforms.
+- Fork the code on GitHub.
+- Set up AppVeyor to compile the code and generate new installers.
+- Migrate the documentation to the new homepage.
+- Fix known issues.
+- Test on all supported platforms.
 
 Currently the 2.0 Beta 1 release is still being worked on. An official release is expected by the end of August, 2018.
 

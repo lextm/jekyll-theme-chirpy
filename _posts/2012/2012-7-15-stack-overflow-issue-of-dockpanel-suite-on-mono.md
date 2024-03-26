@@ -6,22 +6,24 @@ tags: Mono DockPanel-Suite
 permalink: /stack-overflow-issue-of-dockpanel-suite-on-mono-514a0c896d98
 excerpt_separator: <!--more-->
 ---
+
 The issue information can be found at https://github.com/dockpanelsuite/dockpanelsuite/issues/16
 
-It was in May 2010 I first attempted to port DockPanel Suite to Mono, so as to [bring #SNMP to Linux]({% post_url 2010-5-2-dockpanel-suite-tip-5-we-can-go-mono %}) and any other operating systems supported by Mono.
+It was in May 2010 I first attempted to port DockPanel Suite to Mono, so as to [bring #SNMP to Linux]({% post_url 2010/2010-5-2-dockpanel-suite-tip-5-we-can-go-mono %}) and any other operating systems supported by Mono.
 
 But at that time I met two difficulties,
 
-* I could not find a way to let DPS switch to lite mode on Mono, while use full mode on .NET.
-* My apps crashed immediately once closed.
+- I could not find a way to let DPS switch to lite mode on Mono, while use full mode on .NET.
+- My apps crashed immediately once closed.
 
-Years later [I came across a patch]({% post_url 2012-2-17-dockpanel-suite-patch-to-support-lite-mode-on-mono %}) for the first one in February.
+Years later [I came across a patch]({% post_url 2012/2012-2-17-dockpanel-suite-patch-to-support-lite-mode-on-mono %}) for the first one in February.
 
 I should have found it earlier, right? But anyway this patch is now part of DPS 2.6 release.
 
 About the second, a workaround was found in 2010 that if all known DockContent objects are closed before disposal starts then the crash won't occur. This workaround has been used in #SNMP, but of course it is very inconvenient.
 
 From the bug report on GitHub you might find that how I attempted to locate the culprit.
+
 <!--more-->
 
 ## Initial Attempt

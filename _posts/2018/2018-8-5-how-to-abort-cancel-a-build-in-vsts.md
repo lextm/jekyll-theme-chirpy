@@ -10,7 +10,8 @@ image:
   alt: Copyright © Lex Li. A sunny day, Montreal.
 ---
 
-I wrote about [how to build a pipeline to host multiple Sphinx sites on Azure App Service]({% post_url 2018-8-5-ci-cd-pipeline-with-vsts-and-zapier %}) is changed.
+I wrote about [how to build a pipeline to host multiple Sphinx sites on Azure App Service]({% post_url 2018/2018-8-5-ci-cd-pipeline-with-vsts-and-zapier %}) is changed.
+
 <!--more-->
 
 ## Changes Detection
@@ -20,7 +21,7 @@ First we need to detect changes,
 1. git pull on all submodules to get new commits.
 1. Use a patch file in master repo to detect changes,
 
-``` batch
+```batch
 git checkout master
 git add -A
 git status | findstr "working tree clean"
@@ -40,9 +41,9 @@ Most importantly, we execute a PowerShell script to abort.
 
 Well, let's pause here, and go back to VSTS dashboard to review the status of different builds,
 
-* Some of them succeeded.
-* Some were cancelled in the middle by me.
-* Some failed due to various errors.
+- Some of them succeeded.
+- Some were cancelled in the middle by me.
+- Some failed due to various errors.
 
 So if we decide to abort a build (when nothing changes), what status should the build look like then?
 
@@ -52,7 +53,7 @@ Your answer to this question, in fact, decides what approach you should do next.
 
 This can be easily achieved, by using the following PowerShell script abort.ps1 ,
 
-``` powershell
+```powershell
 Write-Host "##vso[task.setvariable variable=agent.jobstatus;]canceled"
 Write-Host "##vso[task.complete result=Canceled;]DONE"
 ```
@@ -65,7 +66,7 @@ It simply tells the agent to cancel the task. Miserably, you notice that on dash
 
 It is rather simple to achieve, because you simply need to modify the batch file as
 
-``` batch
+```batch
 git checkout master
 git add -A
 git status | findstr "working tree clean"
@@ -90,6 +91,6 @@ Generally speaking, you need to create a special personal access token, add it t
 
 Once aborted, the build is showed as cancelled in VSTS dashboard, just like other builds you cancelled manually.
 
-Another remaining challenge is how to properly handle private repo in pipeline, for which I wrote [another post]({% post_url 2018-8-5-how-to-use-private-repos-as-submodules-in-vsts %}).
+Another remaining challenge is how to properly handle private repo in pipeline, for which I wrote [another post]({% post_url 2018/2018-8-5-how-to-use-private-repos-as-submodules-in-vsts %}).
 
 Stay tuned.

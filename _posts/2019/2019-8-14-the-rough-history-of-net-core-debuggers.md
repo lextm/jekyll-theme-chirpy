@@ -12,6 +12,7 @@ image:
 ---
 
 There are several .NET Core debuggers out there from different vendors, and this post covers the major ones and their stories.
+
 <!--more-->
 
 ## .NET Core Debugger from Microsoft, aka vsdbg
@@ -30,8 +31,8 @@ Luckily JetBrains was also famous for its technical excellence, so the engineers
 
 Since then, JetBrains has been able to continuously refine its own .NET Core debugger to implement more features. Recent achievements include but are not limited to,
 
-* Remote debugging was supported [since 2018.3](https://blog.jetbrains.com/dotnet/2018/11/29/remote-debugging-comes-rider-2018-3/).
-* Edit & Continue was supported [since 2019.1](https://blog.jetbrains.com/dotnet/2019/04/16/edit-continue-just-time-debugging-debugger-improvements-rider-2019-1/).
+- Remote debugging was supported [since 2018.3](https://blog.jetbrains.com/dotnet/2018/11/29/remote-debugging-comes-rider-2018-3/).
+- Edit & Continue was supported [since 2019.1](https://blog.jetbrains.com/dotnet/2019/04/16/edit-continue-just-time-debugging-debugger-improvements-rider-2019-1/).
 
 However, JetBrains .NET Core debugger is also proprietary, so only ships as part of the commercial IDE, Rider.
 
@@ -47,8 +48,8 @@ Compared to the debuggers from Microsoft/JetBrains, this open source debugger la
 
 ## Side Notes on MonoDevelop
 
-Visual Studio for Mac is built upon MonoDevelop. However, Microsoft does not license vsdbg to be used in MonoDevelop. That's why earlier this year I finished [the extension to enable .NET Core debugging in MonoDevelop with the Samsung debugger]({% post_url 2019-4-29-samsung-net-core-debugger-and-monodevelop %}).
+Visual Studio for Mac is built upon MonoDevelop. However, Microsoft does not license vsdbg to be used in MonoDevelop. That's why earlier this year I finished [the extension to enable .NET Core debugging in MonoDevelop with the Samsung debugger]({% post_url 2019/2019-4-29-samsung-net-core-debugger-and-monodevelop %}).
 
 There was a long inactive period on Samsung .NET Core debugger repo since April 2019 but later the project started to be active again.
 
-> Look for other interesting posts like this one? You can visit [the index page]({% post_url 2017-11-2-all-in-one-for-the-legends-of-net-materials %}).
+> Look for other interesting posts like this one? You can visit [the index page]({% post_url 2017/2017-11-2-all-in-one-for-the-legends-of-net-materials %}).

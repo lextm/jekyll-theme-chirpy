@@ -6,7 +6,8 @@ tags: IIS .NET
 excerpt_separator: <!--more-->
 ---
 
-[I blogged]({% post_url 2015-5-29-whats-microsoft-web-administration-and-the-horrible-facts-you-should-know %}) about `Microsoft.Web.Administration` a long while ago, but intentionally I left a small topic aside. However, it remains a misery sometimes painful to developers, so here comes a dedicated post.
+[I blogged]({% post_url 2015/2015-5-29-whats-microsoft-web-administration-and-the-horrible-facts-you-should-know %}) about `Microsoft.Web.Administration` a long while ago, but intentionally I left a small topic aside. However, it remains a misery sometimes painful to developers, so here comes a dedicated post.
+
 <!--more-->
 
 ## Version 7.0.0.0 in Global Assembly Cache
@@ -22,11 +23,11 @@ This 7.0.0.0 version appears in GAC, as long as you enable full IIS on this Wind
 
 The 7.0.0.0 version worked pretty fine for years, but suddenly things started to break. For example, if you don't force the reference in your project file to this specific version `7.0.0.0`, you might find that Visual Studio/MSBuild resolves a version of `7.9.0.0` from GAC instead.
 
-* Where does this version come from?
+- Where does this version come from?
 
   Well, it is part of IIS Express installation.
 
-* Does it bring any harm?
+- Does it bring any harm?
 
   This assembly by default reads/writes the IIS Express configuration file, so your code suddenly behaves differently (not against full IIS any more).
 

@@ -6,7 +6,9 @@ tags: Mono .NET
 permalink: /how-i-did-xunit-net-2-addin-for-monodevelop-xamarin-studio-c61029051407
 excerpt_separator: <!--more-->
 ---
-I started [my very first project](https://github.com/lextudio/codebeautifiercollection) to extend Borland Delphi/C#Builder. And then I created an AStyle addin for SharpDevelop, and then [an OpenCover addin]({% post_url 2012-7-25-opencover-addin-for-sharpdevelop %}). And a few months ago, I launched [an extension for Visual Studio Code for reStructuredText users]({% post_url 2015-11-28-dockpanel-suite-docs-site-restructuredtext-and-visual-studio-code %}). So I think except Eclipse/Visual Studio/IntelliJ IDEA, I have touched most of the IDE platforms. And today I finally enter the land of MonoDevelop/Xamarin Studio.
+
+I started [my very first project](https://github.com/lextudio/codebeautifiercollection) to extend Borland Delphi/C#Builder. And then I created an AStyle addin for SharpDevelop, and then [an OpenCover addin]({% post_url 2012/2012-7-25-opencover-addin-for-sharpdevelop %}). And a few months ago, I launched [an extension for Visual Studio Code for reStructuredText users]({% post_url 2015/2015-11-28-dockpanel-suite-docs-site-restructuredtext-and-visual-studio-code %}). So I think except Eclipse/Visual Studio/IntelliJ IDEA, I have touched most of the IDE platforms. And today I finally enter the land of MonoDevelop/Xamarin Studio.
+
 <!--more-->
 
 MonoDevelop started as a fork of SharpDevelop, and there is already an addin for xUnit.net 1.x. What I wanted to do initially, was to send [a pull request](https://github.com/xunit/xamarinstudio.xunit/pull/10) to the original author, Sergey Khabibullin.
@@ -22,6 +24,7 @@ If you review the code changes, you can see what I have done,
 The most tricky parts are as below.
 
 ## MonoDevelop on Ubuntu
+
 I might be wrong, but only when I run the project in MonoDevelop on Linux (Ubuntu), I can easily debug the addin by simply starting the debugger. That one click debugging experience does not work on Windows and OS X. I am not sure whether that's by design, but it really hurts beginners like me, although I do have Windows/OS X/Ubuntu. If a guy only has Windows or OS X and would like to contribute, he/she would be frustrated.
 
 (Updated: It is now possible to run Xamarin Studio 6 on Windows to debug the addin, which is cool.)

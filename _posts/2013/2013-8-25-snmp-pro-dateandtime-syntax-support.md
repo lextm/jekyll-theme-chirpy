@@ -6,7 +6,9 @@ tags: SNMP
 permalink: /snmp-pro-dateandtime-syntax-support-e99abc51bc2f
 excerpt_separator: <!--more-->
 ---
-Well, I blogged about syntax validation [in a previous post]({% post_url 2013-8-18-snmp-pro-syntax-validation-in-sharpsnmppro-mib %}), which should be one of the coolest features for SharpSnmpPro.Mib assembly. But there is an interesting story about that untold.
+
+Well, I blogged about syntax validation [in a previous post]({% post_url 2013/2013-8-18-snmp-pro-syntax-validation-in-sharpsnmppro-mib %}), which should be one of the coolest features for SharpSnmpPro.Mib assembly. But there is an interesting story about that untold.
+
 <!--more-->
 
 ## The Beginning of DateAndTime Support
@@ -21,7 +23,7 @@ Now five years passed, and we have syntax validation ready. Is it a good time no
 
 Assume we have such an entity defined in MIB document,
 
-``` text
+```text
 testEntity5 OBJECT-TYPE
 SYNTAX DateAndTime
 MAX-ACCESS read-only
@@ -34,7 +36,7 @@ and networking software."
 ::= { test 5 }
 ```
 
-We expect it can be properly understood by #SNMP Pro, so the following test case  is prepared,
+We expect it can be properly understood by #SNMP Pro, so the following test case is prepared,
 
 {% gist 6333534 %}
 

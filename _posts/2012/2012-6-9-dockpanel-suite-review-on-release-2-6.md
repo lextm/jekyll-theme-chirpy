@@ -6,15 +6,17 @@ tags: DockPanel-Suite
 permalink: /dockpanel-suite-review-on-release-2-6-4e5517d8c0b9
 excerpt_separator: <!--more-->
 ---
+
 DockPanel Suite 2.6 is now available in two places,
 
-* NuGet channel. You can learn about it from http://nuget.org
-* GitHub Downloads section, https://github.com/dockpanelsuite/dockpanelsuite/downloads
+- NuGet channel. You can learn about it from http://nuget.org
+- GitHub Downloads section, https://github.com/dockpanelsuite/dockpanelsuite/downloads
 
 Ryan and I will move on to release 2.7.
+
 <!--more-->
 
-Except what you can see from [2.6 release notes]({% post_url 2012-5-26-dockpanel-suite-release-2-6-is-coming-release-notes %}).
+Except what you can see from [2.6 release notes]({% post_url 2012/2012-5-26-dockpanel-suite-release-2-6-is-coming-release-notes %}).
 
 please check known issues here,
 

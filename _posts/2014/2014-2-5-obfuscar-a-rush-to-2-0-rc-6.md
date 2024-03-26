@@ -6,20 +6,22 @@ tags: .NET
 permalink: /obfuscar-a-rush-to-2-0-rc-6-c4eb72357d03
 excerpt_separator: <!--more-->
 ---
-[I blogged about RC 2]({% post_url 2013-8-24-obfuscar-slightly-upgraded-and-2-0-rc-2 %}) a long time ago. This post covers RC 6, which contains accumulated bug fixes and new features.
+
+[I blogged about RC 2]({% post_url 2013/2013-8-24-obfuscar-slightly-upgraded-and-2-0-rc-2 %}) a long time ago. This post covers RC 6, which contains accumulated bug fixes and new features.
+
 <!--more-->
 
 ## Inclusion Rules
 
-An important thing to notice is that Obfuscar only supports exclusion rules. That's because the original design follows this principle that everything should be obfuscated, unless it is excluded by a rule. The principle is simple but the real world is complicated. Thus, sometimes it is very difficult to write exclusion rules if you just want to exclude what you want. Thus, in RC 6 inclusion rules are added, which are named as Force*.
+An important thing to notice is that Obfuscar only supports exclusion rules. That's because the original design follows this principle that everything should be obfuscated, unless it is excluded by a rule. The principle is simple but the real world is complicated. Thus, sometimes it is very difficult to write exclusion rules if you just want to exclude what you want. Thus, in RC 6 inclusion rules are added, which are named as Force\*.
 
-If you know how to use the exclusion rules, Skip*, you should be quite familiar with the new inclusion rules.
+If you know how to use the exclusion rules, Skip\*, you should be quite familiar with the new inclusion rules.
 
 ## KeepPublicApi and HidePrivateApi
 
 If you don't want to write any rule but to achieve simplest obfuscation (all private/internal are striped out, and all public/protected remain), now you can use two new options,
 
-``` xml
+```xml
 <Var name="KeepPublicApi" value="true" />
 <Var name="HidePrivateApi" value="true" />
 ```

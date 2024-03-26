@@ -6,9 +6,11 @@ tags: .NET
 permalink: /update-on-crads-actionlist-1-2-1300b9afbd18
 excerpt_separator: <!--more-->
 ---
-You probably know that except working on #SNMP and DockPanel Suite, I am also [maintaining Crad's ActionList]({% post_url 2012-4-30-packaging-crad-s-actionlist-for-net-via-nuget %}).
+
+You probably know that except working on #SNMP and DockPanel Suite, I am also [maintaining Crad's ActionList]({% post_url 2012/2012-4-30-packaging-crad-s-actionlist-for-net-via-nuget %}).
 
 Today, I am happy to announce the availability of its 1.2 release. [The NuGet package](https://nuget.org/packages/ActionListWinForms/1.2.0.0) can be found here along with its release notes.
+
 <!--more-->
 
 But importantly this time you get better Visual Studio support if you execute this installer.

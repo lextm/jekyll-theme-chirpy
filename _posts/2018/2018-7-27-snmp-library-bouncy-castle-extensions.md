@@ -11,9 +11,10 @@ image:
 ---
 
 Microsoft decided to make a few encryption algorithms obsolete in .NET Core. Everyone knows they did this for good. But the crude fact is that many existing things unfortunately depend on such algorithms, whether you like it or not.
+
 <!--more-->
 
-I [documented the missing pieces]({% post_url 2017-12-23-misery-around-platformnotsupportedexception %}) for #SNMP last year, and at that moment I had to throw `PlatformNotSupportedException`.
+I [documented the missing pieces]({% post_url 2017/2017-12-23-misery-around-platformnotsupportedexception %}) for #SNMP last year, and at that moment I had to throw `PlatformNotSupportedException`.
 
 Some changes just landed on the code base, as Matt Zinkevicius [suggested and helped implement a few AES privacy providers](https://github.com/lextudio/sharpsnmplib/pull/81) based on the open source Bouncy Castle project.
 
@@ -25,4 +26,4 @@ Interestingly, I found it pretty easy to write a DES privacy provider based on B
 
 Stay tuned.
 
-> Update: Due to a support policy change, Bouncy Castle based extensions have been moved to a separate repo. The NuGet packages are discontinued. More details can be found in [this post]({% post_url 2019-3-2-snmp-library-11-0-and-above %}).
+> Update: Due to a support policy change, Bouncy Castle based extensions have been moved to a separate repo. The NuGet packages are discontinued. More details can be found in [this post]({% post_url 2019/2019-3-2-snmp-library-11-0-and-above %}).

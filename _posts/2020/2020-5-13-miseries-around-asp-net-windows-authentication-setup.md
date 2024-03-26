@@ -11,18 +11,21 @@ image:
 ---
 
 ASP.NET developers should have some IIS knowledge. But how much can be enough to fully understand the concepts of Windows authentication? Well, based on the questions from Stack Overflow, I bet the answer is quite lot. A complex topic like this requires extensive knowledge beyond ASP.NET/IIS, and if you don't fully understand some Windows/AD processes behind the scene puzzles are everywhere. This post might not be able to cover everything, but can leave you hints on what to explore further.
+
 <!--more-->
+
 ## ASP.NET Settings
 
 Surprisingly it is simple to set on ASP.NET side that you want to enable Windows authentication, as it is just merely a piece of setting in your `web.config`,
 
-``` xml
+```xml
 <configuration>
  <system.web>
   <authentication mode="Windows"/>
  </system.web>
 </configuration>
 ```
+
 So, as long as IIS gives ASP.NET runtime a valid Windows user, that user's information will be wrapped up and served to properties such as [`Page.User`](https://docs.microsoft.com/dotnet/api/system.web.ui.page.user?view=netframework-4.8), [`Controller.User`](https://docs.microsoft.com/dotnet/api/system.web.mvc.controller.user?view=aspnet-mvc-5.2) and [`ApiController.User`](https://docs.microsoft.com/dotnet/api/system.web.http.apicontroller.user?view=aspnetcore-2.2).
 
 ## IIS Settings
@@ -33,7 +36,7 @@ OK, now most ASP.NET developers should move on to IIS (or IIS Express), as [the 
 
 So finally on IIS, only Windows authentication is enabled in `applicationHost.config`,
 
-``` xml
+```xml
 <configuration>
  <system.webServer>
   <security>
@@ -54,7 +57,7 @@ What if we didn't enable Windows authentication on IIS, but use the default sett
 
 > Equivalent to
 
-``` xml
+```xml
 <configuration>
  <system.webServer>
   <security>
@@ -77,4 +80,4 @@ So what happens if we disable all IIS authentication methods and enable digest a
 
 ## Site Notes
 
-You might also revisit what is impersonation from [my old post]({% post_url 2019-7-1-the-basic-facts-about-iis-asp-net-process-thread-identities %}).
+You might also revisit what is impersonation from [my old post]({% post_url 2019/2019-7-1-the-basic-facts-about-iis-asp-net-process-thread-identities %}).

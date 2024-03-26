@@ -6,11 +6,13 @@ tags: .NET Visual-Studio
 permalink: /how-to-install-custom-controls-to-visual-studio-part-ii-cff4b3227ed3
 excerpt_separator: <!--more-->
 ---
-> [Part I is here]({% post_url 2012-8-11-how-to-install-custom-controls-to-visual-studio-part-i %})
+
+> [Part I is here]({% post_url 2012/2012-8-11-how-to-install-custom-controls-to-visual-studio-part-i %})
 
 In part I I mentioned all you need to install your custom WinForms controls to Visual Studio 2008.
 
 I thought it would be challenging to add support for Visual Studio 2010 and 2012. However, I was fortunately wrong.
+
 <!--more-->
 
 If you have done the basic integration for .NET 4 AssemblyFoldersEx, then all you need is an updated Toolbox.exe that supports other Visual Studio versions, which is available in

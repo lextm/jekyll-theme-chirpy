@@ -10,23 +10,24 @@ image:
   alt: Copyright © Lex Li. Trees near the old port, Montreal.
 ---
 
-I used to host documentation sites on Read The Docs, and [wrote about the details in previous posts]({% post_url 2015-11-28-dockpanel-suite-docs-site-restructuredtext-and-visual-studio-code %}). But finally it came to an end, as over the weekend I moved all such sites to my own Azure App Service. So this post shows the details behind.
+I used to host documentation sites on Read The Docs, and [wrote about the details in previous posts]({% post_url 2015/2015-11-28-dockpanel-suite-docs-site-restructuredtext-and-visual-studio-code %}). But finally it came to an end, as over the weekend I moved all such sites to my own Azure App Service. So this post shows the details behind.
+
 <!--more-->
 
 ## Self Hosting Advantages vs. Disadvantages
 
 The advantages are clear,
 
-* I fully own the infrastructure so anything is under control.
-* No more advertisement from Read The Docs (but mine).
-* Further customization can be done.
+- I fully own the infrastructure so anything is under control.
+- No more advertisement from Read The Docs (but mine).
+- Further customization can be done.
 
 The disadvantages are also obvious,
 
-* No more CI/CD pipeline. (Later I built mine using VSTS and Zapier.)
-* No more multi-lingual support. (I don't need them right now.)
-* GitHub integration is lost.
-* Google Analytics integration is lost.
+- No more CI/CD pipeline. (Later I built mine using VSTS and Zapier.)
+- No more multi-lingual support. (I don't need them right now.)
+- GitHub integration is lost.
+- Google Analytics integration is lost.
 
 ## Fixing The Broken Parts
 
@@ -50,7 +51,7 @@ Now you should notice the web site works, but old links not. That's because Read
 
 I created two rules in my case,
 
-``` xml
+```xml
 <rule name="removeEn" stopProcessing="true">
   <match url="^(en|zh)/latest/(.*)" />
     <action type="Redirect" redirectType="Permanent" url="http://{HTTP_HOST}/{R:2}" />
@@ -63,6 +64,6 @@ I created two rules in my case,
 
 If you are familiar with IIS URL Rewriting module, easily you know what it means. I didn't redirect to HTTPS, as some sites do not work with HTTPS yet. I have another HTTPS redirection rule for HTTPS enabled sites, which I don't show here.
 
-OK. I wrote [another post on how to set up CI/CD pipeline with VSTS]({% post_url 2018-8-5-ci-cd-pipeline-with-vsts-and-zapier %}).
+OK. I wrote [another post on how to set up CI/CD pipeline with VSTS]({% post_url 2018/2018-8-5-ci-cd-pipeline-with-vsts-and-zapier %}).
 
 Stay tuned.

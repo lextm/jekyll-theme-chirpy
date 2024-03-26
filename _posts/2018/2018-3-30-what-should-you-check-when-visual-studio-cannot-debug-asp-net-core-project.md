@@ -12,9 +12,10 @@ image:
 
 Debugging is very important a process for developers to learn more about the development environment and the code base. So frustration can be a lot if suddenly your development tool fails to debug.
 
-I [documented a few typical Visual Studio and IIS Express related issues]({% post_url 2015-11-5-jexus-manager-secrets-behind-visual-studio-iis-express-integration %}) that can prevent debugging from working. But you already noticed that they were about ASP.NET 4.x projects, and do not apply to ASP.NET Core projects.
+I [documented a few typical Visual Studio and IIS Express related issues]({% post_url 2015/2015-11-5-jexus-manager-secrets-behind-visual-studio-iis-express-integration %}) that can prevent debugging from working. But you already noticed that they were about ASP.NET 4.x projects, and do not apply to ASP.NET Core projects.
 
-I [wrote about ASP.NET Core and Visual Studio once]({% post_url 2017-6-5-how-visual-studio-launches-iis-express-to-debug-asp-net-core-apps %}). However, I didn't reveal enough on all the issues you might hit. So this post would serve the missing pieces.
+I [wrote about ASP.NET Core and Visual Studio once]({% post_url 2017/2017-6-5-how-visual-studio-launches-iis-express-to-debug-asp-net-core-apps %}). However, I didn't reveal enough on all the issues you might hit. So this post would serve the missing pieces.
+
 <!--more-->
 
 ## Unable to connect to web server IIS Express
@@ -28,7 +29,7 @@ Horrible, isn't it? How should we find out the cause of such an error when the m
 
 Wait a minute, and it does say 'IIS Express', a very special term that might be useful later. Correct, if we search for the string "IIS Express" (don't forget the space in between) in the whole solution, we can easily locate a few spots,
 
-``` text
+```text
     Find all "IIS Express", Subfolders, Find Results 1, Entire Solution, ""
 
     C:\Users\lextm\source\repos\mvccoretest\mvccoretest\Properties\launchSettings.json(11): "IIS Express": {
@@ -54,46 +55,46 @@ Now back to the error message. When it says it was "Unable to connect to web ser
 
 Read `launchSettings.json` once again, and we can see
 
-``` json
+```json
 {
-    "iisSettings": {
-        "windowsAuthentication": false,
-        "anonymousAuthentication": true,
-        "iisExpress": {
-            "applicationUrl": "http://localhost:49875/",
-            "sslPort": 0
-        }
-    },
-    "profiles": {
-        "IIS Express": {
-            "commandName": "IISExpress",
-            "launchBrowser": true,
-            "environmentVariables": {
-                "ASPNETCORE_ENVIRONMENT": "Development"
-            }
-        },
-        "mvccoretest": {
-            "commandName": "Project",
-            "launchBrowser": true,
-            "environmentVariables": {
-                "ASPNETCORE_ENVIRONMENT": "Development"
-            },
-            "applicationUrl": "http://localhost:49876/"
-        }
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:49875/",
+      "sslPort": 0
     }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "mvccoretest": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:49876/"
+    }
+  }
 }
 ```
 
 Right. It does have a section called "iisSettings", and that's exactly where the desired settings are,
 
-* applicationUrl: "http://localhost:49875/"
-* sslPort: 0
+- applicationUrl: "http://localhost:49875/"
+- sslPort: 0
 
 The zero value of `sslPort` means Visual Studio expects to launch an HTTP site, and the URL should be `http://localhost:49875`.
 
 Time to jump to `applicationhost.config` and great, we spot the cause in just a minute,
 
-``` xml
+```xml
 <site name="mvccoretest" id="2">
     <application path="/" applicationPool="Clr4IntegratedAppPool">
         <virtualDirectory path="/" physicalPath="C:\Users\lextm\source\repos\mvccoretest\mvccoretest" />
@@ -112,33 +113,33 @@ Got it? The site mapping to this project in fact has no binding that would accep
 
 OK. Now let's change `launchSettings.json` to work on HTTPS,
 
-``` json
+```json
 {
-    "iisSettings": {
-        "windowsAuthentication": false,
-        "anonymousAuthentication": true,
-        "iisExpress": {
-            "applicationUrl": "http://localhost:49875/",
-            "sslPort": 44322
-        }
-    },
-    "profiles": {
-        "IIS Express": {
-            "commandName": "IISExpress",
-            "launchBrowser": true,
-            "environmentVariables": {
-                "ASPNETCORE_ENVIRONMENT": "Development"
-            }
-        },
-        "mvccoretest": {
-            "commandName": "Project",
-            "launchBrowser": true,
-            "environmentVariables": {
-                "ASPNETCORE_ENVIRONMENT": "Development"
-            },
-            "applicationUrl": "http://localhost:49876/"
-        }
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:49875/",
+      "sslPort": 44322
     }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "mvccoretest": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:49876/"
+    }
+  }
 }
 ```
 
@@ -146,7 +147,7 @@ I change `sslPort` to 44322, so the site should be accessed via `https://localho
 
 Then I intentionally break `applicationhost.config` by changing it to,
 
-``` xml
+```xml
 <site name="mvccoretest" id="2">
     <application path="/" applicationPool="Clr4IntegratedAppPool">
         <virtualDirectory path="/" physicalPath="C:\Users\lextm\source\repos\mvccoretest\mvccoretest" />

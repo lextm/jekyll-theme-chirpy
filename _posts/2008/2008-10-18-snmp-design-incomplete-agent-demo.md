@@ -6,9 +6,11 @@ tags: SNMP
 permalink: /snmp-design-incomplete-agent-demo-5550acc8f1e4
 excerpt_separator: <!--more-->
 ---
-> Update: This post is obsolete. For #SNMP 6+, please read [this new post]({% post_url 2010-11-14-honeycell-drops-snmp-pipeline-and-our-agent-demo %}).
+
+> Update: This post is obsolete. For #SNMP 6+, please read [this new post]({% post_url 2010/2010-11-14-honeycell-drops-snmp-pipeline-and-our-agent-demo %}).
 
 I started to increase agent side support in #SNMP, but soon I found that I could not do that fast. It is really a big topic. But I owe everyone who voted on the poll a detailed post, so here comes it.
+
 <!--more-->
 
 I am now guiding you to create a WinForms application that can simply handle one SNMP request as an SNMP agent. You may follow the steps to see how many pieces are still missing in the map. By the way, if you are interested in this field and want to contribute, drop me a comment so I can contact you.
@@ -35,7 +37,7 @@ So the simplest UI is done.
 
 So now let's see how to bind event handlers. The Start button must do this,
 
-``` csharp
+```csharp
 private void btnStart_Click(object sender, EventArgs e)
 {
     agent1.Start(161);
@@ -44,7 +46,7 @@ private void btnStart_Click(object sender, EventArgs e)
 
 while the Stop button does this,
 
-``` csharp
+```csharp
 private void btnStop_Click(object sender, EventArgs e)
 {
     agent1.Stop();
@@ -57,7 +59,7 @@ And the hardest part is the agent related. Thus, I handle the GET requests here 
 
 This is the simplest GET request handler I can think of,
 
-``` csharp
+```csharp
 private void agent1_GetRequestReceived(object sender, Lextm.SharpSnmpLib.GetRequestReceivedEventArgs e)
 {
     GetRequestMessage message = e.Request;
@@ -69,7 +71,7 @@ private void agent1_GetRequestReceived(object sender, Lextm.SharpSnmpLib.GetRequ
 
 Now I will show you how to response to a simple request. Modify GetRequestReceived handler like this,
 
-``` csharp
+```csharp
 private void agent1_GetRequestReceived(object sender, Lextm.SharpSnmpLib.GetRequestReceivedEventArgs e)
 {
     GetRequestMessage message = e.Request;
@@ -93,11 +95,11 @@ private static ObjectIdentifier sysDescr = new ObjectIdentifier("1.3.6.1.2.1.1.1
 
 In this way, AgentDemo.exe should be able to reply simple requests about its system description.
 
-You can also send out INFORM or TRAP messages by calling Agent.Send* static methods to SNMP managers.
+You can also send out INFORM or TRAP messages by calling Agent.Send\* static methods to SNMP managers.
 
 Note: You may find this code cannot compile even if latest source code is used. Sorry, you have to add the following code to GetRequestMessage.cs,
 
-``` csharp
+```csharp
 ///
 /// Version.
 ///
@@ -127,8 +129,8 @@ public OctetString Community
 
 Although this small demo works, I cannot say #SNMP can be used to develop agents. There are serious problems,
 
-* There is no built-in support to store managed objects in #SNMP, so you have to store them yourself.
-* It is not easy to query these objects and generate proper response messages. You have to write a lot of code to realize the queries and message generation.
-* If you need to manage a lot of objects, there is no support to generate code from MIB documents for you like other commercial libraries.
+- There is no built-in support to store managed objects in #SNMP, so you have to store them yourself.
+- It is not easy to query these objects and generate proper response messages. You have to write a lot of code to realize the queries and message generation.
+- If you need to manage a lot of objects, there is no support to generate code from MIB documents for you like other commercial libraries.
 
 It takes us a long way to get here (wow, six months has passed), but more work is ahead.

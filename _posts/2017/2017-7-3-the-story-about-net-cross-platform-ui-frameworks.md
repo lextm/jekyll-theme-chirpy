@@ -6,22 +6,25 @@ tags: Visual-Studio .NET
 permalink: /the-story-about-net-cross-platform-ui-frameworks-dd4a9433d0ea
 excerpt_separator: <!--more-->
 ---
+
 > Disclaimer: All contents are based on my personal observation. Please leave a comment if you find anything incorrect, and I will revise it often.
 
 > Current version was written on Dec 9, 2023.
 
 There are tons of UI frameworks to choose from if you are going to develop a cross platform GUI application in .NET. This post tries to list their pros and cons for your reference.
+
 <!--more-->
 
 ## Native Bindings
+
 Today we can develop cross platform applications using C#, and share non-UI code easily. This has been the best approach so far, as our projects can explore all native controls and third party controls to achieve full OS integration.
 
 > By saying "full OS integration", I mean our apps have full access to system standard controls, such as buttons, check boxes and so on. More examples are,
 >
-> * Windows system tray
-> * Windows jump lists
-> * Windows system themes
-> * iOS native scrolling
+> - Windows system tray
+> - Windows jump lists
+> - Windows system themes
+> - iOS native scrolling
 >
 > Most importantly, other apps on the same OS are written using the same set of controls, which allows our apps to blend in naturally, instead of being aliens.
 >
@@ -29,11 +32,11 @@ Today we can develop cross platform applications using C#, and share non-UI code
 
 Below are the native UI frameworks for C# developers,
 
-* Windows: Windows Forms (note 1).
-* macOS: Xamarin.Mac (wrapper over Cocoa) (note 2).
-* Linux: GTK# (wrapper over GTK+) (note 3).
-* iOS: Xamarin.iOS (wrapper over Cocoa Touch).
-* Android: Xamarin.Android (wrapper over Android UI).
+- Windows: Windows Forms (note 1).
+- macOS: Xamarin.Mac (wrapper over Cocoa) (note 2).
+- Linux: GTK# (wrapper over GTK+) (note 3).
+- iOS: Xamarin.iOS (wrapper over Cocoa Touch).
+- Android: Xamarin.Android (wrapper over Android UI).
 
 > A few notes,
 >
@@ -45,25 +48,26 @@ Below are the native UI frameworks for C# developers,
 
 Most projects choose to use this approach, such as
 
-* [NI LabView](http://www.ni.com/en-us/shop/labview.html) uses Xamarin.iOS on iOS, and Windows Forms (not quite sure) on Windows.
-* [Plastic SCM](https://www.plasticscm.com/) once used GTK# on Linux, Xamarin.Mac on macOS, and Windows Forms on Windows (till they announced the new GUI based on Avalonia in Feb 2022).
-* [iCircuit](http://icircuitapp.com/) uses Xamarin.Mac on macOS, Xamarin.iOS on iOS, Xamarin.Android on Android, and what Microsoft offers on Windows and Windows Phone.
+- [NI LabView](http://www.ni.com/en-us/shop/labview.html) uses Xamarin.iOS on iOS, and Windows Forms (not quite sure) on Windows.
+- [Plastic SCM](https://www.plasticscm.com/) once used GTK# on Linux, Xamarin.Mac on macOS, and Windows Forms on Windows (till they announced the new GUI based on Avalonia in Feb 2022).
+- [iCircuit](http://icircuitapp.com/) uses Xamarin.Mac on macOS, Xamarin.iOS on iOS, Xamarin.Android on Android, and what Microsoft offers on Windows and Windows Phone.
 
 ## Cross Platform Frameworks
+
 But some of us do hope for cross platform UI frameworks. So this post shows what has been attempted. Roughly speaking, they go three approaches,
 
-* Full custom rendering and native control emulating.
-* Native on some OS and emulating on others.
-* Native control mapping.
+- Full custom rendering and native control emulating.
+- Native on some OS and emulating on others.
+- Native control mapping.
 
 ### Unity/MonoGame
 
-|          | Comment |
-| :------- | :------ |
-| Approach | Full custom rendering. |
-| Supported Platforms | Desktop and mobile (and more, like game consoles) |
-| OS Native Look and Feel | Almost none. |
-| Third Party Controls | Some |
+|                         | Comment                                           |
+| :---------------------- | :------------------------------------------------ |
+| Approach                | Full custom rendering.                            |
+| Supported Platforms     | Desktop and mobile (and more, like game consoles) |
+| OS Native Look and Feel | Almost none.                                      |
+| Third Party Controls    | Some                                              |
 
 If you are OK to fully draw all controls, Unity and MonoGame already supports most of the platforms and you can use them to build cross platform apps.
 
@@ -73,12 +77,12 @@ Of course, that works fine for games, but obviously not all applications. Your a
 
 ### GTK#
 
-|          | Comment      |
-| -------- | -------------|
-| Approach | Native on Linux, emulating on others. |
-| Supported Platforms | Desktop and mobile (and more, like game consoles) |
-| OS Native Look and Feel | Linux only. |
-| Third Party Controls | Not too many. |
+|                         | Comment                                           |
+| ----------------------- | ------------------------------------------------- |
+| Approach                | Native on Linux, emulating on others.             |
+| Supported Platforms     | Desktop and mobile (and more, like game consoles) |
+| OS Native Look and Feel | Linux only.                                       |
+| Third Party Controls    | Not too many.                                     |
 
 GTK has been a portable framework to build desktop apps. Thus, its C# binding GTK# enables cross platform apps.
 
@@ -90,12 +94,12 @@ Mono's GTK# wrapper is GTK 2 compatible and not yet upgraded to support GTK 3. T
 
 ### Windows Forms
 
-|          | Comment      |
-| -------- | -------------|
-| Approach | Native on Windows, emulating on others. |
-| Supported Platforms | Desktop |
-| OS Native Look and Feel | Windows only. |
-| Third Party Controls | Many on Windows. |
+|                         | Comment                                 |
+| ----------------------- | --------------------------------------- |
+| Approach                | Native on Windows, emulating on others. |
+| Supported Platforms     | Desktop                                 |
+| OS Native Look and Feel | Windows only.                           |
+| Third Party Controls    | Many on Windows.                        |
 
 Windows Forms works for Windows (including Windows CE, though no serious interest on that now). Mono has a clone of Windows Forms, and some projects used that to port .NET Framework Windows Forms apps to macOS and Linux. So, it sounds like a cross platform framework candidate.
 
@@ -115,12 +119,12 @@ At least Windows Forms is not considered a cross platform option by Microsoft, a
 
 ### WPF/Avalonia/Avalonia XPF/UWP/WinUI
 
-|          | Comment      |
-| -------- | -------------|
-| Approach | Full Custom Rendering. |
-| Supported Platforms | Desktop (and possibly mobile) |
-| OS Native Look and Feel | Windows only. |
-| Third Party Controls | Many on Windows. |
+|                         | Comment                       |
+| ----------------------- | ----------------------------- |
+| Approach                | Full Custom Rendering.        |
+| Supported Platforms     | Desktop (and possibly mobile) |
+| OS Native Look and Feel | Windows only.                 |
+| Third Party Controls    | Many on Windows.              |
 
 Similar to Unity/MonoGame, WPF internally renders everything on its own, so technically speaking it can go cross platform.
 
@@ -146,12 +150,12 @@ With such a solid foundation, Avalonia team decided in Feb 2023 to release [a tr
 
 ### Xamarin.Forms/MAUI
 
-|          | Comment      |
-| -------- | -------------|
-| Approach | Native control mapping. |
-| Supported Platforms | Mobile and desktop. |
-| OS Native Look and Feel | Always. |
-| Third Party Controls | Growing. |
+|                         | Comment                 |
+| ----------------------- | ----------------------- |
+| Approach                | Native control mapping. |
+| Supported Platforms     | Mobile and desktop.     |
+| OS Native Look and Feel | Always.                 |
+| Third Party Controls    | Growing.                |
 
 Xamarin.Forms was invented for mobile platforms initially, and recently starts to expand its landscape to desktop, macOS/WPF/GTK# backends.
 
@@ -163,11 +167,11 @@ You should notice that initially it was designed for mobile apps. Currently I am
 
 Quite a lot of third party vendors are now offering Xamarin.Forms controls, so that you can build Line-of-Business apps efficiently,
 
-* [ComponentOne](https://www.componentone.com/Xamarin/)
-* [Telerik](http://www.telerik.com/xamarin-ui-2)
-* [Synfusion](https://www.syncfusion.com/products/xamarin)
-* [Infragistics](https://www.infragistics.com/products/xamarin-forms)
-* [DevExpress](https://www.devexpress.com/products/xamarin/)
+- [ComponentOne](https://www.componentone.com/Xamarin/)
+- [Telerik](http://www.telerik.com/xamarin-ui-2)
+- [Synfusion](https://www.syncfusion.com/products/xamarin)
+- [Infragistics](https://www.infragistics.com/products/xamarin-forms)
+- [DevExpress](https://www.devexpress.com/products/xamarin/)
 
 This momentum also makes it appealing to use this framework.
 
@@ -175,19 +179,19 @@ Microsoft announced [MAUI](https://devblogs.microsoft.com/dotnet/introducing-net
 
 ### Uno Platform
 
-|          | Comment      |
-| -------- | -------------|
-| Approach | Native control mapping.* |
-| Supported Platforms | Mobile, web, and desktop. |
-| OS Native Look and Feel | Always.* |
-| Third Party Controls | Growing. |
+|                         | Comment                   |
+| ----------------------- | ------------------------- |
+| Approach                | Native control mapping.\* |
+| Supported Platforms     | Mobile, web, and desktop. |
+| OS Native Look and Feel | Always.\*                 |
+| Third Party Controls    | Growing.                  |
 
 This is [a newest player](https://platform.uno/) in the field (2018 May), which is quite similar to Xamarin.Forms. However, its designers made a few important choices to make the final approach unique,
 
-* Uno Platform chose UWP/WinUI as its starting point, so all basic APIs mirror what Microsoft UWP/WinUI offers.
-* It then utilizes Xamarin or WebAssembly to implement those APIs on different operating systems (and the web).
-* Its XAML support is complete (while Xamarin.Forms is catching up).
-* It also supports native controls, but does not use the "renderers" approach Xamarin.Forms chose.
+- Uno Platform chose UWP/WinUI as its starting point, so all basic APIs mirror what Microsoft UWP/WinUI offers.
+- It then utilizes Xamarin or WebAssembly to implement those APIs on different operating systems (and the web).
+- Its XAML support is complete (while Xamarin.Forms is catching up).
+- It also supports native controls, but does not use the "renderers" approach Xamarin.Forms chose.
 
 > Uno does support fully custom rendering upon Skia in its latest release.
 
@@ -199,12 +203,12 @@ Third party control vendor Syncfusion announced its [collaboration](https://www.
 
 ### xwt/Eto.Forms
 
-|          | Comment      |
-| -------- | -------------|
-| Approach | Native control mapping. |
-| Supported Platforms | Desktop (and possibly mobile). |
-| OS Native Look and Feel | Always. |
-| Third Party Controls | Not many. |
+|                         | Comment                        |
+| ----------------------- | ------------------------------ |
+| Approach                | Native control mapping.        |
+| Supported Platforms     | Desktop (and possibly mobile). |
+| OS Native Look and Feel | Always.                        |
+| Third Party Controls    | Not many.                      |
 
 Both are desktop UI frameworks using Xamarin.Forms approach (native control mapping).
 
@@ -217,12 +221,13 @@ Whether the two frameworks can grow as mature as Xamarin.Forms is uncertain. The
 > I don't do much Qt programming, so my knowledge of this cross platform framework is limited.
 >
 > It is also not quite well supported on .NET/Mono due to the following challenges,
-> * Its API is C++ based so very hard to wrap in C#/.NET. That's why libraries such as QtSharp cannot map all the functionality.
-> * I cannot comment much on its rendering effect, but it seems to use custom rendering.
-> * Interestingly that Qt guys do develop their own markup language called QML.
-> * You might use QtSharp to develop a Qt app, and a new project called [Qml.Net](https://github.com/pauldotknopf/Qml.Net) is another option.
+>
+> - Its API is C++ based so very hard to wrap in C#/.NET. That's why libraries such as QtSharp cannot map all the functionality.
+> - I cannot comment much on its rendering effect, but it seems to use custom rendering.
+> - Interestingly that Qt guys do develop their own markup language called QML.
+> - You might use QtSharp to develop a Qt app, and a new project called [Qml.Net](https://github.com/pauldotknopf/Qml.Net) is another option.
 
-> Look for other interesting posts like this one? You can visit [the index page]({% post_url 2017-11-2-all-in-one-for-the-legends-of-net-materials %}).
+> Look for other interesting posts like this one? You can visit [the index page]({% post_url 2017/2017-11-2-all-in-one-for-the-legends-of-net-materials %}).
 
 > **Some Incomplete Information on Blazor/Electron**
 >

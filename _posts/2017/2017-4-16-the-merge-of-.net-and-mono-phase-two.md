@@ -7,18 +7,19 @@ permalink: /the-merge-of-net-and-mono-phase-two-6442efc11331
 excerpt_separator: <!--more-->
 ---
 
-> You can find [phase one post here]({% post_url 2017-4-16-the-merge-of-.net-and-mono-phase-one %}).
+> You can find [phase one post here]({% post_url 2017/2017-4-16-the-merge-of-.net-and-mono-phase-one %}).
 
 The relationship between Mono and Microsoft .NET teams have been closer and closer in the past few years. We can see Miguel de Icaza showed his appreciation multiple times at different circumstances (C# compiler async/await support, PCL support, and BCL documentation for example).
+
 <!--more-->
 
 If we roughly dissemble Mono to modules, then we can see the following,
 
-* Mono CLR
-* Mono BCL
-* Mono C# Compiler
-* xbuild
-* Other libraries
+- Mono CLR
+- Mono BCL
+- Mono C# Compiler
+- xbuild
+- Other libraries
 
 Based on the public information from different Mono sources, we can see the following actions are being executed,
 

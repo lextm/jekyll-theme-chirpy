@@ -6,17 +6,20 @@ tags: DockPanel-Suite
 permalink: /dockpanel-suite-a-summary-on-visual-studio-2012-light-theme-a8391c84c769
 excerpt_separator: <!--more-->
 ---
+
 Previously I have posted about the new theme several times, such as
 
-* [Overall experience]({% post_url 2013-3-22-dockpanel-suite-design-the-theming-experience %})
-* [How to write new themes]({% post_url 2013-3-17-dockpanel-suite-how-to-write-a-new-theme %})
+- [Overall experience]({% post_url 2013/2013-3-22-dockpanel-suite-design-the-theming-experience %})
+- [How to write new themes]({% post_url 2013/2013-3-17-dockpanel-suite-how-to-write-a-new-theme %})
 
 Today I made a few more changes to the theme and I believe it is a stable milestone. So this post will serve as a summary of all the works on this new theme.
 
 Visual Studio 2012 Light theme can be seen as one of the biggest features we will introduce in DockPanel Suite upcoming 3.0 release. The story of it is very interesting.
+
 <!--more-->
 
 ## Initial Patches Received at GitHub
+
 8 months ago @wvdvegt posted an issue on GitHub asking whether anyone has a new skin for DPS. At that time, both Ryan and I were busy working on other tasks, so we could not spare time on this specific one.
 
 3 months ago, we suddenly received a lot of patches from another guy (I don't want to name him/her and you will see why). I was really interested in the patches, as they look fantastic and we could finally turn DPS to look modern and awesome.
@@ -26,6 +29,7 @@ Well, it is strange that when we tried to discuss with the submitter so as to be
 I had to create a separate branch to maintain the patches and started my own hacking on it from time to time.
 
 ## The Real Patch Owner at CodePlex
+
 I frequently perform Internet search of DockPanel Suite, in order to understand whether our fork right now becomes popular enough. It was a month ago that I suddenly noticed a CodePlex project called DockPanel Suite VS2012 Look. I began to wonder if I had discovered where the patches originally come from. I sent a mail to its author
 
 > Hi,
@@ -95,6 +99,7 @@ He pointed out two new issues and confirmed that our changes look good,
 I would like to thank him again, as without his initial works or his review we could not get so far on this important feature.
 
 ## Close Button on Document Tabs (Updated: May 5)
+
 Well, I did not expect that in such a short period of time I finished the last important bit of VS2012 Light theme, the close button on document tabs.
 
 It was more than 2 years ago that a guy (paralleloeter) [posted on SF.net his patches](http://sourceforge.net/p/dockpanelsuite/discussion/402316/thread/c45070d3) for DPS to add close button on tabs.
@@ -110,10 +115,11 @@ A few hours ago, I was finally passionate enough to continue working on this pat
 To avoid flickers when either the tab color or the close button state changes, the calls to Invalidate has also been minimized.
 
 ## Dock Indicators (Updated: May 11)
+
 In previous alpha builds the dock indicators for VS2012 theme are still those for VS2005. This has been a major problem but we could not do much due to the following technical challenges,
 
-* VS 2012 dock indicators use transparency, which cannot be simulated by DPS using the current PictureBox based image containers. One possible approach is to use transparency enabled controls (which I did for M8 Theme Builder project), but I did not yet have time to fully explore in that area.
-* VS 2012 adds some new dock indicator elements (in fact since VS 2010), such as the nine element dock indicator. This has no counter part in DPS, as DPS only implements a five element dock indicator to simulate VS 2005.
+- VS 2012 dock indicators use transparency, which cannot be simulated by DPS using the current PictureBox based image containers. One possible approach is to use transparency enabled controls (which I did for M8 Theme Builder project), but I did not yet have time to fully explore in that area.
+- VS 2012 adds some new dock indicator elements (in fact since VS 2010), such as the nine element dock indicator. This has no counter part in DPS, as DPS only implements a five element dock indicator to simulate VS 2005.
 
 Thus, it is really not easy to implement all required elements for VS 2012 theme in a short period of time without performing heavy refactoring.
 
@@ -125,6 +131,7 @@ Luckily today I spared several hours in this field, and did some initial work
 In the near future I might investigate on how to tune the architecture so as to support the new VS 2012 elements and hope we can finally support the nine-element indicator.
 
 ## Final Words
+
 Please download and try out the latest Alpha 6 of DockPanel Suite 3.0 and let us know if there is any issue you meet,
 
 https://nuget.org/packages/DockPanelSuite/3.0.0-alpha6
@@ -139,8 +146,8 @@ Stay tuned.
 
 ## Updated on Oct 22, 2015
 
-There is [a new post]({% post_url 2015-10-5-dockpanel-suite-more-about-theming %}) covering VS 2013 Blue theme and separation of core and themes,
+There is [a new post]({% post_url 2015/2015-10-5-dockpanel-suite-more-about-theming %}) covering VS 2013 Blue theme and separation of core and themes,
 
 ## Updated on Sept 5, 2016
 
-Color palettes completely change how a theme can be designed, so I urge all readers to read [the latest post]({% post_url 2016-9-3-dockpanel-suite-theme-reloaded %}).
+Color palettes completely change how a theme can be designed, so I urge all readers to read [the latest post]({% post_url 2016/2016-9-3-dockpanel-suite-theme-reloaded %}).

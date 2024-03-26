@@ -13,6 +13,7 @@ excerpt_separator: <!--more-->
 It is rather interesting that even after the acquisition of Xamarin by Microsoft, there is no official statement on Xamarin product lifecycle. This is not something convenient, if you are used to the facts that most [Microsoft products' lifecycle](https://support.microsoft.com/en-ca/lifecycle/search) is well governed.
 
 So, what should we use today to develop with Xamarin products? Below is a summary from me, unofficial but should help you understand the status.
+
 <!--more-->
 
 ## Visual Studio (Recommended)
@@ -33,10 +34,10 @@ The status of MonoDevelop is always a misery. However, it was the origin of ever
 
 According to [the timeline I maintained](http://corefx.strikingly.com/), MonoDevelop 0.1 was released on Feb 4, 2004, as a port of SharpDevelop to Linux and Mono. It has evolved for years to be a full featured IDE, and the most recent releases are,
 
-* MonoDevelop 5.x, the last release included in most Linux official distributions if you don't use Xamarin latest bits. It is quite old, and you should avoid it whenever possible.
-* MonoDevelop 6.x, a relatively new release which empowers the commercial product, Xamarin Studio (on Windows and macOS).
-* MonoDevelop 7.x, a stable release, which enables commercial product, Visual Studio for Mac initial release.
-* MonoDevelop 8.x, the latest release, which enables latest Visual Studio for Mac.
+- MonoDevelop 5.x, the last release included in most Linux official distributions if you don't use Xamarin latest bits. It is quite old, and you should avoid it whenever possible.
+- MonoDevelop 6.x, a relatively new release which empowers the commercial product, Xamarin Studio (on Windows and macOS).
+- MonoDevelop 7.x, a stable release, which enables commercial product, Visual Studio for Mac initial release.
+- MonoDevelop 8.x, the latest release, which enables latest Visual Studio for Mac.
 
 > Note that Visual Studio for Mac can be seen as MonoDevelop plus commercial extensions (Xamarin Studio as well). The commercial extensions are not open sourced. Some examples are the .NET Core debugger extension, and the new code editor (ported from Visual Studio 2017).
 
@@ -46,10 +47,10 @@ You should only use MonoDevelop if you are on Linux.
 
 In all cases, you should use the latest tools,
 
-* Windows, Visual Studio + Xamarin for Visual Studio
-* macOS, Visual Studio for Mac
-* Linux, MonoDevelop 7.x (though it cannot develop any Xamarin apps)
+- Windows, Visual Studio + Xamarin for Visual Studio
+- macOS, Visual Studio for Mac
+- Linux, MonoDevelop 7.x (though it cannot develop any Xamarin apps)
 
 > If you do need MonoDevelop for Windows to finish something Visual Studio does not support, I created [a CI job on AppVeyor](https://github.com/lextm/monodevelop-windows). You can download the artifacts (like an MSI installer) from there (currently matching MonoDevelop 7.8).
 
-> MonoDevelop 8.x is a tough topic, so I gave [a new post]({% post_url 2019-5-20-brief-history-of-monodevelop %}) with more information.
+> MonoDevelop 8.x is a tough topic, so I gave [a new post]({% post_url 2019/2019-5-20-brief-history-of-monodevelop %}) with more information.

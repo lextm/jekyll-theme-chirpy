@@ -6,7 +6,9 @@ tags: IIS
 permalink: /jexus-manager-for-iis-express-7620e9e976d0
 excerpt_separator: <!--more-->
 ---
+
 You probably know Jexus Manager has been out for a while. Since I decided to implement Microsoft.Web.Administration namespace on my own and mapped Jexus settings to that model, it is technically possible to develop other mappings, such as the ones for IIS and IIS Express.
+
 <!--more-->
 
 Therefore, in the past few days (plus a few days in this summer) I finally finished the mapping for IIS Express, and now Jexus Manager can start to manage IIS Express. Below is a screen shot showing the initial achievements,
@@ -36,4 +38,4 @@ Beta 3 is available at the same location, with IIS Express support enhanced, ful
 The documentation site https://jexusmanager.com is now online.
 
 [Update on June 26, 2016]
-[Jexus Manager is open source]({% post_url 2016-6-26-jexus-manager-is-now-open-source %})
+[Jexus Manager is open source]({% post_url 2016/2016-6-26-jexus-manager-is-now-open-source %})

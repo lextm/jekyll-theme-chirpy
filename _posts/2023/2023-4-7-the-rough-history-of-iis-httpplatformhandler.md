@@ -8,6 +8,7 @@ excerpt_separator: <!--more-->
 ---
 
 Due to various misinformation around this IIS out-of-band component, I think it's worth the while to write about its history so you know what others are talking about and how some of them made mistakes.
+
 <!--more-->
 
 ## The Start of Windows Azure
@@ -51,21 +52,22 @@ Almost all misinformation today can be traced back to [this announcement made by
 HttpPlatformHandler is still fully supported by Microsoft, and has been upgraded to support all latest Windows releases. If you are hosting Python/Ruby/Go/Java/Node.js applications on IIS, give it a try and feel how simple it is to set up everything around it.
 
 ## Side Notes
+
 HttpPlatformHandler is also enabled on Azure App Service (Windows) by default, so if you have tested your web apps on your own IIS server, you can confidently host them on Azure App Service without many changes on configuration.
 
 I also created the necessary PowerShell scripts to help you enable HttpPlatformHandler on IIS Express if you want to give it a try. You can find them on [my GitHub repository](https://github.com/lextm/iisexpress-httpplatformhandler).
 
 ## References
 
-* [PHP on IIS announcement](https://news.microsoft.com/2006/10/31/microsoft-and-zend-technologies-announce-technical-collaboration-to-improve-interoperability-of-php-on-the-windows-server-platform/)
-* [wfastCGI initial commit](https://github.com/microsoft/PTVS/commit/0b944a292442dcb7a5caaffb9e3cd7542bbf190f)
-* [iisnode initial commit](https://github.com/tjanczuk/iisnode/commit/2ad22f2dbc5d9721a58c006c5fb7aef18ae6b430)
-* [HttpPlatformHandler initial announcement](https://azure.microsoft.com/blog/announcing-the-release-of-the-httpplatformhandler-module-for-iis-8/)
-* [Download](https://www.iis.net/downloads/microsoft/httpplatformhandler#additionalDownloads)
-* [Configuration Reference by Microsoft](https://learn.microsoft.com/iis/extensions/httpplatformhandler/httpplatformhandler-configuration-reference)
-* [Java Example by Microsoft](https://learn.microsoft.com/previous-versions/azure/windows-server-azure-pack/mt125371(v=technet.10))
-* [Python Example by Microsoft](https://learn.microsoft.com/visualstudio/python/configure-web-apps-for-iis-windows?view=vs-2022#configure-the-httpplatform-handler)
-* [Python Example by me]({% post_url 2022-7-10-running-flask-web-apps-on-iis-with-httpplatformhandler %})
-* [Node.js Example by me]({% post_url 2022-6-11-running-nodejs-web-apps-on-iis-with-httpplatformhandler %})
-* [Ruby Example by Scott Hanselman](http://www.hanselman.com/blog/announcing-running-ruby-on-rails-on-iis8-or-anything-else-really-with-the-new-httpplatformhandler)
-* [Go Example by me]({% post_url 2024-2-9-running-go-web-apps-on-iis-with-httpplatformhandler %})
+- [PHP on IIS announcement](https://news.microsoft.com/2006/10/31/microsoft-and-zend-technologies-announce-technical-collaboration-to-improve-interoperability-of-php-on-the-windows-server-platform/)
+- [wfastCGI initial commit](https://github.com/microsoft/PTVS/commit/0b944a292442dcb7a5caaffb9e3cd7542bbf190f)
+- [iisnode initial commit](https://github.com/tjanczuk/iisnode/commit/2ad22f2dbc5d9721a58c006c5fb7aef18ae6b430)
+- [HttpPlatformHandler initial announcement](https://azure.microsoft.com/blog/announcing-the-release-of-the-httpplatformhandler-module-for-iis-8/)
+- [Download](https://www.iis.net/downloads/microsoft/httpplatformhandler#additionalDownloads)
+- [Configuration Reference by Microsoft](https://learn.microsoft.com/iis/extensions/httpplatformhandler/httpplatformhandler-configuration-reference)
+- [Java Example by Microsoft](<https://learn.microsoft.com/previous-versions/azure/windows-server-azure-pack/mt125371(v=technet.10)>)
+- [Python Example by Microsoft](https://learn.microsoft.com/visualstudio/python/configure-web-apps-for-iis-windows?view=vs-2022#configure-the-httpplatform-handler)
+- [Python Example by me]({% post_url 2022/2022-7-10-running-flask-web-apps-on-iis-with-httpplatformhandler %})
+- [Node.js Example by me]({% post_url 2022/2022-6-11-running-nodejs-web-apps-on-iis-with-httpplatformhandler %})
+- [Ruby Example by Scott Hanselman](http://www.hanselman.com/blog/announcing-running-ruby-on-rails-on-iis8-or-anything-else-really-with-the-new-httpplatformhandler)
+- [Go Example by me]({% post_url 2024/2024-2-9-running-go-web-apps-on-iis-with-httpplatformhandler %})

@@ -8,35 +8,36 @@ excerpt_separator: <!--more-->
 
 When Microsoft developed HttpPlatformHandler more than a decade ago to enable non-Microsoft web technologies on Windows/IIS, they didn't know that one day
 
-* Microsoft can embrace Linux in Azure
-* Some Microsoft users stick to IIS with their Java/Python/Node.js/Go applications.
+- Microsoft can embrace Linux in Azure
+- Some Microsoft users stick to IIS with their Java/Python/Node.js/Go applications.
 
 Thus, HttpPlatformHandler still plays an important role in the ecosystem and won't go away easily. However, the landscape keeps evolving so this post tries to capture some latest changes on Node.js and show you how to proper set up everything needed and more critically how to troubleshoot if issues occur.
+
 <!--more-->
 
 ## Basic Node.js Setup
 
 No doubt we will start from a sample application as below,
 
-``` javascript
-import { createServer } from 'http';
+```javascript
+import { createServer } from "http";
 
 const port = process.env.PORT || 3000;
 
-const requestListener = function(req, res) {
+const requestListener = function (req, res) {
   res.writeHead(200);
-  res.end('My first server');
-}
+  res.end("My first server");
+};
 
 const server = createServer(requestListener);
 server.listen(port, function () {
-  console.log('Example app listening on port ' + port + '!');
+  console.log("Example app listening on port " + port + "!");
 });
 ```
 
 If we save it as `C:\node-test\app.js`, then on a Windows machine with Node.js installed, a simple command `node app.js` can launch the application at port 3000,
 
-``` text
+```text
 PS C:\node-test> node app.js
 Example app listening on port 3000!
 ```
@@ -45,7 +46,7 @@ Example app listening on port 3000!
 
 Now let's download and install HttpPlatformHandler on IIS, and add a `web.config` in `C:\node-test`,
 
-``` xml
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
     <system.webServer>
@@ -62,11 +63,12 @@ Now let's download and install HttpPlatformHandler on IIS, and add a `web.config
 </configuration>
 ```
 
-With all settings in place, I can go back to IIS Manager and create a site (I chose *:8099 as site binding) to point to `C:\node-test`. By opening a web browser and navigate to `http://localhost:8099/`, I can see "My first server" as expected.
+With all settings in place, I can go back to IIS Manager and create a site (I chose \*:8099 as site binding) to point to `C:\node-test`. By opening a web browser and navigate to `http://localhost:8099/`, I can see "My first server" as expected.
 
 ## Troubleshooting
 
 ### 0x80070002
+
 But wait! Why did I see an error page saying "HTTP Error 502.3 - Bad Gateway" with Error Code `0x80070002`?
 
 ![img-description](/images/bad-gateway-80070002.png)
@@ -74,7 +76,7 @@ _Figure 1: Bad Gateway error page of 0x80070002_
 
 If you are very familiar with Windows error code, then you know that this error indicates "file not found",
 
-``` text
+```text
 > .\Err.exe 80070002
 # No results found for hex 0x4c5c572 / decimal 80070002
 # for hex 0x80070002 / decimal -2147024894
@@ -104,7 +106,7 @@ As the image shows, the Node.js installer creates a shortcut here, so that `C:\P
 
 Due to the design of IIS, such shortcuts do not work very well, so we need to change `web.config` as below here,
 
-``` xml
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
     <system.webServer>
@@ -130,7 +132,7 @@ OK, now refreshing the browser gives us a different Bad Gateway error page becau
 ![img-description](/images/bad-gateway-80070005.png)
 _Figure 3: Bad Gateway error page of 0x80070005_
 
-``` text
+```text
 > .\Err.exe 80070005
 # No results found for hex 0x4c5c575 / decimal 80070005
 # for hex 0x80070005 / decimal -2147024891
@@ -154,6 +156,7 @@ _Figure 3: Bad Gateway error page of 0x80070005_
 This also makes perfect sense, because anything under `C:\Users\<user name>\` is protected and accessible only by that user account by default, not `IIS_IUSRS`.
 
 ## The End
+
 Once I grant `IIS_IUSRS` read access to `C:\Users\<user name>\AppData\Roaming\nvm\v16.13.2\node.exe`, the browser starts to work as expected and gives me "My first server".
 
 With Process Explorer I can further analyze the `node.exe` process spin off by `w3wp.exe`,
@@ -168,6 +171,7 @@ And if an application pool recycle is triggered in IIS Manager, I can also obser
 ## Side Notes
 
 ### The Infinite Loading
+
 Sometimes the browser seems to work as it is trying to load the web page but the page takes for ever to load and the `node.exe` process keeps crashing.
 
 No doubt Process Monitor is the best tool to use right now and by using a filter of process name `node.exe` I can see lots of access denied errors on different files in `C:\Users\<user name>`.
@@ -175,14 +179,17 @@ No doubt Process Monitor is the best tool to use right now and by using a filter
 That's because the web app contents are in a user folder such as `C:\Users\<user name>\source\repos\test-node-express`, and `node.exe` has difficulty accessing them. The simplest way is to move the folder to a different location, such as `C:\node-test`.
 
 ### Express for Node.js
+
 One thing you might notice is that I wrote a very simple Node.js application as example. Why not go a little bit further to use a framework like Express for Node.js?
 
 My latest test in 2024 with Node.js v21 and Express 4.18.2 works flawlessly, but when I tried out Node.js v16 and Express 4.18.1, `node.exe` did not shut down peacefully and it also blocked `w3wp.exe` from proper shutdown. You might need to dig further if such an issue occurs.
 
 ### Socket.IO Support
+
 If you want to use Socket.IO in your Node.js web apps, make sure IIS WebSocket Protocol support is installed and enabled. Then HttpPlatformHandler can work with Socket.IO without any issues.
 
 ### Hosting on Azure App Service (Windows)
+
 Two small changes might be needed if you want to deploy `app.js` and `web.config` together to your Azure App Service (Windows),
 
 1. You might need to change its name from `app.js` to `app.mjs`, because Node.js 16+ might tell you that `SyntaxError: Cannot use import statement outside a module`. So that the value of `arguments` now should be `.\app.mjs`.
@@ -190,7 +197,7 @@ Two small changes might be needed if you want to deploy `app.js` and `web.config
 
 The complete `web.config` file might look as below,
 
-``` xml
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
     <system.webServer>
@@ -208,9 +215,10 @@ The complete `web.config` file might look as below,
 ```
 
 ### Next.js
+
 To run Next.js web apps locally you might be quite familiar with `next start` command. Therefore, if you want to host them on IIS, you might need to modify `web.config` as below to invoke `next start` properly,
 
-``` xml
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
     <system.webServer>
@@ -231,21 +239,21 @@ To run Next.js web apps locally you might be quite familiar with `next start` co
 
 ### Nuxt.js
 
-> Note that the steps below apply to Nuxt 2.x (2.15.8). To deploy a Nuxt 3.x web app, please refer to [this new post]({% post_url 2023-1-16-running-nuxt-3-web-apps-on-iis-with-httpplatformhandler %}).
+> Note that the steps below apply to Nuxt 2.x (2.15.8). To deploy a Nuxt 3.x web app, please refer to [this new post]({% post_url 2023/2023-1-16-running-nuxt-3-web-apps-on-iis-with-httpplatformhandler %}).
 
-If you are working on a Nuxt.js project, make sure you modify it further before deploying to IIS. The [official guide for Azure Portal](https://nuxtjs.org/deployments/azure-portal) shows the general hints, 
+If you are working on a Nuxt.js project, make sure you modify it further before deploying to IIS. The [official guide for Azure Portal](https://nuxtjs.org/deployments/azure-portal) shows the general hints,
 
 1. Create `server\index.js`.
 1. Modify `nuxt.config.js`.
 
 but it misses important steps,
 
-* You must add `express` and `nuxt-start` as dependencies (check your `package.json`).
-* Change `const nuxt = await loadNuxt(isDev ? 'dev' : 'start')` to simply `const nuxt = await loadNuxt('start')`, as `isDev` isn't defined anywhere.
+- You must add `express` and `nuxt-start` as dependencies (check your `package.json`).
+- Change `const nuxt = await loadNuxt(isDev ? 'dev' : 'start')` to simply `const nuxt = await loadNuxt('start')`, as `isDev` isn't defined anywhere.
 
 Then your `web.config` can work with HttpPlatformHandler as below,
 
-``` xml
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
     <system.webServer>

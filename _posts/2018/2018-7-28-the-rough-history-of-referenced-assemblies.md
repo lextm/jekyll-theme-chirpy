@@ -11,7 +11,8 @@ image:
   alt: Copyright © Lex Li. Clouds reflected in the canal, Montreal.
 ---
 
-This post tries to fill the gaps left in the compiler history post. You can find all other posts I wrote in [the index page]({% post_url 2017-11-2-all-in-one-for-the-legends-of-net-materials %}).
+This post tries to fill the gaps left in the compiler history post. You can find all other posts I wrote in [the index page]({% post_url 2017/2017-11-2-all-in-one-for-the-legends-of-net-materials %}).
+
 <!--more-->
 
 ## .NET Framework 1.x/2.x/Compact Framework
@@ -36,11 +37,11 @@ As a neat feature, Microsoft made full use of it, when later releasing other pla
 
 So referenced assemblies are grouped into different folders, and each groups map to a specific API surface,
 
-* .NET Framework 4.0
-* .NET Framework 4.0.1
-* .NET Framework 4.0.2
-* .NET Framework 4.5
-* many more.
+- .NET Framework 4.0
+- .NET Framework 4.0.1
+- .NET Framework 4.0.2
+- .NET Framework 4.5
+- many more.
 
 When you work on a class library project in Visual Studio, the first thing you should be aware of is the target framework option of the project, because it controls how the compiler locates the referenced assemblies on your machine, and what API surface your code is compiled against.
 
@@ -51,24 +52,25 @@ Microsoft creates installers for most of the new target platforms, and they are 
 > Visual Studio relies on the presence of such Developer Packs to show a certain target framework in the project option, so make sure you install such before working on a project.
 
 ## SKUs
+
 Because target frameworks are in fact API surface (classes and methods), a certain .NET Framework (like 4.7.2) can support code compiled against many target frameworks,
 
-* .NET Framework 4.0
-* .NET Framework 4.0 Client Profile
-* .NET Framework 4.0.1
-* .NET Framework 4.0.1 Client Profile
-* …
-* .NET Framework 4.7
-* .NET Framework 4.7.1
-* .NET Framework 4.7.2
+- .NET Framework 4.0
+- .NET Framework 4.0 Client Profile
+- .NET Framework 4.0.1
+- .NET Framework 4.0.1 Client Profile
+- …
+- .NET Framework 4.7
+- .NET Framework 4.7.1
+- .NET Framework 4.7.2
 
 Such are called SKUs, and can be found in registry under `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319\SKUs`.
 
 OK, now you know why in `app.config` you might see XML elements like,
 
-``` xml
+```xml
 <configuration>
-  <startup> 
+  <startup>
     <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
   </startup>
 </configuration>
@@ -96,4 +98,4 @@ Now it is time to ship referenced assemblies in your NuGet package, and Oren Nov
 
 Enjoy it :)
 
-> Look for other interesting posts like this one? You can visit [the index page]({% post_url 2017-11-2-all-in-one-for-the-legends-of-net-materials %}).
+> Look for other interesting posts like this one? You can visit [the index page]({% post_url 2017/2017-11-2-all-in-one-for-the-legends-of-net-materials %}).

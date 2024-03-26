@@ -12,9 +12,10 @@ image:
 ---
 
 There is [a Wikipedia article about MonoDevelop](https://en.wikipedia.org/wiki/MonoDevelop). However, I don't think it contains the necessary history events on this product, so here I provide an alternative version.
+
 <!--more-->
 
-> Note that I also [blogged about MonoDevelop status]({% post_url 2017-7-24-status-of-monodevelop-xamarin-studio %}) in the past.
+> Note that I also [blogged about MonoDevelop status]({% post_url 2017/2017-7-24-status-of-monodevelop-xamarin-studio %}) in the past.
 
 When Miguel de Icaza announced the Mono project at OSCON on June 30, 2001, clearly a free and open source IDE was part of the plan (to replace Visual Studio, as on Linux there was no other option). The early work on Mono CLR, C# compiler, and GTK# binding made it possible to write such an IDE based on GTK#.
 
@@ -24,8 +25,8 @@ Before they got started, the SharpDevelop project started by Mike Kruger in 2000
 
 SharpDevelop and MonoDevelop shared common project system and many other components. But due to the significant changes of .NET Framework 2.0 and above, SharpDevelop was upgraded with important changes like,
 
-* Switching to MSBuild based project system, and
-* Switching to WPF.
+- Switching to MSBuild based project system, and
+- Switching to WPF.
 
 MonoDevelop didn't catch up with such, due to the slow progress on Mono. The MSBuild clone, aka xbuild, was not released (as part of Mono 2.6) until December 14, 2009.
 
@@ -67,4 +68,4 @@ In the future, MonoDevelop will be able to run on CoreCLR, as revealed in the [.
 
 > "Run MonoDevelop and then Visual Studio for Mac on CoreCLR."
 
-> Update: 2020-8-19 [MonoDevelop ends]({% post_url 2020-8-19-the-end-of-monodevelop %}).
+> Update: 2020-8-19 [MonoDevelop ends]({% post_url 2020/2020-8-19-the-end-of-monodevelop %}).

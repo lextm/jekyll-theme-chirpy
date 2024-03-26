@@ -6,23 +6,25 @@ tags: SNMP
 permalink: /snmp-pro-private-beta-is-ready-and-early-access-program-starts-7311b09abd8e
 excerpt_separator: <!--more-->
 ---
-> Updated: [The EAP has already ended]({% post_url 2013-7-29-snmp-pro-early-access-program-ends %}).
+
+> Updated: [The EAP has already ended]({% post_url 2013/2013-7-29-snmp-pro-early-access-program-ends %}).
 
 After the original announcement on April 6th, I have been working hard on finishing the 1.0 feature set of #SNMP MIB Compiler Pro. Now I believe the time is right and let's kick off the Early Access Program (EAP).
+
 <!--more-->
 
 You are welcome to write to support@lextudio.com using the following email template,
 
 > Hi Lex,
-> 
+>
 > Please add me to the early access program of #SNMP Compiler Pro. Below are my registration information,
 >
-> * Full Name: `*** ****`
-> * Nationality: `*****`
-> * Email Address: `***@***`
-> * Phone Number: `***-****-****`
-> * Mailing Address: `********, ****, *****`
-> 
+> - Full Name: `*** ****`
+> - Nationality: `*****`
+> - Email Address: `***@***`
+> - Phone Number: `***-****-****`
+> - Mailing Address: `********, ****, *****`
+>
 > Your Name
 
 Then please wait till you receive the invitation.
@@ -39,6 +41,7 @@ Once you are added to the private beta mailing list and receive the private beta
 1. Exit the Register dialog by clicking the red cross on top right corner.
 
 ## License Activation
+
 I will send the license key back via email. Then you just need to perform the following steps to get the compiler activated,
 
 1. Launch the compiler by double clicking Compiler.exe.

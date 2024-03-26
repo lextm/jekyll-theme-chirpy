@@ -6,7 +6,8 @@ tags: Visual-Studio-Code
 excerpt_separator: <!--more-->
 ---
 
-It was around the year end of 2020 that I noticed the existence of the Snooty language server from MongoDB and [integrated it with the reStructuredText extension for VSCode]({% post_url 2020-12-18-integration-with-snooty-language-server %}). After about a year, it's time to move to another language server in this field.
+It was around the year end of 2020 that I noticed the existence of the Snooty language server from MongoDB and [integrated it with the reStructuredText extension for VSCode]({% post_url 2020/2020-12-18-integration-with-snooty-language-server %}). After about a year, it's time to move to another language server in this field.
+
 <!--more-->
 
 ## Limitation of Snooty
@@ -23,10 +24,10 @@ Third, it is pretty large a program with performance cost.
 
 The new language server is called Esbonio, and created by Alex Carney. Compared to Snooty, it uses a different approach and features a few important parts,
 
-* Good focus on IntelliSense
-* Tight integration with Sphinx to generate HTML pages on the fly
-* Lightweight
-* High test coverage and stable
+- Good focus on IntelliSense
+- Tight integration with Sphinx to generate HTML pages on the fly
+- Lightweight
+- High test coverage and stable
 
 It was launched in August 2020 and has been improved significantly in 2021.
 
@@ -81,7 +82,7 @@ The first few lines indicate what settings (like build folder) are passed from V
 
 Second, we need to know where is the Python interpreter that this dependency should be installed to. So time to switch to reStructuredText channel in OUTPUT panel, and read what it says,
 
-``` text
+```text
 [Log - 7:13:11 p.m.] Running cmd: "C:\Users\lextudio\AppData\Local\Programs\Python\Python310\python.exe" -c "import esbonio.lsp; from distutils.version import LooseVersion; print(LooseVersion(esbonio.lsp.__version__) < LooseVersion('0.8.0'))"
 ```
 
