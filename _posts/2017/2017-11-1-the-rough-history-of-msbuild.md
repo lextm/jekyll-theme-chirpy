@@ -3,6 +3,7 @@ layout: post
 title: The Rough History of MSBuild
 description: A post about the rough history of MSBuild and interesting stories behind it.
 tags: Visual-Studio .NET
+categories: [History, .NET]
 permalink: /the-rough-history-of-msbuild-cc72a217fa98
 excerpt_separator: <!--more-->
 ---

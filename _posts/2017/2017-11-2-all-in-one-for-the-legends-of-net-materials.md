@@ -3,6 +3,7 @@ layout: post
 title: All-In-One for The Legends of .NET Materials
 description: A post that summarizes all The Legends of .NET materials.
 tags: Visual-Studio .NET
+categories: [History, .NET]
 permalink: /all-in-one-for-the-legends-of-net-materials-43c374a01433
 excerpt_separator: <!--more-->
 ---

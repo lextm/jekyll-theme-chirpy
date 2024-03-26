@@ -3,6 +3,7 @@ layout: post
 title: The End of Mono
 description: A look back on the Mono history can easily tell that it can be a risky platform to use in 2021 and beyond.
 tags: Mono Microsoft Linux Xamarin .NET
+categories: [History, .NET]
 excerpt_separator: <!--more-->
 ---
 

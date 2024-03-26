@@ -3,6 +3,7 @@ layout: post
 title: "The Rough History of IIS HttpPlatformHandler"
 description: "This post talks about the rough history of IIS HttpPlatformHandler and the miseries around it."
 tags: .NET Visual-Studio Windows IIS
+categories: [History, IIS]
 excerpt_separator: <!--more-->
 ---
 

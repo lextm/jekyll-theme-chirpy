@@ -3,6 +3,7 @@ layout: post
 title: The Rough History of The So Many C# Compilers
 description: A post that summarizes the rough history of the so many C# compilers and interesting stores behind them.
 tags: Visual-Studio .NET
+categories: [History, .NET]
 permalink: /the-rough-history-of-the-so-many-c-compilers-f3a85500707c
 excerpt_separator: <!--more-->
 ---

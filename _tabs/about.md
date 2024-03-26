@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 3
+order: 4
 ---
 
 Lex Li is an entrepreneur, engineering manager, developer, podcaster, author, and open source advocate. On his personal blog many topics like C#, .NET, IIS, SNMP are covered.

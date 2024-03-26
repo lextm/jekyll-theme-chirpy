@@ -3,6 +3,7 @@ layout: post
 title: Status of MonoDevelop/Xamarin Studio
 description: This post is about the status of MonoDevelop and Xamarin Studio.
 tags: Mono
+categories: [History, .NET]
 permalink: /status-of-monodevelop-xamarin-studio-253da80d022c
 excerpt_separator: <!--more-->
 ---

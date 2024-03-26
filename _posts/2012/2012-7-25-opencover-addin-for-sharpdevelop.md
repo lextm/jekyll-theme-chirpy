@@ -3,6 +3,7 @@ layout: post
 title: "OpenCover Addin for SharpDevelop"
 description: "This post is about OpenCover addin for SharpDevelop."
 tags: .NET
+categories: [History, .NET]
 permalink: /opencover-addin-for-sharpdevelop-e5fd5cdadc80
 excerpt_separator: <!--more-->
 ---

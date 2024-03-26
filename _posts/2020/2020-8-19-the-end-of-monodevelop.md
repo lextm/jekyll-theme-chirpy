@@ -3,6 +3,7 @@ layout: post
 title: The End of MonoDevelop
 description: A post about the end of MonoDevelop and why you should now abandon it.
 tags: Mono Microsoft Linux Xamarin
+categories: [History, .NET]
 permalink: /the-end-of-monodevelop-80b383dab34b
 excerpt_separator: <!--more-->
 image: 
