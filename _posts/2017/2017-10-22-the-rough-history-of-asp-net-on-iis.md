@@ -3,7 +3,7 @@ layout: post
 title: The Rough History of ASP.NET on IIS
 description: This post is about the rough history of ASP.NET on IIS.
 tags: Visual-Studio .NET
-categories: [History, .NET] [History, IIS]
+categories: [History, .NET]
 permalink: /the-rough-history-of-asp-net-on-iis-8f49e2bcefcd
 excerpt_separator: <!--more-->
 ---
