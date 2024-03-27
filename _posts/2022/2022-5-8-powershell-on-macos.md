@@ -44,7 +44,7 @@ brew install --cask iterm2
 ```
 
 ## Install Nerd Fonts
-Oh My Posh themes usually require [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) to render its efforts, so here we install Meslo Nerd Font
+Oh My Posh themes usually require [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) to render its effects, so here we install Meslo Nerd Font
 
 ``` sh
 brew tap homebrew/cask-fonts && brew install --cask font-meslo-lg-nerd-font
