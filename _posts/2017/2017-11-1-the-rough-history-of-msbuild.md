@@ -84,4 +84,16 @@ Xamarin used xbuild for their products (MonoTouch and Mono for Android initially
 
 On March 18, 2015, upon the request of Miguel de Icaza (and other Xamarin engineers), [Microsoft decided to make MSBuild open source](https://github.com/Microsoft/msbuild). Soon works started to make it cross platform (like xbuild), and Mono 5.0 started to ship MSBuild as default build engine. xbuild finally phased out.
 
+## .NET Core on MSBuild
+
+While you are quite familiar with `dotnet build` and `dotnet publish`, they are just wrappers around MSBuild. The whole .NET Core SDK is built on top of MSBuild and you can use `dotnet msbuild` to run this copy of MSBuild directly.
+
+> Before .NET Core SDK 1.0 RTM, there was a `project.json` system, which was later abandoned in favor of MSBuild. The `project.json` attempt was not completely wasted, as its simplicity inspired the renovation of MSBuild project system, and the new SDK based project system was born from the ashes.
+
+Note that `dotnet msbuild` is not the same as `msbuild` from Visual Studio. The former is a copy of MSBuild shipped with .NET Core SDK, and the latter is a copy of MSBuild shipped with Visual Studio. They share the same engine, but the supporting files differ significantly. For example, you cannot build a WebForms project with `dotnet msbuild` as the necessary targets and tasks are not there. But sharing the same engine enables you to share quite a lot of knowledge and experience, as well as customization of the build process.
+
+## JetBrains' MSBuild
+
+After Microsoft open sourced MSBuild, JetBrains started to ship its own distribution of MSBuild for their product Rider. This does give them a little bit advantage, as Microsoft no longer ships the minimal MSBuild bits in a standalone installer, but always bundled with some Visual Studio editions. 
+
 > Look for other interesting posts like this one? You can visit the [index page]({% post_url 2017/2017-11-2-all-in-one-for-the-legends-of-net-materials %}).
