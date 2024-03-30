@@ -237,6 +237,19 @@ To run Next.js web apps locally you might be quite familiar with `next start` co
 
 > Note that you must run `next build` to generate the production artifacts before deploying to IIS. Besides, you can delete source files and only leave `.next`, `node_modules` and `web.config` in the deployment folder.
 
+> Note that If you plan to host such a web app under a site as an IIS application (or subfolder, a term often used), you need to modify the `bathPath` in your `next.config.mjs` file as below,
+>
+> ``` javascript
+> /** @type {import('next').NextConfig} */
+> const nextConfig = {
+>   basePath: '/AppWithNode1',
+> };
+> 
+> export default nextConfig;
+> ```
+> 
+> where `AppWithNode1` is the name of the IIS application.
+
 ### Nuxt.js
 
 > Note that the steps below apply to Nuxt 2.x (2.15.8). To deploy a Nuxt 3.x web app, please refer to [this new post]({% post_url 2023/2023-1-16-running-nuxt-3-web-apps-on-iis-with-httpplatformhandler %}).
