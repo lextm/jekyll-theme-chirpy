@@ -63,7 +63,9 @@ With all settings in place, I can go back to IIS Manager and create a site (I ch
 
 ## Troubleshooting
 
-Well if you hit any error instead of the JSON response, please refer to [my old post]({% post_url 2022/2022-7-10-running-flask-web-apps-on-iis-with-httpplatformhandler %}) for troubleshooting tips.
+Well if you hit any error instead of the default page, please refer to [my old post]({% post_url 2022/2022-7-10-running-flask-web-apps-on-iis-with-httpplatformhandler %}) for troubleshooting tips.
+
+If you move on to add static files and more to your Django project, you will see how smooth the experience is.
 
 ### Django on IIS Express
 
