@@ -18,13 +18,13 @@ Run the installer and it should download some more bits. When all is done, you w
 Now let's update it to RC1 Update 1,
 
 1. Open Visual Studio Command Prompt.
-1. Run dnvm upgrade
-1. Run dnvm list
+1. Run `dnvm upgrade`
+1. Run `dnvm list`
 
 If you are lucky enough, then you should see this,
 
-``` cmd
-C:\Program Files (x86)\Microsoft Visual Studio 14.0>dnvm list
+``` batch
+$ C:\Program Files (x86)\Microsoft Visual Studio 14.0>dnvm list
 Active Version Runtime Architecture Location Alias
 1.0.0-rc1-final clr x86 C:\Users\lextm\.dnx\runtimes
 1.0.0-rc1-update1 clr x64 C:\Users\lextm\.dnx\runtimes

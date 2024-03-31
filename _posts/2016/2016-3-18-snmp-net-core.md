@@ -24,8 +24,8 @@ excerpt_separator: <!--more-->
 1. 再执行`dnvm list`命令。
 
 如果一切正常，那么这时候输出应该是这样的，
-``` cmd
-C:\Program Files (x86)\Microsoft Visual Studio 14.0>dnvm list
+``` batch
+$ C:\Program Files (x86)\Microsoft Visual Studio 14.0>dnvm list
 Active Version Runtime Architecture Location Alias
 1.0.0-rc1-final clr x86 C:\Users\lextm\.dnx\runtimes
 1.0.0-rc1-update1 clr x64 C:\Users\lextm\.dnx\runtimes

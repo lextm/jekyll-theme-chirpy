@@ -38,7 +38,7 @@ def read_item(item_id: int, q: Union[str, None] = None):
 
 If we save it as `C:\test-fastapi\main.py`, then on a Windows machine with Python and FastAPI installed, a simple command `uvicorn main:app --reload` in the directory of `C:\test-fastapi\` can launch the application at port 8000,
 
-``` cmd
+``` batch
 $ C:\Users\lextudio\AppData\Local\Programs\Python\Python310\python.exe -m uvicorn main:app --reload  
 INFO:     Will watch for changes in these directories: ['C:\\test-fastapi']
 INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)

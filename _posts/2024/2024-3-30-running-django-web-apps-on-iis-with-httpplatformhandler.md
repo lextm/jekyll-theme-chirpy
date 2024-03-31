@@ -18,14 +18,14 @@ It becomes very important for Python developers to learn HttpPlatformHandler, be
 
 No doubt we will start from a sample application as below.
 
-``` cmd
+``` batch
 $ cd C:\test-django
 $ C:\Users\lextudio\AppData\Local\Programs\Python\Python310\python.exe -m django startproject mysite
 ```
 
 This generates a Django project in `C:\test-django\mysite`, and now we can use a simple command `python.exe .\mysite\manage.py runserver` in the directory of `C:\test-django\` can launch the application at port 8000,
 
-``` cmd
+``` batch
 $ C:\Users\lextudio\AppData\Local\Programs\Python\Python310\python.exe .\mysite\manage.py runserver  
 Watching for file changes with StatReloader
 Performing system checks...
