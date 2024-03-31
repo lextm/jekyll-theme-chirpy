@@ -10,5 +10,5 @@ It is the first blog entry here. Since I have been blogging a lot in the Beta ve
 
 That is all for the first entry. And now I am going to see what I can do here in Blogger.
 
-In order to save efforts, I will leave my old posts there in CSDN. If you'd like to see them, go to http://blog.csdn.net/lextm
+In order to save efforts, I will leave my old posts there in CSDN. If you'd like to see them, go to https://blog.csdn.net/lextm
 <!--more-->

@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 ---
 Although CodeSmith has turned to be a commercial product, it has a free version 2.6.
 
-http://www.codesmithtools.com/freeware.aspx
+https://www.codesmithtools.com/freeware
 
 If you want to have a try, that is a good start.
 <!--more-->

@@ -48,9 +48,9 @@ Below are the native UI frameworks for C# developers,
 
 Most projects choose to use this approach, such as
 
-- [NI LabView](http://www.ni.com/en-us/shop/labview.html) uses Xamarin.iOS on iOS, and Windows Forms (not quite sure) on Windows.
+- [NI LabView](https://www.ni.com/en/shop/labview.html) uses Xamarin.iOS on iOS, and Windows Forms (not quite sure) on Windows.
 - [Plastic SCM](https://www.plasticscm.com/) once used GTK# on Linux, Xamarin.Mac on macOS, and Windows Forms on Windows (till they announced the new GUI based on Avalonia in Feb 2022).
-- [iCircuit](http://icircuitapp.com/) uses Xamarin.Mac on macOS, Xamarin.iOS on iOS, Xamarin.Android on Android, and what Microsoft offers on Windows and Windows Phone.
+- [iCircuit](https://icircuitapp.com/) uses Xamarin.Mac on macOS, Xamarin.iOS on iOS, Xamarin.Android on Android, and what Microsoft offers on Windows and Windows Phone.
 
 ## Cross Platform Frameworks
 
@@ -73,7 +73,7 @@ If you are OK to fully draw all controls, Unity and MonoGame already supports mo
 
 Of course, that works fine for games, but obviously not all applications. Your apps would not look exactly native, as it cannot use OS native controls.
 
-> Third party add-ons such as [noesisGUI](http://noesisengine.com/) amazingly add the possibility to build UI based on XAML and controls. An impressive approach.
+> Third party add-ons such as [noesisGUI](https://noesisengine.com/) amazingly add the possibility to build UI based on XAML and controls. An impressive approach.
 
 ### GTK#
 
@@ -103,13 +103,13 @@ Mono's GTK# wrapper is GTK 2 compatible and not yet upgraded to support GTK 3. T
 
 Windows Forms works for Windows (including Windows CE, though no serious interest on that now). Mono has a clone of Windows Forms, and some projects used that to port .NET Framework Windows Forms apps to macOS and Linux. So, it sounds like a cross platform framework candidate.
 
-However, Mono's implementation is buggy and a lot of efforts would be required to further enhance it. Thus, some projects (such as [Plastic SCM](http://blog.plasticscm.com/2014/12/native-linux-gui-gtkplastic.html)) initially take this approach and later drop it.
+However, Mono's implementation is buggy and a lot of efforts would be required to further enhance it. Thus, some projects (such as [Plastic SCM](https://blog.plasticscm.com/2014/12/native-linux-gui-gtkplastic.html)) initially take this approach and later drop it.
 
 What's more, Mono's initial WinForms implementation on macOS uses some legacy interfaces like Carbon and is 32 bit only. So, when recent macOS releases deprecated/removed those APIs and no longer supports 32 bit applications, this approach becomes a dead end. [There was an attempt](https://github.com/mono/mono/pull/7100) to port Mono WinForms on macOS to 64 bit, but no further news from there.
 
 [Microsoft decided in 2017](https://github.com/dotnet/corefx/issues/20325) to port `System.Drawing` to non-Windows platforms, which gives an opportunity to also [port Windows Forms officially to non-Windows platforms](https://github.com/dotnet/corefx/issues/21803). It would be welcome if that port becomes a better alternative than Mono's implementation, but whether third parties (commercial/open source) can catch up is uncertain. Third party controls are fantastic on Windows, but rarely they support other OS. Developers usually find it pretty painful to move Windows Forms apps to non-Windows platforms due to such controls they use.
 
-More importantly the design of Windows Forms is suitable for desktop apps, but may be not for mobile platforms (personal opinion clearly). Xamarin guys initially had [an idea to port Windows Forms to iOS](http://tirania.org/blog/archive/2009/Sep-14.html). They gave that up and instead decided to bind natively to Cocoa Touch.
+More importantly the design of Windows Forms is suitable for desktop apps, but may be not for mobile platforms (personal opinion clearly). Xamarin guys initially had [an idea to port Windows Forms to iOS](https://tirania.org/blog/archive/2009/Sep-14.html). They gave that up and instead decided to bind natively to Cocoa Touch.
 
 Microsoft started to support Windows Forms on .NET Core 3.0. Officially Microsoft made it available on Windows, but we didn't see anyone seriously ported it to other systems.
 
@@ -140,7 +140,7 @@ However, this approach has the disadvantages just like Unity/MonoGame, that all 
 
 Microsoft started to support WPF on .NET Core 3.0. Officially Microsoft only made it available on Windows, but anyone can attempt to port to other systems.
 
-Mono was trying to port WPF, but that project was not finished due to [lack of resources](http://www.mono-project.com/docs/gui/wpf/).
+Mono was trying to port WPF, but that project was not finished due to [lack of resources](https://www.mono-project.com/docs/gui/wpf/).
 
 Neosis GUI mentioned early can also be seen as a WPF clone, and it is much more mature than Avalonia (it even supports Blend in some degree).
 
@@ -168,7 +168,7 @@ You should notice that initially it was designed for mobile apps. Currently I am
 Quite a lot of third party vendors are now offering Xamarin.Forms controls, so that you can build Line-of-Business apps efficiently,
 
 - [ComponentOne](https://www.componentone.com/Xamarin/)
-- [Telerik](http://www.telerik.com/xamarin-ui-2)
+- [Telerik](https://www.telerik.com/xamarin-ui)
 - [Synfusion](https://www.syncfusion.com/products/xamarin)
 - [Infragistics](https://www.infragistics.com/products/xamarin-forms)
 - [DevExpress](https://www.devexpress.com/products/xamarin/)

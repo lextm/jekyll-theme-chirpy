@@ -21,7 +21,7 @@ PHP has been a popular programming platform for web applications. It has been in
 
 However, the initial work used IIS ISAPI to integrate, and had stability issues.
 
-In 2006, Microsoft announced [a new initiative](http://mvolo.com/fastcgi-for-iis-60-is-released-on-download-center/) to support PHP on IIS officially via FastCGI protocol.
+In 2006, Microsoft announced [a new initiative](https://mvolo.com/fastcgi-for-iis-60-is-released-on-download-center/) to support PHP on IIS officially via FastCGI protocol.
 
 It took about a year for that to finish and then the ISAPI module became obsolete.
 
@@ -29,7 +29,7 @@ The same technology was later used in Windows Azure (renamed to Microsoft Azure 
 
 ## Initial Releases from Ruslan Yakushev
 
-From the [code commit history](http://ruslany.net/tag/php/) we can see that Ruslan made the first commit on August 9, 2010. However, the initial code seems to be a little bit older than that.
+From the [code commit history](https://ruslany.net/tag/php/) we can see that Ruslan made the first commit on August 9, 2010. However, the initial code seems to be a little bit older than that.
 
 This project is an IIS Manager extension (plus PowerShell snapin) to better support PHP configuration system via IIS Manager experience. So it was quite popular.
 
@@ -67,6 +67,6 @@ To fully take over the project and make it healthy again, I did the following,
 
 Currently the 2.0 Beta 1 release is still being worked on. An official release is expected by the end of August, 2018.
 
-So that's the whole story, and now PHP Manager for IIS has [a new homepage](http://www.phpmanager.xyz/).
+So that's the whole story, and now PHP Manager for IIS has [a new homepage](https://www.phpmanager.xyz/).
 
 Stay tuned.

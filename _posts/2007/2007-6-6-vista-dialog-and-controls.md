@@ -11,7 +11,7 @@ It is nice to see Windows Vista delivers new dialogs and controls. They are beau
 
 However, Pedro M. C. Cardoso published his wonderful article on CodeProject.com. Using his library, the controls reaches you at once.
 
-http://www.codeproject.com/vista/VistaControls.asp
+https://www.codeproject.com/Articles/18078/Vista-Controls
 
 The only problem is that you have to manually change all references to System.Windows.Forms to another namespace.
 

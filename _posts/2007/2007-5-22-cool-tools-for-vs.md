@@ -8,5 +8,5 @@ excerpt_separator: <!--more-->
 ---
 CoolCommand and BuildConsole are something I found today. Yes, they are cool.
 
-You can find them [here](http://weblogs.asp.net/gmilano/default.aspx).
+You can find them [here](https://asp-blogs.azurewebsites.net/gmilano).
 <!--more-->

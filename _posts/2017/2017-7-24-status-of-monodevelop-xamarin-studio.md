@@ -32,7 +32,7 @@ You should now say goodbye to Xamarin Studio, no matter on Windows and macOS.
 
 The status of MonoDevelop is always a misery. However, it was the origin of everything we have today.
 
-According to [the timeline I maintained](http://corefx.strikingly.com/), MonoDevelop 0.1 was released on Feb 4, 2004, as a port of SharpDevelop to Linux and Mono. It has evolved for years to be a full featured IDE, and the most recent releases are,
+According to [the timeline I maintained](https://corefx.lextudio.com/), MonoDevelop 0.1 was released on Feb 4, 2004, as a port of SharpDevelop to Linux and Mono. It has evolved for years to be a full featured IDE, and the most recent releases are,
 
 - MonoDevelop 5.x, the last release included in most Linux official distributions if you don't use Xamarin latest bits. It is quite old, and you should avoid it whenever possible.
 - MonoDevelop 6.x, a relatively new release which empowers the commercial product, Xamarin Studio (on Windows and macOS).
