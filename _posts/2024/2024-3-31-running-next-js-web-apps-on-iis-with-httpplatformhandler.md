@@ -47,7 +47,7 @@ When you want to host the web app on IIS, you just need to create a `web.config`
 
 ## Troubleshooting
 
-If you encounter any issues, you can check the troubleshooting tips I wrote in [my previous post on Node.js]({% post_url 2022-6-11-running-nodejs-web-apps-on-iis-with-httpplatformhandler %}).
+If you encounter any issues, you can check the troubleshooting tips I wrote in [my previous post on Node.js]({% post_url 2022/2022-6-11-running-nodejs-web-apps-on-iis-with-httpplatformhandler %}).
 
 ## Side Notes
 
