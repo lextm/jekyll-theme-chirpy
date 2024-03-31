@@ -55,7 +55,7 @@ You must run `next build` to generate the production artifacts before deploying 
 
 > It is possible to delete more bits from `node_modules` to reduce the deployment size, but that's another topic.
 
-If you plan to host such a web app under a site as an IIS application (or subfolder, a term often used), you need to modify the `bathPath` in your `next.config.mjs` file as below,
+If you plan to host such a web app under a site as an IIS application (or subfolder, a term often used), you need to modify the `basePath` in your `next.config.mjs` file as below,
 
 ``` javascript
 /** @type {import('next').NextConfig} */
