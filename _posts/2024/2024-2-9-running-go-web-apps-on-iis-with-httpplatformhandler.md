@@ -2,7 +2,7 @@
 layout: post
 title: "Running Go Web Apps on IIS with HttpPlatformHandler"
 description: A post about how to create a simple Go web app and host it on IIS with HttpPlatformHandler
-tags: IIS Windows Go Echo
+tags: IIS Windows Go Echo HttpPlatformHandler
 excerpt_separator: <!--more-->
 ---
 
@@ -165,3 +165,7 @@ So, at this very moment, the `web.config` should look like this,
     </system.webServer>
 </configuration>
 ```
+
+### Go on IIS Express
+
+I also created the necessary PowerShell scripts to help you enable HttpPlatformHandler on IIS Express if you want to give it a try. You can find them on [my GitHub repository](https://github.com/lextm/iisexpress-httpplatformhandler).

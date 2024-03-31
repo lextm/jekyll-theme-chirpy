@@ -2,7 +2,7 @@
 layout: post
 title: "Running Node.js Web Apps on IIS with HttpPlatformHandler"
 description: A post about how to create a simple Node.js web app and host it on IIS with HttpPlatformHandler
-tags: IIS Windows JavaScript Node.js
+tags: IIS Windows JavaScript Node.js HttpPlatformHandler
 excerpt_separator: <!--more-->
 ---
 
@@ -216,39 +216,7 @@ The complete `web.config` file might look as below,
 
 ### Next.js
 
-To run Next.js web apps locally you might be quite familiar with `next start` command. Therefore, if you want to host them on IIS, you might need to modify `web.config` as below to invoke `next start` properly,
-
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<configuration>
-    <system.webServer>
-        <handlers>
-            <add name="httpPlatformHandler" path="*" verb="*" modules="httpPlatformHandler" resourceType="Unspecified" requireAccess="Script" />
-        </handlers>
-        <httpPlatform stdoutLogEnabled="true" stdoutLogFile=".\node.log" startupTimeLimit="20" processPath="C:\Users\<user name>\AppData\Roaming\nvm\v16.13.2\node.exe" arguments=".\node_modules\next\dist\bin\next start">
-            <environmentVariables>
-                <environmentVariable name="PORT" value="%HTTP_PLATFORM_PORT%" />
-                <environmentVariable name="NODE_ENV" value="Production" />
-            </environmentVariables>
-        </httpPlatform>
-    </system.webServer>
-</configuration>
-```
-
-> Note that you must run `next build` to generate the production artifacts before deploying to IIS. Besides, you can delete source files and only leave `.next`, `node_modules` and `web.config` in the deployment folder.
-
-> Note that If you plan to host such a web app under a site as an IIS application (or subfolder, a term often used), you need to modify the `bathPath` in your `next.config.mjs` file as below,
->
-> ``` javascript
-> /** @type {import('next').NextConfig} */
-> const nextConfig = {
->   basePath: '/AppWithNode1',
-> };
-> 
-> export default nextConfig;
-> ```
-> 
-> where `AppWithNode1` is the name of the IIS application.
+If you are working on a Next.js project, you might want to read [my post on Next.js]({% post_url 2024/2024-3-31-running-next-js-web-apps-on-iis-with-httpplatformhandler %}) to learn more about how to deploy it to IIS.
 
 ### Nuxt.js
 

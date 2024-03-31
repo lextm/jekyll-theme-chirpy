@@ -2,7 +2,7 @@
 layout: post
 title: "The Rough History of IIS HttpPlatformHandler"
 description: "This post talks about the rough history of IIS HttpPlatformHandler and the miseries around it."
-tags: .NET Visual-Studio Windows IIS
+tags: .NET Visual-Studio Windows IIS HttpPlatformHandler
 categories: [History, IIS]
 excerpt_separator: <!--more-->
 ---
@@ -67,7 +67,11 @@ I also created the necessary PowerShell scripts to help you enable HttpPlatformH
 - [Configuration Reference by Microsoft](https://learn.microsoft.com/iis/extensions/httpplatformhandler/httpplatformhandler-configuration-reference)
 - [Java Example by Microsoft](<https://learn.microsoft.com/previous-versions/azure/windows-server-azure-pack/mt125371(v=technet.10)>)
 - [Python Example by Microsoft](https://learn.microsoft.com/visualstudio/python/configure-web-apps-for-iis-windows?view=vs-2022#configure-the-httpplatform-handler)
-- [Python Example by me]({% post_url 2022/2022-7-10-running-flask-web-apps-on-iis-with-httpplatformhandler %})
+- [Python/Flask Example by me]({% post_url 2022/2022-7-10-running-flask-web-apps-on-iis-with-httpplatformhandler %})
+- [Python/Django Example by me]({% post_url 2024/2024-3-30-running-django-web-apps-on-iis-with-httpplatformhandler %})
+- [Python/FastAPI Example by me]({% post_url 2024/2024-3-30-running-fastapi-web-apps-on-iis-with-httpplatformhandler %})
 - [Node.js Example by me]({% post_url 2022/2022-6-11-running-nodejs-web-apps-on-iis-with-httpplatformhandler %})
+- [Next.js Example by me]({% post_url 2024/2024-3-31-running-next-js-web-apps-on-iis-with-httpplatformhandler %})
+- [Nuxt 3 Example by me]({% post_url 2023/2023-1-16-running-nuxt-3-web-apps-on-iis-with-httpplatformhandler %})
 - [Ruby Example by Scott Hanselman](http://www.hanselman.com/blog/announcing-running-ruby-on-rails-on-iis8-or-anything-else-really-with-the-new-httpplatformhandler)
 - [Go Example by me]({% post_url 2024/2024-2-9-running-go-web-apps-on-iis-with-httpplatformhandler %})
