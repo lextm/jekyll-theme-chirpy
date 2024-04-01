@@ -9,6 +9,8 @@
 >
   <p>
     {{- '©' }}
+    <time>2005</time>
+    {{- '-' }}
     <time>{{ 'now' | date: '%Y' }}</time>
 
     {% if site.social.links %}
@@ -39,4 +41,6 @@
 
     {{ site.data.locales[include.lang].meta | replace: ':PLATFORM', _platform | replace: ':THEME', _theme }}
   </p>
+
+  <p>Last built on {{ site.time | date: "%B %d, %Y %H:%M:%S" }}.</p>
 </footer>
