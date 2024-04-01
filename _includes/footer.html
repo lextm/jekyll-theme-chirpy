@@ -42,5 +42,5 @@
     {{ site.data.locales[include.lang].meta | replace: ':PLATFORM', _platform | replace: ':THEME', _theme }}
   </p>
 
-  <p>Last built on {{ site.time | date: "%B %d, %Y %H:%M:%S" }}.</p>
+  <p>Last updated on {{ site.time | date: "%B %d" }}</p>
 </footer>
