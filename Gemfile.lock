@@ -29,7 +29,7 @@ GEM
       net-http
     ffi (1.16.3)
     forwardable-extended (2.6.0)
-    google-protobuf (4.26.0-arm64-darwin)
+    google-protobuf (4.26.1-arm64-darwin)
       rake (>= 13)
     html-proofer (4.4.3)
       addressable (~> 2.3)
