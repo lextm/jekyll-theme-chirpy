@@ -68,9 +68,9 @@ Well if you hit any error instead of the default page, please refer to [my old p
 
 ## Production Setup with Uvicorn and WhiteNoise
 
-The above setup is for development only, and for production you should use a production-ready server like Uvicorn and a static file serving mechanism like WhiteNoise.
+The above setup is for development only, and you should use a production-ready server like Uvicorn and a static file serving mechanism like WhiteNoise when deploying to production.
 
-First, prepare for production deployment by running `python.exe manage.py check --deploy` to see if there are any issues to fix. Typical changes here in `settings.py` include
+First, run `python.exe manage.py check --deploy` to see if there are any issues to fix. Typical changes at this stage in `settings.py` include
 
 ``` python
 DEBUG = False
@@ -80,6 +80,8 @@ SESSION_COOKIE_SECURE = True
 STATIC_ROOT = BASE_DIR / 'static'
 MEDIA_ROOT = BASE_DIR / 'media'
 ```
+
+> To learn more about them (and many other key settings), you can visit [this Django checklist](https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/).
 
 Then, install Uvicorn and WhiteNoise.
 
@@ -99,11 +101,15 @@ MIDDLEWARE = [
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 ```
 
-Let's move all static files now,
+> The steps were taken from [WhiteNoise docs](https://whitenoise.readthedocs.io/en/stable/#installation).
+
+One extra step needed here is to move all static files to a central folder,
 
 ``` batch
 $ python.exe manage.py collectstatic
 ```
+
+> This is not only applicable to WhiteNoise, but also to other static file serving mechanisms. But you must do this step after enabling WhiteNoise in `settings.py`, as the generated files are different with and without WhiteNoise.
 
 With all these changes, you can now run Uvicorn to serve the Django application,
 
@@ -115,6 +121,8 @@ INFO:     ASGI 'lifespan' protocol appears unsupported.
 INFO:     Application startup complete.
 INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
 ```
+
+> The Django project already has `asgi.py`, which can be used by Uvicorn to start the application.
 
 At this point, your `web.config` should be updated to use Uvicorn instead of Django's development server,
 
