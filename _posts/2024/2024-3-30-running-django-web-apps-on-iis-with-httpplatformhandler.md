@@ -23,10 +23,11 @@ $ cd C:\test-django
 $ C:\Users\lextudio\AppData\Local\Programs\Python\Python310\python.exe -m django startproject mysite
 ```
 
-This generates a Django project in `C:\test-django\mysite`, and now we can use a simple command `python.exe .\mysite\manage.py runserver` in the directory of `C:\test-django\` can launch the application at port 8000,
+This generates a Django project in `C:\test-django\mysite`, and now we can use a simple command `python.exe manage.py runserver` in the directory of `C:\test-django\mysite` can launch the application at port 8000,
 
 ``` batch
-$ C:\Users\lextudio\AppData\Local\Programs\Python\Python310\python.exe .\mysite\manage.py runserver  
+$ cd mysite
+$ C:\Users\lextudio\AppData\Local\Programs\Python\Python310\python.exe manage.py runserver
 Watching for file changes with StatReloader
 Performing system checks...
 
@@ -44,7 +45,7 @@ Quit the server with CTRL-BREAK.
 
 ## HttpPlatformHandler Setup
 
-Now let's download and install HttpPlatformHandler on IIS, and add a `web.config` in `C:\test-django`,
+Now let's download and install HttpPlatformHandler on IIS, and add a `web.config` in `C:\test-django\mysite`,
 
 ``` xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -53,19 +54,90 @@ Now let's download and install HttpPlatformHandler on IIS, and add a `web.config
         <handlers>
             <add name="httpPlatformHandler" path="*" verb="*" modules="httpPlatformHandler" resourceType="Unspecified" requireAccess="Script" />
         </handlers>
-        <httpPlatform stdoutLogEnabled="true" stdoutLogFile=".\python.log" startupTimeLimit="20" processPath="C:\Users\<user name>\AppData\Local\Programs\Python\Python310\python.exe" arguments=".\mysite\manage.py runserver %HTTP_PLATFORM_PORT%">
+        <httpPlatform stdoutLogEnabled="true" stdoutLogFile=".\python.log" startupTimeLimit="20" processPath="C:\Users\<user name>\AppData\Local\Programs\Python\Python310\python.exe" arguments="manage.py runserver %HTTP_PLATFORM_PORT%">
         </httpPlatform>
     </system.webServer>
 </configuration>
 ```
 
-With all settings in place, I can go back to IIS Manager and create a site (I chose *:8014 as site binding) to point to `C:\test-django`. By opening a web browser and navigate to `http://localhost:8014/`, I should now see the default Django welcome page saying "The install worked successfully! Congratulations!".
+With all settings in place, I can go back to IIS Manager and create a site (I chose *:8014 as site binding) to point to `C:\test-django\mysite`. By opening a web browser and navigate to `http://localhost:8014/`, I should now see the default Django welcome page saying "The install worked successfully! Congratulations!".
 
 ## Troubleshooting
 
 Well if you hit any error instead of the default page, please refer to [my old post]({% post_url 2022/2022-7-10-running-flask-web-apps-on-iis-with-httpplatformhandler %}) for troubleshooting tips.
 
-If you move on to add static files and more to your Django project, you will see how smooth the experience is.
+## Production Setup with Uvicorn and WhiteNoise
+
+The above setup is for development only, and for production you should use a production-ready server like Uvicorn and a static file serving mechanism like WhiteNoise.
+
+First, prepare for production deployment by running `python.exe manage.py check --deploy` to see if there are any issues to fix. Typical changes here in `settings.py` include
+
+``` python
+DEBUG = False
+ALLOWED_HOSTS = ['*']
+CSRF_COOKIE_SECURE = True
+SESSION_COOKIE_SECURE = True
+STATIC_ROOT = BASE_DIR / 'static'
+MEDIA_ROOT = BASE_DIR / 'media'
+```
+
+Then, install Uvicorn and WhiteNoise.
+
+``` batch
+$ python.exe -m pip install uvicorn whitenoise
+```
+
+Finally, enable WhiteNoise in `settings.py`,
+
+``` python
+MIDDLEWARE = [
+    'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware', # add WhiteNoise middleware after SecurityMiddleware.
+    # ...
+]
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+```
+
+Let's move all static files now,
+
+``` batch
+$ python.exe manage.py collectstatic
+```
+
+With all these changes, you can now run Uvicorn to serve the Django application,
+
+``` batch
+$ python.exe -m uvicorn mysite.asgi:application
+INFO:     Started server process [7072]
+INFO:     Waiting for application startup.
+INFO:     ASGI 'lifespan' protocol appears unsupported.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+```
+
+At this point, your `web.config` should be updated to use Uvicorn instead of Django's development server,
+
+``` xml
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <system.webServer>
+        <handlers>
+            <add name="httpPlatformHandler" path="*" verb="*" modules="httpPlatformHandler" resourceType="Unspecified" requireAccess="Script" />
+        </handlers>
+        <httpPlatform stdoutLogEnabled="true" stdoutLogFile=".\python.log" startupTimeLimit="20" processPath="C:\Users\<user name>\AppData\Local\Programs\Python\Python310\python.exe" arguments="-m uvicorn mysite.asgi:application --port %HTTP_PLATFORM_PORT%">
+        </httpPlatform>
+    </system.webServer>
+</configuration>
+```
+
+You can see how smooth the experience is, compared to what other guides suggest.
+
+## Side Notes
+
+Static files can be served by mechanisms other than WhiteNoise, if you dig further into Django documentation.
+
+You can choose other application server other than Uvicorn, but the key is to use HttpPlatformHandler to host the application on IIS.
 
 ### Django on IIS Express
 
