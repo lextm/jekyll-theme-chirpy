@@ -37,7 +37,7 @@ So the simplest UI is done.
 
 So now let's see how to bind event handlers. The Start button must do this,
 
-```csharp
+``` csharp
 private void btnStart_Click(object sender, EventArgs e)
 {
     agent1.Start(161);
@@ -46,7 +46,7 @@ private void btnStart_Click(object sender, EventArgs e)
 
 while the Stop button does this,
 
-```csharp
+``` csharp
 private void btnStop_Click(object sender, EventArgs e)
 {
     agent1.Stop();
@@ -59,7 +59,7 @@ And the hardest part is the agent related. Thus, I handle the GET requests here 
 
 This is the simplest GET request handler I can think of,
 
-```csharp
+``` csharp
 private void agent1_GetRequestReceived(object sender, Lextm.SharpSnmpLib.GetRequestReceivedEventArgs e)
 {
     GetRequestMessage message = e.Request;
@@ -71,7 +71,7 @@ private void agent1_GetRequestReceived(object sender, Lextm.SharpSnmpLib.GetRequ
 
 Now I will show you how to response to a simple request. Modify GetRequestReceived handler like this,
 
-```csharp
+``` csharp
 private void agent1_GetRequestReceived(object sender, Lextm.SharpSnmpLib.GetRequestReceivedEventArgs e)
 {
     GetRequestMessage message = e.Request;
@@ -99,7 +99,7 @@ You can also send out INFORM or TRAP messages by calling Agent.Send\* static met
 
 Note: You may find this code cannot compile even if latest source code is used. Sorry, you have to add the following code to GetRequestMessage.cs,
 
-```csharp
+``` csharp
 ///
 /// Version.
 ///

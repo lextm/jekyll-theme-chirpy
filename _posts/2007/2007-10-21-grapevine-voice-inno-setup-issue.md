@@ -17,7 +17,7 @@ I was about to report this issue to Inno Setup author but soon I expected a work
 
 In fact, a workaround is easy to find. Implementing an important procedure resolves the issue.
 
-```pascal
+``` pascal
 procedure CurUninstallStepChanged(CurUninstallStep: TUninstallStep);
 var
     ErrorCode: Integer;

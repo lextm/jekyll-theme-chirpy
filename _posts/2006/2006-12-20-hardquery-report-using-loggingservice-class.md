@@ -19,7 +19,7 @@ When using log4net, you have to do something configuration ahead. You can place 
 
 When you start to use LoggingService, write you settings file and send the path to Start function as the only parameter. For example,
 
-```csharp
+``` csharp
 LoggingService.Start("C:\cbc.exe.config");
 ```
 
@@ -37,7 +37,7 @@ LoggingService manages that for you internally.
 
 Other new features are .NET Framework Debug and Trace unit style functions, Indent and Unindent. I add two useful functions, EnterMethod and LeaveMethod. By their names you know you can use them to log StackTrace information easily. You can write the following code
 
-```csharp
+``` csharp
 void Sample() {
 
 LoggingService.EnterMethod();

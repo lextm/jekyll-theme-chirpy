@@ -19,7 +19,7 @@ Thus, HttpPlatformHandler still plays an important role in the ecosystem and won
 
 No doubt we will start from a sample application as below,
 
-```javascript
+``` javascript
 import { createServer } from "http";
 
 const port = process.env.PORT || 3000;
@@ -37,7 +37,7 @@ server.listen(port, function () {
 
 If we save it as `C:\node-test\app.js`, then on a Windows machine with Node.js installed, a simple command `node app.js` can launch the application at port 3000,
 
-```text
+``` powershell
 PS C:\node-test> node app.js
 Example app listening on port 3000!
 ```
@@ -46,7 +46,7 @@ Example app listening on port 3000!
 
 Now let's download and install HttpPlatformHandler on IIS, and add a `web.config` in `C:\node-test`,
 
-```xml
+``` xml
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
     <system.webServer>
@@ -76,7 +76,7 @@ _Figure 1: Bad Gateway error page of 0x80070002_
 
 If you are very familiar with Windows error code, then you know that this error indicates "file not found",
 
-```text
+``` powershell
 > .\Err.exe 80070002
 # No results found for hex 0x4c5c572 / decimal 80070002
 # for hex 0x80070002 / decimal -2147024894
@@ -106,7 +106,7 @@ As the image shows, the Node.js installer creates a shortcut here, so that `C:\P
 
 Due to the design of IIS, such shortcuts do not work very well, so we need to change `web.config` as below here,
 
-```xml
+``` xml
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
     <system.webServer>
@@ -132,7 +132,7 @@ OK, now refreshing the browser gives us a different Bad Gateway error page becau
 ![img-description](/images/bad-gateway-80070005.png)
 _Figure 3: Bad Gateway error page of 0x80070005_
 
-```text
+``` powershell
 > .\Err.exe 80070005
 # No results found for hex 0x4c5c575 / decimal 80070005
 # for hex 0x80070005 / decimal -2147024891
@@ -197,7 +197,7 @@ Two small changes might be needed if you want to deploy `app.js` and `web.config
 
 The complete `web.config` file might look as below,
 
-```xml
+``` xml
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
     <system.webServer>
@@ -234,7 +234,7 @@ but it misses important steps,
 
 Then your `web.config` can work with HttpPlatformHandler as below,
 
-```xml
+``` xml
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
     <system.webServer>

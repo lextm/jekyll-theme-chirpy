@@ -18,13 +18,13 @@ The temporary solution I chose was to publish NuGet packages (which provides the
 Luckily [.NET Core SDK 2.1 Preview 1](https://blogs.msdn.microsoft.com/dotnet/2018/02/27/announcing-net-core-2-1-preview-1/) was released a few days ago, and it starts to support Global Tools. Finally I can make Obfuscar a good citizen on your machine,
 
 ``` batch
-dotnet install tool -g Obfuscar.GlobalTool --version 1.0.0-beta1
+$ dotnet install tool -g Obfuscar.GlobalTool --version 1.0.0-beta1
 ```
 
 Then it is super easy to launch Obfuscar from command prompt or bash
 
-```
-obfuscar --help
+``` batch
+$ obfuscar --help
 ```
 
 Next time I publish an update, you should be able to see an update hint.

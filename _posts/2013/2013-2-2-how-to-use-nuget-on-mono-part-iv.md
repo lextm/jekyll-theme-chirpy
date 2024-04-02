@@ -19,7 +19,7 @@ Therefore, I downloaded NuGet source code on Mono/Linux and planed to build it. 
 
 Anyway, I then downloaded the source code (NuGet 2.2 release, not master) to Windows, and used Visual Studio 2012 to build it. After that, I copied the instrumented binary (with Console.WriteLine everywhere necessary) to my Linux box. Guess what? This triggers a very strange error message, which I could not find any information on the web,
 
-```
+``` bash
 Mono: gc took 15 usecs
 Mono: Assembly Loader probing location: '/usr/lib/mono/4.0/mscorlib.dll'.
 Mono: Image addref mscorlib[0x9960ab0] -> /usr/lib/mono/4.0/mscorlib.dll[0x99601b8]: 2
@@ -61,15 +61,15 @@ Can't find custom attr constructor image: /home/lextm/Downloads/ConsoleApplicati
 If you happen to meet the same exception message after following http://docs.nuget.org/docs/contribute/setting-up-the-nuget-development-environment, please don't panic as this is by design. The NuGet site steps will generate binaries compiled against .NET 4.5 profile, which is not yet available in Mono stable releases (2.10.\*). You have to use Visual Studio 2010 to build the binaries (Core and CommandLine projects).
 [Update: the exception is not Mono alone. If you run a .NET 4.5 program on .NET 4 you might hit the same, http://www.mattwrock.com/post/2012/02/29/What-you-should-know-about-running-ILMerge-on-Net-45-Beta-assemblies-targeting-Net-40.aspx]
 
-Well, if you find that you cannot open the two projects correctly in VS2010, please go to Build\NuGet.Settings.targets file, and change
+Well, if you find that you cannot open the two projects correctly in VS2010, please go to `Build\NuGet.Settings.targets` file, and change
 
-```
+``` text
 $(MSBuildExtensionsPath)\..\Microsoft Visual Studio 11.0\Common7\IDE
 ```
 
 to something invalid, such as
 
-```
+``` text
 $(MSBuildExtensionsPath)\..\Microsoft Visual Studio 12.0\Common7\IDE
 ```
 
@@ -77,7 +77,7 @@ Then VS2010 should be able to open the two projects correctly.
 
 Finally the instrumented binary told me that `PhysicalFileSystem.GetDirectory` and `PhysicalFileSystem.GetFiles` do not work as expected. Why? I laughed when I opened this method,
 
-```csharp
+``` csharp
 private static string EnsureTrailingSlash(string path)
 {
     if (!path.EndsWith("\\", StringComparison.Ordinal))

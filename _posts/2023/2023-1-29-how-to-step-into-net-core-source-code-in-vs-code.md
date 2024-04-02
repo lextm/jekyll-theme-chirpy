@@ -14,7 +14,7 @@ In fact, the steps are also simple, so let's simply check them out.
 ## Sample Project
 First, let's create a test project,
 
-``` bash
+``` batch
 mkdir test-console
 cd test-console
 dotnet new console

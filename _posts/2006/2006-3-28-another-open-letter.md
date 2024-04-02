@@ -12,7 +12,7 @@ excerpt_separator: <!--more-->
 
 你甚至可以用MikTeX自己编译出PDF来看。
 <!--more-->
-```tex
+``` tex
 /documentclass[CJK]{article}
 
 % Pramble Section

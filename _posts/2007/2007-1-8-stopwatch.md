@@ -13,7 +13,7 @@ excerpt_separator: <!--more-->
 
 从感觉来看，向着State模式前进总是可以的。所以开始的时候加入了一些状态的东西，不过仔细看起来还是问题不少。
 
-```csharp
+``` csharp
 // lextm: this is stopwatch class.
 // Copyright © 2006–2007 Lex Li
 //
@@ -146,7 +146,7 @@ _Figure 2: Stopwatch classes._
 重构的结果如上图，分为五个单元：
 
 Stopwatch.cs
-```csharp
+``` csharp
 // lextm: this is stopwatch class.
 // Copyright © 2006–2007 Lex Li
 //
@@ -245,7 +245,7 @@ namespace Lextm.Diagnostics {
 ```
 CustomState.cs
 
-```csharp
+``` csharp
 // lextm: this is custom state class.
 // Copyright © 2007 Lex Li
 //
@@ -291,7 +291,7 @@ namespace Lextm.Diagnostics {
 
 Dead.cs
 
-```csharp
+``` csharp
 // lextm: this is dead state class.
 // Copyright © 2007 Lex Li
 //
@@ -345,7 +345,7 @@ namespace Lextm.Diagnostics {
 
 Working.cs
 
-```csharp
+``` csharp
 // lextm: this is working state class.
 // Copyright © 2007 Lex Li
 //
@@ -417,7 +417,7 @@ namespace Lextm.Diagnostics {
 
 Idle.cs
 
-```csharp
+``` csharp
 // lextm: this is idle state class.
 // Copyright © 2007 Lex Li
 //

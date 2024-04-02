@@ -26,7 +26,7 @@ So if you have a project that uses Sam's ANTLR packages, how to migrate?
 
 First, verify your project file,
 
-```xml
+``` xml
   <ItemGroup>
     <PackageReference Include="Antlr4" Version="4.6.6" PrivateAssets="all" />
     <PackageReference Include="Antlr4.Runtime" Version="4.6.6" />
@@ -35,7 +35,7 @@ First, verify your project file,
 
 Here the last release from Sam is being used. By replacing them with the following,
 
-```xml
+``` xml
   <ItemGroup>
     <PackageReference Include="Antlr4.Runtime.Standard" Version="4.13.0" />
     <PackageReference Include="Antlr4BuildTasks" Version="12.2.0" PrivateAssets="all" />
@@ -46,7 +46,7 @@ your project should once again be able to compile, and this time against latest 
 
 `Antlr4BuildTasks` is a nice new package created by Ken Domino and successfully fills the gaps. But note that it has a few breaking changes,
 
-```xml
+``` xml
   <ItemGroup>
     <Antlr4 Include="CLexer.g4" />
     <Antlr4 Include="CParser.g4">

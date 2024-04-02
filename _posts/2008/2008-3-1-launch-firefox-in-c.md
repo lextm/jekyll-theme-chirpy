@@ -11,13 +11,13 @@ I talked about this topic in [this post]({% post_url 2008/2008-2-5-grapevine-voi
 
 The old code to launch Firefox was,
 
-```csharp
+``` csharp
 Process.Start("https://docs.lextudio.com/blog");
 ```
 
 And the new code is,
 
-```csharp
+``` csharp
 Help.ShowHelp(null, "https://docs.lextudio.com/blog");
 ```
 

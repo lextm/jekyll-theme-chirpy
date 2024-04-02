@@ -12,14 +12,14 @@ If you are managing an open source library for the community like I do, the intr
 ## Multiple Target Frameworks
 
 Like I did in #SNMP Library to use multiple target frameworks (`netstandard1.3` and `net452`), the associated unit testing project can be made to utilize multiple target frameworks (`netcoreapp1.0` and `net452`), so that `dotnet test` command can execute the test cases for both .NET Core 1.0 and .NET Framework 4.5.2,
-```xml
+``` xml
 <PropertyGroup>
     <OutputType Condition="'$(TargetFramework)'!='net452'">Exe</OutputType>
     <TargetFrameworks>netcoreapp1.0;net452</TargetFrameworks>
 </PropertyGroup>
 ```
 You must make sure to use the extra `Condition` to avoid a compilation error,
-```text
+``` bash
 CSC : error CS5001: Program does not contain a static 'Main' method suitable for an entry point
 ```
 
@@ -37,7 +37,7 @@ Even for 2.2.0 release, the probability of testing failures can be observable, w
 
 Just notice that if you use multiple target frameworks, then the xUnit.net VS runner (2.2.0) might not be able to detect the test cases. A workaround is to temporarily set net452 only,
 
-```diff
+``` diff
 - <TargetFrameworks>netcoreapp1.0;net452</TargetFrameworks>
 + <TargetFrameworks>net452</TargetFrameworks>
 ```

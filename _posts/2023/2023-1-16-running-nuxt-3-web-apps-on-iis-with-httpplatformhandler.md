@@ -18,7 +18,7 @@ Thus, HttpPlatformHandler still plays an important role in the ecosystem and won
 
 Compared to Nuxt 2.x releases, 3.0 introduced brand new steps so you must stick to [the official guide](https://nuxt.com/docs/getting-started/installation#new-project) closely,
 
-``` bash
+``` batch
 npx nuxi init test-nuxt
 cd test-nuxt
 npm install

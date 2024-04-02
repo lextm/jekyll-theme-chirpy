@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 ---
 I love ISPP because it really makes things easier. But .NET sometimes brings differences. For example,
 
-``` inno
+``` ini
 #define MyAppVersion GetFileVersion("..\bin\release\Lextm.CodeBeautifierCollection.Framework.dll")
 ```
 

@@ -20,7 +20,7 @@ You can always open a Terminal first,
 
 and let's run
 
-``` shell
+``` batch
 mkdir test
 cd test
 dotnet --info
@@ -31,8 +31,8 @@ I expect something to break here, as you might not have .NET Core SDK installed.
 
 So if you see the output,
 
-``` shell
-> dotnet --info
+``` bash
+$ dotnet --info
 zsh: command not found: dotnet
 ```
 
@@ -42,8 +42,8 @@ Be patient, as you might hit several issues here to get .NET Core SDK installed 
 
 Ultimately I expect you see something similar to the following,
 
-``` text
-> dotnet --info
+``` bash
+$ dotnet --info
 .NET SDK (reflecting any global.json):
  Version:   6.0.100-preview.7.21379.14
  Commit:    22d70b47bc
@@ -83,8 +83,8 @@ To install additional .NET runtimes or SDKs:
 
 Now you can create your initial site at the terminal,
 
-``` shell
-dotnet new mvc
+``` bash
+$ dotnet new mvc
 ```
 
 and it generates the simplest ASP.NET MVC site in the `test` folder created earlier.
@@ -97,16 +97,16 @@ Why do I suggest you start with a brand new site from the default template here?
 
 At the terminal, run the last command,
 
-``` shell
-dotnet run
+``` bash
+$ dotnet run
 ```
 
 This kicks out all the tools behind the scene to compile the source code and start the application.
 
 You might see a very lengthy output, but it should end with something similar to,
 
-``` shell
-> dotnet run
+``` bash
+$ dotnet run
 Building...
 info: Microsoft.Hosting.Lifetime[0]
       Now listening on: https://localhost:5001

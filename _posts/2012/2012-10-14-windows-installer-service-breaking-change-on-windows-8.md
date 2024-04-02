@@ -21,7 +21,7 @@ I just found that on my Windows 8 Enterprise box I could not install Expression 
 
 Well, the output of this console application is horrible,
 
-```
+``` bash
 busy
 idle
 Press any key to continue . . .

@@ -13,7 +13,7 @@ I set break points in order to locate the bug but I failed. The debugger just co
 
 I followed MSDN reference to Icon.FromHandle to free the handle with DestroyIcon. The following is the sample code from MSDN.
 
-```csharp
+``` csharp
 [System.Runtime.InteropServices.DllImport("user32.dll", CharSet=CharSet.Auto)]
 extern static bool DestroyIcon(IntPtr handle);
 

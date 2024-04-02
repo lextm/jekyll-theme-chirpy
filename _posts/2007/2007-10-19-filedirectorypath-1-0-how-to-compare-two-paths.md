@@ -22,7 +22,7 @@ Today, my problem is solved! FileDirectoryPath 1.0, which is original part of fa
 
 So what is the way to compare two paths?
 
-```csharp
+``` csharp
 filePathAbsolute1 = new FilePathAbsolute(@"C:/Dir1\\File.txt");
 filePathAbsolute2 = new FilePathAbsolute(@"C:\DIR1\FILE.TXT");
 Debug.Assert(filePathAbsolute1.Equals(filePathAbsolute2));

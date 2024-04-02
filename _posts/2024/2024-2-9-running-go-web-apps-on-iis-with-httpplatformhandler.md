@@ -15,12 +15,12 @@ HttpPlatformHandler can help IIS host Java/Python/Node.js/Go applications, so in
 At the beginning, we will start by installing Go on this machine,
 
 ``` bash
-winget install GoLang.Go
+$ winget install GoLang.Go
 ```
 
 After that we will start to make a sample application,
 
-``` bash
+``` batch
 cd C:\
 mkdir test-go
 cd test-go
@@ -93,7 +93,7 @@ func main() {
 Compile the code to an executable file,
 
 ``` bash
-go build server.go
+$ go build server.go
 ```
 
 After compilation, a file `server.exe` is created in the directory.

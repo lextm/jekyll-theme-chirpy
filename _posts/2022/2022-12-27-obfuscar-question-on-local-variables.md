@@ -39,8 +39,8 @@ If variable names are kept after compilation, we should be able to see them in M
 
 ## Disassembling MSIL
 You might want to find a disassembler somewhere, and I just published a new global tool for .NET SDK here,
-``` text
-dotnet tool install --global dotnet-ildasm2
+``` bash
+$ dotnet tool install --global dotnet-ildasm2
 ```
 
 With this tool installed, you can easily run the following command to disassemble the Main method from the assembly,

@@ -56,7 +56,7 @@ Under `src` folder you can see a few new files,
 
 So everything else in the main TypeScript file (`extension.ts`) is simple,
 
-```typescript
+``` typescript
 function ensureRuntimeDependencies(
   extension: vscode.Extension<any>,
   logger: Logger
@@ -80,7 +80,7 @@ This function verifies if a file named `install.Lock` exists, and if not, call t
 
 You might wonder from where the downloader reads about the ZIP packages. Yep, that's very important a piece of information, so OmniSharp requires it to present in `package.config`,
 
-```json
+``` json
 "runtimeDependencies": [
     {
         "description": "reStructuredText Language Server for Windows (x86)",

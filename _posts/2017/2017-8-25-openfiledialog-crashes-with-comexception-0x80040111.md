@@ -11,7 +11,7 @@ I have been updating Jexus Manager quite frequently as more and more useful cras
 <!--more-->
 
 ## Exception Details
-```
+``` bash
 Traceback (most recent call last):
 at System.Windows.Forms.SaveFileDialog.CreateVistaDialog() in "System.Windows.Forms.SaveFileDialog" line 0
 at System.Windows.Forms.FileDialog.RunDialogVista(System.IntPtr hWndOwner) in "System.Windows.Forms.FileDialog" line 0

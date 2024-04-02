@@ -80,14 +80,14 @@ However, do remember that `net*` target frameworks can only be built on Windows 
 If you need to sign the assemblies, a disappointing fact is that Roslyn cannot fully sign assemblies on non-Windows platforms yet. Thus, Microsoft temporarily introduces a concept called [public signing](https://github.com/dotnet/corefx/blob/master/Documentation/project-docs/public-signing.md).
 
 .NET Core applications have been designed to work well with public signed assemblies. However, .NET Framework based projects (as well as Mono based) cannot consume them. So it is very very important to make sure you manually modify your project files to use the following public signing setting,
-```xml
+``` xml
 <PublicSign Condition=" '$(OS)' != 'Windows_NT' ">True</PublicSign>
 ```
 
 > You no longer need this hack as Microsoft fixes it in a later release, https://github.com/dotnet/roslyn/issues/8210
 
 What might happen if you forget this? Public signing is just similar to delay signing. And when the following is used,
-```xml
+``` xml
 <PublicSign>True</PublicSign>
 ```
 

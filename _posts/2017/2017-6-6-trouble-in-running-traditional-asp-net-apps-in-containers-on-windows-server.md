@@ -18,7 +18,7 @@ Yup, the PowerShell installation is a little tricky to follow.
 ## Docker Compose
 But that's not enough if you run Visual Studio 2017 to develop Docker based projects, as it would complain about missing docker-compose like
 
-```
+``` bash
 Severity Code Description Project File Line Suppression State
 Error MSB4018 The "PrepareForBuild" task failed unexpectedly.
 Microsoft.DotNet.Docker.CommandLineClientException: Unable to run 'docker-compose'. Verify that Docker for Windows is installed and running locally. For troubleshooting, please review http://aka.ms/DockerToolsTroubleshooting. --> System.ComponentModel.Win32Exception: The system cannot find the file specified
@@ -63,7 +63,7 @@ The error message is more suitable for Windows 10 users, but totally misleading 
 
 Even if you have that installed, you might hit another error message,
 
-```
+``` bash
 Severity Code Description Project File Line Suppression State
 Error MSB4018 The "PrepareForLaunch" task failed unexpectedly.
 Microsoft.DotNet.Docker.CommandLineClientException: Building fullfxweb
@@ -116,7 +116,7 @@ docker exec c5739cb5ab3b powershell -Command if ((Get-Process msvsmon -ErrorActi
 
 Note that it uses an IP address of `172.19.8.203`, so I launch a web browser to check the page,
 
-```
+``` text
 Server Error in '/' Application.
 Runtime Error
 ```
@@ -136,7 +136,7 @@ Make sure you now go back to Visual Studio and add the following tag to web.conf
 
 Then try to debug again and this time your browser should show a more meaningful page,
 
-```
+``` text
 Server Error in '/' Application.
 Configuration Error
 Description: An error occurred during the processing of a configuration file required to service this request. Please review the specific error details below and modify your configuration file appropriately.

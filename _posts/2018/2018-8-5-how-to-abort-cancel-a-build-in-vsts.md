@@ -21,7 +21,7 @@ First we need to detect changes,
 1. git pull on all submodules to get new commits.
 1. Use a patch file in master repo to detect changes,
 
-```batch
+``` batch
 git checkout master
 git add -A
 git status | findstr "working tree clean"
@@ -53,7 +53,7 @@ Your answer to this question, in fact, decides what approach you should do next.
 
 This can be easily achieved, by using the following PowerShell script abort.ps1 ,
 
-```powershell
+``` powershell
 Write-Host "##vso[task.setvariable variable=agent.jobstatus;]canceled"
 Write-Host "##vso[task.complete result=Canceled;]DONE"
 ```
@@ -66,7 +66,7 @@ It simply tells the agent to cancel the task. Miserably, you notice that on dash
 
 It is rather simple to achieve, because you simply need to modify the batch file as
 
-```batch
+``` batch
 git checkout master
 git add -A
 git status | findstr "working tree clean"

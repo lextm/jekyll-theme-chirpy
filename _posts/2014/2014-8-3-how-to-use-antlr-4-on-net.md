@@ -33,7 +33,7 @@ A few things have changed dramatically, including
 
 With the project opened in Visual Studio, add two NuGet packages to it, Antlr4 and Antlr4.Runtime,
 
-```powershell
+``` powershell
 Install-Package Antlr4
 Install-Package Antlr4.Runtime
 ```

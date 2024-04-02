@@ -32,15 +32,15 @@ Now open a web browser and navigate to `http://172.28.253.71` and we should see 
 
 Now attach to that container and open PowerShell,
 
-``` batch
-docker exec -ti aspnet_sample powershell
+``` bash
+$ docker exec -ti aspnet_sample powershell
 ```
 
 From this PowerShell console, create a new administrator,
 
-``` batch
-net user /add testuser Password01!
-net localgroup administrators testuser /add
+``` bashh
+$ net user /add testuser Password01!
+$ net localgroup administrators testuser /add
 ```
 
 install and start IIS Remote Management feature,
@@ -69,26 +69,26 @@ And from the host we can use IIS Manager to connect to `172.28.253.71:8172` and 
 
 OK, now we can stop the container to save some energy,
 
-``` batch
-docker stop aspnet_sample
+``` bash
+$ docker stop aspnet_sample
 ```
 
 Later we can easily start the container again,
 
-``` batch
-docker start aspnet_sample
+``` bash
+$ docker start aspnet_sample
 ```
 
 When we no longer need the container, we can remove it,
 
-``` batch
-docker rm aspnet_sample
+``` bash
+$ docker rm aspnet_sample
 ```
 
 ## Side Notes
 
 The command to set static IP address for an existing container is,
 
-``` batch
-docker network connect --ip 172.28.253.71 lextudio aspnet_sample
+``` bash
+$ docker network connect --ip 172.28.253.71 lextudio aspnet_sample
 ```

@@ -14,7 +14,7 @@ We often perform artifacts verification via test suites, so for .NET projects NU
 
 I have shipped multiple versions of PHP Manager for IIS in the past few years, but it was recently that [one issue](https://github.com/phpmanager/phpmanager/issues/53) reported back on `Microsoft.Web.Administration` reference,
 
-```txt
+``` text
 Could not load file or assembly 'Microsoft.Web.Administration, Version=7.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The system
  cannot find the file specified.
 ```

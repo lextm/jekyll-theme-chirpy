@@ -13,13 +13,13 @@ excerpt_separator: <!--more-->
 
 On openSUSE (12.2) it is easy to find that `xbuild` and `Microsoft.Build.Framework.dll` is available under `mono-devel` package,
 
-```
+``` bash
 lextm@linux-gtil:~> rpm -ql mono-devel | grep xbuild
 ```
 
 Then it is obvious that Microsoft.Build.dll is not within this package,
 
-```
+``` bash
 lextm@linux-gtil:~> rpm -ql mono-devel | grep Microsoft.Build*
 ```
 

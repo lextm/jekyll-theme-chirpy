@@ -46,7 +46,7 @@ My approach is to add Console.WriteLine to those Dispose methods to mark the ent
 
 Below is the output I got on Windows (configured DockSample project as a console application),
 
-```
+``` text
 Enter AutoHideWindowControl 7
 Leave 7
 Enter DockPanel 5
@@ -71,7 +71,7 @@ Leave 5
 
 Below is the output I got on Mono/openSUSE,
 
-```
+``` text
 Enter AutoHideWindowControl 7
 Leave 7
 Enter DockPanel 5

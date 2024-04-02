@@ -10,7 +10,7 @@ excerpt_separator: <!--more-->
 <!--more-->
 
 When you edit a C# XML comments such as
-```csharp
+``` csharp
 ///
 /// Logging service class.
 ///

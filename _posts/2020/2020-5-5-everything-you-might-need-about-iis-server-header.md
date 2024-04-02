@@ -54,8 +54,8 @@ IIS URL rewrite rules can change response headers, so of course they can be used
 
 IIS 10 finally adds a new setting removeServerHeader in [request filtering section](https://docs.microsoft.com/iis/configuration/system.webserver/security/requestfiltering/#new-in-iis-100),
 
-``` batch
-appcmd.exe set config "Default Web Site" -section:system.webServer/security/requestFiltering /removeServerHeader:true
+``` bash
+$ appcmd.exe set config "Default Web Site" -section:system.webServer/security/requestFiltering /removeServerHeader:true
 ```
 
 However, keep in mind that it does not apply to http.sys error responses either.

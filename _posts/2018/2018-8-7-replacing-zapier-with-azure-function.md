@@ -37,7 +37,7 @@ Easy? Time to put them all together.
 1. Go to the GitHub repos you want to track, and add a web hook in them with the info you got in step 1.
 1. Modify the Azure Function, and use the following code snippet to trigger a build.
 
-```csharp
+``` csharp
 using System;
 using System.Net;
 using System.Net.Http;

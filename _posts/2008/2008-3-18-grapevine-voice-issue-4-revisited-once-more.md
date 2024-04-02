@@ -19,7 +19,7 @@ http://codebetter.com/blogs/patricksmacchia/archive/2008/03/18/mono-cecil-vs-sys
 
 So right now I use this sample code in 6.0 Update 1 RC,
 
-```csharp
+``` csharp
 public static bool IsDotNetAssembly(string fileName)
 {
     bool result = true;

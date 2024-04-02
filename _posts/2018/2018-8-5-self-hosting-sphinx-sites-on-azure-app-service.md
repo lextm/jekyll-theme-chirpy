@@ -51,7 +51,7 @@ Now you should notice the web site works, but old links not. That's because Read
 
 I created two rules in my case,
 
-```xml
+``` xml
 <rule name="removeEn" stopProcessing="true">
   <match url="^(en|zh)/latest/(.*)" />
     <action type="Redirect" redirectType="Permanent" url="http://{HTTP_HOST}/{R:2}" />

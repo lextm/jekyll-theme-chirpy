@@ -29,7 +29,7 @@ Horrible, isn't it? How should we find out the cause of such an error when the m
 
 Wait a minute, and it does say 'IIS Express', a very special term that might be useful later. Correct, if we search for the string "IIS Express" (don't forget the space in between) in the whole solution, we can easily locate a few spots,
 
-```text
+``` text
     Find all "IIS Express", Subfolders, Find Results 1, Entire Solution, ""
 
     C:\Users\lextm\source\repos\mvccoretest\mvccoretest\Properties\launchSettings.json(11): "IIS Express": {
@@ -55,7 +55,7 @@ Now back to the error message. When it says it was "Unable to connect to web ser
 
 Read `launchSettings.json` once again, and we can see
 
-```json
+``` json
 {
   "iisSettings": {
     "windowsAuthentication": false,
@@ -94,7 +94,7 @@ The zero value of `sslPort` means Visual Studio expects to launch an HTTP site, 
 
 Time to jump to `applicationhost.config` and great, we spot the cause in just a minute,
 
-```xml
+``` xml
 <site name="mvccoretest" id="2">
     <application path="/" applicationPool="Clr4IntegratedAppPool">
         <virtualDirectory path="/" physicalPath="C:\Users\lextm\source\repos\mvccoretest\mvccoretest" />
@@ -113,7 +113,7 @@ Got it? The site mapping to this project in fact has no binding that would accep
 
 OK. Now let's change `launchSettings.json` to work on HTTPS,
 
-```json
+``` json
 {
   "iisSettings": {
     "windowsAuthentication": false,
@@ -147,7 +147,7 @@ I change `sslPort` to 44322, so the site should be accessed via `https://localho
 
 Then I intentionally break `applicationhost.config` by changing it to,
 
-```xml
+``` xml
 <site name="mvccoretest" id="2">
     <application path="/" applicationPool="Clr4IntegratedAppPool">
         <virtualDirectory path="/" physicalPath="C:\Users\lextm\source\repos\mvccoretest\mvccoretest" />

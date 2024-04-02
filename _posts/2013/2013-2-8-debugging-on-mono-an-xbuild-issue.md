@@ -11,7 +11,7 @@ I just attempted to answer [one StackOverflow question](http://stackoverflow.com
 
 Well, in fact it stopped miserably
 
-```
+``` bash
 XBuild Engine Version 3.0.3.0
 Mono, Version 3.0.3.0
 Copyright © Marek Sieradzki 2005–2008, Novell 2008–2011.
@@ -46,7 +46,7 @@ Therefore, I need to resolve this problem first.
 ## MonoDevelop Debugging - Failed
 To begin with, I tried to use MonoDevelop to debug xbuild. Miguel did post about the details a long time ago. However, even if I got the steps right for MonoDevelop 3.0.6, I found that Mono's attaching method is no longer supported by Microsoft on Windows 8 (I did not test on other Windows versions yet),
 
-```
+``` bash
 System.Runtime.InteropServices.COMException (0x80070032): The request is not supported. (Exception from HRESULT: 0x80070032)
 at Microsoft.Samples.Debugging.CorDebug.NativeApi.ICorDebug.CreateProcess(String lpApplicationName, String lpCommandLine, SECURITY_ATTRIBUTES lpProcessAttributes, SECURITY_ATTRIBUTES lpThreadAttributes, Int32 bInheritHandles, UInt32 dwCreationFlags, IntPtr lpEnvironment, String lpCurrentDirectory, STARTUPINFO lpStartupInfo, PROCESS_INFORMATION lpProcessInformation, CorDebugCreateProcessFlags debuggingFlags, ICorDebugProcess& ppProcess)
 at Microsoft.Samples.Debugging.CorDebug.CorDebugger.CreateProcess(String applicationName, String commandLine, SECURITY_ATTRIBUTES processAttributes, SECURITY_ATTRIBUTES threadAttributes, Boolean inheritHandles, Int32 creationFlags, IntPtr environment, String currentDirectory, STARTUPINFO startupInfo, PROCESS_INFORMATION& processInformation, CorDebugCreateProcessFlags debuggingFlags)
@@ -59,8 +59,8 @@ So I have to find another way :(
 ## Mono Tracing
 I dumped the xbuild error details to a log file with the following command so that I can see what is the culprit,
 
-```
-xbuild sharpsnmplib.md.sln /v:diag > error.log
+``` bash
+$ xbuild sharpsnmplib.md.sln /v:diag > error.log
 Target PreBuildEvent skipped due to false condition: '$(PreBuildEvent)' != ''
 : error : Error building target CheckPrerequisites: Exception has been thrown by the target of an invocation.
 Error building target CheckPrerequisites: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. --> System.ArgumentException: Illegal characters in path.
@@ -91,7 +91,7 @@ mono --trace=M:System.IO.Path:IsPathRooted "C:\Program Files (x86)\Mono-3.0.3\li
 
 It is unbelievably easy that now I can tell what happened,
 
-```
+``` bash
 [00001830: 1.88729 0] ENTER: System.IO.Path:IsPathRooted (string)([STRING:040CA330:$([System.IO.Path]::Combine(E:\Projects\sharpsnmplib\, ".nuget"))\nuget.exe], )
 : error : Error building target CheckPrerequisites: Exception has been thrown by the target of an invocation.
 Error building target CheckPrerequisites: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. --> System.ArgumentException: Illegal characters in path.
@@ -117,7 +117,7 @@ at Microsoft.Build.BuildEngine.Target.DoBuild (System.Boolean& executeOnErrors) 
 
 At this moment we know that NuGet.targets uses an inline defined variable xbuild does not support yet,
 
-```
+``` text
 $([System.IO.Path]::Combine($(SolutionDir), ".nuget"))
 $([System.IO.Path]::Combine($(ProjectDir), "packages.config"))
 ```

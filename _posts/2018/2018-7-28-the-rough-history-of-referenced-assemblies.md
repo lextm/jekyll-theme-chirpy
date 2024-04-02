@@ -68,7 +68,7 @@ Such are called SKUs, and can be found in registry under `HKEY_LOCAL_MACHINE\SOF
 
 OK, now you know why in `app.config` you might see XML elements like,
 
-```xml
+``` xml
 <configuration>
   <startup>
     <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />

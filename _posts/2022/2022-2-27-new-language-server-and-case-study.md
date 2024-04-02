@@ -41,7 +41,7 @@ If you just install this extension and would like to work on a ReadTheDocs proje
 
 First, this error asks you to open VSCode OUTPUT panel. And there you should switch to Esbonio Language Client channel. You should see something similar to below,
 
-```text
+``` text
 [esbonio.lsp] Workspace root file:///c%3A/Users/lextudio/source/repos/vscode-restructuredtext/test-resources/sphinx
 [esbonio.lsp] Sphinx Config {'version': None, 'conf_dir': 'c:\\Users\\lextudio\\source\\repos\\vscode-restructuredtext\\test-resources\\sphinx', 'src_dir': 'c:\\Users\\lextudio\\source\\repos\\vscode-restructuredtext\\test-resources\\sphinx', 'build_dir': 'c:\\Users\\lextudio\\source\\repos\\vscode-restructuredtext\\test-resources\\sphinx\\_build', 'builder_name': 'html'}
 [esbonio.lsp] Config dir c:\Users\lextudio\source\repos\vscode-restructuredtext\test-resources\sphinx
@@ -82,7 +82,7 @@ The first few lines indicate what settings (like build folder) are passed from V
 
 Second, we need to know where is the Python interpreter that this dependency should be installed to. So time to switch to reStructuredText channel in OUTPUT panel, and read what it says,
 
-```text
+``` text
 [Log - 7:13:11 p.m.] Running cmd: "C:\Users\lextudio\AppData\Local\Programs\Python\Python310\python.exe" -c "import esbonio.lsp; from distutils.version import LooseVersion; print(LooseVersion(esbonio.lsp.__version__) < LooseVersion('0.8.0'))"
 ```
 

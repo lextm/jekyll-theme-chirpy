@@ -14,7 +14,7 @@ The first thing I did is a quick analysis on what we did from 3.1 to 4.0 (4 and 
 
 ## A view of the work achieved
 
-```sql
+``` sql
 SELECT METHODS WHERE CodeWasChanged OR WasAdded
 ```
 
@@ -22,7 +22,7 @@ We changed a lot of code, which shows the suite evolution is still fast. (The Li
 
 ## New Core Public Types
 
-```sql
+``` sql
 SELECT TYPES FROM ASSEMBLIES "SharpSnmpLib", "SharpSnmpLib.Controls", "SharpSnmpLib.Mib"
 WHERE IsPublic AND WasAdded
 ```
@@ -31,7 +31,7 @@ Only one new types is introduced in 4.0. That is the SearchResult class. You wil
 
 ## New Assemblies
 
-```sql
+``` sql
 SELECT ASSEMBLIES WHERE WasAdded
 ```
 
@@ -39,7 +39,7 @@ Only one assembly is added to our binary release package. That is snmpd.exe, our
 
 ## New Public Types
 
-```sql
+``` sql
 SELECT TYPES WHERE WasAdded AND IsPublic
 ```
 
@@ -50,7 +50,7 @@ We have a few new types here except for SearchResult,
 
 ## New Public Namespaces
 
-```sql
+``` sql
 SELECT NAMESPACES WHERE WasAdded AND IsPublic
 ```
 

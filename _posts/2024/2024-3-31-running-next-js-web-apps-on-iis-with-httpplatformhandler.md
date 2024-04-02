@@ -19,7 +19,7 @@ Thus, HttpPlatformHandler still plays an important role in the ecosystem and won
 First, use `create-next-app` to create a new Next.js project,
 
 ``` bash
-npx create-next-app@latest
+$ npx create-next-app@latest
 ```
 
 Then to run Next.js web apps locally, you know you can use `next start` command. 
@@ -28,7 +28,7 @@ Then to run Next.js web apps locally, you know you can use `next start` command.
 
 When you want to host the web app on IIS, you just need to create a `web.config` as below and invoke `next start` properly,
 
-```xml
+``` xml
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
     <system.webServer>

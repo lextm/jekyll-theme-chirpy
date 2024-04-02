@@ -10,7 +10,7 @@ excerpt_separator: <!--more-->
 I built a Debian machine a while ago to test out MonoDevelop, and now I am trying to test .NET Core on it. But such an exception happened.
 <!--more-->
 
-```shell
+``` shell
 parallels@debian-8:~/Downloads/sharpsnmplib$ ./travis.sh
 
 /usr/share/dotnet/sdk/2.0.0/NuGet.targets(102,5): error : Unable to load the service index for source https://api.nuget.org/v3/index.json. [/home/parallels/Downloads/sharpsnmplib/SharpSnmpLib.NetStandard.macOS.sln]
@@ -24,7 +24,7 @@ So how to troubleshoot such issues? I thought I should sync the CA certificates,
 
 Finally I hit a post that used curl command to dig more details from SSL/TLS connection,
 
-```shell
+``` shell
 parallels@debian-8:~/Downloads/sharpsnmplib$ curl -v https://api.nuget.org/v3/index.json
 * Hostname was NOT found in DNS cache
 * Trying 72.21.81.200…
@@ -56,7 +56,7 @@ the -k (or --insecure) option.
 OK, so this time using "curl: (60) SSL certificate problem: certificate is not yet valid" as keyword Google started to provide good explanations.
 
 No doubt I am using a suspended VM on Parallel, so the machine thought it was still on July 9,
-```shell
+``` shell
 parallels@debian-8:~/Downloads/sharpsnmplib$ date
 Sun Jul 9 14:29:08 EDT 2017
 ```
