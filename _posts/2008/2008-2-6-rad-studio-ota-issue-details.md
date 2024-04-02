@@ -20,7 +20,7 @@ Then the issue came that IDE thought the output should be Lextm.AddMany.dll whil
 
 Also when I tried CBC's Delete Project Target, CBC said that target does not exist. Then I debugged inside and saw that IOTAProject.ProjectOptions.TargetName is wrong. The returned string is `***\Lextm.AddMany.dll` while the expected is `***\AddMany.dll`.
 
-Luckily [the workaround is described here](/rad-studio-ota-issue-details-6e111b51c005) so if you also meet this issue you can try my code.
+Luckily [the workaround is described here]({% post_url 2008/2008-2-6-rad-studio-ota-issue-details %}) so if you also meet this issue you can try my code.
 
 ## Update:
 

@@ -6,7 +6,7 @@ tags: Inno-Setup
 permalink: /inno-setup-script-sample-for-version-comparison-advanced-version-c398d0ef18ad
 excerpt_separator: <!--more-->
 ---
-Compared to [last post on this topic](/inno-setup-script-sample-for-version-comparison-d5ac8f776f1d), this time I will show how ISPP makes thing much easier.
+Compared to an earlier revision, this time I will show how ISPP makes thing much easier.
 <!--more-->
 
 First, some important information can be defined only once and used everywhere. The definition should be written before `[Setup]` section like this,

@@ -6,7 +6,7 @@ tags: Visual-Studio .NET ANTLR
 excerpt_separator: <!--more-->
 ---
 
-I once blogged heavily about how to use ANTLR on .NET, and you can find all related posts in [here](/tags/antlr/).
+I once blogged heavily about how to use ANTLR on .NET, and you can find all related posts in [here]({{ site.baseurl }}/tags/antlr/).
 
 And [my last blog post on ANTLR]({% post_url 2017/2017-12-22-how-to-use-antlr-4-on-net-in-2017 %}) was in 2017. You can still learn something useful from the old post.
 

@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 
 > Update: [A new article]({% post_url 2017/2017-12-22-how-to-use-antlr-4-on-net-in-2017 %}) is now alive.
 
-I once blogged heavily about how to use ANTLR 3 on .NET, and you can find all links from [the archive](/archives/)
+I once blogged heavily about how to use ANTLR 3 on .NET, and you can find all links from [here]({{ site.baseurl }}/tags/antlr/).
 
 Interesting that when I prepared those materials I was fully aware of the upcoming ANTLR 4, and kept an eye on it until right now. In the past two weeks I converted a very large grammar file from ANTLR 3 to ANTLR 4, and this post aims to show some of the hints and tips.
 

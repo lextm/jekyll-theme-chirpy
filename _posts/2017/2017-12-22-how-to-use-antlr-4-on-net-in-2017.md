@@ -10,7 +10,7 @@ image:
   alt: Copyright © Lex Li. OCT, Pujiang Town, Shanghai.
 ---
 
-I once blogged heavily about how to use ANTLR on .NET, and you can find all related posts in [here](/tags/antlr/).
+I once blogged heavily about how to use ANTLR on .NET, and you can find all related posts in [here]({{ site.baseurl }}/tags/antlr/).
 
 And [my last blog post on ANTLR]({% post_url 2014/2014-8-3-how-to-use-antlr-4-on-net %}) was in 2014. You can still learn something useful from the old post.
 
