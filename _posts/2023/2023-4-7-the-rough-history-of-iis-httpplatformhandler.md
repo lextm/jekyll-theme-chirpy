@@ -39,13 +39,24 @@ The simplicity of this design makes the module a great success, as you no longer
 
 Initially this was used by Microsoft Azure Websites to host Java web apps, and later released as a separate download for IIS in 2015.
 
-## The Mist of ASP.NET Core
+## The Mist of ASP.NET Core Module
 
 Naturally when Microsoft designed ASP.NET Core, HttpPlatformHandler was chosen to be the integration point. However, the more features ported from ASP.NET 4.x, the more gaps identified that HttpPlatformHandler cannot fulfill all the needs.
 
 ASP.NET 4.x has so tight an integration mode with IIS (if you read about the integrated pipeline), that a dedicated IIS module must be developed upon HttpPlatformHandler to support most of the features and enable a smooth migration path. Of course, this new module is now known as ASP.NET Core module for IIS.
 
-Almost all misinformation today can be traced back to [this announcement made by the ASP.NET Core team on GitHub](https://github.com/aspnet/IISIntegration/issues/105). Readers without knowing the entire background or reading the announcement carefully can easily assume that they shouldn't use HttpPlatformHandler, but switch to ASP.NET Core module. But you can see how wrong that assumption is.
+Almost all misinformation today can be traced back to [this announcement made by the ASP.NET Core team on GitHub](https://github.com/aspnet/IISIntegration/issues/105). Readers without knowing the entire background or reading the announcement carefully can easily assume that they shouldn't use HttpPlatformHandler, but switch to ASP.NET Core module. But you can see how wrong that assumption is. Author of the original announcement later clarified that the announcement was not meant to discourage HttpPlatformHandler usage, but to inform the community about the new module in [this comment](https://github.com/aspnet/IISIntegration/issues/1454#issuecomment-425472537),
+
+> "HttpPlatformHandler was only replaced by ANCM for ASP.NET Core apps, it is still maintained for other uses. You're welcome to use ANCM for other applications but we don't document or support that scenario, you would need to reverse engineer it from here."
+
+There are a few noticeable things we can observe from ASP.NET Core module source code though (to help you better understand its sibling HttpPlatformHandler),
+
+1. The module keeps the functionality of HttpPlatformHandler, so that it can host Kestrel processes in out-of-process mode. But you won't find the documentation from Microsoft on the port number environment variable, as ASP.NET Core/Kestrel has that knowledge built in.
+1. Except the way to shut down the application server process via Control+C, it also adds a new way to shut down the process via a special URL (`/iisintegration`). This is a feature that HttpPlatformHandler does not have.
+1. The module adds a lot of features to support ASP.NET Core in-process mode, which is not available in HttpPlatformHandler. This is why the module is not a replacement for HttpPlatformHandler, and it has a larger memory footprint.
+1. It changed some internals such as [the 8kb internal buffer](https://github.com/aspnet/IISIntegration/issues/7). Those changes were not backported to HttpPlatformHandler.
+
+> If you are interested in learning more about ASP.NET Core module, you might review its code base on GitHub under `dotnet/aspnetcore` repository. Methods like [`UseIISIntegration`](https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.hosting.webhostbuilderiisextensions.useiisintegration) or`UseIIS` are also important.
 
 ## Conclusion
 
