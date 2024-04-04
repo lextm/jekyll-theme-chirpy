@@ -67,6 +67,10 @@ export default nextConfig;
 ```
 where `AppWithNode1` is the name of the IIS application.
 
-### Next.js on IIS Express
+## Next.js on IIS Express
 
 I also created the necessary PowerShell scripts to help you enable HttpPlatformHandler on IIS Express if you want to give it a try. You can find them on [my GitHub repository](https://github.com/lextm/iisexpress-httpplatformhandler).
+
+## Other Languages on IIS?
+
+If you want to learn more about HttpPlatformHandler and how to host other languages (Go/Python/Java) or frameworks (Nuxt.js), you can read [this post]({% post_url 2023/2023-4-7-the-rough-history-of-iis-httpplatformhandler %}).

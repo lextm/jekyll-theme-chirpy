@@ -147,6 +147,10 @@ Static files can be served by mechanisms other than WhiteNoise, if you dig furth
 
 You can choose other application server other than Uvicorn, but the key is to use HttpPlatformHandler to host the application on IIS.
 
-### Django on IIS Express
+## Django on IIS Express
 
 I also created the necessary PowerShell scripts to help you enable HttpPlatformHandler on IIS Express if you want to give it a try. You can find them on [my GitHub repository](https://github.com/lextm/iisexpress-httpplatformhandler).
+
+## Other Languages on IIS?
+
+If you want to learn more about HttpPlatformHandler and how to host other languages (Go/Node.js/Java) or frameworks (FastAPI/Flask), you can read [this post]({% post_url 2023/2023-4-7-the-rough-history-of-iis-httpplatformhandler %}).

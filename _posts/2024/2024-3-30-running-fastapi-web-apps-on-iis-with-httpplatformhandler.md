@@ -73,6 +73,10 @@ With all settings in place, I can go back to IIS Manager and create a site (I ch
 
 Well if you hit any error instead of the JSON response, please refer to [my old post]({% post_url 2022/2022-7-10-running-flask-web-apps-on-iis-with-httpplatformhandler %}) for troubleshooting tips.
 
-### FastAPI on IIS Express
+## FastAPI on IIS Express
 
 I also created the necessary PowerShell scripts to help you enable HttpPlatformHandler on IIS Express if you want to give it a try. You can find them on [my GitHub repository](https://github.com/lextm/iisexpress-httpplatformhandler).
+
+## Other Languages on IIS?
+
+If you want to learn more about HttpPlatformHandler and how to host other languages (Go/Node.js/Java) or frameworks (Django/Flask), you can read [this post]({% post_url 2023/2023-4-7-the-rough-history-of-iis-httpplatformhandler %}).
