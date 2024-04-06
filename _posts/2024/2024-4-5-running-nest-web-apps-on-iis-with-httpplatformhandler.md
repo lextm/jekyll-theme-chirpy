@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Running Nest.js Web Apps on IIS with HttpPlatformHandler"
+title: "Running Nest Web Apps on IIS with HttpPlatformHandler"
 description: A post about creating a simple Nest web app and deploy it on IIS with HttpPlatformHandler
 tags: IIS Windows JavaScript Node.js Nest HttpPlatformHandler
 excerpt_separator: <!--more-->
