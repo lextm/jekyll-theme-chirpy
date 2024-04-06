@@ -16,6 +16,8 @@ Thus, HttpPlatformHandler still plays an important role in the ecosystem and won
 
 ### Basic Nest Setup
 
+> The steps below are mostly copied from [the official Nest documentation](https://docs.nestjs.com/).
+
 First, use `nest new` to create a new Next project,
 
 ``` bash
