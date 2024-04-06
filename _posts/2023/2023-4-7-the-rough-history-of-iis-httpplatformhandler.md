@@ -84,5 +84,6 @@ I also created the necessary PowerShell scripts to help you enable HttpPlatformH
 - [Node.js Example by me]({% post_url 2022/2022-6-11-running-nodejs-web-apps-on-iis-with-httpplatformhandler %})
 - [Next.js Example by me]({% post_url 2024/2024-3-31-running-next-js-web-apps-on-iis-with-httpplatformhandler %})
 - [Nuxt 3 Example by me]({% post_url 2023/2023-1-16-running-nuxt-3-web-apps-on-iis-with-httpplatformhandler %})
+- [Nest Example by me]({% post_url 2024/2024-4-5-running-nest-web-apps-on-iis-with-httpplatformhandler %})
 - [Ruby Example by Scott Hanselman](https://www.hanselman.com/blog/announcing-running-ruby-on-rails-on-iis8-or-anything-else-really-with-the-new-httpplatformhandler)
 - [Go Example by me]({% post_url 2024/2024-2-9-running-go-web-apps-on-iis-with-httpplatformhandler %})
