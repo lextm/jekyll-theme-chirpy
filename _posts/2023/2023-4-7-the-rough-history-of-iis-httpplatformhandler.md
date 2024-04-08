@@ -58,9 +58,13 @@ There are a few noticeable things we can observe from ASP.NET Core module source
 
 > If you are interested in learning more about ASP.NET Core module, you might review its code base on GitHub under `dotnet/aspnetcore` repository. Methods like [`UseIISIntegration`](https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.hosting.webhostbuilderiisextensions.useiisintegration) or`UseIIS` are also important.
 
-## Conclusion
+So, HttpPlatformHandler is still fully supported by Microsoft, and its latest release v1.2 from 2015 supports all latest Windows releases. If you are hosting Python/Ruby/Go/Java/Node.js applications on IIS, give it a try and feel how simple it is to set up everything around it.
 
-HttpPlatformHandler is still fully supported by Microsoft, and has been upgraded to support all latest Windows releases. If you are hosting Python/Ruby/Go/Java/Node.js applications on IIS, give it a try and feel how simple it is to set up everything around it.
+## HttpPlatformHandler v2.0 by LeXtudio Inc.
+
+LeXtudio Inc. just released a new product, HttpPlatformHandler v2, which is a a drop-in replacement for Microsoft HttpPlatformHandler v1.2. You are welcome to give it a try.
+
+This post talks about why we build it and how we build it. You can find more details in [this post]({% post_url 2024/2024-4-8-httpplatformhandler-v2 %}).
 
 ## Side Notes
 
@@ -69,15 +73,6 @@ HttpPlatformHandler is also enabled on Azure App Service (Windows) by default, s
 
 ### HttpPlatformHandler on IIS Express
 I also created the necessary PowerShell scripts to help you enable HttpPlatformHandler on IIS Express if you want to give it a try. You can find them on [my GitHub repository](https://github.com/lextm/iisexpress-httpplatformhandler).
-
-### HttpPlatformHandler v2.0 by LeXtudio Inc.
-As Microsoft didn't publish any new release after v1.2 and more issues related to this old release were reported by users, there is a need to give the user community something new. Our team at LeXtudio Inc. are experienced .NET developers with extensive IIS knowledge so we decided to give this a try.
-
-We chose to fork and build up ASP.NET Core module, which was initially a fork of HttpPlatformHandler itself, now is both open-source and well maintained by Microsoft ASP.NET Core team. By renaming many things through the code base, we are able to derive a slim module that just works for any programming languages/application servers. And most importantly we keep this new module backward compatible with HttpPlatformHandler v1.2. That's why we simply call it HttpPlatformHandler v2.
-
-The changes we make are released under MIT, and you can check out the source code and installers on [our GitHub repository](https://github.com/lextudio/httpplatformhandlerv2/releases).
-
-> HttpPlatformHandler v2.0 is derived from ASP.NET Core v8.0.3, and we are planning to keep it up-to-date with the latest ASP.NET Core releases.
 
 ## References
 
