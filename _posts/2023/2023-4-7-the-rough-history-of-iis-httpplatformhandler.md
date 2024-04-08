@@ -64,9 +64,20 @@ HttpPlatformHandler is still fully supported by Microsoft, and has been upgraded
 
 ## Side Notes
 
+### HttpPlatformHandler on Azure App Service
 HttpPlatformHandler is also enabled on Azure App Service (Windows) by default, so if you have tested your web apps on your own IIS server, you can confidently host them on Azure App Service without many changes on configuration.
 
+### HttpPlatformHandler on IIS Express
 I also created the necessary PowerShell scripts to help you enable HttpPlatformHandler on IIS Express if you want to give it a try. You can find them on [my GitHub repository](https://github.com/lextm/iisexpress-httpplatformhandler).
+
+### HttpPlatformHandler v2.0 by LeXtudio Inc.
+As Microsoft didn't publish any new release after v1.2 and more issues related to this old release were reported by users, there is a need to give the user community something new. Our team at LeXtudio Inc. are experienced .NET developers with extensive IIS knowledge so we decided to give this a try.
+
+We chose to fork and build up ASP.NET Core module, which was initially a fork of HttpPlatformHandler itself, now is both open-source and well maintained by Microsoft ASP.NET Core team. By renaming many things through the code base, we are able to derive a slim module that just works for any programming languages/application servers. And most importantly we keep this new module backward compatible with HttpPlatformHandler v1.2. That's why we simply call it HttpPlatformHandler v2.
+
+The changes we make are released under MIT, and you can check out the source code and installers on [our GitHub repository](https://github.com/lextudio/httpplatformhandlerv2/releases).
+
+> HttpPlatformHandler v2.0 is derived from ASP.NET Core v8.0.3, and we are planning to keep it up-to-date with the latest ASP.NET Core releases.
 
 ## References
 
@@ -87,3 +98,4 @@ I also created the necessary PowerShell scripts to help you enable HttpPlatformH
 - [Nest Example by me]({% post_url 2024/2024-4-5-running-nest-web-apps-on-iis-with-httpplatformhandler %})
 - [Ruby Example by Scott Hanselman](https://www.hanselman.com/blog/announcing-running-ruby-on-rails-on-iis8-or-anything-else-really-with-the-new-httpplatformhandler)
 - [Go Example by me]({% post_url 2024/2024-2-9-running-go-web-apps-on-iis-with-httpplatformhandler %})
+- [HttpPlaformHandler v2 by LeXtudio](https://github.com/lextudio/httpplatformhandlerv2)
