@@ -14,6 +14,13 @@ It becomes very important for Python developers to learn HttpPlatformHandler, be
 
 <!--more-->
 
+## Prerequisites
+
+To follow this post, you need to have the following software installed,
+
+* Windows 10 or Windows Server 2016 or later (IIS 10 or later)
+* HttpPlatformHandler v1.2 (from Microsoft) or [v2.0 (from LeXtudio)]({% post_url 2024/2024-4-8-httpplatformhandler-v2 %})
+
 ## Basic Django Setup
 
 No doubt we will start from a sample application as below.
