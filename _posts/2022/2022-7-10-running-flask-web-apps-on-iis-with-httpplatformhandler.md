@@ -139,6 +139,15 @@ With all the help from waitress, I can modify `web.config` as below as final ver
 
 ## Side Notes
 
+### Flask Web App Under an IIS Site
+With HttpPlatformHandler you can definitely host a Flask web app (such as `/flask`) under an IIS site, but you must understand that IIS/HttpPlatformHandler dispatches requests with full URLs to the Python process, so your route definitions in Flask should include the extra application name.
+
+``` python
+@app.route("/flask")
+def hello_world_app():
+    return "<p>Hello, World from /flask IIS application!</p>"
+```
+
 ### Flask on Azure App Service
 With some minimal changes, you can host such a Python/Flask application on Azure App Service (Windows).
 
