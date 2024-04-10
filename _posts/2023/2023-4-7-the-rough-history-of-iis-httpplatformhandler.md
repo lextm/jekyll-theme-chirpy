@@ -62,7 +62,7 @@ So, HttpPlatformHandler is still fully supported by Microsoft, and its latest re
 
 ## HttpPlatformHandler v2.0 by LeXtudio Inc.
 
-LeXtudio Inc. just released a new product, HttpPlatformHandler v2, which is a a drop-in replacement for Microsoft HttpPlatformHandler v1.2. You are welcome to give it a try.
+LeXtudio Inc. just released a new product, HttpPlatformHandler v2, which is a a drop-in replacement for Microsoft HttpPlatformHandler v1.2 but offer more features and bugfixes. You are welcome to give it a try.
 
 This post talks about why we build it and how we build it. You can find more details in [this post]({% post_url 2024/2024-4-8-httpplatformhandler-v2 %}).
 
@@ -72,7 +72,10 @@ This post talks about why we build it and how we build it. You can find more det
 HttpPlatformHandler is also enabled on Azure App Service (Windows) by default, so if you have tested your web apps on your own IIS server, you can confidently host them on Azure App Service without many changes on configuration.
 
 ### HttpPlatformHandler on IIS Express
-I also created the necessary PowerShell scripts to help you enable HttpPlatformHandler on IIS Express if you want to give it a try. You can find them on [my GitHub repository](https://github.com/lextm/iisexpress-httpplatformhandler).
+
+This is for the first time covered by the [new open source HttpPlatformHandler v2.0 from LeXtudio]({% post_url 2024/2024-4-8-httpplatformhandler-v2 %}).
+
+I also created the necessary PowerShell scripts to help enable Microsoft HttpPlatformHandler v1.2 on IIS Express if you want to give it a try. You can find them on [my GitHub repository](https://github.com/lextm/iisexpress-httpplatformhandler).
 
 ## References
 
@@ -80,7 +83,7 @@ I also created the necessary PowerShell scripts to help you enable HttpPlatformH
 - [wfastCGI initial commit](https://github.com/microsoft/PTVS/commit/0b944a292442dcb7a5caaffb9e3cd7542bbf190f)
 - [iisnode initial commit](https://github.com/tjanczuk/iisnode/commit/2ad22f2dbc5d9721a58c006c5fb7aef18ae6b430)
 - [HttpPlatformHandler initial announcement](https://azure.microsoft.com/blog/announcing-the-release-of-the-httpplatformhandler-module-for-iis-8/)
-- [Download](https://www.iis.net/downloads/microsoft/httpplatformhandler#additionalDownloads)
+- [HttpPlaformHandler v2 by LeXtudio](https://github.com/lextudio/httpplatformhandlerv2/releases)
 - [Configuration Reference by Microsoft](https://learn.microsoft.com/iis/extensions/httpplatformhandler/httpplatformhandler-configuration-reference)
 - [Java Example by Microsoft](<https://learn.microsoft.com/previous-versions/azure/windows-server-azure-pack/mt125371(v=technet.10)>)
 - [Python Example by Microsoft](https://learn.microsoft.com/visualstudio/python/configure-web-apps-for-iis-windows?view=vs-2022#configure-the-httpplatform-handler)
@@ -93,4 +96,3 @@ I also created the necessary PowerShell scripts to help you enable HttpPlatformH
 - [Nest Example by me]({% post_url 2024/2024-4-5-running-nest-web-apps-on-iis-with-httpplatformhandler %})
 - [Ruby Example by Scott Hanselman](https://www.hanselman.com/blog/announcing-running-ruby-on-rails-on-iis8-or-anything-else-really-with-the-new-httpplatformhandler)
 - [Go Example by me]({% post_url 2024/2024-2-9-running-go-web-apps-on-iis-with-httpplatformhandler %})
-- [HttpPlaformHandler v2 by LeXtudio](https://github.com/lextudio/httpplatformhandlerv2)

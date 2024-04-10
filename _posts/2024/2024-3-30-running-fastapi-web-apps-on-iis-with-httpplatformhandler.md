@@ -82,7 +82,7 @@ Well if you hit any error instead of the JSON response, please refer to [my old 
 
 ## FastAPI on IIS Express
 
-I also created the necessary PowerShell scripts to help you enable HttpPlatformHandler on IIS Express if you want to give it a try. You can find them on [my GitHub repository](https://github.com/lextm/iisexpress-httpplatformhandler).
+You can take a look at the [new open source HttpPlatformHandler v2.0 from LeXtudio]({% post_url 2024/2024-4-8-httpplatformhandler-v2 %}).
 
 ## Other Languages on IIS?
 
