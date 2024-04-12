@@ -1,8 +1,9 @@
 ---
 layout: post
 title: The Story About .NET Cross Platform UI Frameworks
-description: This post tries to summarize the pros and cons of all .NET cross platform UI frameworks.
+description: This post provides an in-depth analysis of various .NET cross-platform UI frameworks, highlighting their advantages and disadvantages, to help developers make informed decisions when choosing a framework for their projects.
 tags: Visual-Studio .NET
+categories: [History, .NET]
 permalink: /the-story-about-net-cross-platform-ui-frameworks-dd4a9433d0ea
 excerpt_separator: <!--more-->
 ---
