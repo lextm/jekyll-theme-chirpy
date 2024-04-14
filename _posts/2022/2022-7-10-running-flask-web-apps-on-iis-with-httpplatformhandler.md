@@ -166,7 +166,7 @@ You might easily hit issues with WebSocket and Socket.IO if you try to host a Py
 
 * [Python WebSocket package requires compression to be disabled](https://github.com/python-websockets/websockets/issues/1192)
 * [Python WebSocket debugging](https://websockets.readthedocs.io/en/stable/howto/cheatsheet.html#debugging)
-* [Flask-SocketIO doesn't work well with IIS](https://stackoverflow.com/questions/77771538/flask-socketio-gevent-or-eventlet-windows-iis-do-these-things-work-tog)
+* [Flask Socket.IO doesn't work well with IIS](https://stackoverflow.com/questions/77771538/flask-socketio-gevent-or-eventlet-windows-iis-do-these-things-work-tog)
 
 ## Other Languages on IIS?
 

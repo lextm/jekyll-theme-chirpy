@@ -10,7 +10,7 @@ LeXtudio Inc. just released a new product, HttpPlatformHandler v2, which is a ne
 <!--more-->
 
 ## Why HttpPlatformHandler v2?
-From various sources we can confirm that HttpPlatformHandler v1.2 was released in Jan 2015 ([here](https://www.iis.net/downloads/microsoft/category/host-applications#:~:text=HttpPlatformHandler%20v1.2%20Published,on%2001%2F15%2F2015%20by%20Microsoft) the day is showed as Jan 15, 2015). While this is a great module to bridge IIS and other application servers (Java/Python/Node.js/Go and etc), its design limitations started to show after a few years as the web has been constantly evolving. For example, this module has a 8-KB output cache that we cannot disable, which prevents modern web features like SSE (Server-Sent Events) from working properly and can affect any SocketIO implementation.
+From various sources we can confirm that HttpPlatformHandler v1.2 was released in Jan 2015 ([here](https://www.iis.net/downloads/microsoft/category/host-applications#:~:text=HttpPlatformHandler%20v1.2%20Published,on%2001%2F15%2F2015%20by%20Microsoft) the day is showed as Jan 15, 2015). While this is a great module to bridge IIS and other application servers (Java/Python/Node.js/Go and etc), its design limitations started to show after a few years as the web has been constantly evolving. For example, this module has a 8-KB output cache that we cannot disable, which prevents modern web features like SSE (Server-Sent Events) from working properly and can affect any Socket.IO implementation.
 
 > There are other issues such as [this one](https://learn.microsoft.com/en-us/answers/questions/827779/iis-duplicate-http-platform-port)
 
@@ -40,7 +40,7 @@ To recap, this v2 module from us provides the following benefits,
 ## How to Get HttpPlatformHandler v2?
 The changes we make are released under MIT, and you can check out the source code and installers on [our GitHub repository](https://github.com/lextudio/httpplatformhandlerv2/releases).
 
-The current release is marked as v2.0 RC1, as we are still testing it in various scenarios. But the module is already able to handle all the test cases my team have at hand, so we believe it's time that you try it out.
+The current release is marked as v2.0 RC2, as we are still testing it in various scenarios. But the module is already able to handle all the test cases my team have at hand, so we believe it's time that you try it out.
 
 You are welcome to report any issues you find on [GitHub](https://github.com/lextudio/httpplatformhandlerv2/issues).
 
