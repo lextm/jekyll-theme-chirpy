@@ -10,6 +10,9 @@ LeXtudio Inc. just released a new product, HttpPlatformHandler v2, which is a ne
 <!--more-->
 
 ## Why HttpPlatformHandler v2?
+
+> The history of HttpPlatformHandler can be found in [this post]({% post_url 2023/2023-4-7-the-rough-history-of-iis-httpplatformhandler %}).
+
 From various sources we can confirm that HttpPlatformHandler v1.2 was released in Jan 2015 ([here](https://www.iis.net/downloads/microsoft/category/host-applications#:~:text=HttpPlatformHandler%20v1.2%20Published,on%2001%2F15%2F2015%20by%20Microsoft) the day is showed as Jan 15, 2015). While this is a great module to bridge IIS and other application servers (Java/Python/Node.js/Go and etc), its design limitations started to show after a few years as the web has been constantly evolving. For example, this module has a 8-KB output cache that we cannot disable, which prevents modern web features like SSE (Server-Sent Events) from working properly and can affect any Socket.IO implementation.
 
 > There are other issues such as [this one](https://learn.microsoft.com/en-us/answers/questions/827779/iis-duplicate-http-platform-port)

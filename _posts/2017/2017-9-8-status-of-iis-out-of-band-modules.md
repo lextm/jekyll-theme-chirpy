@@ -16,9 +16,9 @@ Only a selected set has been upgraded,
 
 * ARR 3.0
 * URL Rewrite 2.0
-* HttpPlatformHandler 1.0
+* HttpPlatformHandler 1.0 (you can learn more from about it from [this post]({% post_url 2023/2023-4-7-the-rough-history-of-iis-httpplatformhandler %}))
 * IIS CORS 1.0
-* ASP.NET Core (1.x/2.x, part of .NET Core) 
+* ASP.NET Core (1.x/2.x, part of .NET Core)
 
 ## Other Modules
 So you might wonder what happens to other modules. Simply speaking, they are deprecated for IIS 10 and above, and you cannot use them. However, they remain fully supported on IIS 7.x and 8.x.
