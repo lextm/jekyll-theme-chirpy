@@ -22,7 +22,7 @@ To follow this post, you need to have the following software installed,
 At the beginning, we will start by installing Go on this machine,
 
 ``` bash
-$ winget install GoLang.Go
+winget install GoLang.Go
 ```
 
 After that we will start to make a sample application,
@@ -41,17 +41,17 @@ Next, create a file `server.go` with the following content,
 package main
 
 import (
-	"net/http"
-	
-	"github.com/labstack/echo/v4"
+  "net/http"
+
+  "github.com/labstack/echo/v4"
 )
 
 func main() {
-	e := echo.New()
-	e.GET("/", func(c echo.Context) error {
-		return c.String(http.StatusOK, "Hello, World!")
-	})
-	e.Logger.Fatal(e.Start(":1323"))
+  e := echo.New()
+  e.GET("/", func(c echo.Context) error {
+    return c.String(http.StatusOK, "Hello, World!")
+  })
+  e.Logger.Fatal(e.Start(":1323"))
 }
 ```
 
@@ -79,28 +79,28 @@ To make this Go web app works with IIS, we need to modify the code a bit to read
 package main
 
 import (
-	"flag"
-	"net/http"
-	
-	"github.com/labstack/echo/v4"
+  "flag"
+  "net/http"
+  
+  "github.com/labstack/echo/v4"
 )
 
 func main() {
-	port := flag.String("port", "1323", "port to listen on")
-	flag.Parse()
+  port := flag.String("port", "1323", "port to listen on")
+  flag.Parse()
 
-	e := echo.New()
-	e.GET("/", func(c echo.Context) error {
-		return c.String(http.StatusOK, "Hello, World!")
-	})
-	e.Logger.Fatal(e.Start(":" + *port))
+  e := echo.New()
+  e.GET("/", func(c echo.Context) error {
+    return c.String(http.StatusOK, "Hello, World!")
+  })
+  e.Logger.Fatal(e.Start(":" + *port))
 }
 ```
 
 Compile the code to an executable file,
 
 ``` bash
-$ go build server.go
+go build server.go
 ```
 
 After compilation, a file `server.exe` is created in the directory.
@@ -127,6 +127,7 @@ With all settings in place, I can go back to IIS Manager and create a site (I ch
 ## Troubleshooting
 
 ### 0x8007005
+
 Yeah I am not able to see "Hello, World!" but a Bad Gateway error page with the Error Code of `0x80070005`.
 
 ``` text
@@ -153,11 +154,13 @@ Yeah I am not able to see "Hello, World!" but a Bad Gateway error page with the 
 This isn't hard to understand, because anything under `C:\test-go\` is protected and not accessible by IIS application pools by default. So I need to grant read permission to the local group `IIS_IUSRS`.
 
 ### 0x8007002
+
 After fixing the file system permission issue, another Bad Gateway error page with the Error Code of `0x80070002` appears.
 
 The cause is actually simple, that Windows/IIS tries to resolve `server.exe` from the system path, but it is not there. So I need to modify `web.config` to use the full path or simply `.\server.exe` to make it work.
 
 ## Side Notes
+
 So, at this very moment, the `web.config` should look like this,
 
 ``` xml

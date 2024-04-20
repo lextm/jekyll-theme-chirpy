@@ -26,10 +26,10 @@ To follow this post, you need to have the following software installed,
 First, use `create-next-app` to create a new Next.js project,
 
 ``` bash
-$ cd C:\
-$ mkdir test-nextjs
-$ cd test-nextjs
-$ npx create-next-app@latest
+cd C:\
+mkdir test-nextjs
+cd test-nextjs
+npx create-next-app@latest
 ```
 
 If you choose every option by default, you get a simple Next.js web app in `my-app` folder.
@@ -84,7 +84,6 @@ If you encounter any issues, you can check the troubleshooting tips I wrote in [
 
 ## Side Notes
 
-### Deployment Artifacts
 You must run `npm run build` (wrapper over `next build`) to generate the artifacts before deploying to IIS. Besides, you can delete source files and only leave `.next`, `node_modules` and `web.config` in the deployment folder.
 
 > It is possible to delete more bits from `node_modules` to reduce the deployment size, but that's another topic.
@@ -105,6 +104,7 @@ const nextConfig = {
 
 export default nextConfig;
 ```
+
 where `AppWithNode1` is the name of the IIS application.
 
 ### Next.js on IIS Express

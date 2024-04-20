@@ -15,6 +15,7 @@ So I was planning to take a look once I finally arrived but VS Code 1.9.1 releas
 Luckily I had some reliable guy in the VS Code team itself, who kindly informed me the culprit is [a change they made in 1.9.0](https://github.com/Microsoft/vscode/issues/20229) (reverted in 1.9.1), where broken HTML pages won't be loaded into VS Code views.
 
 Thus, can you imagine that Sphinx generates broken HTML pages? Of course not. Let's see one example below,
+
 ``` html
 <!DOCTYPE html>
 <!-- [if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif] -->

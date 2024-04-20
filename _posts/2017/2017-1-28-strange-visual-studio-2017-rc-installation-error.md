@@ -7,7 +7,7 @@ permalink: /strange-visual-studio-2017-rc-installation-error-acdce0000c34
 excerpt_separator: <!--more-->
 ---
 
-I met the below issue,
+I met the issue below,
 <!--more-->
 ``` text
 The product failed to install the listed workloads and components due to one or more package failures.

@@ -28,10 +28,10 @@ To follow this post, you need to have the following software installed,
 First, use `nest new` to create a new Next project,
 
 ``` bash
-$ cd C:\
-$ mkdir test-nest
-$ npm i -g @nestjs/cli
-$ nest new project-name
+cd C:\
+mkdir test-nest
+npm i -g @nestjs/cli
+nest new project-name
 ```
 
 If you choose every option by default, you get a simple Nest web app in `project-name` folder.
@@ -113,6 +113,7 @@ If you encounter any issues, you can check the troubleshooting tips I wrote in [
 ## Side Notes
 
 ### Deployment Artifacts
+
 You must run `npm run build` (wrapper over `nest build`) to generate the artifacts before deploying to IIS. Besides, you can delete source files and only leave `dist`, `node_modules` and `web.config` in the deployment folder.
 
 ### Nest on IIS Express

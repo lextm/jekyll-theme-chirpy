@@ -22,5 +22,5 @@ So if you hit any issue with PHP, your very first task is to identify which proc
 * But if you do hit issues caused by `w3wp.exe` and `iisfcgi.dll`, you can contact [Microsoft support](https://support.microsoft.com).
 
 > Update: July 10, 2020. [Microsoft plans](https://news-web.php.net/php.internals/110907) to stop supporting PHP on Windows.
-
+>
 > Update: Oct 20, 2023. Since PHP 7.x all reached end of life, PHP on Windows/IIS is no longer supported by Microsoft (I think even if you hit issues with Microsoft components). You should switch to Linux hosting as soon as you can. For example, now if you host an PHP 8.x web app on Microsoft Azure, the underlying OS is Linux.

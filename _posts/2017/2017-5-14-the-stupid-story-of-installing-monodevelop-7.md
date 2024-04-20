@@ -25,6 +25,7 @@ Then another error happened
 > error: runtime/org.freedesktop.Platform/x86_64/1.4 not installed
 
 So that I had to ask Google again and found this fix,
+
 ``` bash
 flatpak install gnome org.freedesktop.Platform/x86_64/1.4
 ```

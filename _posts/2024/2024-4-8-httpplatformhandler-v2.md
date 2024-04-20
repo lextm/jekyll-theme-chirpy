@@ -41,6 +41,7 @@ To recap, this v2 module from us provides the following benefits,
 * Open-source. You can check out the source code and build it yourself.
 
 ## How to Get HttpPlatformHandler v2?
+
 The changes we make are released under MIT, and you can check out the source code and installers on [our GitHub repository](https://github.com/lextudio/httpplatformhandlerv2/releases).
 
 The current release is marked as v2.0 RC2, as we are still testing it in various scenarios. But the module is already able to handle all the test cases my team have at hand, so we believe it's time that you try it out.

@@ -26,8 +26,8 @@ To follow this post, you need to have the following software installed,
 No doubt we will start from a sample application as below.
 
 ``` batch
-$ cd C:\test-django
-$ C:\Users\lextudio\AppData\Local\Programs\Python\Python310\python.exe -m django startproject mysite
+cd C:\test-django
+C:\Users\lextudio\AppData\Local\Programs\Python\Python310\python.exe -m django startproject mysite
 ```
 
 This generates a Django project in `C:\test-django\mysite`, and now we can use a simple command `python.exe manage.py runserver` in the directory of `C:\test-django\mysite` can launch the application at port 8000,
@@ -93,7 +93,7 @@ MEDIA_ROOT = BASE_DIR / 'media'
 Then, install Uvicorn and WhiteNoise.
 
 ``` batch
-$ python.exe -m pip install uvicorn whitenoise
+python.exe -m pip install uvicorn whitenoise
 ```
 
 Finally, enable WhiteNoise in `settings.py`,
@@ -113,7 +113,7 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 One extra step needed here is to move all static files to a central folder,
 
 ``` batch
-$ python.exe manage.py collectstatic
+python.exe manage.py collectstatic
 ```
 
 > This is not only applicable to WhiteNoise, but also to other static file serving mechanisms. But you must do this step after enabling WhiteNoise in `settings.py`, as the generated files are different with and without WhiteNoise.

@@ -28,7 +28,7 @@ While our hope was that this simple change would fix the issue, it turned out th
 To dive deeper into the issue, we started by building a test environment with HA OS VM (2024.3.1 release) on VirtualBox/macOS on Mar 14 on which we quickly identified the WALK v2 bug and fixed in PySNMP 6.0.11.
 
 > As a sidenote, we didn't expect anyone to perform GET NEXT based WALK operations in SNMP v2c/v3, as GET BULK based WALK is more efficient, but it turned out that HA was doing that. A few unit test cases were missed in this field, but not anymore.
-
+>
 > Also note that HA OS is more end user centric, so later we have to switch to another environment setup.
 
 That's how we opened [a new issue for tracking](https://github.com/home-assistant/core/issues/113457) and [the pull request](https://github.com/home-assistant/core/pull/113463) was accepted.
@@ -43,9 +43,7 @@ The problem was very strange that the first round of WALK seemed to work fine, b
 
 ## Sudden Resolution
 
-Before we spent time investigating further the root cause of this issue, we already knew that @nmaggioni was helping to port device tracker to asyncio,
-
-https://github.com/home-assistant/core/pull/112815
+Before we spent time investigating further the root cause of this issue, we already knew that [@nmaggioni was helping to port device tracker to asyncio](https://github.com/home-assistant/core/pull/112815).
 
 Thus, we took a shortcut to cherry pick his changes to our fork and found that the device tracker feature started to work again.
 
