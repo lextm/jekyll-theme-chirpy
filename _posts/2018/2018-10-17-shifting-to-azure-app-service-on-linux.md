@@ -10,9 +10,9 @@ image:
   alt: Copyright © Lex Li. Autumn tree near Costco, Montreal.
 ---
 
-Microsoft Azure was built upon Windows and IIS in its early days, which is not surprising. At that time, IIS 7 was shipped with PHP support, and had the capabilities to enable ASP.NET/PHP apps. Later [Microsoft added HttpPlatformHandler](https://azure.microsoft.com/en-ca/blog/announcing-the-release-of-the-httpplatformhandler-module-for-iis-8/) in 2015, which enabled other languages (Java, Node.JS, Go, Ruby, and Python) on IIS and Windows.
+Microsoft Azure was built upon Windows and IIS in its early days, which is not surprising. At that time, IIS 7 was shipped with PHP support, and had the capabilities to enable ASP.NET/PHP apps. Later [Microsoft added HttpPlatformHandler](https://azure.microsoft.com/blog/announcing-the-release-of-the-httpplatformhandler-module-for-iis-8/) in 2015, which enabled other languages (Java, Node.JS, Go, Ruby, and Python) on IIS and Windows.
 
-All look good, but we do know Windows is not equivalent to Linux, and Microsoft released [Azure App Service on Linux](https://azure.microsoft.com/en-ca/blog/general-availability-of-app-service-on-linux-and-web-app-for-containers/) last year.
+All look good, but we do know Windows is not equivalent to Linux, and Microsoft released [Azure App Service on Linux](https://azure.microsoft.com/blog/general-availability-of-app-service-on-linux-and-web-app-for-containers/) last year.
 
 So naturally, if you are hosting web apps on Azure, especially PHP/Python/Ruby users, you have both Windows and Linux backends to choose from.
 <!--more-->

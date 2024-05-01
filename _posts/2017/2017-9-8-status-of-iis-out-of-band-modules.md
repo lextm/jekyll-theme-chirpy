@@ -52,10 +52,12 @@ Then how to address the need of such modules if you really cannot get rid of the
 
 ## Extra Note on Windows ARM64
 
-If you are running IIS on Windows ARM64, you might find that some modules are crashing your application pools as long as the worker processes are configured to launch as ARM64. This is because Microsoft has not released ARM64 builds of the modules. You can either wait for Microsoft to release updated installers, or find alternative solutions,
+| Module | Comments            |
+|--------|---------------------|
+| ARR | You can only use it with x86/x64 application pools. ARM64 application pools will crash. |
+| CORS module | You can only use it with x86/x64 application pools. ARM64 application pools will crash. |
+| URL Rewrite module | * Microsoft installer: You can only use it with x86/x64 application pools. ARM64 application pools will crash. <br>* Possible to resolve this by extracting the right bits from IIS Express ARM64 but no one did that. |
+| HttpPlatformHandler | * Microsoft installer: You can only use it with x86/x64 application pools. ARM64 application pools will crash. <br>* Open source HttpPlatformHandler v2: Refer to [this post]({% post_url 2024/2024-4-8-httpplatformhandler-v2 %}) to install the this. |
+| ASP.NET Core module | * Microsoft installer: You can only use it with ARM64 application pools. x86/x64 application pools will crash. <br>* LeXtudio patch: Refer to [this post]({% post_url 2023/2023-3-31-successful-and-failed-attempt-my-first-pull-request-for-asp-net-core %}) to patch ASP.NET Core module on Windows ARM64 |
 
-* Force the application pools to run as x86 or x64. Due to emulation, the performance might not be as good as native ARM64, but at least your application pools won't crash.
-* For HttpPlatformHandler, you might refer to [this post]({% post_url 2024/2024-4-8-httpplatformhandler-v2 %}) to install the open source HttpPlatformHandler v2.
-* For ASP.NET Core module, you might refer to [this post]({% post_url 2023/2023-3-31-successful-and-failed-attempt-my-first-pull-request-for-asp-net-core %}) to patch ASP.NET Core module for ARM64.
-
-More would be added here if I find out. You can also leave a comment with your suggestion.
+More would be added here if I find out. You can also leave a comment with your questions or suggestions.
