@@ -14,7 +14,7 @@ Seems to be a good time to recap on how many public sessions/programs I worked o
 
 Hosted on Dec 12 as part of the JiaoDong Developer Conference.
 
-The contents can be found on [my blog]({% post_url blog/jexus-%E7%BD%91%E7%AB%99%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%92%8C-asp-net-%E8%B7%A8%E5%B9%B3%E5%8F%B0%E5%BC%80%E5%8F%91-e4cac4316352 %}).
+The contents can be found on [my blog]({% post_url 2015/2015-12-26-jexus-web-server-and-asp-net-cross-platform %}).
 
 The slides can be found on [GitHub](https://github.com/lextm/slides/raw/master/JexusManager%20cn.pptx).
 
@@ -25,6 +25,7 @@ The slides can be found on [GitHub](https://github.com/lextm/slides/raw/master/J
 Hosted on Mar 12, as part of Microsoft GCR MVP Meetup.
 
 ### .NET FM
+
 Started this Mandarin podcast with Peng Lyu on Mar 22. This program lasted about three years.
 
 The episodes can be found at [.NET FM Homepage](https://podcast.dotnet.fm).
@@ -41,7 +42,7 @@ Home rehearsal recording can be found on [Dropbox](https://www.dropbox.com/s/oll
 
 Hosted on Sep 13 by Montreal Mobile .NET Developers.
 
-#### Abstract:
+#### Abstract
 
 Open sourcing .NET Core and acquisition of Xamarin are the latest milestones Microsoft has reached in the past few years for .NET/Mono/Xamarin communities to celebrate. Ever since Microsoft debut .NET platform in June 2000, this ecosystem has been evolving rapidly and empowering more categories of applications than its original ambition. This session offers an overview that covers the history of .NET Framework and its Mono/Xamarin siblings, and also attempts to give some prediction on the future.
 
@@ -75,7 +76,7 @@ Hosted on Aug 20 by Microsoft Reactor Toronto.
 
 Visual Studio Code has become the most popular tool to write code in recent years. It supports most mainstream languages, and that list keeps expanding. In this course, you'll learn what is a language server. Next, you'll see what capabilities can be implemented in the language server to enrich end user experience. Finally, you'll learn how to build your own language extension with such a language server, and publish it to the marketplace. When you finish this course, you will have a solid understanding of Language Server Protocol and its usage in Visual Studio Code, providing you the skill set to extend your favorite text editor with new languages.
 
-#### Agenda:
+#### Agenda
 
 * Introduction: 1min
 * What is A Language Server and Why You Need It: 5min
@@ -96,6 +97,7 @@ The recording can be found on [YouTube](https://www.youtube.com/watch?v=H0p7tcUu
 The slides can be found on [GitHub](https://github.com/lextm/slides/blob/master/write-your-own-language-server.pdf)
 
 ### AzureShow 第八期
+
 Aired on Dec 4.
 
 Invited by Kinfey Lo to participate in a vlog session with Suwei Gui. We talked about .NET 5 which was just released by then.
@@ -119,14 +121,17 @@ A round table session hosted on Clubhouse on Feb 14, hosted by me, Kinfey Lo, an
 ## 2022
 
 ### Extending VSCode: How to Build Your First Extensions
+
 Hosted by Microsoft Reactor on May 3.
 
 A hands-on session on how to write VSCode extensions. Will demonstrate how to write new themes and extensions with more functionalities.
 
-#### Who is it aimed at? 
+#### Who is it aimed at?
+
 Anyone that uses VSCode today as code editor and would like to extend its look-and-feel and functionalities.
 
-#### Why Should I attend? 
+#### Why Should I attend?
+
 VSCode has become more and more popular each day and many extensions boost developer productivities. In fact, it's even more easier than ever to extend VSCode by writing your own extensions to fit your personal flavors.
 
 Recording can be found on [YouTube](https://www.youtube.com/watch?v=hE4F3LNxu4o&t=1s).
@@ -138,14 +143,17 @@ Part of [Global Azure Bootcamp 2022 Greater Toronto Area Edition](https://www.me
 The sample project can be found on [GitHub](https://github.com/lextm/azurebootcamp).
 
 ### Extending VSCode: Build Documentation with Python Sphinx
+
 Hosted by Microsoft Reactor on May 10.
 
 A hands-on session to illustrate the rich ecosystem around Python Sphinx tools and how to build up any kind of documentation for your projects. 
 
-#### Who is it aimed at? 
+#### Who is it aimed at?
+
 Anyone (developer/engineer or any other role) that needs to write/maintain documentation (requirements/design/support). 
 
-#### Why should I attend? 
+#### Why should I attend?
+
 Python sphinx has grown to be a large ecosystem that enables different types of documentation authoring, and a rich set of VSCode extensions are out there to further simplify the typical workflows around documentation. This session will use demos to illustrate the ease to utilize the toolset.
 
 Recording can be found on [YouTube](https://www.youtube.com/watch?v=v2nLuDpigDA)
