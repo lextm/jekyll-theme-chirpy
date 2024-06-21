@@ -82,9 +82,9 @@ HttpPlatformHandler is also enabled on Azure App Service (Windows) by default, s
 
 ### HttpPlatformHandler on IIS Express
 
-This is for the first time covered by the [new open source HttpPlatformHandler v2.0 from LeXtudio]({% post_url 2024/2024-4-8-httpplatformhandler-v2 %}).
+This special requirement is now for the first time covered by the [new open source HttpPlatformHandler v2.0 from LeXtudio]({% post_url 2024/2024-4-8-httpplatformhandler-v2 %}).
 
-I also created the necessary PowerShell scripts to help enable Microsoft HttpPlatformHandler v1.2 on IIS Express if you want to give it a try. You can find them on [my GitHub repository](https://github.com/lextm/iisexpress-httpplatformhandler).
+> If you do prefer Microsoft HttpPlatformHandler v1.2, I also created the necessary PowerShell scripts to help enable that on IIS Express. You can find them on [my GitHub repository](https://github.com/lextm/iisexpress-httpplatformhandler).
 
 ## References
 
