@@ -68,7 +68,7 @@ There are a few noticeable things we can observe from ASP.NET Core module source
 
 So, HttpPlatformHandler is still fully supported by Microsoft, and its latest release v1.2 from 2015 supports all latest Windows releases. If you are hosting Python/Ruby/Go/Java/Node.js applications on IIS, give it a try and feel how simple it is to set up everything around it.
 
-## HttpPlatformHandler v2.0 by LeXtudio Inc.
+## HttpPlatformHandler v2.0 by LeXtudio
 
 LeXtudio Inc. just released a new product, HttpPlatformHandler v2, which is a a drop-in replacement for Microsoft HttpPlatformHandler v1.2 but offer more features and bugfixes. You are welcome to give it a try.
 
