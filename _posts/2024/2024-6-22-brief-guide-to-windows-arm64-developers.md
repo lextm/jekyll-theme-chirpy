@@ -47,7 +47,8 @@ Since most of [IIS out-of-band modules from Microsoft]({% post_url 2017/2017-9-8
 The only exceptions right now are,
 
 * [HttpPlatformHandler v2 from LeXtudio Inc.]({% post_url 2024/2024-4-8-httpplatformhandler-v2 %})
-* ASP.NET Core Module
+* ASP.NET Core module.
+* URL Rewrite module, which has been ported to ARM64 as part of IIS Express. But you need extra steps to extract the bits from IIS Express and apply to IIS.
 
 ### ASP.NET Core Module for IIS
 
@@ -65,9 +66,13 @@ For IIS Express, you can launch the command line differently to enter each mode.
 | x64 | No obvious way |
 | ARM64 | `"%systemdrive%\Program Files\IIS Express\iisexpress.exe" /?` |
 
+> This explained why VS 2022 (like version 17.9.6) shows an error message "IIS EXPRESS on arm64 is only supported for ASP.NET Core applications targeting .NET 7.0 and newer", because it can only launch IIS Express in ARM64 and x86 modes.
+
 ### IIS Express Out-Of-Band Modules
 
-HttpPlatformHandler v2 is available for ARM64 devices, so you can use it with IIS Express.
+* HttpPlatformHandler v2 is available for ARM64 devices, so you can use it with IIS Express.
+* ASP.NET Core module ARM64 build is bundled, but x86/x64 builds are not.
+* URL Rewrite module is bundled.
 
 ### ASP.NET Core Module for IIS Express
 
